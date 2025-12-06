@@ -36,7 +36,7 @@ def _parse_str_list(x) -> List[str]:
 
 def make_prompt(mode: str):
     q_key = "question" if mode == "native" else "translated_question"
-    a_key = "answer"  if mode == "native" else "translated_answer"
+    a_key = "answers"  if mode == "native" else "translated_answer"
 
     def prompt_fn(line: dict, task_name: str = None):
         q = (line.get(q_key) or "").strip()

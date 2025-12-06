@@ -6,5 +6,5 @@ readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "lighteval>=0.13.0",
-    "litellm>=1.80.7",
+    "litellm[caching]>=1.80.7",
 ]
