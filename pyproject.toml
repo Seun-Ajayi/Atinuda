@@ -5,6 +5,8 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "dspy>=3.0.4",
     "lighteval>=0.13.0",
     "litellm[caching]>=1.80.7",
+    "pip>=25.3",
 ]

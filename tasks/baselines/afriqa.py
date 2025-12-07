@@ -1,4 +1,3 @@
-
 import ast
 from typing import List
 from lighteval.metrics.metrics import Metrics
@@ -12,6 +11,8 @@ litellm._turn_on_debug()
 afriqa_languages = [
     "yor" # "bem","fon","hau","ibo","kin","swa","twi","wol","yor","zul"
 ]
+
+PROMPT_PRETEXT = """Answer the question using the context provided."""
 
 def _parse_str_list(x) -> List[str]:
     """
@@ -35,23 +36,25 @@ def _parse_str_list(x) -> List[str]:
     return [str(x).strip()] if str(x).strip() else []
 
 def make_prompt(mode: str):
-    q_key = "question" if mode == "native" else "translated_question"
-    a_key = "answers"  if mode == "native" else "translated_answer"
+    q_key = "question_lang" if mode == "native" else "question_translated"
+    a_key = "answer_lang"  if mode == "native" else "translated_answer"
+    context_key = "context"
 
     def prompt_fn(line: dict, task_name: str = None):
-        q = (line.get(q_key) or "").strip()
-        golds_raw = line.get(a_key)
+        question = line.get(q_key, "").strip()
+        gold_answers = line.get(a_key)
+        context = line.get(context_key, "")
 
-        if not q or not golds_raw:
+        if not question or not gold_answers:
             return None
 
-        golds = _parse_str_list(golds_raw)
+        golds = _parse_str_list(gold_answers)
         if not golds:
             return None
 
         return Doc(
             task_name=task_name,
-            query=f"Answer in the same language as the question.\n\nQuestion: {q}\nAnswer: ",
+            query=f"{PROMPT_PRETEXT}\n\nContext: {context}\nQuestion: {question}\nAnswer: ",
             choices=golds,
             gold_index=list(range(len(golds))),
         )
@@ -62,7 +65,7 @@ TASKS_TABLE = [
     LightevalTaskConfig(
         name=f"afriqa:{lang}:{mode}",
         prompt_function=make_prompt(mode),
-        hf_repo="masakhane/afriqa",
+        hf_repo="masakhane/afriqa-gold-passages",
         hf_subset=lang,
         hf_avail_splits=["train", "validation", "test"],
         evaluation_splits=["test"],
@@ -70,7 +73,7 @@ TASKS_TABLE = [
         stop_sequence=["\n", "Question:", "question:"],
         metrics=[Metrics.exact_match, Metrics.f1_score],
         version=0,
-        num_samples=20,
+        effective_num_docs=5
     )
     for lang in afriqa_languages
     for mode in ["native"]
