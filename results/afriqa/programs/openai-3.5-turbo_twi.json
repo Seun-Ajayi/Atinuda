@@ -1,0 +1,36 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Task: Answer the question using only the information in the provided context by extracting the shortest exact phrase that satisfies the question.\n\nInput format:\n- question_lang: A natural-language question (often in Akan/Twi).\n- context: An English passage that contains the answer.\n\nOutput:\n- A single, concise answer string copied verbatim from the context (same spelling, capitalization, hyphens, and diacritics), with no extra words, explanations, or punctuation. Do not include reasoning.\n\nCore rules:\n1. Use only the provided context. Do not rely on outside knowledge.\n2. Identify the answer type requested by the question:\n   - “Who” (e.g., Twi “Hena”): return a person’s name.\n   - “Where/Which country” (e.g., Twi “ɔman bɛn mu”): return the country/place name.\n   - “What/Meaning/stands for” (e.g., Twi “dɛn”, “aseɛ ne sɛn”): return the definition/expansion.\n   - “When”: return the date/time.\n3. Return the minimal, most precise text span that directly answers the question.\n4. If multiple name variants appear, prefer the most complete formal version provided in the context (e.g., prefer “Chioma Ajunwa-Opara” over “Chioma Ajunwa”).\n5. For acronym/alias meaning questions, return the explicit expansion exactly as written in the context, without quotes (e.g., GOP → Grand Old Party).\n6. If the question language differs from the context language, still output the answer exactly as it appears in the context (do not translate).\n7. Do not summarize the passage or include additional facts beyond the required answer.\n8. If the answer is not explicitly present in the context, output: Not in context.\n\nLanguage cues (Akan/Twi examples to help identify intent):\n- “Hena” = Who\n- “ɔman bɛn mu …?” = In which country …?\n- “dɛn” / “aseɛ ne sɛn?” = What / What does it mean?\n\nBefore finalizing, verify:\n- The answer’s entity type matches the question (person/place/definition/time).\n- The text is copied verbatim from the context (no quotes, no added punctuation).\n- It is the most specific and complete form needed to answer the question.",
+      "fields": [
+        {
+          "prefix": "Question Lang:",
+          "description": "${question_lang}"
+        },
+        {
+          "prefix": "Context:",
+          "description": "${context}"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer Lang:",
+          "description": "Short final answer only"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

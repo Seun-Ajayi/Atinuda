@@ -1,0 +1,36 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Task: Answer the question using only facts from the provided English context, returning a minimal Yoruba answer.\n\nInput format:\n- question_lang: the question text (typically in Yoruba).\n- context: an English passage that contains the answer.\n\nOutput format:\n- Return only the final answer string in Yoruba (same language as the question).\n- No labels, no reasoning, no explanations, no punctuation. No extra words or spaces.\n- No leading/trailing spaces or newlines.\n\nCore rules:\n1) Source of truth:\n   - Use only facts explicitly stated or directly entailed by the context.\n   - If the context does not contain the answer, reply exactly: ko si ninu akoonu\n     • All lowercase, no extra characters or spaces.\n   - Never guess or use outside knowledge.\n\n2) Yes/No questions:\n   - Yoruba yes/no questions often start with “ṣe” or “Ṣe”.\n   - Answer with exactly one word:\n     • Yes → bẹẹni\n     • No → rara\n   - Only use bẹẹni/rara if the context supports a definite yes/no.\n   - If the context does not confirm either way, reply: ko si ninu akoonu\n\n3) Year questions:\n   - If the question starts with “Odun wo ni …” or “Ọdun wo ni …”, reply: Ọdun YYYY\n     • Use the dotted capital Ọ exactly: Ọdun 1947\n   - If the question uses “Ni ọdun wo …”, reply with the 4-digit year only: YYYY\n   - If the question asks a general “when” (e.g., “Nigbawo…”, “Igba wo ni…”):\n     • Return the most specific date stated in the context:\n       - If day–month–year is given: D Month YYYY (with Yoruba month name)\n       - If only month–year is given: Month YYYY\n       - If only year is given: Ọdun YYYY\n   - Match the question pattern strictly even if the context contains more detailed dates.\n\n4) Counts and numbers:\n   - For “mẹlo”, “melo”, “meloo”, “melooo” type questions: return digits only (Arabic numerals), no words or units. Example: 58\n   - Use digits for any numeric answer when the question asks “how many” or expects a count.\n\n5) Names, places, and phrasing:\n   - Preserve proper names exactly as in the context (e.g., “Herbert Stein”, “United Kingdom”, “Westminster Abbey”).\n   - Keep answers as short as possible; if a single proper name or place suffices, return only that.\n   - Use minimal Yoruba relational phrasing only if needed to form the direct answer (e.g., “apa guusu ti Westminster Abbey” when a relational location is explicitly required).\n\n6) Dates and Yoruba month names:\n   - When rendering months in Yoruba, use these names exactly (with diacritics):\n     • January → Sẹ́rẹ́\n     • February → Èrèlè\n     • March → Ẹrẹ̀nà\n     • April → Ìgbé\n     • May → Èbìbí\n     • June → Òkúdu\n     • July → Agẹmọ\n     • August → Ògún\n     • September → Owewe\n     • October → Ọ̀wàrà\n     • November → Bélú\n     • December → Ọpẹ́\n   - Day format: D Month YYYY (no ordinals, no commas). Example: 11 Ọpẹ́ 2021\n\n7) Minimality and precision:\n   - Return only the shortest phrase that directly answers the question.\n   - Do not restate the question or add qualifiers.\n   - Maintain correct casing; Yoruba generic words in lower case; proper names as in the context.\n   - Do not translate proper names; translate generic category words only if essential (e.g., “ipinlẹ Niger” for “Niger State”).\n\nQuality checks before answering:\n- Confirm the answer is explicitly in the context; otherwise output exactly: ko si ninu akoonu\n- For yes/no, ensure the polarity is supported by the context; otherwise: ko si ninu akoonu\n- For year questions, ensure the format matches the question’s pattern exactly:\n  • “Odun wo ni …” or “Ọdun wo ni …” → Ọdun YYYY\n  • “Ni ọdun wo …” → YYYY\n  • General “when” → most specific date (D Month YYYY > Month YYYY > Ọdun YYYY)\n- Verify Yoruba month mapping is correct (e.g., January = Sẹ́rẹ́, December = Ọpẹ́).\n- No punctuation, no extra words, no extra spaces.\n\nExamples (formatting only; do not include explanations in outputs):\n- Q: “Odun wo ni a bi Victor Malu?” with context “born on 15 January 1947 …”\n  → Output: Ọdun 1947\n- Q: “Nigbawo ni a bi Victor Malu?” with same context\n  → Output: 15 Sẹ́rẹ́ 1947\n- Q: “Tani baba to bi Benjamin Jeremy?” with context stating “Stein is the son of … Herbert Stein”\n  → Output: Herbert Stein\n- Q: “ṣe ijoba United Kingdom fowosi ikọsile?” with unrelated context\n  → Output: ko si ninu akoonu",
+      "fields": [
+        {
+          "prefix": "Question Lang:",
+          "description": "${question_lang}"
+        },
+        {
+          "prefix": "Context:",
+          "description": "${context}"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer Lang:",
+          "description": "Short final answer only"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

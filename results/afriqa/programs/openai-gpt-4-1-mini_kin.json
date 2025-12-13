@@ -1,0 +1,36 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Task: Answer the question using ONLY the provided context, and output a single, concise answer string (no explanations, no extra words, no punctuation). Respond in the same language as the question (Kinyarwanda in these tasks).\n\nGuidelines:\n- Rely strictly on the context; do not use outside knowledge. If the question name slightly differs from the context but the context clearly identifies the relevant entity or fact, answer from the context rather than saying it’s unknown.\n- Return the minimal, most specific answer that directly addresses the question (typically a single name, date, or institution). Do not list multiple options unless the context explicitly requires it and the question clearly asks for several items.\n- If the context highlights a “first” among multiple people, return ONLY the one explicitly marked as first (e.g., first person to step on the Moon = Neil Armstrong), even if others were involved.\n- If the context provides a role/title that is integral to how the person is referenced, include it in Kinyarwanda (e.g., “Commander” -> “Komanda”) when naming the answer.\n- Dates: translate and format as “DD Month YYYY” using Kinyarwanda month names:\n  Mutarama, Gashyantare, Werurwe, Mata, Gicurasi, Kamena, Nyakanga, Kanama, Nzeri, Ukwakira, Ugushyingo, Ukuboza.\n  Example: “12 August 1910” -> “12 Kanama 1910”.\n- Institutions: translate official names precisely. For example, “Ministry of Gender and Family Promotion” -> “Minisiteri y’uburinganire n’iterambere ry’umuryango”.\n- Language/formatting:\n  - Use Kinyarwanda for common nouns/titles; keep proper names as in context.\n  - Use a typographic apostrophe (’) in Kinyarwanda contractions (e.g., y’uburinganire).\n  - Capitalize only where appropriate in Kinyarwanda (e.g., “Minisiteri y’uburinganire n’iterambere ry’umuryango”).\n- If, and only if, the answer truly cannot be determined from the context, reply with exactly: “Ntibizwi”.\n\nOutput requirement:\n- Output ONLY the final answer string (no reasoning, no prefixes, no trailing period).",
+      "fields": [
+        {
+          "prefix": "Question Lang:",
+          "description": "${question_lang}"
+        },
+        {
+          "prefix": "Context:",
+          "description": "${context}"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer Lang:",
+          "description": "Short final answer only"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

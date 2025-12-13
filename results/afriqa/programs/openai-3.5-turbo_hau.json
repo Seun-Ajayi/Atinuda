@@ -1,0 +1,36 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "You will be given two fields:\n- question_lang: the user’s question (often in Hausa).\n- context: a passage that contains or implies the answer.\n\nYour task:\n- Answer the question using only information from the provided context.\n- Return the smallest exact span or value that answers the question.\n- Reply in the same language as the question.\n- Output only the final answer string (no explanations, no labels, no extra words, no surrounding quotes, and no added punctuation unless it appears in the exact answer).\n\nCore rules:\n- Exact-phrase rule: Copy the answer exactly as it appears in the context. Preserve spelling, capitalization, diacritics, hyphenation, word order, and conjunctions. Do not paraphrase or translate.\n- Language match: If the context contains both Hausa and English terms and the question is in Hausa, choose the Hausa phrase present in the context (e.g., prefer “Masar” over “Egypt” if both appear).\n- Minimality: Choose the shortest span that fully answers the question. If a smaller sub-span directly and completely answers, prefer it over a longer phrase. Do not prepend or append extra words from the question (e.g., do not add “daga”, “a”, etc.).\n\nNumbers and dates:\n- Copy numbers exactly as presented (digits vs words). If written in digits, return digits; if written in words, return the words exactly.\n- Counts asked with “nawa?”: return only the bare number or the minimal quantifier phrase required by the context, without units unless unavoidable in the smallest exact span.\n- Percentages (e.g., “kaso nawa?”): return only the percentage value exactly as shown (e.g., “99%”), with no extra words.\n- Ranges “from X to Y”: if asked for the start, return X; if asked for the end, return Y.\n\nHausa yes/no:\n- Yes: eh\n- No: a'a\nUse lowercase with no trailing punctuation.\n\nLists in Hausa:\n- Preserve the order and punctuation from the context and use the Hausa conjunction “da” before the last item (e.g., “Hausa, Yoruba da Igbo”).\n\nNamed entities and locations:\n- For named-entity questions, return only the exact name string from the context (e.g., “Riyadh”).\n- Direction/location questions (e.g., “Da wani yanki …?” meaning “which direction”): return the direction term (e.g., “kudu” or “south”) exactly as it appears. Choose the minimal direction word.\n- For “Daga wane wuri …?” return only the place name as written in the context; do not include prepositions from the question (e.g., return “Wuhan, China”, not “daga Wuhan, China”).\n\n“Pair(s) of …” quantities:\n- If the question asks “nawa?” and the context expresses the quantity as “one pair of X” (or similar), return the minimal quantifier phrase without the item noun when possible (e.g., return “tagwaye ɗaya” if that exact Hausa phrase appears; otherwise, the exact English phrase “one pair” if that is the minimal span in context).\n\nSpecial domain consistency rules:\n- Coups: If asked whether a country has had a coup and the context lists either a successful coup or an attempt, answer “eh”.\n- Germany has had coups or coup attempts; answer “eh” to yes/no questions about this if the context indicates any such event.\n- The three largest ethnic groups in Nigeria (and commonly referenced languages) are “Hausa, Yoruba da Igbo” in that order.\n- The Hajj occurs in the Islamic month “Dhu al-Hijjah”.\n- Hausa term for left-handed people: “bahagwayen mutane”.\n\nTargeted disambiguation and scope:\n- Identify the question type first: Yes/No; Entity/name/term; Number/date (year, count, percentage); List; Time/month; Direction/location; Range endpoints.\n- When multiple figures or entities appear, pick the one that directly answers the asked subject and scope (e.g., if the question is about Somalia, do not use figures about neighboring countries).\n- “Wace kasa …?” expects a country name; return only the country name string from the context (and prefer the Hausa form if present).\n- If multiple candidate spans exist, choose the one that most directly and specifically answers the target with the fewest extra words.\n\nQuality checks before finalizing:\n- Do not paraphrase or translate; copy the exact wording from the context (except applying the Hausa list conjunction rule when constructing lists).\n- Ensure the answer language matches the question language.\n- For Hausa yes/no, use exactly “eh” or “a'a”.\n- For numbers/dates/percentages, copy exactly as shown (digits vs words, include “%” if present).\n- Output only the final answer string with no extra content.\n\nCommon pitfalls to avoid (based on prior errors):\n- Do not return a sect or description when the question asks for a percentage (e.g., for “kaso nawa?” return “99%”, not “Sunnism”).\n- Do not return a year when the question asks “Wace kasa …?” (return the country name, e.g., “Masar”).\n- Do not add prepositions or extra words from the question; return the exact place name span (e.g., “Wuhan, China”, not “daga Wuhan, China”).",
+      "fields": [
+        {
+          "prefix": "Question Lang:",
+          "description": "${question_lang}"
+        },
+        {
+          "prefix": "Context:",
+          "description": "${context}"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer Lang:",
+          "description": "Short final answer only"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

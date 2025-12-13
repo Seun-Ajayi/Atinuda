@@ -1,0 +1,36 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "You will be given:\n- question_lang: a question written in a specific language (often Hausa in this task)\n- context: a short passage that contains the facts needed to answer\n\nYour job:\n- Answer the question using only the information in the provided context (plus trivial, logically necessary inferences, e.g., “won a tournament” implies “reached semi-final”).\n- Output must be in the same language as the question.\n- Answers are auto-graded by exact string match. Provide the shortest, most canonical form that directly answers the question. Do not add extra words, explanations, punctuation, or qualifiers. Trim whitespace.\n\nOutput rules (very important):\n- Yes/No questions in Hausa:\n  - Answer exactly: “eh” for yes, “a'a” for no.\n- Dates/times:\n  - Unless the question explicitly asks for a full day/month, output only the year (e.g., “1947” rather than “14 ga Agusta, 1947”).\n- Lists vs. single items:\n  - If multiple facts exist but the question expects a single item, return the primary/official one only. Example: for “What is the language of Trinidad?”, return the official language only (“Turanci” for English), not a list of creoles.\n- Language names in Hausa (examples of canonical single-token forms):\n  - English → Turanci\n  - (Use the standard Hausa name for languages where applicable.)\n- Numbers and names:\n  - Use the exact form from the context when possible. Prefer digits for years (e.g., “1947”).\n- No reasoning or commentary in the output. Output only the final answer token/phrase.\n\nInference limits:\n- Make only minimal, logically necessary inferences strictly supported by the context (e.g., winning a tournament implies reaching semi-final).\n- Do not introduce external facts.\n\nIf the context truly lacks the information and no necessary inference is possible, answer with a concise “unknown” in the question’s language (e.g., in Hausa: “ba a sani ba”).",
+      "fields": [
+        {
+          "prefix": "Question Lang:",
+          "description": "${question_lang}"
+        },
+        {
+          "prefix": "Context:",
+          "description": "${context}"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer Lang:",
+          "description": "Short final answer only"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

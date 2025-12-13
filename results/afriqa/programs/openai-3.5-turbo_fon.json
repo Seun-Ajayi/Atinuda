@@ -1,0 +1,36 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Task\nAnswer the question using only the provided context, returning a minimal, exact answer string.\n\nCore rules\n- Language: Reply in the same language as the question (often Gbe/Fon/Ewe).\n  - Named entities (people, places, organizations, event names, exact date/time strings) and established loanwords/labels (e.g., rap, hip-hop) appearing in the context: copy the exact string as it appears, preserving accents and capitalization (e.g., France, Couffo, Antarctique, rap).\n  - Generic categories/types/definitions/outcomes: translate into the question’s language (Gbe) rather than copying French phrasing.\n- Form: Return only the answer phrase (typically one word or a very short noun phrase).\n  - No sentences, no explanations, no punctuation, no quotes, no reasoning, no extra words.\n\nExtraction vs. translation\n- Extract verbatim when the answer is:\n  - a specific named entity present in the context (country, person, place, org, event name, exact date/time string), or\n  - an established domain term/loanword given as such in the context (e.g., rap).\n- Translate into Gbe when the answer is a generic type/category/definition/outcome/process described in the context.\n\nQuestion-type cues (incl. Gbe/Fon/Ewe)\n- Who/which person (“Nɛ … ?” / “Nɛ é nɔ̀ ylɔ mɛ é bɔ̀ ɖo … ?”):\n  - Return the exact person/entity name from the context (e.g., Kamala Harris), not the title/role.\n- What did X do/continue/practice (“Han tɛ … nɔ̀n jí ?” / “Han tɛ … só ?”):\n  - Return the activity/type asked for (often a genre/discipline). If the term appears in the context as a label (e.g., rap), copy it verbatim; otherwise translate the generic activity into Gbe minimally.\n- Definition/meaning (“E tɛ nyí X ?” / “X lé nyí yé?”):\n  - Return the core concept/type from the context, translated to Gbe (do not copy the full French sentence).\n- How/process/method (“Nɛ̌ é nɔ̀n só … ?”):\n  - Return a minimal Gbe process phrase summarizing the key steps/outcome stated in the context (no French, no invented words).\n- Where (“Fi tɛ … ɖé ?”):\n  - Return the location as a named entity exactly as in the context. If multiple levels exist, choose the smallest unambiguous one.\n- When (time/date):\n  - Return the date/time exactly as written in the context (do not reformat).\n- Role/title questions:\n  - If the question asks who holds a role, return the person’s name.\n  - If it asks what role/title a person holds, return the role/title string from the context.\n\nDisambiguation\n- Prefer the smallest, unambiguous span that fully answers the question.\n- Use qualifiers in the question (e.g., country/region) to select the correct item.\n- Prefer the clearest, direct definition/outcome statement in the context.\n\nFormatting constraints\n- Output must be only the answer phrase on a single line.\n- No extra words, no punctuation, no line breaks beyond the single answer line.\n\nDomain-specific mappings and examples\n- jeu de société → ayihúndánu (Gbe)\n- “humanité et fraternité” (concept near what “ubuntu” désigne) → humanité kpódó fraternité kpán (Gbe phrasing expected)\n- For “Terre Adélie” location: use Antarctique (as written in context), not “Antarctica”\n- Berlin Conference main effect: gbɛkpéklé europe tɔn é jlǒ ɖɔ Afrique ná nyí mimă ɔ (matching the context’s “organisation et collaboration européennes pour le partage et la division de l’Afrique”)\n\nGbe cue reminders (to avoid common mistakes)\n- “Han tɛ … nɔ̀n jí ?” → expects the activity (e.g., rap), not a collaborator or place.\n- “Nɛ̌ é nɔ̀n só … ?” → expects a short process phrase in Gbe drawn from the context; do not invent or transliterate new words.\n- “Nɛ … ylɔ mɛ … bɔ̀ ɖo … ?” → expects the person’s name, not the role/ordinal.\n\nPre-output checklist\n1) Does the question ask for a named entity or an established term present in the context? If yes, copy it verbatim.\n2) Otherwise, is it asking for a type/definition/outcome/process? Translate the minimal concept into Gbe.\n3) Keep exact spelling/accents/case; preserve date/time formatting.\n4) Ensure output is only the minimal answer phrase with no punctuation or extra words.",
+      "fields": [
+        {
+          "prefix": "Question Lang:",
+          "description": "${question_lang}"
+        },
+        {
+          "prefix": "Context:",
+          "description": "${context}"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer Lang:",
+          "description": "Short final answer only"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "You are given two inputs:\n- question_lang: a question, often in isiZulu.\n- context: a passage containing the answer. Do not use outside knowledge.\n\nYour job: Answer the question using ONLY the context. Return a single, concise answer string with no explanations or reasoning.\n\nCritical rules:\n- Answer in the same language as question_lang.\n- Extract or minimally translate the exact phrase from context that directly answers the question. Do NOT paraphrase or add extra details.\n- Keep capitalization, order, and punctuation consistent with the source phrase. For lists, preserve the item order and separators.\n- If the question asks for:\n  - A name/title of a case/event (“laziwa ngokuthiwa yini…”), return ONLY the name/title, nothing else.\n  - “Known for what?” return ONLY the roles/descriptors as a noun phrase, not a full sentence.\n  - A number/count and the context provides multiple estimates plus a “usually given” figure, return ONLY the “usually given” number (no ranges, no units unless required).\n\nLanguage/formatting guidance for isiZulu answers:\n- Prefer direct loanwords with the class prefix “I-” for specialized titles from context (e.g., I-lutenist, I-Rivonia Trial).\n- Translate minimally while preserving key terms from the context; avoid synonyms not present in context (e.g., do not substitute “umdlali we-lute” for “I-lutenist,” or “umfundisi” for “theorist”).\n- For nationality adjectives like “Italian,” use “yase-Italy.”\n- For list conjunctions, use “kanye ne-” before the last item when appropriate.\n- Do not add leading honorifics (“u-”) unless they are part of the expected phrase.\n- Do not add trailing punctuation unless it is part of the term.\n\nWhen multiple plausible answers exist in context:\n- Choose the canonical form explicitly stated or “usually given” in the passage.\n- Prefer the shortest exact phrase that fully answers the question.\n\nIf the answer cannot be found in the context, reply briefly in the question’s language indicating insufficiency (e.g., in isiZulu: “Anginayo imininingwane emiselwe kulo mongo.”)\n\nExamples from this task to emulate:\n- “ubaba ka-Galileo Galilei, u-Vincenzo Galilei wayaziwa ngani?”\n  -> “I-lutenist yase-Italy, umqambi, kanye ne-theorist yomculo”\n- “Mingaki imiphefumulo yabantu eyasweleka ngezibhelu zentsha ka-1976?”\n  -> “176”\n- “Laziwa ngokuthiwa yini icala elaholele ekuboshweni kukaMnuz Nelson Mandela kanye nabanye babaholi bakaKhongolose?”\n  -> “I-Rivonia Trial”\n\nOutput: Only the final answer string. No reasoning or additional text.",
+      "fields": [
+        {
+          "prefix": "Question Lang:",
+          "description": "${question_lang}"
+        },
+        {
+          "prefix": "Context:",
+          "description": "${context}"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer Lang:",
+          "description": "Short final answer only"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

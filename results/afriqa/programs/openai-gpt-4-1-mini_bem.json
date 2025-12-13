@@ -1,0 +1,36 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Task goal\n- Answer the user’s question strictly using only the provided context, returning the shortest possible answer string. Use the question’s language (often Bemba) for any minimal connector words you must add, but keep proper names from the context verbatim and unchanged.\n\nInput format\n- question_lang: The question text (often in Bemba).\n- context: A short passage containing all information you may use.\n\nHard rules\n- Use only information explicitly stated in the context. Do not infer or assume beyond what is written.\n- Output only the minimal answer string (a single word or short phrase). No explanations, no reasoning, no extra words or punctuation (unless punctuation is integral to the term, e.g., “125th”).\n- Keep modern proper names (people, organizations, clubs, places, products) exactly as written in the context (spelling/capitalization unchanged).\n- Biblical/religious names asked about in Bemba: use canonical Bemba forms when the context clearly identifies them (e.g., John → Yohane; Jesus → Yesu; Paul → Paulo).\n- Months and weekdays asked about in Bemba: use canonical Bemba forms when the context clearly identifies them (e.g., February → Akabengele kakalamba).\n- Mixed-name entities (proper name + generic category word) when the question is in Bemba:\n  - Keep the proper-name segment exactly as in the context (e.g., “Kenneth Kaunda”).\n  - Translate only the generic category word(s) into minimal Bemba, producing the shortest unambiguous form (e.g., “International Airport” → “Icibansa candeke”). Do not translate or alter the proper-name segment.\n- Numbers: Prefer the exact numeric forms given in the context (digits and ordinal suffixes like “125th”). Do not spell numbers out in Bemba. For ranges, use minimal Bemba connector words (see below). Remove thousands separators/commas when forming your output (e.g., 5,000 → 5000).\n- If multiple phrases could answer, choose the single shortest phrase that matches the question’s wording and qualifier exactly.\n- Do not list multiple items. Return only the one item that directly matches the requested role/title/criterion.\n\nQuestion-type handling\n- Yes/No questions:\n  - Yes: Ee\n  - No: Iyo\n  - If the context does not explicitly confirm the proposition, answer Iyo.\n  - Important: “Qualified for,” “participated in,” or “played in” is NOT “won.” If “won” (or equivalent) is not explicit, answer Iyo to “Has X won Y?” questions.\n\n- “How many” questions:\n  - If the context gives a single number, return it exactly as written in digits (normalize by removing thousands separators). Example: “125th” → “125th”; “5,000” → “5000”.\n  - If the context gives a numeric range, return a minimal Bemba range phrase with digits: “Pakati ka X na Y” (no commas). Example: between 5,000 and 7,000 → “Pakati ka 5000 na 7000”.\n  - If the context enumerates items but gives no explicit number, count them and return the Bemba number word.\n\n- “Who is [role/title]?” (role-holder lookup):\n  - Return only the exact person named in the context as holding that role/title, matching the exact title wording and any time qualifier.\n\n- “Who is [person]?” identity questions (often “ali nani?” in Bemba):\n  - Return the role/description of that person as written in the context, expressed in Bemba.\n  - Translate descriptors/titles into Bemba but do not translate modern proper names.\n\n- Origin questions (“Which country is X from?”):\n  - Return the country name exactly as stated in the context.\n  - You may convert a demonym to its country only if the context makes it explicit.\n\n- “Which [item]?” selection questions:\n  - Return the exact item named in the context that matches the criterion, with exact spelling/capitalization.\n  - Treat “popular” in the context as sufficient for “banwa sana” selection.\n\nLocation/place questions\n- Match the specific location phrase tied to the question’s wording. If the context states “Situated in the upper Congo River basin in Zambia,” and the question asks “yaba kukapinda nshi aka Zambia?”, return the exact phrase “upper Congo River basin” (verbatim from context).\n- Do not substitute provinces or other administrative areas unless the question explicitly asks for them.\n\nBemba-specific cues and mappings\n- “aba kwi?”, “ali kwi?”, “acita play kwi?”, “pa team nshi?”, “acita pa shi club nshi?”:\n  - These ask “which club/team/place?” If the context states “plays for [Club],” return the club name exactly (e.g., Baroka). Do not return the player’s position.\n  - For time qualifiers like “pali ino nshita” (currently), use the current team explicitly stated.\n\n- “calisendapo … ?”:\n  - This asks “has [they/it] ever won … ?” Answer Ee only if the context explicitly says “won” (or equivalent). Mentions of qualifying or participating are not enough—answer Iyo.\n\n- Canonical Bemba forms:\n  - Religious/biblical names: use canonical Bemba forms when clearly identified (e.g., John → Yohane; Jesus → Yesu; Paul → Paulo).\n  - Months/weekdays: use canonical Bemba forms when clearly identified (e.g., February → Akabengele kakalamba).\n  - Mixed-name entities: translate only the generic category word(s) into Bemba but keep the proper-name segment unchanged (e.g., “Kenneth Kaunda International Airport” → “Icibansa candeke icakwa Kenneth Kaunda”).\n\nOutput discipline\n- Return only the minimal phrase.\n- Keep capitalization exactly for proper-name segments from the context; generic Bemba category words can be in standard Bemba casing (e.g., “Icibansa candeke icakwa Kenneth Kaunda”).\n- Prefer verbatim numeric strings; for ranges, use “Pakati ka X na Y” with digits and no commas.\n- For ambiguous yes/no, prefer Iyo unless the context explicitly confirms Ee.\n\nError-avoidance reminders\n- Do not replace a requested club/team with a position; return the exact club/team name.\n- Do not infer victories from qualifications or appearances.\n- Do not list multiple names; choose only the one that matches the exact requested role/title and time qualifier.\n- When translating mixed-name entities, never alter or translate the proper-name segment (e.g., person/place names); translate only the generic category words into minimal Bemba.\n- When the question is in Bemba and the context uses English for months or generic category words attached to proper names, prefer the canonical/minimal Bemba form for those generic parts while preserving the proper names verbatim.",
+      "fields": [
+        {
+          "prefix": "Question Lang:",
+          "description": "${question_lang}"
+        },
+        {
+          "prefix": "Context:",
+          "description": "${context}"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer Lang:",
+          "description": "Short final answer only"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

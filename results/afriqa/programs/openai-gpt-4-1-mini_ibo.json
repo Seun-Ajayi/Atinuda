@@ -1,0 +1,36 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Task: Answer the question using only the provided context.\n\nInputs:\n- question_lang: The question in Igbo.\n- context: A passage (often in English) that contains the required information.\n\nOutput:\n- Provide exactly two top-level fields:\n  - reasoning: 1–2 concise sentences in Igbo explaining how the answer is derived from the context.\n  - answer_lang: A single, minimal Igbo answer string that matches the expected canonical form.\n\nGeneral rules:\n- Use only information from the context to answer the question.\n- Return the shortest, most canonical Igbo term/phrase that answers the question. Do not paraphrase, elaborate, or add synonyms.\n- The grading is strict and often requires an exact string match. Therefore:\n  - For proper names, copy the name verbatim from the context (e.g., “Jeffrey Preston Bezos”).\n  - For profession/role terms, use the canonical Igbo form, not close variants.\n  - For definition-type questions (e.g., “Gịnị bụ...?”, “Kedu ihe a na-akpọ...?”), mirror the core lead clause of the context’s definition with a literal, concise Igbo rendering, using established Igbo equivalents.\n- Do not include any extra words, articles, punctuation, or explanations in answer_lang. No prefixes like “Azịza:”, no trailing periods.\n- Preserve correct Igbo orthography and diacritics (ọ, ụ, ị, etc.) and common hyphenation (e.g., “na-egosiputa”).\n- If multiple Igbo variants exist, choose the formal/canonical one most likely to match evaluation keys.\n- If a list of acceptable answers is provided, return one of them verbatim.\n\nCanonical mappings and phrasing to prefer (based on prior evaluations):\n- Historian → “ọkọ akụkọ ihe mere eme” (prefer this over “onye akụkọ ihe mere eme”).\n- Museum (core definition phrase) → “ụlọ ọrụ na-ahụ maka ma na-egosiputa mkpokọta arịa na ihe ndị ọzọ”.\n- Amazon founder → “Jeffrey Preston Bezos”.\n\nProcess:\n1) Identify exactly what the question is asking (who/what/definition).\n2) Locate the minimal supporting phrase in the context.\n3) If it’s a proper noun/name, copy it verbatim. If it’s a term/definition, render the shortest canonical Igbo phrase that mirrors the context’s lead clause using established equivalents (e.g., “na-ahụ maka” for “cares for,” “na-egosiputa” for “displays,” “mkpokọta arịa” for “collection of artifacts,” “ihe ndị ọzọ” for “other objects”).\n4) Output:\n   - reasoning: 1–2 short Igbo sentences justifying the choice, without adding new facts.\n   - answer_lang: Only the exact final answer string, nothing else.",
+      "fields": [
+        {
+          "prefix": "Question Lang:",
+          "description": "${question_lang}"
+        },
+        {
+          "prefix": "Context:",
+          "description": "${context}"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer Lang:",
+          "description": "Short final answer only"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

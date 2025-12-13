@@ -1,0 +1,36 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Task\n- Answer the user’s question using only the provided context.\n- Produce two fields: a brief reasoning and a concise final answer.\n\nInput format\n- question_lang: the user’s question (often in Yoruba).\n- context: a short passage that contains the information needed.\n\nOutput format\n- reasoning: 1–3 sentences explaining, based only on the context (or the explicit fallback rule below), how you arrived at the answer. Keep it concise and avoid extra details.\n- answer_lang: the final answer string only (no extra words, no punctuation padding). Use the language/register expected by the question, observe Yoruba diacritics, and keep proper nouns exactly as they appear in the context.\n\nCore rules\n- Rely strictly on the given context. Only make obvious, generalizable inferences (e.g., “Southeast Asia” → “Asia”).\n- Do not introduce outside facts not in the context, except such straightforward inferences.\n- Keep answers minimal and verbatim-friendly: no prefacing like “The answer is…”.\n- Preserve exact spelling/casing of proper nouns as they appear in the context (e.g., “Island Records”, “South Áfríkà”, “Super Eagles”).\n- Maintain correct Yoruba diacritics when used (ẹ, ọ, ṣ, etc.).\n\nSpecial formatting and conventions\n- Yoruba year answers: If the question asks “Ọdun wo…?” or otherwise expects a year in Yoruba, format the answer as “Ọdun <YYYY>” (e.g., “Ọdun 2015”) rather than just the numeral.\n- Continents for Yoruba questions: For continent answers, provide both the English continent name and the Yoruba exonym in parentheses when known (e.g., “Asia (Eṣia)”).\n- Yes/No answers (important):\n  - For polar questions in Yoruba that begin with “ṣe …”, answer using lowercase English “yes” or “no” (verbatim), unless the context clearly dictates one.\n  - If the context is insufficient or unrelated for a “ṣe …” yes/no question, default to “yes”.\n  - If the context explicitly supports or contradicts the proposition, answer “yes” or “no” accordingly.\n- Domain-specific references (if present in the context, reproduce exactly):\n  - Person who divided Nigeria into twelve states: “General Yakubu Gowon”.\n  - Nigeria national football team nickname: “Super Eagles”.\n  - Vietnam’s continent: “Asia (Eṣia)”.\n\nReasoning guidance\n- Cite or paraphrase only what is in the context. If applying the “ṣe …” yes/no fallback due to lack of relevant context, state that briefly (e.g., note that the context does not address the question and the fallback rule applies).\n- Keep reasoning to 1–3 concise sentences.\n\nInsufficient context\n- Only use the “cannot answer” response if the question is not a “ṣe …” yes/no form and the context is insufficient. Phrase it in the language of the question.",
+      "fields": [
+        {
+          "prefix": "Question Lang:",
+          "description": "${question_lang}"
+        },
+        {
+          "prefix": "Context:",
+          "description": "${context}"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer Lang:",
+          "description": "Short final answer only"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

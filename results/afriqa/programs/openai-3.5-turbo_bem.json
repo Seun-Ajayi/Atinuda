@@ -1,0 +1,36 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Task\n- Answer the question using only the information in the provided context.\n- Inputs:\n  - question_lang: the question text (often in Bemba; may begin with “Bushe …”).\n  - context: an English passage that contains the facts needed.\n\nCore rules\n1) Be strictly extractive and minimal:\n   - Return only the shortest phrase or single word that directly answers the question.\n   - Do not add explanations, extra words, or multiple items when a single answer is requested.\n   - Preserve exact wording, spelling, capitalization, punctuation, and titles as they appear in the context (e.g., “Dr. Ernest Afolabi Umakhihe”).\n   - Prefer the smallest precise span (e.g., “Argentina” over “from Argentina”; “125th” over “125th best in the world” if that fully answers).\n\n2) Identify the question type correctly:\n   - “Bushe” is a general question marker in Bemba; it does NOT by itself make the question yes/no.\n   - If the question uses wh-words like “nshi” (what/which), “nani/ndani” (who), “shani” (how), “liti” (when), “kwi/kwisa/pa nshi” (where), treat it as an open question that needs a specific term/phrase from the context.\n\n3) Bemba yes/no questions:\n   - Answer with a single Bemba word:\n     - Emukwai for yes (ONLY if the statement is explicitly supported by the context).\n     - Iyo for no (if the statement is contradicted by the context OR the context does not explicitly support it).\n   - Do not infer beyond what is written.\n\n4) Language and numbers for non-yes/no answers:\n   - Output the answer exactly as written in the English context (do not translate), except for Bemba “how many” questions:\n     - If the answer is a single small count explicitly anchored (e.g., five), use the Bemba number word (example anchor: five → yasano).\n     - If the answer is a single number larger than small anchored numbers, return the digits exactly as in the context.\n     - If the context gives a numeric range, return it in Bemba as: “Pakati ka X na Y”, using the digits from the context (e.g., “Pakati ka 5000 na 7000”).\n   - Keep the answer to the minimal span that fully answers.\n\n5) Single-entity selection:\n   - If the question asks “which” or “who”, return only one item—the one most directly tied to the action/role asked in the question.\n   - For superlatives (largest, first, etc.), choose the entity explicitly identified as satisfying that superlative.\n   - When multiple locations or descriptors are given, select the phrase that directly matches the wording/role in the question (e.g., for “Situated in …” choose the location described by “Situated in …”).\n\n6) If the context truly does not contain the answer (and it is not a Bemba yes/no question), reply exactly:\n   - Not in context\n\nDisambiguation and selection tips\n- Match the specific event or attribute asked:\n  - “lions’ den” → “Daniel”; “fiery furnace” → “Shadrach, Meshach, and Abednego”.\n- For borders/crossings/locations, select the specific named place in the context that fulfills the relationship (e.g., “Kasumbalesa” for a Zambia–DR Congo border crossing).\n- When the question is a general “where is X situated/located?”, prefer the primary locator phrase given in the context (e.g., “Situated in the upper Congo River basin in Zambia” → answer with the minimal precise locator “upper Congo River basin”).\n- Prefer the earliest, most directly linked mention when multiple plausible mentions exist.\n\nQuality checks before answering\n- Confirm the answer string appears verbatim in the context, except for:\n  - Bemba yes/no responses (Emukwai, Iyo), and\n  - The special handling of Bemba “how many” numbers described above.\n- Ensure the answer is the minimal span and matches capitalization and spelling exactly.\n- Ensure you have selected a single entity where required.\n\nOutput formatting\n- Output only the final answer string on a single line.\n- No explanations, no quotes, and no extra punctuation beyond what appears in the answer.\n\nDomain-specific anchors and worked examples to follow exactly\n- Largest extant bird by mass: Ostrich\n- Captain of the Zambia National Soccer Team when they won AFCON in 2012: Chris Katongo\n- Number of world oceans (when asked “how many” in Bemba): yasano\n- If asked for Zambia women’s national football FIFA ranking in 2011: 125th\n- If asked “Bushe pano isonde paba imitundu ingaa?” with context “vary between 5,000 and 7,000”: Pakati ka 5000 na 7000\n- If asked where Bangweulu is situated in Zambia (with context “Situated in the upper Congo River basin in Zambia”): upper Congo River basin\n\nStrategy reminders from past errors\n- Do not default to “Not in context” without carefully scanning for numbers, ordinals (e.g., “125th”), ranges, and exact phrases.\n- Treat “Bushe …?” with wh-words as open questions requiring a term/phrase, not a yes/no.\n- When multiple location descriptors appear, choose the one that matches the question’s wording (e.g., “Situated in …”).",
+      "fields": [
+        {
+          "prefix": "Question Lang:",
+          "description": "${question_lang}"
+        },
+        {
+          "prefix": "Context:",
+          "description": "${context}"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer Lang:",
+          "description": "Short final answer only"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

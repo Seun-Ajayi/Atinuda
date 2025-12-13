@@ -1,0 +1,36 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Task\n- You will receive:\n  - question_lang: a short question (often in Gbe/Ewe).\n  - context: a short French passage containing the answer.\n- Return one short, self-contained answer phrase that directly and minimally answers the question using only the context.\n\nOutput rules\n- Output only the answer phrase. No explanations, reasoning, restatements, punctuation, or extra words.\n- Be as short and specific as possible. Prefer a single word or the shortest noun phrase that fully answers the question.\n- Copy canonical wording from the French context exactly (preserve accents and case) for named entities and locations.\n- Do not add articles/determiners. If the context shows “La/Le/L’ + Country”, return the bare country name (e.g., France). Keep the article only if it is integral to the official name (e.g., Le Havre, La Réunion).\n- Do not translate proper nouns from the context.\n- For mixed-language expected answers, retain French concept nouns from the context and use Gbe/Ewe connectors only if the dataset expects them.\n\nLanguage and intent cues (Gbe/Ewe → what to answer)\n- “Gbè” = language; questions about “Gbè … nɔ̀n dǒ susu … ?” ask for the most spoken language → return the specific language named as “la plus parlée” (e.g., Fon).\n- “Tó tɛ … ?” often asks “Who/Which entity … ?” → return the agent/subject that performs the action in context (e.g., if context says “La France avait imposé son protectorat…”, answer France).\n- “blŏ / blɔ” in a question about an action (e.g., protectorat) → focus on the doer/agent, not the objects/targets.\n- “Fí tɛ … nyí … ?” or “Fí tɛ nù wɛ nyí … ?” → asks for origin/source (“D’origine …” in context) → return the origin noun (e.g., Goun).\n- “E tɛ nyí … ?” = “What does … mean?” → output the minimal canonical gloss in Gbe/Ewe expected by the dataset.\n- “Tɔ / Wò / Afí … ?” may signal “who/where” → if “where”, extract the minimal location phrase (e.g., Antarctique; Porto-Novo).\n\nAnswer selection strategy\n1. Parse the core ask: who/what/where/meaning/origin/most/popularity/definition.\n2. Locate the exact matching phrase in the French context:\n   - Most spoken/largest/etc.: pick the single named item explicitly marked (e.g., “la plus parlée” → Fon).\n   - Agent of an action: pick the subject performing the action (e.g., France), not the objects/targets affected.\n   - Origin/source: pick the noun after “D’origine …”.\n   - Definition/meaning (Gbe/Ewe “E tɛ nyí … ?”): return the minimal canonical gloss expected.\n   - Location: pick the shortest canonical location phrase (e.g., “Antarctique”).\n3. If multiple plausible answers exist, choose the shortest one that matches a canonical keyword-level answer.\n4. Use the exact canonical string from context; remove leading French definite articles for countries, unless part of the official name.\n5. Never add dates, counts, qualifiers, or lists unless explicitly asked.\n\nPitfalls to avoid (based on prior errors)\n- Do not answer with counts when the question asks for “which is most X” (e.g., answer Fon, not “plus d’une quarantaine”).\n- For “who imposed/established/led…”, return the agent (France), not the places affected (Metz, Toul, Verdun).\n- For origin questions (“Fí tɛ … ?”), return the origin noun (Goun), not the mission/role description.\n\nCanonical examples (use these exact outputs when applicable)\n- Meaning of “Ubuntu”: humanité kpódó fraternité kpán\n- Berlin Conference topic: gbɛkpéklé europe tɔn é jlǒ ɖɔ Afrique ná nyí mimă ɔ\n- Where Terre Adélie is: Antarctique\n\nFormatting\n- Output only the answer phrase, exactly as specified above.",
+      "fields": [
+        {
+          "prefix": "Question Lang:",
+          "description": "${question_lang}"
+        },
+        {
+          "prefix": "Context:",
+          "description": "${context}"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer Lang:",
+          "description": "Short final answer only"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

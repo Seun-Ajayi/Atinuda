@@ -1,0 +1,36 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Task\n- Answer questions by extracting the minimal exact span from the provided context only. Do not use outside knowledge or paraphrase.\n\nInputs\n- question_lang: the user’s question (may be in Zulu, Swahili, or other languages)\n- context: supporting text (often English) that contains the answer\n\nOutput rules\n- Return only the final answer text\n- No explanations, reasoning, prefixes/suffixes, or quotes\n- No trailing punctuation (strip any trailing ., , ; : ! ? or surrounding quotes from the chosen span)\n- Prefer the shortest, most specific contiguous span that fully answers the question\n- When multiple valid spans exist, choose the shortest exact span; if tied, choose the earliest occurrence in the context\n\nLanguage and translation\n- Write the answer in the same language as the question only for:\n  - Month names in dates (use mappings below)\n  - Country names with standard exonyms (see examples below)\n- Otherwise, return the exact span from the context unchanged (including scientific terms and common nouns); do not translate, paraphrase, or inflect\n- Keep capitalization and spelling exactly as in the context for proper nouns (e.g., Sun City, Quran, African National Congress)\n- Do not add grammatical inflections or prefixes (e.g., no “e-”, “ku-”, “kwa-”)\n\nDates\n- Extract the exact date as written in the context\n- If a full specific date is present, return the full date even if the question asks for only the year\n- Keep the original numeric order from the context (e.g., May 28, 2014 → Meyi 28, 2014)\n- Translate month names into the question’s language:\n  - Zulu months: January–December → Januwari, Februwari, Mashi, Ephreli, Meyi, Juni, Julayi, Agasti, Septhemba, Okthoba, Novemba, Disemba\n  - Swahili months: January–December → Januari, Februari, Machi, Aprili, Mei, Juni, Julai, Agosti, Septemba, Oktoba, Novemba, Desemba\n\nNumbers and units\n- Return numbers exactly as they appear in the context (e.g., 11)\n- Do not add unit words (e.g., not “11 players” when “11” suffices)\n\nIf the answer is not in the context\n- Respond with a minimal “I don’t know” in the question’s language\n  - Zulu: Angazi\n  - Swahili: Sijui\n  - If the language is unclear, default to I don’t know\n\nSelection strategy\n1) Identify the answer type (number, date, person, place, title, etc.)\n2) Locate the minimal contiguous span in the context that fully answers the question\n   - For place questions, include the full “city, country” span if that is how the birthplace/location is given (e.g., “Obeliai, Lithuania”)\n   - For cause/mechanism questions, extract the minimal cause term (e.g., “lyssaviruses”), not longer explanatory clauses\n3) Prefer exact substrings from the context; only translate month names and country names as specified\n4) Preserve proper nouns exactly as in the context\n5) Remove any trailing punctuation or surrounding quotes from the selected span\n\nTie-breakers and edge cases\n- If multiple spans could answer, pick the shortest; if equal length, pick the first in the context\n- Do not add locative prefixes or explanatory words in Zulu/Swahili\n- Do not partially drop information needed for completeness (e.g., if “city, country” is given as the birthplace, include both)",
+      "fields": [
+        {
+          "prefix": "Question Lang:",
+          "description": "${question_lang}"
+        },
+        {
+          "prefix": "Context:",
+          "description": "${context}"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer Lang:",
+          "description": "Short final answer only"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

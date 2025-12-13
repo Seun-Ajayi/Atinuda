@@ -1,0 +1,36 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Task overview:\n- Inputs:\n  - question_lang: a natural-language question (often in Kinyarwanda).\n  - context: a short passage that may be in English or another language.\n- Goal: Provide a single, concise answer using the context as the primary source. Output only the answer text (no explanations, no restating the question).\n\nLanguage and style:\n- Answer in the same language as the question. If the question is in Kinyarwanda, answer in Kinyarwanda.\n- If the answer can be copied verbatim from the context, copy it exactly (preserve spelling, capitalization, diacritics/accents, punctuation).\n- If the context is in a different language than the question, translate only the minimal answer content into the question’s language while preserving proper nouns and numbers.\n- Keep the answer as short as possible (a single word, short phrase, list, or a date). Do not add extra words or filler.\n\nAnswer-type matching:\n- “umurwa mukuru …?” → return only the capital city name (e.g., “Niamey”, “Lomé”).\n- “itariki …?” or birth dates (“yavutse ryari?”) → return only the date, formatted per Kinyarwanda date rules below.\n- “imipaka …?” → return only the borders in the order provided by the context, separated by semicolons only (“;”).\n\nKinyarwanda-specific rules:\n- Months: Mutarama, Gashyantare, Werurwe, Mata, Gicurasi, Kamena, Nyakanga, Kanama, Nzeri, Ukwakira, Ugushyingo, Ukuboza.\n- Date format: “DD Mwezi YYYY” (e.g., “11 Nzeri 1965”).\n- Cardinal directions: iburengerazuba; mu majyaruguru y’uburasirazuba; mu majyepfo; mu burasirazuba; mu majyepfo no mu burasirazuba, etc.\n- Rwanda vocational education acronym/name: TVET (Amashuri ry’imyuga n’ubumenyingiro).\n\nGeographic naming conventions:\n- When the question asks for a lake, river, or mountain and the context uses a generic class word (e.g., “Lake Balaton”, “River Nile”, “Mount Kilimanjaro”), return only the proper name without the class word unless the class word is inseparable from the name in the context. Example: for “ikihe kiyaga…?”, output “Balaton” (not “Lake Balaton”).\n- Preserve diacritics from the context (e.g., “Lomé” not “Lome”).\n\nUse of context vs. general knowledge:\n- Prefer extracting the answer from the context when possible.\n- If the context provides a closely matching clue (e.g., it names a single likely entity for a superlative even if the scope is slightly different), return that entity. Example: if the context states “Lake Balaton … is the largest lake in Central Europe” and the question asks “ni ikihe kiyaga kinini mu Burayi?”, return “Balaton”.\n- If the context does not contain the answer but you know it with high confidence, you may answer from general knowledge. Translate minimally into the question’s language and follow formatting rules (e.g., month names in Kinyarwanda).\n- If truly uncertain, use the exact Kinyarwanda fallback: “Sinshobora kubimenya mu bisobanuro byatanzwe.”\n\nCross-entity/name mismatches:\n- Resolve references carefully. If the question asks about person A but the context discusses person B, do not give B’s details unless you are certain the context unmistakably intends the same target or only one relevant date is present and clearly meant to answer the asked type.\n- If the question is a birth-date question and the context provides one clear birth date for a named individual closely related or similarly named (e.g., shared surname) and no other candidates exist, you may use that date to answer, formatted in Kinyarwanda.\n\nLists:\n- When listing borders, include all items exactly in the order given by the context. Include bodies of water if listed. Separate items with semicolons only (“;”), no extra words.\n\nQuality checks before answering:\n- Ensure the answer directly addresses the exact question (who/what/when/where).\n- For dates, convert month names to Kinyarwanda months and use “DD Mwezi YYYY”.\n- For names/titles, preserve diacritics and exact spellings from the context.\n- Keep the answer minimal (no extra sentences or qualifiers).\n\nCommon pitfalls to avoid:\n- Do not provide unrelated facts from the context.\n- When the context states “capital X is located …”, the answer is “X”.\n- For lakes/rivers/mountains, drop the generic word (“Lake”, “River”, “Mount”) and return just the proper name when the question asks for that type.\n- Be careful with similarly named individuals (e.g., Hafez al-Assad vs Bashar al-Assad); answer for the entity asked in the question.\n\nHelpful references (for frequent queries):\n- Capitals: Niger → Niamey; Togo → Lomé.\n- Example date renderings in Kinyarwanda:\n  - “12 August 1910” → “12 Kanama 1910”.\n  - Bashar al-Assad’s birth date → “11 Nzeri 1965”.\nFallback (Kinyarwanda-only questions):\n- If not confident and the context doesn’t allow a reliable answer: “Sinshobora kubimenya mu bisobanuro byatanzwe.”\n\nOutput constraints:\n- Output only the final answer string.\n- No headings, labels, explanations, or extra punctuation.\n- No leading/trailing spaces or quotes.",
+      "fields": [
+        {
+          "prefix": "Question Lang:",
+          "description": "${question_lang}"
+        },
+        {
+          "prefix": "Context:",
+          "description": "${context}"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer Lang:",
+          "description": "Short final answer only"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

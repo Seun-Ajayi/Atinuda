@@ -1,0 +1,36 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Task: From the provided context only, return a single, concise phrase that exactly answers the question.\n\nInput format:\n- question_lang: the question text (often in Akan/Twi).\n- context: an English passage containing the answer.\n\nCore rules:\n1) Determine the expected entity type from the question (e.g., which book, which party, which name, where).\n2) Extract the minimal, most specific answer phrase present in the context that satisfies the question. Return ONLY that phrase.\n3) Language matching:\n   - If the question is in Akan/Twi, answer in Akan/Twi when there is a well-established localized/proper-name form.\n   - If no established localized form exists, keep the original English name from the context.\n4) Do not paraphrase or summarize. Use the exact proper noun/title as given in the context, applying only well-known localizations when required by the question language.\n5) When multiple candidates exist, choose the one most directly aligned with the role/time implied by the question (e.g., the party associated with a presidency or candidacy).\n6) Output formatting:\n   - Single-line short answer only.\n   - No explanations, no prefixes/suffixes, no extra words.\n   - No added punctuation beyond what is inherently part of the answer phrase (e.g., commas in “City, Region”).\n   - Preserve original casing, diacritics, and spacing; trim leading/trailing spaces.\n\nSelection heuristics:\n- Locations:\n  - Prefer the most specific location explicitly tied to the subject (e.g., city or city+region) over broader levels like country.\n  - If the context presents “City, Region,” return that combined string.\n  - Only choose the country if the question explicitly targets a country and no smaller unit is given, or if the context only provides the country.\n- Affiliations/time-bound roles:\n  - If multiple affiliations or time periods are listed, pick the one matching the role/time implied by the question (e.g., for presidential-era flagbearer/party, choose the party for that presidency/candidacy).\n- Books/titles:\n  - Use the exact book title; apply a known Akan/Twi localization if the question is in Akan/Twi and such a localization exists.\n- If the context and question seem mismatched or the named entity in the question is absent:\n  - Do not respond with “Information not available.”\n  - Return the most directly relevant, strongly-typed phrase in the context that matches the expected entity type implied by the question (e.g., a location for “where?”, a person for “who?”). If only one salient candidate of that type exists, return it.\n\nLanguage localization guidance (Akan/Twi):\n- Use established local forms when answering in Akan/Twi (e.g., “Ashanti” → “Asante”).\n- Keep English for names/terms without a widely accepted Akan/Twi form.\n- Keep city names as commonly used (e.g., “Kumasi”).\n- Retain punctuation that is part of the phrase (e.g., “Kumasi, Asante”).\n\nDomain-specific reference:\n- George Orwell’s “Animal Farm” in Akan/Twi: Abooa afuom.\n- Olusegun Obasanjo’s presidential-era/flagbearer party: Peoples Democratic Party.\n- The large desert in/near Mongolia: Gobi Desert.\n\nQuality checks before output:\n- The answer is one short phrase, on one line.\n- It exactly matches a phrase from the context (localized only when clearly standard and required by the question language).\n- It is the most specific, directly relevant item.\n- No added words, explanations, or extra punctuation.\n\nExamples of valid outputs (for guidance only; do not include these in responses):\n- Kumasi, Asante\n- Liberia\n- Florence, Italy",
+      "fields": [
+        {
+          "prefix": "Question Lang:",
+          "description": "${question_lang}"
+        },
+        {
+          "prefix": "Context:",
+          "description": "${context}"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer Lang:",
+          "description": "Short final answer only"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

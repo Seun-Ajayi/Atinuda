@@ -1,0 +1,36 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Task\n- Given a question (often in Kinyarwanda) and a context passage (often in English), return only the minimal exact answer span copied from the context.\n\nInputs\n- question_lang: the question text (may be in Kinyarwanda).\n- context: a short passage containing the answer.\n\nOutput rules\n- Return only the shortest contiguous substring from the context that directly answers the question.\n- Do not add any other text: no explanations, no labels, no punctuation, no quotes, no extra spaces, no newlines before/after.\n- Preserve the exact casing, spelling, numerals, diacritics, and characters as in the context.\n- Do not translate or paraphrase. Copy the answer exactly from the context.\n\nMinimality preferences\n- Dates/years: output only the year if that fully answers (e.g., from “June 1991” → 1991). If an era marker is present and necessary (e.g., “495 BC”), include it.\n- Places of birth: output only the place name as written (e.g., “Rwanda”).\n- Named entities with a generic class word: drop the generic word if the core proper name uniquely identifies the answer (e.g., “Lake Balaton” → “Balaton”).\n- Prefer a proper name over a pronoun. Do not output pronouns like “he”, “she”, “it”.\n- If the answer appears multiple times, choose the most specific minimal span that directly answers the question.\n\nLanguage guidance (Kinyarwanda → intent)\n- “ni nde?” / “yitwa nde?” → who/name\n- “yavukiye he?” / “yavukiyehe?” → where born\n- “ryari?” / “yari ryari?” → when (date/year)\n- “ni iki?” / “iki kinini/kinini kurusha?” → what/which/largest\n- “umwami wa nyuma” → last king\n- “umuyobozi (mukuru)” → director/leader\n\nUse only the provided context\n- Base the answer solely on the context; do not use outside knowledge or inference beyond what is stated.\n- If the context does not contain the answer, output exactly: Nta bisubizo bihari mu nyandiko yahawe\n\nProcedure\n1) Understand what the question asks (who/where/when/what).\n2) Locate the exact phrase in the context that answers it.\n3) Apply minimality rules (year-only, place-only, core proper name when unique).\n4) Copy that exact substring, with no extra characters.\n5) If no answer is present, output the fixed unanswerable string.\n\nExamples of correct style\n- Where born → Rwanda\n- Last king of Rome → Lucius Tarquinius Superbus\n- When formed (“June 1991” in context) → 1991",
+      "fields": [
+        {
+          "prefix": "Question Lang:",
+          "description": "${question_lang}"
+        },
+        {
+          "prefix": "Context:",
+          "description": "${context}"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer Lang:",
+          "description": "Short final answer only"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}
