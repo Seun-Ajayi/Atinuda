@@ -135,9 +135,16 @@ class BaseTask(ABC):
     
     def run_full_pipeline(self, output_dir: str):
         """Run complete evaluation pipeline."""
-        # Create output directory
+        # Create output directory structure
         output_dir = Path(output_dir)
-        output_dir.mkdir(parents=True, exist_ok=True)
+        base_dir = output_dir / "base"
+        optimized_dir = output_dir / "optimized"
+        programs_dir = output_dir / "programs"
+        
+        # Create all directories
+        base_dir.mkdir(parents=True, exist_ok=True)
+        optimized_dir.mkdir(parents=True, exist_ok=True)
+        programs_dir.mkdir(parents=True, exist_ok=True)
         
         # Load dataset
         print("Loading dataset...")
@@ -148,7 +155,7 @@ class BaseTask(ABC):
         program = self.create_program()
     
         # 2. Evaluate unoptimized model
-        unopt_path = output_dir / f"unoptimized_{self.model_name.replace('/', '-')}_{self.lang}.json"
+        unopt_path = base_dir / f"{self.model_name.replace('/', '-')}_{self.lang}.json"
         unopt_score = self.evaluate_model(program, test_set, str(unopt_path))
         print(f"\nUnoptimized Score: {unopt_score}")
         
@@ -156,12 +163,12 @@ class BaseTask(ABC):
         optimized_program = self.optimize_program(program, train_set, val_set)
         
         # 4. Evaluate optimized model
-        opt_path = output_dir / f"optimized_{self.model_name.replace('/', '-')}_{self.lang}.json"
+        opt_path = optimized_dir / f"{self.model_name.replace('/', '-')}_{self.lang}.json"
         opt_score = self.evaluate_model(optimized_program, test_set, str(opt_path))
         print(f"\nOptimized Score: {opt_score}")
         
         # 5. Save optimized program
-        program_path = output_dir / f"program_{self.model_name.replace('/', '-')}_{self.lang}.json"
+        program_path = programs_dir / f"{self.model_name.replace('/', '-')}_{self.lang}.json"
         self.save_program(optimized_program, str(program_path))
         
         # 6. Save summary
