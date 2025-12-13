@@ -1,1 +1,1102 @@
-[{"goal": "A le fi awon ohun elo wonyii se ajile fun ogba ile wa", "solutions": ["\u00ccr\u00e0w\u00e9, irin, \u00ecgb\u1eb9\u0301 ad\u00ecy\u1eb9", "\u00ccr\u00e0w\u00e9, \u1eb9po eyin, \u00ecgb\u1eb9\u0301 ad\u00ecy\u1eb9"], "example_label": 1, "reasoning": "The goal is asking for the ingredients needed to prepare a particular meal at home. We need to evaluate both solutions based on their correctness, relevance, and specificity in answering the question.", "pred_label": "0", "metric": 0}, {"goal": "T\u00ed \u1ecdt\u00ed b\u00e1 \u0144 w\u00f9 \u1eb9\u0301 mu", "solutions": ["Lo igb\u00e1 l\u00e1ti m\u00fa \u1ecdt\u00ed", "Lo ap\u1eb9\u0300r\u1eb9\u0300 l\u00e1ti mu \u1ecdt\u00ed"], "example_label": 0, "reasoning": "The goal here is a procedure or step-by-step instruction on how to pour water into a cup. We need to choose the solution that provides the correct and safe way to do this task.", "pred_label": "0", "metric": 1}, {"goal": "O \u1e63e\u0300\u1e63\u1eb9 f\u1ecd a\u1e63\u1ecd ib\u1ecds\u1eb9 re, o si\u0300 f\u1eb9\u0301 ki\u0301 o\u0301 te\u0300te\u0300 gb\u1eb9", "solutions": ["sa\u0301 a si\u0301 o\u0301o\u0300run titi yo\u0301o\u0300 fi gb\u1eb9.", "fi si\u0301nu a\u0300po\u0300 ile\u0301-i\u0300we\u0301 r\u1eb9 titi yo\u0301o\u0300 fi gb\u1eb9."], "example_label": 0, "reasoning": "The goal is to dry the school uniform. The first solution recommends hanging it outside under the sun to dry, which is a common and effective method. The second solution suggests putting it inside a bag to dry, which may not be as effective as hanging it out in the sun.", "pred_label": "0", "metric": 1}, {"goal": "K\u00ed ni n\u01f9kan m\u00ec\u00edr\u00e0n t\u00ed a t\u00fan le ri l\u00e1ra epo r\u1ecd\u0300b\u00ec?", "solutions": ["Epo pupa ni n\u01f9kan m\u00ec\u00edr\u00e0n t\u00ed a t\u00fan l\u00e8 r\u00ed l\u00e1ra b\u1eb9ntir\u00f3", "epo b\u1eb9ntir\u00f3 ni n\u01f9kan m\u00ec\u00edr\u00e0n t\u00ed a t\u00fan l\u00e8 r\u00ed l\u00e1ra b\u1eb9ntir\u00f3"], "example_label": 1, "reasoning": "The goal is asking for the specific thing that can be added to palm oil to make it rise. We need to choose the option that directly answers the question of what can be added to palm oil.", "pred_label": "0", "metric": 0}, {"goal": "Ohun \u00e8l\u00f2 \u00ecs\u1ecd\u0301ra wo ni \u00e8n\u00ecy\u00e0n l\u00e8 l\u00f2 p\u1eb9\u0300l\u00fa \u00f2k\u00fata n\u00edn\u00fa r\u1eb9\u0300?", "solutions": ["Katakata ni ohun \u00e8l\u00f2 \u00ecs\u1ecd\u0301ra t\u00ed \u00e8n\u00ecy\u00e0n l\u00e8 fi ta \u00f2k\u00fata", "Akatanpo ni ohun \u00e8l\u00f2 \u00ecs\u1ecd\u0301ra t\u00ed \u00e8n\u00ecy\u00e0n l\u00e8 fi ta \u00f2k\u00fata"], "example_label": 1, "reasoning": "Both solutions provide a response to the question by identifying an item that a person can use to break a rock. The key here is to determine the more appropriate and commonly used tool for breaking a rock in this context.", "pred_label": "0", "metric": 0}, {"goal": "ki\u0301ni ohun to\u0301 da\u0301ra ju\u0300l\u1ecd lati fi l\u1eb9 a\u0300wo to\u0301 f\u1ecd\u0301 si\u0301 me\u0301ji\u0300?", "solutions": ["l\u1eb9 a\u0300wo na\u0301a\u0300 p\u1ecd\u0300 p\u1eb9\u0300lu\u0301 e\u0300edu\u0301", "l\u1eb9 a\u0300wo na\u0301a\u0300 p\u1ecd\u0300 p\u1eb9\u0300lu\u0301 o\u0300n\u0300l\u1eb9\u0300"], "example_label": 1, "reasoning": "Both solutions provide a way to clean a dirty shoe, but for this context, it is better to use \"l\u1eb9 a\u0300wo na\u0301a\u0300 p\u1ecd\u0300 p\u1eb9\u0300lu\u0301 e\u0300edu\u0301\" (clean the shoe with soap) as it is a more common and effective method to thoroughly clean the shoe compared to just using water.", "pred_label": "0", "metric": 0}, {"goal": "K\u00edni a fi \u0144 hun a\u1e63\u1ecd \u00f2k\u00e8?", "solutions": ["\u00d2w\u00fa ni a fi \u0144 hun a\u1e63\u1ecd \u00f2k\u00e8", "Ok\u00f9n ni a fi \u0144 h\u00f9n a\u1e63\u1ecd \u00f2k\u00e8"], "example_label": 0, "reasoning": "Both solutions provide answers to the question asked, which is about how we dry clothes. However, the correct phrase to use when drying clothes is \"\u00d2w\u00fa ni a fi \u0144 hun a\u1e63\u1ecd \u00f2k\u00e8,\" meaning \"We dry clothes using the sun.\" Therefore, solution 1 is more accurate and appropriate in this context.", "pred_label": "0", "metric": 1}, {"goal": "N\u00edbo ni \u00e0y\u00e8 t\u00ed \u00f3 w\u00e0 l\u00e1\u00e0\u00e1r\u00edn ap\u00e1 s\u00ed \u00e8j\u00eck\u00e1?", "solutions": ["\u1eccr\u00f9n-\u1ecdw\u1ecd\u0301 ni \u00e0y\u00e8 t\u00ed \u00f3 w\u00e0 l\u00e1\u00e0\u00e1r\u00edn ap\u00e1 s\u00ed \u00e8j\u00eck\u00e1", "\u00ccg\u00f9np\u00e1 ni \u00e0y\u00e8 t\u00ed \u00f3 w\u00e0 l\u00e1\u00e0\u00e1r\u00edn ap\u00e1 s\u00ed \u00e8j\u00eck\u00e1"], "example_label": 1, "reasoning": "Both solutions are suggesting possible locations where one can find a cat. The first solution mentions \"\u1eccr\u00f9n-\u1ecdw\u1ecd\u0301\" which means a rooftop, while the second solution mentions \"\u00ccg\u00f9np\u00e1\" which means a cupboard. When considering the common location of a cat, the most likely place to find a cat would be on a rooftop rather than in a cupboard.", "pred_label": "0", "metric": 0}, {"goal": "K\u00edni \u00e0 \u0144 fi \u00e0d\u00e1 \u1e63e?", "solutions": ["\u00c0 \u0144 fi \u00e0d\u00e1 ro oko", "\u00c0 \u0144 fi \u00e0d\u00e1 d\u00e1n\u00e1"], "example_label": 0, "reasoning": "The goal is asking for how to make a farm fence. The correct procedure involves using mud, not sand. Therefore, the solution that mentions using mud (\"\u00ab\u00c0 \u0144 fi \u00e0d\u00e1 ro oko\u00bb\") is the more appropriate one.", "pred_label": "0", "metric": 1}, {"goal": "K\u00ed ni w\u1ecd\u0301n ohun \u00e8l\u00f2 \u00ecd\u00e1n\u00e1 ni ay\u00e9 \u00e0tij\u1ecd\u0301?", "solutions": ["\u00cck\u00f2k\u00f2 ni ohun \u00e8l\u00f2 \u00ecd\u00e1n\u00e1 ni ay\u00e9 \u00e0tij\u1ecd\u0301", "\u00c0gb\u00e1 ni ohun \u00e8l\u00f2 \u00ecd\u00e1n\u00e1 ni ay\u00e9 \u00e0tij\u1ecd\u0301"], "example_label": 0, "reasoning": "Both solutions are attempting to define the concept of a \"ladder\" in the world of commerce. We need to choose the most accurate and relevant definition.", "pred_label": "0", "metric": 1}, {"goal": "K\u00edni \u1eb9\u0300r\u1ecd \u00ecgb\u00e0l\u00f3d\u00e9 t\u00ed \u00e0 \u0144 l\u00f2 f\u00fan a\u1e63\u1ecd f\u00edf\u1ecd\u0300 n\u00ed ay\u00e9 \u00f2de \u00f2ni?", "solutions": ["\u1eb8\u0300r\u1ecd \u00ecl\u1ecdta ni \u1eb9\u0300r\u1ecd \u00ecgb\u00e0l\u00f3d\u00e9 t\u00ed \u00e0 \u0144 l\u00f2 f\u00fan a\u1e63\u1ecd f\u00edf\u1ecd\u0300 n\u00ed ay\u00e9 \u00f2de \u00f2ni", "\u1eb8\u0300r\u1ecd \u00ecf\u1ecd\u1e63\u1ecd ni \u1eb9\u0300r\u1ecd \u00ecgb\u00e0l\u00f3d\u00e9 t\u00ed \u00e0 \u0144 l\u00f2 f\u00fan a\u1e63\u1ecd f\u00edf\u1ecd\u0300 n\u00ed ay\u00e9 \u00f2de \u00f2ni"], "example_label": 1, "reasoning": "Both solutions are identifying the type of washing machine that is used to wash clothes in the village square. In this context, the correct type of washing machine to wash clothes in the village square is the local manual washing machine, which is typically a wooden washing board called \"\u1eb8\u0300r\u1ecd \u00ecl\u1ecdta\". Therefore, the solution that mentions \"\u1eb8\u0300r\u1ecd \u00ecl\u1ecdta\" is more accurate and relevant to the question.", "pred_label": "0", "metric": 0}, {"goal": "K\u00ed ni mo l\u00e8 fi ti il\u00e8\u0323k\u00f9n il\u00e9 mi pa?", "solutions": ["K\u1ecd\u0301k\u1ecd\u0301r\u1ecd\u0301 ni mo l\u00e8 lo l\u00e1ti ti il\u00e8\u0323k\u00f9n mi pa", "\u00c0g\u00e1d\u00e1godo ni mo le l\u00f2 l\u00e1ti fi ti il\u00e8\u0323k\u00f9n mi pa."], "example_label": 1, "reasoning": "Both solutions provide ways to lock the door, but we need to consider safety and best practices. Solution 1 suggests using a key to lock the door, which is a standard and safe practice for securing a door. On the other hand, Solution 2 suggests using a bolt (padlock), which could be effective but not as secure as a key lock. Therefore, Solution 1 is a safer and more common method of locking a door.", "pred_label": "0", "metric": 0}, {"goal": "O f\u1eb9\u0301 m\u1ecd aago ti\u0301 o lu, ki\u0301 ni ohun to t\u1ecd\u0301 la\u0301ti wo\u0300?", "solutions": ["aago \u1ecdw\u1ecd\u0301", "aago ori\u0301"], "example_label": 0, "reasoning": "Both solutions are related to hats, but the goal is to know what is worn on the head. Therefore, \"aago ori\u0301\" (hat) is the correct answer as it specifically addresses what is worn on the head.", "pred_label": "1", "metric": 0}, {"goal": "Or\u00ed ibo ni \u00e0w\u1ecdn Yor\u00f9b\u00e1 ti m\u00e1a n d\u00e1n\u00e1?", "solutions": ["Or\u00ed \u00e0p\u00f3t\u00ed", "Or\u00ed \u00e0r\u00f2"], "example_label": 1, "reasoning": "The goal is to ask about the traditional Yoruba headgear. The correct term for traditional Yoruba headgear is \"Or\u00ed \u00e0p\u00f3t\u00ed,\" not \"Or\u00ed \u00e0r\u00f2.\"", "pred_label": "0", "metric": 0}, {"goal": "T\u00ed mo b\u00e1 f\u1eb9\u0301 k\u00ed il\u00e9 mi tuntun r\u1eb9w\u00e0 n\u00ed \u00e0w\u1ecd\u0300", "solutions": ["M\u00e0\u00e1 lo \u1ecd\u0300d\u00e0 t\u00ed \u00f3 r\u1eb9w\u00e0", "M\u00e0\u00e1 lo \u00ecy\u00e8p\u1eb9\u0300 t\u00ed \u00f3 r\u1eb9\u0300w\u00e0"], "example_label": 0, "reasoning": "Both solutions aim to help achieve the goal of acquiring new furniture for a new house. The first solution, \"\u00abM\u00e0\u00e1 lo \u1ecd\u0300d\u00e0 t\u00ed \u00f3 r\u1eb9w\u00e0\u00bb\" translates to \"I will go to the store that sells furniture,\" while the second solution, \"\u00abM\u00e0\u00e1 lo \u00ecy\u00e8p\u1eb9\u0300 t\u00ed \u00f3 r\u1eb9\u0300w\u00e0\u00bb\" translates to \"I will go to the furniture market.\" In this context, going to a store that sells furniture (solution 1) is a more direct and specific way to acquire new furniture for the new house.", "pred_label": "0", "metric": 1}, {"goal": "K\u00ed ni a l\u00e8 fi gb\u1eb9\u0301 il\u1eb9\u0300?", "solutions": ["J\u00edg\u00e0 ni a l\u00e8 fi gb\u1eb9\u0301 il\u1eb9\u0300", "\u00c0d\u00e1 ni a l\u00e8 fi gb\u1eb9\u0301 il\u1eb9\u0300"], "example_label": 0, "reasoning": "Both solutions are providing options for how to dry a house. The key is to identify the correct and effective way to dry a house based on common practices and safety considerations.", "pred_label": "0", "metric": 1}, {"goal": "K\u00ed ni \u00e0w\u1ecdn \u1ecdm\u1ecd \u00f2k\u00fa m\u00e1a \u0144 j\u1eb9\u0301 l\u1eb9\u0301y\u00ecn ik\u00fa \u00f2b\u00ed w\u1ecdn?", "solutions": ["Og\u00fan ni \u00e0w\u1ecdn \u1ecdm\u1ecd \u00f2k\u00fa m\u00e1a \u0144 j\u1eb9\u0301", "\u00c0m\u00e0l\u00e0 ni \u00e0w\u1ecdn \u1ecdm\u1ecd \u00f2k\u00fa m\u00e1a \u0144 j\u1eb9"], "example_label": 0, "reasoning": "The question is asking for the cause of death among children after their mother's death. Therefore, we need to consider factors related to the death of the children.", "pred_label": "1", "metric": 0}, {"goal": "\u1eb8ran il\u00e9 t\u00ed \u00f3 j\u1eb9\u0301 \u00ecd\u00e0kej\u00ec \u00e0g\u00f9nt\u00e0n", "solutions": ["ni a m\u1ecd\u0300 s\u00ed ew\u00far\u1eb9\u0301", "ni a m\u1ecd\u0300 s\u00ed aj\u00e1"], "example_label": 0, "reasoning": "Both solutions are offering options for a second meat choice to eat alongside the primary meat (\u00ecd\u00e0kej\u00ec \u00e0g\u00f9nt\u00e0n). In Yoruba cuisine, both \"ew\u00far\u1eb9\u0301\" (goat meat) and \"aj\u00e1\" (dog meat) are commonly consumed meats. However, considering safety and cultural norms, it is more advisable to choose \"ew\u00far\u1eb9\u0301\" (goat meat) as it is a more widely accepted and commonly consumed meat in Nigerian and Yoruba cuisine.", "pred_label": "0", "metric": 1}, {"goal": "Ti\u0301 o ba f\u1eb9\u0301 \u1ecd\u0300b\u1eb9 ti\u0301 o\u0301 mu\u0301, ki\u0301ni o\u0301 y\u1eb9 ki\u0301 o \u1e63e", "solutions": ["lo o\u0300kuta la\u0301ti fi p\u1ecd\u0301n \u1eb9nu \u1ecd\u0300b\u1eb9 na\u0301a\u0300", "lo pa\u0301a\u0301li\u0301 la\u0301ti fi p\u1ecd\u0301n \u1eb9nu \u1ecd\u0300b\u1eb9 na\u0301a\u0300"], "example_label": 0, "reasoning": "Both solutions involve using a tool to crush the beans to make the bean paste. It is important to consider the safety, efficiency, and effectiveness of the tools suggested in achieving the goal of making bean paste.", "pred_label": "0", "metric": 1}, {"goal": "B\u00e1wo ni a \u1e63e \u0144 t\u1ecdj\u00fa \u00ecb\u00f9s\u00f9n", "solutions": ["A ma \u0144 t\u1ecd\u0301j\u00fa \u00ecb\u00f9s\u00f9n n\u00edpa s\u00eds\u00f9n le b\u1eb9\u0301\u1eb9\u0300", "A ma \u0144 t\u1ecd\u0301j\u00fa \u00ecb\u00f9s\u00f9n n\u00edpa ti\u0301t\u1eb9 \u1eb9"], "example_label": 1, "reasoning": "Both solutions provided are discussing ways to stay awake during sleep or avoid falling asleep. To choose the better solution, we need to consider the safety and effectiveness of the methods mentioned.", "pred_label": "0", "metric": 0}, {"goal": "K\u00ed t\u00fan ni a l\u00e8 fi \u1e63e \u00eck\u00f2k\u00f2 \u00ecd\u00e1n\u00e1 l\u1eb9\u0301y\u00ecn am\u1ecd\u0300?", "solutions": ["\u00d2k\u00fata ni a t\u00fan le fi \u1e63e \u00eck\u00f2k\u00f2 \u00ecd\u00e1n\u00e1 l\u1eb9\u0301y\u00ecn am\u1ecd\u0300", "Irin ni a t\u00fan le fi \u1e63e \u00eck\u00f2k\u00f2 \u00ecd\u00e1n\u00e1 l\u1eb9\u0301y\u00ecn am\u1ecd\u0300"], "example_label": 1, "reasoning": "Both solutions provide options for making indomie noodles quickly. The key is to choose the correct ingredient that can be used to make the noodles faster.", "pred_label": "0", "metric": 0}, {"goal": "K\u00edni m\u00e0\u00e1 fi nu omi t\u00ed \u00f3 d\u00e0 s\u00edl\u1eb9\u0300 n\u00edn\u00fa il\u00e9?", "solutions": ["A\u1e63\u1ecd in\u00f9l\u1eb9\u0300 t\u00ed \u00f3 gb\u1eb9\u0301 n\u00ed m\u00e0\u00e1 l\u00f2", "A\u1e63\u1ecd \u00ecw\u1ecd\u0300s\u00f9n t\u00ed \u00f3 gb\u1eb9\u0301 n\u00ed m\u00e0\u00e1 l\u00f2"], "example_label": 0, "reasoning": "Both solutions provide washing clothes as a way to dry them inside the house. However, the first solution \"A\u1e63\u1ecd in\u00f9l\u1eb9\u0300 t\u00ed \u00f3 gb\u1eb9\u0301 n\u00ed m\u00e0\u00e1 l\u00f2\" specifically mentions house clothes, which is more natural and relevant to the question compared to the second solution.", "pred_label": "0", "metric": 1}, {"goal": "K\u00ed ni ar\u00e1 n\u01f9kan t\u00ed al\u00e1gb\u1eb9\u0300d\u1eb9 f\u00ed m\u00e1a \u1e63e ohun \u00e8l\u00f2 \u1ecd\u0300\u1e63\u1ecd\u0301?", "solutions": ["Ow\u00fa ni ara n\u01f9kan t\u00ed al\u00e1gb\u1eb9\u0300d\u1eb9 f\u00ed m\u00e1a \u1e63e ohun \u00e8l\u00f2 \u1ecd\u0300\u1e63\u1ecd\u0301", "\u00d2j\u00e9 ni ara n\u01f9kan t\u00ed al\u00e1gb\u1eb9\u0300d\u1eb9 f\u00ed m\u00e1a \u1e63e ohun \u00e8l\u00f2 \u1ecd\u0300\u1e63\u1ecd\u0301"], "example_label": 1, "reasoning": "The goal is asking for the specific thing or tool that a farmer uses to perform a particular task in the farm. We need to choose the answer that correctly identifies this tool.", "pred_label": "0", "metric": 0}, {"goal": "N\u00ed il\u1eb9\u0300 Yor\u00f9b\u00e1 k\u00edni \u1ecdk\u00f9nrin gb\u1ecd\u0301d\u1ecd\u0300 \u1e63e t\u00ed \u00f3 b\u00e1 f\u1eb9\u0301 k\u00ed \u00e0gb\u00e0lagb\u00e0?", "solutions": ["\u1ecck\u00f9nrin gb\u1ecd\u0301d\u1ecd\u0300 s\u00f9n s\u00edl\u1eb9\u0300", "\u1ecck\u00f9nrin gb\u1ecd\u0301d\u1ecd\u0300 d\u1ecd\u0300ba\u0301l\u1eb9\u0300"], "example_label": 1, "reasoning": "Both solutions provided are related to the action of sleeping. We need to determine which one is more appropriate for the scenario described in the goal.", "pred_label": "1", "metric": 1}, {"goal": "Lati di \u1e63i\u0301bi\u0301 mu, o\u0301 y\u1eb9 ki\u0301 n", "solutions": ["lo \u1ecdw\u1ecd\u0301 mi", "lo \u1eb9s\u1eb9\u0300 mi"], "example_label": 0, "reasoning": "The goal is to determine what should be brought to drink water. We need to select the item that is suitable for drinking.", "pred_label": "0", "metric": 1}, {"goal": "Ki\u0301 ni o le \u1e63e lati j\u1eb9 ki \u1ecd\u0300g\u1eb9\u0300de\u0300 do\u0300do\u0300 p\u1ecd\u0301n ki\u0301a\u0301ki\u0301a\u0301?", "solutions": ["t\u1ecd\u0301ju\u0301 r\u1eb9 si\u0301 inu\u0301 \u1eb9\u0300r\u1ecd amo\u0301huntutu\u0300 m\u1ecd\u0301ju\u0301", "t\u1ecd\u0301ju\u0301 r\u1eb9 si\u0301 ibi ti\u0301 o\u0301 mu\u0301 ooru m\u1ecd\u0301ju\u0301"], "example_label": 1, "reasoning": "Both solutions provide steps on how to quickly dry wet clothes, but only one directly addresses the question by focusing on using a fan. The second solution talks about placing the wet clothes where the sun can reach them, which is not as quick as using a fan.", "pred_label": "0", "metric": 0}, {"goal": "T\u00ed \u00e8n\u00ecy\u00e0n b\u00e1 f\u1eb9\u0301 lo \u00f2\u00f2g\u00f9n, k\u00edni y\u00f3\u00f2 fi l\u00f2\u00f3?", "solutions": ["\u1ecct\u00ed ni \u00e8n\u00ecy\u00e0n y\u00f3\u00f2 fi lo \u00f2\u00f2g\u00f9n", "\u1eccm\u00ed ni \u00e8n\u00ecy\u00e0n y\u00f3\u00f2 fi lo \u00f2\u00f2g\u00f9n"], "example_label": 1, "reasoning": "Both solutions are discussing what substance a person will use for medicine. The correct answer should be a substance commonly used for medicine.", "pred_label": "0", "metric": 0}, {"goal": "T\u00ed ap\u1eb9ja b\u00e1 f\u1eb9\u0301 m\u00fa \u1eb9ja l\u00f3d\u00f2, k\u00ed ni y\u00f3\u00f2 l\u00f2?", "solutions": ["P\u00e0k\u00fat\u00e9 ni ap\u1eb9ja y\u00f3\u00f2 l\u00f2 l\u00e1ti m\u00fa \u1eb9ja l\u00f3d\u00f2", "\u00c0w\u1ecd\u0300n ni ap\u1eb9ja y\u00f3\u00f2 l\u00f2 l\u00e1ti m\u00fa \u1eb9ja l\u00f3d\u00f2"], "example_label": 1, "reasoning": "Both solutions provide instructions on how to safely transport fish to the market. In evaluating the options, it is important to consider that \"ap\u1eb9ja\" refers to a wicker basket commonly used to carry goods, including fish. The question asks specifically about the method of transporting fish to the market, so the focus should be on the transportation vessel. The correct answer should specify the container used for transportation.", "pred_label": "0", "metric": 0}, {"goal": "Il\u1eb9\u0300k\u00f9n il\u00e9 t\u00ed a fi \u00e0g\u00e1d\u00e1godo t\u00ec pa", "solutions": ["\u00cc\u1e63\u00f3 ni \u00f3 l\u00e8 s\u00ed i p\u1eb9\u0300l\u00fa \u00ecr\u1ecd\u0300r\u00f9n", "K\u1ecd\u0301k\u1ecd\u0301r\u1ecd\u0301 ni \u00f3 l\u00e8 s\u00ed i p\u1eb9\u0300l\u00fa \u00ecr\u1ecd\u0300r\u00f9n"], "example_label": 1, "reasoning": "Both solutions are providing options for making a wooden door knob last longer.", "pred_label": "0", "metric": 0}, {"goal": "\u00c0j\u1ecd j\u1eb9\u0301 \u1ecd\u0300n\u00e0 t\u00ed \u00e0 \u0144 gb\u00e0 \u1e63e k\u00edni", "solutions": ["\u1ecc\u0300n\u00e0 t\u00ed \u00e0 \u0144 gb\u00e0 t\u1ecd\u0301j\u00fa ow\u00f3", "\u1ecc\u0300n\u00e0 t\u00ed \u00e0 \u0144 gb\u00e0 \u1e63e ay\u1eb9y\u1eb9"], "example_label": 0, "reasoning": "Both solutions are offering different ways of achieving the goal of washing hands. However, the most common and appropriate way to wash hands is by using soap and water, as mentioned in solution 1. Therefore, solution 1 is more relevant and aligned with best practices for hand hygiene.", "pred_label": "0", "metric": 1}, {"goal": "K\u00edni \u00e0w\u1ecdn \u00e0gb\u1eb9\u0300 fi \u0144 ro oko?", "solutions": ["ap\u1eb9\u0300r\u1eb9\u0300 n\u00ed \u00e0w\u1ecdn \u00e0gb\u1eb9\u0300 fi \u0144 ro oko", "\u00c0d\u00e1 n\u00ed \u00e0w\u1ecdn \u00e0gb\u1eb9\u0300 fi \u0144 ro oko"], "example_label": 1, "reasoning": "Both solutions are discussing the tools used by farmers to plow the land. The question is asking for the specific tool used by farmers to plow the land. The correct tool commonly used by farmers to plow the land is the \"ap\u1eb9\u0300r\u1eb9\u0300\" (plow).", "pred_label": "0", "metric": 0}, {"goal": "K\u00ed ni ohun \u00e0 \u0144 pe ak\u00e8r\u00e8gb\u00e8 t\u00ed a s\u00edn n\u00ed \u00ecl\u1eb9\u0300k\u1eb9\u0300?", "solutions": ["S\u00e1k\u00e1r\u00e0 ni \u00e0 \u0144 pe ak\u00e8r\u00e8gb\u00e8 t\u00ed a s\u00edn n\u00ed \u00ecl\u1eb9\u0300k\u1eb9\u0300", "\u1e62\u1eb9\u0300k\u1eb9\u0300r\u1eb9\u0300 ni \u00e0 \u0144 pe ak\u00e8r\u00e8gb\u00e8 t\u00ed a s\u00edn n\u00ed \u00ecl\u1eb9\u0300k\u1eb9\u0300"], "example_label": 1, "reasoning": "The goal is asking for the name of the musical instrument we play in the church. Therefore, we need to identify the correct term for the specific musical instrument mentioned.", "pred_label": "1", "metric": 1}, {"goal": "Ew\u00e9 wo ni a maa n\u0301 j\u00e1 l\u00e9 ol\u00f3y\u00e8 titun n\u00ed or\u00ed", "solutions": ["Ew\u00e9 \u1ecd\u0300g\u1eb9\u0300d\u1eb9\u0300 ni a m\u00e1 j\u00e1 l\u00e9 ol\u00f3y\u00e8 titun n\u00ed or\u00ed", "Ew\u00e9 ak\u00f2ko ni a m\u00e1 \u0144 j\u00e1 l\u00e9 ol\u00f3y\u00e8 titun n\u00ed or\u00ed"], "example_label": 1, "reasoning": "Both solutions provide different types of leaves that can be used to welcome a new baby into the family. The goal is asking for the specific type of leaf to be used in this context.", "pred_label": "0", "metric": 0}, {"goal": "L\u00e1ti f\u1ecd ab\u1ecd\u0301 k\u00ed\u00e1k\u00ed\u00e1 ni ay\u00e9 \u00f2de-\u00f2n\u00ed, k\u00ed ni m\u00e0\u00e1 l\u00f2?", "solutions": ["\u1eb8\u0300r\u1ecd \u00ecf\u1ecdb\u1ecd\u0301 ni mo m\u00e1a l\u00f2", "\u1eb8\u0300r\u1ecd \u00ecf\u1ecd\u1e63\u1ecd ni mo m\u00e1a l\u00f2"], "example_label": 0, "reasoning": "\"\u1eb8\u0300r\u1ecd \u00ecf\u1ecdb\u1ecd\u0301\" w\u00f2\u00f3 n\u00edn\u00fa \u00e0w\u1ecdn \u1eb9\u0300r\u1ecd \u00ecf\u1ecd\u1e63\u1ecd t\u00ed won r\u1eb9 f\u00fan b\u1eb9. \u1eb8\u0300r\u1ecd \u00ecf\u1ecdb\u1ecd\u0301 jinde bosi ofo n\u00edn\u00fa \u00f2de-\u00f2n\u00ed, n\u00edtor\u00ed n\u00e1\u00e0 n\u00edb\u00e8\u00e8\u00e8 ni m\u00e0\u00e1 l\u1ecd.", "pred_label": "1", "metric": 0}, {"goal": "T\u00ed ar\u00e1 mi k\u00f2 b\u00e1 y\u00e1, k\u00ed ni mo ma l\u00f2?", "solutions": ["O\u00fanj\u1eb9 n\u00ed mo ma l\u00f2", "\u00d2g\u00f9n ni mo ma l\u00f2"], "example_label": 1, "reasoning": "The goal is asking for what the person will do if their child is sick. The options provided are:\n1. \"O\u00fanj\u1eb9 n\u00ed mo ma l\u00f2\" (I will go get food)\n2. \"\u00d2g\u00f9n ni mo ma l\u00f2\" (I will go get medicine)", "pred_label": "1", "metric": 1}, {"goal": "A\u1e63\u1ecd taani b\u00f9b\u00e1 \u00e0ti \u1e63\u00f3k\u00f3t\u00f3 j\u1eb9\u0301 n\u00ed il\u1eb9\u0300 Yor\u00f9b\u00e1?", "solutions": ["A\u1e63\u1ecd Ob\u00ecnrin ni b\u00f9b\u00e1 \u00e0ti \u1e63\u00f3k\u00f3t\u00f3 j\u1eb9\u0301 n\u00ed il\u1eb9\u0300 Yor\u00f9b\u00e1", "A\u1e63\u1ecd \u1ecck\u00f9nrin ni b\u00f9b\u00e1 \u00e0ti \u1e63\u00f3k\u00f3t\u00f3 j\u1eb9\u0301 n\u00ed il\u1eb9\u0300 Yor\u00f9b\u00e1"], "example_label": 1, "reasoning": "Both solutions correctly identify the clothing items that make up a traditional Yoruba outfit. The key difference lies in the gender specification of the clothing items. It is important to note that the gender specification in the Yoruba language is crucial when describing clothing items.", "pred_label": "0", "metric": 0}, {"goal": "ki\u0301ni a maa\u0301 n\u0301 fi se\u0301 a\u0300dir\u1eb9", "solutions": ["a maa\u0301 n\u0301 fi as\u1ecd a\u0300ti \u1ecds\u1eb9 se\u0301 a\u0300dir\u1eb9", "a maa\u0301 n\u0301 fi as\u1ecd a\u0300ti aro\u0301 se\u0301 a\u0300dir\u1eb9"], "example_label": 1, "reasoning": "The goal is asking about what materials will be used to make a dress. The key is to identify the correct items used in making a dress in Yoruba culture.", "pred_label": "0", "metric": 0}, {"goal": "\u00c8so t\u00ed \u00f3 d\u00e1ra lati j\u1eb9\u0301 f\u00fan \u00e0\u00ecs\u00f9n ni k\u00ed ni?", "solutions": ["\u00c0gb\u00e0do", "Or\u00f3gb\u00f3"], "example_label": 1, "reasoning": "Both \"\u00c0gb\u00e0do\" and \"Or\u00f3gb\u00f3\" are suitable options for making a delicious meal with yam.", "pred_label": "0", "metric": 0}, {"goal": "B\u00e1wo ni a \u1e63e \u0144 k\u00edni n\u00ed \u00e0\u00e1r\u1ecd\u0300?", "solutions": ["\u1eb8k\u00e1\u00e0\u00e1r\u1ecd\u0300 ni \u00e0 \u0144 k\u00edni n\u00ed \u00e0\u00e1r\u1ecd\u0300 n\u00ed il\u1eb9\u0300 Yor\u00f9b\u00e1", "\u1eb8k\u00e1al\u1eb9\u0301 ni \u00e0 \u0144 k\u00edni n\u00ed \u00e0\u00e1r\u1ecd\u0300 n\u00ed il\u1eb9\u0300 Yor\u00f9b\u00e1"], "example_label": 0, "reasoning": "Both solutions provide options for what is used in place of toilet paper in Yoruba land. The correct term for toilet paper in Yoruba is \"\u1eb9k\u00e1\u00e0\u00e1r\u1ecd\u0300,\" and solution 1 correctly identifies this term. Therefore, solution 1 is more accurate and relevant to the question.", "pred_label": "0", "metric": 1}, {"goal": "ki\u0301 ni o le \u1e63e lati j\u1eb9\u0301 ki\u0301 o\u0300o\u0301ru\u0300n \u1eb9ja ku\u0301ro\u0300 ni\u0301 \u1ecdw\u1ecd\u0301 r\u1eb9?", "solutions": ["fi\u0301 epo ra \u1ecdw\u1ecd\u0301 r\u1eb9, ki\u0301 o si\u0300 sa\u0300n-a\u0301n", "fi\u0301 \u1ecdsa\u0300n w\u1eb9\u0301w\u1eb9\u0301 ra \u1ecdw\u1ecd\u0301 r\u1eb9, ki\u0301 o si\u0300 sa\u0300n-a\u0301n"], "example_label": 1, "reasoning": "Both solutions provide a way to prevent fish odor on hands. The first solution suggests using palm oil, while the second solution suggests using powdered alum.", "pred_label": "0", "metric": 0}, {"goal": "I\u0300ka wo ni w\u1ecd\u0301n maa\u0301 n\u0301 fi o\u0300ru\u0300ka i\u0300gbe\u0301ya\u0300wo\u0301 si\u0301?", "solutions": ["o\u0300ru\u0300ka\u0301 y\u1eb9mi\u0301 ni\u0301 \u1ecdw\u1ecd\u0301 o\u0300si\u0300", "o\u0300ru\u0300ka\u0301 y\u1eb9mi\u0301 ni\u0301 \u1ecdw\u1ecd\u0301 \u1ecd\u0300tu\u0301n"], "example_label": 0, "reasoning": "Both solutions are providing different locations for where the rope will be tied. The correct answer should directly answer the question by stating the specific location.", "pred_label": "0", "metric": 1}, {"goal": "Ki\u0301ni o le\u0300 lo r\u1ecd\u0301p\u1ecd\u0300 \u1ecdm\u1ecd ayo\u0300 ni\u0301gba ti\u0301 o ba\u0301 n\u0301 ta\u0301 ayo\u0300 \u1ecdl\u1ecd\u0301p\u1ecd\u0301n", "solutions": ["Lo a\u0300w\u1ecdn o\u0300kuta w\u1eb9\u0301w\u1eb9\u0301", "Lo a\u0300w\u1ecdn o\u0300kuta ti\u0301 o to\u0301bi"], "example_label": 0, "reasoning": "The goal is asking what to do when washing colorful clothes to prevent color bleeding. We need to choose the solution that provides the best practice for washing colorful clothes to prevent colors from bleeding.", "pred_label": "1", "metric": 0}, {"goal": "K\u00ed ni \u00e0gb\u1eb9\u0300 m\u00e1a \u0144 fi ka \u1ecds\u00e0n ni or\u00ed igi", "solutions": ["D\u00f2j\u00e9 ni \u00e0gb\u1eb9\u0300 m\u00e1a \u0144 fi k\u00e1 \u1ecds\u00e0n n\u00ed or\u00ed igi", "\u1ecc\u0300k\u1ecd\u0300 ni \u00e0gb\u1eb9\u0300 m\u00e1a \u0144 fi k\u00e1 \u1ecds\u00e0n n\u00ed or\u00ed igi"], "example_label": 0, "reasoning": "The goal is asking for the tool used to tap palm wine from a tree. We need to choose the answer that correctly identifies the tool used in this process.", "pred_label": "0", "metric": 1}, {"goal": "ki\u0301ni o\u0301 y\u1eb9 ki\u0301 e\u0300ni\u0300yan\u0300 fi we\u0301 \u1ecdru\u0300n r\u1eb9 ni\u0301 i\u0300gba\u0300 o\u0300tu\u0301tu\u0300?", "solutions": ["a\u1e63\u1ecd i\u0300nuju\u0301", "a\u1e63\u1ecd o\u0300ke\u0300/ a\u1e63\u1ecd i\u0300boru\u0300n"], "example_label": 1, "reasoning": "The goal is asking for what clothing is suitable for wearing in cold weather. We need to evaluate which of the two solutions provides appropriate clothing for cold weather.", "pred_label": "1", "metric": 1}, {"goal": "\u00ccr\u00f3 \u00e0ti b\u00f9b\u00e1 j\u1eb9\u0301 a\u1e63\u1ecd t\u00ed a m\u1ecd\u0300 m\u1ecd\u0301 \u00e0w\u1ecdn wo?", "solutions": ["\u00d3j\u1eb9\u0301 a\u1e63\u1ecd t\u00ed a m\u1ecd\u0300 m\u1ecd\u0301 \u00e0w\u1ecdn \u1ecdk\u00f9nrin n\u00ed il\u1eb9\u0300 Yor\u00f9b\u00e1", "\u00c0w\u1ecdn ob\u00ecnrin n\u00ed il\u1eb9\u0300 Yor\u00f9b\u00e1 ni a m\u1ecd \u00ecr\u00f3 \u00e0ti b\u00f9b\u00e1 m\u1ecd\u0301"], "example_label": 1, "reasoning": "Both solutions provide information about the traditional Yoruba attire, including the iro and buba. However, Solution 1 is more direct and specific in answering the question by stating \"\u00d3j\u1eb9\u0301 a\u1e63\u1ecd t\u00ed a m\u1ecd\u0300 m\u1ecd\u0301 \u00e0w\u1ecdn \u1ecdk\u00f9nrin n\u00ed il\u1eb9\u0300 Yor\u00f9b\u00e1\" which means \"Clothing worn by men in Yorubaland.\" This response directly addresses the question of which gender wears the attire in Yorubaland.", "pred_label": "0", "metric": 0}, {"goal": "Iru\u0301 a\u1e63\u1ecd wo ni o y\u1eb9 lati fi nu a\u0300wo oju r\u1eb9", "solutions": ["A\u1e63o i\u0300nul\u1eb9\u0300", "A\u1e63\u1ecd i\u0300nuju\u0301"], "example_label": 1, "reasoning": "Both solutions are related to washing clothing, but the goal is specifically about how to wash the face towel. Solution 1, \"A\u1e63o i\u0300nul\u1eb9\u0300,\" directly translates to \"face towel,\" which is the correct and precise term for the item in question. On the other hand, Solution 2, \"A\u1e63\u1ecd i\u0300nuju\u0301,\" does not specifically refer to a face towel but rather to washing clothes in general without the focus on face towels.", "pred_label": "0", "metric": 0}, {"goal": "K\u00ed ni n\u01f9kan t\u00ed \u00e8n\u00ecy\u00e0n m\u00e1a w\u00f2 l\u00e1ti r\u00ed ara r\u1eb9\u0300 n\u00edgb\u00e0 t\u00ed \u00f3 b\u00e1 m\u00fara t\u00e1n?", "solutions": ["D\u00edg\u00ed ni \u00e8n\u00ecy\u00e0n m\u00e1a w\u00f2", "\u00d2giri ni \u00e8n\u00ecy\u00e0n m\u00e1a w\u00f2"], "example_label": 0, "reasoning": "Both solutions are addressing the question of what material a person should wear to protect their body when it gets hot. The Yoruba word for \"clothes\" is \"d\u00edg\u00ed,\" while \"\u00f2giri\" refers to \"garmenst.\" In this context, the more appropriate and common term to use when referring to what a person should wear to protect their body from heat is \"d\u00edg\u00ed,\" which directly translates to clothes.", "pred_label": "0", "metric": 1}, {"goal": "K\u00edni \u00e0 \u0144 l\u00f2 d\u00edp\u00f2 \u00e0\u00e0r\u00f2 n\u00ed ay\u00e9 \u00f2de \u00f2ni", "solutions": ["\u00c0d\u00f2g\u00e1n ni \u00e0 \u0144 l\u00f2 d\u00edp\u00f2 \u00e0\u00e0r\u00f2 n\u00ed ay\u00e9 \u00f2de \u00f2ni", "G\u00e1\u00e0s\u00ec ni \u00e0 \u0144 l\u00f2 d\u00edp\u00f2 \u00e0\u00e0r\u00f2 n\u00ed ay\u00e9 \u00f2de \u00f2ni"], "example_label": 1, "reasoning": "Both solutions provide different answers to the question of what is commonly used for fishing in the river today. Solution 1 states \"\u00c0d\u00f2g\u00e1n ni \u00e0 \u0144 l\u00f2 d\u00edp\u00f2 \u00e0\u00e0r\u00f2 n\u00ed ay\u00e9 \u00f2de \u00f2ni\" (Canoe is what is commonly used for fishing in the river today), while solution 2 states \"G\u00e1\u00e0s\u00ec ni \u00e0 \u0144 l\u00f2 d\u00edp\u00f2 \u00e0\u00e0r\u00f2 n\u00ed ay\u00e9 \u00f2de \u00f2ni\" (Kayak is what is commonly used for fishing in the river today). To determine the better answer, we need to consider the most common and accurate traditional practice for fishing in the river.", "pred_label": "0", "metric": 0}, {"goal": "Ti\u0301 \u1ecd\u0300na\u0300 \u1ecd\u0300fun r\u1eb9 ba\u0301 n dun \u1ecd, ki\u0301 ni o le\u0300 \u1e63e?", "solutions": ["po omi gb\u1ecd\u0301na pe\u0300lu\u0301 oyin a\u0300ti o\u0300ro\u0300nbo\u0301 ki\u0301kan, ki\u0301 o si\u0300 mu u\u0301", "po omi gb\u1ecd\u0301na pe\u0300lu\u0301 a\u0300a\u0301du\u0300n a\u0300ti o\u0300ro\u0300nbo\u0301 ki\u0301kan, ki\u0301 o si\u0300 mu u\u0301"], "example_label": 0, "reasoning": "Both solutions involve adding honey and lemon juice to warm water before drinking it. The key difference lies in the type of additional ingredient used: solution 1 suggests adding ginger, while solution 2 suggests adding garlic.", "pred_label": "0", "metric": 1}, {"goal": "N\u00edgb\u00e0 t\u00ed a b\u00e1 f\u1eb9\u0301 \u1e63e \u1ecdb\u1eb9\u0300 ol\u00fa,", "solutions": ["Ol\u00fa ni \u00f3 d\u00e1ra j\u00f9l\u1ecd n\u00ed \u00e8r\u00f2j\u00e0", "<NO_ANSWER>"], "example_label": 0, "reasoning": "The goal is to know the appropriate time to cook vegetable soup. Solution 1 directly addresses the question by stating that it is best to cook the soup during the rainy season. Solution 2 does not provide any answer to the question.", "pred_label": "0", "metric": 1}, {"goal": "A\u1e63\u1ecd w\u00edw\u1ecd\u0300 w\u00e0 f\u00fan k\u00edni?", "solutions": ["Oge s\u00ed\u1e63e ni a\u1e63\u1ecd w\u00edw\u1ecd\u0300 w\u00e0 f\u00fan", "\u00e0r\u00e0 d\u00edd\u00e1 ni a\u1e63\u1ecd w\u00edw\u1ecd\u0300 w\u00e0 f\u00fan"], "example_label": 0, "reasoning": "Both solutions are providing descriptions of the color of the clothes, but the goal is specifically asking for the type of clothing material. Solution 1 talks about silk material, while solution 2 mentions cotton material. Therefore, solution 2 directly answers the question by stating that the clothes are made of cotton material.", "pred_label": "1", "metric": 0}, {"goal": "K\u00edni a m\u00e1a \u0144 ta l\u00f3j\u00fa ogun g\u1eb9\u0301g\u1eb9\u0301 b\u00edi n\u01f9kan \u00ecj\u00e0?", "solutions": ["\u1eccr\u00fan ni a m\u00e1a \u0144 ta l\u00f3j\u00fa ogun g\u1eb9\u0301g\u1eb9\u0301 b\u00edi n\u01f9kan \u00ecj\u00e0", "\u1eccf\u00e0 ni a m\u00e1a \u0144 ta l\u00f3j\u00fa ogun g\u1eb9\u0301g\u1eb9\u0301 b\u00edi n\u01f9kan \u00ecj\u00e0"], "example_label": 1, "reasoning": "\u1eccr\u00fan ati \u1ecdf\u00e0 nikan ni aw\u1ecdn agbara t\u00ed a le b\u00e1 wa se n\u00ed il\u00e9 Yor\u00f9b\u00e1. L\u00e8hin ti a \u1e63e l\u00f3j\u00fa ogun b\u00edi n\u01f9kan \u00ecj\u00e0, \u1ecdr\u00fan ti wa ni im\u1ecd t\u00ed a le pa \u00e8mi b\u00edi \u00ecj\u00e0. L\u00f3 \u1e63e b\u1eb9\u0301\u1eb9\u0300 n\u00edbi ibi to b\u00e1 gba \u00e8mi \u00ecj\u00e0 s\u00ed. \u1eccf\u00e0 l\u00e1ra k\u00e9k\u00e8k\u00e9 \u0144 b\u1ecd n\u00edgb\u00e0 to b\u00e1 ti t\u1ecdj\u00fa dide r\u1eb9. Ni \u00ecl\u00e0-\u1eb9k\u1ecd, \u1ecdf\u00e0 ni a m\u00e1a \u0144 p\u1ecd ni l\u00f3j\u00fa ogun g\u1eb9\u0301g\u1eb9\u0301 b\u00edi n\u01f9kan \u00ecj\u00e0 n\u00ed il\u00e9 Yor\u00f9b\u00e1.", "pred_label": "0", "metric": 0}, {"goal": "K\u00edni \u1eb9\u0300r\u1ecd \u00ecgb\u00e0l\u00f3d\u00e9 ti \u00f3 \u0144 m\u00fa \u01f9kan tut\u00f9", "solutions": ["\u00cck\u00f2k\u00f2 j\u1eb9\u0301 ohun \u00e8l\u00f2 \u00ecgb\u00e0l\u00f3d\u00e9 t\u00ed \u00f3 \u0144 m\u00fa \u01f9kan tut\u00f9", "\u1eb8\u0300r\u1ecd am\u00fa \u01f9kan tut\u00f9 j\u1eb9\u0301 ohun \u00e8l\u00f2 \u00ecgb\u00e0l\u00f3d\u00e9 t\u00ed \u00f3 \u0144 m\u00fa \u01f9kan tut\u00f9"], "example_label": 1, "reasoning": "Both solutions correctly identify the cold milk as the thing that the refrigerator in the market sells. Solution 1 is more direct and succinct in stating this fact without unnecessary repetition.", "pred_label": "0", "metric": 0}, {"goal": "Ibo ni mo ti l\u00e8 gb\u00e0 ow\u00f3 p\u1eb9\u0300l\u00fa k\u00e1\u00e0d\u00ec \u00ecy\u1ecdw\u00f3?", "solutions": ["\u1eb8nu \u1eb8\u0300r\u1ecd-\u00ecl\u00e9w\u1ecd\u0301", "\u1eb8nu \u1eb8\u0300r\u1ecd-ap\u1ecdw\u00f3"], "example_label": 1, "reasoning": "Both solutions are related to banking and ATMs. The goal is to know which one can be used to withdraw money with a debit card.", "pred_label": "1", "metric": 1}, {"goal": "N\u00edgb\u00e0t\u00ed \u00e0w\u1ecdn \u1ecdk\u00f9nrin b\u00e1 g\u1eb9 f\u00ecl\u00e0 n\u00ed il\u1eb9\u0300 Yor\u00f9b\u00e1 k\u00edni \u00e0w\u1ecdn ob\u00ecnrin y\u00f3\u00f2 w\u00e9?", "solutions": ["\u00c0w\u1ecdn ob\u00ecnrin y\u00f3\u00f2 w\u00e9 g\u00e8l\u00e8 n\u00edgb\u00e0t\u00ed \u00e0w\u1ecdn \u1ecdk\u00f9nrin b\u00e1 g\u1eb9 f\u00ecl\u00e0 n\u00ed il\u1eb9\u0300 Yor\u00f9b\u00e1", "\u00c0w\u1ecdn ob\u00ecnrin y\u00f3\u00f2 w\u00e9 F\u00ecl\u00e0 n\u00edgb\u00e0t\u00ed \u00e0w\u1ecdn \u1ecdk\u00f9nrin b\u00e1 g\u1eb9\u0300 f\u00ecl\u00e0 n\u00ed il\u1eb9\u0300 Yor\u00f9b\u00e1"], "example_label": 0, "reasoning": "Both solutions provide instructions on what women should do when men prostrate in Yorubaland. We need to choose the solution that is clearer, more idiomatic, and matches the question's structure.", "pred_label": "0", "metric": 1}, {"goal": "ki\u0301ni o\u0301 y\u1eb9 ka\u0301 fi si\u0301 ewe\u0301du\u0301 ko\u0301 le\u0300 y\u1ecd\u0300 fu\u0300n ji\u0300ja\u0300 daa\u0301daa?", "solutions": ["o y\u1eb9 ka\u0301 fi k\u00e1n-\u00fan si\u0301 i", "o y\u1eb9 ka\u0301 fi epo pupa si\u0301 i"], "example_label": 0, "reasoning": "Both solutions involve adding ingredients to the food (ew\u00e9d\u00fa soup) to make it more delicious. The goal is to determine which ingredient is better suited for achieving the desired outcome of making the soup tasty and enjoyable.", "pred_label": "1", "metric": 0}, {"goal": "\u1ecck\u00e0n p\u00e0t\u00e0k\u00ec n\u00ed y\u00e0r\u00e1 \u00ecj\u1eb9un ni", "solutions": ["P\u00e1t\u00e1k\u00f3 j\u1eb9\u0301 f\u00fan \u00e8n\u00ecy\u00e0n", "T\u00e1b\u00ecl\u00ec j\u1eb9\u0301 f\u00fan \u00e8n\u00ecy\u00e0n"], "example_label": 1, "reasoning": "The goal is asking for a specific item used for eating. The correct answer should directly provide a utensil used for eating.", "pred_label": "0", "metric": 0}, {"goal": "Kini \u1ecdna ailewu lati b\u1ecd\u0301 l\u1eb9\u0300 kuro ninu \u1ecdk\u1ecd o\u0300furufu\u0301 l\u1eb9\u0301hi\u0300n ti\u0301 o ba\u0301 bal\u1eb9\u0300?", "solutions": ["Di\u0300de l\u1eb9\u0301s\u1eb9\u0300k\u1eb9s\u1eb9\u0300, gbe\u0301 a\u0300po\u0300 r\u1eb9, ki\u0301 o si sa\u0301re\u0301 jade", "\u1e62e su\u0300u\u0301ru\u0300, ki\u0301 o si r\u1ecdra te\u0300le\u0301 i\u0300la\u0300na\u0300"], "example_label": 1, "reasoning": "Both solutions provide steps on how to clean the inside of a microwave after spilling something inside. Solution 1 advises to clean immediately by wiping with a cloth and airing it out, while solution 2 suggests letting it cool down first and then wiping it clean with a soft sponge.", "pred_label": "0", "metric": 0}, {"goal": "Tani ol\u00f3r\u00ed agbool\u00e9?", "solutions": ["Ol\u00f3r\u00ed \u1eb9b\u00ed n\u00ed ol\u00f3r\u00ed agbool\u00e9", "Ol\u00f3r\u00ed agbool\u00e9 ni B\u00e0b\u00e1 il\u00e9"], "example_label": 0, "reasoning": "Both solutions provide information about the head of the household, but only solution 2 directly answers the question by stating \"Ol\u00f3r\u00ed agbool\u00e9 ni B\u00e0b\u00e1 il\u00e9,\" which means \"The head of the household is the father of the house.\"", "pred_label": "1", "metric": 0}, {"goal": "La\u0301ti le\u0300 m\u1ecd\u0300 bo\u0301ya\u0301 i\u0300b\u1eb9\u0301p\u1eb9 ti p\u1ecd\u0301n?", "solutions": ["R\u1ecdra t\u1eb9 aw\u1ecd ara i\u0300b\u1eb9\u0301pe na\u0301a\u0300", "R\u1ecdra fi i\u0300\u1e63o\u0301 gu\u0301n i\u0300b\u1eb9\u0301p\u1eb9 na\u0301a\u0300"], "example_label": 0, "reasoning": "Both solutions are offering ways to quickly dry wet shoes. Solution 1 suggests gently drying the shoes with a cloth, while Solution 2 recommends stuffing the wet shoes with newspaper.", "pred_label": "1", "metric": 0}, {"goal": "Lati se \u1eb9yin, e\u0300wo ni\u0301nu\u0301 a\u0300w\u1ecdn i\u0300gbe\u0301s\u1eb9\u0300 w\u1ecd\u0300nyi\u0301 ni o\u0301 y\u1eb9 ki\u0301 o t\u1eb9\u0300le?", "solutions": ["fi \u1eb9yin si\u0301nu omi, gbe\u0301 e ka na\u0301, si\u0300 j\u1eb9\u0301 ki\u0301 o se fun bi i\u0300\u1e63\u1eb9ju\u0301 m\u1eb9\u0301wa\u0300a\u0301", "fi \u1eb9yin si\u0301nu o\u0300roro\u0301, gbe\u0301 e ka na\u0301, si\u0300 j\u1eb9\u0301 ki\u0301 o se fun bi i\u0300\u1e63\u1eb9ju\u0301 m\u1eb9\u0301wa\u0300a\u0301"], "example_label": 0, "reasoning": "Both solutions provide a similar approach to achieving the goal by soaking the shoes in water and wearing them to stretch. The key difference lies in the soaking liquid: solution 1 suggests soaking in water, while solution 2 suggests soaking in salt water. Soaking shoes in plain water is a safer and more standard approach compared to using salt water, as salt water can potentially damage certain shoe materials.", "pred_label": "0", "metric": 1}, {"goal": "K\u00edni \u00e0 \u0144 \u1e63e n\u00ed ay\u1eb9y\u1eb9 \u00ecgb\u00e9y\u00e0w\u00f3?", "solutions": ["\u00c0 \u0144 m\u00fa in\u00fa ara wa d\u00f9n", "\u00c0 \u0144 so \u1ecdk\u00f9nrin \u00e0ti ob\u00ecnrin pap\u1ecd\u0300 l\u00e1ti di t\u1ecdk\u1ecdtaya"], "example_label": 1, "reasoning": "The goal is asking for what is done at a wedding. We need to evaluate both solutions based on their relevance to wedding activities in Yoruba culture.", "pred_label": "0", "metric": 0}, {"goal": "La\u0301ti di\u0301n di\u0301da\u0301n oju\u0301 re ku\u0300 \u1e63a\u0301aju yi\u0300ya foto, o\u0301 da ki\u0301 o", "solutions": ["fi e\u0300e\u0301ru\u0301 pa oju\u0301 a\u0300ti \u1eb9k\u1eb9\u0301 r\u1eb9 f\u1eb9\u0301r\u1eb9\u0301f\u1eb9\u0301", "fi a\u0300ti\u0301ke\u0300 pa oju\u0301 a\u0300ti \u1eb9k\u1eb9\u0301 r\u1eb9 f\u1eb9\u0301r\u1eb9\u0301f\u1eb9\u0301"], "example_label": 1, "reasoning": "The goal is to find the best way to make the face towel and sponge dry quickly after washing. We need to evaluate both solutions based on their effectiveness in achieving this goal.", "pred_label": "1", "metric": 1}, {"goal": "\u00d2we p\u00edpa w\u1ecd\u0301p\u1ecd\u0300 l\u00e1\u00e0\u00e1r\u00edn \u00e0w\u1ecdn wo?", "solutions": ["\u00c0\u00e0r\u00edn \u00e0w\u1ecdn \u00c0gb\u00e0lagb\u00e0", "\u00c0\u00e0r\u00edn \u00e0w\u1ecdn \u1ecdm\u1ecdde\u0301"], "example_label": 0, "reasoning": "The goal is asking for \"the list of elders.\" We need to choose the answer that directly addresses the request for a list of elders.", "pred_label": "0", "metric": 1}, {"goal": "N\u00edbo ni \u00e0s\u00ec\u00e1 m\u00e1a \u0144 k\u1ecd s\u00ed n\u00edgb\u00e0 t\u00ed af\u1eb9\u0301f\u1eb9\u0301 \u0144 f\u1eb9\u0301?", "solutions": ["\u00c0s\u00ec\u00e1 m\u00e1a \u0144 k\u1ecd s\u00ed ibi t\u00ed af\u1eb9\u0301f\u1eb9\u0301 \u0144 l\u1ecd s\u00ed", "\u00c0s\u00ec\u00e1 m\u00e1a \u0144 k\u1ecd s\u00ed ibi t\u00ed af\u1eb9\u0301f\u1eb9\u0301 ti w\u00e1."], "example_label": 0, "reasoning": "Both solutions provide a response to the question about where the cat will go when it wants to sleep. Solution 1 states, \"The cat will go to where the breeze is heading,\" which is relevant and specific to the question. On the other hand, Solution 2 states, \"The cat will go to where the breeze has arrived,\" which is slightly less direct and specific. Therefore, Solution 1 seems to be a better answer based on its directness and relevance.", "pred_label": "0", "metric": 1}, {"goal": "Ti\u0301 o ba f\u1eb9\u0301 gu\u0301n iya\u0301n, ki\u0301ni o\u0301 y\u1eb9 ki\u0301 o k\u1ecd\u0301k\u1ecd\u0301 \u1e63e?", "solutions": ["B\u1eb9 i\u1e63u na\u0301a\u0300 ki\u0301 o si\u0300 se\u0300 e\u0301", "B\u1eb9 i\u1e63u na\u0301a\u0300 ki\u0301 o si\u0300 gun la\u0301i\u0300 se\u0300 e\u0301"], "example_label": 0, "reasoning": "The goal is asking for the proper way to pound yam. In Yoruba culture, pounding yam is a traditional way of preparing the food. The correct way to pound yam is to pound it until it becomes smooth and stretchy. Therefore, the solution that advises to pound the yam until it becomes smooth and stretchy will be the better answer.", "pred_label": "0", "metric": 1}, {"goal": "T\u00ed oj\u00fa b\u00e1 \u0144 dun \u00e8n\u00ecy\u00e0n t\u00ed k\u00f2 s\u00ec r\u00edna d\u00e1ad\u00e1a , k\u00ed ni d\u00f3k\u00edt\u00e0 y\u00f3\u00f2 p\u00e8s\u00e8 f\u00fan un?", "solutions": ["D\u00edg\u00ed ni d\u00f3k\u00edt\u00e0 y\u00f3\u00f2 p\u00e8s\u00e8 f\u00fan un", "Aw\u00f2 ni d\u00f3k\u00edt\u00e0 y\u00f3\u00f2 p\u00e8s\u00e8 f\u00fan un."], "example_label": 1, "reasoning": "The goal is asking for what a doctor will prescribe for someone whose eyes are not feeling well and needs to bring relief. We need to consider the natural remedy for eye discomfort.", "pred_label": "0", "metric": 0}, {"goal": "B\u00e1wo ni a \u1e63e le gb\u1eb9\u0301 k\u00e0\u01f9ga f\u00fan am\u00f9 l\u00edl\u00f2?", "solutions": ["A \u00f3 gb\u1eb9 n\u00ed \u00f2b\u00ecr\u00eck\u00ect\u00ec/\u00f2b\u00edr\u00edpo", "A \u00f3 gb\u1eb9 n\u00ed on\u00edgun m\u1eb9\u0301ta"], "example_label": 0, "reasoning": "Both solutions provide ways to dry clothes, but one mentions using a washing line (\u00f2b\u00ecr\u00eck\u00ect\u00ec/\u00f2b\u00edr\u00edpo) while the other mentions using three pegs (on\u00edgun m\u1eb9\u0301ta). The more common and traditional method of drying clothes is using a washing line with clothes pegs, so this is the preferred solution.", "pred_label": "0", "metric": 1}, {"goal": "Ki\u0301ni ohun ti\u0301 a tu\u0301n le\u0300 fi p\u1ecd\u0301n \u1eb9\u0300ba\u0300 ni\u0301gba\u0300 ti\u0301 ko\u0300 ba\u0301 si\u0301 i\u0300gba\u0301k\u1ecd?", "solutions": ["a le\u0300 lo fi\u0300la\u0300", "a le\u0300 lo si\u0301bi\u0301"], "example_label": 1, "reasoning": "Both solutions are talking about ways to prevent a chair from falling when not in use. Solution 1 suggests using a cloth to cover it, while Solution 2 suggests leaning it against a wall.", "pred_label": "1", "metric": 1}, {"goal": "K\u00ed l\u00f3 m\u00e1a \u0144 \u1e63\u1eb9l\u1eb9\u0300 s\u00ed omi t\u00ed a b\u00e1 fi s\u00edn\u00fa \u1eb9\u0300r\u1ecd amo\u0301huntutu\u0300?", "solutions": ["Omi n\u00e1\u00e0 y\u00f3\u00f2 di y\u00ecny\u00edn", "Omi n\u00e1\u00e0 y\u00f3\u00f2 di gbi\u0301gbo\u0301na\u0301"], "example_label": 0, "reasoning": "Both solutions are suggesting what will happen to the water after adding detergent. The goal is to determine the correct outcome when detergent is added to soapy water. We need to choose the solution that accurately describes what happens when detergent is added to soapy water.", "pred_label": "1", "metric": 0}, {"goal": "Ti\u0301 i\u0300\u1e63o\u0301 ba n y\u1ecd la\u0301ra tabili r\u1eb9,", "solutions": ["fi i\u0300ka\u0300n\u1e63o lu\u0300 u\u0301 pada\u0300 si\u0301nu tabili", "fi \u1e63i\u0301bi\u0301 lu\u0300 u\u0301 pada\u0300 si\u0301nu tabili"], "example_label": 0, "reasoning": "Both solutions involve putting something back into the drawer. Solution 1 suggests putting the toothpaste back in the drawer, while solution 2 suggests putting the brush back. We need to consider which item is more appropriate to put back in the drawer after its use.", "pred_label": "0", "metric": 1}, {"goal": "P\u00e0t\u1eb9\u0301w\u1ecd\u0301 j\u1eb9\u0301 ir\u00fa irun t\u00ed \u00e0w\u1ecdn wo \u0144 \u1e63e?", "solutions": ["P\u00e0t\u1eb9\u0301w\u1ecd\u0301 j\u1eb9\u0301 ir\u00fa irun t\u00ed \u00e0w\u1ecdn \u1ecdk\u00f9nrin \u0144 \u1e63e", "P\u00e0t\u1eb9\u0301w\u1ecd\u0301 j\u1eb9\u0301 ir\u00fa irun t\u00ed \u00e0w\u1ecdn ob\u00ecnrin \u0144 \u1e63e"], "example_label": 1, "reasoning": "The goal is asking about the type of locust beans used in making a specific food. It is important to identify whether the locust beans used are the type that men use or the type that women use.", "pred_label": "1", "metric": 1}, {"goal": "ki\u0301ni o\u0301 y\u1eb9 ki\u0301\u0301 o \u1e63e l\u1eb9\u0301yi\u0300n ti\u0301 o ba lo \u1eb9\u0300ro agba\u0301l\u1eb9?", "solutions": ["pa a\u0301, ki\u0301 o si\u0300 t\u1ecdju r\u1eb9\u0300 si\u0301 ibi ti\u0301 o\u0301 pam\u1ecd\u0301", "pa a\u0301, ki\u0301 o si\u0300 t\u1ecdju r\u1eb9\u0300 si\u0301 ibi ti\u0301 o\u0301 \u1e63i\u0301 si\u0301l\u1eb9\u0300"], "example_label": 0, "reasoning": "Both solutions advise the person to \"stop and check\" before crossing the road. However, solution 2 is more specific in advising the person to \"stop and check before crossing the road,\" which is a safer and more detailed instruction compared to solution 1. Therefore, solution 2 is the better choice.", "pred_label": "1", "metric": 0}, {"goal": "La\u0301ti f\u1ecd a\u0300w\u1ecdn a\u1e63\u1ecd i\u0300bora ti\u0301 o\u0301 d\u1ecd\u0300ti\u0301,", "solutions": ["ko\u0301 w\u1ecdn si\u0301nu \u1eb9\u0300r\u1ecd i\u0300f\u1ecd\u1e63\u1ecd, ki\u0301 o da \u1ecd\u1e63\u1eb9 a\u0300ti omi si\u0300 i, ki\u0301 o si\u0300 tanna\u0301 si.", "ko\u0301 w\u1ecdn si\u0301nu \u1eb9\u0300r\u1ecd i\u0300l\u1ecdta, ki\u0301 o da \u1ecd\u1e63\u1eb9 a\u0300ti omi si\u0300 i, ki\u0301 o si\u0300 tanna\u0301 si."], "example_label": 0, "reasoning": "Both solutions provide a way to dry wet clothes. We need to consider which option is safer and more appropriate.", "pred_label": "0", "metric": 1}, {"goal": "Ki ni o le \u1e63e ni\u0301gba\u0300 ti\u0301 i\u0300d\u1ecd\u0300ti\u0301 ba\u0301 ko\u0301 si\u0301 \u1ecd ni\u0301 oju\u0301?", "solutions": ["mo le\u0300\u0300 fi \u1ecdw\u1ecd\u0301 mi\u0301m\u1ecd\u0301 gbo oju\u0301 mi", "mo le\u0300\u0300 fi omi mi\u0301m\u1ecd\u0301 \u1e63an oju\u0301 mi"], "example_label": 1, "reasoning": "Both solutions are trying to address the question on how to clean the eyes in the event of dirt getting into them. Solution 1 recommends cleaning the eyes with clean hands, while solution 2 suggests rinsing the eyes with clean water. Both solutions are relevant and safe practices for cleaning the eyes, but rinsing the eyes with clean water (solution 2) is a more direct and effective way to remove dirt from the eyes compared to using clean hands (solution 1).", "pred_label": "1", "metric": 1}, {"goal": "\u00e0gb\u00e9t\u1eb9\u0301l\u1eb9\u0300 ti\u0301 o da\u0301ra ju ni\u0301gba\u0300 ti\u0301 a\u0300 ba\u0301 f\u1eb9\u0301 lo \u1eb9\u0300r\u1ecd agb\u00e1w\u00f2r\u00e1ny\u1ecd ni", "solutions": ["o\u0300giri funfun kan", "o\u0300giri du\u0301du\u0301 kan"], "example_label": 0, "reasoning": "The goal is to determine the better option between two choices of ogiri (a type of traditional Nigerian ingredient used in cooking) for making okra soup. Since there is no restriction or specific preference mentioned, the decision should be based on common culinary practices and personal preference.", "pred_label": "1", "metric": 0}, {"goal": "L\u00e1ti p\u00e8s\u00e8 \u00c0m\u00e0l\u00e0 f\u00fan o\u00fanj\u1eb9", "solutions": ["A n\u00edl\u00f2 \u1ecdm\u1ecdrog\u00f9n", "A n\u00edl\u00f2 \u00ecj\u00e1b\u1eb9\u0300"], "example_label": 0, "reasoning": "Both solutions are related to making \u00c0m\u00e0l\u00e0, a traditional Nigerian food made from yam flour. The goal is to prepare \u00c0m\u00e0l\u00e0 for a meal. Solution 1, \"\u00abA n\u00edl\u00f2 \u1ecdm\u1ecdrog\u00f9n\u00bb\" translates to \"We add hot water,\" which is a crucial step in making \u00c0m\u00e0l\u00e0. Solution 2, \"\u00abA n\u00edl\u00f2 \u00ecj\u00e1b\u1eb9\u0300\u00bb\" translates to \"We add salt,\" which is also an essential ingredient in preparing \u00c0m\u00e0l\u00e0.", "pred_label": "0", "metric": 1}, {"goal": "K\u0301i\u0301ni o\u0301 y\u1eb9 ki\u0301 o \u1e63e l\u1eb9yi\u0300n ti\u0301 o ba\u0301 ge\u0301 a\u0300lu\u0300b\u1ecd\u0301sa\u0300?", "solutions": ["f\u1ecd \u1ecdw\u1ecd\u0301 r\u1eb9 p\u1eb9\u0300lu\u0301 \u1ecd\u1e63\u1eb9 a\u0300ti omi", "f\u1ecd \u1ecdw\u1ecd\u0301 r\u1eb9 p\u1eb9\u0300lu\u0301 epo a\u0300ti omi"], "example_label": 0, "reasoning": "The goal is asking for what should be used to clean the hands after handling groceries. We need to consider the safety and best practices for hand hygiene.", "pred_label": "0", "metric": 1}, {"goal": "Ki\u0301ni a\u0300w\u1ecdn a\u0300gb\u1eb9\u0300 fi maa\u0301 n\u0301 ko\u0301 ewe\u0301 ta\u0300bi\u0301 kori\u0301ko pap\u1ecd\u0300?", "solutions": ["wo\u0301n maa\u0301 n\u0301 lo \u1ecdk\u1ecd\u0301 fi ko\u0301 ewe\u0301 ta\u0300bi\u0301 kori\u0301ko pap\u1ecd\u0300", "wo\u0301n maa\u0301 n\u0301 lo r\u00e9\u00e8k\u00ec fi ko\u0301 ewe\u0301 ta\u0300bi\u0301 kori\u0301ko pap\u1ecd\u0300"], "example_label": 1, "reasoning": "Both solutions involve the process of preparing herbal medicine. The question asks about how farmers usually grind leaves or roots finely. Therefore, we need to choose the solution that correctly addresses the typical method used by farmers to achieve this.", "pred_label": "0", "metric": 0}, {"goal": "Ohun t\u00ed mo l\u00e8 f\u00ed p\u1ecdnmi l\u1ecd s\u00ed il\u00e9-\u00ecw\u1eb9\u0300 ni", "solutions": ["Garawa ni m\u00e0\u00e1 l\u00f2 l\u00e1ti p\u1ecdnmi l\u1ecd s\u00ed il\u00e9-\u00ecw\u1eb9\u0300", "\u1ecc\u0300b\u1eb9 ni m\u00e0\u00e1 l\u00f2 l\u00e1ti p\u1ecdnmi l\u1ecd s\u00ed il\u00e9-\u00ecw\u1eb9\u0300"], "example_label": 0, "reasoning": "Both solutions are advising on what to use to protect a farm. Solution 1 suggests using \"Garawa\" (scare device/scarecrow), which is a common method of protecting farms. Solution 2 suggests using \"\u1ecc\u0300b\u1eb9\" (soap), which is not typically used to protect farms. Therefore, Solution 1 is more appropriate for farm protection.", "pred_label": "0", "metric": 1}, {"goal": "B\u00e1wo ni \u00e0w\u1ecdn ob\u00ecnrin \u1e63e \u0144 gb\u00e9 \u1ecdj\u00e0 w\u1ecdn t\u00ed w\u1ecdn ba \u0144 kiri \u1ecdj\u00e0?", "solutions": ["W\u1ecdn ma \u0144 gbe l\u00e9 or\u00ed ti w\u1ecd\u0301n b\u00e1 \u0144 kiri \u1ecdj\u00e0", "W\u1ecd\u0301n ma \u0144 gbe l\u00e9 \u00e8j\u00eck\u00e1 t\u00ed w\u1ecd\u0301n b\u00e1 \u0144 kiri \u1ecdj\u00e0"], "example_label": 0, "reasoning": "Both solutions describe how the women carry their market goods after closing the market. We need to consider which option is safer and more standard practice for carrying market goods.", "pred_label": "0", "metric": 1}, {"goal": "Ataal\u1eb9\u0300 j\u1eb9\u0301 \u00e8r\u00f2j\u00e0 f\u00fan o\u00fanj\u1eb9 wo", "solutions": ["Iy\u00e1n t\u00ed a fi i\u1e63u \u1e63e", "\u00d2g\u00ec t\u00ed a fi b\u00e0b\u00e0 t\u00e0b\u00ed \u00e0gb\u00e0do \u1e63e"], "example_label": 1, "reasoning": "Both solutions provide ways to prepare a meal using different ingredients. Solution 1 suggests using pounded yam made from yam, while solution 2 suggests using porridge made from corn or cassava. To determine the better answer, we need to consider the common/popular choice for preparing a meal.", "pred_label": "1", "metric": 1}, {"goal": "K\u00edni \u00f3 s\u00e1b\u00e0 m\u00e1a \u0144 w\u00e1y\u00e9 n\u00ed iw\u00e1j\u00fa \u00e0\u00e0fin n\u00ed al\u1eb9\u0301", "solutions": ["Er\u00e9 \u1e63\u00ed\u1e63e m\u00e1 \u0144 s\u00e1b\u00e0 w\u00e1y\u00e9 n\u00edw\u00e1j\u00fa \u00e0\u00e0fin n\u00ed al\u1eb9\u0301", "\u1eccj\u00e0 al\u1eb9\u0301 ni \u00f3 s\u00e1b\u00e0 m\u00e1\u00e1 w\u00e1y\u00e9 n\u00edw\u00e1j\u00fa \u00e0\u00e0fin n\u00ed al\u1eb9\u0301"], "example_label": 1, "reasoning": "Both solutions are referring to activities that happen in front of the house. Solution 1 mentions \"Er\u00e9 \u1e63\u00ed\u1e63e\" which means sports while Solution 2 mentions \"\u1eccj\u00e0 al\u1eb9\u0301\" which means market. The most suitable activity that typically occurs in front of a house is sports rather than a market. Therefore, Solution 1 is more appropriate for the given scenario.", "pred_label": "0", "metric": 0}, {"goal": "\u1eb8\u0300y\u00e0 ara wo ni ko y\u1eb9 k\u00ed o fi \u1ecdw\u1ecd\u0301 kan l\u1eb9\u0301y\u00ecn ti o ba l\u1ecd/r\u1eb9\u0301 ata?", "solutions": ["ko\u0300 y\u1eb9 ki\u0301 o f\u1ecdw\u1ecd\u0301kan oju\u0301 r\u1eb9", "ko\u0300 y\u1eb9 ki\u0301 o f\u1ecdw\u1ecd\u0301kan \u1ecdw\u1ecd\u0301 r\u1eb9"], "example_label": 0, "reasoning": "Both solutions are providing instructions on how to avoid accidentally cutting one's own hand while cutting or chopping peppers. The key point is to be cautious and not want to harm oneself while preparing the peppers.", "pred_label": "0", "metric": 1}, {"goal": "K\u00ed ni a l\u00e8 l\u00f2 l\u00e1ti l\u1ecd a\u1e63\u1ecd k\u00ed \u00f3 ba le\u0300 d\u00e1n?", "solutions": ["\u00d2k\u00fata ni a l\u00e8 l\u00f2", "\u1eb9\u0300r\u1ecd \u00ccl\u1ecd\u1e63\u1ecd ni a l\u00e8 l\u00f2"], "example_label": 1, "reasoning": "Both solutions provided are offering options for what can be used to wash clothes effectively. The first solution suggests using \"\u00d2k\u00fata\" (stone) to wash clothes, while the second solution recommends using \"\u1eb8\u0300r\u1ecd \u00ccl\u1ecd\u1e63\u1ecd\" (washing machine). Since using a washing machine is a more standard and effective method for washing clothes compared to using a stone, it is the better and safer option in this scenario.", "pred_label": "1", "metric": 1}, {"goal": "Ti\u0301 a ba\u0301 f\u1eb9\u0301 ya irun \u1ecdm\u1ecd ke\u0301kere\u0301", "solutions": ["o\u0301 da\u0301ra ki\u0301 a farabal\u1eb9\u0300 ya irun na p\u1eb9\u0300lu\u0301 a\u0300mu\u0301ga.", "o\u0301 da\u0301ra ki\u0301 a farabal\u1eb9\u0300 ya irun na p\u1eb9\u0300lu\u0301 o\u0300n\u0300ya\u0300"], "example_label": 1, "reasoning": "Both solutions provide ways to make a young child's laundry. Solution 1 suggests using a sponge, while solution 2 suggests using a cloth or rag. We need to consider which option would be more effective and practical for washing a young child's laundry.", "pred_label": "1", "metric": 1}, {"goal": "la\u0301ti f\u1ecd a\u1e63\u1ecd to\u0301 d\u1ecd\u0300ti\u0301", "solutions": ["mo le\u0300 lo \u1ecd\u1e63\u1eb9 \u00ccf\u1ecd\u1e63\u1ecd", "mo le\u0300 lo aro\u0301"], "example_label": 0, "reasoning": "For the goal of \"la\u0301ti f\u1ecd a\u1e63\u1ecd to\u0301 d\u1ecd\u0300ti\u0301,\" we are looking for a solution that helps in drying clothes. It is important to note that \"\u1eb8\u0300r\u1ecd \u00ecf\u1ecd\u1e63\u1ecd\" refers to a washing machine while \"\u1eb8\u0300r\u1ecd \u00ecf\u1ecdb\u1ecd\" refers to bleach/whitener, which is not used for drying clothes. Therefore, the correct solution would involve a method or tool that aids in drying clothes.", "pred_label": "0", "metric": 1}, {"goal": "K\u00edni i\u1e63\u1eb9\u0301 agb\u1eb9\u0301gil\u00e9re", "solutions": ["W\u1ecd\u0301n ma \u0144 f\u1ecd\u0300 a\u1e63\u1ecd", "W\u1ecd\u0301n ma \u0144 gb\u00e9 igi l\u00e1ti s\u1ecd\u0301 \u1ecd di \u00e8re"], "example_label": 1, "reasoning": "The goal is asking for the definition of a tailor. We need to choose the solution that provides a better definition of a tailor.", "pred_label": "0", "metric": 0}, {"goal": "Mo le\u0300 fi omi a\u0300gb\u1ecdn", "solutions": ["f\u1ecd a\u1e63\u1ecd i\u0300bora mi", "se i\u0300r\u1eb9si\u0300 alagb\u1ecdn"], "example_label": 1, "reasoning": "Both solutions suggest methods of drying clothes, but the goal is specifically about drying clothes quickly. We need to choose the solution that addresses the speed of drying clothes.", "pred_label": "0", "metric": 0}, {"goal": "\u1ecc\u0300pa\u0301 omi kan n\u0301 jo\u0300 ni\u0301 ile\u0301 i\u0300dana r\u1eb9", "solutions": ["fi ti\u0300mu\u0300ti\u0300mu\u0300 di\u0301 ibi ti o\u0301 n\u0301 jo\u0300 na\u0301a\u0300", "fi te\u0301e\u0300pu\u0300 we\u0301 ibi ti o\u0301 n\u0301 jo\u0300 na\u0301a\u0300"], "example_label": 1, "reasoning": "Both solutions are advising on how to stop a leak in a water tap at home. The goal is to stop the water tap from leaking. It is important to consider the effectiveness and practicality of each solution.", "pred_label": "0", "metric": 0}, {"goal": "L\u00e1ti w\u1ecdn n\u01f9kan d\u00e9\u00e9d\u00e9\u00e9 n\u00edn\u00fa \u1ecdj\u00e0, \u1ecdl\u1ecd\u0301j\u00e0 gb\u1ecd\u0301d\u1ecd\u0300 ni k\u00ed ni?", "solutions": ["\u1eccl\u1ecd\u0301j\u00e0 gb\u1ecd\u0301d\u1ecd\u0300 ni \u1eb9\u0300m\u00fa", "\u1eccl\u1ecd\u0301j\u00e0 gb\u1ecd\u0301d\u1ecd\u0300 n\u00ed \u00f2\u1e63\u00f9w\u00f2\u0323n"], "example_label": 1, "reasoning": "Both solutions are providing possible options for what the \"\u1ecdl\u1ecd\u0301j\u00e0 gb\u1ecd\u0301d\u1ecd\u0300\" could be in a market setting.", "pred_label": "1", "metric": 1}, {"goal": "N\u00edbo ni a m\u00e1a \u0144 di aj\u00edl\u1eb9\u0300 s\u00ed ?", "solutions": ["In\u00fa a\u1e63\u1ecd \u00ecw\u1ecd\u0300s\u00f9n ni a m\u00e1a \u0144 di aj\u00edl\u1eb9\u0300 s\u00ed", "In\u00fa \u00e0p\u00f2 ni a m\u00e1a \u0144 di aj\u00edl\u1eb9\u0300 s\u00ed"], "example_label": 1, "reasoning": "Both solutions suggest different locations for where to install an antenna for better reception. We need to identify the correct and most appropriate location for mounting the antenna to achieve the best signal reception.", "pred_label": "0", "metric": 0}, {"goal": "K\u00edni a l\u00e8 l\u00f2 s\u00ed ohun \u1ecd\u0300gb\u00ecn ki\u0301 o ba le\u0300 h\u00f9 d\u00e1ad\u00e1a?", "solutions": ["Aj\u00edl\u1eb9\u0300 ni a l\u00e8 l\u00f2 s\u00ed ohun \u1ecd\u0300gb\u00ecn", "\u00c8\u00e8p\u1eb9\u0300 ni a l\u00e8 l\u00f2 s\u00ed ohun \u1ecd\u0300gb\u00ecn"], "example_label": 0, "reasoning": "Both solutions provide possible ways to soften a piece of fabric. We should consider the effectiveness and safety of each method in achieving the goal of softening the fabric.", "pred_label": "0", "metric": 1}, {"goal": "K\u00ed l\u00f3 ma\u0301a n\u0301 \u1e63\u1eb9l\u1eb9\u0300 s\u00ed \u00e0s\u00ec\u00e1 t\u00ed af\u1eb9\u0301f\u1eb9\u0301 b\u00e1 f\u1eb9\u0301 l\u00e1gb\u00e1ra?", "solutions": ["\u00f3 ma\u0301a n m\u00ec t\u00e0b\u00ed k\u00ed \u00f3 f\u1eb9\u0301r\u1eb9\u0300\u1eb9\u0301 j\u00e1 l\u00e1ti ara igi", "\u00f3 ma\u0301a n d\u00far\u00f3 \u1e63in\u1e63in, k\u00f2 s\u00ec n\u00ed m\u00ec r\u00e1r\u00e1"], "example_label": 0, "reasoning": "The goal is asking for what should be done when encountering a snake in the farm. We need to evaluate both solutions based on their correctness, relevance, safety, and Yoruba clarity.", "pred_label": "1", "metric": 0}, {"goal": "Y\u00e0t\u1ecd\u0300 s\u00ed \u1eb9n\u00ed, k\u00ed ni mo t\u00fan le fi s\u00f9n n\u00edn\u00fa y\u00e0r\u00e1", "solutions": ["Od\u00f3 ni mo t\u00fan le fi s\u00f9n n\u00edn\u00fa y\u00e0r\u00e1", "Ib\u00f9s\u00f9n ni mo t\u00fan le fi s\u00f9n n\u00edn\u00fa y\u00e0r\u00e1"], "example_label": 1, "reasoning": "The goal is asking for what the person can use to sleep in the bush. We need to consider the safety and comfort of sleeping in the bush.", "pred_label": "1", "metric": 1}, {"goal": "K\u00edni a fi \u0144 k\u1ecd o\u00fanj\u1eb9?", "solutions": ["\u00ccgb\u00e1k\u1ecd ni a fi \u0144 k\u1ecd o\u00fanj\u1eb9", "\u00c0 \u0144 fi Igi k\u1ecd o\u00fanj\u1eb9"], "example_label": 0, "reasoning": "The goal is asking for the tool used in cooking. Therefore, we need to evaluate which of the two solutions provides the correct tool used in cooking.", "pred_label": "0", "metric": 1}, {"goal": "agbo\u0301hu\u0300ns\u00e1f\u1eb9\u0301f\u1eb9\u0301 r\u1eb9 ko \u1e63i\u1e63\u1eb9\u0301, ki\u0301ni ki\u0301 o k\u1ecd\u0301k\u1ecd\u0301 \u1e63e?", "solutions": ["ri\u0301i da\u0301ju\u0301 pe\u0301 b\u1ecd\u0301ti\u0300ni\u0300 agba\u0301ra ti\u0301 wa\u0300 ni\u0301 ti\u0301ta\u0300n", "ri\u0301i da\u0301ju\u0301 pe\u0301 b\u1ecd\u0301ti\u0300ni\u0300 i\u0300da\u0301du\u0301ro\u0301 ti\u0301 wa\u0300 ni\u0301 ti\u0301ta\u0300n"], "example_label": 0, "reasoning": "Both solutions provide possible ways to address the issue of a loud speaker that is not working. The first solution suggests checking the power source, while the second solution recommends checking the connections. Both solutions are relevant to the issue presented in the goal.", "pred_label": "0", "metric": 1}, {"goal": "K\u00ed ni \u1ecd\u0300kan p\u00e0t\u00e0k\u00ec l\u00e1ra irin\u1e63\u1eb9\u0301 ar\u00e1n\u1e63\u1ecd?", "solutions": ["\u1eccm\u1ecdrog\u00f9n j\u1eb9 \u1ecd\u0300kan p\u00e0t\u00e0k\u00ec l\u00e1ra irin\u1e63\u1eb9\u0301 ar\u00e1n\u1e63\u1ecd", "Ab\u1eb9\u0301r\u1eb9\u0301 j\u1eb9\u0301 \u1ecd\u0300kan p\u00e0t\u00e0k\u00ec l\u00e1ra irin\u1e63\u1eb9\u0301 ar\u00e1n\u1e63\u1ecd"], "example_label": 1, "reasoning": "Both solutions provide options for what can be a p\u00e0t\u00e0k\u00ec (tool) used in farming. The goal is asking for a specific tool used in farming so the focus should be on providing the correct and relevant tool.", "pred_label": "1", "metric": 1}, {"goal": "Y\u00e0t\u1ecd\u0300 s\u00ed ow\u00f3, k\u00edni at\u00fan le t\u1ecd\u0301j\u00fa s\u00ed il\u00e9 \u00ecfow\u00f3pam\u1ecd\u0301?", "solutions": ["Ohun \u00e0l\u00f9m\u1ecd\u0301\u1ecd\u0301n\u00ec ni a t\u00fan le t\u1ecd\u0301j\u00fa s\u00ed il\u00e9 \u00ecfow\u00f3pam\u1ecd\u0301 s\u00ed y\u00e0t\u1ecd\u0300 s\u00ed ow\u00f3", "a\u1e63\u1ecd ni a t\u00fan le t\u1ecd\u0301j\u00fa s\u00ed il\u00e9 \u00ecfow\u00f3pam\u1ecd\u0301 s\u00ed"], "example_label": 0, "reasoning": "The goal is asking for what can be used to protect against burglars when traveling. We need to evaluate which solution provides the most effective and relevant method for protecting the house.", "pred_label": "1", "metric": 0}, {"goal": "Ohun p\u00e0t\u00e0k\u00ec t\u00ed a fi m\u00e1a \u0144 d\u00e1 ol\u00f3y\u00e8 m\u1ecd\u0300", "solutions": ["Ni \u00e0d\u00e1 \u1ecdr\u00f9n w\u1ecdn", "Ni \u00ecl\u1eb9\u0300k\u1eb9\u0300 \u1ecdr\u00f9n w\u1ecdn"], "example_label": 1, "reasoning": "The goal is asking for the specific location where we find the owners. We need to choose the option that directly answers this question with precision.", "pred_label": "1", "metric": 1}]
+[
+  {
+    "goal": "A le fi awon ohun elo wonyii se ajile fun ogba ile wa",
+    "solutions": [
+      "Ìràwé, irin, ìgbẹ́ adìyẹ",
+      "Ìràwé, ẹpo eyin, ìgbẹ́ adìyẹ"
+    ],
+    "example_label": 1,
+    "reasoning": "The goal is asking for the ingredients needed to prepare a particular meal at home. We need to evaluate both solutions based on their correctness, relevance, and specificity in answering the question.",
+    "pred_label": "0",
+    "metric": 0
+  },
+  {
+    "goal": "Tí ọtí bá ń wù ẹ́ mu",
+    "solutions": [
+      "Lo igbá láti mú ọtí",
+      "Lo apẹ̀rẹ̀ láti mu ọtí"
+    ],
+    "example_label": 0,
+    "reasoning": "The goal here is a procedure or step-by-step instruction on how to pour water into a cup. We need to choose the solution that provides the correct and safe way to do this task.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "O ṣèṣẹ fọ aṣọ ibọsẹ re, o sì fẹ́ kí ó tètè gbẹ",
+    "solutions": [
+      "sá a sí óòrun titi yóò fi gbẹ.",
+      "fi sínu àpò ilé-ìwé rẹ titi yóò fi gbẹ."
+    ],
+    "example_label": 0,
+    "reasoning": "The goal is to dry the school uniform. The first solution recommends hanging it outside under the sun to dry, which is a common and effective method. The second solution suggests putting it inside a bag to dry, which may not be as effective as hanging it out in the sun.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "Kí ni nǹkan mìíràn tí a tún le ri lára epo rọ̀bì?",
+    "solutions": [
+      "Epo pupa ni nǹkan mìíràn tí a tún lè rí lára bẹntiró",
+      "epo bẹntiró ni nǹkan mìíràn tí a tún lè rí lára bẹntiró"
+    ],
+    "example_label": 1,
+    "reasoning": "The goal is asking for the specific thing that can be added to palm oil to make it rise. We need to choose the option that directly answers the question of what can be added to palm oil.",
+    "pred_label": "0",
+    "metric": 0
+  },
+  {
+    "goal": "Ohun èlò ìsọ́ra wo ni ènìyàn lè lò pẹ̀lú òkúta nínú rẹ̀?",
+    "solutions": [
+      "Katakata ni ohun èlò ìsọ́ra tí ènìyàn lè fi ta òkúta",
+      "Akatanpo ni ohun èlò ìsọ́ra tí ènìyàn lè fi ta òkúta"
+    ],
+    "example_label": 1,
+    "reasoning": "Both solutions provide a response to the question by identifying an item that a person can use to break a rock. The key here is to determine the more appropriate and commonly used tool for breaking a rock in this context.",
+    "pred_label": "0",
+    "metric": 0
+  },
+  {
+    "goal": "kíni ohun tó dára jùlọ lati fi lẹ àwo tó fọ́ sí méjì?",
+    "solutions": [
+      "lẹ àwo náà pọ̀ pẹ̀lú èedú",
+      "lẹ àwo náà pọ̀ pẹ̀lú òǹlẹ̀"
+    ],
+    "example_label": 1,
+    "reasoning": "Both solutions provide a way to clean a dirty shoe, but for this context, it is better to use \"lẹ àwo náà pọ̀ pẹ̀lú èedú\" (clean the shoe with soap) as it is a more common and effective method to thoroughly clean the shoe compared to just using water.",
+    "pred_label": "0",
+    "metric": 0
+  },
+  {
+    "goal": "Kíni a fi ń hun aṣọ òkè?",
+    "solutions": [
+      "Òwú ni a fi ń hun aṣọ òkè",
+      "Okùn ni a fi ń hùn aṣọ òkè"
+    ],
+    "example_label": 0,
+    "reasoning": "Both solutions provide answers to the question asked, which is about how we dry clothes. However, the correct phrase to use when drying clothes is \"Òwú ni a fi ń hun aṣọ òkè,\" meaning \"We dry clothes using the sun.\" Therefore, solution 1 is more accurate and appropriate in this context.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "Níbo ni àyè tí ó wà láàárín apá sí èjìká?",
+    "solutions": [
+      "Ọrùn-ọwọ́ ni àyè tí ó wà láàárín apá sí èjìká",
+      "Ìgùnpá ni àyè tí ó wà láàárín apá sí èjìká"
+    ],
+    "example_label": 1,
+    "reasoning": "Both solutions are suggesting possible locations where one can find a cat. The first solution mentions \"Ọrùn-ọwọ́\" which means a rooftop, while the second solution mentions \"Ìgùnpá\" which means a cupboard. When considering the common location of a cat, the most likely place to find a cat would be on a rooftop rather than in a cupboard.",
+    "pred_label": "0",
+    "metric": 0
+  },
+  {
+    "goal": "Kíni à ń fi àdá ṣe?",
+    "solutions": [
+      "À ń fi àdá ro oko",
+      "À ń fi àdá dáná"
+    ],
+    "example_label": 0,
+    "reasoning": "The goal is asking for how to make a farm fence. The correct procedure involves using mud, not sand. Therefore, the solution that mentions using mud (\"«À ń fi àdá ro oko»\") is the more appropriate one.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "Kí ni wọ́n ohun èlò ìdáná ni ayé àtijọ́?",
+    "solutions": [
+      "Ìkòkò ni ohun èlò ìdáná ni ayé àtijọ́",
+      "Àgbá ni ohun èlò ìdáná ni ayé àtijọ́"
+    ],
+    "example_label": 0,
+    "reasoning": "Both solutions are attempting to define the concept of a \"ladder\" in the world of commerce. We need to choose the most accurate and relevant definition.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "Kíni ẹ̀rọ ìgbàlódé tí à ń lò fún aṣọ fífọ̀ ní ayé òde òni?",
+    "solutions": [
+      "Ẹ̀rọ ìlọta ni ẹ̀rọ ìgbàlódé tí à ń lò fún aṣọ fífọ̀ ní ayé òde òni",
+      "Ẹ̀rọ ìfọṣọ ni ẹ̀rọ ìgbàlódé tí à ń lò fún aṣọ fífọ̀ ní ayé òde òni"
+    ],
+    "example_label": 1,
+    "reasoning": "Both solutions are identifying the type of washing machine that is used to wash clothes in the village square. In this context, the correct type of washing machine to wash clothes in the village square is the local manual washing machine, which is typically a wooden washing board called \"Ẹ̀rọ ìlọta\". Therefore, the solution that mentions \"Ẹ̀rọ ìlọta\" is more accurate and relevant to the question.",
+    "pred_label": "0",
+    "metric": 0
+  },
+  {
+    "goal": "Kí ni mo lè fi ti ilẹ̀kùn ilé mi pa?",
+    "solutions": [
+      "Kọ́kọ́rọ́ ni mo lè lo láti ti ilẹ̀kùn mi pa",
+      "Àgádágodo ni mo le lò láti fi ti ilẹ̀kùn mi pa."
+    ],
+    "example_label": 1,
+    "reasoning": "Both solutions provide ways to lock the door, but we need to consider safety and best practices. Solution 1 suggests using a key to lock the door, which is a standard and safe practice for securing a door. On the other hand, Solution 2 suggests using a bolt (padlock), which could be effective but not as secure as a key lock. Therefore, Solution 1 is a safer and more common method of locking a door.",
+    "pred_label": "0",
+    "metric": 0
+  },
+  {
+    "goal": "O fẹ́ mọ aago tí o lu, kí ni ohun to tọ́ láti wò?",
+    "solutions": [
+      "aago ọwọ́",
+      "aago orí"
+    ],
+    "example_label": 0,
+    "reasoning": "Both solutions are related to hats, but the goal is to know what is worn on the head. Therefore, \"aago orí\" (hat) is the correct answer as it specifically addresses what is worn on the head.",
+    "pred_label": "1",
+    "metric": 0
+  },
+  {
+    "goal": "Orí ibo ni àwọn Yorùbá ti máa n dáná?",
+    "solutions": [
+      "Orí àpótí",
+      "Orí àrò"
+    ],
+    "example_label": 1,
+    "reasoning": "The goal is to ask about the traditional Yoruba headgear. The correct term for traditional Yoruba headgear is \"Orí àpótí,\" not \"Orí àrò.\"",
+    "pred_label": "0",
+    "metric": 0
+  },
+  {
+    "goal": "Tí mo bá fẹ́ kí ilé mi tuntun rẹwà ní àwọ̀",
+    "solutions": [
+      "Màá lo ọ̀dà tí ó rẹwà",
+      "Màá lo ìyèpẹ̀ tí ó rẹ̀wà"
+    ],
+    "example_label": 0,
+    "reasoning": "Both solutions aim to help achieve the goal of acquiring new furniture for a new house. The first solution, \"«Màá lo ọ̀dà tí ó rẹwà»\" translates to \"I will go to the store that sells furniture,\" while the second solution, \"«Màá lo ìyèpẹ̀ tí ó rẹ̀wà»\" translates to \"I will go to the furniture market.\" In this context, going to a store that sells furniture (solution 1) is a more direct and specific way to acquire new furniture for the new house.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "Kí ni a lè fi gbẹ́ ilẹ̀?",
+    "solutions": [
+      "Jígà ni a lè fi gbẹ́ ilẹ̀",
+      "Àdá ni a lè fi gbẹ́ ilẹ̀"
+    ],
+    "example_label": 0,
+    "reasoning": "Both solutions are providing options for how to dry a house. The key is to identify the correct and effective way to dry a house based on common practices and safety considerations.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "Kí ni àwọn ọmọ òkú máa ń jẹ́ lẹ́yìn ikú òbí wọn?",
+    "solutions": [
+      "Ogún ni àwọn ọmọ òkú máa ń jẹ́",
+      "Àmàlà ni àwọn ọmọ òkú máa ń jẹ"
+    ],
+    "example_label": 0,
+    "reasoning": "The question is asking for the cause of death among children after their mother's death. Therefore, we need to consider factors related to the death of the children.",
+    "pred_label": "1",
+    "metric": 0
+  },
+  {
+    "goal": "Ẹran ilé tí ó jẹ́ ìdàkejì àgùntàn",
+    "solutions": [
+      "ni a mọ̀ sí ewúrẹ́",
+      "ni a mọ̀ sí ajá"
+    ],
+    "example_label": 0,
+    "reasoning": "Both solutions are offering options for a second meat choice to eat alongside the primary meat (ìdàkejì àgùntàn). In Yoruba cuisine, both \"ewúrẹ́\" (goat meat) and \"ajá\" (dog meat) are commonly consumed meats. However, considering safety and cultural norms, it is more advisable to choose \"ewúrẹ́\" (goat meat) as it is a more widely accepted and commonly consumed meat in Nigerian and Yoruba cuisine.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "Tí o ba fẹ́ ọ̀bẹ tí ó mú, kíni ó yẹ kí o ṣe",
+    "solutions": [
+      "lo òkuta láti fi pọ́n ẹnu ọ̀bẹ náà",
+      "lo páálí láti fi pọ́n ẹnu ọ̀bẹ náà"
+    ],
+    "example_label": 0,
+    "reasoning": "Both solutions involve using a tool to crush the beans to make the bean paste. It is important to consider the safety, efficiency, and effectiveness of the tools suggested in achieving the goal of making bean paste.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "Báwo ni a ṣe ń tọjú ìbùsùn",
+    "solutions": [
+      "A ma ń tọ́jú ìbùsùn nípa sísùn le bẹ́ẹ̀",
+      "A ma ń tọ́jú ìbùsùn nípa títẹ ẹ"
+    ],
+    "example_label": 1,
+    "reasoning": "Both solutions provided are discussing ways to stay awake during sleep or avoid falling asleep. To choose the better solution, we need to consider the safety and effectiveness of the methods mentioned.",
+    "pred_label": "0",
+    "metric": 0
+  },
+  {
+    "goal": "Kí tún ni a lè fi ṣe ìkòkò ìdáná lẹ́yìn amọ̀?",
+    "solutions": [
+      "Òkúta ni a tún le fi ṣe ìkòkò ìdáná lẹ́yìn amọ̀",
+      "Irin ni a tún le fi ṣe ìkòkò ìdáná lẹ́yìn amọ̀"
+    ],
+    "example_label": 1,
+    "reasoning": "Both solutions provide options for making indomie noodles quickly. The key is to choose the correct ingredient that can be used to make the noodles faster.",
+    "pred_label": "0",
+    "metric": 0
+  },
+  {
+    "goal": "Kíni màá fi nu omi tí ó dà sílẹ̀ nínú ilé?",
+    "solutions": [
+      "Aṣọ inùlẹ̀ tí ó gbẹ́ ní màá lò",
+      "Aṣọ ìwọ̀sùn tí ó gbẹ́ ní màá lò"
+    ],
+    "example_label": 0,
+    "reasoning": "Both solutions provide washing clothes as a way to dry them inside the house. However, the first solution \"Aṣọ inùlẹ̀ tí ó gbẹ́ ní màá lò\" specifically mentions house clothes, which is more natural and relevant to the question compared to the second solution.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "Kí ni ará nǹkan tí alágbẹ̀dẹ fí máa ṣe ohun èlò ọ̀ṣọ́?",
+    "solutions": [
+      "Owú ni ara nǹkan tí alágbẹ̀dẹ fí máa ṣe ohun èlò ọ̀ṣọ́",
+      "Òjé ni ara nǹkan tí alágbẹ̀dẹ fí máa ṣe ohun èlò ọ̀ṣọ́"
+    ],
+    "example_label": 1,
+    "reasoning": "The goal is asking for the specific thing or tool that a farmer uses to perform a particular task in the farm. We need to choose the answer that correctly identifies this tool.",
+    "pred_label": "0",
+    "metric": 0
+  },
+  {
+    "goal": "Ní ilẹ̀ Yorùbá kíni ọkùnrin gbọ́dọ̀ ṣe tí ó bá fẹ́ kí àgbàlagbà?",
+    "solutions": [
+      "Ọkùnrin gbọ́dọ̀ sùn sílẹ̀",
+      "Ọkùnrin gbọ́dọ̀ dọ̀bálẹ̀"
+    ],
+    "example_label": 1,
+    "reasoning": "Both solutions provided are related to the action of sleeping. We need to determine which one is more appropriate for the scenario described in the goal.",
+    "pred_label": "1",
+    "metric": 1
+  },
+  {
+    "goal": "Lati di ṣíbí mu, ó yẹ kí n",
+    "solutions": [
+      "lo ọwọ́ mi",
+      "lo ẹsẹ̀ mi"
+    ],
+    "example_label": 0,
+    "reasoning": "The goal is to determine what should be brought to drink water. We need to select the item that is suitable for drinking.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "Kí ni o le ṣe lati jẹ ki ọ̀gẹ̀dè dòdò pọ́n kíákíá?",
+    "solutions": [
+      "tọ́jú rẹ sí inú ẹ̀rọ amóhuntutù mọ́jú",
+      "tọ́jú rẹ sí ibi tí ó mú ooru mọ́jú"
+    ],
+    "example_label": 1,
+    "reasoning": "Both solutions provide steps on how to quickly dry wet clothes, but only one directly addresses the question by focusing on using a fan. The second solution talks about placing the wet clothes where the sun can reach them, which is not as quick as using a fan.",
+    "pred_label": "0",
+    "metric": 0
+  },
+  {
+    "goal": "Tí ènìyàn bá fẹ́ lo òògùn, kíni yóò fi lòó?",
+    "solutions": [
+      "Ọtí ni ènìyàn yóò fi lo òògùn",
+      "Ọmí ni ènìyàn yóò fi lo òògùn"
+    ],
+    "example_label": 1,
+    "reasoning": "Both solutions are discussing what substance a person will use for medicine. The correct answer should be a substance commonly used for medicine.",
+    "pred_label": "0",
+    "metric": 0
+  },
+  {
+    "goal": "Tí apẹja bá fẹ́ mú ẹja lódò, kí ni yóò lò?",
+    "solutions": [
+      "Pàkúté ni apẹja yóò lò láti mú ẹja lódò",
+      "Àwọ̀n ni apẹja yóò lò láti mú ẹja lódò"
+    ],
+    "example_label": 1,
+    "reasoning": "Both solutions provide instructions on how to safely transport fish to the market. In evaluating the options, it is important to consider that \"apẹja\" refers to a wicker basket commonly used to carry goods, including fish. The question asks specifically about the method of transporting fish to the market, so the focus should be on the transportation vessel. The correct answer should specify the container used for transportation.",
+    "pred_label": "0",
+    "metric": 0
+  },
+  {
+    "goal": "Ilẹ̀kùn ilé tí a fi àgádágodo tì pa",
+    "solutions": [
+      "Ìṣó ni ó lè sí i pẹ̀lú ìrọ̀rùn",
+      "Kọ́kọ́rọ́ ni ó lè sí i pẹ̀lú ìrọ̀rùn"
+    ],
+    "example_label": 1,
+    "reasoning": "Both solutions are providing options for making a wooden door knob last longer.",
+    "pred_label": "0",
+    "metric": 0
+  },
+  {
+    "goal": "Àjọ jẹ́ ọ̀nà tí à ń gbà ṣe kíni",
+    "solutions": [
+      "Ọ̀nà tí à ń gbà tọ́jú owó",
+      "Ọ̀nà tí à ń gbà ṣe ayẹyẹ"
+    ],
+    "example_label": 0,
+    "reasoning": "Both solutions are offering different ways of achieving the goal of washing hands. However, the most common and appropriate way to wash hands is by using soap and water, as mentioned in solution 1. Therefore, solution 1 is more relevant and aligned with best practices for hand hygiene.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "Kíni àwọn àgbẹ̀ fi ń ro oko?",
+    "solutions": [
+      "apẹ̀rẹ̀ ní àwọn àgbẹ̀ fi ń ro oko",
+      "Àdá ní àwọn àgbẹ̀ fi ń ro oko"
+    ],
+    "example_label": 1,
+    "reasoning": "Both solutions are discussing the tools used by farmers to plow the land. The question is asking for the specific tool used by farmers to plow the land. The correct tool commonly used by farmers to plow the land is the \"apẹ̀rẹ̀\" (plow).",
+    "pred_label": "0",
+    "metric": 0
+  },
+  {
+    "goal": "Kí ni ohun à ń pe akèrègbè tí a sín ní ìlẹ̀kẹ̀?",
+    "solutions": [
+      "Sákárà ni à ń pe akèrègbè tí a sín ní ìlẹ̀kẹ̀",
+      "Ṣẹ̀kẹ̀rẹ̀ ni à ń pe akèrègbè tí a sín ní ìlẹ̀kẹ̀"
+    ],
+    "example_label": 1,
+    "reasoning": "The goal is asking for the name of the musical instrument we play in the church. Therefore, we need to identify the correct term for the specific musical instrument mentioned.",
+    "pred_label": "1",
+    "metric": 1
+  },
+  {
+    "goal": "Ewé wo ni a maa ń já lé olóyè titun ní orí",
+    "solutions": [
+      "Ewé ọ̀gẹ̀dẹ̀ ni a má já lé olóyè titun ní orí",
+      "Ewé akòko ni a má ń já lé olóyè titun ní orí"
+    ],
+    "example_label": 1,
+    "reasoning": "Both solutions provide different types of leaves that can be used to welcome a new baby into the family. The goal is asking for the specific type of leaf to be used in this context.",
+    "pred_label": "0",
+    "metric": 0
+  },
+  {
+    "goal": "Láti fọ abọ́ kíákíá ni ayé òde-òní, kí ni màá lò?",
+    "solutions": [
+      "Ẹ̀rọ ìfọbọ́ ni mo máa lò",
+      "Ẹ̀rọ ìfọṣọ ni mo máa lò"
+    ],
+    "example_label": 0,
+    "reasoning": "\"Ẹ̀rọ ìfọbọ́\" wòó nínú àwọn ẹ̀rọ ìfọṣọ tí won rẹ fún bẹ. Ẹ̀rọ ìfọbọ́ jinde bosi ofo nínú òde-òní, nítorí náà níbèèè ni màá lọ.",
+    "pred_label": "1",
+    "metric": 0
+  },
+  {
+    "goal": "Tí ará mi kò bá yá, kí ni mo ma lò?",
+    "solutions": [
+      "Oúnjẹ ní mo ma lò",
+      "Ògùn ni mo ma lò"
+    ],
+    "example_label": 1,
+    "reasoning": "The goal is asking for what the person will do if their child is sick. The options provided are:\n1. \"Oúnjẹ ní mo ma lò\" (I will go get food)\n2. \"Ògùn ni mo ma lò\" (I will go get medicine)",
+    "pred_label": "1",
+    "metric": 1
+  },
+  {
+    "goal": "Aṣọ taani bùbá àti ṣókótó jẹ́ ní ilẹ̀ Yorùbá?",
+    "solutions": [
+      "Aṣọ Obìnrin ni bùbá àti ṣókótó jẹ́ ní ilẹ̀ Yorùbá",
+      "Aṣọ Ọkùnrin ni bùbá àti ṣókótó jẹ́ ní ilẹ̀ Yorùbá"
+    ],
+    "example_label": 1,
+    "reasoning": "Both solutions correctly identify the clothing items that make up a traditional Yoruba outfit. The key difference lies in the gender specification of the clothing items. It is important to note that the gender specification in the Yoruba language is crucial when describing clothing items.",
+    "pred_label": "0",
+    "metric": 0
+  },
+  {
+    "goal": "kíni a maá ń fi sé àdirẹ",
+    "solutions": [
+      "a maá ń fi asọ àti ọsẹ sé àdirẹ",
+      "a maá ń fi asọ àti aró sé àdirẹ"
+    ],
+    "example_label": 1,
+    "reasoning": "The goal is asking about what materials will be used to make a dress. The key is to identify the correct items used in making a dress in Yoruba culture.",
+    "pred_label": "0",
+    "metric": 0
+  },
+  {
+    "goal": "Èso tí ó dára lati jẹ́ fún àìsùn ni kí ni?",
+    "solutions": [
+      "Àgbàdo",
+      "Orógbó"
+    ],
+    "example_label": 1,
+    "reasoning": "Both \"Àgbàdo\" and \"Orógbó\" are suitable options for making a delicious meal with yam.",
+    "pred_label": "0",
+    "metric": 0
+  },
+  {
+    "goal": "Báwo ni a ṣe ń kíni ní àárọ̀?",
+    "solutions": [
+      "Ẹkáàárọ̀ ni à ń kíni ní àárọ̀ ní ilẹ̀ Yorùbá",
+      "Ẹkáalẹ́ ni à ń kíni ní àárọ̀ ní ilẹ̀ Yorùbá"
+    ],
+    "example_label": 0,
+    "reasoning": "Both solutions provide options for what is used in place of toilet paper in Yoruba land. The correct term for toilet paper in Yoruba is \"ẹkáàárọ̀,\" and solution 1 correctly identifies this term. Therefore, solution 1 is more accurate and relevant to the question.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "kí ni o le ṣe lati jẹ́ kí òórùn ẹja kúrò ní ọwọ́ rẹ?",
+    "solutions": [
+      "fí epo ra ọwọ́ rẹ, kí o sì sàn-án",
+      "fí ọsàn wẹ́wẹ́ ra ọwọ́ rẹ, kí o sì sàn-án"
+    ],
+    "example_label": 1,
+    "reasoning": "Both solutions provide a way to prevent fish odor on hands. The first solution suggests using palm oil, while the second solution suggests using powdered alum.",
+    "pred_label": "0",
+    "metric": 0
+  },
+  {
+    "goal": "Ìka wo ni wọ́n maá ń fi òrùka ìgbéyàwó sí?",
+    "solutions": [
+      "òrùká yẹmí ní ọwọ́ òsì",
+      "òrùká yẹmí ní ọwọ́ ọ̀tún"
+    ],
+    "example_label": 0,
+    "reasoning": "Both solutions are providing different locations for where the rope will be tied. The correct answer should directly answer the question by stating the specific location.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "Kíni o lè lo rọ́pọ̀ ọmọ ayò nígba tí o bá ń tá ayò ọlọ́pọ́n",
+    "solutions": [
+      "Lo àwọn òkuta wẹ́wẹ́",
+      "Lo àwọn òkuta tí o tóbi"
+    ],
+    "example_label": 0,
+    "reasoning": "The goal is asking what to do when washing colorful clothes to prevent color bleeding. We need to choose the solution that provides the best practice for washing colorful clothes to prevent colors from bleeding.",
+    "pred_label": "1",
+    "metric": 0
+  },
+  {
+    "goal": "Kí ni àgbẹ̀ máa ń fi ka ọsàn ni orí igi",
+    "solutions": [
+      "Dòjé ni àgbẹ̀ máa ń fi ká ọsàn ní orí igi",
+      "Ọ̀kọ̀ ni àgbẹ̀ máa ń fi ká ọsàn ní orí igi"
+    ],
+    "example_label": 0,
+    "reasoning": "The goal is asking for the tool used to tap palm wine from a tree. We need to choose the answer that correctly identifies the tool used in this process.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "kíni ó yẹ kí ènìyaǹ fi wé ọrùn rẹ ní ìgbà òtútù?",
+    "solutions": [
+      "aṣọ ìnujú",
+      "aṣọ òkè/ aṣọ ìborùn"
+    ],
+    "example_label": 1,
+    "reasoning": "The goal is asking for what clothing is suitable for wearing in cold weather. We need to evaluate which of the two solutions provides appropriate clothing for cold weather.",
+    "pred_label": "1",
+    "metric": 1
+  },
+  {
+    "goal": "Ìró àti bùbá jẹ́ aṣọ tí a mọ̀ mọ́ àwọn wo?",
+    "solutions": [
+      "Ójẹ́ aṣọ tí a mọ̀ mọ́ àwọn ọkùnrin ní ilẹ̀ Yorùbá",
+      "Àwọn obìnrin ní ilẹ̀ Yorùbá ni a mọ ìró àti bùbá mọ́"
+    ],
+    "example_label": 1,
+    "reasoning": "Both solutions provide information about the traditional Yoruba attire, including the iro and buba. However, Solution 1 is more direct and specific in answering the question by stating \"Ójẹ́ aṣọ tí a mọ̀ mọ́ àwọn ọkùnrin ní ilẹ̀ Yorùbá\" which means \"Clothing worn by men in Yorubaland.\" This response directly addresses the question of which gender wears the attire in Yorubaland.",
+    "pred_label": "0",
+    "metric": 0
+  },
+  {
+    "goal": "Irú aṣọ wo ni o yẹ lati fi nu àwo oju rẹ",
+    "solutions": [
+      "Aṣo ìnulẹ̀",
+      "Aṣọ ìnujú"
+    ],
+    "example_label": 1,
+    "reasoning": "Both solutions are related to washing clothing, but the goal is specifically about how to wash the face towel. Solution 1, \"Aṣo ìnulẹ̀,\" directly translates to \"face towel,\" which is the correct and precise term for the item in question. On the other hand, Solution 2, \"Aṣọ ìnujú,\" does not specifically refer to a face towel but rather to washing clothes in general without the focus on face towels.",
+    "pred_label": "0",
+    "metric": 0
+  },
+  {
+    "goal": "Kí ni nǹkan tí ènìyàn máa wò láti rí ara rẹ̀ nígbà tí ó bá múra tán?",
+    "solutions": [
+      "Dígí ni ènìyàn máa wò",
+      "Ògiri ni ènìyàn máa wò"
+    ],
+    "example_label": 0,
+    "reasoning": "Both solutions are addressing the question of what material a person should wear to protect their body when it gets hot. The Yoruba word for \"clothes\" is \"dígí,\" while \"ògiri\" refers to \"garmenst.\" In this context, the more appropriate and common term to use when referring to what a person should wear to protect their body from heat is \"dígí,\" which directly translates to clothes.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "Kíni à ń lò dípò ààrò ní ayé òde òni",
+    "solutions": [
+      "Àdògán ni à ń lò dípò ààrò ní ayé òde òni",
+      "Gáàsì ni à ń lò dípò ààrò ní ayé òde òni"
+    ],
+    "example_label": 1,
+    "reasoning": "Both solutions provide different answers to the question of what is commonly used for fishing in the river today. Solution 1 states \"Àdògán ni à ń lò dípò ààrò ní ayé òde òni\" (Canoe is what is commonly used for fishing in the river today), while solution 2 states \"Gáàsì ni à ń lò dípò ààrò ní ayé òde òni\" (Kayak is what is commonly used for fishing in the river today). To determine the better answer, we need to consider the most common and accurate traditional practice for fishing in the river.",
+    "pred_label": "0",
+    "metric": 0
+  },
+  {
+    "goal": "Tí ọ̀nà ọ̀fun rẹ bá n dun ọ, kí ni o lè ṣe?",
+    "solutions": [
+      "po omi gbọ́na pèlú oyin àti òrònbó kíkan, kí o sì mu ú",
+      "po omi gbọ́na pèlú àádùn àti òrònbó kíkan, kí o sì mu ú"
+    ],
+    "example_label": 0,
+    "reasoning": "Both solutions involve adding honey and lemon juice to warm water before drinking it. The key difference lies in the type of additional ingredient used: solution 1 suggests adding ginger, while solution 2 suggests adding garlic.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "Nígbà tí a bá fẹ́ ṣe ọbẹ̀ olú,",
+    "solutions": [
+      "Olú ni ó dára jùlọ ní èròjà",
+      "<NO_ANSWER>"
+    ],
+    "example_label": 0,
+    "reasoning": "The goal is to know the appropriate time to cook vegetable soup. Solution 1 directly addresses the question by stating that it is best to cook the soup during the rainy season. Solution 2 does not provide any answer to the question.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "Aṣọ wíwọ̀ wà fún kíni?",
+    "solutions": [
+      "Oge síṣe ni aṣọ wíwọ̀ wà fún",
+      "àrà dídá ni aṣọ wíwọ̀ wà fún"
+    ],
+    "example_label": 0,
+    "reasoning": "Both solutions are providing descriptions of the color of the clothes, but the goal is specifically asking for the type of clothing material. Solution 1 talks about silk material, while solution 2 mentions cotton material. Therefore, solution 2 directly answers the question by stating that the clothes are made of cotton material.",
+    "pred_label": "1",
+    "metric": 0
+  },
+  {
+    "goal": "Kíni a máa ń ta lójú ogun gẹ́gẹ́ bíi nǹkan ìjà?",
+    "solutions": [
+      "Ọrún ni a máa ń ta lójú ogun gẹ́gẹ́ bíi nǹkan ìjà",
+      "Ọfà ni a máa ń ta lójú ogun gẹ́gẹ́ bíi nǹkan ìjà"
+    ],
+    "example_label": 1,
+    "reasoning": "Ọrún ati ọfà nikan ni awọn agbara tí a le bá wa se ní ilé Yorùbá. Lèhin ti a ṣe lójú ogun bíi nǹkan ìjà, ọrún ti wa ni imọ tí a le pa èmi bíi ìjà. Ló ṣe bẹ́ẹ̀ níbi ibi to bá gba èmi ìjà sí. Ọfà lára kékèké ń bọ nígbà to bá ti tọjú dide rẹ. Ni ìlà-ẹkọ, ọfà ni a máa ń pọ ni lójú ogun gẹ́gẹ́ bíi nǹkan ìjà ní ilé Yorùbá.",
+    "pred_label": "0",
+    "metric": 0
+  },
+  {
+    "goal": "Kíni ẹ̀rọ ìgbàlódé ti ó ń mú ǹkan tutù",
+    "solutions": [
+      "Ìkòkò jẹ́ ohun èlò ìgbàlódé tí ó ń mú ǹkan tutù",
+      "Ẹ̀rọ amú ǹkan tutù jẹ́ ohun èlò ìgbàlódé tí ó ń mú ǹkan tutù"
+    ],
+    "example_label": 1,
+    "reasoning": "Both solutions correctly identify the cold milk as the thing that the refrigerator in the market sells. Solution 1 is more direct and succinct in stating this fact without unnecessary repetition.",
+    "pred_label": "0",
+    "metric": 0
+  },
+  {
+    "goal": "Ibo ni mo ti lè gbà owó pẹ̀lú káàdì ìyọwó?",
+    "solutions": [
+      "Ẹnu Ẹ̀rọ-ìléwọ́",
+      "Ẹnu Ẹ̀rọ-apọwó"
+    ],
+    "example_label": 1,
+    "reasoning": "Both solutions are related to banking and ATMs. The goal is to know which one can be used to withdraw money with a debit card.",
+    "pred_label": "1",
+    "metric": 1
+  },
+  {
+    "goal": "Nígbàtí àwọn ọkùnrin bá gẹ fìlà ní ilẹ̀ Yorùbá kíni àwọn obìnrin yóò wé?",
+    "solutions": [
+      "Àwọn obìnrin yóò wé gèlè nígbàtí àwọn ọkùnrin bá gẹ fìlà ní ilẹ̀ Yorùbá",
+      "Àwọn obìnrin yóò wé Fìlà nígbàtí àwọn ọkùnrin bá gẹ̀ fìlà ní ilẹ̀ Yorùbá"
+    ],
+    "example_label": 0,
+    "reasoning": "Both solutions provide instructions on what women should do when men prostrate in Yorubaland. We need to choose the solution that is clearer, more idiomatic, and matches the question's structure.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "kíni ó yẹ ká fi sí ewédú kó lè yọ̀ fùn jìjà daádaa?",
+    "solutions": [
+      "o yẹ ká fi kán-ún sí i",
+      "o yẹ ká fi epo pupa sí i"
+    ],
+    "example_label": 0,
+    "reasoning": "Both solutions involve adding ingredients to the food (ewédú soup) to make it more delicious. The goal is to determine which ingredient is better suited for achieving the desired outcome of making the soup tasty and enjoyable.",
+    "pred_label": "1",
+    "metric": 0
+  },
+  {
+    "goal": "Ọkàn pàtàkì ní yàrá ìjẹun ni",
+    "solutions": [
+      "Pátákó jẹ́ fún ènìyàn",
+      "Tábìlì jẹ́ fún ènìyàn"
+    ],
+    "example_label": 1,
+    "reasoning": "The goal is asking for a specific item used for eating. The correct answer should directly provide a utensil used for eating.",
+    "pred_label": "0",
+    "metric": 0
+  },
+  {
+    "goal": "Kini ọna ailewu lati bọ́ lẹ̀ kuro ninu ọkọ òfurufú lẹ́hìn tí o bá balẹ̀?",
+    "solutions": [
+      "Dìde lẹ́sẹ̀kẹsẹ̀, gbé àpò rẹ, kí o si sáré jade",
+      "Ṣe sùúrù, kí o si rọra tèlé ìlànà"
+    ],
+    "example_label": 1,
+    "reasoning": "Both solutions provide steps on how to clean the inside of a microwave after spilling something inside. Solution 1 advises to clean immediately by wiping with a cloth and airing it out, while solution 2 suggests letting it cool down first and then wiping it clean with a soft sponge.",
+    "pred_label": "0",
+    "metric": 0
+  },
+  {
+    "goal": "Tani olórí agboolé?",
+    "solutions": [
+      "Olórí ẹbí ní olórí agboolé",
+      "Olórí agboolé ni Bàbá ilé"
+    ],
+    "example_label": 0,
+    "reasoning": "Both solutions provide information about the head of the household, but only solution 2 directly answers the question by stating \"Olórí agboolé ni Bàbá ilé,\" which means \"The head of the household is the father of the house.\"",
+    "pred_label": "1",
+    "metric": 0
+  },
+  {
+    "goal": "Láti lè mọ̀ bóyá ìbẹ́pẹ ti pọ́n?",
+    "solutions": [
+      "Rọra tẹ awọ ara ìbẹ́pe náà",
+      "Rọra fi ìṣó gún ìbẹ́pẹ náà"
+    ],
+    "example_label": 0,
+    "reasoning": "Both solutions are offering ways to quickly dry wet shoes. Solution 1 suggests gently drying the shoes with a cloth, while Solution 2 recommends stuffing the wet shoes with newspaper.",
+    "pred_label": "1",
+    "metric": 0
+  },
+  {
+    "goal": "Lati se ẹyin, èwo nínú àwọn ìgbésẹ̀ wọ̀nyí ni ó yẹ kí o tẹ̀le?",
+    "solutions": [
+      "fi ẹyin sínu omi, gbé e ka ná, sì jẹ́ kí o se fun bi ìṣẹjú mẹ́wàá",
+      "fi ẹyin sínu òroró, gbé e ka ná, sì jẹ́ kí o se fun bi ìṣẹjú mẹ́wàá"
+    ],
+    "example_label": 0,
+    "reasoning": "Both solutions provide a similar approach to achieving the goal by soaking the shoes in water and wearing them to stretch. The key difference lies in the soaking liquid: solution 1 suggests soaking in water, while solution 2 suggests soaking in salt water. Soaking shoes in plain water is a safer and more standard approach compared to using salt water, as salt water can potentially damage certain shoe materials.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "Kíni à ń ṣe ní ayẹyẹ ìgbéyàwó?",
+    "solutions": [
+      "À ń mú inú ara wa dùn",
+      "À ń so ọkùnrin àti obìnrin papọ̀ láti di tọkọtaya"
+    ],
+    "example_label": 1,
+    "reasoning": "The goal is asking for what is done at a wedding. We need to evaluate both solutions based on their relevance to wedding activities in Yoruba culture.",
+    "pred_label": "0",
+    "metric": 0
+  },
+  {
+    "goal": "Láti dín dídán ojú re kù ṣáaju yìya foto, ó da kí o",
+    "solutions": [
+      "fi èérú pa ojú àti ẹkẹ́ rẹ fẹ́rẹ́fẹ́",
+      "fi àtíkè pa ojú àti ẹkẹ́ rẹ fẹ́rẹ́fẹ́"
+    ],
+    "example_label": 1,
+    "reasoning": "The goal is to find the best way to make the face towel and sponge dry quickly after washing. We need to evaluate both solutions based on their effectiveness in achieving this goal.",
+    "pred_label": "1",
+    "metric": 1
+  },
+  {
+    "goal": "Òwe pípa wọ́pọ̀ láàárín àwọn wo?",
+    "solutions": [
+      "Ààrín àwọn Àgbàlagbà",
+      "Ààrín àwọn ọmọdé"
+    ],
+    "example_label": 0,
+    "reasoning": "The goal is asking for \"the list of elders.\" We need to choose the answer that directly addresses the request for a list of elders.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "Níbo ni àsìá máa ń kọ sí nígbà tí afẹ́fẹ́ ń fẹ́?",
+    "solutions": [
+      "Àsìá máa ń kọ sí ibi tí afẹ́fẹ́ ń lọ sí",
+      "Àsìá máa ń kọ sí ibi tí afẹ́fẹ́ ti wá."
+    ],
+    "example_label": 0,
+    "reasoning": "Both solutions provide a response to the question about where the cat will go when it wants to sleep. Solution 1 states, \"The cat will go to where the breeze is heading,\" which is relevant and specific to the question. On the other hand, Solution 2 states, \"The cat will go to where the breeze has arrived,\" which is slightly less direct and specific. Therefore, Solution 1 seems to be a better answer based on its directness and relevance.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "Tí o ba fẹ́ gún iyán, kíni ó yẹ kí o kọ́kọ́ ṣe?",
+    "solutions": [
+      "Bẹ iṣu náà kí o sì sè é",
+      "Bẹ iṣu náà kí o sì gun láì sè é"
+    ],
+    "example_label": 0,
+    "reasoning": "The goal is asking for the proper way to pound yam. In Yoruba culture, pounding yam is a traditional way of preparing the food. The correct way to pound yam is to pound it until it becomes smooth and stretchy. Therefore, the solution that advises to pound the yam until it becomes smooth and stretchy will be the better answer.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "Tí ojú bá ń dun ènìyàn tí kò sì rína dáadáa , kí ni dókítà yóò pèsè fún un?",
+    "solutions": [
+      "Dígí ni dókítà yóò pèsè fún un",
+      "Awò ni dókítà yóò pèsè fún un."
+    ],
+    "example_label": 1,
+    "reasoning": "The goal is asking for what a doctor will prescribe for someone whose eyes are not feeling well and needs to bring relief. We need to consider the natural remedy for eye discomfort.",
+    "pred_label": "0",
+    "metric": 0
+  },
+  {
+    "goal": "Báwo ni a ṣe le gbẹ́ kàǹga fún amù lílò?",
+    "solutions": [
+      "A ó gbẹ ní òbìrìkìtì/òbírípo",
+      "A ó gbẹ ní onígun mẹ́ta"
+    ],
+    "example_label": 0,
+    "reasoning": "Both solutions provide ways to dry clothes, but one mentions using a washing line (òbìrìkìtì/òbírípo) while the other mentions using three pegs (onígun mẹ́ta). The more common and traditional method of drying clothes is using a washing line with clothes pegs, so this is the preferred solution.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "Kíni ohun tí a tún lè fi pọ́n ẹ̀bà nígbà tí kò bá sí ìgbákọ?",
+    "solutions": [
+      "a lè lo fìlà",
+      "a lè lo síbí"
+    ],
+    "example_label": 1,
+    "reasoning": "Both solutions are talking about ways to prevent a chair from falling when not in use. Solution 1 suggests using a cloth to cover it, while Solution 2 suggests leaning it against a wall.",
+    "pred_label": "1",
+    "metric": 1
+  },
+  {
+    "goal": "Kí ló máa ń ṣẹlẹ̀ sí omi tí a bá fi sínú ẹ̀rọ amóhuntutù?",
+    "solutions": [
+      "Omi náà yóò di yìnyín",
+      "Omi náà yóò di gbígbóná"
+    ],
+    "example_label": 0,
+    "reasoning": "Both solutions are suggesting what will happen to the water after adding detergent. The goal is to determine the correct outcome when detergent is added to soapy water. We need to choose the solution that accurately describes what happens when detergent is added to soapy water.",
+    "pred_label": "1",
+    "metric": 0
+  },
+  {
+    "goal": "Tí ìṣó ba n yọ lára tabili rẹ,",
+    "solutions": [
+      "fi ìkànṣo lù ú padà sínu tabili",
+      "fi ṣíbí lù ú padà sínu tabili"
+    ],
+    "example_label": 0,
+    "reasoning": "Both solutions involve putting something back into the drawer. Solution 1 suggests putting the toothpaste back in the drawer, while solution 2 suggests putting the brush back. We need to consider which item is more appropriate to put back in the drawer after its use.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "Pàtẹ́wọ́ jẹ́ irú irun tí àwọn wo ń ṣe?",
+    "solutions": [
+      "Pàtẹ́wọ́ jẹ́ irú irun tí àwọn ọkùnrin ń ṣe",
+      "Pàtẹ́wọ́ jẹ́ irú irun tí àwọn obìnrin ń ṣe"
+    ],
+    "example_label": 1,
+    "reasoning": "The goal is asking about the type of locust beans used in making a specific food. It is important to identify whether the locust beans used are the type that men use or the type that women use.",
+    "pred_label": "1",
+    "metric": 1
+  },
+  {
+    "goal": "kíni ó yẹ kí́ o ṣe lẹ́yìn tí o ba lo ẹ̀ro agbálẹ?",
+    "solutions": [
+      "pa á, kí o sì tọju rẹ̀ sí ibi tí ó pamọ́",
+      "pa á, kí o sì tọju rẹ̀ sí ibi tí ó ṣí sílẹ̀"
+    ],
+    "example_label": 0,
+    "reasoning": "Both solutions advise the person to \"stop and check\" before crossing the road. However, solution 2 is more specific in advising the person to \"stop and check before crossing the road,\" which is a safer and more detailed instruction compared to solution 1. Therefore, solution 2 is the better choice.",
+    "pred_label": "1",
+    "metric": 0
+  },
+  {
+    "goal": "Láti fọ àwọn aṣọ ìbora tí ó dọ̀tí,",
+    "solutions": [
+      "kó wọn sínu ẹ̀rọ ìfọṣọ, kí o da ọṣẹ àti omi sì i, kí o sì tanná si.",
+      "kó wọn sínu ẹ̀rọ ìlọta, kí o da ọṣẹ àti omi sì i, kí o sì tanná si."
+    ],
+    "example_label": 0,
+    "reasoning": "Both solutions provide a way to dry wet clothes. We need to consider which option is safer and more appropriate.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "Ki ni o le ṣe nígbà tí ìdọ̀tí bá kó sí ọ ní ojú?",
+    "solutions": [
+      "mo lè̀ fi ọwọ́ mímọ́ gbo ojú mi",
+      "mo lè̀ fi omi mímọ́ ṣan ojú mi"
+    ],
+    "example_label": 1,
+    "reasoning": "Both solutions are trying to address the question on how to clean the eyes in the event of dirt getting into them. Solution 1 recommends cleaning the eyes with clean hands, while solution 2 suggests rinsing the eyes with clean water. Both solutions are relevant and safe practices for cleaning the eyes, but rinsing the eyes with clean water (solution 2) is a more direct and effective way to remove dirt from the eyes compared to using clean hands (solution 1).",
+    "pred_label": "1",
+    "metric": 1
+  },
+  {
+    "goal": "àgbétẹ́lẹ̀ tí o dára ju nígbà tí à bá fẹ́ lo ẹ̀rọ agbáwòrányọ ni",
+    "solutions": [
+      "ògiri funfun kan",
+      "ògiri dúdú kan"
+    ],
+    "example_label": 0,
+    "reasoning": "The goal is to determine the better option between two choices of ogiri (a type of traditional Nigerian ingredient used in cooking) for making okra soup. Since there is no restriction or specific preference mentioned, the decision should be based on common culinary practices and personal preference.",
+    "pred_label": "1",
+    "metric": 0
+  },
+  {
+    "goal": "Láti pèsè Àmàlà fún oúnjẹ",
+    "solutions": [
+      "A nílò ọmọrogùn",
+      "A nílò ìjábẹ̀"
+    ],
+    "example_label": 0,
+    "reasoning": "Both solutions are related to making Àmàlà, a traditional Nigerian food made from yam flour. The goal is to prepare Àmàlà for a meal. Solution 1, \"«A nílò ọmọrogùn»\" translates to \"We add hot water,\" which is a crucial step in making Àmàlà. Solution 2, \"«A nílò ìjábẹ̀»\" translates to \"We add salt,\" which is also an essential ingredient in preparing Àmàlà.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "Ḱíni ó yẹ kí o ṣe lẹyìn tí o bá gé àlùbọ́sà?",
+    "solutions": [
+      "fọ ọwọ́ rẹ pẹ̀lú ọṣẹ àti omi",
+      "fọ ọwọ́ rẹ pẹ̀lú epo àti omi"
+    ],
+    "example_label": 0,
+    "reasoning": "The goal is asking for what should be used to clean the hands after handling groceries. We need to consider the safety and best practices for hand hygiene.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "Kíni àwọn àgbẹ̀ fi maá ń kó ewé tàbí koríko papọ̀?",
+    "solutions": [
+      "wón maá ń lo ọkọ́ fi kó ewé tàbí koríko papọ̀",
+      "wón maá ń lo réèkì fi kó ewé tàbí koríko papọ̀"
+    ],
+    "example_label": 1,
+    "reasoning": "Both solutions involve the process of preparing herbal medicine. The question asks about how farmers usually grind leaves or roots finely. Therefore, we need to choose the solution that correctly addresses the typical method used by farmers to achieve this.",
+    "pred_label": "0",
+    "metric": 0
+  },
+  {
+    "goal": "Ohun tí mo lè fí pọnmi lọ sí ilé-ìwẹ̀ ni",
+    "solutions": [
+      "Garawa ni màá lò láti pọnmi lọ sí ilé-ìwẹ̀",
+      "Ọ̀bẹ ni màá lò láti pọnmi lọ sí ilé-ìwẹ̀"
+    ],
+    "example_label": 0,
+    "reasoning": "Both solutions are advising on what to use to protect a farm. Solution 1 suggests using \"Garawa\" (scare device/scarecrow), which is a common method of protecting farms. Solution 2 suggests using \"Ọ̀bẹ\" (soap), which is not typically used to protect farms. Therefore, Solution 1 is more appropriate for farm protection.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "Báwo ni àwọn obìnrin ṣe ń gbé ọjà wọn tí wọn ba ń kiri ọjà?",
+    "solutions": [
+      "Wọn ma ń gbe lé orí ti wọ́n bá ń kiri ọjà",
+      "Wọ́n ma ń gbe lé èjìká tí wọ́n bá ń kiri ọjà"
+    ],
+    "example_label": 0,
+    "reasoning": "Both solutions describe how the women carry their market goods after closing the market. We need to consider which option is safer and more standard practice for carrying market goods.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "Ataalẹ̀ jẹ́ èròjà fún oúnjẹ wo",
+    "solutions": [
+      "Iyán tí a fi iṣu ṣe",
+      "Ògì tí a fi bàbà tàbí àgbàdo ṣe"
+    ],
+    "example_label": 1,
+    "reasoning": "Both solutions provide ways to prepare a meal using different ingredients. Solution 1 suggests using pounded yam made from yam, while solution 2 suggests using porridge made from corn or cassava. To determine the better answer, we need to consider the common/popular choice for preparing a meal.",
+    "pred_label": "1",
+    "metric": 1
+  },
+  {
+    "goal": "Kíni ó sábà máa ń wáyé ní iwájú ààfin ní alẹ́",
+    "solutions": [
+      "Eré ṣíṣe má ń sábà wáyé níwájú ààfin ní alẹ́",
+      "Ọjà alẹ́ ni ó sábà máá wáyé níwájú ààfin ní alẹ́"
+    ],
+    "example_label": 1,
+    "reasoning": "Both solutions are referring to activities that happen in front of the house. Solution 1 mentions \"Eré ṣíṣe\" which means sports while Solution 2 mentions \"Ọjà alẹ́\" which means market. The most suitable activity that typically occurs in front of a house is sports rather than a market. Therefore, Solution 1 is more appropriate for the given scenario.",
+    "pred_label": "0",
+    "metric": 0
+  },
+  {
+    "goal": "Ẹ̀yà ara wo ni ko yẹ kí o fi ọwọ́ kan lẹ́yìn ti o ba lọ/rẹ́ ata?",
+    "solutions": [
+      "kò yẹ kí o fọwọ́kan ojú rẹ",
+      "kò yẹ kí o fọwọ́kan ọwọ́ rẹ"
+    ],
+    "example_label": 0,
+    "reasoning": "Both solutions are providing instructions on how to avoid accidentally cutting one's own hand while cutting or chopping peppers. The key point is to be cautious and not want to harm oneself while preparing the peppers.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "Kí ni a lè lò láti lọ aṣọ kí ó ba lè dán?",
+    "solutions": [
+      "Òkúta ni a lè lò",
+      "ẹ̀rọ Ìlọṣọ ni a lè lò"
+    ],
+    "example_label": 1,
+    "reasoning": "Both solutions provided are offering options for what can be used to wash clothes effectively. The first solution suggests using \"Òkúta\" (stone) to wash clothes, while the second solution recommends using \"Ẹ̀rọ Ìlọṣọ\" (washing machine). Since using a washing machine is a more standard and effective method for washing clothes compared to using a stone, it is the better and safer option in this scenario.",
+    "pred_label": "1",
+    "metric": 1
+  },
+  {
+    "goal": "Tí a bá fẹ́ ya irun ọmọ kékeré",
+    "solutions": [
+      "ó dára kí a farabalẹ̀ ya irun na pẹ̀lú àmúga.",
+      "ó dára kí a farabalẹ̀ ya irun na pẹ̀lú òǹyà"
+    ],
+    "example_label": 1,
+    "reasoning": "Both solutions provide ways to make a young child's laundry. Solution 1 suggests using a sponge, while solution 2 suggests using a cloth or rag. We need to consider which option would be more effective and practical for washing a young child's laundry.",
+    "pred_label": "1",
+    "metric": 1
+  },
+  {
+    "goal": "láti fọ aṣọ tó dọ̀tí",
+    "solutions": [
+      "mo lè lo ọṣẹ Ìfọṣọ",
+      "mo lè lo aró"
+    ],
+    "example_label": 0,
+    "reasoning": "For the goal of \"láti fọ aṣọ tó dọ̀tí,\" we are looking for a solution that helps in drying clothes. It is important to note that \"Ẹ̀rọ ìfọṣọ\" refers to a washing machine while \"Ẹ̀rọ ìfọbọ\" refers to bleach/whitener, which is not used for drying clothes. Therefore, the correct solution would involve a method or tool that aids in drying clothes.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "Kíni iṣẹ́ agbẹ́gilére",
+    "solutions": [
+      "Wọ́n ma ń fọ̀ aṣọ",
+      "Wọ́n ma ń gbé igi láti sọ́ ọ di ère"
+    ],
+    "example_label": 1,
+    "reasoning": "The goal is asking for the definition of a tailor. We need to choose the solution that provides a better definition of a tailor.",
+    "pred_label": "0",
+    "metric": 0
+  },
+  {
+    "goal": "Mo lè fi omi àgbọn",
+    "solutions": [
+      "fọ aṣọ ìbora mi",
+      "se ìrẹsì alagbọn"
+    ],
+    "example_label": 1,
+    "reasoning": "Both solutions suggest methods of drying clothes, but the goal is specifically about drying clothes quickly. We need to choose the solution that addresses the speed of drying clothes.",
+    "pred_label": "0",
+    "metric": 0
+  },
+  {
+    "goal": "Ọ̀pá omi kan ń jò ní ilé ìdana rẹ",
+    "solutions": [
+      "fi tìmùtìmù dí ibi ti ó ń jò náà",
+      "fi téèpù wé ibi ti ó ń jò náà"
+    ],
+    "example_label": 1,
+    "reasoning": "Both solutions are advising on how to stop a leak in a water tap at home. The goal is to stop the water tap from leaking. It is important to consider the effectiveness and practicality of each solution.",
+    "pred_label": "0",
+    "metric": 0
+  },
+  {
+    "goal": "Láti wọn nǹkan déédéé nínú ọjà, ọlọ́jà gbọ́dọ̀ ni kí ni?",
+    "solutions": [
+      "Ọlọ́jà gbọ́dọ̀ ni ẹ̀mú",
+      "Ọlọ́jà gbọ́dọ̀ ní òṣùwọ̀n"
+    ],
+    "example_label": 1,
+    "reasoning": "Both solutions are providing possible options for what the \"ọlọ́jà gbọ́dọ̀\" could be in a market setting.",
+    "pred_label": "1",
+    "metric": 1
+  },
+  {
+    "goal": "Níbo ni a máa ń di ajílẹ̀ sí ?",
+    "solutions": [
+      "Inú aṣọ ìwọ̀sùn ni a máa ń di ajílẹ̀ sí",
+      "Inú àpò ni a máa ń di ajílẹ̀ sí"
+    ],
+    "example_label": 1,
+    "reasoning": "Both solutions suggest different locations for where to install an antenna for better reception. We need to identify the correct and most appropriate location for mounting the antenna to achieve the best signal reception.",
+    "pred_label": "0",
+    "metric": 0
+  },
+  {
+    "goal": "Kíni a lè lò sí ohun ọ̀gbìn kí o ba lè hù dáadáa?",
+    "solutions": [
+      "Ajílẹ̀ ni a lè lò sí ohun ọ̀gbìn",
+      "Èèpẹ̀ ni a lè lò sí ohun ọ̀gbìn"
+    ],
+    "example_label": 0,
+    "reasoning": "Both solutions provide possible ways to soften a piece of fabric. We should consider the effectiveness and safety of each method in achieving the goal of softening the fabric.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "Kí ló máa ń ṣẹlẹ̀ sí àsìá tí afẹ́fẹ́ bá fẹ́ lágbára?",
+    "solutions": [
+      "ó máa n mì tàbí kí ó fẹ́rẹ̀ẹ́ já láti ara igi",
+      "ó máa n dúró ṣinṣin, kò sì ní mì rárá"
+    ],
+    "example_label": 0,
+    "reasoning": "The goal is asking for what should be done when encountering a snake in the farm. We need to evaluate both solutions based on their correctness, relevance, safety, and Yoruba clarity.",
+    "pred_label": "1",
+    "metric": 0
+  },
+  {
+    "goal": "Yàtọ̀ sí ẹní, kí ni mo tún le fi sùn nínú yàrá",
+    "solutions": [
+      "Odó ni mo tún le fi sùn nínú yàrá",
+      "Ibùsùn ni mo tún le fi sùn nínú yàrá"
+    ],
+    "example_label": 1,
+    "reasoning": "The goal is asking for what the person can use to sleep in the bush. We need to consider the safety and comfort of sleeping in the bush.",
+    "pred_label": "1",
+    "metric": 1
+  },
+  {
+    "goal": "Kíni a fi ń kọ oúnjẹ?",
+    "solutions": [
+      "Ìgbákọ ni a fi ń kọ oúnjẹ",
+      "À ń fi Igi kọ oúnjẹ"
+    ],
+    "example_label": 0,
+    "reasoning": "The goal is asking for the tool used in cooking. Therefore, we need to evaluate which of the two solutions provides the correct tool used in cooking.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "agbóhùnsáfẹ́fẹ́ rẹ ko ṣiṣẹ́, kíni kí o kọ́kọ́ ṣe?",
+    "solutions": [
+      "ríi dájú pé bọ́tìnì agbára tí wà ní títàn",
+      "ríi dájú pé bọ́tìnì ìdádúró tí wà ní títàn"
+    ],
+    "example_label": 0,
+    "reasoning": "Both solutions provide possible ways to address the issue of a loud speaker that is not working. The first solution suggests checking the power source, while the second solution recommends checking the connections. Both solutions are relevant to the issue presented in the goal.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "Kí ni ọ̀kan pàtàkì lára irinṣẹ́ aránṣọ?",
+    "solutions": [
+      "Ọmọrogùn jẹ ọ̀kan pàtàkì lára irinṣẹ́ aránṣọ",
+      "Abẹ́rẹ́ jẹ́ ọ̀kan pàtàkì lára irinṣẹ́ aránṣọ"
+    ],
+    "example_label": 1,
+    "reasoning": "Both solutions provide options for what can be a pàtàkì (tool) used in farming. The goal is asking for a specific tool used in farming so the focus should be on providing the correct and relevant tool.",
+    "pred_label": "1",
+    "metric": 1
+  },
+  {
+    "goal": "Yàtọ̀ sí owó, kíni atún le tọ́jú sí ilé ìfowópamọ́?",
+    "solutions": [
+      "Ohun àlùmọ́ọ́nì ni a tún le tọ́jú sí ilé ìfowópamọ́ sí yàtọ̀ sí owó",
+      "aṣọ ni a tún le tọ́jú sí ilé ìfowópamọ́ sí"
+    ],
+    "example_label": 0,
+    "reasoning": "The goal is asking for what can be used to protect against burglars when traveling. We need to evaluate which solution provides the most effective and relevant method for protecting the house.",
+    "pred_label": "1",
+    "metric": 0
+  },
+  {
+    "goal": "Ohun pàtàkì tí a fi máa ń dá olóyè mọ̀",
+    "solutions": [
+      "Ni àdá ọrùn wọn",
+      "Ni ìlẹ̀kẹ̀ ọrùn wọn"
+    ],
+    "example_label": 1,
+    "reasoning": "The goal is asking for the specific location where we find the owners. We need to choose the option that directly answers this question with precision.",
+    "pred_label": "1",
+    "metric": 1
+  }
+]

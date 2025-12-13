@@ -1,1 +1,1102 @@
-[{"goal": "A le fi awon ohun elo wonyii se ajile fun ogba ile wa", "solutions": ["\u00ccr\u00e0w\u00e9, irin, \u00ecgb\u1eb9\u0301 ad\u00ecy\u1eb9", "\u00ccr\u00e0w\u00e9, \u1eb9po eyin, \u00ecgb\u1eb9\u0301 ad\u00ecy\u1eb9"], "example_label": 1, "reasoning": "\u00c0w\u1ecdn ohun \u00e8l\u00f2 t\u00f3 d\u00e1j\u00fa p\u00e9 a l\u00e8 fi \u1e63e \u00e0j\u00edl\u1eb9\u0300 f\u00fan \u1ecdgb\u00e0 ni \u00ecr\u00e0w\u00e9 \u00e0ti \u00ecgb\u1eb9\u0301 ad\u00ecy\u1eb9. \u1e62\u00f9gb\u1ecd\u0301n \u1eb9\u0300po eyin k\u00f2 y\u1eb9 k\u00ed \u00f3 w\u00e0 n\u00edn\u00fa akoj\u1ecd n\u00e1\u00e0 f\u00fan \u00e0j\u00edl\u1eb9\u0300. N\u00ed \u00ecpinnu, \u00ecr\u00e0w\u00e9 \u00e0ti \u00ecgb\u1eb9\u0301 ad\u00ecy\u1eb9 j\u1eb9\u0301 \u00e0w\u1ecdn ohun \u00e8l\u00f2 t\u00f3 d\u00e1j\u00fa f\u00fan \u00e0j\u00edl\u1eb9\u0300, n\u00edtor\u00ed n\u00e1\u00e0 oj\u00fat\u00f9\u00fa t\u00f3 d\u00e1j\u00fa j\u00f9l\u1ecd n\u00ed oj\u00fat\u00f9\u00fa k\u1ecd\u0300\u1ecdkan.", "pred_label": "0", "metric": 0}, {"goal": "T\u00ed \u1ecdt\u00ed b\u00e1 \u0144 w\u00f9 \u1eb9\u0301 mu", "solutions": ["Lo igb\u00e1 l\u00e1ti m\u00fa \u1ecdt\u00ed", "Lo ap\u1eb9\u0300r\u1eb9\u0300 l\u00e1ti mu \u1ecdt\u00ed"], "example_label": 0, "reasoning": "Solution 1 suggests using \"igb\u00e1\" which commonly means a calabash gourd, traditionally used in Yor\u00f9b\u00e1 culture for drinking alcohol such as palm wine or other traditional liquors. Solution 2 suggests using \"ap\u1eb9\u0300r\u1eb9\u0300\", which is a kind of bottle or container. Both could be used to drink alcohol, but the more traditional and culturally appropriate vessel for \"\u1ecdt\u00ed\" (especially palm wine) in Yor\u00f9b\u00e1 land is \"igb\u00e1\". Therefore, solution 1 is better as it aligns with cultural practice and terminology.", "pred_label": "0", "metric": 1}, {"goal": "O \u1e63e\u0300\u1e63\u1eb9 f\u1ecd a\u1e63\u1ecd ib\u1ecds\u1eb9 re, o si\u0300 f\u1eb9\u0301 ki\u0301 o\u0301 te\u0300te\u0300 gb\u1eb9", "solutions": ["sa\u0301 a si\u0301 o\u0301o\u0300run titi yo\u0301o\u0300 fi gb\u1eb9.", "fi si\u0301nu a\u0300po\u0300 ile\u0301-i\u0300we\u0301 r\u1eb9 titi yo\u0301o\u0300 fi gb\u1eb9."], "example_label": 0, "reasoning": "Lati te\u0300te\u0300 gba a\u1e63\u1ecd ib\u1ecds\u1eb9, o \u1e63e pataki ki a fi \u1e63\u00ed s\u00ed ibiti o \u0144 w\u1ecd oorun \u00e0ti af\u1eb9\u0301f\u1eb9\u0301 l\u00e1\u00ec fi s\u00edn\u00ed ap\u00f2 ile-i\u0300w\u00e9 r\u1eb9\u0301, nitori ap\u00f2 k\u00ec \u00ed j\u1eb9\u0301 k\u00ed a\u1e63\u1ecd n\u00e1\u00e0 gb\u1eb9 d\u00e1j\u00fa, k\u00f3 m\u00e1 b\u00e0 j\u1eb9\u0301 porosity a\u1e63\u1ecd n\u00e1\u00e0 n\u00e1\u00e0. N\u00edgb\u00e0t\u00ed a b\u00e1 s\u1ecd p\u00e9 \"fi s\u00ed \u00e0p\u00f2 ile-i\u0300w\u00e9 r\u1eb9,\" eyi l\u00e8 fa a\u1e63\u1ecd k\u00f3 m\u00e1 gb\u1eb9 l\u1eb9s\u1eb9k\u1eb9s\u1eb9\u0301 t\u00e0b\u00ed k\u00ed \u00f3 di \u00eck\u00f3pa omi \u00e0ti lees\u1eb9 n\u00f9. N\u00edtor\u00ed n\u00e1\u00e0, oj\u00fat\u00f9\u00fa t\u00f3 d\u00e1a j\u00f9l\u1ecd ni l\u00e1ti \"s\u00e1 a s\u00ed \u00f2\u00f3r\u00f9n\" k\u00ed a\u1e63\u1ecd m\u00e1a gb\u1eb9 l\u1eb9\u0301s\u1eb9k\u1eb9s\u1eb9\u0301.", "pred_label": "0", "metric": 1}, {"goal": "K\u00ed ni n\u01f9kan m\u00ec\u00edr\u00e0n t\u00ed a t\u00fan le ri l\u00e1ra epo r\u1ecd\u0300b\u00ec?", "solutions": ["Epo pupa ni n\u01f9kan m\u00ec\u00edr\u00e0n t\u00ed a t\u00fan l\u00e8 r\u00ed l\u00e1ra b\u1eb9ntir\u00f3", "epo b\u1eb9ntir\u00f3 ni n\u01f9kan m\u00ec\u00edr\u00e0n t\u00ed a t\u00fan l\u00e8 r\u00ed l\u00e1ra b\u1eb9ntir\u00f3"], "example_label": 1, "reasoning": "Ib\u1eb9\u0300r\u1eb9\u0300 \u00ecb\u00e9\u00e8r\u00e8 \u0144 w\u00e1 ohun t\u00ed a t\u00fan l\u00e8 r\u00ed l\u00f3r\u00ed epo r\u1ecd\u0300b\u00ec, [1] s\u1ecd p\u00e9 \"Epo pupa\" ni n\u01f9kan m\u00ed\u00ecr\u00e1n t\u00ed a t\u00fan l\u00e8 r\u00ed, [2] s\u1ecd p\u00e9 \"epo b\u1eb9ntir\u00f3\" ni n\u01f9kan m\u00ed\u00ecr\u00e1n t\u00ed a t\u00fan l\u00e8 r\u00ed l\u00f3r\u00ed b\u1eb9ntir\u00f3. \u1e62\u00f9gb\u1ecd\u0301n \u00ecb\u00e9\u00e8r\u00e8 n\u00e1\u00e0 n\u00edpa epo r\u1ecd\u0300b\u00ec, t\u00ed k\u00f2 j\u1ecd epo b\u1eb9ntir\u00f3. \n\nN\u00edtor\u00ed n\u00e1\u00e0, [1] \u0144 fi \"Epo pupa\" h\u00e0n g\u00e9\u0323g\u00e9\u0323 b\u00ed n\u01f9kan m\u00ed\u00ecr\u00e1n t\u00ed a t\u00fan l\u00e8 r\u00ed l\u00f3r\u00ed epo r\u1ecd\u0300b\u00ec, n\u00e1\u00e0 ni \u00f3 d\u00e1j\u00fa p\u00e9 \u00f3 d\u00e1j\u00fa p\u00e9 \"epo pupa\" l\u00e8 j\u1eb9\u0301 ohun t\u00ed a t\u00fan r\u00ed l\u00f3r\u00ed epo r\u1ecd\u0300b\u00ec, l\u00e1\u00ec j\u1eb9\u0301 p\u00e9 \u00f3 d\u00e1j\u00fa p\u00e9 [2] \u0144 s\u1ecd ohun t\u00f3 d\u00e1j\u00fa n\u00edtor\u00ed \u00f3 \u0144 f\u00fan n\u01f9kan t\u00ed \u00f3 n\u00ed h\u00e0n l\u00e9\u0323k\u00f2\u0323\u1ecd\u0300kan, \u1e63\u00f9gb\u1ecd\u0301n k\u00ec \u00ed \u1e63\u00e0l\u00e0y\u00e9 t\u00f3 d\u00e1j\u00fa f\u00fan epo r\u1ecd\u0300b\u00ec. \n\nN\u00edtor\u00ed n\u00e1\u00e0, [1] dara j\u00f9 [2] l\u1ecd f\u00fan \u00ecb\u00e9\u00e8r\u00e8 n\u00e1\u00e0.", "pred_label": "0", "metric": 0}, {"goal": "Ohun \u00e8l\u00f2 \u00ecs\u1ecd\u0301ra wo ni \u00e8n\u00ecy\u00e0n l\u00e8 l\u00f2 p\u1eb9\u0300l\u00fa \u00f2k\u00fata n\u00edn\u00fa r\u1eb9\u0300?", "solutions": ["Katakata ni ohun \u00e8l\u00f2 \u00ecs\u1ecd\u0301ra t\u00ed \u00e8n\u00ecy\u00e0n l\u00e8 fi ta \u00f2k\u00fata", "Akatanpo ni ohun \u00e8l\u00f2 \u00ecs\u1ecd\u0301ra t\u00ed \u00e8n\u00ecy\u00e0n l\u00e8 fi ta \u00f2k\u00fata"], "example_label": 1, "reasoning": "\u00c0w\u1ecdn ohun \u00e8l\u00f2 \u00ecs\u1ecd\u0301ra t\u00ed a maa \u0144 l\u00f2 p\u1eb9\u0300l\u00fa \u00f2k\u00fata ni \u00ecd\u00e1nil\u00f3j\u00fa p\u00e9 w\u1ecdn l\u00e8 fa \u00e0w\u1ecdn t\u00f3 l\u00e8 \u1e63e ipalara s\u00edl\u1eb9\u0300. N\u00ed Yor\u00f9b\u00e1, \"katakata\" j\u1eb9\u0301 ohun \u00e8l\u00f2 t\u00f3 n\u00ed \u00e0\u1e63\u1eb9 l\u00f3r\u00ed \u00e8t\u00f2 \u00ecs\u1ecd\u0301ra t\u00e0b\u00ed ohun \u00e8l\u00f2 t\u00ed a l\u00e8 lo l\u00e1ti fi ta \u00f2k\u00fata, \u00f3 s\u00ec j\u1eb9\u0301 \u00ecs\u1ecd\u0300kan \u00e0w\u1ecdn ohun \u00e8l\u00f2 t\u00ed a n\u00edf\u1eb9\u0300\u1eb9\u0301 s\u00ed f\u00fan \u00ecd\u00e1j\u1ecd\u0301s\u1eb9\u0301 \u00eck\u1ecdl\u00f9. \"Akatanpo\" k\u00f2 j\u1eb9\u0301 ohun \u00e8l\u00f2 \u00ecs\u1ecd\u0301ra t\u00f3 w\u1ecdp\u1ecd t\u00e0b\u00ed t\u00f3 d\u00e1j\u00fa p\u00e9 a l\u00e8 fi ta \u00f2k\u00fata. N\u00edtor\u00ed n\u00e1\u00e0, \"katakata\" j\u1eb9\u0301 \u00ecd\u00e1h\u00f9n t\u00f3 d\u00e1j\u00fa j\u00f9l\u1ecd f\u00fan \u00ecb\u00e9\u00e8r\u00e8 y\u00ec\u00ed.", "pred_label": "0", "metric": 0}, {"goal": "ki\u0301ni ohun to\u0301 da\u0301ra ju\u0300l\u1ecd lati fi l\u1eb9 a\u0300wo to\u0301 f\u1ecd\u0301 si\u0301 me\u0301ji\u0300?", "solutions": ["l\u1eb9 a\u0300wo na\u0301a\u0300 p\u1ecd\u0300 p\u1eb9\u0300lu\u0301 e\u0300edu\u0301", "l\u1eb9 a\u0300wo na\u0301a\u0300 p\u1ecd\u0300 p\u1eb9\u0300lu\u0301 o\u0300n\u0300l\u1eb9\u0300"], "example_label": 1, "reasoning": "L\u1eb9\u1eb9 awo ti o f\u1ecd si meji ni a maa n lo o\u0300n\u0300l\u1eb9\u0300 (fabric softener) nitori o fun ni ir\u1ecdrun ati ki o maa j\u1eb9 ki awo naa j\u1eb9 mimo ati ko ni lile. Eedu (starch) maa n j\u1eb9 ki awo maa nira ati ki o dan, \u1e63ugb\u1ecdn ko dara lati fi fun awo to f\u1ecd si meji nitori o le fa ki awo naa maa nira ju. Nitorinaa, o\u0300n\u0300l\u1eb9\u0300 ni ohun to d\u00e1ra j\u00f9l\u1ecd lati fi l\u1eb9\u0301 awo t\u00f3 f\u1ecd s\u00ed m\u00e9j\u00ec.", "pred_label": "1", "metric": 1}, {"goal": "K\u00edni a fi \u0144 hun a\u1e63\u1ecd \u00f2k\u00e8?", "solutions": ["\u00d2w\u00fa ni a fi \u0144 hun a\u1e63\u1ecd \u00f2k\u00e8", "Ok\u00f9n ni a fi \u0144 h\u00f9n a\u1e63\u1ecd \u00f2k\u00e8"], "example_label": 0, "reasoning": "A\u1e63\u1ecd \u00f2k\u00e8 j\u1eb9\u0301 a\u1e63\u1ecd t\u00ed a hun l\u00e1ti in\u00fa \u00f2w\u00fa t\u00e0b\u00ed \u1eb9\u0300d\u00e1 rere \u00ecr\u00fa \u00e8y\u00ed t\u00ed a f\u1eb9\u0301 fi \u1e63e a\u1e63\u1ecd y\u00ed. \u00d2w\u00fa ni w\u1ecd\u0301n s\u00e1b\u00e0 m\u00e1a \u0144 l\u00f2 g\u1eb9\u0301g\u1eb9\u0301 b\u00ed aso \u00f2k\u00e8 \u1e63e j\u1eb9\u0301 a\u1e63\u1ecd t\u00ed a hun l\u00e1ti inu \u00f2w\u00fa. Ok\u00f9n k\u00ec \u00ed j\u1eb9\u0301 ohun t\u00ed a fi \u0144 hun a\u1e63\u1ecd, \u1e63\u00f9gb\u1ecd\u0301n k\u00ec \u00ed \u1e63e ohun t\u00ed w\u1ecd\u0301n s\u00e1b\u00e0 m\u00e1a \u0144 l\u00f2 f\u00fan hun a\u1e63\u1ecd \u00f2k\u00e8. N\u00edtor\u00ed n\u00e1\u00e0, oj\u00fat\u00f9\u00fa t\u00f3 \u0111\u00fang ni p\u00e9 \"\u00d2w\u00fa ni a fi \u0144 hun a\u1e63\u1ecd \u00f2k\u00e8.\"", "pred_label": "0", "metric": 1}, {"goal": "N\u00edbo ni \u00e0y\u00e8 t\u00ed \u00f3 w\u00e0 l\u00e1\u00e0\u00e1r\u00edn ap\u00e1 s\u00ed \u00e8j\u00eck\u00e1?", "solutions": ["\u1eccr\u00f9n-\u1ecdw\u1ecd\u0301 ni \u00e0y\u00e8 t\u00ed \u00f3 w\u00e0 l\u00e1\u00e0\u00e1r\u00edn ap\u00e1 s\u00ed \u00e8j\u00eck\u00e1", "\u00ccg\u00f9np\u00e1 ni \u00e0y\u00e8 t\u00ed \u00f3 w\u00e0 l\u00e1\u00e0\u00e1r\u00edn ap\u00e1 s\u00ed \u00e8j\u00eck\u00e1"], "example_label": 1, "reasoning": "\u00c0y\u00e8 t\u00ed \u00f3 w\u00e0 l\u00e1\u00e0\u00e1r\u00edn ap\u00e1 s\u00ed \u00e8j\u00eck\u00e1 ni a m\u1ecd\u0300 s\u00ed \"\u00ecg\u00f9np\u00e1\" n\u00ed \u00e8d\u00e8 Yor\u00f9b\u00e1. \"\u1eccr\u00f9n-\u1ecdw\u1ecd\u0301\" t\u1ecd\u0301ka s\u00ed ap\u00e1 t\u00f3 w\u00e0 l\u1eb9\u0301y\u00ecn \u1ecd\u0300w\u1ecd\u0301, k\u00ec \u00ed \u1e63e \u00e0y\u00e8 l\u00e1\u00e0\u00e1r\u00edn ap\u00e1 s\u00ed \u00e8j\u00eck\u00e1. N\u00edtor\u00ed n\u00e1\u00e0, \u00ecd\u00e1h\u00f9n t\u00f3 p\u00e9ye j\u00f9 l\u1ecd ni oj\u00fat\u00ecw\u1ecd\u0300n kej\u00ec.", "pred_label": "1", "metric": 1}, {"goal": "K\u00edni \u00e0 \u0144 fi \u00e0d\u00e1 \u1e63e?", "solutions": ["\u00c0 \u0144 fi \u00e0d\u00e1 ro oko", "\u00c0 \u0144 fi \u00e0d\u00e1 d\u00e1n\u00e1"], "example_label": 0, "reasoning": "\u00c0d\u00e1 j\u1eb9\u0301 irin\u1e63\u1eb9\u0301 t\u00f3 m\u00e1a \u0144 \u1e63e i\u1e63\u1eb9\u0301 agb\u1eb9\u0301, p\u00e0\u00e1p\u00e0\u00e1 j\u00f9l\u1ecd l\u00e1t\u00e0r\u00ed i\u1e63\u1eb9\u0301 oko \u00e0ti g\u00e9 \u00e0w\u1ecdn ohun t\u00e0b\u00ed \u1eb9\u0300d\u00e1. K\u00edk\u1ecd\u0300\u1ecd\u0301 p\u00e9 \u00e0d\u00e1 \u0144 \u1e63e i\u1e63\u1eb9\u0301 ''r\u1ecd\u0301 oko'' j\u1eb9\u0301 \u00ecd\u00e1h\u00f9n t\u00f3 d\u00e1j\u00fa ju \u00e0d\u00e1 ''d\u00e1n\u00e1'' l\u1ecd. \u00c0d\u00e1 k\u1ecd\u0301 l\u00f3 \u1e63e am\u1ecd\u0300ja f\u00fan in\u00fa in\u00e1 t\u00e0b\u00ed \u1e63e \u00ec\u1e63\u00e8t\u00f2 in\u00e1 b\u00edi ''d\u00e1n\u00e1''. N\u00edpa b\u1eb9\u0301\u1eb9\u0300, \u00e0d\u00e1 fi \u0144 ro oko d\u00e1j\u00fa ju.", "pred_label": "0", "metric": 1}, {"goal": "K\u00ed ni w\u1ecd\u0301n ohun \u00e8l\u00f2 \u00ecd\u00e1n\u00e1 ni ay\u00e9 \u00e0tij\u1ecd\u0301?", "solutions": ["\u00cck\u00f2k\u00f2 ni ohun \u00e8l\u00f2 \u00ecd\u00e1n\u00e1 ni ay\u00e9 \u00e0tij\u1ecd\u0301", "\u00c0gb\u00e1 ni ohun \u00e8l\u00f2 \u00ecd\u00e1n\u00e1 ni ay\u00e9 \u00e0tij\u1ecd\u0301"], "example_label": 0, "reasoning": "N\u00ed ay\u00e9 \u00e0tij\u1ecd\u0301, ohun \u00e8l\u00f2 \u00ecd\u00e1n\u00e1 t\u00ed w\u1ecd\u0301n s\u00e1b\u00e0 m\u00e1a l\u00f2 j\u1eb9\u0301 \u00e0gb\u00e1 \u00e0ti \u00eck\u00f2k\u00f2, \u1e63\u00f9gb\u1ecd\u0301n \u00e0gb\u00e1 (il\u00e9 \u00eck\u00f2k\u00f2 am\u1ecd\u0301 t\u00ed w\u1ecd\u0301n fi \u0144 sin \u00e0b\u1ecd\u0300 ad\u00f9n omi t\u00e0b\u00ed ohun m\u00edmu) ni w\u1ecd\u0301n s\u00e1b\u00e0 k\u00e0 s\u00ed ohun \u00ecd\u00e1n\u00e1 p\u00e0t\u00e0k\u00ec t\u00f3 w\u00fal\u00f2 j\u00f9 l\u1ecd f\u00fan f\u00edfi am\u00fal\u00e9tut\u00f9 \u00e0ti f\u00edfi omi t\u00e0b\u00ed o\u00fanj\u1eb9 \u1e63et\u00e1n. \u00cck\u00f2k\u00f2 j\u1eb9\u0301 p\u1eb9\u0300l\u00fa or\u00ed\u1e63\u00ec\u00edr\u00ed\u1e63\u00ec\u00ed, \u1e63\u00f9gb\u1ecd\u0301n y\u00e0t\u1ecd\u0300 s\u00ed \u00e0gb\u00e1, \u00e0gb\u00e1 n\u00ed ipa pataki l\u00e1ti t\u1ecdju o\u00fanj\u1eb9 \u00e0ti omi, p\u00e0\u00e1p\u00e0\u00e1 n\u00ed ay\u00e9 \u00e0tij\u1ecd\u0301. N\u00edtor\u00ed n\u00e1\u00e0, \u00e0w\u1ecdn m\u00e9j\u00e8\u00e8j\u00ec j\u1eb9\u0301 ohun \u00e8l\u00f2 \u00ecd\u00e1n\u00e1, \u1e63\u00f9gb\u1ecd\u0301n \u00e0gb\u00e1 j\u1eb9\u0301 \u00ecd\u00e1h\u00f9n t\u00f3 d\u00e1j\u00fa s\u00ed \u00ecb\u00e9\u00e8r\u00e8 n\u00e1\u00e0.\n\n\u1ecc\u0300n\u00e0 \u00ecs\u1ecd\u0300kan p\u00e8\u0323l\u00fa \u00ecb\u00e9\u00e8r\u00e8 n\u00e1\u00e0 ni p\u00e9 a f\u1eb9\u0300 nkan t\u00f3 \u1e63e p\u00e0t\u00e0k\u00ec n\u00ed ay\u00e9 \u00e0tij\u1ecd\u0301 g\u1eb9\u0301g\u1eb9\u0301 b\u00ed ohun \u00e8l\u00f2 \u00ecd\u00e1n\u00e1, n\u00edgb\u00e0 t\u00ed \u00eck\u00f2k\u00f2 l\u00e8 j\u1eb9\u0301 \u00e0gb\u00e1 t\u00e0b\u00ed \u00e0w\u1ecdn ohun \u00e8l\u00f2 m\u00ed\u00ec.\n\nN\u00edtor\u00ed p\u00e9 \u00e0gb\u00e1 ni ohun \u00e8l\u00f2 \u00ecd\u00e1n\u00e1 t\u00f3 n\u00ed ipa p\u00e0t\u00e0k\u00ec n\u00ed ay\u00e9 \u00e0tij\u1ecd\u0301, \u00ecd\u00e1h\u00f9n t\u00f3 d\u00e1j\u00fa ni 1.", "pred_label": "1", "metric": 0}, {"goal": "K\u00edni \u1eb9\u0300r\u1ecd \u00ecgb\u00e0l\u00f3d\u00e9 t\u00ed \u00e0 \u0144 l\u00f2 f\u00fan a\u1e63\u1ecd f\u00edf\u1ecd\u0300 n\u00ed ay\u00e9 \u00f2de \u00f2ni?", "solutions": ["\u1eb8\u0300r\u1ecd \u00ecl\u1ecdta ni \u1eb9\u0300r\u1ecd \u00ecgb\u00e0l\u00f3d\u00e9 t\u00ed \u00e0 \u0144 l\u00f2 f\u00fan a\u1e63\u1ecd f\u00edf\u1ecd\u0300 n\u00ed ay\u00e9 \u00f2de \u00f2ni", "\u1eb8\u0300r\u1ecd \u00ecf\u1ecd\u1e63\u1ecd ni \u1eb9\u0300r\u1ecd \u00ecgb\u00e0l\u00f3d\u00e9 t\u00ed \u00e0 \u0144 l\u00f2 f\u00fan a\u1e63\u1ecd f\u00edf\u1ecd\u0300 n\u00ed ay\u00e9 \u00f2de \u00f2ni"], "example_label": 1, "reasoning": "\u1eb8\u0300r\u1ecd \u00ecf\u1ecd\u1e63\u1ecd ni a m\u1ecd\u0300 s\u00ed washing machine n\u00ed G\u1eb9\u0300\u1eb9\u0301s\u00ec, \u00e8y\u00ed t\u00ed a fi \u0144 fi a\u1e63\u1ecd \u1e63e f\u00edf\u1ecd\u0300 l\u1ecd\u0301n\u00e0 \u00ecgb\u00e0l\u00f3d\u00e9. \u1eb8\u0300r\u1ecd \u00ecl\u1ecdta, k\u1ecd\u0301b\u1ecd\u0300\u1ecd\u0300kan, j\u1eb9\u0301 ohun \u00e8l\u00f2 t\u00f3 \u0144 j\u1ecd \u1e63\u1ecd\u0301\u1ecd\u0300\u1e63\u00ec t\u00e0b\u00ed \u00e0p\u00f3t\u00ed f\u00edfi \u1ecd\u0300r\u1ecd\u0300 \u1e63e, k\u00f2 j\u1eb9\u0301 \u1eb9\u0300r\u1ecd f\u00edf\u1ecd a\u1e63\u1ecd. N\u00edtor\u00ed n\u00e1\u00e0, oj\u00fat\u00f9\u00fa kej\u00ec l\u00f3 d\u00e1j\u00fa p\u00e9 \u00f3 f\u00fan un n\u00ed \u00ecd\u00e1h\u00f9n t\u00f3 t\u1ecd\u0301 s\u00ed \u00ecb\u00e9\u00e8r\u00e8 n\u00e1\u00e0.", "pred_label": "1", "metric": 1}, {"goal": "K\u00ed ni mo l\u00e8 fi ti il\u00e8\u0323k\u00f9n il\u00e9 mi pa?", "solutions": ["K\u1ecd\u0301k\u1ecd\u0301r\u1ecd\u0301 ni mo l\u00e8 lo l\u00e1ti ti il\u00e8\u0323k\u00f9n mi pa", "\u00c0g\u00e1d\u00e1godo ni mo le l\u00f2 l\u00e1ti fi ti il\u00e8\u0323k\u00f9n mi pa."], "example_label": 1, "reasoning": "N\u00edpa \u00ect\u00e0n Yor\u00f9b\u00e1 \u00e0ti \u00ecm\u1ecd\u0300 \u00ec\u1e63\u00e0k\u00f3so il\u1eb9\u0300k\u00f9n, k\u00f2 \u1e63e\u00e9 at\u1ecd\u0301ka p\u00e9 k\u00ed w\u1ecd\u0301n fi k\u1ecd\u0301k\u1ecd\u0301r\u1ecd\u0301 t\u00e0b\u00ed \u00e0g\u00e1d\u00e1godo pa il\u1eb9\u0300k\u00f9n il\u00e9. K\u1ecd\u0301k\u1ecd\u0301r\u1ecd\u0301 j\u1eb9\u0301 nkan t\u00e1 a s\u00e1b\u00e0 m\u00e1a \u0144 lo g\u1eb9\u0301g\u1eb9\u0301 b\u00ed irin\u1e63\u1eb9\u0301 ab\u1eb9\u0301, k\u00f2 s\u00ec d\u00e1j\u00fa p\u00e9 y\u00f3\u00f2 j\u1eb9\u0301 ohun t\u00ed a l\u00e8 fi ti il\u00e8\u0323k\u00f9n pa. \u00c0g\u00e1d\u00e1godo j\u1eb9\u0301 ohun \u00e8l\u00f2 \u00ecj\u00e0 t\u00ed k\u00f2 y\u1eb9 k\u00ed a fi \u1e63e i\u1e63\u1eb9\u0301 il\u1eb9\u0300k\u00f9n, t\u00f3 j\u1eb9\u0301 p\u00e9 a s\u00e1b\u00e0 m\u00e1a nlo il\u1eb9\u0300k\u00f9n \u00e0ti il\u1eb9\u0300k\u00f9n n\u00ed irin t\u00e0b\u00ed am\u1ecd\u0301 \u00e0ti aw\u1ecdn irin\u1e63\u1eb9\u0301 t\u00f3 p\u00e9ye f\u00fan \u00ecd\u00ed n\u00e1\u00e0. B\u00f3 til\u1eb9\u0300 j\u1eb9\u0301 p\u00e9 m\u00e9j\u00e8\u00e8j\u00ec k\u00f2 p\u00e9ye, \u00e0w\u1ecdn m\u00e9j\u00e8\u00e8j\u00ec k\u00f2 p\u00e9ye f\u00fan i\u1e63\u1eb9\u0301 n\u00e1\u00e0, s\u00edb\u1eb9\u0300, \u00e0g\u00e1d\u00e1godo j\u1eb9\u0301 irin\u1e63\u1eb9\u0301 t\u00f3 l\u00e8 din \u00e0w\u1ecdn nnkan t\u00ed a f\u1eb9\u0301 d\u00e8n\u00e0 t\u00e0b\u00ed ti il\u1eb9\u0300k\u00f9n mu d\u00e1j\u00fa p\u00e9 k\u00f2 r\u1ecdr\u00fa. N\u00edtor\u00ed n\u00e1\u00e0, \u00ecd\u00e1h\u00f9n k\u00ec\u00ed \u1e63e \u00e0foj\u00fas\u00f9n \u00e0t\u1ecdk\u00e0nw\u00e1, \u1e63\u00f9gb\u1ecd\u0301n w\u1ecd\u0301n l\u00e8 m\u1ecdj\u00fa-k\u00far\u00f2 s\u00ed ohun t\u00ed \u00f3 l\u00e8 d\u00e1j\u00fa di\u1eb9\u0300 s\u00edi. N\u00edtor\u00ed p\u00e9 \u00e0g\u00e1d\u00e1godo ni \u1ecd\u0300n\u00e0 t\u00f3 l\u00e8 j\u1eb9\u0301 p\u00e9 \u00f3 d\u00e1j\u00fa j\u00f9l\u1ecd n\u00edn\u00fa \u00e8y\u00ed m\u00e9j\u00e8\u00e8j\u00ec, l\u00e1ra \u00e0w\u1ecdn \u00e0\u1e63\u00e0 Yor\u00f9b\u00e1 t\u00f3 n\u00edpa \u00ecl\u00f2 irin\u1e63\u1eb9\u0301 t\u00f3 l\u00e1gb\u00e1ra f\u00fan \u00ecpam\u1ecd\u0301 il\u1eb9\u0300k\u00f9n, a y\u00e0n \u00e0\u1e63\u00e0y\u00e0n kej\u00ec.", "pred_label": "1", "metric": 1}, {"goal": "O f\u1eb9\u0301 m\u1ecd aago ti\u0301 o lu, ki\u0301 ni ohun to t\u1ecd\u0301 la\u0301ti wo\u0300?", "solutions": ["aago \u1ecdw\u1ecd\u0301", "aago ori\u0301"], "example_label": 0, "reasoning": "\u00ccb\u00e9\u00e8r\u00e8 n\u00e1\u00e0 n\u00edpa \u00e0k\u00f3k\u00f2 t\u00e0b\u00ed aago t\u00f3 m\u00fa k\u00ed a m\u1ecd \u00ecgb\u00e0 t\u00ed aago \u0144 lu ni. N\u00ed Yor\u00f9b\u00e1, aago ori (aago or\u00ed) k\u00ec \u00ed \u1e63e aago t\u00f3 \u0144 lu, \u1e63\u00f9gb\u1ecd\u0301n aago \u1ecdw\u1ecd\u0301 (wristwatch) j\u1eb9\u0301 ohun t\u00ed a \u1e63e l\u00f3r\u00ed \u1ecdw\u1ecd\u0301 t\u00ed \u00f3 f\u00fanni n\u00ed \u00e0k\u00f3k\u00f2. N\u00edtor\u00ed n\u00e1\u00e0, t\u00f3 b\u00e1 j\u1eb9\u0301 p\u00e9 \u00e0 \u0144 w\u00e1 ohun t\u00f3 t\u1ecd\u0301 l\u00e1ti fi m\u1ecd aago t\u00ed \u00f3 lu, aago \u1ecdw\u1ecd\u0301 ni \u00f3 y\u1eb9 k\u00e1 wo, k\u00f3 j\u1eb9\u0301 p\u00e9 \u1ecd\u0300r\u1ecd\u0300 y\u1eb9n \u0144 t\u1ecd\u0301ka s\u00ed aago t\u00f3 m\u00fa \u00ecgb\u00e0 t\u00f3 p\u00e9.", "pred_label": "0", "metric": 1}, {"goal": "Or\u00ed ibo ni \u00e0w\u1ecdn Yor\u00f9b\u00e1 ti m\u00e1a n d\u00e1n\u00e1?", "solutions": ["Or\u00ed \u00e0p\u00f3t\u00ed", "Or\u00ed \u00e0r\u00f2"], "example_label": 1, "reasoning": "\u00c0d\u00far\u00e0 n\u00e1\u00e0 \u0144 b\u00e9\u00e8r\u00e8 n\u00edpa or\u00ed ibo t\u00ed \u00e0w\u1ecdn Yor\u00f9b\u00e1 ti m\u00e1a \u0144 d\u00e1n\u00e1. N\u00ed \u00ecgb\u00e0 Yor\u00f9b\u00e1, \u00e0r\u00f2 ni w\u1ecd\u0301n s\u00e1b\u00e0 m\u00e1a \u0144 lo g\u00e9\u0323g\u00e9\u0323 b\u00ed ibi t\u00ed a ti m\u00e1a \u0144 d\u00e1 in\u00e1, n\u00edtor\u00ed p\u00e9 \u00f3 j\u1eb9 k\u00e9k\u00e8k\u00e9, t\u00f3 s\u00ec r\u1ecdr\u00f9n l\u00e1ti gba ibi \u00ecn\u00e1. \u00c0p\u00f3t\u00ed k\u00f2 \u1e63e t\u00f3b\u00e1j\u1eb9\u0301 \u00e0y\u00edpad\u00e0, k\u00f2 s\u00ec k\u1ecdj\u00e1 w\u1ecd\u0301p\u1ecd\u0300 b\u00ed ibi t\u00ed a ti \u0144 d\u00e1n\u00e1 n\u00ed agb\u00e8gb\u00e8 Yor\u00f9b\u00e1. N\u00edtor\u00ed n\u00e1\u00e0, oj\u00fat\u00f9\u00fa t\u00f3 d\u00e1ra j\u00f9l\u1ecd ni \u00abOr\u00ed \u00e0r\u00f2\u00bb.", "pred_label": "1", "metric": 1}, {"goal": "T\u00ed mo b\u00e1 f\u1eb9\u0301 k\u00ed il\u00e9 mi tuntun r\u1eb9w\u00e0 n\u00ed \u00e0w\u1ecd\u0300", "solutions": ["M\u00e0\u00e1 lo \u1ecd\u0300d\u00e0 t\u00ed \u00f3 r\u1eb9w\u00e0", "M\u00e0\u00e1 lo \u00ecy\u00e8p\u1eb9\u0300 t\u00ed \u00f3 r\u1eb9\u0300w\u00e0"], "example_label": 0, "reasoning": "\u00ccb\u00e9\u00e8r\u00e8 n\u00e1a n\u00edpa b\u00ed a \u1e63e l\u00e8 k\u00ed il\u00e9 tuntun r\u1eb9w\u00e0 n\u00ed \u00e0w\u1ecd\u0300. \u00ccy\u00e8p\u1eb9\u0300 (paint) ni w\u1ecd\u0301n m\u00e1a nlo l\u00e1ti fi \u1e63e il\u00e9 tuntun r\u1eb9w\u00e0 n\u00ed \u00e0w\u1ecd\u0300 t\u00ed a f\u1eb9\u0301. \u1ecc\u0300d\u00e0 j\u1eb9\u0301 irin\u1e63\u1eb9\u0301 \u1ecd\u0300j\u00e0 \u00e0t\u1ecdka t\u00ed k\u00f2 n\u00ed \u00ed m\u00fa \u00e0w\u1ecd\u0300 il\u00e9 j\u1eb9\u0301. N\u00edtor\u00ed n\u00e1\u00e0, \u00ecm\u1ecd\u0300 n\u00edpa \u00e0\u1e63\u00e0 \u00e0ti \u00e0t\u1ecdka ni p\u00e9 k\u00ed il\u00e9 r\u1eb9 w\u00e0 n\u00ed \u00e0w\u1ecd\u0300 t\u00f3 d\u00e1ra, a \u00f3 lo \u00ecy\u00e8p\u1eb9\u0300, k\u00ec \u00ed \u1e63e \u1ecd\u0300d\u00e0.", "pred_label": "1", "metric": 0}, {"goal": "K\u00ed ni a l\u00e8 fi gb\u1eb9\u0301 il\u1eb9\u0300?", "solutions": ["J\u00edg\u00e0 ni a l\u00e8 fi gb\u1eb9\u0301 il\u1eb9\u0300", "\u00c0d\u00e1 ni a l\u00e8 fi gb\u1eb9\u0301 il\u1eb9\u0300"], "example_label": 0, "reasoning": "L\u00e1k\u1ecd\u0300\u1ecd\u0301k\u1ecd\u0301, \u1eb9\u0300r\u1ecd ti w\u1ecd\u0301n m\u00e1a \u0144 l\u00f2 l\u00e1ti gb\u1eb9\u0301 il\u1eb9\u0300 ni Yor\u00f9b\u00e1 or\u00ed\u1e63\u00ec\u00edr\u00ed\u1e63\u00ec\u00ed \u00ecl\u00fa j\u1eb9\u0301 \"\u00e0d\u00e1,\" t\u00f3 j\u1eb9\u0301 ohun \u00e8l\u00f2 t\u00f3 n\u00ed agb\u00e1ra t\u00f3 t\u00f3bi l\u00e1ti y\u00e1 il\u1eb9\u0300 f\u00fan i\u1e63\u1eb9\u0301 agb\u00e1ra \u00e0ti gb\u00edgb\u00e9 \u1eb9\u0300r\u00f9. \"J\u00edg\u00e0\" k\u00f2 w\u1ecd\u0301p\u1ecd\u0300 g\u1eb9\u0301g\u1eb9\u0301 b\u00ed ohun \u00e8l\u00f2 t\u00ed a fi \u0144 gb\u1eb9\u0301 il\u1eb9\u0300; \u00f3 l\u00e8 j\u1eb9\u0301 ohun m\u00ec\u00edr\u00e0n t\u00f3 d\u00e1 l\u00f3r\u00ed \u1eb9\u0300r\u1ecd y\u00e0t\u1ecd\u0300. N\u00edtor\u00ed n\u00e1\u00e0, \"\u00e0d\u00e1\" l\u00f3 y\u1eb9 k\u00f3 j\u1eb9\u0301 ohun t\u00f3 d\u00e1j\u00fa j\u00f9l\u1ecd f\u00fan \u00ecb\u00e9\u00e8r\u00e8 n\u00e1\u00e0.", "pred_label": "1", "metric": 0}, {"goal": "K\u00ed ni \u00e0w\u1ecdn \u1ecdm\u1ecd \u00f2k\u00fa m\u00e1a \u0144 j\u1eb9\u0301 l\u1eb9\u0301y\u00ecn ik\u00fa \u00f2b\u00ed w\u1ecdn?", "solutions": ["Og\u00fan ni \u00e0w\u1ecdn \u1ecdm\u1ecd \u00f2k\u00fa m\u00e1a \u0144 j\u1eb9\u0301", "\u00c0m\u00e0l\u00e0 ni \u00e0w\u1ecdn \u1ecdm\u1ecd \u00f2k\u00fa m\u00e1a \u0144 j\u1eb9"], "example_label": 0, "reasoning": "\u00c0k\u00f3k\u00f2 t\u00ed \u00ecb\u00e9\u00e8r\u00e8 gb\u1eb9\u0300k\u1eb9\u0300l\u00e9 l\u00e1ti m\u1ecd ohun t\u00ed \u00e0w\u1ecdn \u1ecdm\u1ecd \u00f2k\u00fa \u0144 j\u1eb9 l\u1eb9\u0301y\u00ecn ik\u00fa \u00f2b\u00ed w\u1ecdn, a\u1e63\u00e0y\u00e0n t\u00f3 d\u00e1j\u00fa ni p\u00e9 \"Og\u00fan ni \u00e0w\u1ecdn \u1ecdm\u1ecd \u00f2k\u00fa m\u00e1a \u0144 j\u1eb9\u0301,\" n\u00edtor\u00ed p\u00e9 og\u00fan j\u1eb9\u0301 \u1ecd\u0300kan l\u00e1ra ohun t\u00ed a \u0144 j\u1eb9 n\u00ed \u00e0d\u00far\u00e0 \u00e0ti \u00ecr\u00e1nt\u00ed \u00e0w\u1ecdn al\u00e1d\u00f9\u00fagb\u00f2 \u00e0ti \u00ecd\u00edl\u00e9 t\u00f3 b\u00e1 ti k\u00fa. \u00c0m\u00e0l\u00e0 j\u1eb9\u0301 o\u00fanj\u1eb9 \u00e0d\u00edd\u00fan Yor\u00f9b\u00e1, \u1e63\u00f9gb\u1ecd\u0301n k\u00f2 n\u00ed \u00ed \u1e63e p\u00e1t\u00e1p\u00e1t\u00e1 \u00e0fih\u00e0n \u00ecw\u00e0 \u00e0ti \u00ec\u1e63e w\u1ecd\u0301p\u1ecd\u0300 t\u00ed \u00e0w\u1ecdn \u1ecdm\u1ecd \u00f2k\u00fa m\u00e1a \u0144 j\u1eb9\u0301 l\u1eb9\u0301y\u00ecn ik\u00fa \u00f2b\u00ed w\u1ecdn. N\u00edtor\u00ed n\u00e1\u00e0, oj\u00fal\u00f3w\u00f3 \u00e0ti t\u00f3 p\u00e9ye ju ni oj\u00fat\u00f9\u00fa k\u00edn\u00ed n\u00edpa \u00ecb\u00e1\u1e63e p\u1eb9\u0300l\u00fa \u00e0\u1e63\u00e0 Yoruba n\u00edpa \u00ect\u1ecd\u0301j\u00fa \u00ecr\u00e1nt\u00ed \u00e0w\u1ecdn t\u00ed \u00f3 ti k\u00fa ni agb\u00e8gb\u00e8 w\u1ecdn.", "pred_label": "0", "metric": 1}, {"goal": "\u1eb8ran il\u00e9 t\u00ed \u00f3 j\u1eb9\u0301 \u00ecd\u00e0kej\u00ec \u00e0g\u00f9nt\u00e0n", "solutions": ["ni a m\u1ecd\u0300 s\u00ed ew\u00far\u1eb9\u0301", "ni a m\u1ecd\u0300 s\u00ed aj\u00e1"], "example_label": 0, "reasoning": "\u00ccb\u00e9\u00e8r\u00e8 n\u00e1\u00e0 \u0144 w\u00e1 \u1ecd\u0300r\u1ecd\u0300 t\u00ed \u00f3 j\u1ecdm\u1ecd \u1eb9ran il\u00e9 t\u00ed \u00f3 j\u1eb9\u0301 \u00ecd\u00e0kej\u00ec \u00e0g\u00f9nt\u00e0n, \u00ecy\u1eb9n ni \u1eb9ran il\u00e9 t\u00f3 w\u1ecd\u0301p\u1ecd\u0300 l\u1eb9\u0301y\u00ecn \u00e0g\u00f9nt\u00e0n. N\u00ed Yor\u00f9b\u00e1, ew\u00far\u1eb9\u0301 ni a m\u1ecd\u0300 s\u00ed \u1eb9ran il\u00e9 t\u00ed \u00f3 j\u1eb9\u0301 \u00ecd\u00e0kej\u00ec \u00e0g\u00f9nt\u00e0n l\u1eb9\u0301y\u00ecn \u1eb9ran \u00e0g\u00f9nt\u00e0n. Aj\u00e1 k\u00f2 j\u1eb9\u0301 \u1eb9ran il\u00e9 t\u00f3 w\u1ecd\u0301p\u1ecd\u0300 t\u00e0b\u00ed \u00ecd\u00e0kej\u00ec \u00e0g\u00f9nt\u00e0n n\u00edn\u00fa \u1eb9\u0300y\u00e0 \u1eb9ran il\u00e9. N\u00edtor\u00ed n\u00e1\u00e0, \u00ecd\u00e1h\u00f9n t\u00f3 t\u1ecd\u0301 ni oj\u00fat\u00f9\u00fa 0.", "pred_label": "0", "metric": 1}, {"goal": "Ti\u0301 o ba f\u1eb9\u0301 \u1ecd\u0300b\u1eb9 ti\u0301 o\u0301 mu\u0301, ki\u0301ni o\u0301 y\u1eb9 ki\u0301 o \u1e63e", "solutions": ["lo o\u0300kuta la\u0301ti fi p\u1ecd\u0301n \u1eb9nu \u1ecd\u0300b\u1eb9 na\u0301a\u0300", "lo pa\u0301a\u0301li\u0301 la\u0301ti fi p\u1ecd\u0301n \u1eb9nu \u1ecd\u0300b\u1eb9 na\u0301a\u0300"], "example_label": 0, "reasoning": "L\u00e1ti mu \u1ecd\u0300b\u1eb9 p\u1ecd\u0301n, k\u00edk\u00f3 \u1eb9nu \u1ecd\u0300b\u1eb9 t\u00f3 tut\u00f9 \u00e0ti k\u00f2 n\u00ed \u00e0w\u1ecdn \u00e0t\u00ecl\u1eb9y\u00ecn t\u00f3 d\u00e1j\u00fa j\u1eb9\u0301 p\u00e0t\u00e0k\u00ec. Lo pa\u0301a\u0301li\u0301 (\u1e63\u00f3\u00f2r\u00f2 kan ti a f\u1eb9\u0301 r\u00e0 t\u00ed a m\u1ecd\u0300 p\u00e9 o y\u1eb9 f\u00fan i\u1e63\u1eb9\u0301 \u1ecdw\u1ecd\u0301 n\u00e1\u00e0) l\u00e1ti fi p\u1ecd\u0301n \u1eb9nu \u1ecd\u0300b\u1eb9, tor\u00ed p\u00e9 pa\u0301a\u0301li\u0301 j\u1eb9\u0301 ohun \u00e8l\u00f2 t\u00f3 w\u1ecd\u0301p\u1ecd\u0300 t\u00f3 s\u00ec y\u1eb9 f\u00fan i\u1e63\u1eb9\u0301 y\u00ec\u00ed, k\u00f3 da \u1eb9nu \u1ecd\u0300b\u1eb9 \u00e0f\u1ecd\u0301. Lo okuta p\u1ecd\u0301n j\u1eb9\u0301 p\u00e9 \u00f3 l\u00e8 m\u00e1 \u1e63e\u00e9 f\u1ecdk\u00e0n t\u00e1n \u00e0ti p\u00e9 k\u00ec \u00ed j\u1eb9\u0301 w\u1ecd\u0301n w\u1ecd\u0301p\u1ecd\u0300 f\u00fan i\u1e63\u1eb9\u0301 y\u00ec\u00ed n\u00ed Yor\u00f9b\u00e1land. N\u00edtor\u00ed n\u00e1\u00e0, oj\u00fat\u00f9\u00fa kej\u00ec d\u00e1ra j\u00f9l\u1ecd.", "pred_label": "1", "metric": 0}, {"goal": "B\u00e1wo ni a \u1e63e \u0144 t\u1ecdj\u00fa \u00ecb\u00f9s\u00f9n", "solutions": ["A ma \u0144 t\u1ecd\u0301j\u00fa \u00ecb\u00f9s\u00f9n n\u00edpa s\u00eds\u00f9n le b\u1eb9\u0301\u1eb9\u0300", "A ma \u0144 t\u1ecd\u0301j\u00fa \u00ecb\u00f9s\u00f9n n\u00edpa ti\u0301t\u1eb9 \u1eb9"], "example_label": 1, "reasoning": "\u00c0m\u00falud\u00f9n l\u00e1t\u00e0r\u00ed \u00ecb\u00e9\u00e8r\u00e8 n\u00e1\u00e0 ni p\u00e9 b\u00e1wo ni a \u1e63e \u0144 t\u1ecdj\u00fa \u00ecb\u00f9s\u00f9n, \u00e8y\u00ed t\u00fam\u1ecd\u0300 s\u00ed b\u00ed a \u1e63e \u0144 \u1e63\u00e8t\u00f2 t\u00e0b\u00ed b\u00f3 \u1e63e d\u00e1gb\u00e0 d\u00e1rad\u00e1ra. \u00ccd\u00e1h\u00f9n \u00e0k\u1ecd\u0301k\u1ecd\u0301 s\u1ecd p\u00e9 a \u0144 t\u1ecdj\u00fa \u00ecb\u00f9s\u00f9n n\u00edpa s\u00eds\u00f9n le b\u1eb9\u0301\u1eb9\u0300, \u00e8y\u00ed t\u00f3 j\u1eb9\u0301 p\u00e9 n\u00edpa j\u00edj\u1eb9\u0301 p\u00e9 k\u00ed a s\u00f9n t\u00f3\u1ecd\u0301, \u1e63\u00f9gb\u1ecd\u0301n k\u00f2 p\u00e9 k\u00ed n\u00ecd\u00ed t\u00f3 fi \u1e63e pataki t\u00e0b\u00ed b\u00e1 a \u1e63e \u0144 \u1e63\u00e8t\u00f2 \u00ecb\u00f9s\u00f9n n\u00e1\u00e0. \u00ccd\u00e1h\u00f9n kej\u00ec s\u1ecd p\u00e9 a \u0144 t\u1ecdj\u00fa \u00ecb\u00f9s\u00f9n n\u00edpa t\u00edt\u00e9s\u1f76, \u00e8y\u00ed l\u00e8 t\u00fam\u1ecd\u0300 s\u00ed b\u00ed a \u1e63e \u0144 \u1e63e am\u00fal\u00f9m\u1ecd\u0301ra \u1eb9\u0300r\u1ecd \u00ecb\u00f9s\u00f9n t\u00e0b\u00ed \u1e63\u00e8t\u00f2 r\u1eb9\u0300 d\u00e1ad\u00e1a, t\u00f3 j\u1eb9\u0301 p\u00e9 in\u00ed j\u00edj\u1eb9 m\u1ecd\u0301 \u1eb9ni t\u00f3 n t\u1ecdj\u00fa r\u1eb9\u0300. N\u00edpa w\u1ecd\u0300n-\u1ecdn\u00e0 t\u00f3 d\u00e1j\u00fa j\u00f9l\u1ecd, \u00ecd\u00e1h\u00f9n kej\u00ec d\u00e1j\u00fa j\u00f9l\u1ecd tor\u00ed p\u00e9 t\u1ecd\u0301j\u00fa t\u1ecd\u0301ka s\u00ed f\u00edfi nkan \u1e63e n\u00edpa p\u1eb9\u0300l\u00fa \u1ecdw\u1ecd\u0301 t\u00e0b\u00ed n\u00ed \u1ecdgb\u1ecd\u0301n, \u00e0ti t\u00edt\u00e1sil\u1eb9\u0300 ni a fi m\u1ecd\u0301 p\u00e9 a \u0144 \u1e63e \u00ect\u1ecdju daradara. N\u00edtor\u00ed n\u00e1\u00e0, oj\u00fal\u00f3w\u00f3 \u00ecd\u00e1h\u00f9n lo j\u1eb9\u0301 \u00ecd\u00e1h\u00f9n kej\u00ec.", "pred_label": "1", "metric": 1}, {"goal": "K\u00ed t\u00fan ni a l\u00e8 fi \u1e63e \u00eck\u00f2k\u00f2 \u00ecd\u00e1n\u00e1 l\u1eb9\u0301y\u00ecn am\u1ecd\u0300?", "solutions": ["\u00d2k\u00fata ni a t\u00fan le fi \u1e63e \u00eck\u00f2k\u00f2 \u00ecd\u00e1n\u00e1 l\u1eb9\u0301y\u00ecn am\u1ecd\u0300", "Irin ni a t\u00fan le fi \u1e63e \u00eck\u00f2k\u00f2 \u00ecd\u00e1n\u00e1 l\u1eb9\u0301y\u00ecn am\u1ecd\u0300"], "example_label": 1, "reasoning": "\u00cck\u00f2k\u00f2 \u00ecd\u00e1n\u00e1 ni a maa n \u1e63e p\u1eb9\u0300l\u00fa \u00e0w\u1ecdn ohun \u00e8l\u00f2 t\u00ed \u00f3 l\u00e8 fara w\u00e9 am\u1ecd\u0300, \u1e63\u00f9gb\u1ecd\u0301n \u00f3 j\u1ecd p\u00e9 irin k\u00f2 p\u00e9ye f\u00fan \u00eck\u00f2k\u00f2 t\u00e1 a m\u00e1a fi \u0144 s\u00e8un n\u00edtor\u00ed p\u00e9 t\u00f3 b\u00e1 n\u00edj\u1eb9, y\u00f3\u00f2 le n\u00edpa t\u00f3 p\u1ecd\u0300 l\u1eb9\u0301nu i\u1e63\u1eb9\u0301 \u00ecd\u00e1n\u00e1 \u00e0ti m\u00edmu onj\u1eb9 d\u00e1j\u00fa. \u00d2k\u00fata n\u00ed \u00e0nf\u00e0\u00e0n\u00ed j\u00f9l\u1ecd n\u00edn\u00fa \u00eck\u00f2k\u00f2 am\u1ecd\u0300 b\u00ed \u00f3 ti l\u00e0 n\u00ed l\u00edle t\u00f3 d\u00e1j\u00fa. N\u00edtor\u00ed n\u00e1\u00e0, \u1ecd\u0300r\u1ecd\u0300 p\u00e9 \u00f2k\u00fata ni a l\u00e8 m\u00e1a fi \u1e63e \u00eck\u00f2k\u00f2 \u00ecd\u00e1n\u00e1 l\u1eb9\u0301y\u00ecn am\u1ecd\u0300 d\u00e1j\u00fa j\u00f9l\u1ecd n\u00edpa ogbontarigi Yor\u00f9b\u00e1 \u00e0t\u00e0w\u1ecdn ohun t\u00ed a m\u1ecd\u0300.", "pred_label": "0", "metric": 0}, {"goal": "K\u00edni m\u00e0\u00e1 fi nu omi t\u00ed \u00f3 d\u00e0 s\u00edl\u1eb9\u0300 n\u00edn\u00fa il\u00e9?", "solutions": ["A\u1e63\u1ecd in\u00f9l\u1eb9\u0300 t\u00ed \u00f3 gb\u1eb9\u0301 n\u00ed m\u00e0\u00e1 l\u00f2", "A\u1e63\u1ecd \u00ecw\u1ecd\u0300s\u00f9n t\u00ed \u00f3 gb\u1eb9\u0301 n\u00ed m\u00e0\u00e1 l\u00f2"], "example_label": 0, "reasoning": "Lati nu omi t\u00ed o d\u00e0 s\u00edl\u1eb9\u0300 n\u00edn\u00fa il\u00e9, a\u1e63\u1ecd in\u00f9l\u1eb9\u0300 t\u00ed \u00f3 gb\u1eb9\u0301 dara ju nitori \u00f3 maa \u0144 fa omi p\u1ecd\u0301 ju, ati p\u00e9 \u00f3 \u1e63\u00e0gb\u00e1y\u00e8 f\u00e1\u00e0\u00e1j\u00ec ju a\u1e63\u1ecd \u00ecw\u1ecd\u0300s\u00f9n l\u1ecd. A\u1e63\u1ecd \u00ecw\u1ecd\u0300s\u00f9n maa n j\u1eb9\u0301 f\u00e0f\u1eb9\u0301 d\u00ed\u1eb9\u0300 k\u00ed o s\u00ec n\u00ed s\u00eds\u1ecd omi d\u00ed\u1eb9\u0300. N\u00edtor\u00ed n\u00e1\u00e0, a\u1e63\u1ecd in\u00f9l\u1eb9\u0300 ti o gb\u1eb9 j\u1eb9\u0301 y\u00edyan t\u00f3 d\u00e1a j\u00f9l\u1ecd f\u00fan i\u1e63\u1eb9\u0301 y\u00ec\u00ed.", "pred_label": "0", "metric": 1}, {"goal": "K\u00ed ni ar\u00e1 n\u01f9kan t\u00ed al\u00e1gb\u1eb9\u0300d\u1eb9 f\u00ed m\u00e1a \u1e63e ohun \u00e8l\u00f2 \u1ecd\u0300\u1e63\u1ecd\u0301?", "solutions": ["Ow\u00fa ni ara n\u01f9kan t\u00ed al\u00e1gb\u1eb9\u0300d\u1eb9 f\u00ed m\u00e1a \u1e63e ohun \u00e8l\u00f2 \u1ecd\u0300\u1e63\u1ecd\u0301", "\u00d2j\u00e9 ni ara n\u01f9kan t\u00ed al\u00e1gb\u1eb9\u0300d\u1eb9 f\u00ed m\u00e1a \u1e63e ohun \u00e8l\u00f2 \u1ecd\u0300\u1e63\u1ecd\u0301"], "example_label": 1, "reasoning": "Ow\u00fa j\u1eb9\u0301 ohun \u00e8l\u00f2 t\u00ed w\u1ecd\u0301n m\u00e1a \u0144 l\u00f2 f\u00fan \u1e63e \u00e0w\u1ecdn ohun \u00e8l\u00f2 \u1ecd\u0300\u1e63\u1ecd\u0301 n\u00ed Yor\u00f9b\u00e1land, k\u00ec \u00ed \u1e63e \u00f2j\u00e9. \u00d2j\u00e9 k\u00f2 j\u1eb9\u0301 w\u1ecd\u0301p\u1ecd\u0300 g\u1eb9\u0301g\u1eb9\u0301 b\u00ed ohun \u00e8l\u00f2 \u1ecd\u0300\u1e63\u1ecd\u0301 f\u00fan al\u00e1gb\u1eb9\u0300d\u1eb9. N\u00edtor\u00ed n\u00e1\u00e0, \u00ecd\u00e1h\u00f9n t\u00f3 d\u00e1j\u00fa j\u00f9l\u1ecd ni p\u00e9 ow\u00fa ni ara n\u01f9kan t\u00ed al\u00e1gb\u1eb9\u0300d\u1eb9 f\u00ed m\u00e1a \u1e63e ohun \u00e8l\u00f2 \u1ecd\u0300\u1e63\u1ecd\u0301.", "pred_label": "0", "metric": 0}, {"goal": "N\u00ed il\u1eb9\u0300 Yor\u00f9b\u00e1 k\u00edni \u1ecdk\u00f9nrin gb\u1ecd\u0301d\u1ecd\u0300 \u1e63e t\u00ed \u00f3 b\u00e1 f\u1eb9\u0301 k\u00ed \u00e0gb\u00e0lagb\u00e0?", "solutions": ["\u1ecck\u00f9nrin gb\u1ecd\u0301d\u1ecd\u0300 s\u00f9n s\u00edl\u1eb9\u0300", "\u1ecck\u00f9nrin gb\u1ecd\u0301d\u1ecd\u0300 d\u1ecd\u0300ba\u0301l\u1eb9\u0300"], "example_label": 1, "reasoning": "N\u00ed il\u1eb9\u0300 Yor\u00f9b\u00e1, \u00ecb\u00e1\u1e63ep\u1ecd\u0300 p\u1eb9\u0300l\u00fa \u00e0gb\u00e0lagb\u00e0 k\u00ec \u00ed \u1e63e k\u00e1 fi b\u00e0 a s\u00f9n s\u00edl\u1eb9\u0300; d\u00edp\u00f2, \u1ecdk\u00f9nrin gb\u1ecd\u0301d\u1ecd\u0300 \u1e63e p\u1eb9\u0300l\u00fa \u00ecb\u00e1\u1e63ep\u1ecd\u0300 rere, k\u00ed \u00f3 s\u00ec d\u1ecd\u0300bal\u1eb9\u0300, t\u00edt\u1eb9num\u1ecd\u0301 \u00ecb\u00e1 f\u00fan \u00e0gb\u00e0lagb\u00e0 \u00e0ti \u00ecfarabale. \u00d3 \u1e63e p\u00e0t\u00e0k\u00ec k\u00ed a fi \u00ecy\u00ecn h\u00e0n, k\u00ed a s\u00ec j\u1eb9\u0301 on\u00edfoj\u00far\u00edrin s\u00ed w\u1ecdn. N\u00edtor\u00ed n\u00e1\u00e0, \u00ecm\u1ecd\u0300r\u00e0n t\u00f3 p\u00e9ye j\u00f9l\u1ecd j\u1eb9\u0301 p\u00e9 \"\u1ecck\u00f9nrin gb\u1ecd\u0301d\u1ecd\u0300 d\u1ecd\u0300bal\u1eb9\u0300\" ju \"s\u00f9n s\u00edl\u1eb9\u0300\" l\u1ecd.", "pred_label": "1", "metric": 1}, {"goal": "Lati di \u1e63i\u0301bi\u0301 mu, o\u0301 y\u1eb9 ki\u0301 n", "solutions": ["lo \u1ecdw\u1ecd\u0301 mi", "lo \u1eb9s\u1eb9\u0300 mi"], "example_label": 0, "reasoning": "\u00ccb\u00e9\u00e8r\u00e8 n\u00e1\u00e0 n\u00edpa b\u00ed a \u1e63e l\u00e8 di \u1e63i\u0301bi\u0301 mu, \u00e8y\u00ed t\u00f3 t\u00fam\u1ecd\u0300 s\u00ed \"to catch a ball.\" N\u00edpa \u00ecm\u1ecd\u0300 il\u1eb9\u0300 Yor\u00f9b\u00e1 \u00e0ti \u00ecm\u1ecd\u0300 \u00e0t\u1eb9\u0300y\u00ecnw\u00e1, a\u1e63\u00e1\u1e63e t\u00f3 p\u00e9ye j\u00f9l\u1ecd ni p\u00e9 k\u00e1 lo \u1ecdw\u1ecd\u0301 l\u00e1ti di nkan b\u00edi \u1e63i\u0301bi\u0301. K\u00ed a l\u00e8 m\u00fa nn\u0300kan t\u00ed k\u00ecl\u1ecd\u0300 \u0144 f\u00f2 t\u00e0b\u00ed f\u1eb9\u0300, \u1ecdw\u1ecd\u0301 p\u1ecd\u0300 s\u00edi n\u00edn\u00fa i\u1e63\u1eb9\u0301 y\u00ec\u00ed ju \u1eb9s\u1eb9\u0300 l\u1ecd. \u1eb8s\u1eb9\u0300 k\u00ec \u00ed \u1e63e ohun t\u00e1 a fi di nn\u0300kan ni \u00e0\u1e63\u00e0 Yor\u00f9b\u00e1 \u00e0ti f\u00fan \u00ec\u1e63e \u1e63\u00ed\u1e63\u00e0\u1e63ey\u1ecdr\u00ed y\u1eb9n. N\u00edtor\u00ed n\u00e1\u00e0, oj\u00fat\u00f9\u00fa t\u00f3 p\u00e9ye j\u00f9l\u1ecd ni \"lo \u1ecdw\u1ecd\u0301 mi.\"", "pred_label": "0", "metric": 1}, {"goal": "Ki\u0301 ni o le \u1e63e lati j\u1eb9 ki \u1ecd\u0300g\u1eb9\u0300de\u0300 do\u0300do\u0300 p\u1ecd\u0301n ki\u0301a\u0301ki\u0301a\u0301?", "solutions": ["t\u1ecd\u0301ju\u0301 r\u1eb9 si\u0301 inu\u0301 \u1eb9\u0300r\u1ecd amo\u0301huntutu\u0300 m\u1ecd\u0301ju\u0301", "t\u1ecd\u0301ju\u0301 r\u1eb9 si\u0301 ibi ti\u0301 o\u0301 mu\u0301 ooru m\u1ecd\u0301ju\u0301"], "example_label": 1, "reasoning": "Lati j\u1eb9 ki \u1ecd\u0300g\u1eb9\u0300d\u00e8 do\u0300do\u0300 p\u1ecd\u0301n ki\u0301a\u0301ki\u0301a\u0301, o y\u1eb9 ki a t\u1ecdj\u00fa r\u1eb9 sinu \u1eb9\u0300r\u1ecd am\u00f3h\u00f9ntut\u00f9, nitori it\u1ecdju yii y\u00f3\u00f2 \u1e63e iranl\u1ecdw\u1ecd fipam\u1ecd \u1ecd\u0300g\u1eb9\u0300d\u00e8 ki o m\u00e1 b\u00e0j\u1eb9\u0301 k\u00edakia. T\u00f3 o b\u00e1 t\u1ecdj\u00fa \u1ecd\u0300g\u1eb9\u0300d\u00e8 s\u00ed ibi t\u00ed o \u0144 m\u00fa ooru m\u1ecd\u0301j\u00fa, yoo y\u1ecdr\u00eds\u00ed p\u00e9 \u00f3 m\u00e1a b\u00e0j\u1eb9\u0301 l\u1ecd\u0301s\u1eb9\u0300k\u1eb9s\u1eb9\u0300. N\u00edtor\u00ed n\u00e1\u00e0, ojutu ak\u1ecdk\u1ecd ni o d\u00e1a j\u00f9l\u1ecd.", "pred_label": "0", "metric": 0}, {"goal": "T\u00ed \u00e8n\u00ecy\u00e0n b\u00e1 f\u1eb9\u0301 lo \u00f2\u00f2g\u00f9n, k\u00edni y\u00f3\u00f2 fi l\u00f2\u00f3?", "solutions": ["\u1ecct\u00ed ni \u00e8n\u00ecy\u00e0n y\u00f3\u00f2 fi lo \u00f2\u00f2g\u00f9n", "\u1eccm\u00ed ni \u00e8n\u00ecy\u00e0n y\u00f3\u00f2 fi lo \u00f2\u00f2g\u00f9n"], "example_label": 1, "reasoning": "Ni \u00e0\u1e63\u00e0 Yor\u00f9b\u00e1 \u00e0ti n\u00ed \u00e0p\u1ecd\u0300p\u1ecd\u0300 \u00ect\u00e0n \u00e0ti \u00ecm\u00f2 t\u00ed \u00f3 w\u00fal\u00f2 n\u00edpa b\u00ed a \u1e63e \u0144 lo \u00f2\u00f2g\u00f9n, \u1ecd\u0300p\u1ecd\u0300 \u00ecgb\u00e0 ni a m\u00e1a \u0144 lo \u1ecd\u0300t\u00ed t\u00e0b\u00ed \u1ecd\u0300m\u1ecdn\u00ec t\u00ed \u00f3 n\u00ed \u00ect\u1ecd\u0301j\u00fa n\u00edpa \u00ecw\u00f2s\u00e0n. \u1e62\u00f9gb\u1ecd\u0301n, \u00ect\u00e0n t\u00f3 w\u1ecd\u0301p\u1ecd\u0300 j\u00f9l\u1ecd ni p\u00e9 a m\u00e1a \u0144 fi \u1ecd\u0300t\u00ed lo \u00f2\u00f2g\u00f9n k\u00f3 l\u00e8 f\u00fan un n\u00ed \u00e0\u00e0b\u00f2 \u00e0ti f\u00fan s\u1ecd\u0301r\u1ecd\u0300 t\u00ed \u00f3 y\u00e9ye t\u00e1n. N\u00edgb\u00e0 m\u00ed\u00ec, \u1ecd\u0300m\u1ecdn\u00ec l\u00e8 j\u1eb9\u0301 \u1ecdm\u1ecdl\u1eb9\u0300 t\u00e0b\u00ed \u00ect\u1ecd\u0301j\u00fa ohun t\u00ed a fi \u0144 d\u00e1k\u1eb9\u0301 ara, \u1e63\u00f9gb\u1ecd\u0301n ni \u00ecpinnu y\u00ec\u00ed, oj\u00fat\u00f9\u00fa t\u00f3 d\u00e1j\u00fa j\u00f9l\u1ecd ni p\u00e9 a m\u00e1a fi \u1ecd\u0300t\u00ed lo \u00f2\u00f2g\u00f9n. \u1eb8\u0300s\u00f9n yi k\u00f2 p\u00e9 kankan p\u00e9 k\u00ed l\u00f3 m\u00e1\u00e0 t\u00f3, \u1e63\u00f9gb\u1ecd\u0301n \u1ecd\u0300t\u00ed n\u00ed a \u1e63e p\u00e0t\u00e0k\u00ec l\u00e1t\u00e0r\u00ed \u1eb9\u0300s\u00f9n \u00ect\u00e0n \u00e0ti \u00ecw\u00f2ran t\u00f3 d\u00e1j\u00fa. N\u00edtor\u00ed n\u00e1\u00e0, oj\u00fat\u00f9\u00fa 0 ni t\u00f3 b\u00f3j\u00fa mu j\u00f9l\u1ecd.", "pred_label": "0", "metric": 0}, {"goal": "T\u00ed ap\u1eb9ja b\u00e1 f\u1eb9\u0301 m\u00fa \u1eb9ja l\u00f3d\u00f2, k\u00ed ni y\u00f3\u00f2 l\u00f2?", "solutions": ["P\u00e0k\u00fat\u00e9 ni ap\u1eb9ja y\u00f3\u00f2 l\u00f2 l\u00e1ti m\u00fa \u1eb9ja l\u00f3d\u00f2", "\u00c0w\u1ecd\u0300n ni ap\u1eb9ja y\u00f3\u00f2 l\u00f2 l\u00e1ti m\u00fa \u1eb9ja l\u00f3d\u00f2"], "example_label": 1, "reasoning": "N\u00edn\u00fa \u00e0w\u1ecdn \u00e0\u1e63\u00e0y\u00e0n m\u00e9j\u00e8\u00e8j\u00ec, \u201cP\u00e0k\u00fat\u00e9\u201d j\u1eb9\u0301 ohun \u00e8l\u00f2 t\u00e0b\u00ed \u1ecd\u0300n\u00e0 t\u00ed a \u1e63e \u00e0fih\u00e0n p\u00e9 ap\u1eb9ja m\u00e1a l\u00f2 l\u00e1ti k\u00f3 \u1eb9ja j\u00e1de l\u00f3d\u00f2. L\u00e1k\u00f2\u00f3k\u00f2 y\u00ec\u00ed, \u201c\u00c0w\u1ecd\u0300n\u201d k\u00f2 d\u00e1j\u00fa p\u00e9 o n\u00e1\u00e0 j\u1eb9\u0301 ohun \u00e8l\u00f2 t\u00e0b\u00ed ohun \u00e8l\u00f2 rere t\u00ed ap\u1eb9ja m\u00e1a l\u00f2, k\u00f2 s\u00ec n\u00ed f\u00edfi h\u00e0n p\u00e9 k\u00f3 d\u00e1j\u00fa n\u00edpa ik\u00f2k\u00f3 \u1eb9ja. N\u00ed \u00ecm\u1ecd\u0300 Yor\u00f9b\u00e1 \u00e0ti n\u00edpa ap\u1eb9ja, \u201cP\u00e0k\u00fat\u00e9\u201d le t\u00fam\u1ecd\u0300 s\u00ed \u1ecdj\u00e0 t\u00e0b\u00ed \u1ecd\u0300n\u00e0 am\u00fal\u00f9d\u00f9n t\u00e0b\u00ed ohun \u00e8l\u00f2 t\u00ed a m\u00e1a l\u00f2 f\u00fan i\u1e63\u1eb9\u0301 n\u00e1\u00e0. N\u00edtor\u00ed n\u00e1\u00e0, \u00e0\u1e63\u00e0y\u00e0n 0 k\u00fan f\u00fan \u00e0l\u00e0y\u00e9 \u00e0ti \u00ecd\u00e1j\u1ecd\u0301 t\u00f3 p\u00e9ye j\u00f9l\u1ecd.", "pred_label": "0", "metric": 0}, {"goal": "Il\u1eb9\u0300k\u00f9n il\u00e9 t\u00ed a fi \u00e0g\u00e1d\u00e1godo t\u00ec pa", "solutions": ["\u00cc\u1e63\u00f3 ni \u00f3 l\u00e8 s\u00ed i p\u1eb9\u0300l\u00fa \u00ecr\u1ecd\u0300r\u00f9n", "K\u1ecd\u0301k\u1ecd\u0301r\u1ecd\u0301 ni \u00f3 l\u00e8 s\u00ed i p\u1eb9\u0300l\u00fa \u00ecr\u1ecd\u0300r\u00f9n"], "example_label": 1, "reasoning": "\u00ccb\u00e9\u00e8r\u00e8 n\u00e1\u00e0 n\u00edpa il\u1eb9\u0300k\u00f9n il\u00e9 t\u00ed a fi \u00e0g\u00e1d\u00e1godo t\u00ec pa. \u00c0g\u00e1d\u00e1godo j\u1eb9\u0301 ohun \u00e8l\u00f2 t\u00ed a m\u00e1a nfi p\u1ecd\u0301nl\u1eb9\u0300 il\u1eb9\u0300k\u00f9n t\u00e0b\u00ed \u00e0w\u1ecdn ap\u00e1 m\u00ed\u00ec ti il\u00e9. \"\u00cc\u1e63\u00f3\" \u00e0ti \"k\u00f3k\u1ecd\u0301r\u1ecd\u0301\" j\u1eb9\u0301 \u00e0w\u1ecdn irin\u1e63\u1eb9\u0301 \u00e0 pip\u00e9 il\u1eb9\u0300k\u00f9n. N\u00edgb\u00e0 t\u00ed a b\u00e1 fi \u00e0g\u00e1d\u00e1godo t\u00ec il\u1eb9\u0300k\u00f9n, \u00ec\u1e63\u00f3 (picking lock) l\u00e8 j\u1eb9\u0301 ohun t\u00ed \u00f3 fara bal\u1eb9\u0300 \u00e0ti ir\u1ecd\u0301r\u00f9n ju k\u00f3k\u1ecd\u0301r\u1ecd\u0301 l\u1ecd.\n\nN\u00edtor\u00ed n\u00e1\u00e0, \u00ec\u1e63\u00f3 ni \u00f3 d\u00e1j\u00fa p\u00e9 \u00f3 l\u00e8 s\u00ed i p\u1eb9\u0300l\u00fa \u00ecr\u1ecd\u0300r\u00f9n ju k\u00f3k\u1ecd\u0301r\u1ecd\u0301 l\u1ecd.", "pred_label": "0", "metric": 0}, {"goal": "\u00c0j\u1ecd j\u1eb9\u0301 \u1ecd\u0300n\u00e0 t\u00ed \u00e0 \u0144 gb\u00e0 \u1e63e k\u00edni", "solutions": ["\u1ecc\u0300n\u00e0 t\u00ed \u00e0 \u0144 gb\u00e0 t\u1ecd\u0301j\u00fa ow\u00f3", "\u1ecc\u0300n\u00e0 t\u00ed \u00e0 \u0144 gb\u00e0 \u1e63e ay\u1eb9y\u1eb9"], "example_label": 0, "reasoning": "\u00c0j\u1ecd t\u00fam\u1ecd\u0300 s\u00ed \u00ecp\u00e0d\u00e9 t\u00e0b\u00ed \u00ec\u1e63\u1ecd\u0300kan \u00e0w\u1ecdn \u00e8n\u00ecy\u00e0n f\u00fan \u00ecd\u00ed kan, n\u00ed gbogbogbo \u00e0j\u1ecd j\u1eb9\u0301 \u1ecd\u0300n\u00e0 t\u00e0b\u00ed irin\u1e63\u1eb9\u0301 t\u00ed a fi \u0144 b\u1ecd\u0301p\u1ecd\u0300 j\u1ecd l\u00e1ti \u1e63e i\u1e63\u1eb9\u0301 t\u00e0b\u00ed \u00e0\u1e63ey\u1ecdr\u00ed kan. K\u00edni ni \u00e0j\u1ecd \u1e63e, \u00ecd\u00ed \u00e0ti \u00e0foj\u00fas\u00f9n r\u1eb9 ni w\u1ecd\u0301n \u1e63e p\u00e0t\u00e0k\u00ec. L\u00e1\u00e0\u00e1r\u00edn \u00e0w\u1ecdn \u00e0\u1e63\u00e0y\u00e0n m\u1eb9\u0301ta y\u00ec\u00ed, \"\u1ecc\u0300n\u00e0 t\u00ed \u00e0 \u0144 gb\u00e0 \u1e63e ay\u1eb9y\u1eb9\" l\u00f3 d\u00e1j\u00fa p\u00e9 \u00f3 n\u00ed \u1e63e p\u1eb9\u0300l\u00fa \u00e0j\u1ecd, n\u00edtor\u00ed p\u00e9 \u00e0j\u1ecd l\u00e8 j\u1eb9\u0301 \u00ecp\u00e0d\u00e9 t\u00e0b\u00ed i\u1e63\u1eb9\u0301l\u1eb9\u0300 t\u00ed a \u1e63e, p\u1eb9\u0300l\u00fa \u00e0fiy\u00e8s\u00ed, ay\u1eb9y\u1eb9, t\u00e0b\u00ed \u00ecs\u1ecd\u0300kan. \"\u1ecc\u0300n\u00e0 t\u00ed \u00e0 \u0144 gb\u00e0 t\u1ecd\u0301j\u00fa ow\u00f3\" k\u00f2 n\u00ed \u00ecb\u00e1\u1e63ep\u1ecd\u0300 p\u1eb9\u0300l\u00fa \u00e0j\u1ecd, n\u00edtor\u00ed p\u00e9 \u00e0j\u1ecd k\u00f2 n\u00ed t\u00fam\u1ecd\u0300 s\u00ed ow\u00f3 t\u00e0b\u00ed \u00ect\u1ecdju ow\u00f3. N\u00edtor\u00ed n\u00e1\u00e0, oj\u00fat\u00f9\u00fa t\u00f3 d\u00e1j\u00fa \u00e0ti t\u00f3 y\u1eb9 j\u00f9l\u1ecd ni \"\u1ecc\u0300n\u00e0 t\u00ed \u00e0 \u0144 gb\u00e0 \u1e63e ay\u1eb9y\u1eb9.\"", "pred_label": "1", "metric": 0}, {"goal": "K\u00edni \u00e0w\u1ecdn \u00e0gb\u1eb9\u0300 fi \u0144 ro oko?", "solutions": ["ap\u1eb9\u0300r\u1eb9\u0300 n\u00ed \u00e0w\u1ecdn \u00e0gb\u1eb9\u0300 fi \u0144 ro oko", "\u00c0d\u00e1 n\u00ed \u00e0w\u1ecdn \u00e0gb\u1eb9\u0300 fi \u0144 ro oko"], "example_label": 1, "reasoning": "\u00ccd\u00e1 k\u00ec \u00ed \u1e63e ohun t\u00ed \u00e0w\u1ecdn \u00e0gb\u1eb9\u0300 fi \u0144 ro oko n\u00ed Yor\u00f9b\u00e1; ohun t\u00ed a s\u00e1b\u00e0 m\u00e1a \u0144 l\u00f2 ni \"ap\u1eb9\u0300r\u1eb9\u0300,\" \u00e8y\u00ed t\u00ed \u00f3 j\u1eb9\u0301 ir\u00f3 t\u00e0b\u00ed ohun \u00e8l\u00f2 t\u00f3 \u0144 d\u00e1 \u1eb9ranko l\u00f3r\u00f3 l\u00e1ti m\u00e1 b\u00e0 \u00e1 j\u1eb9 oko. N\u00edtor\u00ed n\u00e1\u00e0, \u00ecd\u00e1 \u00f2 t\u1ecd\u0301 n\u00edpa \u00ecb\u00e9\u00e8r\u00e8 n\u00e1\u00e0, \u00e0ti p\u00e9 ap\u1eb9\u0300r\u1eb9\u0300 ni \u00f2t\u00edt\u00f3 \u00e0l\u00e0y\u00e9 t\u00f3 y\u1eb9.", "pred_label": "0", "metric": 0}, {"goal": "K\u00ed ni ohun \u00e0 \u0144 pe ak\u00e8r\u00e8gb\u00e8 t\u00ed a s\u00edn n\u00ed \u00ecl\u1eb9\u0300k\u1eb9\u0300?", "solutions": ["S\u00e1k\u00e1r\u00e0 ni \u00e0 \u0144 pe ak\u00e8r\u00e8gb\u00e8 t\u00ed a s\u00edn n\u00ed \u00ecl\u1eb9\u0300k\u1eb9\u0300", "\u1e62\u1eb9\u0300k\u1eb9\u0300r\u1eb9\u0300 ni \u00e0 \u0144 pe ak\u00e8r\u00e8gb\u00e8 t\u00ed a s\u00edn n\u00ed \u00ecl\u1eb9\u0300k\u1eb9\u0300"], "example_label": 1, "reasoning": "Ak\u00e8r\u00e8gb\u00e8 t\u00ed a s\u00edn n\u00ed \u00ecl\u1eb9\u0300k\u1eb9\u0300 j\u1eb9\u0301 ohun \u00e8l\u00f2 am\u00fa\u1e63er\u00e9 t\u00ed a m\u00e1a \u0144 k\u00f3 \u00e0w\u1ecd\u0300n p\u00e8\u0329l\u00fa p\u1eb9\u0300l\u00fa \u00e8r\u00f2ra l\u00e1ti \u1e63e ohun \u00e8l\u00f2 \u00ecd\u00e1ray\u00e1 \u00e0ti orin. \u00c0w\u1ecdn \u00e0\u1e63\u00e0 Yor\u00f9b\u00e1 m\u1ecd\u0300 p\u00e9 a \u0144 p\u00e8 ohun \u00e8l\u00f2 y\u00ec\u00ed n\u00ed \"\u1e62\u1eb9\u0300k\u1eb9\u0300r\u1eb9\u0300\". \"S\u00e1k\u00e1r\u00e0\" j\u1eb9\u0301 aj\u00e0p\u00e1 t\u00ed a m\u1ecd\u0300 s\u00ed ap\u00e1 \u1ecd\u0300n\u00e0 \u00e0t\u00e0w\u1ecdn am\u00fa\u1e63er\u00e9 m\u00edr\u00e0n, \u1e63\u00f9gb\u1ecd\u0301n k\u00f2 d\u00e1j\u00fa p\u00e9 a \u0144 lo r\u1eb9\u0300 p\u1eb9\u0300l\u00fa \u00e0p\u00e8j\u00fawe \"ak\u00e8r\u00e8gb\u00e8 t\u00ed a s\u00edn n\u00ed \u00ecl\u1eb9\u0300k\u1eb9\u0300\". N\u00ed \u00ect\u00e0n ati \u00ec\u1e63e Yor\u00f9b\u00e1, \u1e63\u1eb9\u0300k\u1eb9\u0300r\u1eb9\u0300-l\u00e1 a m\u1ecd\u0300 g\u1eb9\u0301g\u1eb9\u0301 b\u00edi ak\u00e8r\u00e8gb\u00e8 t\u00ed a s\u00edn n\u00ed \u00ecl\u1eb9\u0300k\u1eb9\u0300.", "pred_label": "1", "metric": 1}, {"goal": "Ew\u00e9 wo ni a maa n\u0301 j\u00e1 l\u00e9 ol\u00f3y\u00e8 titun n\u00ed or\u00ed", "solutions": ["Ew\u00e9 \u1ecd\u0300g\u1eb9\u0300d\u1eb9\u0300 ni a m\u00e1 j\u00e1 l\u00e9 ol\u00f3y\u00e8 titun n\u00ed or\u00ed", "Ew\u00e9 ak\u00f2ko ni a m\u00e1 \u0144 j\u00e1 l\u00e9 ol\u00f3y\u00e8 titun n\u00ed or\u00ed"], "example_label": 1, "reasoning": "N\u00edn\u00fa \u00e0\u1e63\u00e0 Yor\u00f9b\u00e1, \u1eb9\u0300k\u00fanr\u1eb9\u0301r\u1eb9\u0301 \u1eb9ni t\u00ed \u00f3 j\u1eb9\u0301 ol\u00f3y\u00e8 \u00e0t\u00e0w\u1ecdn \u00ec\u1e63\u1eb9\u0300l\u1eb9\u0300 t\u00f3 r\u00e0n\u00e0 t\u00ed w\u1ecd\u0301n \u1e63e n\u00ed or\u00ed ol\u00f3y\u00e8, \u00ecm\u1ecd\u0300 t\u00ed w\u1ecd\u0301n n\u00ed l\u00f3r\u00ed \u00e8y\u00ed p\u00e0\u1e63\u1eb9 ol\u00f3y\u00e8 titun ni p\u00e9 a m\u00e1a \u0144 j\u00e1 \u1eb9\u0300w\u00e9 ak\u00f2ko l\u00f3r\u00ed \u00e0t\u00e0w\u1ecdn \u00ecbuk\u00fan r\u1eb9\u0300. \u1eb8w\u00e9 ak\u00f2ko ni a m\u1ecd\u0300 s\u00ed \u1eb9\u0300w\u1eb9\u0300 t\u00ed a fi \u0144 j\u00e1 l\u00e9 ol\u00f3y\u00e8 tuntun. \u1eb8w\u00e9 \u1ecd\u0300g\u1eb9\u0300d\u1eb9\u0300 k\u00f2 w\u1ecd\u0301p\u1ecd\u0300 g\u00e9\u0323g\u00e9\u0323 b\u00ed \u1eb9\u0300w\u1eb9\u0300 t\u00ed a m\u00e1a \u0144 l\u00f2 n\u00edpa \u00e0\u1e63\u00e0 y\u00ec\u00ed. N\u00edtor\u00ed n\u00e1\u00e0, \u1eb9\u0300s\u00f9n \u00e0ti \u00ecm\u00fal\u00f2 \u1eb9w\u00e9 ak\u00f2ko j\u1eb9\u0301 \u00ecd\u00e1h\u00f9n t\u00f3 p\u00e9ye j\u00f9l\u1ecd f\u00fan \u00ecb\u00e9\u00e8r\u00e8 y\u00ec\u00ed.", "pred_label": "1", "metric": 1}, {"goal": "L\u00e1ti f\u1ecd ab\u1ecd\u0301 k\u00ed\u00e1k\u00ed\u00e1 ni ay\u00e9 \u00f2de-\u00f2n\u00ed, k\u00ed ni m\u00e0\u00e1 l\u00f2?", "solutions": ["\u1eb8\u0300r\u1ecd \u00ecf\u1ecdb\u1ecd\u0301 ni mo m\u00e1a l\u00f2", "\u1eb8\u0300r\u1ecd \u00ecf\u1ecd\u1e63\u1ecd ni mo m\u00e1a l\u00f2"], "example_label": 0, "reasoning": "Ib\u1eb9r\u1eb9\u0300m\u1ecd\u0300 p\u00e9 k\u00ed\u00e1k\u00ed\u00e1 ni w\u1ecd\u0301n f\u1eb9\u0301 f\u1ecd ab\u1ecd\u0301 (b\u1ecd\u0301\u1e63\u00e0) j\u1eb9\u0301 \u00e0fih\u00e0n p\u00e9 \u00e0 \u0144 w\u00e1 irin\u1e63\u1eb9\u0301 t\u00f3 m\u00e1a r\u1ecdr\u00f9n \u00e0ti t\u00ed y\u00f3\u00f2 \u1e63e i\u1e63\u1eb9\u0301 n\u00e1\u00e0 l\u1ecd\u0301r\u1ecd\u0300. \u1eb8\u0300r\u1ecd \u00ecf\u1ecdb\u1ecd\u0301 (washing machine) ni \u00e0\u1e63\u00e0p\u1ecd\u0300n m\u1ecd\u0301\u1ecd\u0300k\u00e0nl\u00e1 f\u00fan f\u00edfi ab\u1ecd\u0301 t\u00e0b\u00ed a\u1e63\u1ecd f\u1ecd ni k\u00ed\u00e1k\u00ed\u00e1 \u00e0ti p\u1eb9\u0300l\u00fa i\u1e63\u1eb9\u0301 t\u00f3 d\u00e1j\u00fa l\u00f3r\u00ed ay\u00e9 \u00f2de-\u00f2n\u00ed. N\u00edgb\u00e0 t\u00ed \u1eb9\u0300r\u1ecd \u00ecf\u1ecd\u1e63\u1ecd (cleaner tool) l\u00e8 t\u00fam\u1ecd\u0300 s\u00ed \u1ecd\u0300p\u1ecd\u0300l\u1ecdp\u1ecd\u0300 \u1eb9r\u1ecd t\u00e0b\u00ed k\u00f3 j\u1eb9\u0301 p\u00e9 k\u00f2 n\u00ed ipinnu p\u00e0t\u00f3 f\u00fan f\u1ecd ab\u1ecd\u0301, a k\u00f2 r\u00e1y\u00e8 r\u00ed i d\u00e1j\u00fa p\u00e9 y\u00f3\u00f2 d\u00e1j\u00fa f\u00fan i\u1e63\u1eb9\u0301 n\u00e1\u00e0 n\u00edtor\u00ed n\u00e1\u00e0. B\u00e1kan n\u00e1\u00e0, f\u00fan ab\u1ecd\u0301, \u00ecd\u00ed t\u00ed a fi \u0144 p\u00e8 n\u00ed \"\u00ecf\u1ecdb\u1ecd\u0301\" (washing) l\u00f3 y\u1eb9 k\u00f3 n\u00ed \u00ecd\u00ed\u1e63\u1eb9\u0301 p\u1eb9\u0300l\u00fa ab\u1ecd\u0301 ju \u1eb9\u0300r\u1ecd m\u00ed\u00ec l\u1ecd. N\u00edtor\u00ed n\u00e1\u00e0, oj\u00fat\u00f9\u00fa t\u00f3 d\u00e1j\u00fa ni oj\u00fat\u00f9\u00fa kinni, eyi ti \u00f3 n\u00ed \u00ectum\u1ecd\u0300 t\u00f3 m\u1ecd\u0301, t\u00f3 b\u00e1 \u00e0fih\u00e0n \u00e0\u00ecm\u1ecd\u0301t\u00e0 t\u00ed a n wa.", "pred_label": "0", "metric": 1}, {"goal": "T\u00ed ar\u00e1 mi k\u00f2 b\u00e1 y\u00e1, k\u00ed ni mo ma l\u00f2?", "solutions": ["O\u00fanj\u1eb9 n\u00ed mo ma l\u00f2", "\u00d2g\u00f9n ni mo ma l\u00f2"], "example_label": 1, "reasoning": "\u00ccb\u00e9\u00e8r\u00e8 n\u00e1\u00e0 \u0144 s\u1ecd p\u00e9 \"T\u00ed ar\u00e1 mi k\u00f2 b\u00e1 y\u00e1,\" \u00e8y\u00ed t\u00ed a l\u00e8 t\u00fam\u1ecd\u0300 s\u00ed \"t\u00ed ar\u00e1 k\u00f2 b\u00e1 y\u00e1,\" t\u00e0b\u00ed \"t\u00ed \u00ec\u1e63\u00f2ro ar\u00e1 b\u00e1 w\u00e0,\" ohun t\u00ed \u00f3 y\u1eb9 k\u00ed \u1eb9ni n\u00e1\u00e0 l\u00f2 ni \u00f2g\u00f9n f\u00fan \u00ect\u1ecd\u0301j\u00fa \u00e0\u00eclera t\u00e0b\u00ed \u00ec\u1e63\u00f2ro ar\u00e1. \u00d2g\u00f9n n\u00ed w\u1ecd\u0301n maa n l\u00f2 f\u00fan \u00ect\u1ecdju \u00e0\u00eclera. N\u00edtor\u00ed n\u00e1\u00e0, \u00ecd\u00e1h\u00f9n t\u00f3 d\u00e1j\u00fa j\u00f9l\u1ecd n\u00edpa \u1eb9\u0300t\u1ecd\u0301 \u00ecb\u00e9\u00e8r\u00e8 y\u00ec\u00ed ni \"\u00d2g\u00f9n ni mo ma l\u00f2.\" \n\n\u00d2\u00fanj\u1eb9 k\u00f2 n\u00ed r\u00e0n n\u00edpa f\u00fan \u00ect\u1ecdju \u00ec\u1e63\u00f2ro ar\u00e1 t\u00e0b\u00ed \u00eclera. \u00d3 w\u00fal\u00f2 f\u00fan b\u00ed a \u1e63e m\u00e1a b\u00f3j\u00fa t\u00f3 ara, \u1e63\u00f9gb\u1ecd\u0301n t\u00ed ar\u00e1 b\u00e1 \u0144 foj\u00fa k\u1ecd\u0301 b\u00ed \u00e0\u00eclera t\u00e0b\u00ed \u00ec\u1e63\u00f2ro \u1e63e \u0144 h\u00e0n, \u00f2g\u00f9n ni w\u1ecd\u0301n m\u00e1a l\u00f2.\n\nN\u00edtor\u00ed n\u00e1\u00e0, oj\u00fat\u00f9\u00fa kej\u00ec (solution 1) ni \u00f2dodo.", "pred_label": "1", "metric": 1}, {"goal": "A\u1e63\u1ecd taani b\u00f9b\u00e1 \u00e0ti \u1e63\u00f3k\u00f3t\u00f3 j\u1eb9\u0301 n\u00ed il\u1eb9\u0300 Yor\u00f9b\u00e1?", "solutions": ["A\u1e63\u1ecd Ob\u00ecnrin ni b\u00f9b\u00e1 \u00e0ti \u1e63\u00f3k\u00f3t\u00f3 j\u1eb9\u0301 n\u00ed il\u1eb9\u0300 Yor\u00f9b\u00e1", "A\u1e63\u1ecd \u1ecck\u00f9nrin ni b\u00f9b\u00e1 \u00e0ti \u1e63\u00f3k\u00f3t\u00f3 j\u1eb9\u0301 n\u00ed il\u1eb9\u0300 Yor\u00f9b\u00e1"], "example_label": 1, "reasoning": "B\u00f9b\u00e1 \u00e0ti \u1e63\u00f3k\u00f3t\u00f3 j\u1eb9\u0301 a\u1e63\u1ecd t\u00ed \u00e0w\u1ecdn \u1ecdk\u00f9nrin s\u00e1b\u00e0 m\u00e1a w\u1ecd n\u00ed il\u1eb9\u0300 Yor\u00f9b\u00e1, k\u00ec \u00ed \u1e63e a\u1e63\u1ecd ob\u00ecnrin. N\u00edtor\u00ed n\u00e1\u00e0, \u00ecf\u00e8s\u1ecd\u0301n\u00e0 t\u00f3 p\u00e9ye j\u00f9l\u1ecd ni p\u00e9 w\u1ecd\u0301n j\u1eb9\u0301 a\u1e63\u1ecd \u1ecdk\u00f9nrin. \u00ccd\u00e1h\u00f9n kej\u00ec n\u00e1\u00e0 t\u00f3 t\u1ecd\u0301 ni, n\u00edtor\u00ed n\u00e1\u00e0, \u00f3 d\u00e1j\u00fa p\u00e9 a\u1e63\u1ecd \u1ecdk\u00f9nrin ni b\u00f9b\u00e1 \u00e0ti \u1e63\u00f3k\u00f3t\u00f3 j\u1eb9\u0301 n\u00ed il\u1eb9\u0300 Yor\u00f9b\u00e1.", "pred_label": "1", "metric": 1}, {"goal": "ki\u0301ni a maa\u0301 n\u0301 fi se\u0301 a\u0300dir\u1eb9", "solutions": ["a maa\u0301 n\u0301 fi as\u1ecd a\u0300ti \u1ecds\u1eb9 se\u0301 a\u0300dir\u1eb9", "a maa\u0301 n\u0301 fi as\u1ecd a\u0300ti aro\u0301 se\u0301 a\u0300dir\u1eb9"], "example_label": 1, "reasoning": "\u00c0dir\u1eb9 ni pataki j\u1eb9\u0301 a\u1e63\u1ecd t\u00ed a \u1e63e n\u00edpa l\u00edlo a\u1e63\u1ecd \u00e0ti aro, k\u00f3 j\u1ecd p\u00e9 \u00f3 j\u1eb9\u0301 a\u1e63\u1ecd t\u00ed a n\u0301 lo lati \u1e63e \u00e0\u1e63a Yor\u00f9b\u00e1. \u1eccs\u1eb9 (\u00f2s\u00e8) k\u00f2 n\u00ed ib\u00e1\u1e63ep\u1ecd t\u00e0b\u00ed \u00ect\u00e0n l\u00f3r\u00ed \u00e0dir\u1eb9 y\u00ec\u00ed b\u1eb9\u0301\u1eb9\u0300 ni \u00f3 \u1e63e \u1eb9\u0300t\u1ecd\u0301 t\u00ed a m\u1ecd\u0300 p\u00e9 a n\u0301 fi aro \u1e63e \u00e0dir\u1eb9. N\u00edtor\u00ed n\u00e1\u00e0, \u00ecd\u00e1h\u00f9n t\u00f3 t\u1ecd\u0301 j\u1eb9\u0301 p\u00e9 a n\u0301 fi as\u1ecd \u00e0ti aro \u1e63e \u00e0dir\u1eb9.", "pred_label": "1", "metric": 1}, {"goal": "\u00c8so t\u00ed \u00f3 d\u00e1ra lati j\u1eb9\u0301 f\u00fan \u00e0\u00ecs\u00f9n ni k\u00ed ni?", "solutions": ["\u00c0gb\u00e0do", "Or\u00f3gb\u00f3"], "example_label": 1, "reasoning": "\u00c0gb\u00e0do (corn) ni a m\u00e1a m\u1ecd\u0300 s\u00ed \u00e8so t\u00ed \u00f3 n\u00ed \u00e0w\u1ecdn nkan t\u00f3 l\u00e8 r\u00e0n l\u1ecd\u0301w\u1ecd\u0301 f\u00fan \u00e0\u00ecs\u00f9n, \u1e63\u00f9gb\u1ecd\u0301n or\u00f3gb\u00f3 (pawpaw) ni w\u1ecd\u0301n t\u00fan m\u1ecd\u0300 s\u00ed eso t\u00ed \u00f3 n\u00ed vitamin C \u00e0ti antioxidants t\u00f3 l\u00e8 r\u00e0n l\u1ecd\u0301w\u1ecd\u0301 f\u00fan \u00e0\u00eclera or\u00ed \u00e0ti \u00ec\u1e63edede i\u1e63\u00fara oorun. N\u00edtor\u00ed p\u00e9 \u00ecb\u00e9\u00e8r\u00e8 n\u00e1\u00e0 n\u00edpa \u00e8so t\u00f3 d\u00e1ra f\u00fan \u00e0\u00ecs\u00f9n (improving sleep), or\u00f3gb\u00f3 ni w\u1ecd\u0301n k\u00e0 s\u00ed nkan t\u00ed \u00f3 n\u00ed ogbontarigi s\u00ed i f\u00fan \u00e0\u00ecs\u00f9n ju \u00e0gb\u00e0do l\u1ecd. Or\u00f3gb\u00f3 n\u00ed melatonin \u00e0ti vitamin C t\u00f3 l\u00e8 f\u00fanni n\u00ed \u00ect\u1eb9\u0301l\u1ecd\u0301run \u00e0ti \u00ecrora oorun t\u00ed \u00f3 d\u00e1ra ju. N\u00edtor\u00ed n\u00e1\u00e0, \u00e0f\u1eb9\u0301s\u1eb9\u0300y\u00ecn w\u00e1 ni p\u00e9 \"Or\u00f3gb\u00f3\" d\u00e1j\u00fa ju \"\u00c0gb\u00e0do\" l\u1ecd f\u00fan \u00e0\u00ecs\u00f9n.", "pred_label": "1", "metric": 1}, {"goal": "B\u00e1wo ni a \u1e63e \u0144 k\u00edni n\u00ed \u00e0\u00e1r\u1ecd\u0300?", "solutions": ["\u1eb8k\u00e1\u00e0\u00e1r\u1ecd\u0300 ni \u00e0 \u0144 k\u00edni n\u00ed \u00e0\u00e1r\u1ecd\u0300 n\u00ed il\u1eb9\u0300 Yor\u00f9b\u00e1", "\u1eb8k\u00e1al\u1eb9\u0301 ni \u00e0 \u0144 k\u00edni n\u00ed \u00e0\u00e1r\u1ecd\u0300 n\u00ed il\u1eb9\u0300 Yor\u00f9b\u00e1"], "example_label": 0, "reasoning": "\u00ccd\u00e1h\u00f9n t\u00f3 d\u00e1j\u00fa ni p\u00e9 \u00e0 \u0144 k\u00edni n\u00ed \u00e0\u00e1r\u1ecd\u0300 p\u1eb9\u0300l\u00fa \"\u1eb8k\u00e1\u00e0\u00e1r\u1ecd\u0300.\" \u1eb8\u0300s\u00f9n \"\u1eb8k\u00e1al\u1eb9\u0301\" j\u1eb9\u0301 k\u00edni t\u00f3 w\u00fal\u00f2 n\u00ed al\u1eb9\u0301, k\u00ec \u00ed \u1e63e n\u00ed \u00e0\u00e1r\u1ecd\u0300. N\u00edtor\u00ed n\u00e1\u00e0, oj\u00fat\u00f9\u00fa t\u00f3 d\u00e1j\u00fa ni oj\u00fat\u00f9\u00fa \u00e0k\u1ecd\u0301k\u1ecd\u0301.", "pred_label": "0", "metric": 1}, {"goal": "ki\u0301 ni o le \u1e63e lati j\u1eb9\u0301 ki\u0301 o\u0300o\u0301ru\u0300n \u1eb9ja ku\u0301ro\u0300 ni\u0301 \u1ecdw\u1ecd\u0301 r\u1eb9?", "solutions": ["fi\u0301 epo ra \u1ecdw\u1ecd\u0301 r\u1eb9, ki\u0301 o si\u0300 sa\u0300n-a\u0301n", "fi\u0301 \u1ecdsa\u0300n w\u1eb9\u0301w\u1eb9\u0301 ra \u1ecdw\u1ecd\u0301 r\u1eb9, ki\u0301 o si\u0300 sa\u0300n-a\u0301n"], "example_label": 1, "reasoning": "Lati y\u1ecd oorun \u1eb9ja kuro ni \u1ecdw\u1ecd\u0301, \u1ecdk\u1ecd\u1ecdkan aw\u1ecdn ilana meji w\u1ecdnyi le \u1e63i\u1e63\u1eb9, \u1e63ugb\u1ecdn lilo \u1ecdsa\u0300n w\u1eb9\u0301w\u1eb9\u0301 j\u1eb9 \u1ecdna ti a m\u1ecd\u0300 daradara ati ti o munadoko nitori o ni aw\u1ecdn ohun alum\u1ecdni adayeba ti o nj\u1eb9 ki oorun naa dinku. Lilo epo ko w\u1ecdp\u1ecd ati ko nii\u1e63e pataki p\u1eb9lu imukuro oorun \u1eb9ja. Nitorinaa, ojutu keji dara jul\u1ecd ju ak\u1ecdk\u1ecd l\u1ecd.", "pred_label": "1", "metric": 1}, {"goal": "I\u0300ka wo ni w\u1ecd\u0301n maa\u0301 n\u0301 fi o\u0300ru\u0300ka i\u0300gbe\u0301ya\u0300wo\u0301 si\u0301?", "solutions": ["o\u0300ru\u0300ka\u0301 y\u1eb9mi\u0301 ni\u0301 \u1ecdw\u1ecd\u0301 o\u0300si\u0300", "o\u0300ru\u0300ka\u0301 y\u1eb9mi\u0301 ni\u0301 \u1ecdw\u1ecd\u0301 \u1ecd\u0300tu\u0301n"], "example_label": 0, "reasoning": "N\u00ed \u00ecl\u00e0n\u00e0 Yor\u00f9b\u00e1 \u00e0ti n\u00ed a\u1e63a G\u1eb9\u0301g\u1eb9\u0301 b\u00ed a \u1e63e m\u1ecd\u0300, w\u1ecd\u0301n s\u00e1b\u00e0 m\u00e1a n\u0301 fi or\u00fak\u1ecd \u00ecgb\u00e9y\u00e0w\u00f3 s\u00ed \u1ecdw\u1ecd\u0301 \u1ecd\u0300tun. \u1eb8s\u1eb9\u0300 \u1ecdw\u1ecd\u0301 y\u00ec\u00ed ni w\u1ecd\u0301n k\u00e0 s\u00ed \u1ecdw\u1ecd\u0301 t\u00e1 a fi n\u0301 fi ohun t\u00e1n, k\u00e1 s\u00ec t\u00fan m\u00e1a fi or\u00faka s\u00edl\u1eb9\u0300. N\u00edtor\u00ed n\u00e1\u00e0, \u00ecd\u00e1h\u00f9n t\u00f3 p\u00e9ye j\u00f9l\u1ecd ni p\u00e9: \"or\u00faka y\u1eb9 m\u00ed n\u00ed \u1ecdw\u1ecd\u0301 \u1ecd\u0300t\u00fan.\"", "pred_label": "1", "metric": 0}, {"goal": "Ki\u0301ni o le\u0300 lo r\u1ecd\u0301p\u1ecd\u0300 \u1ecdm\u1ecd ayo\u0300 ni\u0301gba ti\u0301 o ba\u0301 n\u0301 ta\u0301 ayo\u0300 \u1ecdl\u1ecd\u0301p\u1ecd\u0301n", "solutions": ["Lo a\u0300w\u1ecdn o\u0300kuta w\u1eb9\u0301w\u1eb9\u0301", "Lo a\u0300w\u1ecdn o\u0300kuta ti\u0301 o to\u0301bi"], "example_label": 0, "reasoning": "\u1eccm\u1ecd ay\u1ecd ti a n ta j\u1eb9\u0301 ohun t\u00ed w\u1ecd\u0301n fi \u0144 gb\u1eb9\u0301 \u1eb9\u0300d\u00e1 \u00e0ti ohun \u00e0m\u00fa\u1e63\u1ecd\u0300kan n\u00edgb\u00e0 t\u00e1 a b\u00e1 f\u1eb9\u0301 d\u00e1\u00e0b\u00f2 bo ay\u1ecd \u1ecdl\u1ecd\u0301p\u1ecd\u0301n. N\u00edgb\u00e0 t\u00ed a b\u00e1 f\u1eb9\u0301 r\u1ecd\u0301p\u1ecd\u0300 \u1ecdm\u1ecd ay\u1ecd, gbogbo \u1ecd\u0300n\u00e0 t\u00f3 n\u00ed k\u00ed a lo \u00f2k\u00f9nk\u00f9n \u00e0t\u00e0w\u1ecdn ohun \u00e8l\u00f2 w\u1ecd\u0301p\u1ecd\u0300 n\u00edn\u00fa. \u1e62\u00f9gb\u1ecdn, p\u00e9 ki a lo \u00e0w\u1ecdn \u00f2k\u00f9nk\u00f9n t\u00f3 tobi ju l\u1ecd, k\u00ed w\u1ecdn l\u00e8 n\u00ed ipa t\u00f3 p\u00e9 lori \u1ecdm\u1ecd ay\u1ecd n\u00e1\u00e0 j\u1eb9\u0301 ohun t\u00e1 a m\u00e1a \u0144 \u1e63e. N\u00edtor\u00ed n\u00e1\u00e0, oj\u00fat\u00f9\u00fa keji t\u00f3 s\u1ecd p\u00e9 k\u00e1 lo \u00e0w\u1ecdn \u00f2k\u00f9nk\u00f9n t\u00f3 tobi s\u00edi l\u00e1ra t\u00f3 d\u00e1j\u00fa ju oj\u00fat\u00f9\u00fa \u00e0k\u1ecd\u0301k\u1ecd\u0301 t\u00e1 k\u00ec\u00ed s\u1ecd p\u00e9 \u00e0w\u1ecdn \u00f2k\u00f9nk\u00f9n w\u1eb9\u0301w\u1eb9\u0301 t\u00ed k\u00f2 d\u00e1j\u00fa.", "pred_label": "1", "metric": 0}, {"goal": "K\u00ed ni \u00e0gb\u1eb9\u0300 m\u00e1a \u0144 fi ka \u1ecds\u00e0n ni or\u00ed igi", "solutions": ["D\u00f2j\u00e9 ni \u00e0gb\u1eb9\u0300 m\u00e1a \u0144 fi k\u00e1 \u1ecds\u00e0n n\u00ed or\u00ed igi", "\u1ecc\u0300k\u1ecd\u0300 ni \u00e0gb\u1eb9\u0300 m\u00e1a \u0144 fi k\u00e1 \u1ecds\u00e0n n\u00ed or\u00ed igi"], "example_label": 0, "reasoning": "\u00ccb\u00e9\u00e8r\u00e8 n\u00e1\u00e0 n\u00edpa ohun t\u00ed \u00e0gb\u1eb9\u0300 m\u00e1a \u0144 l\u00f2 l\u00e1ti k\u00e1 \u1ecds\u00e0n n\u00ed or\u00ed igi. N\u00edn\u00fa \u00e0\u1e63\u00e0 Yor\u00f9b\u00e1, ohun t\u00ed w\u1ecd\u0301n s\u00e1b\u00e0 m\u00e1a l\u00f2 j\u00e9\u0323 \u1ecc\u0300k\u1ecd\u0300, k\u00f3 l\u00e8 j\u00e9\u0323 ohun \u00e8l\u00f2 t\u00f3 d\u00e1a f\u00fan k\u00e1. \"D\u00f2j\u00e9\" k\u00f2 t\u00ed \u00ed \u1e63e ohun t\u00ed a m\u1ecd\u0300 g\u1eb9\u0301g\u1eb9\u0301 b\u00ed \u1ecd\u0300n\u00e0 t\u00e0b\u00ed irin\u1e63\u1eb9\u0301 t\u00ed \u00e0gb\u1eb9\u0300 l\u00e8 fi k\u00e1 \u1ecds\u00e0n. N\u00edtor\u00ed n\u00e1\u00e0, \u00ecd\u00e1h\u00f9n kej\u00ec t\u00f3 s\u1ecd p\u00e9 \"\u1ecc\u0300k\u1ecd\u0300\" ni ohun t\u00ed \u00e0gb\u1eb9\u0300 m\u00e1a \u0144 fi k\u00e1 \u1ecds\u00e0n d\u00e1j\u00fa \u00e0ti k\u00f3j\u00fam\u1ecd\u0301 \u00e0ti f\u1ecd\u0301r\u1ecd\u0300 \u00e0\u1e63\u00e0 Yor\u00f9b\u00e1.", "pred_label": "1", "metric": 0}, {"goal": "ki\u0301ni o\u0301 y\u1eb9 ki\u0301 e\u0300ni\u0300yan\u0300 fi we\u0301 \u1ecdru\u0300n r\u1eb9 ni\u0301 i\u0300gba\u0300 o\u0300tu\u0301tu\u0300?", "solutions": ["a\u1e63\u1ecd i\u0300nuju\u0301", "a\u1e63\u1ecd o\u0300ke\u0300/ a\u1e63\u1ecd i\u0300boru\u0300n"], "example_label": 1, "reasoning": "Ninu Yoruba, nigba igba otutu, ohun to y\u1eb9 ki eniyan fi we orun ni \"a\u1e63\u1ecd o\u0300ke\u0300\" tabi \"a\u1e63\u1ecd i\u0300boru\u0300n\" lati ri daju wipe ki w\u1ecdn le duro gbona. \"A\u1e63\u1ecd i\u0300nuju\u0301\" ko ni itumo ti o baamu si it\u1eb9w\u1ecdgba tabi ir\u1ecdrun lilo bi a\u1e63\u1ecd to bojumu fun u.", "pred_label": "1", "metric": 1}, {"goal": "\u00ccr\u00f3 \u00e0ti b\u00f9b\u00e1 j\u1eb9\u0301 a\u1e63\u1ecd t\u00ed a m\u1ecd\u0300 m\u1ecd\u0301 \u00e0w\u1ecdn wo?", "solutions": ["\u00d3j\u1eb9\u0301 a\u1e63\u1ecd t\u00ed a m\u1ecd\u0300 m\u1ecd\u0301 \u00e0w\u1ecdn \u1ecdk\u00f9nrin n\u00ed il\u1eb9\u0300 Yor\u00f9b\u00e1", "\u00c0w\u1ecdn ob\u00ecnrin n\u00ed il\u1eb9\u0300 Yor\u00f9b\u00e1 ni a m\u1ecd \u00ecr\u00f3 \u00e0ti b\u00f9b\u00e1 m\u1ecd\u0301"], "example_label": 1, "reasoning": "\u00ccr\u00f3 \u00e0ti b\u00f9b\u00e1 j\u1eb9\u0301 a\u1e63\u1ecd t\u00ed a m\u1ecd\u0300 m\u1ecd\u0301 \u00e0w\u1ecdn ob\u00ecnrin n\u00ed il\u1eb9\u0300 Yor\u00f9b\u00e1, k\u00ec \u00ed \u1e63e ti \u00e0w\u1ecdn \u1ecdk\u00f9nrin. N\u00edtor\u00ed n\u00e1\u00e0, oj\u00fat\u00f9\u00fa kej\u00ec j\u1eb9\u0301 ak\u1ecd\u0301t\u1ecd\u0301 \u00e0ti p\u00edp\u00e9 ju.", "pred_label": "1", "metric": 1}, {"goal": "Iru\u0301 a\u1e63\u1ecd wo ni o y\u1eb9 lati fi nu a\u0300wo oju r\u1eb9", "solutions": ["A\u1e63o i\u0300nul\u1eb9\u0300", "A\u1e63\u1ecd i\u0300nuju\u0301"], "example_label": 1, "reasoning": "\u00ccb\u00e9\u00e8r\u00e8 n\u00e1\u00e0 \u0144 w\u00ed p\u00e9 k\u00ed ni iru a\u1e63\u1ecd t\u00f3 y\u1eb9 k\u00ed \u00e8n\u00ecy\u00e0n fi n\u00f9 \u00e0wo oju r\u1eb9. N\u00ed \u00e8d\u00e1 Yor\u00f9b\u00e1, a\u1e63\u1ecd \u00ecn\u00fal\u00e8\u0323 ni w\u1ecd\u0301n m\u00e1a \u0144 l\u00f2 f\u00fan \u00ect\u00f3\u0323ju t\u00e0b\u00ed f\u1ecd\u0301 oju l\u00f3r\u00ed, t\u00ed k\u00f2 n\u00ed fa \u00ecrora t\u00e0b\u00ed t\u1eb9\u0300s\u00ed. A\u1e63\u1ecd \u00ecn\u00faj\u00fa k\u00f2 n\u00ed \u00ectum\u1ecd\u0300 t\u00f3 h\u00e0n gbangba n\u00ed \u00ecs\u1ecd\u0300kan \u00e8d\u00e1 Yor\u00f9b\u00e1 n\u00edn\u00fa \u00e0\u01f9f\u00e0\u00e0n\u00ed f\u00fan f\u1ecd\u0301 oju t\u00e0b\u00ed \u00ect\u1ecdju \u00e0wo oju. N\u00edtor\u00ed n\u00e1\u00e0, a\u1e63\u1ecd \u00ecn\u00fal\u00e8\u0323 ni a l\u00e8 s\u1ecd p\u00e9 \u00f3 d\u00e1j\u00fa b\u00ed a\u1e63\u1ecd t\u00ed y\u00f3\u00f3 t\u1ecd\u0301 s\u00ed l\u00e1ti fi n\u00f9 \u00e0wo oju.", "pred_label": "0", "metric": 0}, {"goal": "K\u00ed ni n\u01f9kan t\u00ed \u00e8n\u00ecy\u00e0n m\u00e1a w\u00f2 l\u00e1ti r\u00ed ara r\u1eb9\u0300 n\u00edgb\u00e0 t\u00ed \u00f3 b\u00e1 m\u00fara t\u00e1n?", "solutions": ["D\u00edg\u00ed ni \u00e8n\u00ecy\u00e0n m\u00e1a w\u00f2", "\u00d2giri ni \u00e8n\u00ecy\u00e0n m\u00e1a w\u00f2"], "example_label": 0, "reasoning": "\u00c0w\u1ecdn \u00e8n\u00ecy\u00e0n m\u00e1a \u0144 w\u00f2 d\u00edg\u00ed n\u00edgb\u00e0 t\u00ed w\u1ecd\u0301n b\u00e1 ti m\u00fara t\u00e1n l\u00e1ti r\u00ed ara w\u1ecdn. D\u00edg\u00ed ni a m\u00e1a l\u00f2 l\u00e1ti f\u00ecd\u00ed h\u00e0n ara \u1eb9ni n\u00edpa \u1ecdr\u1ecd \u00ecw\u00e0, \u00ecr\u00edra, t\u00e0b\u00ed \u00ecw\u00fal\u00f2. K\u00edk\u1ecd\u0300 w\u00f2 \u00f2giri k\u00f2 b\u00f3j\u00fa t\u00f3 \u00ecb\u00e9\u00e8r\u00e8 y\u00ec\u00ed tor\u00ed p\u00e9 \u00f2giri k\u00ec \u00ed j\u1eb9\u0301 i\u1e63\u1eb9\u0301 \u1ecdw\u1ecd\u0301 k\u00e1\u00e0kiri \u1eb9\u0300d\u00e1 eniyan t\u00e0b\u00ed \u00ecw\u00fal\u00f2 t\u00ed \u00e8n\u00ecy\u00e0n l\u00e8 f\u00ed y\u00e0n ara r\u1eb9\u0300. N\u00edtor\u00ed n\u00e1\u00e0, oj\u00fat\u00f9\u00fa t\u00f3 dara j\u00f9l\u1ecd ni oj\u00fat\u00f9\u00fa k\u00edn\u00ed.", "pred_label": "0", "metric": 1}, {"goal": "K\u00edni \u00e0 \u0144 l\u00f2 d\u00edp\u00f2 \u00e0\u00e0r\u00f2 n\u00ed ay\u00e9 \u00f2de \u00f2ni", "solutions": ["\u00c0d\u00f2g\u00e1n ni \u00e0 \u0144 l\u00f2 d\u00edp\u00f2 \u00e0\u00e0r\u00f2 n\u00ed ay\u00e9 \u00f2de \u00f2ni", "G\u00e1\u00e0s\u00ec ni \u00e0 \u0144 l\u00f2 d\u00edp\u00f2 \u00e0\u00e0r\u00f2 n\u00ed ay\u00e9 \u00f2de \u00f2ni"], "example_label": 1, "reasoning": "\u00c0\u00e0r\u00f2 (traditional oil lamp) ti w\u1ecd\u0301p\u1ecd\u0300 n\u00ed \u00e0k\u1ecd\u0301k\u1ecd\u0301 ay\u00e9 \u1e63\u00f9gb\u1ecd\u0301n n\u00ed \u00e0k\u00f3k\u00f2 on\u00ed, a ti ra g\u00e1\u00e0s\u00ec (gas) tor\u00ed p\u00e9 \u00f3 r\u1ecdr\u00f9n, \u00f2nr\u00e0 r\u1eb9\u0300 n\u00ed \u00ed \u1e63i\u1e63\u1eb9\u0301 p\u1eb9\u0300l\u00fa \u00ecm\u1ecd\u0301l\u1eb9\u0300 t\u00f3 d\u00e1a, \u00e0ti p\u00e9 \u00f3 d\u00e1j\u00fa j\u00f9l\u1ecd f\u00fan \u00ec\u1e63e \u00e0w\u00f9j\u1ecd. \u00c0d\u00f2g\u00e1n k\u00ec \u00ed \u1e63e \u00e0y\u00edpad\u00e0 gidi d\u00edp\u00f2 \u00e0\u00e0r\u00f2, tor\u00ed \u00e0d\u00f2g\u00e1n j\u1eb9\u0301 ohun kan t\u00f3 \u0144 d\u00e1\u00e0b\u00f2 bo t\u00ed k\u00f2 s\u00e1b\u00e0 f\u00fan im\u00fal\u00f3 \u00ecm\u1ecd\u0301l\u1eb9\u0300 t\u00e0b\u00ed \u00e0\u00e0r\u00f2.\n\nN\u00edtor\u00ed n\u00e1\u00e0, g\u00e1\u00e0s\u00ec j\u1eb9\u0301 ohun t\u00f3 d\u00e1j\u00fa p\u00e9 a \u0144 l\u00f2 d\u00edp\u00f2 \u00e0\u00e0r\u00f2 n\u00ed ay\u00e9 \u00f2de \u00f2ni. \u00cct\u00e0n \u00ecs\u1ecd\u0300kan y\u00ec\u00ed j\u1eb9\u0301 k\u00ed solution 1 (\u00e0d\u00f2g\u00e1n) j\u1eb9\u0301 \u00e0fik\u00fan \u00e0\u00ect\u1ecd\u0301, \u00e0ti solution 2 (g\u00e1\u00e0s\u00ec) j\u1eb9\u0301 \u00ecd\u00e1h\u00f9n t\u00f3 to, t\u00f3 y\u1eb9 k\u00ed a yan.", "pred_label": "1", "metric": 1}, {"goal": "Ti\u0301 \u1ecd\u0300na\u0300 \u1ecd\u0300fun r\u1eb9 ba\u0301 n dun \u1ecd, ki\u0301 ni o le\u0300 \u1e63e?", "solutions": ["po omi gb\u1ecd\u0301na pe\u0300lu\u0301 oyin a\u0300ti o\u0300ro\u0300nbo\u0301 ki\u0301kan, ki\u0301 o si\u0300 mu u\u0301", "po omi gb\u1ecd\u0301na pe\u0300lu\u0301 a\u0300a\u0301du\u0300n a\u0300ti o\u0300ro\u0300nbo\u0301 ki\u0301kan, ki\u0301 o si\u0300 mu u\u0301"], "example_label": 0, "reasoning": "\u00c0w\u1ecdn \u00e0y\u00e8w\u1ecd\u0300n m\u00e9j\u00e8\u00e8j\u00ec s\u1ecd p\u00e9 k\u00ed a t\u00fa omi gb\u1ecd\u0301na p\u1ecd\u0300 m\u1ecd\u0301 ohunk\u00f3hun t\u00ed a l\u00e8 mu k\u00ed \u00f3 l\u00e8 r\u00e0n l\u00f3\u0323\u0301w\u1ecd\u0301 l\u00e1ti m\u00fan\u00fa \u1ecd\u0300f\u00fan t\u00f3 \u0144 d\u00f9n. \u1e62\u00f9gb\u1ecd\u0301n, n\u00edpa \u00ecm\u1ecd\u0300 Yor\u00f9b\u00e1 \u00e0ti \u00ect\u00e0n \u00eclera aiy\u00e9, oyin ni w\u1ecd\u0301n m\u00e1a m\u1ecd j\u1eb9\u0301 p\u00e9 \u00f3 n\u00ed \u00ect\u1ecd\u0301j\u00fa gbigb\u1ecdn gbogbogbo \u00e0ti \u00ecp\u1eb9\u0300y\u00e0 \u1ecd\u0300f\u00fan ju \u00e0a\u0301du\u0300n l\u1ecd. \u00c0a\u0301du\u0300n k\u00f2 w\u1ecd\u0301p\u1ecd\u0300 g\u1eb9\u0301g\u1eb9\u0301 b\u00ed \u00ect\u1ecdju \u1ecdm\u1ecd \u00e8n\u00ecy\u00e0n, \u00e8y\u00ed j\u1eb9\u0301 p\u00e9 oyin n\u00ed ipa rere di\u1eb9 sii f\u00fan \u1ecd\u0300fun. N\u00e1 t\u00ed \u00f3 b\u00e1 j\u1eb9\u0301 p\u00e9 \u00ecw\u1ecd\u0300n onj\u1eb9 ni, o d\u00e1j\u00fa p\u00e9 ol\u00f9f\u1ecd\u0301k\u00e0ns\u00ecn oyin j\u1eb9\u0301 a\u1e63\u00e0y\u00e0n t\u00f3 d\u00e1ra ju \u00e0a\u0301du\u0300n l\u1ecd.", "pred_label": "0", "metric": 1}, {"goal": "N\u00edgb\u00e0 t\u00ed a b\u00e1 f\u1eb9\u0301 \u1e63e \u1ecdb\u1eb9\u0300 ol\u00fa,", "solutions": ["Ol\u00fa ni \u00f3 d\u00e1ra j\u00f9l\u1ecd n\u00ed \u00e8r\u00f2j\u00e0", "<NO_ANSWER>"], "example_label": 0, "reasoning": "\u00ccd\u00e1h\u00f9n \u00e0k\u1ecd\u0301k\u1ecd\u0301 s\u1ecd p\u00e9 \"Ol\u00fa ni \u00f3 d\u00e1ra j\u00f9l\u1ecd n\u00ed \u00e8r\u00f2j\u00e0,\" \u00e8y\u00ed t\u00f3 \u1e63\u1eb9\u0300\u1e63\u1eb9\u0300 s\u00e1\u00e0 t\u1ecdk\u00e0nt\u1ecdk\u00e0n p\u00e9 ol\u00fa (\u00e0w\u00f9j\u1ecd ati \u00e0w\u00f2) j\u1eb9\u0301 ohun t\u00f3 d\u00e1ra j\u00f9l\u1ecd nalika \u00e8r\u00f2j\u00e0 f\u00fan \u1ecdb\u1eb9\u0300. \u00ccd\u00e1h\u00f9n kej\u00ec k\u00f2 n\u00ed \u00ecm\u1ecd\u0300r\u00e0n t\u00e0b\u00ed \u00ecd\u00e1h\u00f9n kankan, n\u00edtor\u00ed n\u00e1\u00e0 \u00ecd\u00e1h\u00f9n \u00e0k\u1ecd\u0301k\u1ecd\u0301 ni o d\u00e1j\u00fa j\u00f9l\u1ecd f\u00fan \u00ecb\u00e9\u00e8r\u00e8 y\u00ec\u00ed.", "pred_label": "0", "metric": 1}, {"goal": "A\u1e63\u1ecd w\u00edw\u1ecd\u0300 w\u00e0 f\u00fan k\u00edni?", "solutions": ["Oge s\u00ed\u1e63e ni a\u1e63\u1ecd w\u00edw\u1ecd\u0300 w\u00e0 f\u00fan", "\u00e0r\u00e0 d\u00edd\u00e1 ni a\u1e63\u1ecd w\u00edw\u1ecd\u0300 w\u00e0 f\u00fan"], "example_label": 0, "reasoning": "\u00c0\u1e63\u1ecd w\u00edw\u1ecd\u0300 j\u1eb9\u0301 a\u1e63\u1ecd t\u00ed a m\u00e1a \u0144 l\u00f2 f\u00fan \u00e0r\u00e0 d\u00edd\u00e1 t\u00e0b\u00ed \u00ec\u1e63\u00e0l\u1eb9\u0300 gb\u00edgb\u00e9. \u00ccd\u00ed ni p\u00e9 \u00e0\u1e63\u1ecd w\u00edw\u1ecd\u0300 w\u1ecd\u0301n \u1e63e p\u1eb9\u0300l\u00fa \u1ecdgb\u1ecd\u0301n \u00e0ti \u1e63\u00ed\u1e63e \u00e0w\u1ecdn \u00e0y\u1eb9\u0300w\u00f2 f\u00e1w\u1ecdn \u00e0\u1e63\u1ecd t\u00f3 d\u00e1a, t\u00ed \u0144 f\u00fanni ni \u00e0r\u00e0 \u00e0ti \u1eb9\u0300w\u00e0. N\u00edtor\u00ed n\u00e1\u00e0, \u00ecd\u00e1h\u00f9n t\u00f3 d\u00e1a j\u00f9l\u1ecd ni p\u00e9 \u00e0\u1e63\u1ecd w\u00edw\u1ecd\u0300 w\u00e0 f\u00fan \u00e0r\u00e0 d\u00edd\u00e1, k\u00ec \u00ed \u1e63e f\u00fan \"oge s\u00ed\u1e63e\" t\u00ed k\u00f2 n\u00ed \u00ed \u1e63e p\u1eb9\u0300l\u00fa \u00ect\u00e0n \u00e0ti \u00ec\u1e63e a\u1e63\u1ecd.", "pred_label": "1", "metric": 0}, {"goal": "K\u00edni a m\u00e1a \u0144 ta l\u00f3j\u00fa ogun g\u1eb9\u0301g\u1eb9\u0301 b\u00edi n\u01f9kan \u00ecj\u00e0?", "solutions": ["\u1eccr\u00fan ni a m\u00e1a \u0144 ta l\u00f3j\u00fa ogun g\u1eb9\u0301g\u1eb9\u0301 b\u00edi n\u01f9kan \u00ecj\u00e0", "\u1eccf\u00e0 ni a m\u00e1a \u0144 ta l\u00f3j\u00fa ogun g\u1eb9\u0301g\u1eb9\u0301 b\u00edi n\u01f9kan \u00ecj\u00e0"], "example_label": 1, "reasoning": "N\u00edpa \u00ecm\u1ecd\u0300 \u00ecj\u00e0 Yor\u00f9b\u00e1 \u00e0ti \u00e0\u1e63\u00e0 ogun, ohun t\u00ed a m\u00e1a \u0144 ta l\u00f3j\u00fa ogun g\u1eb9\u0301g\u1eb9\u0301 b\u00edi n\u01f9kan \u00ecj\u00e0 ni \"\u1ecdf\u00e0\". \u1eccf\u00e0 j\u1eb9\u0301 \u1ecd\u0300n\u00e0 or\u00ed\u1e63\u00ec\u00edr\u00ed\u1e63\u00ec\u00ed \u00ecj\u00e0 t\u00f3 w\u1ecd\u0301p\u1ecd\u0300 n\u00ed il\u1eb9\u0300 Yor\u00f9b\u00e1 f\u00fan \u00ec\u1e63\u1ecd\u0300kan ogun \u00e0ti l\u00edlo \u00ecj\u00e0. \"\u1eccr\u00fan\" k\u00f2 j\u1eb9\u0301 ohun \u00ecj\u00e0 t\u00f3 w\u1ecd\u0301p\u1ecd\u0300 t\u00e0b\u00ed \u00e0m\u1ecd\u0300d\u00e1j\u00fa p\u00e9 a m\u00e1a \u0144 ta l\u00f3j\u00fa ogun g\u1eb9\u0301g\u1eb9\u0301 b\u00edi n\u01f9kan \u00ecj\u00e0. N\u00edtor\u00ed n\u00e1\u00e0, \u00ecd\u00e1h\u00f9n t\u00f3 t\u1ecd\u0301 ni solution 1 (\u00ecb\u00e9\u00e8r\u00e8 s\u1ecd p\u00e9 \"\u1eccr\u00fan\", \u00e8y\u00ed k\u00f2 b\u00f3j\u00fat\u00f3) \u00e0w\u1ecdn \u00e0\u1e63\u00e0 \u00e0ti \u00ecl\u00e0n\u00e0 \u00ecj\u00e0 Yor\u00f9b\u00e1, \u1e63ugb\u1ecdn solution 2 (\u00ecb\u00e9\u00e8r\u00e8 s\u1ecd p\u00e9 \"\u1eccf\u00e0\") j\u1eb9\u0301 t\u00f3 \u00e0w\u1ecdn \u00ecm\u1ecd\u0300 \u00ecj\u00e0 Yor\u00f9b\u00e1 gidi.", "pred_label": "1", "metric": 1}, {"goal": "K\u00edni \u1eb9\u0300r\u1ecd \u00ecgb\u00e0l\u00f3d\u00e9 ti \u00f3 \u0144 m\u00fa \u01f9kan tut\u00f9", "solutions": ["\u00cck\u00f2k\u00f2 j\u1eb9\u0301 ohun \u00e8l\u00f2 \u00ecgb\u00e0l\u00f3d\u00e9 t\u00ed \u00f3 \u0144 m\u00fa \u01f9kan tut\u00f9", "\u1eb8\u0300r\u1ecd am\u00fa \u01f9kan tut\u00f9 j\u1eb9\u0301 ohun \u00e8l\u00f2 \u00ecgb\u00e0l\u00f3d\u00e9 t\u00ed \u00f3 \u0144 m\u00fa \u01f9kan tut\u00f9"], "example_label": 1, "reasoning": "\u00ccb\u00e9\u00e8r\u00e8 n\u00e1\u00e0 n\u00edpa \u1eb9\u0300r\u1ecd \u00ecgb\u00e0l\u00f3d\u00e9 t\u00f3 \u0144 m\u00fa \u01f9kan tut\u00f9. Solution 1 s\u1ecd p\u00e9 \u00eck\u00f2k\u00f2 (p\u1eb9\u0301l\u1eb9b\u1eb9 \u00e0b\u1eb9) ni \u1eb9\u0300r\u1ecd \u00ecgb\u00e0l\u00f3d\u00e9 t\u00f3 \u0144 m\u00fa \u01f9kan tut\u00f9, \u1e63\u00f9gb\u1ecd\u0301n \u00eck\u00f2k\u00f2 k\u00ec \u00ed \u1e63e \u1eb9\u0300r\u1ecd \u00ecgb\u00e0l\u00f3d\u00e9; \u00f3 j\u1eb9\u0301 ohun \u00e8l\u00f2 \u00ecs\u1eb9\u0301 t\u00e0b\u00ed ohun \u00e8l\u00f2 \u00e0k\u1ecd\u0301k\u1ecd\u0301 f\u00fan f\u00edfi \u01f9kan s\u00edn\u00fa r\u1eb9 t\u00e0b\u00ed f\u00fan sise. Solution 2 s\u1ecd p\u00e9 \"\u1eb9\u0300r\u1ecd am\u00fa \u01f9kan tut\u00f9\" ni \u1eb9\u0300r\u1ecd \u00ecgb\u00e0l\u00f3d\u00e9 t\u00ed \u00f3 \u0144 m\u00fa \u01f9kan tut\u00f9, t\u00f3 s\u00ec n\u00ed itum\u1ecd\u0300 t\u00f3 yoowu f\u00fan k\u1ecd\u0301mputa, firiji, t\u00e0b\u00ed \u00e0w\u1ecdn ohun \u00e8l\u00f2 \u00e0toj\u00fa \u01f9kan tut\u00f9. N\u00edtor\u00ed n\u00e1\u00e0, solution 2 ni \u00ecm\u1ecd\u0300 t\u00f3 p\u00e9ye \u00e0ti t\u00f3 b\u00f3j\u00fa mu \u00ecb\u00e9\u00e8r\u00e8 n\u00e1\u00e0 ju solution 1 l\u1ecd.", "pred_label": "1", "metric": 1}, {"goal": "Ibo ni mo ti l\u00e8 gb\u00e0 ow\u00f3 p\u1eb9\u0300l\u00fa k\u00e1\u00e0d\u00ec \u00ecy\u1ecdw\u00f3?", "solutions": ["\u1eb8nu \u1eb8\u0300r\u1ecd-\u00ecl\u00e9w\u1ecd\u0301", "\u1eb8nu \u1eb8\u0300r\u1ecd-ap\u1ecdw\u00f3"], "example_label": 1, "reasoning": "\u00c0pil\u1eb9\u0300k\u1ecd n\u00e1\u00e0 n\u00edpa ibi t\u00ed a ti l\u00e8 gb\u00e0 ow\u00f3 p\u1eb9\u0300l\u00fa k\u00e1\u00e0d\u00ec \u00ecy\u1ecdw\u00f3 ni p\u00e9 a l\u00e8 lo \u1eb9nu \u1eb9r\u1ecd apam\u1ecd\u0301 (ATM) l\u00e1ti f\u00e0 ow\u00f3 jade ni ir\u1ecdrun. \u1eb8nu \u1eb8\u0300r\u1ecd-ap\u1ecdw\u00f3 (ATM) ni a m\u1ecd\u0300 s\u00ed ibi t\u00ed a ti l\u00e8 y\u1ecd ow\u00f3 p\u1eb9\u0300l\u00fa k\u00e1\u00e0d\u00ec \u00ecy\u1ecdw\u00f3. N\u00ed il\u00e9 i\u1e63\u1eb9\u0301 t\u00e0b\u00ed n\u00ed \u1ecdj\u00e0, a k\u00f2 m\u00e1a n lo \u00ab\u1eb8nu \u1eb8\u0300r\u1ecd-\u00ecl\u00e9w\u1ecd\u0301\u00bb f\u00fan irrana w\u1ecdl\u00e9 y\u1eb9n. N\u00edtor\u00ed n\u00e1\u00e0, oj\u00fa\u1e63e f\u00fan \u1e63i\u1e63e \u00e0fih\u00e0n ow\u00f3 l\u00f3r\u00ed k\u00e1\u00e0d\u00ec \u00ecy\u1ecdw\u00f3 ni \u1eb8nu \u1eb8\u0300r\u1ecd-ap\u1ecdw\u00f3 ni.", "pred_label": "1", "metric": 1}, {"goal": "N\u00edgb\u00e0t\u00ed \u00e0w\u1ecdn \u1ecdk\u00f9nrin b\u00e1 g\u1eb9 f\u00ecl\u00e0 n\u00ed il\u1eb9\u0300 Yor\u00f9b\u00e1 k\u00edni \u00e0w\u1ecdn ob\u00ecnrin y\u00f3\u00f2 w\u00e9?", "solutions": ["\u00c0w\u1ecdn ob\u00ecnrin y\u00f3\u00f2 w\u00e9 g\u00e8l\u00e8 n\u00edgb\u00e0t\u00ed \u00e0w\u1ecdn \u1ecdk\u00f9nrin b\u00e1 g\u1eb9 f\u00ecl\u00e0 n\u00ed il\u1eb9\u0300 Yor\u00f9b\u00e1", "\u00c0w\u1ecdn ob\u00ecnrin y\u00f3\u00f2 w\u00e9 F\u00ecl\u00e0 n\u00edgb\u00e0t\u00ed \u00e0w\u1ecdn \u1ecdk\u00f9nrin b\u00e1 g\u1eb9\u0300 f\u00ecl\u00e0 n\u00ed il\u1eb9\u0300 Yor\u00f9b\u00e1"], "example_label": 0, "reasoning": "N\u00ed Yor\u00f9b\u00e1, \u00e0w\u1ecdn \u1ecdk\u00f9nrin maa n g\u1eb9 f\u00ecl\u00e0, \u00e0w\u1ecdn ob\u00ecnrin n\u00edgb\u00e0 n\u00e1\u00e0 maa n w\u00e9 g\u00e8l\u00e8, \u00e8y\u00ed t\u00ed \u00f3 j\u1eb9 \u00e0\u1e63\u00e0 t\u00ed a m\u1ecd\u0300. \u00c0p\u1eb9r\u1eb9 t\u00f3 d\u00e1j\u00fa j\u00f9l\u1ecd k\u00ed ni \u00e0w\u1ecdn ob\u00ecnrin w\u00f3 ni g\u00e8l\u00e8, k\u00ec \u00ed \u1e63e f\u00ecl\u00e0, tor\u00ed f\u00ecl\u00e0 j\u1eb9 ir\u1ecdri k\u00e1\u00e0kiri \u1ecdk\u00f9nrin. \u00cct\u00e0n t\u00f3 d\u00e1j\u00fa ni p\u00e9 \u00e0w\u1ecdn ob\u00ecnrin w\u00e9 g\u00e8l\u00e8 n\u00edgb\u00e0 t\u00ed \u1ecdk\u00f9nrin b\u00e1 g\u1eb9 f\u00ecl\u00e0. N\u00edtor\u00ed n\u00e1\u00e0, \u00ect\u00e0n \u1e63e \u00e0fih\u00e0n p\u00e9 oj\u00fal\u00f3w\u00f3 \u00e0ti \u00e0\u1e63\u00e0 Yor\u00f9b\u00e1 ni f\u00edfi g\u00e8l\u00e8 h\u00e0n f\u00fan \u00e0w\u1ecdn ob\u00ecnrin n\u00edgb\u00e0 t\u00ed \u00e0w\u1ecdn \u1ecdk\u00f9nrin b\u00e1 g\u1eb9 f\u00ecl\u00e0.", "pred_label": "0", "metric": 1}, {"goal": "ki\u0301ni o\u0301 y\u1eb9 ka\u0301 fi si\u0301 ewe\u0301du\u0301 ko\u0301 le\u0300 y\u1ecd\u0300 fu\u0300n ji\u0300ja\u0300 daa\u0301daa?", "solutions": ["o y\u1eb9 ka\u0301 fi k\u00e1n-\u00fan si\u0301 i", "o y\u1eb9 ka\u0301 fi epo pupa si\u0301 i"], "example_label": 0, "reasoning": "Lati le y\u1ecd ewedu fun jija daradara, ohun ti o y\u1eb9 ki a fi si ewedu ni \"k\u00e1n-\u00fan\" (\u1ecd\u0300p\u1ecd\u0300 igba ni a m\u1ecd\u0300 \u1ecdn s\u00ed \u00e8p\u00f2). Epo pupa k\u00f2 \u1e63e pataki tabi ko ni ipa taara lori yiy\u1ecd ewedu fun ji\u0300ja\u0300. Nitorina, ojutu ak\u1ecdk\u1ecd dabi \u1eb9ni pe o dara jul\u1ecd nitori o ba ibeere ati ti a\u1e63a mu.", "pred_label": "0", "metric": 1}, {"goal": "\u1ecck\u00e0n p\u00e0t\u00e0k\u00ec n\u00ed y\u00e0r\u00e1 \u00ecj\u1eb9un ni", "solutions": ["P\u00e1t\u00e1k\u00f3 j\u1eb9\u0301 f\u00fan \u00e8n\u00ecy\u00e0n", "T\u00e1b\u00ecl\u00ec j\u1eb9\u0301 f\u00fan \u00e8n\u00ecy\u00e0n"], "example_label": 1, "reasoning": "\u00ccb\u00e9\u00e8r\u00e8 n\u00e1\u00e0 n\u00edpa ohun t\u00ed \u00f3 \u1e63e p\u00e0t\u00e0k\u00ec n\u00ed y\u00e0r\u00e1 \u00ecj\u1eb9un, iy\u1eb9n ni ibi t\u00e1 a ti \u0144 j\u1eb9un. N\u00edn\u00fa \u00e0w\u1ecdn \u00e0\u1e63\u00e0y\u00e0n m\u00e9j\u00e8\u00e8j\u00ec, \"t\u00e1b\u00ecl\u00ec\" ni ohun t\u00ed a s\u00e1b\u00e0 m\u00e1a r\u00ed n\u00edn\u00fa y\u00e0r\u00e1 \u00ecj\u1eb9un g\u1eb9\u0301g\u1eb9\u0301 b\u00ed ibi t\u00e1 a m\u00e1a fi j\u1eb9un t\u00e0b\u00ed k\u00f3 \u00e0w\u1ecdn onj\u1eb9 s\u00ed, \u00e8y\u00ed t\u00f3 m\u00fa k\u00f3 l\u1eb9\u0301t\u1ecd\u0300\u1ecd\u0301 l\u00e1ti s\u1ecd p\u00e9 t\u00e1b\u00ecl\u00ec j\u1eb9\u0301 p\u00e0t\u00e0k\u00ec n\u00ed y\u00e0r\u00e1 \u00ecj\u1eb9un ju p\u00e1t\u00e1k\u00f3 l\u1ecd. P\u00e1t\u00e1k\u00f3 k\u00ec \u00ed \u1e63e ohun t\u00f3 j\u1eb9\u0301 \u00e0fih\u00e0n \u00e0\u1e63\u00e0 y\u00e0r\u00e1 \u00ecj\u1eb9un t\u00e0b\u00ed ibi t\u00f3 y\u1eb9 k\u00ed \u00f3 w\u00e0 f\u00fan i\u1e63\u1eb9\u0301 \u00ecj\u1eb9un.", "pred_label": "1", "metric": 1}, {"goal": "Kini \u1ecdna ailewu lati b\u1ecd\u0301 l\u1eb9\u0300 kuro ninu \u1ecdk\u1ecd o\u0300furufu\u0301 l\u1eb9\u0301hi\u0300n ti\u0301 o ba\u0301 bal\u1eb9\u0300?", "solutions": ["Di\u0300de l\u1eb9\u0301s\u1eb9\u0300k\u1eb9s\u1eb9\u0300, gbe\u0301 a\u0300po\u0300 r\u1eb9, ki\u0301 o si sa\u0301re\u0301 jade", "\u1e62e su\u0300u\u0301ru\u0300, ki\u0301 o si r\u1ecdra te\u0300le\u0301 i\u0300la\u0300na\u0300"], "example_label": 1, "reasoning": "\u1eccna ailewu lati b\u1ecd kuro ninu \u1ecdk\u1ecd ofurufu l\u1eb9hin t\u00ed \u00f3 b\u00e1 bal\u1eb9\u0300 ni l\u00e1ti \u1e63e suuru kiakia, t\u1eb9le aw\u1ecdn ilana ati aw\u1ecdn ipo aabo to wulo. K\u00edk\u1ecd\u0301 \u1eb9l\u1eb9s\u1eb9\u0300k\u1eb9s\u1eb9\u0300 \u00e0ti s\u00e1r\u00e9 jade l\u00e8 fa \u1ecdr\u1ecd\u0300 \u00ecp\u1eb9\u0300y\u00e0 \u00e0ti \u00e0j\u00e1l\u00f9, n\u00ed p\u00e0t\u00e0k\u00ec j\u00f9l\u1ecd n\u00edgb\u00e0 t\u00ed i\u1e63\u1eb9 \u00ecgb\u00e0gb\u00e9b\u1ecd\u0300ns\u1eb9\u0301l\u1eb9\u0300 \u0144 l\u1ecd. N\u00edtor\u00ed n\u00e1\u00e0, oj\u00fat\u00f9\u00fa kej\u00ec t\u00f3 s\u1ecd p\u00e9 k\u00ed o \u1e63e suuru ki o s\u00ec r\u1ecdra t\u1eb9le ilana j\u1eb9\u0301 kedere p\u00e9 \u00f3 d\u00e1j\u00fa ju ati p\u00e9 \u00f3 d\u00e0 b\u00edi p\u00e9 oj\u00fat\u00f9\u00fa to dara jul\u1ecd ni fun \u00ecs\u1ecd\u0300kan \u00e0ti aabo. Oj\u00fat\u00f9\u00fa ak\u1ecdk\u1ecd k\u00ec \u00ed \u1e63e pataki f\u00fan ohun t\u00ed a m\u1ecd\u0301 n\u00ed \u00ecpam\u1ecd\u0301\u00e0bo \u1ecdk\u1ecd ofurufu, tor\u00ed \u00f3 fi \u00e0k\u00fanya t\u00e0b\u00ed \u00ec\u1e63\u00f2ro s\u00edl\u1eb9\u0300.", "pred_label": "1", "metric": 1}, {"goal": "Tani ol\u00f3r\u00ed agbool\u00e9?", "solutions": ["Ol\u00f3r\u00ed \u1eb9b\u00ed n\u00ed ol\u00f3r\u00ed agbool\u00e9", "Ol\u00f3r\u00ed agbool\u00e9 ni B\u00e0b\u00e1 il\u00e9"], "example_label": 0, "reasoning": "\u00cct\u00e0n Yor\u00f9b\u00e1 \u00e0ti \u00e0\u1e63\u00e0 w\u1ecdn s\u00e1b\u00e0 m\u00e1a \u0144 f\u1ecdw\u1ecd\u0301si p\u00e9 ol\u00f3r\u00ed agbool\u00e9 j\u1eb9\u0301 B\u00e0b\u00e1 il\u00e9, \u1eb9ni t\u00f3 n\u00ed i\u1e63\u00e9\u0323\u0301r\u00ecgb\u1ecdmi \u00e0ti \u00e0\u1e63\u1eb9 l\u00f3r\u00ed \u00e0w\u1ecdn \u1ecdm\u1ecd il\u00e9. \u00c0m\u1ecd\u0301 \u1ecd\u0300r\u1ecd\u0300 p\u00e9 ol\u00f3r\u00ed \u1eb9b\u00ed n\u00ed ol\u00f3r\u00ed agbool\u00e9 j\u1eb9\u0301 kedere \u1e63\u00f9gb\u1ecd\u0301n k\u00ec \u00ed \u1e63e \u1ecd\u0300r\u1ecd\u0300 t\u00f3 p\u00e9 t\u00e0b\u00ed t\u00f3 d\u00e1j\u00fa ju \u00ect\u00e0n \u00e0\u1e63\u00e0 l\u1ecd. N\u00edtor\u00ed n\u00e1\u00e0, \u00ecd\u00e1h\u00f9n t\u00f3 p\u00e9ye j\u00f9 ni p\u00e9 ol\u00f3r\u00ed agbool\u00e9 ni B\u00e0b\u00e1 il\u00e9.", "pred_label": "1", "metric": 0}, {"goal": "La\u0301ti le\u0300 m\u1ecd\u0300 bo\u0301ya\u0301 i\u0300b\u1eb9\u0301p\u1eb9 ti p\u1ecd\u0301n?", "solutions": ["R\u1ecdra t\u1eb9 aw\u1ecd ara i\u0300b\u1eb9\u0301pe na\u0301a\u0300", "R\u1ecdra fi i\u0300\u1e63o\u0301 gu\u0301n i\u0300b\u1eb9\u0301p\u1eb9 na\u0301a\u0300"], "example_label": 0, "reasoning": "L\u00e1ti m\u1ecd\u0300 b\u00f3y\u00e1 \u00ecb\u1eb9\u0301p\u1eb9 ti p\u1ecd\u0301n, \u00e0m\u1ecd\u0301r\u00e0n t\u00f3 d\u00e1j\u00fa j\u00f9l\u1ecd ni l\u00e1ti r\u1ecdr\u00f9n t\u1eb9\u0301 \u1eb9\u0300r\u00f9 t\u00e0b\u00ed tan \u00e0y\u00e8 t\u00ed \u00ecb\u1eb9\u0301p\u1eb9 n\u00e1\u00e0 w\u00e0. S\u00eds\u00f9n fi \u00ecs\u1ecd\u0301 g\u00f9n \u00ecb\u1eb9\u0301p\u1eb9 le j\u1eb9\u0301 p\u00e9 a \u0144 t\u00fan k\u00f3 \u00ecb\u1eb9\u0301p\u1eb9 n\u00e1\u00e0 j\u1eb9 t\u00e0b\u00ed k\u00f3 bur\u00fa s\u00ed i, n\u00edtor\u00ed n\u00e1\u00e0 k\u00f2 d\u00e1j\u00fa g\u1eb9\u0301g\u1eb9\u0301 b\u00ed \u00e0b\u00e1j\u00e1de t\u00f3 l\u00e8 f\u1ecd\u0300r\u1ecd\u0300 j\u1eb9\u0301.", "pred_label": "0", "metric": 1}, {"goal": "Lati se \u1eb9yin, e\u0300wo ni\u0301nu\u0301 a\u0300w\u1ecdn i\u0300gbe\u0301s\u1eb9\u0300 w\u1ecd\u0300nyi\u0301 ni o\u0301 y\u1eb9 ki\u0301 o t\u1eb9\u0300le?", "solutions": ["fi \u1eb9yin si\u0301nu omi, gbe\u0301 e ka na\u0301, si\u0300 j\u1eb9\u0301 ki\u0301 o se fun bi i\u0300\u1e63\u1eb9ju\u0301 m\u1eb9\u0301wa\u0300a\u0301", "fi \u1eb9yin si\u0301nu o\u0300roro\u0301, gbe\u0301 e ka na\u0301, si\u0300 j\u1eb9\u0301 ki\u0301 o se fun bi i\u0300\u1e63\u1eb9ju\u0301 m\u1eb9\u0301wa\u0300a\u0301"], "example_label": 0, "reasoning": "\u1eb8yin y\u1eb9 k\u00ed a se \u00e9 n\u00ed omi k\u00ed o m\u00e1 ba j\u1eb9 p\u00e9 a fi \u1ecdra se \u00e9, tor\u00ed p\u00e9 lati se \u1eb9yin ni \u1ecdna to y\u1eb9, a maa fi omi se e, kii \u1e63e o\u0300roro\u0301. Fi \u1eb9yin s\u00edn\u00fa omi ki o si j\u1eb9 ki o se fun igba di\u1eb9 ni \u1ecdna to d\u00e1j\u00fa. N\u00edtor\u00ed n\u00e1\u00e0, \u00ec\u1e63ed\u1eb9r\u1eb9\u0300 \u00ecgbes\u1eb9\u0300 ak\u1ecdk\u1ecd (solution 0) d\u00e1j\u00fa ju \u00eckej\u00ec l\u1ecd.", "pred_label": "0", "metric": 1}, {"goal": "K\u00edni \u00e0 \u0144 \u1e63e n\u00ed ay\u1eb9y\u1eb9 \u00ecgb\u00e9y\u00e0w\u00f3?", "solutions": ["\u00c0 \u0144 m\u00fa in\u00fa ara wa d\u00f9n", "\u00c0 \u0144 so \u1ecdk\u00f9nrin \u00e0ti ob\u00ecnrin pap\u1ecd\u0300 l\u00e1ti di t\u1ecdk\u1ecdtaya"], "example_label": 1, "reasoning": "\u00c0w\u1ecdn m\u00e9j\u00e8\u00e8j\u00ec d\u00e1j\u00fa p\u00e9 w\u1ecd\u0301n k\u00e0n s\u00ed \u00ecb\u00e9\u00e8r\u00e8 n\u00e1\u00e0, \u1e63\u00f9gb\u1ecd\u0301n \u00ecd\u00e1h\u00f9n k\u00e9j\u00ec d\u00e1j\u00fa p\u00e9 \u00f3 d\u00e1j\u00fa j\u00f9l\u1ecd. N\u00ed ay\u1eb9y\u1eb9 \u00ecgb\u00e9y\u00e0w\u00f3, ohun p\u00e0t\u00e0k\u00ec ni k\u00ed a so \u1ecdk\u00f9nrin \u00e0ti ob\u00ecnrin pap\u1ecd\u0300 l\u00e1ti di t\u1ecdk\u1ecdtaya, \u00e8y\u00ed ni \u00e0t\u00fam\u1ecd\u0300 gidi ti \u00ecgb\u00e9y\u00e0w\u00f3. \u00c0m\u1ecd\u0301 p\u00e9 '\u00c0 \u0144 m\u00fa in\u00fa ara wa d\u00f9n' j\u1eb9\u0301 n\u00edpa \u00ecb\u00e1\u1e63ep\u1ecd\u0300 ay\u1ecd\u0300, \u1e63\u00f9gb\u1ecd\u0301n k\u00f2 h\u00e0n gbangba p\u00e9 \u0144\u1e63e ni ay\u1eb9y\u1eb9 \u00ecgb\u00e9y\u00e0w\u00f3 \u0144 \u1e63e \u00e9. N\u00edtor\u00ed n\u00e1\u00e0, \u00ecd\u00e1h\u00f9n kej\u00ec ni y\u00f3\u00f2 dara j\u00f9l\u1ecd.", "pred_label": "1", "metric": 1}, {"goal": "La\u0301ti di\u0301n di\u0301da\u0301n oju\u0301 re ku\u0300 \u1e63a\u0301aju yi\u0300ya foto, o\u0301 da ki\u0301 o", "solutions": ["fi e\u0300e\u0301ru\u0301 pa oju\u0301 a\u0300ti \u1eb9k\u1eb9\u0301 r\u1eb9 f\u1eb9\u0301r\u1eb9\u0301f\u1eb9\u0301", "fi a\u0300ti\u0301ke\u0300 pa oju\u0301 a\u0300ti \u1eb9k\u1eb9\u0301 r\u1eb9 f\u1eb9\u0301r\u1eb9\u0301f\u1eb9\u0301"], "example_label": 1, "reasoning": "Lati din didan oju ku \u1e63aaju yiyafoto, o y\u1eb9 ki a fi nkan ti o le dinku didan tabi tan ina loju oju naa. \"E\u0300e\u0301ru\u0301\" ko ni itum\u1ecd kedere ninu konteksti yii ati ko dabi wipe o j\u1eb9 nkan ti o maa n lo lati dinku didan oju. \"\u00c0t\u00edk\u1eb9\u0300\" j\u1eb9 nkan ti a m\u1ecd\u0300 ni Yoruba g\u1eb9\u0301g\u1eb9\u0301 bi ohun t\u00f3 l\u00e8 w\u00fal\u00f2 f\u00fan \u00e0y\u00edk\u00e1 \u1ecdw\u1ecd\u0301 \u00e0ti nkan t\u00ed a l\u00e8 fi pa oju\u0301 di didan lati din didan sil\u1eb9, eyi ni o j\u1eb9 itumo to dara jul\u1ecd fun ibeere yii. N\u00edtor\u00ed n\u00e1\u00e0, oj\u00fat\u00f9\u00fa kej\u00ec (fi \u00e0t\u00edk\u1eb9\u0300 pa oju \u00e0ti \u1eb9k\u1eb9\u0301 r\u1eb9 f\u1eb9\u0301r\u1eb9\u0301f\u1eb9\u0301) j\u1eb9 ak\u1ecdm\u1ecd\u0301ra si idasil\u1eb9 yi.", "pred_label": "1", "metric": 1}, {"goal": "\u00d2we p\u00edpa w\u1ecd\u0301p\u1ecd\u0300 l\u00e1\u00e0\u00e1r\u00edn \u00e0w\u1ecdn wo?", "solutions": ["\u00c0\u00e0r\u00edn \u00e0w\u1ecdn \u00c0gb\u00e0lagb\u00e0", "\u00c0\u00e0r\u00edn \u00e0w\u1ecdn \u1ecdm\u1ecdde\u0301"], "example_label": 0, "reasoning": "\u00d2we j\u1eb9\u0301 ap\u00e1 p\u00e0t\u00e0k\u00ec n\u00ed \u00e0\u1e63\u00e0 Yor\u00f9b\u00e1 t\u00ed a s\u00e1b\u00e0 m\u00e1a \u0144 t\u1eb9\u0300s\u00edw\u00e1j\u00fa l\u00e1\u00e0r\u00edn \u00e0w\u1ecdn \u00e0gb\u00e0lagb\u00e0 ju l\u1ecd. \u00c0w\u1ecdn \u00e0gb\u00e0lagb\u00e0 l\u00f3 n\u00ed \u00ecm\u00f2\u0323r\u00e0n \u00e0ti \u00ecr\u00edr\u00ed t\u00f3 p\u00e9ye n\u00edpa b\u00ed a \u1e63e m\u00e1a lo \u00f2we, k\u00f3 l\u00e8 d\u00e1j\u00fa p\u00e9 a t\u00fam\u1ecd\u0300 \u00f2we n\u00e1\u00e0 d\u00e1ad\u00e1a k\u00ed a s\u00ec lo \u00f3 n\u00ed \u1ecd\u0300n\u00e0 t\u00f3 t\u1ecd\u0301. B\u00ed \u00f3 til\u1eb9\u0300 j\u1eb9\u0301 p\u00e9 \u00e0w\u1ecdn \u1ecdm\u1ecdde l\u00e8 m\u1ecd\u0300\u1ecd\u0301 k\u00f3 \u00f2we, \u00e0w\u1ecdn \u00e0gb\u00e0lagb\u00e0 l\u00f3 s\u00e1b\u00e0 j\u00f9l\u1ecd l\u00f3 n\u00ed p\u1ecd\u0300n d\u00e1k\u1eb9\u0301 \u00e0t\u00f2\u00f2r\u00f9n \u00f2we. N\u00edtor\u00ed n\u00e1\u00e0, w\u1ecd\u0301n s\u00e1b\u00e0 m\u00e1a \u0144 p\u00edn \u00f2we l\u00e1\u00e0\u00e1r\u00edn ara w\u1ecdn, k\u00ed w\u1ecd\u0301n l\u00e8 d\u00e1\u00e0b\u00f2 b\u00f2 \u00e0\u1e63\u00e0 \u00e0ti \u1ecdgb\u1ecd\u0301n Yor\u00f9b\u00e1 l\u1ecd\u0301p\u1ecd\u0300l\u1ecdp\u1ecd\u0300.", "pred_label": "0", "metric": 1}, {"goal": "N\u00edbo ni \u00e0s\u00ec\u00e1 m\u00e1a \u0144 k\u1ecd s\u00ed n\u00edgb\u00e0 t\u00ed af\u1eb9\u0301f\u1eb9\u0301 \u0144 f\u1eb9\u0301?", "solutions": ["\u00c0s\u00ec\u00e1 m\u00e1a \u0144 k\u1ecd s\u00ed ibi t\u00ed af\u1eb9\u0301f\u1eb9\u0301 \u0144 l\u1ecd s\u00ed", "\u00c0s\u00ec\u00e1 m\u00e1a \u0144 k\u1ecd s\u00ed ibi t\u00ed af\u1eb9\u0301f\u1eb9\u0301 ti w\u00e1."], "example_label": 0, "reasoning": "\u00ccb\u00e9\u00e8r\u00e8 \u0144 beere n\u00edpa ib\u00ec t\u00ed \u00e0s\u00ec\u00e1 (\u1ecd\u0300n\u00e0 \u00ecf\u1ecd\u0301r\u1ecd\u0300w\u1ecd\u0301 af\u1eb9\u0301f\u1eb9\u0301) ti m\u00e1a \u0144 k\u1ecd s\u00ed n\u00edgb\u00e0 t\u00ed af\u1eb9\u0301f\u1eb9\u0301 \u0144 f\u1eb9\u0301. N\u00ed \u1ecd\u0300r\u1ecd\u0300 \u00e0s\u00ec\u00e1, \u00f3 j\u1eb9\u0301 p\u00e9 \u00f3 k\u1ecd s\u00ed ab\u1eb9\u0301 j\u1eb9\u0301 t\u00ed af\u1eb9\u0301f\u1eb9\u0301 \u0144 l\u1ecd s\u00ed, k\u00f3 m\u00e1 b\u00e0 a k\u1ecd\u0301 f\u00e1\u00e0r\u00e1n. N\u00edtor\u00ed n\u00e1\u00e0, \u00e0p\u1eb9\u1eb9r\u1eb9 t\u00f3 p\u00e9ye j\u00f9l\u1ecd ni p\u00e9 \"\u00c0s\u00ec\u00e1 m\u00e1a \u0144 k\u1ecd s\u00ed ibi t\u00ed af\u1eb9\u0301f\u1eb9\u0301 \u0144 l\u1ecd s\u00ed\" (solution0) ju \"\u00c0s\u00ec\u00e1 m\u00e1a \u0144 k\u1ecd s\u00ed ibi t\u00ed af\u1eb9\u0301f\u1eb9\u0301 ti w\u00e1\" (solution1) l\u1ecd.", "pred_label": "0", "metric": 1}, {"goal": "Ti\u0301 o ba f\u1eb9\u0301 gu\u0301n iya\u0301n, ki\u0301ni o\u0301 y\u1eb9 ki\u0301 o k\u1ecd\u0301k\u1ecd\u0301 \u1e63e?", "solutions": ["B\u1eb9 i\u1e63u na\u0301a\u0300 ki\u0301 o si\u0300 se\u0300 e\u0301", "B\u1eb9 i\u1e63u na\u0301a\u0300 ki\u0301 o si\u0300 gun la\u0301i\u0300 se\u0300 e\u0301"], "example_label": 0, "reasoning": "N\u00edgb\u00e0 t\u00ed a b\u00e1 f\u1eb9\u0301 gu\u0301n iya\u0301n, ohun t\u00ed a m\u00e1a \u0144 \u1e63e l\u1eb9\u0301k\u1ecd\u0300\u1ecd\u0301k\u1ecd\u0301 ni l\u00e1ti b\u1eb9 i\u1e63u naa k\u00ed a t\u00f3 gun. K\u00ed a to fi se e\u0300, a gb\u1ecdd\u1ecd\u0300 b\u1eb9 i\u1e63u naa r\u00ed i p\u00e9 \u00f2un ti d\u00f9n t\u00e0b\u00ed ti \u1e63\u00e8t\u00e1n f\u00fan \u00ecg\u00f9n iya\u0301n. N\u00edpa b\u1eb9\u0301\u1eb9\u0300 a m\u00e1a n r\u00ed i\u1e63\u1eb9\u0301 naa d\u00e1rad\u00e1ra. N\u00edtor\u00ed n\u00e1\u00e0, oj\u00fat\u00f9\u00fa \u00e0k\u1ecd\u0301k\u1ecd\u0301 j\u1eb9\u0301 p\u00e9 k\u00ed o b\u1eb9 i\u1e63u naa k\u00ed o s\u00ec \u1e63e e. Oj\u00fat\u00f9\u00fa keji s\u1ecd p\u00e9 k\u00ed o t\u00e8t\u00e8 gun l\u00e1\u00ec b\u1eb9 i\u1e63u naa, \u00e8y\u00ed t\u00f3 b\u00e1 j\u1eb9\u0301 p\u00e9 k\u00f2 b\u00f3j\u00fat\u00f3 \u00e0w\u1ecdn \u00ecl\u00e0n\u00e0 t\u00f3 y\u1eb9 k\u00ed \u00f3 t\u1eb9\u0300l\u00e9 f\u00fan \u00ecm\u00fad\u00e1ra i\u1e63\u1eb9\u0301. N\u00edgb\u00e0 t\u00ed \u1eb9ni t\u00e0b\u00ed agb\u1eb9 b\u00e1 b\u1eb9 i\u1e63u, w\u1ecdn m\u00e1a r\u00ed i\u1e63\u1eb9\u0301 gu\u0301n iya\u0301n d\u00e1ra ju t\u00ed w\u1ecdn k\u00ed y\u00f3\u00f2 b\u1eb9\u0301\u1eb9\u0300 l\u1ecd. N\u00edtor\u00ed n\u00e1\u00e0, oj\u00fat\u00f9\u00fa \u00e0k\u1ecd\u0301k\u1ecd\u0301 dara j\u00f9l\u1ecd.", "pred_label": "0", "metric": 1}, {"goal": "T\u00ed oj\u00fa b\u00e1 \u0144 dun \u00e8n\u00ecy\u00e0n t\u00ed k\u00f2 s\u00ec r\u00edna d\u00e1ad\u00e1a , k\u00ed ni d\u00f3k\u00edt\u00e0 y\u00f3\u00f2 p\u00e8s\u00e8 f\u00fan un?", "solutions": ["D\u00edg\u00ed ni d\u00f3k\u00edt\u00e0 y\u00f3\u00f2 p\u00e8s\u00e8 f\u00fan un", "Aw\u00f2 ni d\u00f3k\u00edt\u00e0 y\u00f3\u00f2 p\u00e8s\u00e8 f\u00fan un."], "example_label": 1, "reasoning": "N\u00edn\u00fa \u00ecb\u00e9\u00e8r\u00e8 n\u00e1\u00e0, oj\u00fa \u0144 dun \u00e8n\u00ecy\u00e0n t\u00ed k\u00f2 r\u00ed n\u00ed d\u00e1ad\u00e1a. N\u00ed \u00e0\u1e63\u00e0 \u00e0ti \u00ecm\u1ecd\u0300 ilera, d\u00edg\u00ed (eyedrops) ni w\u1ecd\u0301n s\u00e1b\u00e0 m\u00e1a fi t\u00e1n oj\u00fa t\u00ed \u0144 dun t\u00e0b\u00ed t\u00ed k\u00f2 r\u00ed d\u00e1ad\u00e1a f\u00fan un, k\u00f3 l\u00e8 b\u1ecd\u0301j\u00fa d\u00e1n\u00f9 t\u00e0b\u00ed m\u00fa k\u00ed oj\u00fa d\u00e0 b\u00edi p\u00e9 \u00f3 t\u00fab\u1ecd\u0300 d\u00f9n. Aw\u00f2 (eyeglasses) n\u00ed w\u1ecd\u0301n m\u00e1a nlo f\u00fan \u1eb9ni t\u00ed k\u00f2 r\u00ed d\u00e1ad\u00e1a n\u00ed p\u00e1t\u00e1p\u00e1t\u00e1, \u1e63\u00f9gb\u1ecd\u0301n oj\u00fa t\u00e0b\u00ed \u00ecrora oj\u00fa k\u00ec \u00ed \u1e63e ohun t\u00ed aw\u00f2 m\u00e1a \u1e63e t\u00e1n t\u00e0b\u00ed f\u00fan \u00ect\u00fanj\u00fa l\u1eb9\u0301s\u1eb9\u0300k\u1eb9s\u1eb9\u0300. N\u00edtor\u00ed n\u00e1\u00e0, d\u00edg\u00ed ni d\u00f3k\u00edt\u00e0 y\u00f3\u00f2 p\u00e8s\u00e8 f\u00fan \u00e8n\u00ecy\u00e0n t\u00e1 a \u1e63e \u00e0p\u1eb9\u1eb9r\u1eb9 y\u00ec\u00ed. Solution 0 ni y\u00f3\u00f2 j\u1eb9\u0301 t\u00f3\u00f3t\u1ecd\u0301.", "pred_label": "0", "metric": 0}, {"goal": "B\u00e1wo ni a \u1e63e le gb\u1eb9\u0301 k\u00e0\u01f9ga f\u00fan am\u00f9 l\u00edl\u00f2?", "solutions": ["A \u00f3 gb\u1eb9 n\u00ed \u00f2b\u00ecr\u00eck\u00ect\u00ec/\u00f2b\u00edr\u00edpo", "A \u00f3 gb\u1eb9 n\u00ed on\u00edgun m\u1eb9\u0301ta"], "example_label": 0, "reasoning": "\u00c0m\u1ecd\u0300r\u00e0n t\u00f3 d\u00e1j\u00fa j\u00f9l\u1ecd n\u00edpa b\u00ed a \u1e63e l\u00e8 gb\u1eb9\u0301 k\u00e0\u01f9ga f\u00fan am\u00f9 l\u00edl\u00f2 ni p\u00e9 k\u00ed a gb\u1eb9\u0301 k\u00e0\u01f9ga n\u00ed \u00f2b\u00ecr\u00eck\u00ect\u00ec t\u00e0b\u00ed \u00f2b\u00edr\u00edpo, tor\u00ed p\u00e9 \u00ectum\u1ecd\u0300 \u00f2b\u00ecr\u00eck\u00ect\u00ec t\u00e0b\u00ed \u00f2b\u00edr\u00edpo ni ibi t\u00ed \u00f3 \u0144 d\u00f9n\u00f9, t\u00ed a \u00f2 n\u00ed fi ow\u00fafo s\u00ed, t\u00ed \u00f3 s\u00ec n\u00ed \u00e0f\u1eb9\u0301f\u1eb9\u0301 t\u00f3 d\u00e1a t\u00f3 l\u00e8 m\u00fa k\u00ed k\u00e0\u01f9ga n\u00e1\u00e0 gb\u1eb9\u0301 nin\u00fa \u00e0k\u00f3k\u00f2 t\u00f3 t\u00f3. Gbigb\u00e9 k\u00e0\u01f9ga n\u00ed on\u00edgun m\u1eb9\u0301ta k\u00f2 \u1e63e kedere t\u00e0b\u00ed k\u00f2 \u1e63e \u00e0fih\u00e0n ibi t\u00e0b\u00ed \u1ecd\u0300n\u00e0 t\u00f3 d\u00e1j\u00fa f\u00fan gbigb\u1eb9 k\u00e0\u01f9ga. N\u00edtor\u00ed n\u00e1\u00e0, \u00ecd\u00e1h\u00f9n-1 ni p\u00edp\u00e9 ju.", "pred_label": "0", "metric": 1}, {"goal": "Ki\u0301ni ohun ti\u0301 a tu\u0301n le\u0300 fi p\u1ecd\u0301n \u1eb9\u0300ba\u0300 ni\u0301gba\u0300 ti\u0301 ko\u0300 ba\u0301 si\u0301 i\u0300gba\u0301k\u1ecd?", "solutions": ["a le\u0300 lo fi\u0300la\u0300", "a le\u0300 lo si\u0301bi\u0301"], "example_label": 1, "reasoning": "\u00c0w\u1ecdn \u00e0y\u1ecdk\u00e0 m\u00e9j\u00e8\u00e8j\u00ec k\u00f2 d\u00e1j\u00fa t\u00e0b\u00ed kedere n\u00edpa ohun t\u00ed a l\u00e8 fi p\u1ecd\u0301n \u1eb9\u0300b\u00e0 n\u00edgb\u00e0 t\u00ed k\u00f2 b\u00e1 s\u00ed \u00ecgb\u00e1k\u1ecd. \u00c0m\u1ecd\u0301, kedere p\u00e9 k\u00f2 s\u00ed \u00ect\u00fam\u1ecd\u0300 t\u00ed \u00f3 d\u00e1j\u00fa t\u00e0b\u00ed \u00e0m\u00fa\u1e63e l\u00f3r\u00ed \"fi\u0300la\u0300\" t\u00e0b\u00ed \"si\u0301bi\u0301\" g\u1eb9\u0301g\u1eb9\u0301 b\u00ed ohun t\u00ed a l\u00e8 fi p\u1ecd\u0301n \u1eb9\u0300b\u00e0, n\u00edtor\u00ed p\u00e9 \"fi\u0300la\u0300\" t\u00fam\u1ecd\u0300 s\u00ed \"scarf\" t\u00e0b\u00ed \"head tie\" \u00e0ti \"si\u0301bi\u0301\" t\u00fam\u1ecd\u0300 s\u00ed \"place\" t\u00e0b\u00ed \"spot.\" \u1eb8\u0300t\u1ecd\u0300 \u1ecdr\u1ecd\u0300 n\u00ed Yor\u00f9b\u00e1 l\u00e1ti fi p\u1ecd\u0301n \u1eb9\u0300b\u00e0 j\u1eb9\u0301 \u1eb9\u0300ka t\u00ed \u00f3 n\u00ed b\u1eb9\u0300r\u1eb9\u0300 \u00e0ti \u00ecfor\u00fak\u1ecd\u1e63e, w\u1ecd\u0301n s\u00e1b\u00e0 m\u00e1a \u0144 lo \u00ecgb\u00e1k\u1ecd\u0300 t\u00e0b\u00ed \u00e0w\u1ecdn ohun \u00e8l\u00f2 t\u00ed w\u1ecd\u0301n n\u00ed \u00ecpam\u1ecd\u0301 t\u00f3 d\u00e1j\u00fa t\u00e0b\u00ed ti w\u1ecdn l\u00e8 fi darap\u1ecd\u0300 p\u1eb9\u0300l\u00fa \u1eb9\u0300b\u00e0 k\u00ed \u00f3 m\u00e1 b\u00e0 \u00e1 j\u1eb9\u0301 t\u00e0b\u00ed k\u00ed \u00f3 f\u1ecd\u0301. N\u00edtor\u00ed p\u00e9 k\u00f2 s\u00ed \u00ecfarah\u00e0n n\u00edpa \u00ect\u00fam\u1ecd\u0300 t\u00ed \u00f3 m\u1ecd\u0301r\u00edr\u00ec n\u00edn\u00fa \u00e0w\u1ecdn oj\u00fat\u00f9\u00fa m\u00e9j\u00e8\u00e8j\u00ec, abinibi kedere ni p\u00e9 oj\u00fat\u00f9\u00fa m\u00e9j\u00e8\u00e8j\u00ec k\u00f2 d\u00e1j\u00fa, \u1e63\u00f9gb\u1ecd\u0301n oj\u00fat\u00f9\u00fa 1 \"a le\u0300 lo fi\u0300la\u0300\" wul\u1eb9 d\u00e1j\u00fa d\u00ed\u1eb9\u0300 ju tor\u00ed p\u00e9 \u00f3 l\u00e8 j\u1eb9\u0301 \u00ecm\u00fal\u00f2 n\u00ed \u00e0fik\u00fan t\u00e0b\u00ed \u1eb9\u0300j\u00e8\u0323 t\u00f3 l\u00e8 dara (b\u00ed a \u1e63e r\u00ed fi\u00ecla ti \u1eb9w\u00e0 t\u00f3 y\u00ed k\u00e1 n\u00ed Yor\u00f9b\u00e1). Oj\u00fat\u00f9\u00fa 2 k\u00f2 n\u00ed \u00ect\u00fam\u1ecd\u0300 t\u00f3 m\u1ecd\u0301 n\u00edn\u00fa \u00ecpinnu y\u00ec\u00ed.", "pred_label": "0", "metric": 0}, {"goal": "K\u00ed l\u00f3 m\u00e1a \u0144 \u1e63\u1eb9l\u1eb9\u0300 s\u00ed omi t\u00ed a b\u00e1 fi s\u00edn\u00fa \u1eb9\u0300r\u1ecd amo\u0301huntutu\u0300?", "solutions": ["Omi n\u00e1\u00e0 y\u00f3\u00f2 di y\u00ecny\u00edn", "Omi n\u00e1\u00e0 y\u00f3\u00f2 di gbi\u0301gbo\u0301na\u0301"], "example_label": 0, "reasoning": "N\u00edgb\u00e0 t\u00ed a b\u00e1 fi omi s\u00edn\u00fa \u1eb9\u0300r\u1ecd \u00e0moh\u00f9ntut\u00f9 (fridge), omi n\u00e1\u00e0 m\u00e1a d\u00edn\u00e0 l\u00e1t\u00e0r\u00ed \u00ect\u00f3s\u00ed il\u1eb9\u0300 k\u1ecd\u0301l\u1eb9\u0301s\u00ec t\u00f3 w\u00e0 n\u00edb\u1eb9\u0300, y\u00f3\u00f2 s\u00ec di y\u00ecny\u00edn (ice). \u1eb8\u0300r\u1ecd \u00e0moh\u00f9ntut\u00f9 m\u00e1a t\u00fab\u1ecd\u0300 m\u00fa k\u00ed omi n\u00e1\u00e0 d\u00edn\u00e0 ju k\u00ed \u00f3 gb\u00edgb\u1ecd\u0301n\u00e0 l\u1ecd. N\u00edtor\u00ed n\u00e1\u00e0, oj\u00fat\u00f9\u00fa t\u00ed \u00f3 d\u00e1j\u00fa ni p\u00e9 omi n\u00e1\u00e0 y\u00f3\u00f2 di y\u00ecny\u00edn, k\u00ec \u00ed \u1e63e k\u00f3 di gb\u00edgb\u1ecd\u0301n\u00e0.", "pred_label": "0", "metric": 1}, {"goal": "Ti\u0301 i\u0300\u1e63o\u0301 ba n y\u1ecd la\u0301ra tabili r\u1eb9,", "solutions": ["fi i\u0300ka\u0300n\u1e63o lu\u0300 u\u0301 pada\u0300 si\u0301nu tabili", "fi \u1e63i\u0301bi\u0301 lu\u0300 u\u0301 pada\u0300 si\u0301nu tabili"], "example_label": 0, "reasoning": "\u00c0p\u1eb9r\u1eb9 \u1ecd\u0300r\u1ecd\u0300 \"Ti\u0301 i\u0300\u1e63o\u0301 ba n y\u1ecd la\u0301ra tabili r\u1eb9\" t\u00fam\u1ecd\u0300 s\u00ed p\u00e9 \u00e0\u00e1r\u00edn tabili r\u1eb9 \u0144 m\u00fara t\u00e0b\u00ed \u0144 y\u1ecd\u0301, \u00f3 s\u00ec f\u1eb9\u0301 k\u00ed a m\u1ecd\u0300 b\u00ed a \u1e63e l\u00e8 d\u00e8n\u00e0 t\u00e0b\u00ed \u1e63e \u00e0t\u00fan\u1e63e r\u1eb9. N\u00edn\u00fa \u00e0w\u1ecdn \u00e0\u1e63\u00e0y\u00e0n m\u00e9j\u00e8\u00e8j\u00ec, \"fi i\u0300ka\u0300n\u1e63o lu\u0300 u\u0301\" t\u00fam\u1ecd\u0300 s\u00ed p\u00e9 k\u00ed a fi \u1ecdw\u1ecd\u0301 b\u00e0 \u00e1 k\u1ecd\u0301k\u00e0n, \u00ecy\u1eb9n s\u00ec r\u00ed b\u00ed f\u00edfi agb\u00e1ra \u00e0ti \u00ect\u1eb9\u0300s\u00ed gidi \u1e63e w\u00fal\u00f2 l\u00e1ti \u1e63e nkankan t\u00f3 l\u00e8 m\u00fa k\u00ed \u00e0\u00e0y\u00e8 n\u00e1\u00e0 d\u00e1k\u1eb9\u0301 t\u00e0b\u00ed pad\u00e0 d\u00e1ad\u00e1a. \"fi \u1e63i\u0301bi\u0301 lu\u0300 u\u0301\" t\u00fan t\u00fam\u1ecd\u0300 s\u00ed f\u00ed ap\u00e1 t\u00e0b\u00ed agb\u00e1ra kej\u00ec b\u00e0 \u00e1, \u00e0m\u1ecd\u0301 \u1ecdr\u1ecd\u0300 \"\u1e63i\u0301bi\u0301\" k\u00f2 \u1e63\u00f2ro l\u00e1ti m\u1ecd\u0300 t\u00e0b\u00ed k\u1ecd\u0301 l\u00e1ra Yor\u00f9b\u00e1, k\u00f2 s\u00ec d\u00e1j\u00fa p\u00e9 \u00f3 d\u00e1j\u00fa t\u00f3. N\u00edpa \u00ec\u1e63\u00e0k\u00f3so \u1eb9\u0300s\u00ecn \u00e0l\u00e0y\u00e9 \u00e0ti l\u00edlo \u1ecd\u0300r\u1ecd\u0300 t\u00ed \u00f3 p\u00e9ye, \"fi i\u0300ka\u0300n\u1e63o lu\u0300 u\u0301\" d\u00e1ra j\u00f9l\u1ecd f\u00fan f\u00edfi \u1ecdw\u1ecd\u0301 ta tabi tu nkan t\u00f3 n y\u1ecd l\u00e1ra tabili pada. N\u00edtor\u00ed n\u00e1\u00e0, oj\u00fat\u00f9\u00fa 0 l\u00f3 d\u00e1j\u00fa t\u00f3, t\u00f3 s\u00ec d\u00e1j\u00fa j\u00f9l\u1ecd n\u00edpa \u1ecdr\u1ecd Yor\u00f9b\u00e1 \u00e0ti \u00ecl\u00e0n\u00e0.", "pred_label": "0", "metric": 1}, {"goal": "P\u00e0t\u1eb9\u0301w\u1ecd\u0301 j\u1eb9\u0301 ir\u00fa irun t\u00ed \u00e0w\u1ecdn wo \u0144 \u1e63e?", "solutions": ["P\u00e0t\u1eb9\u0301w\u1ecd\u0301 j\u1eb9\u0301 ir\u00fa irun t\u00ed \u00e0w\u1ecdn \u1ecdk\u00f9nrin \u0144 \u1e63e", "P\u00e0t\u1eb9\u0301w\u1ecd\u0301 j\u1eb9\u0301 ir\u00fa irun t\u00ed \u00e0w\u1ecdn ob\u00ecnrin \u0144 \u1e63e"], "example_label": 1, "reasoning": "P\u00e0t\u1eb9\u0301w\u1ecd\u0301 j\u1eb9\u0301 ir\u00fa irun t\u00ed \u00f3 w\u1ecd\u0301p\u1ecd\u0300 k\u00ed \u00e0w\u1ecdn \u1ecdk\u00f9nrin m\u00e1a \u1e63e n\u00ed agb\u00e8gb\u00e8 Yor\u00f9b\u00e1, n\u00edtor\u00ed p\u00e9 irun f\u00fan ob\u00ecnrin y\u00e0t\u1ecd\u0300 s\u00ed b\u1eb9\u0301\u1eb9\u0300, w\u1ecd\u0301n m\u00e1a \u0144 n\u00ed irun g\u00f9n t\u00e0b\u00ed irun t\u00ed \u00f3 l\u00e8 y\u00e0t\u1ecd\u0300. N\u00edtor\u00ed n\u00e1\u00e0, \u00e0p\u1eb9\u1eb9r\u1eb9 t\u00f3 p\u00e9 k\u00f3 m\u1ecd \u00ecb\u00e1\u1e63ep\u1ecd\u0300 \u00ecran irun p\u00e0t\u1eb9\u0301w\u1ecd\u0301 p\u00e8\u0323l\u00fa \u00e0w\u1ecdn \u1ecdk\u00f9nrin ni.", "pred_label": "0", "metric": 0}, {"goal": "ki\u0301ni o\u0301 y\u1eb9 ki\u0301\u0301 o \u1e63e l\u1eb9\u0301yi\u0300n ti\u0301 o ba lo \u1eb9\u0300ro agba\u0301l\u1eb9?", "solutions": ["pa a\u0301, ki\u0301 o si\u0300 t\u1ecdju r\u1eb9\u0300 si\u0301 ibi ti\u0301 o\u0301 pam\u1ecd\u0301", "pa a\u0301, ki\u0301 o si\u0300 t\u1ecdju r\u1eb9\u0300 si\u0301 ibi ti\u0301 o\u0301 \u1e63i\u0301 si\u0301l\u1eb9\u0300"], "example_label": 0, "reasoning": "\u1eb8\u0300ro \u00e0gb\u00e0l\u1eb9\u0300 j\u1eb9\u0301 ohun \u00e8l\u00f2 am\u00fanib\u1ecdn\u1ecd\u0301 t\u00f3 y\u1eb9 k\u00ed a pa t\u00f3 b\u00e1 \u1e63e t\u00e1n, k\u00ed a s\u00ec t\u1ecdju r\u1eb9\u0300 n\u00edbi t\u00f3 l\u00e9wu t\u00e0b\u00ed t\u00f3 pam\u1ecd\u0301 k\u00ed k\u00f2 b\u00e0 a \u1e63e ni \u00e0\u01f9f\u00e0\u00e0n\u00ed t\u00f3 p\u1ecd\u0300n. Pa \u1eb9\u0300r\u1ecd \u00e0gb\u00e0l\u1eb9\u0300 y\u1eb9n \u00e0ti p\u00edpa a ni \u1ecdw\u1ecd\u0301 j\u1eb9\u0301 \u00ec\u1e63e to d\u00e1a, \u00e0ti p\u00edpa r\u1eb9\u0300 s\u00ed ib\u00ec kan t\u00f3 pam\u1ecd\u0301 d\u00e1j\u00fa p\u00e9 k\u00f2 n\u00ed fa ipalara t\u00e0b\u00ed r\u00ed \u1eb9l\u00f2m\u00edr\u00e0n l\u1eb9\u0301nu. N\u00ed \u00ecd\u00e1h\u00f9n k\u00ec\u00edn\u00ed, w\u1ecd\u0301n s\u1ecd p\u00e9 k\u00ed o pa a\u0301 k\u00ed o si t\u1ecdju r\u1eb9\u0300 s\u00ed ibi t\u00ed \u00f3 pam\u1ecd\u0301, eyi s\u00ed d\u00e1j\u00fa \u00e0ti p\u00e9 j\u1eb9\u0301 \u00ecf\u1ecdk\u00e0ns\u00ecn t\u00f3 p\u00e9ye j\u00f9l\u1ecd. N\u00ed \u00ecd\u00e1h\u00f9n kej\u00ec, w\u1ecd\u0301n s\u1ecd k\u00ed o pa a\u0301 k\u00ed o si t\u1ecdju r\u1eb9\u0300 s\u00ed ibi t\u00ed \u00f3 \u1e63i s\u00edl\u1eb9\u0300, \u00e8y\u00ed k\u00f2 dara b\u00ed \u00ecdi r\u1eb9\u0300 \u1e63e \u1e63e\u00e9 \u1e63e k\u00ed \u1eb9\u0300r\u1ecd n\u00e1\u00e0 n\u00ed f\u00edfi h\u00e0n n\u00edta t\u00e0b\u00ed k\u00f3 r\u1ecdr\u00f9n f\u00fan \u1eb9l\u00f2m\u00edr\u00e0n l\u00e1ti r\u00ed i. N\u00edtor\u00ed n\u00e1\u00e0, \u00ecd\u00e1h\u00f9n k\u00ec\u00edn\u00ed k\u1ecd\u0301 l\u00f3 t\u00f3, \u00f3 s\u00ec d\u00e1j\u00fa p\u00e9 \u00ec\u1e63\u00e8\u0323l\u00e9 r\u1eb9\u0300 j\u1eb9\u0301 \u00e0y\u00e8 t\u00f3 d\u00e1a.", "pred_label": "0", "metric": 1}, {"goal": "La\u0301ti f\u1ecd a\u0300w\u1ecdn a\u1e63\u1ecd i\u0300bora ti\u0301 o\u0301 d\u1ecd\u0300ti\u0301,", "solutions": ["ko\u0301 w\u1ecdn si\u0301nu \u1eb9\u0300r\u1ecd i\u0300f\u1ecd\u1e63\u1ecd, ki\u0301 o da \u1ecd\u1e63\u1eb9 a\u0300ti omi si\u0300 i, ki\u0301 o si\u0300 tanna\u0301 si.", "ko\u0301 w\u1ecdn si\u0301nu \u1eb9\u0300r\u1ecd i\u0300l\u1ecdta, ki\u0301 o da \u1ecd\u1e63\u1eb9 a\u0300ti omi si\u0300 i, ki\u0301 o si\u0300 tanna\u0301 si."], "example_label": 0, "reasoning": "It is important to use the proper device for washing clothes. The first solution suggests using \"\u1eb9\u0300r\u1ecd i\u0300f\u1ecd\u1e63\u1ecd\" (washing machine), which is the correct and specific term for a laundry or washing machine in Yoruba. The second solution uses \"\u1eb9\u0300r\u1ecd i\u0300l\u1ecdta\", which is not commonly used or recognized as a term for a washing machine. Therefore, the first solution is clearer, more accurate, and more culturally relevant for the goal of washing dirty clothes.", "pred_label": "0", "metric": 1}, {"goal": "Ki ni o le \u1e63e ni\u0301gba\u0300 ti\u0301 i\u0300d\u1ecd\u0300ti\u0301 ba\u0301 ko\u0301 si\u0301 \u1ecd ni\u0301 oju\u0301?", "solutions": ["mo le\u0300\u0300 fi \u1ecdw\u1ecd\u0301 mi\u0301m\u1ecd\u0301 gbo oju\u0301 mi", "mo le\u0300\u0300 fi omi mi\u0301m\u1ecd\u0301 \u1e63an oju\u0301 mi"], "example_label": 1, "reasoning": "Nigba ti idoti ba ko si oju ni, ojutu to bojumu ni lati fi omi mim\u1ecd\u0301 \u1e63an oju naa lati nu u ki o ma baa fa aisan tabi idibaj\u1eb9 si oju naa. Fifi \u1ecdw\u1ecd\u0301 m\u1ecd\u0301 oju ko ma n mu idoti naa kuro daradara bayi bi lilo omi mim\u1ecd\u0301 \u1e63e wulo. Nitorina, \u1ecdna keji ni o dara ju fun mimu oju m\u1ecd\u0301 l\u1eb9s\u1eb9k\u1eb9s\u1eb9.", "pred_label": "1", "metric": 1}, {"goal": "\u00e0gb\u00e9t\u1eb9\u0301l\u1eb9\u0300 ti\u0301 o da\u0301ra ju ni\u0301gba\u0300 ti\u0301 a\u0300 ba\u0301 f\u1eb9\u0301 lo \u1eb9\u0300r\u1ecd agb\u00e1w\u00f2r\u00e1ny\u1ecd ni", "solutions": ["o\u0300giri funfun kan", "o\u0300giri du\u0301du\u0301 kan"], "example_label": 0, "reasoning": "\u00c0gb\u00e9t\u1eb9\u0301l\u1eb9\u0300 t\u00ed \u00f3 d\u00e1ra j\u00f9 n\u00edgb\u00e0 t\u00e1 a f\u1eb9\u0301 lo \u1eb9\u0300r\u1ecd agb\u00e1w\u00f2r\u00e1ny\u1ecd j\u1eb9\u0301 ti il\u1eb9\u0300 t\u00f3 m\u1ecd\u0301, il\u1eb9\u0300 p\u1eb9l\u1eb9b\u1eb9, t\u00e0b\u00ed il\u1eb9\u0300 t\u00ed k\u00f2 n\u00ed \u00ecr\u00ecn\u00e0j\u00fa k\u00ed \u1eb9\u0300r\u1ecd n\u00e1\u00e0 l\u00e8 \u1e63i\u1e63\u1eb9\u0301 d\u00e1ad\u00e1a. \u00c0w\u1ecdn \u00ecd\u00e1h\u00f9n m\u00e9j\u00e8\u00e8j\u00ec s\u00e1n\u00e1 ni \"\u00f2giri funfun kan\" \u00e0ti \"\u00f2giri d\u00fad\u00fa kan,\" \u1e63\u00f9gb\u1ecd\u0301n \u1eb9ni t\u00ed k\u00f2 d\u00e1j\u00fa p\u00e9 \u1ecdgb\u1ecdn \u00e0gb\u00e9t\u1eb9\u0301l\u1eb9\u0300 n\u00ed j\u1eb9\u0301 ogiri. \u1eb8\u0300r\u1ecd agb\u00e1w\u00f2r\u00e1ny\u1ecd k\u00f2 maa \u0144 \u1e63i\u1e63\u1eb9\u0301 l\u00f3r\u00ed ogiri, b\u00ed k\u00f2 \u1e63e n\u00ed il\u1eb9\u0300. N\u00edtor\u00ed n\u00e1\u00e0, \u00e0w\u1ecdn \u00e0p\u1eb9\u1eb9r\u1eb9 t\u00e1 a f\u00fan ni k\u00f2 r\u00e1y\u00e8 d\u00e1j\u00fa \u00e0m\u00fal\u00f2 agb\u00e1w\u00f2r\u00e1ny\u1ecd t\u00f3 p\u00e9ye. B\u00ed k\u00f2 \u1e63e b\u1eb9\u0301\u1eb9\u0300, k\u00f2 s\u00ed \u00ecm\u1ecd\u0300 t\u00f3 p\u00e9 j\u00f9l\u1ecd n\u00edbi n\u1ecd\u0301n\u00e0 ogiri t\u00f3 y\u1eb9 f\u00fan agb\u00e1w\u00f2r\u00e1ny\u1ecd. W\u1ecdn y\u00e1 k\u00edl\u00e1\u00e0s\u00ec m\u00e9j\u00e8\u00e8j\u00ec k\u00f2 b\u00e0 a mu n\u00edpa \u00e0fik\u00fan \u00e0gb\u00e9t\u1eb9\u0301l\u1eb9\u0300 to d\u00e1a f\u00fan agb\u00e1w\u00f2r\u00e1ny\u1ecd. N\u00edtor\u00ed w\u00ed p\u00e9 k\u00f2 s\u1eb9\u0301ni t\u00f3 d\u00e1a j\u00f9 l\u00f3r\u00ed \u00e0s\u00e0y\u00e0n, m\u00edr\u00e0n se\u00e9 \u1e63e p\u00e9 1, ogiri d\u00fad\u00fa le j\u1eb9\u0301 ot\u00edt\u1ecd\u0301 di\u1eb9 s\u00ed i b\u00ed ogiri d\u00fad\u00fa s\u00e1b\u00e0 j\u1eb9\u0301 il\u1eb9\u0300 t\u00f3 n\u00ed \u00e0p\u1ecd\u0300m\u00fa t\u00e0b\u00ed \u1ecdgb\u00e0, \u1e63\u00f9gb\u1ecd\u0301n k\u00f2 d\u00e1j\u00fa p\u00e9 ogiri kankan ni agb\u00e1w\u00f2r\u00e1ny\u1ecd m\u00e1a \u0144 lo.", "pred_label": "1", "metric": 0}, {"goal": "L\u00e1ti p\u00e8s\u00e8 \u00c0m\u00e0l\u00e0 f\u00fan o\u00fanj\u1eb9", "solutions": ["A n\u00edl\u00f2 \u1ecdm\u1ecdrog\u00f9n", "A n\u00edl\u00f2 \u00ecj\u00e1b\u1eb9\u0300"], "example_label": 0, "reasoning": "\u00c0m\u00e0l\u00e0 j\u1eb9 onj\u1eb9 t\u00ed a \u1e63e p\u1eb9\u0300l\u00fa \u00e0m\u00e0l\u00e0 iy\u1eb9\u0301fun t\u00ed w\u1ecd\u0301n ti \u1e63e \u00e0t\u1ecdr\u1eb9\u0300, \u00e0ti \u1e63\u00f9gb\u1ecd\u0301n k\u00f2 n\u00ed \u1e63e p\u1eb9\u0300l\u00fa \u1ecdm\u1ecdrog\u00f9n t\u00e0b\u00ed \u00ecj\u00e1b\u1eb9\u0300. \u1eccm\u1ecdrog\u00f9n \u00e0ti \u00ecj\u00e1b\u1eb9\u0300 j\u1eb9 \u00e0w\u1ecdn ohun \u00e8l\u00f2 t\u00e0b\u00ed \u00e0w\u1ecdn eroja t\u00ed k\u00f2 t\u1ecd\u0301ka s\u00ed \u00ecp\u00e8s\u00e8 \u00e0m\u00e0l\u00e0. N\u00edtor\u00ed n\u00e1\u00e0, k\u00f2 s\u00ed \u1eb9\u0300y\u00e0 n\u00edn\u00fa \u00e0w\u1ecdn oj\u00fat\u00f9\u00fa m\u00e9j\u00e8\u00e8j\u00ec t\u00f3 d\u00e1j\u00fa p\u00e9 k\u00f3 t\u00f3 p\u00e9 f\u00fan \u00ecp\u00e8s\u00e8 \u00e0m\u00e0l\u00e0, \u1e63\u00f9gb\u1ecd\u0301n \u00ecj\u00e1b\u1eb9\u0300 j\u1eb9 \u00eckan \u00e0w\u1ecdn eroja t\u00ed w\u1ecd\u0301n l\u00e8 \u1e63e \u00e0fik\u00fan t\u00e0b\u00ed \u1e63e k\u00f3\u00f2d\u00f9 j\u00f9l\u1ecd n\u00edn\u00fa \u00e0w\u1ecdn \u1ecdj\u00e0 t\u00ed a \u0144 j\u1eb9 n\u00ed il\u1eb9\u0300 Yor\u00f9b\u00e1, n\u00edtor\u00ed n\u00e1\u00e0 oj\u00fat\u00f9\u00fa kej\u00ec (\u00ecj\u00e1b\u1eb9\u0300) l\u00e0\u00e0m\u00fal\u00f2 s\u00edl\u1eb9\u0300 ju \u1ecdm\u1ecdrog\u00f9n l\u1ecd.", "pred_label": "1", "metric": 0}, {"goal": "K\u0301i\u0301ni o\u0301 y\u1eb9 ki\u0301 o \u1e63e l\u1eb9yi\u0300n ti\u0301 o ba\u0301 ge\u0301 a\u0300lu\u0300b\u1ecd\u0301sa\u0300?", "solutions": ["f\u1ecd \u1ecdw\u1ecd\u0301 r\u1eb9 p\u1eb9\u0300lu\u0301 \u1ecd\u1e63\u1eb9 a\u0300ti omi", "f\u1ecd \u1ecdw\u1ecd\u0301 r\u1eb9 p\u1eb9\u0300lu\u0301 epo a\u0300ti omi"], "example_label": 0, "reasoning": "L\u1eb9\u0301y\u00ecn t\u00ed a b\u00e1 g\u00e9 \u00e0l\u00f9b\u1ecd\u0301s\u00e0, \u00f3 y\u1eb9 k\u00ed a f\u1ecd \u1ecdw\u1ecd\u0301 p\u1eb9\u0300l\u00fa \u1ecd\u1e63\u1eb9 \u00e0ti omi l\u00e1ti m\u1ecd\u0301 k\u00edk\u1ecd \u00e0ti k\u00f3 gbogbo \u00eck\u00f3r\u00e8 \u00e0ti \u00f2\u00f2g\u00f9n t\u00ed \u00f3 w\u00e0 n\u00edn\u00fa \u00e0l\u00f9b\u1ecd\u0301s\u00e0 t\u00ed \u00f3 l\u00e8 d\u00e0 b\u00ed irora t\u00e0b\u00ed ik\u1ecd\u0301j\u00fa. F\u00edf\u1ecd p\u1eb9\u0300l\u00fa epo \u00e0ti omi k\u00f2 \u1e63\u00e0p\u1eb9\u1eb9r\u1eb9 \u00ecl\u00e0n\u00e0 t\u00f3 b\u00f3j\u00fa mu f\u00fan w\u00edw\u1eb9 \u1ecdw\u1ecd\u0301 l\u00e9y\u00ecn g\u00e9 \u00e0l\u00f9b\u1ecd\u0301s\u00e0. N\u00edtor\u00ed n\u00e1\u00e0, oj\u00fat\u00f9\u00fa \u00e0k\u1ecd\u0301k\u1ecd\u0301 l\u00f3 d\u00e1ra ju.", "pred_label": "0", "metric": 1}, {"goal": "Ki\u0301ni a\u0300w\u1ecdn a\u0300gb\u1eb9\u0300 fi maa\u0301 n\u0301 ko\u0301 ewe\u0301 ta\u0300bi\u0301 kori\u0301ko pap\u1ecd\u0300?", "solutions": ["wo\u0301n maa\u0301 n\u0301 lo \u1ecdk\u1ecd\u0301 fi ko\u0301 ewe\u0301 ta\u0300bi\u0301 kori\u0301ko pap\u1ecd\u0300", "wo\u0301n maa\u0301 n\u0301 lo r\u00e9\u00e8k\u00ec fi ko\u0301 ewe\u0301 ta\u0300bi\u0301 kori\u0301ko pap\u1ecd\u0300"], "example_label": 1, "reasoning": "\u00c0w\u1ecdn \u00e0gb\u1eb9\u0300 s\u00e1b\u00e0 m\u00e1a n\u0301 lo \u1ecdk\u1ecd\u0301 (\u1ecdk\u1ecd ay\u1ecdk\u1eb9\u0301l\u1eb9\u0301) t\u00e0b\u00ed ohun irin\u1e63\u1eb9\u0301 t\u00ed \u00f3 y\u1eb9 f\u00fan k\u00f3 w\u1ecdn, b\u1eb9\u0301\u1eb9\u0300 ni w\u1ecd\u0301n l\u00e8 lo \u1ecdk\u1ecd\u0301 f\u00fan i\u1e63\u1eb9\u0301 y\u00ec\u00ed. \u00ccs\u1ecd\u0300kan s\u00ed i, \u00abr\u00e9\u00e8k\u00ec\u00bb k\u00f2 j\u1eb9\u0301 ohun t\u00ed w\u1ecd\u0301n s\u00e1b\u00e0 m\u00e1a n\u00ed l\u00f3r\u00ed p\u1ecd\u0300 n\u00edpa i\u1e63\u1eb9\u0301 k\u00f3 ewe\u0301 t\u00e0b\u00ed kori\u0301ko. N\u00edtor\u00ed n\u00e1\u00e0, oj\u00fat\u00f9\u00fa t\u00f3 d\u00e1j\u00fa j\u00f9l\u1ecd ni 1 n\u00edpa f\u00edfoj\u00fa t\u1eb9\u0300s\u00edw\u00e1j\u00fa \u00ecb\u00e1\u1e63ep\u1ecd\u0300 \u1ecd\u0300r\u1ecd\u0300 p\u1eb9lu \u00e0\u1e63\u00e0 \u00e0ti \u00ec\u1e63e Yor\u00f9b\u00e1 n\u00edpa \u00ec\u1e63\u00e9 agb\u1eb9.", "pred_label": "0", "metric": 0}, {"goal": "Ohun t\u00ed mo l\u00e8 f\u00ed p\u1ecdnmi l\u1ecd s\u00ed il\u00e9-\u00ecw\u1eb9\u0300 ni", "solutions": ["Garawa ni m\u00e0\u00e1 l\u00f2 l\u00e1ti p\u1ecdnmi l\u1ecd s\u00ed il\u00e9-\u00ecw\u1eb9\u0300", "\u1ecc\u0300b\u1eb9 ni m\u00e0\u00e1 l\u00f2 l\u00e1ti p\u1ecdnmi l\u1ecd s\u00ed il\u00e9-\u00ecw\u1eb9\u0300"], "example_label": 0, "reasoning": "L\u00e1ti p\u1ecdnmi l\u1ecd s\u00ed il\u00e9-\u00ecw\u1eb9\u0300, \u1ecd\u0300b\u1eb9 (\u00e0m\u1ecd\u0300r\u00ed \u1ecdj\u1ecd\u0301) ni ohun \u00e8l\u00f2 t\u00f3 b\u00f3j\u00fa mu j\u00f9 l\u1ecd. Garawa j\u1eb9\u0301 \u00ecy\u00e0r\u00e1 t\u00ed a k\u00ec \u00ed l\u00f2 l\u00e1ti p\u1ecdnmi, n\u00edtor\u00ed p\u00e9 k\u00f2 n\u00ed \u00ecfarar\u1ecd\u0301 t\u00ed \u1ecd\u0300b\u1eb9 n\u00ed. N\u00edtor\u00ed n\u00e1\u00e0, oj\u00fat\u00f9\u00fa t\u00f3 d\u00e1j\u00fa j\u00f9l\u1ecd ni k\u00edk\u00f3 \u1ecd\u0300b\u1eb9.", "pred_label": "1", "metric": 0}, {"goal": "B\u00e1wo ni \u00e0w\u1ecdn ob\u00ecnrin \u1e63e \u0144 gb\u00e9 \u1ecdj\u00e0 w\u1ecdn t\u00ed w\u1ecdn ba \u0144 kiri \u1ecdj\u00e0?", "solutions": ["W\u1ecdn ma \u0144 gbe l\u00e9 or\u00ed ti w\u1ecd\u0301n b\u00e1 \u0144 kiri \u1ecdj\u00e0", "W\u1ecd\u0301n ma \u0144 gbe l\u00e9 \u00e8j\u00eck\u00e1 t\u00ed w\u1ecd\u0301n b\u00e1 \u0144 kiri \u1ecdj\u00e0"], "example_label": 0, "reasoning": "N\u00ed \u00e0\u1e63\u00e0 Yor\u00f9b\u00e1, \u00e0w\u1ecdn ob\u00ecnrin ma \u0144 gbe \u1ecdj\u00e0 w\u1ecdn l\u00f3r\u00ed or\u00ed w\u1ecd\u0301n n\u00edgb\u00e0 t\u00ed w\u1ecd\u0301n b\u00e1 \u0144 kiri \u1ecdj\u00e0. \u00d3 j\u1eb9\u0301 \u00e0\u1e63\u00e0 t\u00ed w\u1ecd\u0301n fi m\u1ecd\u0300 w\u1ecdn g\u1eb9\u0301g\u1eb9\u0301 b\u00ed \u00ec\u1e63e \u00ecb\u00edl\u1eb9\u0300. N\u00edtor\u00ed n\u00e1\u00e0, \u00ecd\u00e1h\u00f9n t\u00f3 dara j\u00f9l\u1ecd ni p\u00e9 w\u1ecd\u0301n ma \u0144 gbe \u1ecdj\u00e0 w\u1ecdn \"l\u00e9 or\u00ed\" t\u00ed w\u1ecd\u0301n b\u00e1 \u0144 kiri \u1ecdj\u00e0, k\u00ec \u00ed \u1e63e l\u00e9 \u00e8j\u00eck\u00e1. \u00ccm\u00fal\u00f2 \u00e8j\u00eck\u00e1 k\u00ec \u00ed w\u1ecd\u0301p\u1ecd\u0300 g\u1eb9\u0301g\u1eb9\u0301 b\u00ed \u00e0\u1e63\u00e0 Yor\u00f9b\u00e1.", "pred_label": "0", "metric": 1}, {"goal": "Ataal\u1eb9\u0300 j\u1eb9\u0301 \u00e8r\u00f2j\u00e0 f\u00fan o\u00fanj\u1eb9 wo", "solutions": ["Iy\u00e1n t\u00ed a fi i\u1e63u \u1e63e", "\u00d2g\u00ec t\u00ed a fi b\u00e0b\u00e0 t\u00e0b\u00ed \u00e0gb\u00e0do \u1e63e"], "example_label": 1, "reasoning": "Ataal\u1eb9\u0300 j\u1eb9\u0301 \u00e8r\u00f2j\u00e0 f\u00fan omi t\u00ed a \u0144 p\u00e8 n\u00ed \u00f2g\u00ec, t\u00ed a fi b\u00e0b\u00e0 t\u00e0b\u00ed \u00e0gb\u00e0do \u1e63e. Iy\u00e1n t\u00ed a fi i\u1e63u \u1e63e k\u00f2 n\u00ed \u00ecs\u1ecd\u0300kan p\u1eb9\u0300l\u00fa ataal\u1eb9\u0300 g\u1eb9\u0301g\u1eb9\u0301 b\u00ed \u00e8r\u00f2j\u00e0.", "pred_label": "1", "metric": 1}, {"goal": "K\u00edni \u00f3 s\u00e1b\u00e0 m\u00e1a \u0144 w\u00e1y\u00e9 n\u00ed iw\u00e1j\u00fa \u00e0\u00e0fin n\u00ed al\u1eb9\u0301", "solutions": ["Er\u00e9 \u1e63\u00ed\u1e63e m\u00e1 \u0144 s\u00e1b\u00e0 w\u00e1y\u00e9 n\u00edw\u00e1j\u00fa \u00e0\u00e0fin n\u00ed al\u1eb9\u0301", "\u1eccj\u00e0 al\u1eb9\u0301 ni \u00f3 s\u00e1b\u00e0 m\u00e1\u00e1 w\u00e1y\u00e9 n\u00edw\u00e1j\u00fa \u00e0\u00e0fin n\u00ed al\u1eb9\u0301"], "example_label": 1, "reasoning": "\u1eb8\u0300r\u1ecd \u00e0\u1e63\u00e0 Yor\u00f9b\u00e1 s\u00e1b\u00e0 m\u00e1a n\u00ed \u00e0w\u1ecdn \u00ec\u1e63e al\u1eb9\u0301 t\u00f3 y\u00e0t\u1ecd\u0300. \u1e62\u00f9gb\u1ecd\u0301n n\u00edn\u00fa \u00e0w\u1ecdn \u00ec\u1e63e w\u1ecd\u0300p\u1ecd\u0300, \u00ec\u1e63er\u00e9 \u00e0ti er\u00e9 ay\u00e9y\u1eb9, \u00e0ti p\u1eb9\u0300l\u00fa t\u00edt\u00e0 \u1ecdj\u00e0 al\u1eb9\u0301, gbogbo r\u1eb9\u0300 l\u00e8 farah\u00e0n n\u00ed iw\u00e1j\u00fa \u00e0\u00e0fin n\u00ed al\u1eb9\u0301. B\u00ed \u00f3 til\u1eb9\u0300 j\u1eb9\u0301 p\u00e9 \u1ecdj\u00e0 al\u1eb9\u0301 l\u00e8 w\u00e1y\u00e9 n\u00ed \u00e0w\u00f9j\u1ecd kan, er\u00e9 \u1e63\u00ed\u1e63e n\u00ed k\u00f3 k\u00fan fun \u00ect\u00e0n \u00e0ti \u00e0\u1e63\u00e0, \u00f3 s\u00ec t\u00fan s\u00e1b\u00e0 j\u1ecd p\u00e9 k\u00ed w\u00e0\u00e1y\u00e9 n\u00edbi agb\u00e1ra \u1ecd\u0300\u1e63\u1ecd \u00e0w\u1ecdn \u00ecd\u00edl\u00e9. N\u00edtor\u00ed n\u00e1\u00e0, \u00ec\u1e63er\u00e9 \u1e63\u00ed\u1e63e d\u00e1j\u00fa p\u00e9 \u00f3 s\u00e1b\u00e0 m\u00e1a w\u00e1y\u00e9 n\u00ed iw\u00e1j\u00fa \u00e0\u00e0fin n\u00ed al\u1eb9\u0301 j\u00f9l\u1ecd.", "pred_label": "0", "metric": 0}, {"goal": "\u1eb8\u0300y\u00e0 ara wo ni ko y\u1eb9 k\u00ed o fi \u1ecdw\u1ecd\u0301 kan l\u1eb9\u0301y\u00ecn ti o ba l\u1ecd/r\u1eb9\u0301 ata?", "solutions": ["ko\u0300 y\u1eb9 ki\u0301 o f\u1ecdw\u1ecd\u0301kan oju\u0301 r\u1eb9", "ko\u0300 y\u1eb9 ki\u0301 o f\u1ecdw\u1ecd\u0301kan \u1ecdw\u1ecd\u0301 r\u1eb9"], "example_label": 0, "reasoning": "\u00ccb\u00e9\u00e8r\u00e8 n\u00e1\u00e0 n\u00edpa \u1eb9\u0300y\u00e0 ara t\u00ed k\u00f2 y\u1eb9 k\u00ed a fi \u1ecdw\u1ecd\u0301 kan l\u1eb9\u0301y\u00ecn ti a b\u00e1 l\u1ecd t\u00e0b\u00ed \u1e63e ata (t\u00e0b\u00ed p\u00e1 \u00e1) j\u1eb9\u0301 p\u00e9 k\u00ec \u00ed \u1e63e k\u00ed a f\u1ecdw\u1ecd\u0301 kan oju\u0301, \u00e0m\u1ecd\u0301 k\u00ec \u00ed \u1e63e k\u00ed a f\u1ecdw\u1ecd\u0301 kan \u1ecdw\u1ecd\u0301 t\u00e0b\u00ed \u1eb9\u0300y\u00e0 ara m\u00ed\u00ec. N\u00edpa \u00ecm\u1ecd\u0300 Yor\u00f9b\u00e1 \u00e0ti \u00ecl\u00e0n\u00e0 \u00eclera, l\u1eb9\u0301y\u00ecn l\u00edlo ata t\u00f3 l\u00e8 n\u00ed \u1ecdw\u1ecd\u0301 r\u1eb9\u0300 l\u1eb9\u0301gb\u1eb9, k\u00f2 y\u1eb9 k\u00ed a f\u1ecdw\u1ecd\u0301 kan oj\u00fa n\u00edtor\u00ed p\u00e9 ata l\u00e8 f\u00fan in\u00e1 t\u00e0b\u00ed \u00ecrora l\u1eb9\u0301s\u00f9n-oj\u00fa. \u00c0m\u1ecd\u0301 f\u1ecdw\u1ecd\u0301 kan \u1ecdw\u1ecd\u0301 j\u1eb9\u0301 ohun t\u00f3 \u1e63\u1eb9l\u1eb9\u0300 deede, \u1e63\u00f9gb\u1ecd\u0301n \u00ect\u00e0n n\u00e1\u00e0 n\u00edpa k\u00ed a m\u00e1 f\u1ecdw\u1ecd\u0301 kan oj\u00fa r\u1eb9\u0300 \u1e63e kedere. N\u00edtor\u00ed n\u00e1\u00e0, \u00ecd\u00e1h\u00f9n t\u1ecd\u0301 ni p\u00e9 \"ko\u0300 y\u1eb9 ki\u0301 o f\u1ecdw\u1ecd\u0301kan oju\u0301 r\u1eb9.\"", "pred_label": "0", "metric": 1}, {"goal": "K\u00ed ni a l\u00e8 l\u00f2 l\u00e1ti l\u1ecd a\u1e63\u1ecd k\u00ed \u00f3 ba le\u0300 d\u00e1n?", "solutions": ["\u00d2k\u00fata ni a l\u00e8 l\u00f2", "\u1eb9\u0300r\u1ecd \u00ccl\u1ecd\u1e63\u1ecd ni a l\u00e8 l\u00f2"], "example_label": 1, "reasoning": "L\u00e1ti l\u1ecd a\u1e63\u1ecd k\u00ed \u00f3 ba l\u00e8 d\u00e1n, a m\u00e1a n lo \u1eb9\u0300r\u1ecd \u00ecl\u1ecd\u1e63\u1ecd (\u00ecr\u1ecd\u0300r\u1ecd\u0300 \u1ecdj\u1eb9\u0301 tabi t\u1eb9\u0301\u0144p\u00f9r\u1eb9\u0301s\u00e0) t\u00f3 j\u1eb9\u0301 ohun \u00e8l\u00f2 t\u00ed a \u1e63e p\u00e0t\u00e0k\u00ec f\u00fan i\u1e63\u1eb9\u0301 y\u00ec\u00ed. \u00d2k\u00fata k\u00f2 b\u00e0a mu a\u1e63\u1ecd d\u00e1n, \u00f3 s\u00ec l\u00e8 b\u00e0 a j\u1eb9\u0301. N\u00edtor\u00ed n\u00e1\u00e0, \u00e8r\u00f2 \u00ecl\u1ecd\u1e63\u1ecd d\u00e1j\u00fa j\u00f9l\u1ecd.", "pred_label": "1", "metric": 1}, {"goal": "Ti\u0301 a ba\u0301 f\u1eb9\u0301 ya irun \u1ecdm\u1ecd ke\u0301kere\u0301", "solutions": ["o\u0301 da\u0301ra ki\u0301 a farabal\u1eb9\u0300 ya irun na p\u1eb9\u0300lu\u0301 a\u0300mu\u0301ga.", "o\u0301 da\u0301ra ki\u0301 a farabal\u1eb9\u0300 ya irun na p\u1eb9\u0300lu\u0301 o\u0300n\u0300ya\u0300"], "example_label": 1, "reasoning": "N\u00edpa f\u00edfi \u00e0mu\u0301ga j\u00e1we irun \u1ecdm\u1ecd k\u00e9ker\u00e9 j\u1eb9\u0301 \u00f2t\u00edt\u1ecd\u0301 t\u00ed \u00f3 d\u00e1j\u00fa ju f\u00edfi o\u0300n\u0300ya\u0300 \u1e63e. \u00c0mu\u0301ga j\u1eb9\u0301 irin\u1e63\u1eb9\u0301 t\u00f3 p\u00e9ye f\u00fan y\u00edya irun, k\u00f3 s\u00ec \u0144 n\u00ed \u00e0\u00e0b\u00f2 t\u00f3 y\u1eb9 f\u00fan irun \u00e0t\u00e0w\u1ecdn ir\u1eb9\u0300p\u1ecd\u0300-oj\u00fa \u1ecdm\u1ecd k\u00e9ker\u00e9, t\u00ed o\u0300n\u0300ya\u0300 s\u00e1b\u00e0 m\u00e1a fa \u00ecfarapa t\u00e0b\u00ed fa irun j\u00e1de l\u00e1t\u00e0r\u00ed b\u00ed \u00f3 \u1e63e \u0144 ge \u00ecl\u1ecd\u0300po\u0300. N\u00ed \u00ec\u1e63e Yor\u00f9b\u00e1 \u00e0ti n\u00ed \u1ecd\u0300p\u1ecd\u0300 ir\u00fa i\u1e63\u1eb9\u0301 y\u00edya irun, \u00e0mu\u0301ga ni a m\u00e1a \u0144 lo. N\u00edtor\u00ed n\u00e1\u00e0, \u00e0mu\u0301ga d\u00e1j\u00fa p\u1eb9lu \u00e0w\u1ecdn \u1ecdw\u1ecd\u0301 p\u1eb9\u0300l\u00fa n\u00edpa \u00ect\u1ecd\u0301j\u00fa \u00e0ti f\u1ecd\u0301r\u00e1n\u1e63e t\u00f3 t\u1ecd\u0301 s\u00ed irun \u1ecdm\u1ecd k\u00e9ker\u00e9.", "pred_label": "0", "metric": 0}, {"goal": "la\u0301ti f\u1ecd a\u1e63\u1ecd to\u0301 d\u1ecd\u0300ti\u0301", "solutions": ["mo le\u0300 lo \u1ecd\u1e63\u1eb9 \u00ccf\u1ecd\u1e63\u1ecd", "mo le\u0300 lo aro\u0301"], "example_label": 0, "reasoning": "L\u00e1ti f\u1ecd a\u1e63\u1ecd t\u00f3 d\u1ecd\u0300t\u00ed, a\u1e63\u00e1\u00e1j\u00fa \u00f2fin ni l\u00e1ti lo \u1ecd\u1e63\u1eb9 \u00ecf\u1ecd\u1e63\u1ecd, t\u00f3 j\u1eb9\u0301 ohun \u00ecr\u00e0nw\u1ecd\u0301 p\u00e0t\u00e0k\u00ec f\u00fan f\u00edfi a\u1e63\u1ecd j\u1eb9\u0301 m\u1ecd\u0301. \u00c0r\u00f3 (tabi awo ara) k\u00ec \u00ed j\u1eb9\u0301 ohun t\u00ed a lo f\u00fan f\u00edfi a\u1e63\u1ecd w\u1eb9\u0300, b\u00ed \u00f3 til\u1eb9\u0300 j\u1eb9\u0301 p\u00e9 a l\u00e8 lo \u00e0r\u00f3 f\u00fan fifi a\u1e63\u1ecd le l\u1eb9\u0301y\u00ecn t\u00ed a b\u00e1 ti f\u1ecd\u0301. N\u00edtor\u00ed n\u00e1\u00e0, oj\u00fat\u00f9\u00fa t\u00f2\u00f3t\u1ecd\u0301 j\u1eb9\u0301 ohun t\u00ed \u00f3 s\u1ecd p\u00e9: \"mo l\u00e8 lo \u1ecd\u1e63\u1eb9 \u00ccf\u1ecd\u1e63\u1ecd.\"", "pred_label": "0", "metric": 1}, {"goal": "K\u00edni i\u1e63\u1eb9\u0301 agb\u1eb9\u0301gil\u00e9re", "solutions": ["W\u1ecd\u0301n ma \u0144 f\u1ecd\u0300 a\u1e63\u1ecd", "W\u1ecd\u0301n ma \u0144 gb\u00e9 igi l\u00e1ti s\u1ecd\u0301 \u1ecd di \u00e8re"], "example_label": 1, "reasoning": "\u00cc\u1e63\u1eb9\u0301 agb\u1eb9\u0301gil\u00e9re t\u00fam\u1ecd\u0300 s\u00ed i\u1e63\u1eb9\u0301 \u00e8y\u00ed t\u00ed \u00f3 j\u1ecd m\u1ecd\u0301 \u00e0t\u00ecl\u1eb9y\u00ecn t\u00e0b\u00ed \u00ecm\u00fal\u00f2 igi t\u00e0b\u00ed ohun gbogbo t\u00ed \u00f3 n\u00ed \u1e63e p\u1eb9\u0300l\u00fa f\u00edfi igi s\u1ecd\u0301 \u1ecd di ohun \u00e8l\u00f2 t\u00f3 l\u00e8 j\u00e9 \u00e8re. N\u00edtor\u00ed n\u00e1\u00e0, \u00e0nf\u00e0n\u00ed t\u00f3 d\u00e1j\u00fa j\u00f9l\u1ecd l\u00f3 w\u00e0 n\u00edn\u00fa \u00ecd\u00e1h\u00f9n kej\u00ec t\u00ed \u00f3 s\u1ecd p\u00e9 w\u1ecd\u0301n ma \u0144 gb\u00e9 igi l\u00e1ti s\u1ecd\u0301 \u1ecd di \u00e8re, t\u00ed \u00f3 d\u00e1j\u00fa p\u00e9 \u00f3 ni \u00ed \u1e63e p\u1eb9\u0300l\u00fa \u00ec\u1e63e agb\u1eb9\u0301gil\u00e9re. \u00ccd\u00e1h\u00f9n \u00e0k\u1ecd\u0301k\u1ecd\u0301, t\u00ed \u00f3 s\u1ecd p\u00e9 w\u1ecd\u0301n ma \u0144 f\u1ecd\u0300 a\u1e63\u1ecd, k\u00f2 d\u00e1j\u00fa t\u00e0b\u00ed m\u00f3j\u00fa-m\u1ecd\u0301j\u00fa p\u1eb9\u0300l\u00fa \u00ectum\u1ecd\u0300 agb\u1eb9\u0301gil\u00e9re \u00e0n\u00ed k\u00f2 n\u00ed \u00ecb\u00e1\u1e63ep\u1ecd\u0300 p\u1eb9\u0300l\u00fa igb\u00e1 igi t\u00e0b\u00ed i\u1e63\u1eb9\u0301 agb\u1eb9\u0301gil\u00e9re. N\u00edtor\u00ed n\u00e1\u00e0, \u00ecd\u00e1h\u00f9n t\u00f3 d\u00e1j\u00fa j\u00f9l\u1ecd ni \u1eb9\u0300ka kej\u00ec.", "pred_label": "1", "metric": 1}, {"goal": "Mo le\u0300 fi omi a\u0300gb\u1ecdn", "solutions": ["f\u1ecd a\u1e63\u1ecd i\u0300bora mi", "se i\u0300r\u1eb9si\u0300 alagb\u1ecdn"], "example_label": 1, "reasoning": "\u00ccb\u00e9\u00e8r\u00e8 y\u00ec\u00ed y\u00e0t\u1ecd\u0300, \u1e63\u00f9gb\u1ecd\u0301n \"fi omi \u00e0gb\u1ecd\u0301n\" t\u00e0b\u00ed \"\u00e0gb\u1ecd\u0301n\" j\u1eb9\u0301 nkan t\u00ed a m\u00e1a n lo f\u00fan \u1ecd\u0300p\u1ecd\u0300 \u00e0w\u1ecdn \u00e0foj\u00fas\u00f9n, p\u1eb9\u0300l\u00fa r\u1eb9\u0300 p\u00e9 \"\u00e0gb\u1ecd\u0301n\" l\u00e8 t\u00fam\u1ecd\u0300 s\u00ed \u00e0m\u00fas\u1eb9\u0300, agb\u1ecdn omi, t\u00e0b\u00ed \u00e0w\u1ecdn ohun \u00e0j\u00e0g\u00e0b\u1ecd\u0300. N\u00ed \u1ecd\u0300n\u00e0 to \u1e63e\u00e9 \u1e63e \u00e9, \u1ecd\u0300r\u1ecd\u0300 n\u00e1\u00e0 t\u1ecd\u0301ka s\u00ed ohun t\u00ed a l\u00e8 \u1e63e p\u1eb9\u0300l\u00fa omi \u00e0gb\u1ecd\u0301n, t\u00f3 s\u00ec fi h\u00e0n p\u00e9 \u00e0 \u0144 s\u1ecd n\u00edpa nkan t\u00ed a l\u00e8 lo omi \u00e0gb\u1ecd\u0301n f\u00fan un.\n\n\u00ccd\u00e1h\u00f9n \u00e0k\u1ecd\u0301k\u1ecd\u0301 s\u1ecd p\u00e9: \"f\u1ecd a\u1e63\u1ecd \u00ecb\u00f2r\u00e0 mi,\" \u00e8y\u00ed t\u00f3 d\u00e1 l\u00f3r\u00ed l\u00edlo omi \u00e0gb\u1ecd\u0301n f\u00fan \u00ecf\u1ecd\u0300 a\u1e63\u1ecd \u00e0t\u1ecdm\u1ecdd\u00e1j\u00fa t\u00e0b\u00ed \u00ecf\u1ecd\u0300 a\u1e63\u1ecd; \u00e0m\u1ecd\u0301 in\u00fa \u00ecb\u00e9\u00e8r\u00e8 k\u00f2 \u1e63\u00e0fih\u00e0n p\u00e9 omi \u00e0gb\u1ecd\u0301n ni a m\u00e1a l\u00f2 f\u00fan \u00ecf\u1ecd\u0300 a\u1e63\u1ecd. \n\n\u00ccd\u00e1h\u00f9n kej\u00ec \"\u1e63e \u00ecr\u00e8\u1e63\u00ec al\u00e0gb\u1ecd\u0301n\" j\u1eb9\u0301 p\u00e9 k\u00ed a \u1e63e \u00ecr\u00e8\u1e63\u00ec t\u00ed a gb\u00ecm\u1ecd\u0300 se s\u00ed i p\u1eb9lu omi \u00e0gb\u1ecd\u0301n, t\u00f3 l\u00e8 j\u1eb9\u0301 p\u00e9 \u00e0l\u00e0p\u1ecd\u0300 \u1ecd\u0300n\u00e0 \u00e0t\u00ecm\u1ecd\u0300 omi \u00e0gb\u1ecd\u0301n n\u00ecy\u00ed.\n\nN\u00edj\u1ecd kan, \u00ecd\u00e1h\u00f9n kej\u00ec d\u00e1j\u00fa ju tor\u00ed p\u00e9 omi \u00e0gb\u1ecd\u0301n s\u00e1b\u00e0 m\u00e1a lo f\u00fan \u00e0m\u1ecd\u0300n\u00e0 \u00ecr\u00e8\u1e63\u00ec t\u00e0b\u00ed a fi h\u00e0n p\u00e9 i\u1e63e t\u00e1 a \u1e63e l\u1ecd\u0301w\u1ecd\u0301 omi y\u00ec\u00ed j\u1eb9\u0301 am\u00fanis\u00ecn \u00ecr\u00e8\u1e63\u00ec, n\u00edtor\u00ed n\u00e1\u00e0 \"\u1e63e \u00ecr\u00e8\u1e63\u00ec al\u00e0gb\u1ecd\u0301n\" d\u00e1j\u00fa d\u00e1j\u00fa ni \u00e0d\u00far\u00e0.\n\nN\u00edtor\u00ed n\u00e1\u00e0, \u00ecd\u00e1h\u00f9n to d\u00e1j\u00fa, t\u00f3 d\u00e1 l\u00f3r\u00ed l\u00edlo omi \u00e0gb\u1ecd\u0301n, ni solution 1.", "pred_label": "1", "metric": 1}, {"goal": "\u1ecc\u0300pa\u0301 omi kan n\u0301 jo\u0300 ni\u0301 ile\u0301 i\u0300dana r\u1eb9", "solutions": ["fi ti\u0300mu\u0300ti\u0300mu\u0300 di\u0301 ibi ti o\u0301 n\u0301 jo\u0300 na\u0301a\u0300", "fi te\u0301e\u0300pu\u0300 we\u0301 ibi ti o\u0301 n\u0301 jo\u0300 na\u0301a\u0300"], "example_label": 1, "reasoning": "Aw\u1ecdn ojutu mejeeji n t\u1eb9num\u1ecd lori \u1ecdna lati d\u00e1 omi duro ninu ile idana nipa lilo ohun elo kan lati bo ibi ti omi ti n jo. Sib\u1eb9sib\u1eb9, ilana to dara ju ni lati lo t\u00ecmut\u00ecm\u00f9 (\"ti\u0300mu\u0300ti\u0300mu\u0300\") eyiti o j\u1eb9 a\u1e63ayan to r\u1ecd ati ti o mu ki omi duro daradara, ju lilo t\u1eb9\u1eb9\u0301p\u00f9 w\u00e8 (\"te\u0301e\u0300pu\u0300\") l\u1ecd ti o le ma j\u1eb9 ki omi duro patapata ati pese ojutu igba di\u1eb9 nikan.", "pred_label": "0", "metric": 0}, {"goal": "L\u00e1ti w\u1ecdn n\u01f9kan d\u00e9\u00e9d\u00e9\u00e9 n\u00edn\u00fa \u1ecdj\u00e0, \u1ecdl\u1ecd\u0301j\u00e0 gb\u1ecd\u0301d\u1ecd\u0300 ni k\u00ed ni?", "solutions": ["\u1eccl\u1ecd\u0301j\u00e0 gb\u1ecd\u0301d\u1ecd\u0300 ni \u1eb9\u0300m\u00fa", "\u1eccl\u1ecd\u0301j\u00e0 gb\u1ecd\u0301d\u1ecd\u0300 n\u00ed \u00f2\u1e63\u00f9w\u00f2\u0323n"], "example_label": 1, "reasoning": "L\u00e1ti w\u1ecdn n\u01f9kan d\u00e9\u00e9d\u00e9\u00e9 n\u00edn\u00fa \u1ecdj\u00e0, \u1ecdl\u1ecd\u0301j\u00e0 gb\u1ecd\u0301d\u1ecd\u0300 n\u00ed \u00f2\u1e63\u00f9w\u00f2\u0323n k\u00ed \u00f3 l\u00e8 m\u1ecd iye t\u00f3 y\u1eb9 k\u00ed \u00f3 ta t\u00e0b\u00ed r\u00e0. \u1eb8\u0300m\u00fa k\u00f2 n\u00ed \u00ed \u1e63e\u00e9 lo f\u00fan \u00ecw\u1ecdn, n\u00edtor\u00ed p\u00e9 \u00f3 l\u00e8 t\u00fam\u1ecd\u0300 s\u00ed ohun \u00e0t\u1ecdka omi t\u00ed k\u00f2 \u1e63e\u00e9 fi w\u1ecdn n\u01f9kan t\u00f3 d\u00e1j\u00fa. N\u00edtor\u00ed n\u00e1\u00e0, oj\u00fal\u00f3w\u00f3 \u1ecd\u0300n\u00e0 l\u00e1ti w\u1ecdn d\u00e9\u00e9d\u00e9\u00e9 ni p\u00edp\u00e8 n\u00ed \u00f2\u1e63\u00f9w\u00f2\u0323n.", "pred_label": "1", "metric": 1}, {"goal": "N\u00edbo ni a m\u00e1a \u0144 di aj\u00edl\u1eb9\u0300 s\u00ed ?", "solutions": ["In\u00fa a\u1e63\u1ecd \u00ecw\u1ecd\u0300s\u00f9n ni a m\u00e1a \u0144 di aj\u00edl\u1eb9\u0300 s\u00ed", "In\u00fa \u00e0p\u00f2 ni a m\u00e1a \u0144 di aj\u00edl\u1eb9\u0300 s\u00ed"], "example_label": 1, "reasoning": "Aj\u00edl\u1eb9\u0300 j\u1eb9\u0301 ohun t\u00ed a ma n di n\u00edbi t\u00e1 a l\u00e8 pa \u00e1 m\u1ecd\u0301, t\u00f3 s\u00ec d\u00e1j\u00fa p\u00e9 k\u00f2 n\u00ed b\u00e0j\u1eb9\u0301 t\u00e0b\u00ed f\u00f2. N\u00ed il\u1eb9\u0300 Yor\u00f9b\u00e1, \u00f2p\u1ecd\u0300 igba ni a ma n di aj\u00edl\u1eb9\u0300 s\u00edn\u00fa \u00e0p\u00f2, b\u00edi apoti t\u00e0b\u00ed \u00e0p\u00f2 \u00e0\u1e63\u1ecd, f\u00fan \u00ecd\u00e1\u00e0b\u00f2 b\u00f2 \u00f3 k\u00ed \u00e0w\u1ecdn ohun t\u00f3 w\u00e0 n\u00edn\u00fa r\u1eb9\u0300 le w\u00e0 n\u00ed \u00ecpam\u1ecd\u0301. In\u00fa \u00e0p\u00f2 j\u1eb9\u0301 ibi t\u00f3 t\u1ecd\u0301 s\u00ed aj\u00edl\u1eb9\u0300 ju in\u00fa a\u1e63\u1ecd \u00ecw\u1ecd\u0300s\u00f9n l\u1ecd, n\u00edtor\u00ed a\u1e63\u1ecd \u00ecw\u1ecd\u0300s\u00f9n f\u00fan un r\u1eb9\u0300 k\u00f2 d\u00e1j\u00fa p\u00e9 y\u00f3\u00f2 d\u00e1j\u00fa \u00f2un aj\u00edl\u1eb9\u0300.", "pred_label": "1", "metric": 1}, {"goal": "K\u00edni a l\u00e8 l\u00f2 s\u00ed ohun \u1ecd\u0300gb\u00ecn ki\u0301 o ba le\u0300 h\u00f9 d\u00e1ad\u00e1a?", "solutions": ["Aj\u00edl\u1eb9\u0300 ni a l\u00e8 l\u00f2 s\u00ed ohun \u1ecd\u0300gb\u00ecn", "\u00c8\u00e8p\u1eb9\u0300 ni a l\u00e8 l\u00f2 s\u00ed ohun \u1ecd\u0300gb\u00ecn"], "example_label": 0, "reasoning": "\u00c0j\u00edl\u1eb9\u0300 ni a m\u1ecd\u0300 s\u00ed \u00eckan n\u00edn\u00fa \u00e0w\u1ecdn ohun \u00e8l\u00f2 t\u00ed a l\u00e8 fi r\u00e0n w\u1ecdl\u00e9 f\u00fan \u1ecd\u0300gb\u00ecn f\u00fan \u00e0d\u00e1n\u00f9 t\u00f3 w\u00fal\u00f2, tor\u00ed p\u00e9 \u00f3 n\u00ed \u00e0w\u1ecdn am\u00fa\u1e63\u1eb9\u0301 agb\u00e1ra t\u00ed \u00f3 j\u1ecdm\u1ecd f\u00fan \u00ecd\u00e0gb\u00e0s\u00f3k\u00e8 ohun \u1ecd\u0300gb\u00ecn. \u00c8\u00e8p\u1eb9\u0300 j\u1eb9\u0301 ohun t\u00ed k\u00f2 w\u1ecdp\u1ecd\u0300 t\u00e0b\u00ed t\u00f3 k\u1ecd\u0301gb\u1ecdn l\u00e1t\u00e0r\u00ed \u00e0w\u00f9j\u1ecd Yor\u00f9b\u00e1 l\u00e1t\u00e0r\u00ed f\u00edfi w\u1ecdl\u00e9 s\u00ed \u1ecd\u0300gb\u00ecn. N\u00edtor\u00ed n\u00e1\u00e0, oj\u00fat\u00f9\u00fa \u00e0k\u1ecd\u0301k\u1ecd\u0301 j\u1eb9\u0301 t\u00f3 d\u00e1j\u00fa ju \u00e0ti t\u00f3 b\u00f3j\u00fa mu f\u00fan \u00ecb\u00e9\u00e8r\u00e8 n\u00e1\u00e0.", "pred_label": "0", "metric": 1}, {"goal": "K\u00ed l\u00f3 ma\u0301a n\u0301 \u1e63\u1eb9l\u1eb9\u0300 s\u00ed \u00e0s\u00ec\u00e1 t\u00ed af\u1eb9\u0301f\u1eb9\u0301 b\u00e1 f\u1eb9\u0301 l\u00e1gb\u00e1ra?", "solutions": ["\u00f3 ma\u0301a n m\u00ec t\u00e0b\u00ed k\u00ed \u00f3 f\u1eb9\u0301r\u1eb9\u0300\u1eb9\u0301 j\u00e1 l\u00e1ti ara igi", "\u00f3 ma\u0301a n d\u00far\u00f3 \u1e63in\u1e63in, k\u00f2 s\u00ec n\u00ed m\u00ec r\u00e1r\u00e1"], "example_label": 0, "reasoning": "\u00c0s\u00ec\u00e1, n\u00ed \u00ectum\u1ecd\u0300 Yor\u00f9b\u00e1, j\u1eb9\u0301 ir\u00fa igi t\u00ed \u0144 b\u00e0j\u1eb9\u0301 t\u00e0b\u00ed t\u00ed \u0144 fa agb\u00e1ra af\u1eb9\u0301f\u1eb9\u0301. N\u00edgb\u00e0 t\u00ed af\u1eb9\u0301f\u1eb9\u0301 b\u00e1 f\u1eb9\u0301 l\u00e1gb\u00e1ra, \u00e0s\u00ec\u00e1 ma \u0144 m\u00ec t\u00e0b\u00ed k\u00ed \u00f3 f\u1eb9\u0301r\u1eb9\u0300\u1eb9\u0301 j\u00e1 l\u00e1ti ara igi tor\u00ed p\u00e9 agb\u00e1ra af\u1eb9\u0301f\u1eb9\u0301 m\u00e1a \u0144 m\u00fa k\u00ed or\u00ed igi t\u00e0b\u00ed \u00e0w\u1ecd\u0300 igi n\u00e1\u00e0 d\u00ecp\u1ecd\u0300, t\u00e0b\u00ed k\u00ed \u00f3 f\u1ecd\u0301. N\u00edtor\u00ed n\u00e1\u00e0, \u00e0\u1e63\u00e0y\u00e0n k\u00e9ker\u00e9 \u1e63e\u00e9 \u1e63e k\u00f3 r\u00ed d\u00e1j\u00fa p\u00e9 \u00e0s\u00ec\u00e1 y\u00f3\u00f2 d\u00far\u00f3 \u1e63in\u1e63in k\u00f2 s\u00ed n\u00ed m\u00ec r\u00e1r\u00e1 j\u1eb9\u0301 \u00e0\u00ecr\u1eb9\u0301t\u1ecd\u0300 \u00f2t\u00edt\u1ecd\u0301 n\u00edpa agb\u00e1ra af\u1eb9\u0301f\u1eb9\u0301. \u00c0\u1e63\u00e0y\u00e0n \u00e0k\u1ecd\u0301k\u1ecd\u0301 n\u00ed \u00ect\u00e0nk\u00e1l\u1eb9\u0300 \u00e0ti \u00ectum\u1ecd\u0300 t\u00f3 p\u00e9ye j\u00f9l\u1ecd.", "pred_label": "0", "metric": 1}, {"goal": "Y\u00e0t\u1ecd\u0300 s\u00ed \u1eb9n\u00ed, k\u00ed ni mo t\u00fan le fi s\u00f9n n\u00edn\u00fa y\u00e0r\u00e1", "solutions": ["Od\u00f3 ni mo t\u00fan le fi s\u00f9n n\u00edn\u00fa y\u00e0r\u00e1", "Ib\u00f9s\u00f9n ni mo t\u00fan le fi s\u00f9n n\u00edn\u00fa y\u00e0r\u00e1"], "example_label": 1, "reasoning": "\u1ecc\u0300p\u1ecdl\u1ecdp\u1ecd \u00ect\u00fam\u1ecd\u0300 wa ti \"fi s\u00f9n n\u00edn\u00fa y\u00e0r\u00e1,\" \u1e63\u00f9gb\u1ecd\u0301n n\u00edpa \u00ecf\u1ecdk\u00e0ns\u00ecn \u00e0d\u00fagbo Yor\u00f9b\u00e1 \u00e0ti \u00ect\u00e0n \u00e0\u1e63\u00e0, ohun t\u00ed a m\u00e1a \"fi s\u00f9n n\u00edn\u00fa y\u00e0r\u00e1\" ni \u00ecb\u00f9s\u00f9n t\u00e0b\u00ed ib\u00f9s\u1ecd\u0301 r\u1eb9\u0300, \u00e8y\u00ed t\u00f3 n j\u1eb9\u0301 k\u00ed \u1eb9n\u00ec k\u1ecd\u0301 t\u00fal\u00f9 t\u00e0b\u00ed n\u00edbi l\u00e1ti s\u00f9n. Od\u00f3 k\u00f2 b\u00f3j\u00fa mu g\u1eb9\u0301g\u1eb9\u0301 b\u00ed ohun t\u00ed a m\u00e1a fi s\u00f9n n\u00edn\u00fa y\u00e0r\u00e1 nitori p\u00e9 od\u00f3 j\u1eb9\u0301 ibi omi, k\u00f2 s\u00ec w\u00fal\u00f2 f\u00fan \u00edd\u00e0p\u1ecd\u0300 \u00f2\u00f2r\u00f9n \u00ecb\u1ecd\u0301r\u1eb9\u0300 b\u00ed \u00ecb\u00f9s\u00f9n. N\u00edtor\u00ed n\u00e1\u00e0, \u00ecb\u00f9s\u00f9n j\u1eb9\u0301 a\u1e63\u00e0y\u00e0n t\u00f3 d\u00e1j\u00fa t\u00ed a le fi s\u00f9n.", "pred_label": "1", "metric": 1}, {"goal": "K\u00edni a fi \u0144 k\u1ecd o\u00fanj\u1eb9?", "solutions": ["\u00ccgb\u00e1k\u1ecd ni a fi \u0144 k\u1ecd o\u00fanj\u1eb9", "\u00c0 \u0144 fi Igi k\u1ecd o\u00fanj\u1eb9"], "example_label": 0, "reasoning": "\u00ccb\u00e9\u00e8r\u00e8 naa n\u00edpa ohun t\u00ed a fi \u0144 k\u1ecd o\u00fanj\u1eb9. L\u1eb9\u0301y\u00ecn \u00ect\u00fapal\u1eb9\u0300, oj\u00fat\u00f9\u00fa \u1eb9\u0300r\u00f9k\u1eb9\u0301ta \u1e63e \u00e0fih\u00e0n p\u00e9 a fi \u00ecgb\u00e1k\u1ecd (\u1eb9\u0300r\u1ecd \u00ecgb\u00e1k\u1ecd) k\u1ecd o\u00fanj\u1eb9, t\u00f3 b\u00e1 j\u1eb9\u0301 p\u00e9 a \u0144 t\u1ecdka s\u00ed \u00ecgb\u00e1k\u1ecd \u00ecgb\u00e9 o\u00fanj\u1eb9 t\u00e0b\u00ed am\u00e1y\u00e9d\u1eb9r\u00f9n t\u00e0b\u00ed ibi t\u00ed a fi \u0144 t\u1ecd\u0301j\u00fa o\u00fanj\u1eb9. \u1eb8\u0300r\u1ecd ay\u00e9luj\u00e1ra mi k\u00f2 n\u00ed \u00e0fih\u00e0n t\u00f3 d\u00e1j\u00fa p\u00e9 \u00f3 d\u00e1j\u00fa p\u00e9 a fi \"igi\" k\u1ecd o\u00fanj\u1eb9, n\u00edpa \u00e0d\u00e1j\u1ecd\u0301 \u00e0w\u1ecdn \u1ecdr\u1ecd \u00ecd\u00e1nil\u00f3j\u00fa. N\u00edtor\u00ed n\u00e1\u00e0, oj\u00fat\u00f9\u00fa tay\u1ecd\u0300 y\u1eb9 k\u00ed \u00f3 j\u1eb9\u0301 oj\u00fat\u00f9\u00fa k\u1ecd\u0301k\u1ecd\u0301, t\u00ed \u00f3 p\u00e9 \u00e0ti t\u00f3 d\u00e1j\u00fa.", "pred_label": "0", "metric": 1}, {"goal": "agbo\u0301hu\u0300ns\u00e1f\u1eb9\u0301f\u1eb9\u0301 r\u1eb9 ko \u1e63i\u1e63\u1eb9\u0301, ki\u0301ni ki\u0301 o k\u1ecd\u0301k\u1ecd\u0301 \u1e63e?", "solutions": ["ri\u0301i da\u0301ju\u0301 pe\u0301 b\u1ecd\u0301ti\u0300ni\u0300 agba\u0301ra ti\u0301 wa\u0300 ni\u0301 ti\u0301ta\u0300n", "ri\u0301i da\u0301ju\u0301 pe\u0301 b\u1ecd\u0301ti\u0300ni\u0300 i\u0300da\u0301du\u0301ro\u0301 ti\u0301 wa\u0300 ni\u0301 ti\u0301ta\u0300n"], "example_label": 0, "reasoning": "Agb\u1ecd\u0301h\u00f9ns\u00e1f\u1eb9\u0301f\u1eb9\u0301 j\u1eb9\u0301 \u1eb9r\u1ecd t\u00ed \u00f3 m\u00e1a \u0144 gba \u1e63\u00ed\u1e63e f\u00fan f\u00edfi \u1eb9\u0300r\u1ecd ay\u00e9luj\u00e1ra (radio) t\u00e0b\u00ed ohun m\u00ed\u00ec h\u00e0n. B\u00ed agb\u1ecd\u0301h\u00f9ns\u00e1f\u1eb9\u0301f\u1eb9\u0301 r\u1eb9 k\u00f2 b\u00e1 \u1e63i\u1e63\u1eb9\u0301, k\u00ed o k\u1ecd\u0301k\u1ecd\u0301 \u1e63\u00e0y\u1eb9\u0300w\u00f2 b\u00f3ti\u0300ni\u0300 i\u0300da\u0301du\u0301ro\u0301 (switch) k\u00ed o r\u00ed i p\u00e9 \u00f3 w\u00e0 n\u00ed ip\u00f2 t\u00edt\u00e0n (on). B\u00ed bo\u0301y\u00e1\u0301 agb\u1ecd\u0301h\u00f9ns\u00e1f\u1eb9\u0301f\u1eb9\u0301 n\u00e1\u00e0 k\u00f2 b\u00e1 j\u1eb9\u0301 p\u00e9 b\u1ecd\u0301ti\u0300ni\u0300 i\u0300da\u0301du\u0301ro\u0301 w\u00e0 n\u00ed t\u00edt\u00e0n, k\u00f2 n\u00ed \u1e63i\u1e63\u1eb9\u0301. \u1eb8\u0300r\u1ecd agb\u1ecd\u0301h\u00f9ns\u00e1f\u1eb9\u0301f\u1eb9\u0301 l\u00e8 n\u00ed b\u1ecd\u0301ti\u0300ni\u0300 i\u0300da\u0301du\u0301ro\u0301 t\u00ed \u00f3 y\u00e0t\u1ecd\u0300 s\u00ed b\u1ecd\u0301ti\u0300ni\u0300 agba\u0301ra (volume). N\u00edtor\u00ed n\u00e1\u00e0, t\u00f3 b\u00e1 j\u1eb9\u0301 p\u00e9 b\u1ecd\u0301ti\u0300ni\u0300 agba\u0301ra (volume) w\u00e0 n\u00ed t\u00edt\u00e0n \u1e63\u00f9gb\u1ecd\u0301n i\u0300da\u0301du\u0301ro\u0301 k\u00f2 s\u00ed, agb\u1ecd\u0301h\u00f9ns\u00e1f\u1eb9\u0301f\u1eb9\u0301 k\u1ecd\u0301 n\u00ed \u1e63i\u1e63\u1eb9\u0301. N\u00edtor\u00ed n\u00e1\u00e0, oj\u00fa \u1ecdna t\u00f3 p\u00e9ye j\u00f9l\u1ecd ni lati \u1e63e ay\u1eb9wo b\u1ecd\u0301ti\u0300ni\u0300 i\u0300da\u0301du\u0301ro\u0301 (switch) k\u00f3 t\u00f3 b\u1ecd\u0301\u1e63\u1ecd\u0300\u1ecd\u0301 gb\u00edgb\u1ecd n\u00edn\u00fa agb\u1ecd\u0301h\u00f9ns\u00e1f\u1eb9\u0301f\u1eb9\u0301. Solution 2 s\u1ecd p\u00e9 k\u00ed o ri\u0301 i d\u00e1j\u00fa p\u00e9 b\u1ecd\u0301ti\u0300ni\u0300 i\u0300da\u0301du\u0301ro\u0301 w\u00e0 n\u00ed t\u00edt\u00e0n, eyi l\u00f3 y\u1eb9 k\u00ed a k\u1ecd\u0301k\u1ecd\u0301 \u1e63e. Solution 1 s\u1ecd p\u00e9 k\u00ed o \u1e63\u00e0y\u1eb9\u0300w\u00f2 b\u1ecd\u0301ti\u0300ni\u0300 agba\u0301ra (volume) \u1e63\u00f9gb\u1ecd\u0301n b\u1ecd\u0301ti\u0300ni\u0300 \u00ecd\u00e1d\u00far\u00f2 ni \u00f3 \u1e63e p\u00e0t\u00e0k\u00ec j\u00f9l\u1ecd n\u00edn\u00fa b\u00ed agb\u1ecd\u0301h\u00f9ns\u00e1f\u1eb9\u0301f\u1eb9\u0301 \u1e63e \u0144 \u1e63i\u1e63\u1eb9\u0301 tabi k\u1ecd\u0301. N\u00edtor\u00ed n\u00e1\u00e0, solution 2 d\u00e1a ju solution 1 l\u1ecd.", "pred_label": "1", "metric": 0}, {"goal": "K\u00ed ni \u1ecd\u0300kan p\u00e0t\u00e0k\u00ec l\u00e1ra irin\u1e63\u1eb9\u0301 ar\u00e1n\u1e63\u1ecd?", "solutions": ["\u1eccm\u1ecdrog\u00f9n j\u1eb9 \u1ecd\u0300kan p\u00e0t\u00e0k\u00ec l\u00e1ra irin\u1e63\u1eb9\u0301 ar\u00e1n\u1e63\u1ecd", "Ab\u1eb9\u0301r\u1eb9\u0301 j\u1eb9\u0301 \u1ecd\u0300kan p\u00e0t\u00e0k\u00ec l\u00e1ra irin\u1e63\u1eb9\u0301 ar\u00e1n\u1e63\u1ecd"], "example_label": 1, "reasoning": "\u00ccb\u00e9\u00e8r\u00e8 n\u00e1\u00e0 n\u00edpa ohun p\u00e0t\u00e0k\u00ec kan n\u00edn\u00fa \u00e0w\u1ecdn irin\u1e63\u1eb9\u0301 ar\u00e1n\u1e63\u1ecd, \u00e8y\u00ed t\u00f3 j\u1eb9\u0301 k\u00ed a l\u00e8 f\u00fan n\u00ed \u00e0y\u00e8 \u00e0ti \u00ec\u1e63\u00e8t\u00f2 ni \u00e0t\u1ecdk\u00e0nw\u00e1. L\u00e1\u00e0\u00e1r\u00edn \u00e0w\u1ecdn irin\u1e63\u1eb9\u0301 ar\u00e1n\u1e63\u1ecd, ab\u1eb9\u0301r\u1eb9\u0301 (\u00e0p\u1ecdn \u00e0ti ohun \u00e8l\u00f2 t\u00ed a fi \u0144 g\u00f9n, \u1e63e \u00e0t\u00fan\u1e63e j\u1eb9\u00f9n k\u1ecd\u0301t\u00e0\u00e1) ni a m\u1ecd\u0300 s\u00ed \u1ecd\u0300kan lara irin\u1e63\u1eb9\u0301 ar\u00e1n\u1e63\u1ecd p\u00e0t\u00e0k\u00ec j\u00f9l\u1ecd. \u1eccm\u1ecdrog\u00f9n k\u00f2 j\u1eb9\u0301 irin\u1e63\u1eb9\u0301 ar\u00e1n\u1e63\u1ecd, \u00e0fi \u1e63e \u1eb9ni t\u00ed w\u1ecd\u0301n j\u1eb9\u0301 \u1ecdm\u1ecd \u1ecdj\u1ecd\u0301-ori n\u00edn\u00fa ibi \u00e0j\u1ecd\u1e63ep\u1ecd\u0300 tor\u00ed n\u00e1\u00e0 k\u00f2 d\u00e1j\u00fa p\u00e9 \u00f3 t\u1ecd\u0301ka s\u00ed irin\u1e63\u1eb9\u0301 ar\u00e1n\u1e63\u1ecd. N\u00edtor\u00ed n\u00e1\u00e0, \u00e0b\u1ecd\u0301r\u1eb9\u0301 ni oj\u00fat\u00f9\u00fa t\u00f3 d\u00e1j\u00fa j\u00f9l\u1ecd f\u00fan \u00ecb\u00e9\u00e8r\u00e8 y\u00ec\u00ed.", "pred_label": "1", "metric": 1}, {"goal": "Y\u00e0t\u1ecd\u0300 s\u00ed ow\u00f3, k\u00edni at\u00fan le t\u1ecd\u0301j\u00fa s\u00ed il\u00e9 \u00ecfow\u00f3pam\u1ecd\u0301?", "solutions": ["Ohun \u00e0l\u00f9m\u1ecd\u0301\u1ecd\u0301n\u00ec ni a t\u00fan le t\u1ecd\u0301j\u00fa s\u00ed il\u00e9 \u00ecfow\u00f3pam\u1ecd\u0301 s\u00ed y\u00e0t\u1ecd\u0300 s\u00ed ow\u00f3", "a\u1e63\u1ecd ni a t\u00fan le t\u1ecd\u0301j\u00fa s\u00ed il\u00e9 \u00ecfow\u00f3pam\u1ecd\u0301 s\u00ed"], "example_label": 0, "reasoning": "\u00ccb\u00e9\u00e8r\u00e8 n\u00e1\u00e0 \u0144 b\u1eb9\u0300r\u1eb9\u0300 n\u00edpa k\u00edni m\u00ed\u00ec t\u00ed a l\u00e8 t\u1ecd\u0301j\u00fa s\u00ed il\u00e9 \u00ecfow\u00f3pam\u1ecd\u0301 y\u00e0t\u1ecd\u0300 s\u00ed ow\u00f3. \u1ecc\u0300p\u1ecd\u0300l\u1ecdp\u1ecd\u0300 il\u00e9 \u00ecfow\u00f3pam\u1ecd\u0301 m\u00e1a \u0144 t\u1ecd\u0301j\u00fa ow\u00f3 \u00e0ti \u00e0w\u1ecdn ohun \u00e0m\u00fa\u1e63\u1ecd\u0300r\u00f2, l\u00e1\u00e0\u00e1r\u00edn \u00e0w\u1ecdn ohun w\u1ecd\u0300ny\u00ed ni ohun \u00e0l\u00f9m\u1ecd\u0301\u1ecd\u0301n\u00ec l\u00e8 j\u1eb9\u0301. \u00ccd\u00ed n\u00ecy\u1eb9n t\u00ed \u00ecd\u00e1h\u00f9n k\u00edn\u00ed d\u00e1j\u00fa p\u00e9 \u00f3 n\u00ed \u00ecb\u00e1\u1e63ep\u1ecd\u0300 p\u1eb9\u0300l\u00fa \u00ecb\u00e9\u00e8r\u00e8 n\u00e1\u00e0. \u00c0m\u1ecd\u0301 a\u1e63\u1ecd k\u00f2 w\u1ecd\u0301p\u1ecd\u0300 l\u00e1ti j\u1eb9\u0301 ohun t\u00ed a t\u1ecd\u0301j\u00fa s\u00ed il\u00e9 \u00ecfow\u00f3pam\u1ecd\u0301; a\u1e63\u1ecd m\u00e1a \u0144 t\u1ecd\u0301j\u00fa n\u00ed il\u00e9 t\u00e0b\u00ed il\u00e9-it\u00e0ns\u00ed\u1e63\u00e9, k\u00ec \u00ed \u1e63e il\u00e9 \u00ecfow\u00f3pam\u1ecd\u0301. N\u00edtor\u00ed n\u00e1\u00e0, \u00ecd\u00e1h\u00f9n k\u00ec\u00edn\u00ed d\u00e1j\u00fa d\u00e1j\u00fa ju \u00eckej\u00ec l\u1ecd n\u00edn\u00fa \u00ecb\u00e1mu p\u1eb9\u0300l\u00fa \u00ecb\u00e9\u00e8r\u00e8.", "pred_label": "0", "metric": 1}, {"goal": "Ohun p\u00e0t\u00e0k\u00ec t\u00ed a fi m\u00e1a \u0144 d\u00e1 ol\u00f3y\u00e8 m\u1ecd\u0300", "solutions": ["Ni \u00e0d\u00e1 \u1ecdr\u00f9n w\u1ecdn", "Ni \u00ecl\u1eb9\u0300k\u1eb9\u0300 \u1ecdr\u00f9n w\u1ecdn"], "example_label": 1, "reasoning": "\u00c0d\u00e1 \u1ecd\u0300r\u00f9n k\u00ec \u00ed \u1e63e ohun t\u00ed a fi m\u00e1a \u0144 d\u00e1 ol\u00f3y\u00e8 m\u1ecd\u0300 n\u00ed Yor\u00f9b\u00e1. \u1eb8\u0300w\u1eb9\u0300, \u00ecl\u1eb9\u0300k\u1eb9\u0300 \u1ecd\u0300r\u00f9n j\u1eb9\u0301 \u00e0p\u1eb9\u1eb9r\u1eb9 ohun \u00e0\u1e63\u00e0 \u00e0ti \u00e0m\u00ec \u00ecd\u00edl\u00e9 \u00e0ti \u00ecb\u00e1\u1e63ep\u1ecd\u0300 t\u00f3 j\u1eb9\u0301 p\u00e9 \u00e0w\u1ecdn ol\u00f3y\u00e8 \u00e0ti \u00e0w\u1ecdn \u1eb9ni rere n\u00ed agb\u00e8gb\u00e8 Yor\u00f9b\u00e1 m\u00e1a \u0144 w\u1ecd\u0300. N\u00edw\u1ecd\u0300n \u00ecm\u1ecd\u0300 Yor\u00f9b\u00e1 \u00e0ti \u00e0\u1e63\u00e0 w\u1ecdn, \u00ecl\u1eb9\u0300k\u1eb9\u0300 \u1ecd\u0300r\u00f9n ni a m\u00e1a \u0144 fi m\u1ecd ol\u00f3y\u00e8. N\u00edtor\u00ed n\u00e1\u00e0, oj\u00fat\u00f9\u00fa kej\u00ec j\u1eb9\u0301 f\u00edfi \u00e0\u1e63\u00e0 \u00e0t\u00e0w\u1ecdn ohun \u00e0m\u00ec d\u00e0 b\u00edi ol\u00f3y\u00e8.", "pred_label": "1", "metric": 1}]
+[
+  {
+    "goal": "A le fi awon ohun elo wonyii se ajile fun ogba ile wa",
+    "solutions": [
+      "Ìràwé, irin, ìgbẹ́ adìyẹ",
+      "Ìràwé, ẹpo eyin, ìgbẹ́ adìyẹ"
+    ],
+    "example_label": 1,
+    "reasoning": "Àwọn ohun èlò tó dájú pé a lè fi ṣe àjílẹ̀ fún ọgbà ni ìràwé àti ìgbẹ́ adìyẹ. Ṣùgbọ́n ẹ̀po eyin kò yẹ kí ó wà nínú akojọ náà fún àjílẹ̀. Ní ìpinnu, ìràwé àti ìgbẹ́ adìyẹ jẹ́ àwọn ohun èlò tó dájú fún àjílẹ̀, nítorí náà ojútùú tó dájú jùlọ ní ojútùú kọ̀ọkan.",
+    "pred_label": "0",
+    "metric": 0
+  },
+  {
+    "goal": "Tí ọtí bá ń wù ẹ́ mu",
+    "solutions": [
+      "Lo igbá láti mú ọtí",
+      "Lo apẹ̀rẹ̀ láti mu ọtí"
+    ],
+    "example_label": 0,
+    "reasoning": "Solution 1 suggests using \"igbá\" which commonly means a calabash gourd, traditionally used in Yorùbá culture for drinking alcohol such as palm wine or other traditional liquors. Solution 2 suggests using \"apẹ̀rẹ̀\", which is a kind of bottle or container. Both could be used to drink alcohol, but the more traditional and culturally appropriate vessel for \"ọtí\" (especially palm wine) in Yorùbá land is \"igbá\". Therefore, solution 1 is better as it aligns with cultural practice and terminology.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "O ṣèṣẹ fọ aṣọ ibọsẹ re, o sì fẹ́ kí ó tètè gbẹ",
+    "solutions": [
+      "sá a sí óòrun titi yóò fi gbẹ.",
+      "fi sínu àpò ilé-ìwé rẹ titi yóò fi gbẹ."
+    ],
+    "example_label": 0,
+    "reasoning": "Lati tètè gba aṣọ ibọsẹ, o ṣe pataki ki a fi ṣí sí ibiti o ń wọ oorun àti afẹ́fẹ́ láì fi síní apò ile-ìwé rẹ́, nitori apò kì í jẹ́ kí aṣọ náà gbẹ dájú, kó má bà jẹ́ porosity aṣọ náà náà. Nígbàtí a bá sọ pé \"fi sí àpò ile-ìwé rẹ,\" eyi lè fa aṣọ kó má gbẹ lẹsẹkẹsẹ́ tàbí kí ó di ìkópa omi àti leesẹ nù. Nítorí náà, ojútùú tó dáa jùlọ ni láti \"sá a sí òórùn\" kí aṣọ máa gbẹ lẹ́sẹkẹsẹ́.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "Kí ni nǹkan mìíràn tí a tún le ri lára epo rọ̀bì?",
+    "solutions": [
+      "Epo pupa ni nǹkan mìíràn tí a tún lè rí lára bẹntiró",
+      "epo bẹntiró ni nǹkan mìíràn tí a tún lè rí lára bẹntiró"
+    ],
+    "example_label": 1,
+    "reasoning": "Ibẹ̀rẹ̀ ìbéèrè ń wá ohun tí a tún lè rí lórí epo rọ̀bì, [1] sọ pé \"Epo pupa\" ni nǹkan míìrán tí a tún lè rí, [2] sọ pé \"epo bẹntiró\" ni nǹkan míìrán tí a tún lè rí lórí bẹntiró. Ṣùgbọ́n ìbéèrè náà nípa epo rọ̀bì, tí kò jọ epo bẹntiró. \n\nNítorí náà, [1] ń fi \"Epo pupa\" hàn gẹ́gẹ́ bí nǹkan míìrán tí a tún lè rí lórí epo rọ̀bì, náà ni ó dájú pé ó dájú pé \"epo pupa\" lè jẹ́ ohun tí a tún rí lórí epo rọ̀bì, láì jẹ́ pé ó dájú pé [2] ń sọ ohun tó dájú nítorí ó ń fún nǹkan tí ó ní hàn lẹ́kọ̀ọ̀kan, ṣùgbọ́n kì í ṣàlàyé tó dájú fún epo rọ̀bì. \n\nNítorí náà, [1] dara jù [2] lọ fún ìbéèrè náà.",
+    "pred_label": "0",
+    "metric": 0
+  },
+  {
+    "goal": "Ohun èlò ìsọ́ra wo ni ènìyàn lè lò pẹ̀lú òkúta nínú rẹ̀?",
+    "solutions": [
+      "Katakata ni ohun èlò ìsọ́ra tí ènìyàn lè fi ta òkúta",
+      "Akatanpo ni ohun èlò ìsọ́ra tí ènìyàn lè fi ta òkúta"
+    ],
+    "example_label": 1,
+    "reasoning": "Àwọn ohun èlò ìsọ́ra tí a maa ń lò pẹ̀lú òkúta ni ìdánilójú pé wọn lè fa àwọn tó lè ṣe ipalara sílẹ̀. Ní Yorùbá, \"katakata\" jẹ́ ohun èlò tó ní àṣẹ lórí ètò ìsọ́ra tàbí ohun èlò tí a lè lo láti fi ta òkúta, ó sì jẹ́ ìsọ̀kan àwọn ohun èlò tí a nífẹ̀ẹ́ sí fún ìdájọ́sẹ́ ìkọlù. \"Akatanpo\" kò jẹ́ ohun èlò ìsọ́ra tó wọpọ tàbí tó dájú pé a lè fi ta òkúta. Nítorí náà, \"katakata\" jẹ́ ìdáhùn tó dájú jùlọ fún ìbéèrè yìí.",
+    "pred_label": "0",
+    "metric": 0
+  },
+  {
+    "goal": "kíni ohun tó dára jùlọ lati fi lẹ àwo tó fọ́ sí méjì?",
+    "solutions": [
+      "lẹ àwo náà pọ̀ pẹ̀lú èedú",
+      "lẹ àwo náà pọ̀ pẹ̀lú òǹlẹ̀"
+    ],
+    "example_label": 1,
+    "reasoning": "Lẹẹ awo ti o fọ si meji ni a maa n lo òǹlẹ̀ (fabric softener) nitori o fun ni irọrun ati ki o maa jẹ ki awo naa jẹ mimo ati ko ni lile. Eedu (starch) maa n jẹ ki awo maa nira ati ki o dan, ṣugbọn ko dara lati fi fun awo to fọ si meji nitori o le fa ki awo naa maa nira ju. Nitorinaa, òǹlẹ̀ ni ohun to dára jùlọ lati fi lẹ́ awo tó fọ sí méjì.",
+    "pred_label": "1",
+    "metric": 1
+  },
+  {
+    "goal": "Kíni a fi ń hun aṣọ òkè?",
+    "solutions": [
+      "Òwú ni a fi ń hun aṣọ òkè",
+      "Okùn ni a fi ń hùn aṣọ òkè"
+    ],
+    "example_label": 0,
+    "reasoning": "Aṣọ òkè jẹ́ aṣọ tí a hun láti inú òwú tàbí ẹ̀dá rere ìrú èyí tí a fẹ́ fi ṣe aṣọ yí. Òwú ni wọ́n sábà máa ń lò gẹ́gẹ́ bí aso òkè ṣe jẹ́ aṣọ tí a hun láti inu òwú. Okùn kì í jẹ́ ohun tí a fi ń hun aṣọ, ṣùgbọ́n kì í ṣe ohun tí wọ́n sábà máa ń lò fún hun aṣọ òkè. Nítorí náà, ojútùú tó đúng ni pé \"Òwú ni a fi ń hun aṣọ òkè.\"",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "Níbo ni àyè tí ó wà láàárín apá sí èjìká?",
+    "solutions": [
+      "Ọrùn-ọwọ́ ni àyè tí ó wà láàárín apá sí èjìká",
+      "Ìgùnpá ni àyè tí ó wà láàárín apá sí èjìká"
+    ],
+    "example_label": 1,
+    "reasoning": "Àyè tí ó wà láàárín apá sí èjìká ni a mọ̀ sí \"ìgùnpá\" ní èdè Yorùbá. \"Ọrùn-ọwọ́\" tọ́ka sí apá tó wà lẹ́yìn ọ̀wọ́, kì í ṣe àyè láàárín apá sí èjìká. Nítorí náà, ìdáhùn tó péye jù lọ ni ojútìwọ̀n kejì.",
+    "pred_label": "1",
+    "metric": 1
+  },
+  {
+    "goal": "Kíni à ń fi àdá ṣe?",
+    "solutions": [
+      "À ń fi àdá ro oko",
+      "À ń fi àdá dáná"
+    ],
+    "example_label": 0,
+    "reasoning": "Àdá jẹ́ irinṣẹ́ tó máa ń ṣe iṣẹ́ agbẹ́, pàápàá jùlọ látàrí iṣẹ́ oko àti gé àwọn ohun tàbí ẹ̀dá. Kíkọ̀ọ́ pé àdá ń ṣe iṣẹ́ ''rọ́ oko'' jẹ́ ìdáhùn tó dájú ju àdá ''dáná'' lọ. Àdá kọ́ ló ṣe amọ̀ja fún inú iná tàbí ṣe ìṣètò iná bíi ''dáná''. Nípa bẹ́ẹ̀, àdá fi ń ro oko dájú ju.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "Kí ni wọ́n ohun èlò ìdáná ni ayé àtijọ́?",
+    "solutions": [
+      "Ìkòkò ni ohun èlò ìdáná ni ayé àtijọ́",
+      "Àgbá ni ohun èlò ìdáná ni ayé àtijọ́"
+    ],
+    "example_label": 0,
+    "reasoning": "Ní ayé àtijọ́, ohun èlò ìdáná tí wọ́n sábà máa lò jẹ́ àgbá àti ìkòkò, ṣùgbọ́n àgbá (ilé ìkòkò amọ́ tí wọ́n fi ń sin àbọ̀ adùn omi tàbí ohun mímu) ni wọ́n sábà kà sí ohun ìdáná pàtàkì tó wúlò jù lọ fún fífi amúlétutù àti fífi omi tàbí oúnjẹ ṣetán. Ìkòkò jẹ́ pẹ̀lú oríṣìíríṣìí, ṣùgbọ́n yàtọ̀ sí àgbá, àgbá ní ipa pataki láti tọju oúnjẹ àti omi, pàápàá ní ayé àtijọ́. Nítorí náà, àwọn méjèèjì jẹ́ ohun èlò ìdáná, ṣùgbọ́n àgbá jẹ́ ìdáhùn tó dájú sí ìbéèrè náà.\n\nỌ̀nà ìsọ̀kan pẹ̀lú ìbéèrè náà ni pé a fẹ̀ nkan tó ṣe pàtàkì ní ayé àtijọ́ gẹ́gẹ́ bí ohun èlò ìdáná, nígbà tí ìkòkò lè jẹ́ àgbá tàbí àwọn ohun èlò míì.\n\nNítorí pé àgbá ni ohun èlò ìdáná tó ní ipa pàtàkì ní ayé àtijọ́, ìdáhùn tó dájú ni 1.",
+    "pred_label": "1",
+    "metric": 0
+  },
+  {
+    "goal": "Kíni ẹ̀rọ ìgbàlódé tí à ń lò fún aṣọ fífọ̀ ní ayé òde òni?",
+    "solutions": [
+      "Ẹ̀rọ ìlọta ni ẹ̀rọ ìgbàlódé tí à ń lò fún aṣọ fífọ̀ ní ayé òde òni",
+      "Ẹ̀rọ ìfọṣọ ni ẹ̀rọ ìgbàlódé tí à ń lò fún aṣọ fífọ̀ ní ayé òde òni"
+    ],
+    "example_label": 1,
+    "reasoning": "Ẹ̀rọ ìfọṣọ ni a mọ̀ sí washing machine ní Gẹ̀ẹ́sì, èyí tí a fi ń fi aṣọ ṣe fífọ̀ lọ́nà ìgbàlódé. Ẹ̀rọ ìlọta, kọ́bọ̀ọ̀kan, jẹ́ ohun èlò tó ń jọ ṣọ́ọ̀ṣì tàbí àpótí fífi ọ̀rọ̀ ṣe, kò jẹ́ ẹ̀rọ fífọ aṣọ. Nítorí náà, ojútùú kejì ló dájú pé ó fún un ní ìdáhùn tó tọ́ sí ìbéèrè náà.",
+    "pred_label": "1",
+    "metric": 1
+  },
+  {
+    "goal": "Kí ni mo lè fi ti ilẹ̀kùn ilé mi pa?",
+    "solutions": [
+      "Kọ́kọ́rọ́ ni mo lè lo láti ti ilẹ̀kùn mi pa",
+      "Àgádágodo ni mo le lò láti fi ti ilẹ̀kùn mi pa."
+    ],
+    "example_label": 1,
+    "reasoning": "Nípa ìtàn Yorùbá àti ìmọ̀ ìṣàkóso ilẹ̀kùn, kò ṣeé atọ́ka pé kí wọ́n fi kọ́kọ́rọ́ tàbí àgádágodo pa ilẹ̀kùn ilé. Kọ́kọ́rọ́ jẹ́ nkan tá a sábà máa ń lo gẹ́gẹ́ bí irinṣẹ́ abẹ́, kò sì dájú pé yóò jẹ́ ohun tí a lè fi ti ilẹ̀kùn pa. Àgádágodo jẹ́ ohun èlò ìjà tí kò yẹ kí a fi ṣe iṣẹ́ ilẹ̀kùn, tó jẹ́ pé a sábà máa nlo ilẹ̀kùn àti ilẹ̀kùn ní irin tàbí amọ́ àti awọn irinṣẹ́ tó péye fún ìdí náà. Bó tilẹ̀ jẹ́ pé méjèèjì kò péye, àwọn méjèèjì kò péye fún iṣẹ́ náà, síbẹ̀, àgádágodo jẹ́ irinṣẹ́ tó lè din àwọn nnkan tí a fẹ́ dènà tàbí ti ilẹ̀kùn mu dájú pé kò rọrú. Nítorí náà, ìdáhùn kìí ṣe àfojúsùn àtọkànwá, ṣùgbọ́n wọ́n lè mọjú-kúrò sí ohun tí ó lè dájú diẹ̀ síi. Nítorí pé àgádágodo ni ọ̀nà tó lè jẹ́ pé ó dájú jùlọ nínú èyí méjèèjì, lára àwọn àṣà Yorùbá tó nípa ìlò irinṣẹ́ tó lágbára fún ìpamọ́ ilẹ̀kùn, a yàn àṣàyàn kejì.",
+    "pred_label": "1",
+    "metric": 1
+  },
+  {
+    "goal": "O fẹ́ mọ aago tí o lu, kí ni ohun to tọ́ láti wò?",
+    "solutions": [
+      "aago ọwọ́",
+      "aago orí"
+    ],
+    "example_label": 0,
+    "reasoning": "Ìbéèrè náà nípa àkókò tàbí aago tó mú kí a mọ ìgbà tí aago ń lu ni. Ní Yorùbá, aago ori (aago orí) kì í ṣe aago tó ń lu, ṣùgbọ́n aago ọwọ́ (wristwatch) jẹ́ ohun tí a ṣe lórí ọwọ́ tí ó fúnni ní àkókò. Nítorí náà, tó bá jẹ́ pé à ń wá ohun tó tọ́ láti fi mọ aago tí ó lu, aago ọwọ́ ni ó yẹ ká wo, kó jẹ́ pé ọ̀rọ̀ yẹn ń tọ́ka sí aago tó mú ìgbà tó pé.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "Orí ibo ni àwọn Yorùbá ti máa n dáná?",
+    "solutions": [
+      "Orí àpótí",
+      "Orí àrò"
+    ],
+    "example_label": 1,
+    "reasoning": "Àdúrà náà ń béèrè nípa orí ibo tí àwọn Yorùbá ti máa ń dáná. Ní ìgbà Yorùbá, àrò ni wọ́n sábà máa ń lo gẹ́gẹ́ bí ibi tí a ti máa ń dá iná, nítorí pé ó jẹ kékèké, tó sì rọrùn láti gba ibi ìná. Àpótí kò ṣe tóbájẹ́ àyípadà, kò sì kọjá wọ́pọ̀ bí ibi tí a ti ń dáná ní agbègbè Yorùbá. Nítorí náà, ojútùú tó dára jùlọ ni «Orí àrò».",
+    "pred_label": "1",
+    "metric": 1
+  },
+  {
+    "goal": "Tí mo bá fẹ́ kí ilé mi tuntun rẹwà ní àwọ̀",
+    "solutions": [
+      "Màá lo ọ̀dà tí ó rẹwà",
+      "Màá lo ìyèpẹ̀ tí ó rẹ̀wà"
+    ],
+    "example_label": 0,
+    "reasoning": "Ìbéèrè náa nípa bí a ṣe lè kí ilé tuntun rẹwà ní àwọ̀. Ìyèpẹ̀ (paint) ni wọ́n máa nlo láti fi ṣe ilé tuntun rẹwà ní àwọ̀ tí a fẹ́. Ọ̀dà jẹ́ irinṣẹ́ ọ̀jà àtọka tí kò ní í mú àwọ̀ ilé jẹ́. Nítorí náà, ìmọ̀ nípa àṣà àti àtọka ni pé kí ilé rẹ wà ní àwọ̀ tó dára, a ó lo ìyèpẹ̀, kì í ṣe ọ̀dà.",
+    "pred_label": "1",
+    "metric": 0
+  },
+  {
+    "goal": "Kí ni a lè fi gbẹ́ ilẹ̀?",
+    "solutions": [
+      "Jígà ni a lè fi gbẹ́ ilẹ̀",
+      "Àdá ni a lè fi gbẹ́ ilẹ̀"
+    ],
+    "example_label": 0,
+    "reasoning": "Lákọ̀ọ́kọ́, ẹ̀rọ ti wọ́n máa ń lò láti gbẹ́ ilẹ̀ ni Yorùbá oríṣìíríṣìí ìlú jẹ́ \"àdá,\" tó jẹ́ ohun èlò tó ní agbára tó tóbi láti yá ilẹ̀ fún iṣẹ́ agbára àti gbígbé ẹ̀rù. \"Jígà\" kò wọ́pọ̀ gẹ́gẹ́ bí ohun èlò tí a fi ń gbẹ́ ilẹ̀; ó lè jẹ́ ohun mìíràn tó dá lórí ẹ̀rọ yàtọ̀. Nítorí náà, \"àdá\" ló yẹ kó jẹ́ ohun tó dájú jùlọ fún ìbéèrè náà.",
+    "pred_label": "1",
+    "metric": 0
+  },
+  {
+    "goal": "Kí ni àwọn ọmọ òkú máa ń jẹ́ lẹ́yìn ikú òbí wọn?",
+    "solutions": [
+      "Ogún ni àwọn ọmọ òkú máa ń jẹ́",
+      "Àmàlà ni àwọn ọmọ òkú máa ń jẹ"
+    ],
+    "example_label": 0,
+    "reasoning": "Àkókò tí ìbéèrè gbẹ̀kẹ̀lé láti mọ ohun tí àwọn ọmọ òkú ń jẹ lẹ́yìn ikú òbí wọn, aṣàyàn tó dájú ni pé \"Ogún ni àwọn ọmọ òkú máa ń jẹ́,\" nítorí pé ogún jẹ́ ọ̀kan lára ohun tí a ń jẹ ní àdúrà àti ìrántí àwọn aládùúgbò àti ìdílé tó bá ti kú. Àmàlà jẹ́ oúnjẹ àdídún Yorùbá, ṣùgbọ́n kò ní í ṣe pátápátá àfihàn ìwà àti ìṣe wọ́pọ̀ tí àwọn ọmọ òkú máa ń jẹ́ lẹ́yìn ikú òbí wọn. Nítorí náà, ojúlówó àti tó péye ju ni ojútùú kíní nípa ìbáṣe pẹ̀lú àṣà Yoruba nípa ìtọ́jú ìrántí àwọn tí ó ti kú ni agbègbè wọn.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "Ẹran ilé tí ó jẹ́ ìdàkejì àgùntàn",
+    "solutions": [
+      "ni a mọ̀ sí ewúrẹ́",
+      "ni a mọ̀ sí ajá"
+    ],
+    "example_label": 0,
+    "reasoning": "Ìbéèrè náà ń wá ọ̀rọ̀ tí ó jọmọ ẹran ilé tí ó jẹ́ ìdàkejì àgùntàn, ìyẹn ni ẹran ilé tó wọ́pọ̀ lẹ́yìn àgùntàn. Ní Yorùbá, ewúrẹ́ ni a mọ̀ sí ẹran ilé tí ó jẹ́ ìdàkejì àgùntàn lẹ́yìn ẹran àgùntàn. Ajá kò jẹ́ ẹran ilé tó wọ́pọ̀ tàbí ìdàkejì àgùntàn nínú ẹ̀yà ẹran ilé. Nítorí náà, ìdáhùn tó tọ́ ni ojútùú 0.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "Tí o ba fẹ́ ọ̀bẹ tí ó mú, kíni ó yẹ kí o ṣe",
+    "solutions": [
+      "lo òkuta láti fi pọ́n ẹnu ọ̀bẹ náà",
+      "lo páálí láti fi pọ́n ẹnu ọ̀bẹ náà"
+    ],
+    "example_label": 0,
+    "reasoning": "Láti mu ọ̀bẹ pọ́n, kíkó ẹnu ọ̀bẹ tó tutù àti kò ní àwọn àtìlẹyìn tó dájú jẹ́ pàtàkì. Lo páálí (ṣóòrò kan ti a fẹ́ rà tí a mọ̀ pé o yẹ fún iṣẹ́ ọwọ́ náà) láti fi pọ́n ẹnu ọ̀bẹ, torí pé páálí jẹ́ ohun èlò tó wọ́pọ̀ tó sì yẹ fún iṣẹ́ yìí, kó da ẹnu ọ̀bẹ àfọ́. Lo okuta pọ́n jẹ́ pé ó lè má ṣeé fọkàn tán àti pé kì í jẹ́ wọ́n wọ́pọ̀ fún iṣẹ́ yìí ní Yorùbáland. Nítorí náà, ojútùú kejì dára jùlọ.",
+    "pred_label": "1",
+    "metric": 0
+  },
+  {
+    "goal": "Báwo ni a ṣe ń tọjú ìbùsùn",
+    "solutions": [
+      "A ma ń tọ́jú ìbùsùn nípa sísùn le bẹ́ẹ̀",
+      "A ma ń tọ́jú ìbùsùn nípa títẹ ẹ"
+    ],
+    "example_label": 1,
+    "reasoning": "Àmúludùn látàrí ìbéèrè náà ni pé báwo ni a ṣe ń tọjú ìbùsùn, èyí túmọ̀ sí bí a ṣe ń ṣètò tàbí bó ṣe dágbà dáradára. Ìdáhùn àkọ́kọ́ sọ pé a ń tọjú ìbùsùn nípa sísùn le bẹ́ẹ̀, èyí tó jẹ́ pé nípa jíjẹ́ pé kí a sùn tóọ́, ṣùgbọ́n kò pé kí nìdí tó fi ṣe pataki tàbí bá a ṣe ń ṣètò ìbùsùn náà. Ìdáhùn kejì sọ pé a ń tọjú ìbùsùn nípa títésὶ, èyí lè túmọ̀ sí bí a ṣe ń ṣe amúlùmọ́ra ẹ̀rọ ìbùsùn tàbí ṣètò rẹ̀ dáadáa, tó jẹ́ pé iní jíjẹ mọ́ ẹni tó n tọjú rẹ̀. Nípa wọ̀n-ọnà tó dájú jùlọ, ìdáhùn kejì dájú jùlọ torí pé tọ́jú tọ́ka sí fífi nkan ṣe nípa pẹ̀lú ọwọ́ tàbí ní ọgbọ́n, àti tításilẹ̀ ni a fi mọ́ pé a ń ṣe ìtọju daradara. Nítorí náà, ojúlówó ìdáhùn lo jẹ́ ìdáhùn kejì.",
+    "pred_label": "1",
+    "metric": 1
+  },
+  {
+    "goal": "Kí tún ni a lè fi ṣe ìkòkò ìdáná lẹ́yìn amọ̀?",
+    "solutions": [
+      "Òkúta ni a tún le fi ṣe ìkòkò ìdáná lẹ́yìn amọ̀",
+      "Irin ni a tún le fi ṣe ìkòkò ìdáná lẹ́yìn amọ̀"
+    ],
+    "example_label": 1,
+    "reasoning": "Ìkòkò ìdáná ni a maa n ṣe pẹ̀lú àwọn ohun èlò tí ó lè fara wé amọ̀, ṣùgbọ́n ó jọ pé irin kò péye fún ìkòkò tá a máa fi ń sèun nítorí pé tó bá níjẹ, yóò le nípa tó pọ̀ lẹ́nu iṣẹ́ ìdáná àti mímu onjẹ dájú. Òkúta ní ànfààní jùlọ nínú ìkòkò amọ̀ bí ó ti là ní líle tó dájú. Nítorí náà, ọ̀rọ̀ pé òkúta ni a lè máa fi ṣe ìkòkò ìdáná lẹ́yìn amọ̀ dájú jùlọ nípa ogbontarigi Yorùbá àtàwọn ohun tí a mọ̀.",
+    "pred_label": "0",
+    "metric": 0
+  },
+  {
+    "goal": "Kíni màá fi nu omi tí ó dà sílẹ̀ nínú ilé?",
+    "solutions": [
+      "Aṣọ inùlẹ̀ tí ó gbẹ́ ní màá lò",
+      "Aṣọ ìwọ̀sùn tí ó gbẹ́ ní màá lò"
+    ],
+    "example_label": 0,
+    "reasoning": "Lati nu omi tí o dà sílẹ̀ nínú ilé, aṣọ inùlẹ̀ tí ó gbẹ́ dara ju nitori ó maa ń fa omi pọ́ ju, ati pé ó ṣàgbáyè fáàájì ju aṣọ ìwọ̀sùn lọ. Aṣọ ìwọ̀sùn maa n jẹ́ fàfẹ́ díẹ̀ kí o sì ní sísọ omi díẹ̀. Nítorí náà, aṣọ inùlẹ̀ ti o gbẹ jẹ́ yíyan tó dáa jùlọ fún iṣẹ́ yìí.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "Kí ni ará nǹkan tí alágbẹ̀dẹ fí máa ṣe ohun èlò ọ̀ṣọ́?",
+    "solutions": [
+      "Owú ni ara nǹkan tí alágbẹ̀dẹ fí máa ṣe ohun èlò ọ̀ṣọ́",
+      "Òjé ni ara nǹkan tí alágbẹ̀dẹ fí máa ṣe ohun èlò ọ̀ṣọ́"
+    ],
+    "example_label": 1,
+    "reasoning": "Owú jẹ́ ohun èlò tí wọ́n máa ń lò fún ṣe àwọn ohun èlò ọ̀ṣọ́ ní Yorùbáland, kì í ṣe òjé. Òjé kò jẹ́ wọ́pọ̀ gẹ́gẹ́ bí ohun èlò ọ̀ṣọ́ fún alágbẹ̀dẹ. Nítorí náà, ìdáhùn tó dájú jùlọ ni pé owú ni ara nǹkan tí alágbẹ̀dẹ fí máa ṣe ohun èlò ọ̀ṣọ́.",
+    "pred_label": "0",
+    "metric": 0
+  },
+  {
+    "goal": "Ní ilẹ̀ Yorùbá kíni ọkùnrin gbọ́dọ̀ ṣe tí ó bá fẹ́ kí àgbàlagbà?",
+    "solutions": [
+      "Ọkùnrin gbọ́dọ̀ sùn sílẹ̀",
+      "Ọkùnrin gbọ́dọ̀ dọ̀bálẹ̀"
+    ],
+    "example_label": 1,
+    "reasoning": "Ní ilẹ̀ Yorùbá, ìbáṣepọ̀ pẹ̀lú àgbàlagbà kì í ṣe ká fi bà a sùn sílẹ̀; dípò, ọkùnrin gbọ́dọ̀ ṣe pẹ̀lú ìbáṣepọ̀ rere, kí ó sì dọ̀balẹ̀, títẹnumọ́ ìbá fún àgbàlagbà àti ìfarabale. Ó ṣe pàtàkì kí a fi ìyìn hàn, kí a sì jẹ́ onífojúrírin sí wọn. Nítorí náà, ìmọ̀ràn tó péye jùlọ jẹ́ pé \"Ọkùnrin gbọ́dọ̀ dọ̀balẹ̀\" ju \"sùn sílẹ̀\" lọ.",
+    "pred_label": "1",
+    "metric": 1
+  },
+  {
+    "goal": "Lati di ṣíbí mu, ó yẹ kí n",
+    "solutions": [
+      "lo ọwọ́ mi",
+      "lo ẹsẹ̀ mi"
+    ],
+    "example_label": 0,
+    "reasoning": "Ìbéèrè náà nípa bí a ṣe lè di ṣíbí mu, èyí tó túmọ̀ sí \"to catch a ball.\" Nípa ìmọ̀ ilẹ̀ Yorùbá àti ìmọ̀ àtẹ̀yìnwá, aṣáṣe tó péye jùlọ ni pé ká lo ọwọ́ láti di nkan bíi ṣíbí. Kí a lè mú nǹkan tí kìlọ̀ ń fò tàbí fẹ̀, ọwọ́ pọ̀ síi nínú iṣẹ́ yìí ju ẹsẹ̀ lọ. Ẹsẹ̀ kì í ṣe ohun tá a fi di nǹkan ni àṣà Yorùbá àti fún ìṣe ṣíṣàṣeyọrí yẹn. Nítorí náà, ojútùú tó péye jùlọ ni \"lo ọwọ́ mi.\"",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "Kí ni o le ṣe lati jẹ ki ọ̀gẹ̀dè dòdò pọ́n kíákíá?",
+    "solutions": [
+      "tọ́jú rẹ sí inú ẹ̀rọ amóhuntutù mọ́jú",
+      "tọ́jú rẹ sí ibi tí ó mú ooru mọ́jú"
+    ],
+    "example_label": 1,
+    "reasoning": "Lati jẹ ki ọ̀gẹ̀dè dòdò pọ́n kíákíá, o yẹ ki a tọjú rẹ sinu ẹ̀rọ amóhùntutù, nitori itọju yii yóò ṣe iranlọwọ fipamọ ọ̀gẹ̀dè ki o má bàjẹ́ kíakia. Tó o bá tọjú ọ̀gẹ̀dè sí ibi tí o ń mú ooru mọ́jú, yoo yọrísí pé ó máa bàjẹ́ lọ́sẹ̀kẹsẹ̀. Nítorí náà, ojutu akọkọ ni o dáa jùlọ.",
+    "pred_label": "0",
+    "metric": 0
+  },
+  {
+    "goal": "Tí ènìyàn bá fẹ́ lo òògùn, kíni yóò fi lòó?",
+    "solutions": [
+      "Ọtí ni ènìyàn yóò fi lo òògùn",
+      "Ọmí ni ènìyàn yóò fi lo òògùn"
+    ],
+    "example_label": 1,
+    "reasoning": "Ni àṣà Yorùbá àti ní àpọ̀pọ̀ ìtàn àti ìmò tí ó wúlò nípa bí a ṣe ń lo òògùn, ọ̀pọ̀ ìgbà ni a máa ń lo ọ̀tí tàbí ọ̀mọnì tí ó ní ìtọ́jú nípa ìwòsàn. Ṣùgbọ́n, ìtàn tó wọ́pọ̀ jùlọ ni pé a máa ń fi ọ̀tí lo òògùn kó lè fún un ní ààbò àti fún sọ́rọ̀ tí ó yéye tán. Nígbà míì, ọ̀mọnì lè jẹ́ ọmọlẹ̀ tàbí ìtọ́jú ohun tí a fi ń dákẹ́ ara, ṣùgbọ́n ni ìpinnu yìí, ojútùú tó dájú jùlọ ni pé a máa fi ọ̀tí lo òògùn. Ẹ̀sùn yi kò pé kankan pé kí ló máà tó, ṣùgbọ́n ọ̀tí ní a ṣe pàtàkì látàrí ẹ̀sùn ìtàn àti ìwòran tó dájú. Nítorí náà, ojútùú 0 ni tó bójú mu jùlọ.",
+    "pred_label": "0",
+    "metric": 0
+  },
+  {
+    "goal": "Tí apẹja bá fẹ́ mú ẹja lódò, kí ni yóò lò?",
+    "solutions": [
+      "Pàkúté ni apẹja yóò lò láti mú ẹja lódò",
+      "Àwọ̀n ni apẹja yóò lò láti mú ẹja lódò"
+    ],
+    "example_label": 1,
+    "reasoning": "Nínú àwọn àṣàyàn méjèèjì, “Pàkúté” jẹ́ ohun èlò tàbí ọ̀nà tí a ṣe àfihàn pé apẹja máa lò láti kó ẹja jáde lódò. Lákòókò yìí, “Àwọ̀n” kò dájú pé o náà jẹ́ ohun èlò tàbí ohun èlò rere tí apẹja máa lò, kò sì ní fífi hàn pé kó dájú nípa ikòkó ẹja. Ní ìmọ̀ Yorùbá àti nípa apẹja, “Pàkúté” le túmọ̀ sí ọjà tàbí ọ̀nà amúlùdùn tàbí ohun èlò tí a máa lò fún iṣẹ́ náà. Nítorí náà, àṣàyàn 0 kún fún àlàyé àti ìdájọ́ tó péye jùlọ.",
+    "pred_label": "0",
+    "metric": 0
+  },
+  {
+    "goal": "Ilẹ̀kùn ilé tí a fi àgádágodo tì pa",
+    "solutions": [
+      "Ìṣó ni ó lè sí i pẹ̀lú ìrọ̀rùn",
+      "Kọ́kọ́rọ́ ni ó lè sí i pẹ̀lú ìrọ̀rùn"
+    ],
+    "example_label": 1,
+    "reasoning": "Ìbéèrè náà nípa ilẹ̀kùn ilé tí a fi àgádágodo tì pa. Àgádágodo jẹ́ ohun èlò tí a máa nfi pọ́nlẹ̀ ilẹ̀kùn tàbí àwọn apá míì ti ilé. \"Ìṣó\" àti \"kókọ́rọ́\" jẹ́ àwọn irinṣẹ́ à pipé ilẹ̀kùn. Nígbà tí a bá fi àgádágodo tì ilẹ̀kùn, ìṣó (picking lock) lè jẹ́ ohun tí ó fara balẹ̀ àti irọ́rùn ju kókọ́rọ́ lọ.\n\nNítorí náà, ìṣó ni ó dájú pé ó lè sí i pẹ̀lú ìrọ̀rùn ju kókọ́rọ́ lọ.",
+    "pred_label": "0",
+    "metric": 0
+  },
+  {
+    "goal": "Àjọ jẹ́ ọ̀nà tí à ń gbà ṣe kíni",
+    "solutions": [
+      "Ọ̀nà tí à ń gbà tọ́jú owó",
+      "Ọ̀nà tí à ń gbà ṣe ayẹyẹ"
+    ],
+    "example_label": 0,
+    "reasoning": "Àjọ túmọ̀ sí ìpàdé tàbí ìṣọ̀kan àwọn ènìyàn fún ìdí kan, ní gbogbogbo àjọ jẹ́ ọ̀nà tàbí irinṣẹ́ tí a fi ń bọ́pọ̀ jọ láti ṣe iṣẹ́ tàbí àṣeyọrí kan. Kíni ni àjọ ṣe, ìdí àti àfojúsùn rẹ ni wọ́n ṣe pàtàkì. Láàárín àwọn àṣàyàn mẹ́ta yìí, \"Ọ̀nà tí à ń gbà ṣe ayẹyẹ\" ló dájú pé ó ní ṣe pẹ̀lú àjọ, nítorí pé àjọ lè jẹ́ ìpàdé tàbí iṣẹ́lẹ̀ tí a ṣe, pẹ̀lú àfiyèsí, ayẹyẹ, tàbí ìsọ̀kan. \"Ọ̀nà tí à ń gbà tọ́jú owó\" kò ní ìbáṣepọ̀ pẹ̀lú àjọ, nítorí pé àjọ kò ní túmọ̀ sí owó tàbí ìtọju owó. Nítorí náà, ojútùú tó dájú àti tó yẹ jùlọ ni \"Ọ̀nà tí à ń gbà ṣe ayẹyẹ.\"",
+    "pred_label": "1",
+    "metric": 0
+  },
+  {
+    "goal": "Kíni àwọn àgbẹ̀ fi ń ro oko?",
+    "solutions": [
+      "apẹ̀rẹ̀ ní àwọn àgbẹ̀ fi ń ro oko",
+      "Àdá ní àwọn àgbẹ̀ fi ń ro oko"
+    ],
+    "example_label": 1,
+    "reasoning": "Ìdá kì í ṣe ohun tí àwọn àgbẹ̀ fi ń ro oko ní Yorùbá; ohun tí a sábà máa ń lò ni \"apẹ̀rẹ̀,\" èyí tí ó jẹ́ iró tàbí ohun èlò tó ń dá ẹranko lóró láti má bà á jẹ oko. Nítorí náà, ìdá ò tọ́ nípa ìbéèrè náà, àti pé apẹ̀rẹ̀ ni òtító àlàyé tó yẹ.",
+    "pred_label": "0",
+    "metric": 0
+  },
+  {
+    "goal": "Kí ni ohun à ń pe akèrègbè tí a sín ní ìlẹ̀kẹ̀?",
+    "solutions": [
+      "Sákárà ni à ń pe akèrègbè tí a sín ní ìlẹ̀kẹ̀",
+      "Ṣẹ̀kẹ̀rẹ̀ ni à ń pe akèrègbè tí a sín ní ìlẹ̀kẹ̀"
+    ],
+    "example_label": 1,
+    "reasoning": "Akèrègbè tí a sín ní ìlẹ̀kẹ̀ jẹ́ ohun èlò amúṣeré tí a máa ń kó àwọ̀n pè̩lú pẹ̀lú èròra láti ṣe ohun èlò ìdárayá àti orin. Àwọn àṣà Yorùbá mọ̀ pé a ń pè ohun èlò yìí ní \"Ṣẹ̀kẹ̀rẹ̀\". \"Sákárà\" jẹ́ ajàpá tí a mọ̀ sí apá ọ̀nà àtàwọn amúṣeré míràn, ṣùgbọ́n kò dájú pé a ń lo rẹ̀ pẹ̀lú àpèjúwe \"akèrègbè tí a sín ní ìlẹ̀kẹ̀\". Ní ìtàn ati ìṣe Yorùbá, ṣẹ̀kẹ̀rẹ̀-lá a mọ̀ gẹ́gẹ́ bíi akèrègbè tí a sín ní ìlẹ̀kẹ̀.",
+    "pred_label": "1",
+    "metric": 1
+  },
+  {
+    "goal": "Ewé wo ni a maa ń já lé olóyè titun ní orí",
+    "solutions": [
+      "Ewé ọ̀gẹ̀dẹ̀ ni a má já lé olóyè titun ní orí",
+      "Ewé akòko ni a má ń já lé olóyè titun ní orí"
+    ],
+    "example_label": 1,
+    "reasoning": "Nínú àṣà Yorùbá, ẹ̀kúnrẹ́rẹ́ ẹni tí ó jẹ́ olóyè àtàwọn ìṣẹ̀lẹ̀ tó rànà tí wọ́n ṣe ní orí olóyè, ìmọ̀ tí wọ́n ní lórí èyí pàṣẹ olóyè titun ni pé a máa ń já ẹ̀wé akòko lórí àtàwọn ìbukún rẹ̀. Ẹwé akòko ni a mọ̀ sí ẹ̀wẹ̀ tí a fi ń já lé olóyè tuntun. Ẹwé ọ̀gẹ̀dẹ̀ kò wọ́pọ̀ gẹ́gẹ́ bí ẹ̀wẹ̀ tí a máa ń lò nípa àṣà yìí. Nítorí náà, ẹ̀sùn àti ìmúlò ẹwé akòko jẹ́ ìdáhùn tó péye jùlọ fún ìbéèrè yìí.",
+    "pred_label": "1",
+    "metric": 1
+  },
+  {
+    "goal": "Láti fọ abọ́ kíákíá ni ayé òde-òní, kí ni màá lò?",
+    "solutions": [
+      "Ẹ̀rọ ìfọbọ́ ni mo máa lò",
+      "Ẹ̀rọ ìfọṣọ ni mo máa lò"
+    ],
+    "example_label": 0,
+    "reasoning": "Ibẹrẹ̀mọ̀ pé kíákíá ni wọ́n fẹ́ fọ abọ́ (bọ́ṣà) jẹ́ àfihàn pé à ń wá irinṣẹ́ tó máa rọrùn àti tí yóò ṣe iṣẹ́ náà lọ́rọ̀. Ẹ̀rọ ìfọbọ́ (washing machine) ni àṣàpọ̀n mọ́ọ̀kànlá fún fífi abọ́ tàbí aṣọ fọ ni kíákíá àti pẹ̀lú iṣẹ́ tó dájú lórí ayé òde-òní. Nígbà tí ẹ̀rọ ìfọṣọ (cleaner tool) lè túmọ̀ sí ọ̀pọ̀lọpọ̀ ẹrọ tàbí kó jẹ́ pé kò ní ipinnu pàtó fún fọ abọ́, a kò ráyè rí i dájú pé yóò dájú fún iṣẹ́ náà nítorí náà. Bákan náà, fún abọ́, ìdí tí a fi ń pè ní \"ìfọbọ́\" (washing) ló yẹ kó ní ìdíṣẹ́ pẹ̀lú abọ́ ju ẹ̀rọ míì lọ. Nítorí náà, ojútùú tó dájú ni ojútùú kinni, eyi ti ó ní ìtumọ̀ tó mọ́, tó bá àfihàn àìmọ́tà tí a n wa.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "Tí ará mi kò bá yá, kí ni mo ma lò?",
+    "solutions": [
+      "Oúnjẹ ní mo ma lò",
+      "Ògùn ni mo ma lò"
+    ],
+    "example_label": 1,
+    "reasoning": "Ìbéèrè náà ń sọ pé \"Tí ará mi kò bá yá,\" èyí tí a lè túmọ̀ sí \"tí ará kò bá yá,\" tàbí \"tí ìṣòro ará bá wà,\" ohun tí ó yẹ kí ẹni náà lò ni ògùn fún ìtọ́jú àìlera tàbí ìṣòro ará. Ògùn ní wọ́n maa n lò fún ìtọju àìlera. Nítorí náà, ìdáhùn tó dájú jùlọ nípa ẹ̀tọ́ ìbéèrè yìí ni \"Ògùn ni mo ma lò.\" \n\nÒúnjẹ kò ní ràn nípa fún ìtọju ìṣòro ará tàbí ìlera. Ó wúlò fún bí a ṣe máa bójú tó ara, ṣùgbọ́n tí ará bá ń fojú kọ́ bí àìlera tàbí ìṣòro ṣe ń hàn, ògùn ni wọ́n máa lò.\n\nNítorí náà, ojútùú kejì (solution 1) ni òdodo.",
+    "pred_label": "1",
+    "metric": 1
+  },
+  {
+    "goal": "Aṣọ taani bùbá àti ṣókótó jẹ́ ní ilẹ̀ Yorùbá?",
+    "solutions": [
+      "Aṣọ Obìnrin ni bùbá àti ṣókótó jẹ́ ní ilẹ̀ Yorùbá",
+      "Aṣọ Ọkùnrin ni bùbá àti ṣókótó jẹ́ ní ilẹ̀ Yorùbá"
+    ],
+    "example_label": 1,
+    "reasoning": "Bùbá àti ṣókótó jẹ́ aṣọ tí àwọn ọkùnrin sábà máa wọ ní ilẹ̀ Yorùbá, kì í ṣe aṣọ obìnrin. Nítorí náà, ìfèsọ́nà tó péye jùlọ ni pé wọ́n jẹ́ aṣọ ọkùnrin. Ìdáhùn kejì náà tó tọ́ ni, nítorí náà, ó dájú pé aṣọ ọkùnrin ni bùbá àti ṣókótó jẹ́ ní ilẹ̀ Yorùbá.",
+    "pred_label": "1",
+    "metric": 1
+  },
+  {
+    "goal": "kíni a maá ń fi sé àdirẹ",
+    "solutions": [
+      "a maá ń fi asọ àti ọsẹ sé àdirẹ",
+      "a maá ń fi asọ àti aró sé àdirẹ"
+    ],
+    "example_label": 1,
+    "reasoning": "Àdirẹ ni pataki jẹ́ aṣọ tí a ṣe nípa lílo aṣọ àti aro, kó jọ pé ó jẹ́ aṣọ tí a ń lo lati ṣe àṣa Yorùbá. Ọsẹ (òsè) kò ní ibáṣepọ tàbí ìtàn lórí àdirẹ yìí bẹ́ẹ̀ ni ó ṣe ẹ̀tọ́ tí a mọ̀ pé a ń fi aro ṣe àdirẹ. Nítorí náà, ìdáhùn tó tọ́ jẹ́ pé a ń fi asọ àti aro ṣe àdirẹ.",
+    "pred_label": "1",
+    "metric": 1
+  },
+  {
+    "goal": "Èso tí ó dára lati jẹ́ fún àìsùn ni kí ni?",
+    "solutions": [
+      "Àgbàdo",
+      "Orógbó"
+    ],
+    "example_label": 1,
+    "reasoning": "Àgbàdo (corn) ni a máa mọ̀ sí èso tí ó ní àwọn nkan tó lè ràn lọ́wọ́ fún àìsùn, ṣùgbọ́n orógbó (pawpaw) ni wọ́n tún mọ̀ sí eso tí ó ní vitamin C àti antioxidants tó lè ràn lọ́wọ́ fún àìlera orí àti ìṣedede iṣúra oorun. Nítorí pé ìbéèrè náà nípa èso tó dára fún àìsùn (improving sleep), orógbó ni wọ́n kà sí nkan tí ó ní ogbontarigi sí i fún àìsùn ju àgbàdo lọ. Orógbó ní melatonin àti vitamin C tó lè fúnni ní ìtẹ́lọ́run àti ìrora oorun tí ó dára ju. Nítorí náà, àfẹ́sẹ̀yìn wá ni pé \"Orógbó\" dájú ju \"Àgbàdo\" lọ fún àìsùn.",
+    "pred_label": "1",
+    "metric": 1
+  },
+  {
+    "goal": "Báwo ni a ṣe ń kíni ní àárọ̀?",
+    "solutions": [
+      "Ẹkáàárọ̀ ni à ń kíni ní àárọ̀ ní ilẹ̀ Yorùbá",
+      "Ẹkáalẹ́ ni à ń kíni ní àárọ̀ ní ilẹ̀ Yorùbá"
+    ],
+    "example_label": 0,
+    "reasoning": "Ìdáhùn tó dájú ni pé à ń kíni ní àárọ̀ pẹ̀lú \"Ẹkáàárọ̀.\" Ẹ̀sùn \"Ẹkáalẹ́\" jẹ́ kíni tó wúlò ní alẹ́, kì í ṣe ní àárọ̀. Nítorí náà, ojútùú tó dájú ni ojútùú àkọ́kọ́.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "kí ni o le ṣe lati jẹ́ kí òórùn ẹja kúrò ní ọwọ́ rẹ?",
+    "solutions": [
+      "fí epo ra ọwọ́ rẹ, kí o sì sàn-án",
+      "fí ọsàn wẹ́wẹ́ ra ọwọ́ rẹ, kí o sì sàn-án"
+    ],
+    "example_label": 1,
+    "reasoning": "Lati yọ oorun ẹja kuro ni ọwọ́, ọkọọkan awọn ilana meji wọnyi le ṣiṣẹ, ṣugbọn lilo ọsàn wẹ́wẹ́ jẹ ọna ti a mọ̀ daradara ati ti o munadoko nitori o ni awọn ohun alumọni adayeba ti o njẹ ki oorun naa dinku. Lilo epo ko wọpọ ati ko niiṣe pataki pẹlu imukuro oorun ẹja. Nitorinaa, ojutu keji dara julọ ju akọkọ lọ.",
+    "pred_label": "1",
+    "metric": 1
+  },
+  {
+    "goal": "Ìka wo ni wọ́n maá ń fi òrùka ìgbéyàwó sí?",
+    "solutions": [
+      "òrùká yẹmí ní ọwọ́ òsì",
+      "òrùká yẹmí ní ọwọ́ ọ̀tún"
+    ],
+    "example_label": 0,
+    "reasoning": "Ní ìlànà Yorùbá àti ní aṣa Gẹ́gẹ́ bí a ṣe mọ̀, wọ́n sábà máa ń fi orúkọ ìgbéyàwó sí ọwọ́ ọ̀tun. Ẹsẹ̀ ọwọ́ yìí ni wọ́n kà sí ọwọ́ tá a fi ń fi ohun tán, ká sì tún máa fi orúka sílẹ̀. Nítorí náà, ìdáhùn tó péye jùlọ ni pé: \"orúka yẹ mí ní ọwọ́ ọ̀tún.\"",
+    "pred_label": "1",
+    "metric": 0
+  },
+  {
+    "goal": "Kíni o lè lo rọ́pọ̀ ọmọ ayò nígba tí o bá ń tá ayò ọlọ́pọ́n",
+    "solutions": [
+      "Lo àwọn òkuta wẹ́wẹ́",
+      "Lo àwọn òkuta tí o tóbi"
+    ],
+    "example_label": 0,
+    "reasoning": "Ọmọ ayọ ti a n ta jẹ́ ohun tí wọ́n fi ń gbẹ́ ẹ̀dá àti ohun àmúṣọ̀kan nígbà tá a bá fẹ́ dáàbò bo ayọ ọlọ́pọ́n. Nígbà tí a bá fẹ́ rọ́pọ̀ ọmọ ayọ, gbogbo ọ̀nà tó ní kí a lo òkùnkùn àtàwọn ohun èlò wọ́pọ̀ nínú. Ṣùgbọn, pé ki a lo àwọn òkùnkùn tó tobi ju lọ, kí wọn lè ní ipa tó pé lori ọmọ ayọ náà jẹ́ ohun tá a máa ń ṣe. Nítorí náà, ojútùú keji tó sọ pé ká lo àwọn òkùnkùn tó tobi síi lára tó dájú ju ojútùú àkọ́kọ́ tá kìí sọ pé àwọn òkùnkùn wẹ́wẹ́ tí kò dájú.",
+    "pred_label": "1",
+    "metric": 0
+  },
+  {
+    "goal": "Kí ni àgbẹ̀ máa ń fi ka ọsàn ni orí igi",
+    "solutions": [
+      "Dòjé ni àgbẹ̀ máa ń fi ká ọsàn ní orí igi",
+      "Ọ̀kọ̀ ni àgbẹ̀ máa ń fi ká ọsàn ní orí igi"
+    ],
+    "example_label": 0,
+    "reasoning": "Ìbéèrè náà nípa ohun tí àgbẹ̀ máa ń lò láti ká ọsàn ní orí igi. Nínú àṣà Yorùbá, ohun tí wọ́n sábà máa lò jẹ́ Ọ̀kọ̀, kó lè jẹ́ ohun èlò tó dáa fún ká. \"Dòjé\" kò tí í ṣe ohun tí a mọ̀ gẹ́gẹ́ bí ọ̀nà tàbí irinṣẹ́ tí àgbẹ̀ lè fi ká ọsàn. Nítorí náà, ìdáhùn kejì tó sọ pé \"Ọ̀kọ̀\" ni ohun tí àgbẹ̀ máa ń fi ká ọsàn dájú àti kójúmọ́ àti fọ́rọ̀ àṣà Yorùbá.",
+    "pred_label": "1",
+    "metric": 0
+  },
+  {
+    "goal": "kíni ó yẹ kí ènìyaǹ fi wé ọrùn rẹ ní ìgbà òtútù?",
+    "solutions": [
+      "aṣọ ìnujú",
+      "aṣọ òkè/ aṣọ ìborùn"
+    ],
+    "example_label": 1,
+    "reasoning": "Ninu Yoruba, nigba igba otutu, ohun to yẹ ki eniyan fi we orun ni \"aṣọ òkè\" tabi \"aṣọ ìborùn\" lati ri daju wipe ki wọn le duro gbona. \"Aṣọ ìnujú\" ko ni itumo ti o baamu si itẹwọgba tabi irọrun lilo bi aṣọ to bojumu fun u.",
+    "pred_label": "1",
+    "metric": 1
+  },
+  {
+    "goal": "Ìró àti bùbá jẹ́ aṣọ tí a mọ̀ mọ́ àwọn wo?",
+    "solutions": [
+      "Ójẹ́ aṣọ tí a mọ̀ mọ́ àwọn ọkùnrin ní ilẹ̀ Yorùbá",
+      "Àwọn obìnrin ní ilẹ̀ Yorùbá ni a mọ ìró àti bùbá mọ́"
+    ],
+    "example_label": 1,
+    "reasoning": "Ìró àti bùbá jẹ́ aṣọ tí a mọ̀ mọ́ àwọn obìnrin ní ilẹ̀ Yorùbá, kì í ṣe ti àwọn ọkùnrin. Nítorí náà, ojútùú kejì jẹ́ akọ́tọ́ àti pípé ju.",
+    "pred_label": "1",
+    "metric": 1
+  },
+  {
+    "goal": "Irú aṣọ wo ni o yẹ lati fi nu àwo oju rẹ",
+    "solutions": [
+      "Aṣo ìnulẹ̀",
+      "Aṣọ ìnujú"
+    ],
+    "example_label": 1,
+    "reasoning": "Ìbéèrè náà ń wí pé kí ni iru aṣọ tó yẹ kí ènìyàn fi nù àwo oju rẹ. Ní èdá Yorùbá, aṣọ ìnúlẹ̀ ni wọ́n máa ń lò fún ìtọ́ju tàbí fọ́ oju lórí, tí kò ní fa ìrora tàbí tẹ̀sí. Aṣọ ìnújú kò ní ìtumọ̀ tó hàn gbangba ní ìsọ̀kan èdá Yorùbá nínú àǹfààní fún fọ́ oju tàbí ìtọju àwo oju. Nítorí náà, aṣọ ìnúlẹ̀ ni a lè sọ pé ó dájú bí aṣọ tí yóó tọ́ sí láti fi nù àwo oju.",
+    "pred_label": "0",
+    "metric": 0
+  },
+  {
+    "goal": "Kí ni nǹkan tí ènìyàn máa wò láti rí ara rẹ̀ nígbà tí ó bá múra tán?",
+    "solutions": [
+      "Dígí ni ènìyàn máa wò",
+      "Ògiri ni ènìyàn máa wò"
+    ],
+    "example_label": 0,
+    "reasoning": "Àwọn ènìyàn máa ń wò dígí nígbà tí wọ́n bá ti múra tán láti rí ara wọn. Dígí ni a máa lò láti fìdí hàn ara ẹni nípa ọrọ ìwà, ìríra, tàbí ìwúlò. Kíkọ̀ wò ògiri kò bójú tó ìbéèrè yìí torí pé ògiri kì í jẹ́ iṣẹ́ ọwọ́ káàkiri ẹ̀dá eniyan tàbí ìwúlò tí ènìyàn lè fí yàn ara rẹ̀. Nítorí náà, ojútùú tó dara jùlọ ni ojútùú kíní.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "Kíni à ń lò dípò ààrò ní ayé òde òni",
+    "solutions": [
+      "Àdògán ni à ń lò dípò ààrò ní ayé òde òni",
+      "Gáàsì ni à ń lò dípò ààrò ní ayé òde òni"
+    ],
+    "example_label": 1,
+    "reasoning": "Ààrò (traditional oil lamp) ti wọ́pọ̀ ní àkọ́kọ́ ayé ṣùgbọ́n ní àkókò oní, a ti ra gáàsì (gas) torí pé ó rọrùn, ònrà rẹ̀ ní í ṣiṣẹ́ pẹ̀lú ìmọ́lẹ̀ tó dáa, àti pé ó dájú jùlọ fún ìṣe àwùjọ. Àdògán kì í ṣe àyípadà gidi dípò ààrò, torí àdògán jẹ́ ohun kan tó ń dáàbò bo tí kò sábà fún imúló ìmọ́lẹ̀ tàbí ààrò.\n\nNítorí náà, gáàsì jẹ́ ohun tó dájú pé a ń lò dípò ààrò ní ayé òde òni. Ìtàn ìsọ̀kan yìí jẹ́ kí solution 1 (àdògán) jẹ́ àfikún àìtọ́, àti solution 2 (gáàsì) jẹ́ ìdáhùn tó to, tó yẹ kí a yan.",
+    "pred_label": "1",
+    "metric": 1
+  },
+  {
+    "goal": "Tí ọ̀nà ọ̀fun rẹ bá n dun ọ, kí ni o lè ṣe?",
+    "solutions": [
+      "po omi gbọ́na pèlú oyin àti òrònbó kíkan, kí o sì mu ú",
+      "po omi gbọ́na pèlú àádùn àti òrònbó kíkan, kí o sì mu ú"
+    ],
+    "example_label": 0,
+    "reasoning": "Àwọn àyèwọ̀n méjèèjì sọ pé kí a tú omi gbọ́na pọ̀ mọ́ ohunkóhun tí a lè mu kí ó lè ràn lọ́́wọ́ láti múnú ọ̀fún tó ń dùn. Ṣùgbọ́n, nípa ìmọ̀ Yorùbá àti ìtàn ìlera aiyé, oyin ni wọ́n máa mọ jẹ́ pé ó ní ìtọ́jú gbigbọn gbogbogbo àti ìpẹ̀yà ọ̀fún ju àádùn lọ. Àádùn kò wọ́pọ̀ gẹ́gẹ́ bí ìtọju ọmọ ènìyàn, èyí jẹ́ pé oyin ní ipa rere diẹ sii fún ọ̀fun. Ná tí ó bá jẹ́ pé ìwọ̀n onjẹ ni, o dájú pé olùfọ́kànsìn oyin jẹ́ aṣàyàn tó dára ju àádùn lọ.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "Nígbà tí a bá fẹ́ ṣe ọbẹ̀ olú,",
+    "solutions": [
+      "Olú ni ó dára jùlọ ní èròjà",
+      "<NO_ANSWER>"
+    ],
+    "example_label": 0,
+    "reasoning": "Ìdáhùn àkọ́kọ́ sọ pé \"Olú ni ó dára jùlọ ní èròjà,\" èyí tó ṣẹ̀ṣẹ̀ sáà tọkàntọkàn pé olú (àwùjọ ati àwò) jẹ́ ohun tó dára jùlọ nalika èròjà fún ọbẹ̀. Ìdáhùn kejì kò ní ìmọ̀ràn tàbí ìdáhùn kankan, nítorí náà ìdáhùn àkọ́kọ́ ni o dájú jùlọ fún ìbéèrè yìí.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "Aṣọ wíwọ̀ wà fún kíni?",
+    "solutions": [
+      "Oge síṣe ni aṣọ wíwọ̀ wà fún",
+      "àrà dídá ni aṣọ wíwọ̀ wà fún"
+    ],
+    "example_label": 0,
+    "reasoning": "Àṣọ wíwọ̀ jẹ́ aṣọ tí a máa ń lò fún àrà dídá tàbí ìṣàlẹ̀ gbígbé. Ìdí ni pé àṣọ wíwọ̀ wọ́n ṣe pẹ̀lú ọgbọ́n àti ṣíṣe àwọn àyẹ̀wò fáwọn àṣọ tó dáa, tí ń fúnni ni àrà àti ẹ̀wà. Nítorí náà, ìdáhùn tó dáa jùlọ ni pé àṣọ wíwọ̀ wà fún àrà dídá, kì í ṣe fún \"oge síṣe\" tí kò ní í ṣe pẹ̀lú ìtàn àti ìṣe aṣọ.",
+    "pred_label": "1",
+    "metric": 0
+  },
+  {
+    "goal": "Kíni a máa ń ta lójú ogun gẹ́gẹ́ bíi nǹkan ìjà?",
+    "solutions": [
+      "Ọrún ni a máa ń ta lójú ogun gẹ́gẹ́ bíi nǹkan ìjà",
+      "Ọfà ni a máa ń ta lójú ogun gẹ́gẹ́ bíi nǹkan ìjà"
+    ],
+    "example_label": 1,
+    "reasoning": "Nípa ìmọ̀ ìjà Yorùbá àti àṣà ogun, ohun tí a máa ń ta lójú ogun gẹ́gẹ́ bíi nǹkan ìjà ni \"ọfà\". Ọfà jẹ́ ọ̀nà oríṣìíríṣìí ìjà tó wọ́pọ̀ ní ilẹ̀ Yorùbá fún ìṣọ̀kan ogun àti lílo ìjà. \"Ọrún\" kò jẹ́ ohun ìjà tó wọ́pọ̀ tàbí àmọ̀dájú pé a máa ń ta lójú ogun gẹ́gẹ́ bíi nǹkan ìjà. Nítorí náà, ìdáhùn tó tọ́ ni solution 1 (ìbéèrè sọ pé \"Ọrún\", èyí kò bójútó) àwọn àṣà àti ìlànà ìjà Yorùbá, ṣugbọn solution 2 (ìbéèrè sọ pé \"Ọfà\") jẹ́ tó àwọn ìmọ̀ ìjà Yorùbá gidi.",
+    "pred_label": "1",
+    "metric": 1
+  },
+  {
+    "goal": "Kíni ẹ̀rọ ìgbàlódé ti ó ń mú ǹkan tutù",
+    "solutions": [
+      "Ìkòkò jẹ́ ohun èlò ìgbàlódé tí ó ń mú ǹkan tutù",
+      "Ẹ̀rọ amú ǹkan tutù jẹ́ ohun èlò ìgbàlódé tí ó ń mú ǹkan tutù"
+    ],
+    "example_label": 1,
+    "reasoning": "Ìbéèrè náà nípa ẹ̀rọ ìgbàlódé tó ń mú ǹkan tutù. Solution 1 sọ pé ìkòkò (pẹ́lẹbẹ àbẹ) ni ẹ̀rọ ìgbàlódé tó ń mú ǹkan tutù, ṣùgbọ́n ìkòkò kì í ṣe ẹ̀rọ ìgbàlódé; ó jẹ́ ohun èlò ìsẹ́ tàbí ohun èlò àkọ́kọ́ fún fífi ǹkan sínú rẹ tàbí fún sise. Solution 2 sọ pé \"ẹ̀rọ amú ǹkan tutù\" ni ẹ̀rọ ìgbàlódé tí ó ń mú ǹkan tutù, tó sì ní itumọ̀ tó yoowu fún kọ́mputa, firiji, tàbí àwọn ohun èlò àtojú ǹkan tutù. Nítorí náà, solution 2 ni ìmọ̀ tó péye àti tó bójú mu ìbéèrè náà ju solution 1 lọ.",
+    "pred_label": "1",
+    "metric": 1
+  },
+  {
+    "goal": "Ibo ni mo ti lè gbà owó pẹ̀lú káàdì ìyọwó?",
+    "solutions": [
+      "Ẹnu Ẹ̀rọ-ìléwọ́",
+      "Ẹnu Ẹ̀rọ-apọwó"
+    ],
+    "example_label": 1,
+    "reasoning": "Àpilẹ̀kọ náà nípa ibi tí a ti lè gbà owó pẹ̀lú káàdì ìyọwó ni pé a lè lo ẹnu ẹrọ apamọ́ (ATM) láti fà owó jade ni irọrun. Ẹnu Ẹ̀rọ-apọwó (ATM) ni a mọ̀ sí ibi tí a ti lè yọ owó pẹ̀lú káàdì ìyọwó. Ní ilé iṣẹ́ tàbí ní ọjà, a kò máa n lo «Ẹnu Ẹ̀rọ-ìléwọ́» fún irrana wọlé yẹn. Nítorí náà, ojúṣe fún ṣiṣe àfihàn owó lórí káàdì ìyọwó ni Ẹnu Ẹ̀rọ-apọwó ni.",
+    "pred_label": "1",
+    "metric": 1
+  },
+  {
+    "goal": "Nígbàtí àwọn ọkùnrin bá gẹ fìlà ní ilẹ̀ Yorùbá kíni àwọn obìnrin yóò wé?",
+    "solutions": [
+      "Àwọn obìnrin yóò wé gèlè nígbàtí àwọn ọkùnrin bá gẹ fìlà ní ilẹ̀ Yorùbá",
+      "Àwọn obìnrin yóò wé Fìlà nígbàtí àwọn ọkùnrin bá gẹ̀ fìlà ní ilẹ̀ Yorùbá"
+    ],
+    "example_label": 0,
+    "reasoning": "Ní Yorùbá, àwọn ọkùnrin maa n gẹ fìlà, àwọn obìnrin nígbà náà maa n wé gèlè, èyí tí ó jẹ àṣà tí a mọ̀. Àpẹrẹ tó dájú jùlọ kí ni àwọn obìnrin wó ni gèlè, kì í ṣe fìlà, torí fìlà jẹ irọri káàkiri ọkùnrin. Ìtàn tó dájú ni pé àwọn obìnrin wé gèlè nígbà tí ọkùnrin bá gẹ fìlà. Nítorí náà, ìtàn ṣe àfihàn pé ojúlówó àti àṣà Yorùbá ni fífi gèlè hàn fún àwọn obìnrin nígbà tí àwọn ọkùnrin bá gẹ fìlà.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "kíni ó yẹ ká fi sí ewédú kó lè yọ̀ fùn jìjà daádaa?",
+    "solutions": [
+      "o yẹ ká fi kán-ún sí i",
+      "o yẹ ká fi epo pupa sí i"
+    ],
+    "example_label": 0,
+    "reasoning": "Lati le yọ ewedu fun jija daradara, ohun ti o yẹ ki a fi si ewedu ni \"kán-ún\" (ọ̀pọ̀ igba ni a mọ̀ ọn sí èpò). Epo pupa kò ṣe pataki tabi ko ni ipa taara lori yiyọ ewedu fun jìjà. Nitorina, ojutu akọkọ dabi ẹni pe o dara julọ nitori o ba ibeere ati ti aṣa mu.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "Ọkàn pàtàkì ní yàrá ìjẹun ni",
+    "solutions": [
+      "Pátákó jẹ́ fún ènìyàn",
+      "Tábìlì jẹ́ fún ènìyàn"
+    ],
+    "example_label": 1,
+    "reasoning": "Ìbéèrè náà nípa ohun tí ó ṣe pàtàkì ní yàrá ìjẹun, iyẹn ni ibi tá a ti ń jẹun. Nínú àwọn àṣàyàn méjèèjì, \"tábìlì\" ni ohun tí a sábà máa rí nínú yàrá ìjẹun gẹ́gẹ́ bí ibi tá a máa fi jẹun tàbí kó àwọn onjẹ sí, èyí tó mú kó lẹ́tọ̀ọ́ láti sọ pé tábìlì jẹ́ pàtàkì ní yàrá ìjẹun ju pátákó lọ. Pátákó kì í ṣe ohun tó jẹ́ àfihàn àṣà yàrá ìjẹun tàbí ibi tó yẹ kí ó wà fún iṣẹ́ ìjẹun.",
+    "pred_label": "1",
+    "metric": 1
+  },
+  {
+    "goal": "Kini ọna ailewu lati bọ́ lẹ̀ kuro ninu ọkọ òfurufú lẹ́hìn tí o bá balẹ̀?",
+    "solutions": [
+      "Dìde lẹ́sẹ̀kẹsẹ̀, gbé àpò rẹ, kí o si sáré jade",
+      "Ṣe sùúrù, kí o si rọra tèlé ìlànà"
+    ],
+    "example_label": 1,
+    "reasoning": "Ọna ailewu lati bọ kuro ninu ọkọ ofurufu lẹhin tí ó bá balẹ̀ ni láti ṣe suuru kiakia, tẹle awọn ilana ati awọn ipo aabo to wulo. Kíkọ́ ẹlẹsẹ̀kẹsẹ̀ àti sáré jade lè fa ọrọ̀ ìpẹ̀yà àti àjálù, ní pàtàkì jùlọ nígbà tí iṣẹ ìgbàgbébọ̀nsẹ́lẹ̀ ń lọ. Nítorí náà, ojútùú kejì tó sọ pé kí o ṣe suuru ki o sì rọra tẹle ilana jẹ́ kedere pé ó dájú ju ati pé ó dà bíi pé ojútùú to dara julọ ni fun ìsọ̀kan àti aabo. Ojútùú akọkọ kì í ṣe pataki fún ohun tí a mọ́ ní ìpamọ́àbo ọkọ ofurufu, torí ó fi àkúnya tàbí ìṣòro sílẹ̀.",
+    "pred_label": "1",
+    "metric": 1
+  },
+  {
+    "goal": "Tani olórí agboolé?",
+    "solutions": [
+      "Olórí ẹbí ní olórí agboolé",
+      "Olórí agboolé ni Bàbá ilé"
+    ],
+    "example_label": 0,
+    "reasoning": "Ìtàn Yorùbá àti àṣà wọn sábà máa ń fọwọ́si pé olórí agboolé jẹ́ Bàbá ilé, ẹni tó ní iṣẹ́́rìgbọmi àti àṣẹ lórí àwọn ọmọ ilé. Àmọ́ ọ̀rọ̀ pé olórí ẹbí ní olórí agboolé jẹ́ kedere ṣùgbọ́n kì í ṣe ọ̀rọ̀ tó pé tàbí tó dájú ju ìtàn àṣà lọ. Nítorí náà, ìdáhùn tó péye jù ni pé olórí agboolé ni Bàbá ilé.",
+    "pred_label": "1",
+    "metric": 0
+  },
+  {
+    "goal": "Láti lè mọ̀ bóyá ìbẹ́pẹ ti pọ́n?",
+    "solutions": [
+      "Rọra tẹ awọ ara ìbẹ́pe náà",
+      "Rọra fi ìṣó gún ìbẹ́pẹ náà"
+    ],
+    "example_label": 0,
+    "reasoning": "Láti mọ̀ bóyá ìbẹ́pẹ ti pọ́n, àmọ́ràn tó dájú jùlọ ni láti rọrùn tẹ́ ẹ̀rù tàbí tan àyè tí ìbẹ́pẹ náà wà. Sísùn fi ìsọ́ gùn ìbẹ́pẹ le jẹ́ pé a ń tún kó ìbẹ́pẹ náà jẹ tàbí kó burú sí i, nítorí náà kò dájú gẹ́gẹ́ bí àbájáde tó lè fọ̀rọ̀ jẹ́.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "Lati se ẹyin, èwo nínú àwọn ìgbésẹ̀ wọ̀nyí ni ó yẹ kí o tẹ̀le?",
+    "solutions": [
+      "fi ẹyin sínu omi, gbé e ka ná, sì jẹ́ kí o se fun bi ìṣẹjú mẹ́wàá",
+      "fi ẹyin sínu òroró, gbé e ka ná, sì jẹ́ kí o se fun bi ìṣẹjú mẹ́wàá"
+    ],
+    "example_label": 0,
+    "reasoning": "Ẹyin yẹ kí a se é ní omi kí o má ba jẹ pé a fi ọra se é, torí pé lati se ẹyin ni ọna to yẹ, a maa fi omi se e, kii ṣe òroró. Fi ẹyin sínú omi ki o si jẹ ki o se fun igba diẹ ni ọna to dájú. Nítorí náà, ìṣedẹrẹ̀ ìgbesẹ̀ akọkọ (solution 0) dájú ju ìkejì lọ.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "Kíni à ń ṣe ní ayẹyẹ ìgbéyàwó?",
+    "solutions": [
+      "À ń mú inú ara wa dùn",
+      "À ń so ọkùnrin àti obìnrin papọ̀ láti di tọkọtaya"
+    ],
+    "example_label": 1,
+    "reasoning": "Àwọn méjèèjì dájú pé wọ́n kàn sí ìbéèrè náà, ṣùgbọ́n ìdáhùn kéjì dájú pé ó dájú jùlọ. Ní ayẹyẹ ìgbéyàwó, ohun pàtàkì ni kí a so ọkùnrin àti obìnrin papọ̀ láti di tọkọtaya, èyí ni àtúmọ̀ gidi ti ìgbéyàwó. Àmọ́ pé 'À ń mú inú ara wa dùn' jẹ́ nípa ìbáṣepọ̀ ayọ̀, ṣùgbọ́n kò hàn gbangba pé ńṣe ni ayẹyẹ ìgbéyàwó ń ṣe é. Nítorí náà, ìdáhùn kejì ni yóò dara jùlọ.",
+    "pred_label": "1",
+    "metric": 1
+  },
+  {
+    "goal": "Láti dín dídán ojú re kù ṣáaju yìya foto, ó da kí o",
+    "solutions": [
+      "fi èérú pa ojú àti ẹkẹ́ rẹ fẹ́rẹ́fẹ́",
+      "fi àtíkè pa ojú àti ẹkẹ́ rẹ fẹ́rẹ́fẹ́"
+    ],
+    "example_label": 1,
+    "reasoning": "Lati din didan oju ku ṣaaju yiyafoto, o yẹ ki a fi nkan ti o le dinku didan tabi tan ina loju oju naa. \"Èérú\" ko ni itumọ kedere ninu konteksti yii ati ko dabi wipe o jẹ nkan ti o maa n lo lati dinku didan oju. \"Àtíkẹ̀\" jẹ nkan ti a mọ̀ ni Yoruba gẹ́gẹ́ bi ohun tó lè wúlò fún àyíká ọwọ́ àti nkan tí a lè fi pa ojú di didan lati din didan silẹ, eyi ni o jẹ itumo to dara julọ fun ibeere yii. Nítorí náà, ojútùú kejì (fi àtíkẹ̀ pa oju àti ẹkẹ́ rẹ fẹ́rẹ́fẹ́) jẹ akọmọ́ra si idasilẹ yi.",
+    "pred_label": "1",
+    "metric": 1
+  },
+  {
+    "goal": "Òwe pípa wọ́pọ̀ láàárín àwọn wo?",
+    "solutions": [
+      "Ààrín àwọn Àgbàlagbà",
+      "Ààrín àwọn ọmọdé"
+    ],
+    "example_label": 0,
+    "reasoning": "Òwe jẹ́ apá pàtàkì ní àṣà Yorùbá tí a sábà máa ń tẹ̀síwájú láàrín àwọn àgbàlagbà ju lọ. Àwọn àgbàlagbà ló ní ìmọ̀ràn àti ìrírí tó péye nípa bí a ṣe máa lo òwe, kó lè dájú pé a túmọ̀ òwe náà dáadáa kí a sì lo ó ní ọ̀nà tó tọ́. Bí ó tilẹ̀ jẹ́ pé àwọn ọmọde lè mọ̀ọ́ kó òwe, àwọn àgbàlagbà ló sábà jùlọ ló ní pọ̀n dákẹ́ àtòòrùn òwe. Nítorí náà, wọ́n sábà máa ń pín òwe láàárín ara wọn, kí wọ́n lè dáàbò bò àṣà àti ọgbọ́n Yorùbá lọ́pọ̀lọpọ̀.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "Níbo ni àsìá máa ń kọ sí nígbà tí afẹ́fẹ́ ń fẹ́?",
+    "solutions": [
+      "Àsìá máa ń kọ sí ibi tí afẹ́fẹ́ ń lọ sí",
+      "Àsìá máa ń kọ sí ibi tí afẹ́fẹ́ ti wá."
+    ],
+    "example_label": 0,
+    "reasoning": "Ìbéèrè ń beere nípa ibì tí àsìá (ọ̀nà ìfọ́rọ̀wọ́ afẹ́fẹ́) ti máa ń kọ sí nígbà tí afẹ́fẹ́ ń fẹ́. Ní ọ̀rọ̀ àsìá, ó jẹ́ pé ó kọ sí abẹ́ jẹ́ tí afẹ́fẹ́ ń lọ sí, kó má bà a kọ́ fáàrán. Nítorí náà, àpẹẹrẹ tó péye jùlọ ni pé \"Àsìá máa ń kọ sí ibi tí afẹ́fẹ́ ń lọ sí\" (solution0) ju \"Àsìá máa ń kọ sí ibi tí afẹ́fẹ́ ti wá\" (solution1) lọ.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "Tí o ba fẹ́ gún iyán, kíni ó yẹ kí o kọ́kọ́ ṣe?",
+    "solutions": [
+      "Bẹ iṣu náà kí o sì sè é",
+      "Bẹ iṣu náà kí o sì gun láì sè é"
+    ],
+    "example_label": 0,
+    "reasoning": "Nígbà tí a bá fẹ́ gún iyán, ohun tí a máa ń ṣe lẹ́kọ̀ọ́kọ́ ni láti bẹ iṣu naa kí a tó gun. Kí a to fi se è, a gbọdọ̀ bẹ iṣu naa rí i pé òun ti dùn tàbí ti ṣètán fún ìgùn iyán. Nípa bẹ́ẹ̀ a máa n rí iṣẹ́ naa dáradára. Nítorí náà, ojútùú àkọ́kọ́ jẹ́ pé kí o bẹ iṣu naa kí o sì ṣe e. Ojútùú keji sọ pé kí o tètè gun láì bẹ iṣu naa, èyí tó bá jẹ́ pé kò bójútó àwọn ìlànà tó yẹ kí ó tẹ̀lé fún ìmúdára iṣẹ́. Nígbà tí ẹni tàbí agbẹ bá bẹ iṣu, wọn máa rí iṣẹ́ gún iyán dára ju tí wọn kí yóò bẹ́ẹ̀ lọ. Nítorí náà, ojútùú àkọ́kọ́ dara jùlọ.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "Tí ojú bá ń dun ènìyàn tí kò sì rína dáadáa , kí ni dókítà yóò pèsè fún un?",
+    "solutions": [
+      "Dígí ni dókítà yóò pèsè fún un",
+      "Awò ni dókítà yóò pèsè fún un."
+    ],
+    "example_label": 1,
+    "reasoning": "Nínú ìbéèrè náà, ojú ń dun ènìyàn tí kò rí ní dáadáa. Ní àṣà àti ìmọ̀ ilera, dígí (eyedrops) ni wọ́n sábà máa fi tán ojú tí ń dun tàbí tí kò rí dáadáa fún un, kó lè bọ́jú dánù tàbí mú kí ojú dà bíi pé ó túbọ̀ dùn. Awò (eyeglasses) ní wọ́n máa nlo fún ẹni tí kò rí dáadáa ní pátápátá, ṣùgbọ́n ojú tàbí ìrora ojú kì í ṣe ohun tí awò máa ṣe tán tàbí fún ìtúnjú lẹ́sẹ̀kẹsẹ̀. Nítorí náà, dígí ni dókítà yóò pèsè fún ènìyàn tá a ṣe àpẹẹrẹ yìí. Solution 0 ni yóò jẹ́ tóótọ́.",
+    "pred_label": "0",
+    "metric": 0
+  },
+  {
+    "goal": "Báwo ni a ṣe le gbẹ́ kàǹga fún amù lílò?",
+    "solutions": [
+      "A ó gbẹ ní òbìrìkìtì/òbírípo",
+      "A ó gbẹ ní onígun mẹ́ta"
+    ],
+    "example_label": 0,
+    "reasoning": "Àmọ̀ràn tó dájú jùlọ nípa bí a ṣe lè gbẹ́ kàǹga fún amù lílò ni pé kí a gbẹ́ kàǹga ní òbìrìkìtì tàbí òbírípo, torí pé ìtumọ̀ òbìrìkìtì tàbí òbírípo ni ibi tí ó ń dùnù, tí a ò ní fi owúfo sí, tí ó sì ní àfẹ́fẹ́ tó dáa tó lè mú kí kàǹga náà gbẹ́ ninú àkókò tó tó. Gbigbé kàǹga ní onígun mẹ́ta kò ṣe kedere tàbí kò ṣe àfihàn ibi tàbí ọ̀nà tó dájú fún gbigbẹ kàǹga. Nítorí náà, ìdáhùn-1 ni pípé ju.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "Kíni ohun tí a tún lè fi pọ́n ẹ̀bà nígbà tí kò bá sí ìgbákọ?",
+    "solutions": [
+      "a lè lo fìlà",
+      "a lè lo síbí"
+    ],
+    "example_label": 1,
+    "reasoning": "Àwọn àyọkà méjèèjì kò dájú tàbí kedere nípa ohun tí a lè fi pọ́n ẹ̀bà nígbà tí kò bá sí ìgbákọ. Àmọ́, kedere pé kò sí ìtúmọ̀ tí ó dájú tàbí àmúṣe lórí \"fìlà\" tàbí \"síbí\" gẹ́gẹ́ bí ohun tí a lè fi pọ́n ẹ̀bà, nítorí pé \"fìlà\" túmọ̀ sí \"scarf\" tàbí \"head tie\" àti \"síbí\" túmọ̀ sí \"place\" tàbí \"spot.\" Ẹ̀tọ̀ ọrọ̀ ní Yorùbá láti fi pọ́n ẹ̀bà jẹ́ ẹ̀ka tí ó ní bẹ̀rẹ̀ àti ìforúkọṣe, wọ́n sábà máa ń lo ìgbákọ̀ tàbí àwọn ohun èlò tí wọ́n ní ìpamọ́ tó dájú tàbí ti wọn lè fi darapọ̀ pẹ̀lú ẹ̀bà kí ó má bà á jẹ́ tàbí kí ó fọ́. Nítorí pé kò sí ìfarahàn nípa ìtúmọ̀ tí ó mọ́rírì nínú àwọn ojútùú méjèèjì, abinibi kedere ni pé ojútùú méjèèjì kò dájú, ṣùgbọ́n ojútùú 1 \"a lè lo fìlà\" wulẹ dájú díẹ̀ ju torí pé ó lè jẹ́ ìmúlò ní àfikún tàbí ẹ̀jẹ̀ tó lè dara (bí a ṣe rí fiìla ti ẹwà tó yí ká ní Yorùbá). Ojútùú 2 kò ní ìtúmọ̀ tó mọ́ nínú ìpinnu yìí.",
+    "pred_label": "0",
+    "metric": 0
+  },
+  {
+    "goal": "Kí ló máa ń ṣẹlẹ̀ sí omi tí a bá fi sínú ẹ̀rọ amóhuntutù?",
+    "solutions": [
+      "Omi náà yóò di yìnyín",
+      "Omi náà yóò di gbígbóná"
+    ],
+    "example_label": 0,
+    "reasoning": "Nígbà tí a bá fi omi sínú ẹ̀rọ àmohùntutù (fridge), omi náà máa dínà látàrí ìtósí ilẹ̀ kọ́lẹ́sì tó wà níbẹ̀, yóò sì di yìnyín (ice). Ẹ̀rọ àmohùntutù máa túbọ̀ mú kí omi náà dínà ju kí ó gbígbọ́nà lọ. Nítorí náà, ojútùú tí ó dájú ni pé omi náà yóò di yìnyín, kì í ṣe kó di gbígbọ́nà.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "Tí ìṣó ba n yọ lára tabili rẹ,",
+    "solutions": [
+      "fi ìkànṣo lù ú padà sínu tabili",
+      "fi ṣíbí lù ú padà sínu tabili"
+    ],
+    "example_label": 0,
+    "reasoning": "Àpẹrẹ ọ̀rọ̀ \"Tí ìṣó ba n yọ lára tabili rẹ\" túmọ̀ sí pé àárín tabili rẹ ń múra tàbí ń yọ́, ó sì fẹ́ kí a mọ̀ bí a ṣe lè dènà tàbí ṣe àtúnṣe rẹ. Nínú àwọn àṣàyàn méjèèjì, \"fi ìkànṣo lù ú\" túmọ̀ sí pé kí a fi ọwọ́ bà á kọ́kàn, ìyẹn sì rí bí fífi agbára àti ìtẹ̀sí gidi ṣe wúlò láti ṣe nkankan tó lè mú kí ààyè náà dákẹ́ tàbí padà dáadáa. \"fi ṣíbí lù ú\" tún túmọ̀ sí fí apá tàbí agbára kejì bà á, àmọ́ ọrọ̀ \"ṣíbí\" kò ṣòro láti mọ̀ tàbí kọ́ lára Yorùbá, kò sì dájú pé ó dájú tó. Nípa ìṣàkóso ẹ̀sìn àlàyé àti lílo ọ̀rọ̀ tí ó péye, \"fi ìkànṣo lù ú\" dára jùlọ fún fífi ọwọ́ ta tabi tu nkan tó n yọ lára tabili pada. Nítorí náà, ojútùú 0 ló dájú tó, tó sì dájú jùlọ nípa ọrọ Yorùbá àti ìlànà.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "Pàtẹ́wọ́ jẹ́ irú irun tí àwọn wo ń ṣe?",
+    "solutions": [
+      "Pàtẹ́wọ́ jẹ́ irú irun tí àwọn ọkùnrin ń ṣe",
+      "Pàtẹ́wọ́ jẹ́ irú irun tí àwọn obìnrin ń ṣe"
+    ],
+    "example_label": 1,
+    "reasoning": "Pàtẹ́wọ́ jẹ́ irú irun tí ó wọ́pọ̀ kí àwọn ọkùnrin máa ṣe ní agbègbè Yorùbá, nítorí pé irun fún obìnrin yàtọ̀ sí bẹ́ẹ̀, wọ́n máa ń ní irun gùn tàbí irun tí ó lè yàtọ̀. Nítorí náà, àpẹẹrẹ tó pé kó mọ ìbáṣepọ̀ ìran irun pàtẹ́wọ́ pẹ̀lú àwọn ọkùnrin ni.",
+    "pred_label": "0",
+    "metric": 0
+  },
+  {
+    "goal": "kíni ó yẹ kí́ o ṣe lẹ́yìn tí o ba lo ẹ̀ro agbálẹ?",
+    "solutions": [
+      "pa á, kí o sì tọju rẹ̀ sí ibi tí ó pamọ́",
+      "pa á, kí o sì tọju rẹ̀ sí ibi tí ó ṣí sílẹ̀"
+    ],
+    "example_label": 0,
+    "reasoning": "Ẹ̀ro àgbàlẹ̀ jẹ́ ohun èlò amúnibọnọ́ tó yẹ kí a pa tó bá ṣe tán, kí a sì tọju rẹ̀ níbi tó léwu tàbí tó pamọ́ kí kò bà a ṣe ni àǹfààní tó pọ̀n. Pa ẹ̀rọ àgbàlẹ̀ yẹn àti pípa a ni ọwọ́ jẹ́ ìṣe to dáa, àti pípa rẹ̀ sí ibì kan tó pamọ́ dájú pé kò ní fa ipalara tàbí rí ẹlòmíràn lẹ́nu. Ní ìdáhùn kìíní, wọ́n sọ pé kí o pa á kí o si tọju rẹ̀ sí ibi tí ó pamọ́, eyi sí dájú àti pé jẹ́ ìfọkànsìn tó péye jùlọ. Ní ìdáhùn kejì, wọ́n sọ kí o pa á kí o si tọju rẹ̀ sí ibi tí ó ṣi sílẹ̀, èyí kò dara bí ìdi rẹ̀ ṣe ṣeé ṣe kí ẹ̀rọ náà ní fífi hàn níta tàbí kó rọrùn fún ẹlòmíràn láti rí i. Nítorí náà, ìdáhùn kìíní kọ́ ló tó, ó sì dájú pé ìṣẹ̀lé rẹ̀ jẹ́ àyè tó dáa.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "Láti fọ àwọn aṣọ ìbora tí ó dọ̀tí,",
+    "solutions": [
+      "kó wọn sínu ẹ̀rọ ìfọṣọ, kí o da ọṣẹ àti omi sì i, kí o sì tanná si.",
+      "kó wọn sínu ẹ̀rọ ìlọta, kí o da ọṣẹ àti omi sì i, kí o sì tanná si."
+    ],
+    "example_label": 0,
+    "reasoning": "It is important to use the proper device for washing clothes. The first solution suggests using \"ẹ̀rọ ìfọṣọ\" (washing machine), which is the correct and specific term for a laundry or washing machine in Yoruba. The second solution uses \"ẹ̀rọ ìlọta\", which is not commonly used or recognized as a term for a washing machine. Therefore, the first solution is clearer, more accurate, and more culturally relevant for the goal of washing dirty clothes.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "Ki ni o le ṣe nígbà tí ìdọ̀tí bá kó sí ọ ní ojú?",
+    "solutions": [
+      "mo lè̀ fi ọwọ́ mímọ́ gbo ojú mi",
+      "mo lè̀ fi omi mímọ́ ṣan ojú mi"
+    ],
+    "example_label": 1,
+    "reasoning": "Nigba ti idoti ba ko si oju ni, ojutu to bojumu ni lati fi omi mimọ́ ṣan oju naa lati nu u ki o ma baa fa aisan tabi idibajẹ si oju naa. Fifi ọwọ́ mọ́ oju ko ma n mu idoti naa kuro daradara bayi bi lilo omi mimọ́ ṣe wulo. Nitorina, ọna keji ni o dara ju fun mimu oju mọ́ lẹsẹkẹsẹ.",
+    "pred_label": "1",
+    "metric": 1
+  },
+  {
+    "goal": "àgbétẹ́lẹ̀ tí o dára ju nígbà tí à bá fẹ́ lo ẹ̀rọ agbáwòrányọ ni",
+    "solutions": [
+      "ògiri funfun kan",
+      "ògiri dúdú kan"
+    ],
+    "example_label": 0,
+    "reasoning": "Àgbétẹ́lẹ̀ tí ó dára jù nígbà tá a fẹ́ lo ẹ̀rọ agbáwòrányọ jẹ́ ti ilẹ̀ tó mọ́, ilẹ̀ pẹlẹbẹ, tàbí ilẹ̀ tí kò ní ìrìnàjú kí ẹ̀rọ náà lè ṣiṣẹ́ dáadáa. Àwọn ìdáhùn méjèèjì sáná ni \"ògiri funfun kan\" àti \"ògiri dúdú kan,\" ṣùgbọ́n ẹni tí kò dájú pé ọgbọn àgbétẹ́lẹ̀ ní jẹ́ ogiri. Ẹ̀rọ agbáwòrányọ kò maa ń ṣiṣẹ́ lórí ogiri, bí kò ṣe ní ilẹ̀. Nítorí náà, àwọn àpẹẹrẹ tá a fún ni kò ráyè dájú àmúlò agbáwòrányọ tó péye. Bí kò ṣe bẹ́ẹ̀, kò sí ìmọ̀ tó pé jùlọ níbi nọ́nà ogiri tó yẹ fún agbáwòrányọ. Wọn yá kíláàsì méjèèjì kò bà a mu nípa àfikún àgbétẹ́lẹ̀ to dáa fún agbáwòrányọ. Nítorí wí pé kò sẹ́ni tó dáa jù lórí àsàyàn, míràn seé ṣe pé 1, ogiri dúdú le jẹ́ otítọ́ diẹ sí i bí ogiri dúdú sábà jẹ́ ilẹ̀ tó ní àpọ̀mú tàbí ọgbà, ṣùgbọ́n kò dájú pé ogiri kankan ni agbáwòrányọ máa ń lo.",
+    "pred_label": "1",
+    "metric": 0
+  },
+  {
+    "goal": "Láti pèsè Àmàlà fún oúnjẹ",
+    "solutions": [
+      "A nílò ọmọrogùn",
+      "A nílò ìjábẹ̀"
+    ],
+    "example_label": 0,
+    "reasoning": "Àmàlà jẹ onjẹ tí a ṣe pẹ̀lú àmàlà iyẹ́fun tí wọ́n ti ṣe àtọrẹ̀, àti ṣùgbọ́n kò ní ṣe pẹ̀lú ọmọrogùn tàbí ìjábẹ̀. Ọmọrogùn àti ìjábẹ̀ jẹ àwọn ohun èlò tàbí àwọn eroja tí kò tọ́ka sí ìpèsè àmàlà. Nítorí náà, kò sí ẹ̀yà nínú àwọn ojútùú méjèèjì tó dájú pé kó tó pé fún ìpèsè àmàlà, ṣùgbọ́n ìjábẹ̀ jẹ ìkan àwọn eroja tí wọ́n lè ṣe àfikún tàbí ṣe kóòdù jùlọ nínú àwọn ọjà tí a ń jẹ ní ilẹ̀ Yorùbá, nítorí náà ojútùú kejì (ìjábẹ̀) lààmúlò sílẹ̀ ju ọmọrogùn lọ.",
+    "pred_label": "1",
+    "metric": 0
+  },
+  {
+    "goal": "Ḱíni ó yẹ kí o ṣe lẹyìn tí o bá gé àlùbọ́sà?",
+    "solutions": [
+      "fọ ọwọ́ rẹ pẹ̀lú ọṣẹ àti omi",
+      "fọ ọwọ́ rẹ pẹ̀lú epo àti omi"
+    ],
+    "example_label": 0,
+    "reasoning": "Lẹ́yìn tí a bá gé àlùbọ́sà, ó yẹ kí a fọ ọwọ́ pẹ̀lú ọṣẹ àti omi láti mọ́ kíkọ àti kó gbogbo ìkórè àti òògùn tí ó wà nínú àlùbọ́sà tí ó lè dà bí irora tàbí ikọ́jú. Fífọ pẹ̀lú epo àti omi kò ṣàpẹẹrẹ ìlànà tó bójú mu fún wíwẹ ọwọ́ léyìn gé àlùbọ́sà. Nítorí náà, ojútùú àkọ́kọ́ ló dára ju.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "Kíni àwọn àgbẹ̀ fi maá ń kó ewé tàbí koríko papọ̀?",
+    "solutions": [
+      "wón maá ń lo ọkọ́ fi kó ewé tàbí koríko papọ̀",
+      "wón maá ń lo réèkì fi kó ewé tàbí koríko papọ̀"
+    ],
+    "example_label": 1,
+    "reasoning": "Àwọn àgbẹ̀ sábà máa ń lo ọkọ́ (ọkọ ayọkẹ́lẹ́) tàbí ohun irinṣẹ́ tí ó yẹ fún kó wọn, bẹ́ẹ̀ ni wọ́n lè lo ọkọ́ fún iṣẹ́ yìí. Ìsọ̀kan sí i, «réèkì» kò jẹ́ ohun tí wọ́n sábà máa ní lórí pọ̀ nípa iṣẹ́ kó ewé tàbí koríko. Nítorí náà, ojútùú tó dájú jùlọ ni 1 nípa fífojú tẹ̀síwájú ìbáṣepọ̀ ọ̀rọ̀ pẹlu àṣà àti ìṣe Yorùbá nípa ìṣé agbẹ.",
+    "pred_label": "0",
+    "metric": 0
+  },
+  {
+    "goal": "Ohun tí mo lè fí pọnmi lọ sí ilé-ìwẹ̀ ni",
+    "solutions": [
+      "Garawa ni màá lò láti pọnmi lọ sí ilé-ìwẹ̀",
+      "Ọ̀bẹ ni màá lò láti pọnmi lọ sí ilé-ìwẹ̀"
+    ],
+    "example_label": 0,
+    "reasoning": "Láti pọnmi lọ sí ilé-ìwẹ̀, ọ̀bẹ (àmọ̀rí ọjọ́) ni ohun èlò tó bójú mu jù lọ. Garawa jẹ́ ìyàrá tí a kì í lò láti pọnmi, nítorí pé kò ní ìfararọ́ tí ọ̀bẹ ní. Nítorí náà, ojútùú tó dájú jùlọ ni kíkó ọ̀bẹ.",
+    "pred_label": "1",
+    "metric": 0
+  },
+  {
+    "goal": "Báwo ni àwọn obìnrin ṣe ń gbé ọjà wọn tí wọn ba ń kiri ọjà?",
+    "solutions": [
+      "Wọn ma ń gbe lé orí ti wọ́n bá ń kiri ọjà",
+      "Wọ́n ma ń gbe lé èjìká tí wọ́n bá ń kiri ọjà"
+    ],
+    "example_label": 0,
+    "reasoning": "Ní àṣà Yorùbá, àwọn obìnrin ma ń gbe ọjà wọn lórí orí wọ́n nígbà tí wọ́n bá ń kiri ọjà. Ó jẹ́ àṣà tí wọ́n fi mọ̀ wọn gẹ́gẹ́ bí ìṣe ìbílẹ̀. Nítorí náà, ìdáhùn tó dara jùlọ ni pé wọ́n ma ń gbe ọjà wọn \"lé orí\" tí wọ́n bá ń kiri ọjà, kì í ṣe lé èjìká. Ìmúlò èjìká kì í wọ́pọ̀ gẹ́gẹ́ bí àṣà Yorùbá.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "Ataalẹ̀ jẹ́ èròjà fún oúnjẹ wo",
+    "solutions": [
+      "Iyán tí a fi iṣu ṣe",
+      "Ògì tí a fi bàbà tàbí àgbàdo ṣe"
+    ],
+    "example_label": 1,
+    "reasoning": "Ataalẹ̀ jẹ́ èròjà fún omi tí a ń pè ní ògì, tí a fi bàbà tàbí àgbàdo ṣe. Iyán tí a fi iṣu ṣe kò ní ìsọ̀kan pẹ̀lú ataalẹ̀ gẹ́gẹ́ bí èròjà.",
+    "pred_label": "1",
+    "metric": 1
+  },
+  {
+    "goal": "Kíni ó sábà máa ń wáyé ní iwájú ààfin ní alẹ́",
+    "solutions": [
+      "Eré ṣíṣe má ń sábà wáyé níwájú ààfin ní alẹ́",
+      "Ọjà alẹ́ ni ó sábà máá wáyé níwájú ààfin ní alẹ́"
+    ],
+    "example_label": 1,
+    "reasoning": "Ẹ̀rọ àṣà Yorùbá sábà máa ní àwọn ìṣe alẹ́ tó yàtọ̀. Ṣùgbọ́n nínú àwọn ìṣe wọ̀pọ̀, ìṣeré àti eré ayéyẹ, àti pẹ̀lú títà ọjà alẹ́, gbogbo rẹ̀ lè farahàn ní iwájú ààfin ní alẹ́. Bí ó tilẹ̀ jẹ́ pé ọjà alẹ́ lè wáyé ní àwùjọ kan, eré ṣíṣe ní kó kún fun ìtàn àti àṣà, ó sì tún sábà jọ pé kí wàáyé níbi agbára ọ̀ṣọ àwọn ìdílé. Nítorí náà, ìṣeré ṣíṣe dájú pé ó sábà máa wáyé ní iwájú ààfin ní alẹ́ jùlọ.",
+    "pred_label": "0",
+    "metric": 0
+  },
+  {
+    "goal": "Ẹ̀yà ara wo ni ko yẹ kí o fi ọwọ́ kan lẹ́yìn ti o ba lọ/rẹ́ ata?",
+    "solutions": [
+      "kò yẹ kí o fọwọ́kan ojú rẹ",
+      "kò yẹ kí o fọwọ́kan ọwọ́ rẹ"
+    ],
+    "example_label": 0,
+    "reasoning": "Ìbéèrè náà nípa ẹ̀yà ara tí kò yẹ kí a fi ọwọ́ kan lẹ́yìn ti a bá lọ tàbí ṣe ata (tàbí pá á) jẹ́ pé kì í ṣe kí a fọwọ́ kan ojú, àmọ́ kì í ṣe kí a fọwọ́ kan ọwọ́ tàbí ẹ̀yà ara míì. Nípa ìmọ̀ Yorùbá àti ìlànà ìlera, lẹ́yìn lílo ata tó lè ní ọwọ́ rẹ̀ lẹ́gbẹ, kò yẹ kí a fọwọ́ kan ojú nítorí pé ata lè fún iná tàbí ìrora lẹ́sùn-ojú. Àmọ́ fọwọ́ kan ọwọ́ jẹ́ ohun tó ṣẹlẹ̀ deede, ṣùgbọ́n ìtàn náà nípa kí a má fọwọ́ kan ojú rẹ̀ ṣe kedere. Nítorí náà, ìdáhùn tọ́ ni pé \"kò yẹ kí o fọwọ́kan ojú rẹ.\"",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "Kí ni a lè lò láti lọ aṣọ kí ó ba lè dán?",
+    "solutions": [
+      "Òkúta ni a lè lò",
+      "ẹ̀rọ Ìlọṣọ ni a lè lò"
+    ],
+    "example_label": 1,
+    "reasoning": "Láti lọ aṣọ kí ó ba lè dán, a máa n lo ẹ̀rọ ìlọṣọ (ìrọ̀rọ̀ ọjẹ́ tabi tẹ́ńpùrẹ́sà) tó jẹ́ ohun èlò tí a ṣe pàtàkì fún iṣẹ́ yìí. Òkúta kò bàa mu aṣọ dán, ó sì lè bà a jẹ́. Nítorí náà, èrò ìlọṣọ dájú jùlọ.",
+    "pred_label": "1",
+    "metric": 1
+  },
+  {
+    "goal": "Tí a bá fẹ́ ya irun ọmọ kékeré",
+    "solutions": [
+      "ó dára kí a farabalẹ̀ ya irun na pẹ̀lú àmúga.",
+      "ó dára kí a farabalẹ̀ ya irun na pẹ̀lú òǹyà"
+    ],
+    "example_label": 1,
+    "reasoning": "Nípa fífi àmúga jáwe irun ọmọ kékeré jẹ́ òtítọ́ tí ó dájú ju fífi òǹyà ṣe. Àmúga jẹ́ irinṣẹ́ tó péye fún yíya irun, kó sì ń ní ààbò tó yẹ fún irun àtàwọn irẹ̀pọ̀-ojú ọmọ kékeré, tí òǹyà sábà máa fa ìfarapa tàbí fa irun jáde látàrí bí ó ṣe ń ge ìlọ̀pò. Ní ìṣe Yorùbá àti ní ọ̀pọ̀ irú iṣẹ́ yíya irun, àmúga ni a máa ń lo. Nítorí náà, àmúga dájú pẹlu àwọn ọwọ́ pẹ̀lú nípa ìtọ́jú àti fọ́ránṣe tó tọ́ sí irun ọmọ kékeré.",
+    "pred_label": "0",
+    "metric": 0
+  },
+  {
+    "goal": "láti fọ aṣọ tó dọ̀tí",
+    "solutions": [
+      "mo lè lo ọṣẹ Ìfọṣọ",
+      "mo lè lo aró"
+    ],
+    "example_label": 0,
+    "reasoning": "Láti fọ aṣọ tó dọ̀tí, aṣáájú òfin ni láti lo ọṣẹ ìfọṣọ, tó jẹ́ ohun ìrànwọ́ pàtàkì fún fífi aṣọ jẹ́ mọ́. Àró (tabi awo ara) kì í jẹ́ ohun tí a lo fún fífi aṣọ wẹ̀, bí ó tilẹ̀ jẹ́ pé a lè lo àró fún fifi aṣọ le lẹ́yìn tí a bá ti fọ́. Nítorí náà, ojútùú tòótọ́ jẹ́ ohun tí ó sọ pé: \"mo lè lo ọṣẹ Ìfọṣọ.\"",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "Kíni iṣẹ́ agbẹ́gilére",
+    "solutions": [
+      "Wọ́n ma ń fọ̀ aṣọ",
+      "Wọ́n ma ń gbé igi láti sọ́ ọ di ère"
+    ],
+    "example_label": 1,
+    "reasoning": "Ìṣẹ́ agbẹ́gilére túmọ̀ sí iṣẹ́ èyí tí ó jọ mọ́ àtìlẹyìn tàbí ìmúlò igi tàbí ohun gbogbo tí ó ní ṣe pẹ̀lú fífi igi sọ́ ọ di ohun èlò tó lè jé ère. Nítorí náà, ànfàní tó dájú jùlọ ló wà nínú ìdáhùn kejì tí ó sọ pé wọ́n ma ń gbé igi láti sọ́ ọ di ère, tí ó dájú pé ó ni í ṣe pẹ̀lú ìṣe agbẹ́gilére. Ìdáhùn àkọ́kọ́, tí ó sọ pé wọ́n ma ń fọ̀ aṣọ, kò dájú tàbí mójú-mọ́jú pẹ̀lú ìtumọ̀ agbẹ́gilére àní kò ní ìbáṣepọ̀ pẹ̀lú igbá igi tàbí iṣẹ́ agbẹ́gilére. Nítorí náà, ìdáhùn tó dájú jùlọ ni ẹ̀ka kejì.",
+    "pred_label": "1",
+    "metric": 1
+  },
+  {
+    "goal": "Mo lè fi omi àgbọn",
+    "solutions": [
+      "fọ aṣọ ìbora mi",
+      "se ìrẹsì alagbọn"
+    ],
+    "example_label": 1,
+    "reasoning": "Ìbéèrè yìí yàtọ̀, ṣùgbọ́n \"fi omi àgbọ́n\" tàbí \"àgbọ́n\" jẹ́ nkan tí a máa n lo fún ọ̀pọ̀ àwọn àfojúsùn, pẹ̀lú rẹ̀ pé \"àgbọ́n\" lè túmọ̀ sí àmúsẹ̀, agbọn omi, tàbí àwọn ohun àjàgàbọ̀. Ní ọ̀nà to ṣeé ṣe é, ọ̀rọ̀ náà tọ́ka sí ohun tí a lè ṣe pẹ̀lú omi àgbọ́n, tó sì fi hàn pé à ń sọ nípa nkan tí a lè lo omi àgbọ́n fún un.\n\nÌdáhùn àkọ́kọ́ sọ pé: \"fọ aṣọ ìbòrà mi,\" èyí tó dá lórí lílo omi àgbọ́n fún ìfọ̀ aṣọ àtọmọdájú tàbí ìfọ̀ aṣọ; àmọ́ inú ìbéèrè kò ṣàfihàn pé omi àgbọ́n ni a máa lò fún ìfọ̀ aṣọ. \n\nÌdáhùn kejì \"ṣe ìrèṣì alàgbọ́n\" jẹ́ pé kí a ṣe ìrèṣì tí a gbìmọ̀ se sí i pẹlu omi àgbọ́n, tó lè jẹ́ pé àlàpọ̀ ọ̀nà àtìmọ̀ omi àgbọ́n nìyí.\n\nNíjọ kan, ìdáhùn kejì dájú ju torí pé omi àgbọ́n sábà máa lo fún àmọ̀nà ìrèṣì tàbí a fi hàn pé iṣe tá a ṣe lọ́wọ́ omi yìí jẹ́ amúnisìn ìrèṣì, nítorí náà \"ṣe ìrèṣì alàgbọ́n\" dájú dájú ni àdúrà.\n\nNítorí náà, ìdáhùn to dájú, tó dá lórí lílo omi àgbọ́n, ni solution 1.",
+    "pred_label": "1",
+    "metric": 1
+  },
+  {
+    "goal": "Ọ̀pá omi kan ń jò ní ilé ìdana rẹ",
+    "solutions": [
+      "fi tìmùtìmù dí ibi ti ó ń jò náà",
+      "fi téèpù wé ibi ti ó ń jò náà"
+    ],
+    "example_label": 1,
+    "reasoning": "Awọn ojutu mejeeji n tẹnumọ lori ọna lati dá omi duro ninu ile idana nipa lilo ohun elo kan lati bo ibi ti omi ti n jo. Sibẹsibẹ, ilana to dara ju ni lati lo tìmutìmù (\"tìmùtìmù\") eyiti o jẹ aṣayan to rọ ati ti o mu ki omi duro daradara, ju lilo tẹẹ́pù wè (\"téèpù\") lọ ti o le ma jẹ ki omi duro patapata ati pese ojutu igba diẹ nikan.",
+    "pred_label": "0",
+    "metric": 0
+  },
+  {
+    "goal": "Láti wọn nǹkan déédéé nínú ọjà, ọlọ́jà gbọ́dọ̀ ni kí ni?",
+    "solutions": [
+      "Ọlọ́jà gbọ́dọ̀ ni ẹ̀mú",
+      "Ọlọ́jà gbọ́dọ̀ ní òṣùwọ̀n"
+    ],
+    "example_label": 1,
+    "reasoning": "Láti wọn nǹkan déédéé nínú ọjà, ọlọ́jà gbọ́dọ̀ ní òṣùwọ̀n kí ó lè mọ iye tó yẹ kí ó ta tàbí rà. Ẹ̀mú kò ní í ṣeé lo fún ìwọn, nítorí pé ó lè túmọ̀ sí ohun àtọka omi tí kò ṣeé fi wọn nǹkan tó dájú. Nítorí náà, ojúlówó ọ̀nà láti wọn déédéé ni pípè ní òṣùwọ̀n.",
+    "pred_label": "1",
+    "metric": 1
+  },
+  {
+    "goal": "Níbo ni a máa ń di ajílẹ̀ sí ?",
+    "solutions": [
+      "Inú aṣọ ìwọ̀sùn ni a máa ń di ajílẹ̀ sí",
+      "Inú àpò ni a máa ń di ajílẹ̀ sí"
+    ],
+    "example_label": 1,
+    "reasoning": "Ajílẹ̀ jẹ́ ohun tí a ma n di níbi tá a lè pa á mọ́, tó sì dájú pé kò ní bàjẹ́ tàbí fò. Ní ilẹ̀ Yorùbá, òpọ̀ igba ni a ma n di ajílẹ̀ sínú àpò, bíi apoti tàbí àpò àṣọ, fún ìdáàbò bò ó kí àwọn ohun tó wà nínú rẹ̀ le wà ní ìpamọ́. Inú àpò jẹ́ ibi tó tọ́ sí ajílẹ̀ ju inú aṣọ ìwọ̀sùn lọ, nítorí aṣọ ìwọ̀sùn fún un rẹ̀ kò dájú pé yóò dájú òun ajílẹ̀.",
+    "pred_label": "1",
+    "metric": 1
+  },
+  {
+    "goal": "Kíni a lè lò sí ohun ọ̀gbìn kí o ba lè hù dáadáa?",
+    "solutions": [
+      "Ajílẹ̀ ni a lè lò sí ohun ọ̀gbìn",
+      "Èèpẹ̀ ni a lè lò sí ohun ọ̀gbìn"
+    ],
+    "example_label": 0,
+    "reasoning": "Àjílẹ̀ ni a mọ̀ sí ìkan nínú àwọn ohun èlò tí a lè fi ràn wọlé fún ọ̀gbìn fún àdánù tó wúlò, torí pé ó ní àwọn amúṣẹ́ agbára tí ó jọmọ fún ìdàgbàsókè ohun ọ̀gbìn. Èèpẹ̀ jẹ́ ohun tí kò wọpọ̀ tàbí tó kọ́gbọn látàrí àwùjọ Yorùbá látàrí fífi wọlé sí ọ̀gbìn. Nítorí náà, ojútùú àkọ́kọ́ jẹ́ tó dájú ju àti tó bójú mu fún ìbéèrè náà.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "Kí ló máa ń ṣẹlẹ̀ sí àsìá tí afẹ́fẹ́ bá fẹ́ lágbára?",
+    "solutions": [
+      "ó máa n mì tàbí kí ó fẹ́rẹ̀ẹ́ já láti ara igi",
+      "ó máa n dúró ṣinṣin, kò sì ní mì rárá"
+    ],
+    "example_label": 0,
+    "reasoning": "Àsìá, ní ìtumọ̀ Yorùbá, jẹ́ irú igi tí ń bàjẹ́ tàbí tí ń fa agbára afẹ́fẹ́. Nígbà tí afẹ́fẹ́ bá fẹ́ lágbára, àsìá ma ń mì tàbí kí ó fẹ́rẹ̀ẹ́ já láti ara igi torí pé agbára afẹ́fẹ́ máa ń mú kí orí igi tàbí àwọ̀ igi náà dìpọ̀, tàbí kí ó fọ́. Nítorí náà, àṣàyàn kékeré ṣeé ṣe kó rí dájú pé àsìá yóò dúró ṣinṣin kò sí ní mì rárá jẹ́ àìrẹ́tọ̀ òtítọ́ nípa agbára afẹ́fẹ́. Àṣàyàn àkọ́kọ́ ní ìtànkálẹ̀ àti ìtumọ̀ tó péye jùlọ.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "Yàtọ̀ sí ẹní, kí ni mo tún le fi sùn nínú yàrá",
+    "solutions": [
+      "Odó ni mo tún le fi sùn nínú yàrá",
+      "Ibùsùn ni mo tún le fi sùn nínú yàrá"
+    ],
+    "example_label": 1,
+    "reasoning": "Ọ̀pọlọpọ ìtúmọ̀ wa ti \"fi sùn nínú yàrá,\" ṣùgbọ́n nípa ìfọkànsìn àdúgbo Yorùbá àti ìtàn àṣà, ohun tí a máa \"fi sùn nínú yàrá\" ni ìbùsùn tàbí ibùsọ́ rẹ̀, èyí tó n jẹ́ kí ẹnì kọ́ túlù tàbí níbi láti sùn. Odó kò bójú mu gẹ́gẹ́ bí ohun tí a máa fi sùn nínú yàrá nitori pé odó jẹ́ ibi omi, kò sì wúlò fún ídàpọ̀ òòrùn ìbọ́rẹ̀ bí ìbùsùn. Nítorí náà, ìbùsùn jẹ́ aṣàyàn tó dájú tí a le fi sùn.",
+    "pred_label": "1",
+    "metric": 1
+  },
+  {
+    "goal": "Kíni a fi ń kọ oúnjẹ?",
+    "solutions": [
+      "Ìgbákọ ni a fi ń kọ oúnjẹ",
+      "À ń fi Igi kọ oúnjẹ"
+    ],
+    "example_label": 0,
+    "reasoning": "Ìbéèrè naa nípa ohun tí a fi ń kọ oúnjẹ. Lẹ́yìn ìtúpalẹ̀, ojútùú ẹ̀rùkẹ́ta ṣe àfihàn pé a fi ìgbákọ (ẹ̀rọ ìgbákọ) kọ oúnjẹ, tó bá jẹ́ pé a ń tọka sí ìgbákọ ìgbé oúnjẹ tàbí amáyédẹrùn tàbí ibi tí a fi ń tọ́jú oúnjẹ. Ẹ̀rọ ayélujára mi kò ní àfihàn tó dájú pé ó dájú pé a fi \"igi\" kọ oúnjẹ, nípa àdájọ́ àwọn ọrọ ìdánilójú. Nítorí náà, ojútùú tayọ̀ yẹ kí ó jẹ́ ojútùú kọ́kọ́, tí ó pé àti tó dájú.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "agbóhùnsáfẹ́fẹ́ rẹ ko ṣiṣẹ́, kíni kí o kọ́kọ́ ṣe?",
+    "solutions": [
+      "ríi dájú pé bọ́tìnì agbára tí wà ní títàn",
+      "ríi dájú pé bọ́tìnì ìdádúró tí wà ní títàn"
+    ],
+    "example_label": 0,
+    "reasoning": "Agbọ́hùnsáfẹ́fẹ́ jẹ́ ẹrọ tí ó máa ń gba ṣíṣe fún fífi ẹ̀rọ ayélujára (radio) tàbí ohun míì hàn. Bí agbọ́hùnsáfẹ́fẹ́ rẹ kò bá ṣiṣẹ́, kí o kọ́kọ́ ṣàyẹ̀wò bótìnì ìdádúró (switch) kí o rí i pé ó wà ní ipò títàn (on). Bí bóyá́ agbọ́hùnsáfẹ́fẹ́ náà kò bá jẹ́ pé bọ́tìnì ìdádúró wà ní títàn, kò ní ṣiṣẹ́. Ẹ̀rọ agbọ́hùnsáfẹ́fẹ́ lè ní bọ́tìnì ìdádúró tí ó yàtọ̀ sí bọ́tìnì agbára (volume). Nítorí náà, tó bá jẹ́ pé bọ́tìnì agbára (volume) wà ní títàn ṣùgbọ́n ìdádúró kò sí, agbọ́hùnsáfẹ́fẹ́ kọ́ ní ṣiṣẹ́. Nítorí náà, ojú ọna tó péye jùlọ ni lati ṣe ayẹwo bọ́tìnì ìdádúró (switch) kó tó bọ́ṣọ̀ọ́ gbígbọ nínú agbọ́hùnsáfẹ́fẹ́. Solution 2 sọ pé kí o rí i dájú pé bọ́tìnì ìdádúró wà ní títàn, eyi ló yẹ kí a kọ́kọ́ ṣe. Solution 1 sọ pé kí o ṣàyẹ̀wò bọ́tìnì agbára (volume) ṣùgbọ́n bọ́tìnì ìdádúrò ni ó ṣe pàtàkì jùlọ nínú bí agbọ́hùnsáfẹ́fẹ́ ṣe ń ṣiṣẹ́ tabi kọ́. Nítorí náà, solution 2 dáa ju solution 1 lọ.",
+    "pred_label": "1",
+    "metric": 0
+  },
+  {
+    "goal": "Kí ni ọ̀kan pàtàkì lára irinṣẹ́ aránṣọ?",
+    "solutions": [
+      "Ọmọrogùn jẹ ọ̀kan pàtàkì lára irinṣẹ́ aránṣọ",
+      "Abẹ́rẹ́ jẹ́ ọ̀kan pàtàkì lára irinṣẹ́ aránṣọ"
+    ],
+    "example_label": 1,
+    "reasoning": "Ìbéèrè náà nípa ohun pàtàkì kan nínú àwọn irinṣẹ́ aránṣọ, èyí tó jẹ́ kí a lè fún ní àyè àti ìṣètò ni àtọkànwá. Láàárín àwọn irinṣẹ́ aránṣọ, abẹ́rẹ́ (àpọn àti ohun èlò tí a fi ń gùn, ṣe àtúnṣe jẹùn kọ́tàá) ni a mọ̀ sí ọ̀kan lara irinṣẹ́ aránṣọ pàtàkì jùlọ. Ọmọrogùn kò jẹ́ irinṣẹ́ aránṣọ, àfi ṣe ẹni tí wọ́n jẹ́ ọmọ ọjọ́-ori nínú ibi àjọṣepọ̀ torí náà kò dájú pé ó tọ́ka sí irinṣẹ́ aránṣọ. Nítorí náà, àbọ́rẹ́ ni ojútùú tó dájú jùlọ fún ìbéèrè yìí.",
+    "pred_label": "1",
+    "metric": 1
+  },
+  {
+    "goal": "Yàtọ̀ sí owó, kíni atún le tọ́jú sí ilé ìfowópamọ́?",
+    "solutions": [
+      "Ohun àlùmọ́ọ́nì ni a tún le tọ́jú sí ilé ìfowópamọ́ sí yàtọ̀ sí owó",
+      "aṣọ ni a tún le tọ́jú sí ilé ìfowópamọ́ sí"
+    ],
+    "example_label": 0,
+    "reasoning": "Ìbéèrè náà ń bẹ̀rẹ̀ nípa kíni míì tí a lè tọ́jú sí ilé ìfowópamọ́ yàtọ̀ sí owó. Ọ̀pọ̀lọpọ̀ ilé ìfowópamọ́ máa ń tọ́jú owó àti àwọn ohun àmúṣọ̀rò, láàárín àwọn ohun wọ̀nyí ni ohun àlùmọ́ọ́nì lè jẹ́. Ìdí nìyẹn tí ìdáhùn kíní dájú pé ó ní ìbáṣepọ̀ pẹ̀lú ìbéèrè náà. Àmọ́ aṣọ kò wọ́pọ̀ láti jẹ́ ohun tí a tọ́jú sí ilé ìfowópamọ́; aṣọ máa ń tọ́jú ní ilé tàbí ilé-itànsíṣé, kì í ṣe ilé ìfowópamọ́. Nítorí náà, ìdáhùn kìíní dájú dájú ju ìkejì lọ nínú ìbámu pẹ̀lú ìbéèrè.",
+    "pred_label": "0",
+    "metric": 1
+  },
+  {
+    "goal": "Ohun pàtàkì tí a fi máa ń dá olóyè mọ̀",
+    "solutions": [
+      "Ni àdá ọrùn wọn",
+      "Ni ìlẹ̀kẹ̀ ọrùn wọn"
+    ],
+    "example_label": 1,
+    "reasoning": "Àdá ọ̀rùn kì í ṣe ohun tí a fi máa ń dá olóyè mọ̀ ní Yorùbá. Ẹ̀wẹ̀, ìlẹ̀kẹ̀ ọ̀rùn jẹ́ àpẹẹrẹ ohun àṣà àti àmì ìdílé àti ìbáṣepọ̀ tó jẹ́ pé àwọn olóyè àti àwọn ẹni rere ní agbègbè Yorùbá máa ń wọ̀. Níwọ̀n ìmọ̀ Yorùbá àti àṣà wọn, ìlẹ̀kẹ̀ ọ̀rùn ni a máa ń fi mọ olóyè. Nítorí náà, ojútùú kejì jẹ́ fífi àṣà àtàwọn ohun àmì dà bíi olóyè.",
+    "pred_label": "1",
+    "metric": 1
+  }
+]
