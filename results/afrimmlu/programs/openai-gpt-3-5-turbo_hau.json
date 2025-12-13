@@ -1,0 +1,40 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Task\n- You will be given:\n  - question: a multiple-choice question (often in Hausa).\n  - subject: the domain (e.g., high_school_geography, global_facts, high_school_microeconomics, international_law, elementary_mathematics).\n  - choices: a list of exactly four options in order.\n\nGoal\n- Select the single correct option from A–D.\n\nOutput format\n- Return ONLY one capital letter: A, B, C, or D.\n- Do not include the option text, numbers, brackets, quotes, punctuation, or any explanation.\n\nMapping\n- choices[0] = A\n- choices[1] = B\n- choices[2] = C\n- choices[3] = D\n\nLanguage and translation tips (Hausa → English)\n- al’umma = nation/people; ƙasa = state/country.\n- al’ummar da ba ta da ƙasa = stateless nation.\n- ba gaskiya ba = NOT true.\n- waɗanne = which.\n- kwanan nan = recently.\n- yarjejeniya = treaty.\n- canji mai mahimmanci na yanayi = fundamental change of circumstances.\n- ƙungiyar ƙasa da ƙasa = international organization.\n- mutumin doka = legal personality.\n- ƙasashe mambobi = member states.\n- bai wuce X ba / har zuwa X = does not exceed X (≤ X).\n- bai kai X ba / ƙasa da X = less than X (< X).\n- fiye da X = greater than X (> X).\n- fiye da ko daidai da X = ≥ X.\n- daidai da X = equal to X (= X).\n- ninki-nikin k = multiple of k.\n- rabon/abin da ya kasu da k ba tare da saura ba = divisible by k.\n\nApproach\n- Read the question carefully; identify qualifiers like NOT, EXCEPT, LEAST, “ba gaskiya ba,” “bai wuce ba,” etc.\n- Translate key Hausa terms to avoid mistakes.\n- Use elimination and domain knowledge to select the best answer among the four choices.\n- For quantitative/numeric questions, test each of the given choices against the stated conditions; do not invent numbers not mentioned in the prompt.\n- For time-bound questions (e.g., “as of 2020” or historical eras), use data appropriate to that time.\n- If multiple choices seem plausible, prefer the mainstream, widely accepted answer.\n\nDomain facts and references (useful for common topics)\n- Stateless nation example: Palestinians (Falasɗinu) are a stateless nation (vs. countries like Germany, Israel, Romania).\n- Global facts (as of 2020): About 40% of Sub-Saharan Africa lived on less than $1.90/day.\n- Latin America independence: Most Latin American countries gained independence in the early 19th century (A farkon karni na sha tara).\n- Perfect competition, long-run equilibrium (P = minimum ATC):\n  - True: productive efficiency; price equals minimum average total cost; zero economic profit; efficient allocation.\n  - NOT implied: “there are too many sellers.”\n- International law:\n  - Fundamental change of circumstances (rebus sic stantibus): A fundamental, unforeseen change that constituted an essential basis of consent can ground termination/withdrawal from a treaty.\n  - International organizations have distinct legal personality separate from member states; members do not automatically assume the organization’s debts/wrongs absent specific law/agreements.\n  - Invocation of responsibility by a non-injured state: permitted when obligations breached protect a collective interest (erga omnes) or obligations owed to a group of states as a whole (erga omnes partes).\n- Current affairs/geography example used previously: A question about “state-sponsored terrorism” occurring “recently” among options Rwanda, United States, Canada, Spain pointed to Rwanda.\n\nQuality checks before answering\n- Re-read the prompt to catch negations or exceptions.\n- Verify the intended choice’s index matches the output letter (0→A, 1→B, 2→C, 3→D).\n- Ensure the final output is exactly one of A, B, C, or D with no extra characters.\n\nCommon pitfalls to avoid\n- Do not output brackets, numbers, or explanations—only the letter.\n- Do not assume facts outside the prompt; for math/logic, evaluate the given choices against the stated conditions.\n- Do not confuse “bai wuce ba” (≤) with “bai kai ba” (<), or “ninki-nikin” (multiple) with “rabo” (divisibility) without checking context.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Subject:",
+          "description": "${subject}"
+        },
+        {
+          "prefix": "Choices:",
+          "description": "List of four answer options ordered as [A,B,C,D]."
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "Return exactly one letter in {A,B,C,D}, where A=choices[0], B=choices[1], C=choices[2], D=choices[3]."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

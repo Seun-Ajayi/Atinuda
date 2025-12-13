@@ -1,0 +1,40 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Task you will perform\n- Input fields:\n  - question: a multiple-choice question (often Swahili; sometimes English).\n  - subject: a topical tag (e.g., high_school_geography, global_facts, high_school_microeconomics, international_law, elementary_mathematics).\n  - choices: a list of four options in order. Map letters as: A=choices[0], B=choices[1], C=choices[2], D=choices[3].\n\nGoal\n- Select the single best option (A–D).\n\nHow to respond\n- Write a brief reasoning in the same language as the question (Swahili for Swahili prompts; English for English prompts).\n- Then give the final answer letter on its own line as just A, B, C, or D.\n- Be concise. No special formatting (no tables, no heavy markup).\n\nGeneral strategy\n- Read the question carefully, especially qualifiers like “SI sahihi” (NOT correct), “ni mfano wa” (is an example of), “ipime uhusiano” (measure relationship), “best/most likely,” etc.\n- Use definitions, standard textbook facts, and elimination to discard wrong choices.\n- If ratios or unit relations are given, treat them as conversion factors.\n- If options look oddly formatted (e.g., “18-Jan”), still map letters strictly by position.\n- Prefer widely accepted, mainstream facts and figures. If uncertain, choose the closest standard estimate.\n\nSubject-specific guidance and key facts\n\nHigh school microeconomics (perfect competition)\n- Price-taking firm: the firm’s demand curve is perfectly elastic (horizontal) at the market price.\n- For a perfectly competitive firm: P = MR = AR at all output levels. This is a key identifying property.\n- Profit maximization: occurs where MR = MC, but only at the optimum output, not “at all output levels.”\n- The firm’s demand curve is NOT the same as the market demand curve (market demand is downward sloping; firm’s is horizontal at P).\n- Long run: P = MC = min ATC; economic profits = 0; allocative efficiency (P=MC) and productive efficiency (at min ATC).\n- Common pitfall: Statements claiming “large seller concentration” or “firm’s demand equals market demand” are false in perfect competition.\n\nHigh school geography / human & political geography\n- Distance decay: interaction declines as distance increases. If the prompt stresses “mwingiliano hupungua kadri umbali unavyoongezeka,” pick distance decay.\n- Gravity model: interaction between two places increases with their “mass” (e.g., population/economic size) and decreases with distance; use when comparing flows between two centers/cities.\n- Stateless nation: a nation without a sovereign state (e.g., Palestinians, Kurds). States like Germany, Israel, Romania are not stateless.\n- Social patterns:\n  - Segregation (utenganisho): separation of groups by race/class/ethnicity in restricted areas.\n  - Assimilation: minority adopts dominant culture, losing distinctiveness.\n  - Pluralism/multiculturalism: minorities maintain distinct cultures while participating in the broader society. Wording like “vikundi vinaishi pamoja huku wakidumisha utamaduni wao wa kipekee” matches pluralism/multiculturalism, not segregation or assimilation.\n  - Intermarriage/miscegenation: “ndoa au mchanganyiko kati ya watu wa jamii tofauti.”\n\nGlobal facts\n- International extreme poverty line (World Bank, ~2020): $1.90/day.\n- Sub-Saharan Africa poverty (~2020): ~40% under $1.90/day (among choices 10/20/40/80, pick 40%).\n- Primary-school-aged children out of school in Sub-Saharan Africa (~2014): about 20% (choose 20% if options include 10/20/35/50).\n- When ranges are offered, prefer widely cited benchmark figures closest to these.\n\nInternational law (ICJ Statute Article 38)\n- Sources of international law: treaties (applicable and binding on the parties), international custom, general principles of law recognized by civilized nations; judicial decisions and teachings of publicists are subsidiary means.\n- Only treaties that apply and bind the disputing parties count under Article 38 (not “all treaties ever concluded”).\n\nElementary mathematics (ratios, units, reasoning)\n- Ratios can serve as conversion factors. If “tea spoons : table spoons = 3 : 1,” then 1 tablespoon = 3 teaspoons; 6 teaspoons = 2 tablespoons.\n- Watch for whether the ratio refers to conversion vs parts of a total. Avoid forcing fractional units unless implied by the context.\n\nQuality checks before finalizing\n- Confirm whether the question asks for the correct statement or the incorrect one (SI sahihi).\n- Ensure the selected letter matches the correct indexed choice (A first, B second, C third, D fourth).\n- Keep reasoning brief (1–3 sentences) in the question’s language.\n- Put only the final letter (A/B/C/D) on its own line after the reasoning.\n\nCommon pitfalls to avoid\n- Confusing gravity model with distance decay: if text emphasizes “interaction declines with distance,” choose distance decay.\n- Forgetting that in perfect competition, P = MR = AR (always), MR = MC only at the optimal output, and the firm’s demand curve is not the market demand curve.\n- Ignoring that under Article 38, only applicable, binding treaties count.\n- Mishandling ratios by not using them as conversion factors where appropriate.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Subject:",
+          "description": "${subject}"
+        },
+        {
+          "prefix": "Choices:",
+          "description": "${choices}"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "Return exactly one letter in {A,B,C,D}, where A=choices[0], B=choices[1], C=choices[2], D=choices[3]."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

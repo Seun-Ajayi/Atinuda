@@ -1,0 +1,40 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Task: Given a multiple-choice question with four options, select the correct option and output only its letter (A–D).\n\nInput format:\n- question: The prompt (may be in Yoruba or English).\n- subject: A topical label (e.g., global_facts, high_school_geography, international_law, elementary_mathematics).\n- choices: An array of exactly four strings. Map them as:\n  A = choices[0], B = choices[1], C = choices[2], D = choices[3].\n\nWhat to do:\n1) If the question is not in English (e.g., Yoruba), mentally translate it to ensure correct understanding. Do NOT output the translation.\n2) Use reliable, subject-appropriate knowledge and reasoning to determine the correct textual choice.\n3) Convert the correct textual choice to its corresponding letter by its position in the choices array.\n4) Output ONLY the single uppercase letter (A, B, C, or D).\n\nFormatting rules (must follow strictly):\n- Output ONLY one of: A, B, C, or D.\n- Do NOT include the option text, explanations, numbers, punctuation, or any extra words.\n- Ensure the letter exactly matches the position of the correct choice in the provided list.\n- No surrounding characters (no brackets, periods, spaces, or new lines beyond the single letter if the environment inserts one).\n\nSanity checks:\n- After identifying the correct textual option, double-check the mapping A=choices[0], B=choices[1], C=choices[2], D=choices[3] before outputting the letter.\n- If accents/diacritics cause minor mismatches, choose the semantically matching option.\n- If uncertain, make the best-informed selection and still output only the single letter.\n\nHelpful strategies:\n- Carefully parse key terms; for Yoruba items, pay special attention to negations like “kìí ṣẹlẹ̀” (does not occur), contrasts like “yàtọ̀ sí” (is distinct from), and qualifiers implying exceptions or conditions.\n- Use elimination among options that contradict well-known definitions or properties for the subject area.\n- For numeric/decimal operations, convert decimals to fractions or use place-value rules to verify equivalences.\n\nSubject-specific guidance and recurring facts:\n\nGlobal facts:\n- In 2017, which of these countries had the highest number of under-5 deaths? Among ['China', 'United States', 'Indonesia', 'Pakistan'] → Correct: Pakistan (option D).\n- In 1948, what percentage of Americans believed the Kinsey Report on male sexuality was a bad thing? Among ['92%', '64%', '27%', '11%'] → Correct: 11% (option D).\n\nHigh school geography (Yoruba):\n- “Èrò pé àwọn ènìyàn, láì ṣe àwùjọ, ni èmi tó ṣẹ̀da ìdàgbàsókè àṣà” corresponds to possibilism → choose the option labeled possibilism (e.g., option A in prior items).\n- For “Èwo nínú àwọn ìṣẹ̀lẹ̀ wọ̀nyìí ni kìí ṣẹlẹ̀ ní orílẹ̀-èdè [federal]?” the statement “Ìjọba àárín gbùngbùn ń darí orílẹ̀-èdè gẹ́gẹ́ bíi ọ̀kan ṣoṣo.” (Central government governs the country as a single unit) is a unitary-state feature and thus does NOT occur in a federal state → choose that option wherever it appears.\n- “Àwọn agbésùnmọ̀mí tí orílẹ̀-èdè ṣe onígbọ̀wọ wọn ti wáyé lọ́pọ̀lọpọ̀ ní èwo nínú àwọn orílẹ̀-èdè yìí?” → Rwanda is correct when listed among options (e.g., option A in a prior item).\n\nInternational law:\n- Customary international law forms from the combination of widespread and consistent State practice (usus) and opinio juris (a sense of legal obligation). Judicial decisions and scholarly writings are subsidiary means of determining rules. If an option states this combined view (including judges’ opinions as relevant/subsidiary), that is correct (e.g., as in option D in prior items).\n- Fundamental change of circumstances (rebus sic stantibus): A change that was an essential basis of the parties’ consent and was unforeseen can be invoked as grounds for terminating or withdrawing from a treaty. Options stating automatic invalidation or no effect are incorrect; the correct description is that it may serve as a ground for termination/withdrawal (e.g., option C in a prior item).\n- International organizations have a legal personality distinct from their member States. As a rule, member States are not automatically liable for the organization’s debts/obligations; the entity’s responsibility is separate (e.g., the correct choice: “Ẹni tí òfin dámọ̀ nínú ilé iṣẹ́ [ilé-iṣẹ́ ilẹ̀ òkèèrè] náà yàtọ̀ sí ti àwọn Ìpínlẹ̀ tí wọ́n jẹ́ ọmọ ẹgbẹ́ rẹ̀.” → option B in a prior item).\n\nElementary mathematics:\n- To rewrite a product of decimals without decimals: multiply as integers and divide by 10^(total number of decimal places). Example: 0.75 × 6.5 = (75 × 65) ÷ 1000 → choose that expression when offered.\n- Distributive expansions must reflect correct decomposition of both factors; if expansions seem off, prefer the exact decimal-place method.\n\nYoruba mini-glossary (to aid mental translation):\n- kìí ṣẹlẹ̀ = does not occur\n- ìjọba àárín gbùngbùn = central government\n- ètò ìjọba onípele-méjì = federal system (two-tier government)\n- òfin tó wà ní àkọsílẹ̀ = written constitution\n- ìpín ìpele-ìsàlẹ̀ = lower-level units (states/regions) with distinct powers\n- òfin àṣà (international_law) = customary international law\n- ìṣesí = (state) practice\n- títàn káàkiri = widespread\n- àṣetẹ̀léra = sense of obligation/opinio juris\n- èrò àwọn adájọ́ = judges’ opinions/judicial decisions\n- àyípadà ìpìlẹ̀ ìṣẹ̀lẹ̀ = fundamental change of circumstances (rebus sic stantibus)\n- ilé iṣẹ́ ilẹ̀ òkèèrè = international organization\n- ọmọ ẹgbẹ́ = member (of an organization)\n- yàtọ̀ sí = distinct from\n\nRemember: After deciding, output only the single uppercase letter corresponding to the correct option’s position.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Subject:",
+          "description": "${subject}"
+        },
+        {
+          "prefix": "Choices:",
+          "description": "List of four answer options ordered as [A,B,C,D]."
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "Return exactly one letter in {A,B,C,D}, where A=choices[0], B=choices[1], C=choices[2], D=choices[3]."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

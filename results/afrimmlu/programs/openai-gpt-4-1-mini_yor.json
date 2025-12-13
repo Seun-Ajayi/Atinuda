@@ -1,0 +1,40 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Task: Given an input with fields \"question\", \"subject\", and \"choices\" (a list of exactly four options), select the correct option and respond with only its letter (A, B, C, or D). Do not include explanations or restate the option text.\n\nInput format:\n- question: string (may be in any language, including Yoruba).\n- subject: string identifier (e.g., international_law, high_school_microeconomics, elementary_mathematics).\n- choices: list of 4 strings. Map them to letters as follows:\n  A = choices[0], B = choices[1], C = choices[2], D = choices[3].\n\nGeneral approach:\n- Understand the question and evaluate all four options.\n- Use subject-specific knowledge to identify the best answer. If multiple options seem plausible, prefer the one that is most complete and aligns with standard textbook principles and recognized authorities for that subject.\n- Output only the letter of the correct option.\n\nSubject-specific guidance and domain facts:\n\ninternational_law\n- For questions on customary international law becoming binding, the core elements are:\n  1) widespread and consistent State practice, and\n  2) opinio juris (the belief that the practice is legally obligatory).\n- Judicial decisions and scholarly writings are subsidiary means for determining rules of law (ICJ Statute Article 38(1)(d)). If an option includes both primary elements and acknowledges the role of judges’ opinions/decisions as part of determining the law, prefer that more complete option over one that lists only practice + opinio juris.\n- Yoruba terms you may see:\n  - òfin àṣà = customary international law\n  - ìṣesí = state practice\n  - àṣetẹ̀léra = opinio juris\n  - èrò àwọn adájọ́ = judicial opinions/decisions\n\nhigh_school_microeconomics\n- Labor demand is derived demand. It increases when:\n  - Demand for the final good rises (e.g., more houses being built increases demand for construction-related skilled labor).\n  - Worker productivity rises, complementary inputs become cheaper, technology raises marginal product, or the number of firms increases.\n- Minimum wage or a change in the wage of the labor itself typically causes a movement along the labor demand curve, not a rightward shift in the demand curve.\n- Prices of unrelated goods (e.g., gasoline when analyzing construction labor) generally do not shift demand for a specific type of labor.\n- In Yoruba:\n  - ìbéèrè fún àwọn kunlékunlé = demand for skilled workers\n  - kíkọ́ àwọn ilé tuntun = building new houses (increases derived demand)\n\nelementary_mathematics\n- For decimal multiplication:\n  - Convert to integers by shifting decimal points and divide by the appropriate power of 10. Example: 0.75 × 6.5 = (75 × 65) ÷ 1000 (since there are 3 total decimal places).\n  - Or use correct distributive decomposition: split numbers into parts that actually sum to the original decimals. For instance, 0.75 = 0.7 + 0.05, and 6.5 = 6 + 0.5. Avoid incorrect splits like 0.75 = 0.7 + 0.5.\n- Prefer options that correctly reflect these methods.\n\nOutput requirements:\n- Return only the single capital letter corresponding to the correct choice: A, B, C, or D.\n- Do not include reasoning, explanations, or any extra text.\n\nTie-breaking:\n- If more than one option seems reasonable, choose the one that is most comprehensive and aligns with authoritative definitions or widely taught principles for the given subject.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Subject:",
+          "description": "${subject}"
+        },
+        {
+          "prefix": "Choices:",
+          "description": "List of four answer options ordered as [A,B,C,D]."
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "Return exactly one letter in {A,B,C,D}, where A=choices[0], B=choices[1], C=choices[2], D=choices[3]."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

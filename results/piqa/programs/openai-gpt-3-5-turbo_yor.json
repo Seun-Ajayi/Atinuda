@@ -1,0 +1,36 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Task: Given a Yoruba goal (prompt/question/instruction) and two Yoruba candidate answers [solution_0, solution_1], choose the single better answer. Output exactly one character: 0 or 1. No explanations, no extra text.\n\nHow to decide\n\n1) Identify the goal type by its lead word(s):\n- “Ta ni / Tani / Àwọn wo ni” → WHO (a person/group)\n- “Kí ni / Kíni” → WHAT (definition/thing/tool)\n- “Báwo ni” → HOW (procedure/steps/safe practice)\n- “Níbo / Íbo” → WHERE (location/place)\n- “Èéloò” → HOW MANY/HOW MUCH (quantity)\n- “Ìgbàwo / Nígbà wo” → WHEN (time)\nRead the full sentence carefully; do not assume a different task. Match the exact intent of the Yoruba phrasing (e.g., “nu” = clean/remove, not dry; “gbẹ́” = dry).\n\n2) Evaluate both solutions on:\n- Correctness and relevance to the exact question type (who/what/how/where/quantity/time).\n- Directness and specificity (answers the question head-on).\n- Safety and best practice for procedures (“Báwo ni”).\n- Yoruba clarity and naturalness (complete, idiomatic wording; appropriate to the request).\n\n3) Preference rules:\n- Prefer the solution that directly and specifically answers the goal.\n- Prefer safe, standard best practices for procedures.\n- Prefer precise, factual statements over vague/off-topic content.\n- When both are substantively the same, prefer the one that:\n  • Mirrors the goal’s framing/context (e.g., repeats “ní ilẹ̀ Yorùbá” if present, or matches “fún ta ni” with a group).\n  • Is more natural/idiomatic/grammatically sound in Yoruba.\n- If both are wrong or unsafe, choose the less incorrect/safer option.\n- Ignore minor diacritic/punctuation differences if meaning is the same.\n- Do not reinterpret the scenario (e.g., do not turn a banking question into a stain-removal task).\n\n4) Domain-specific Yoruba facts and safety cues to use:\n- Banking/ATM:\n  • “Ẹ̀rọ-apọwó” = ATM. To withdraw money from an ATM, use “Kàádì ayọwó” (ATM/bank/debit card), not “Kàádì ìdánimọ̀” (ID card).\n- Audio/speakers:\n  • “Agbọhunsáfẹ́fẹ́” = speaker. To avoid disturbing neighbors, reduce volume: “Dín ìwọ̀n dídùn sí ìpele kékeré” (low), not to a high level.\n- Laundry/drying:\n  • “Ẹ̀rọ ìfọṣọ” = washing machine (spin helps clothes dry faster). “Ẹ̀rọ ìfọbọ” = bleach/whitener, not for drying clothes.\n  • For making washed clothes dry quickly, prefer tools/actions that aid drying (spin/dryer/fan/sun), not bleaching agents.\n- Yoruba cooking (ewédú soup):\n  • Common add-ins: “kàun” (potash), “iyọ̀” (salt), “irú” (locust beans) are appropriate.\n  • “Aró” is dye/indigo and not edible; do not select answers listing “aró.” Okra is “ilà,” not “aró.”\n- Drums: “Ìyá ìlù” (mother drum) is the largest/lead drum; “Sákárà” is not the largest.\n- Farm protection: “Pàńpẹ́” (scare device/scarecrow) protects farms; “idà” (sword) is not typical for that.\n- Food safety: Do not advise putting hot food directly into a refrigerator; allow food to cool first.\n- Road crossing: Look for oncoming vehicles, stop, and cross safely; closing eyes or ignoring traffic is unsafe.\n- Kitchen/tools: Prefer plausible, task-appropriate tools (e.g., kitchen knife over cutlass for food prep).\n- Cleaning shoes/dirt removal: Using water and a brush/cloth is correct; wiping with bare hands is less hygienic/effective.\n- Sports: “Eré ìdárayá” (sports) is for everybody, not only men.\n\n5) Ties and edge cases:\n- If both answers are acceptable, choose the clearer/more idiomatic one that best matches the question’s structure.\n- If both are unacceptable, pick the less harmful/more reasonable one.\n- Pay attention to context clues and common collocations (e.g., tools that actually operate the named device or accomplish the action).\n\nOutput format: Return only 0 or 1 (no spaces, no newlines, no extra text).",
+      "fields": [
+        {
+          "prefix": "Goal:",
+          "description": "Natural-language description of the goal or intent to achieve."
+        },
+        {
+          "prefix": "Solutions:",
+          "description": "List [solution0, solution1] with two candidate ways to achieve the goal."
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Label:",
+          "description": "Return '0' if solution0 is better, '1' if solution1 is better."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

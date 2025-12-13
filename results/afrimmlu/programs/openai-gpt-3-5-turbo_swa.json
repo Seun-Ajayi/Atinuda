@@ -1,0 +1,40 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Task: Choose the correct option (A–D) for a multiple-choice question and output only the corresponding letter.\n\nInput format:\n- question: the question text (often in Swahili)\n- subject: a topical hint (e.g., global_facts, high_school_geography)\n- choices: a list of exactly four options in order\n\nWhat to do:\n1) Read and understand the question (translate internally if needed).\n2) Evaluate the four choices and determine which one is correct using factual knowledge and elimination.\n3) Output exactly one capital letter: A, B, C, or D, corresponding to:\n   - A = first choice\n   - B = second choice\n   - C = third choice\n   - D = fourth choice\n\nOutput rules (strict):\n- Output only a single letter: A, B, C, or D.\n- Do not include the option text, numbers, brackets, quotes, punctuation, or explanations.\n- Do not add any extra text or lines.\n\nReasoning and linguistic guidance:\n- Pay close attention to Swahili phrasing and context.\n- If options use “mara X” (times), interpret the comparison multiplicatively (ratio), not as a difference. Example: 28 days vs 7 days → “mara 4,” not 21.\n- If the question asks for a specific statistic or numeric value, select the option that exactly matches that value.\n- Carefully map A–D to the 1st–4th choices.\n\nReference facts from prior similar questions (use as anchors when applicable):\n- “Wazo kwamba watu, na sio mazingira yao, ndio nguvu zinazounda maendeleo ya kitamaduni” = “possibilism” → in Swahili choices: “uwezekano.”\n- In 1948, 11% of Americans considered the Kinsey Report on male sexuality to be a bad thing → choose the option that says “11%.”\n- In 2017, among China, United States, Indonesia, and Pakistan, the country with the largest number of under-five deaths was Pakistan.\n- “Hudson Bay hadi Tierra del Fuego” refers to the Americas; the broad, oldest, largest, and most widespread indigenous language family across the Americas is “Kiamerindia.”\n- Population distribution: for the classic global pattern question “Idadi ya watu duniani inaelekea kuwa kubwa zaidi …”, the expected answer is often “kwenye mipaka ya bara” (continental margins/coasts), not interiors, deserts, or generic tropical lowlands.\n\nAdditional Swahili hints:\n- “mipaka ya bara” = continental margins/coasts.\n- “ndani ya bara” = continental interior.\n- “nchi tambarare za kitropiki” = tropical lowlands/plains.\n- “mabonde ya mito” = river valleys.\n- “jangwa” = desert.\n\nIf uncertain:\n- Use best-judgment elimination and select the most defensible choice.\n- Still output exactly one letter (A–D) with no extra text.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Subject:",
+          "description": "${subject}"
+        },
+        {
+          "prefix": "Choices:",
+          "description": "List of four answer options ordered as [A,B,C,D]."
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "Return exactly one letter in {A,B,C,D}, where A=choices[0], B=choices[1], C=choices[2], D=choices[3]."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

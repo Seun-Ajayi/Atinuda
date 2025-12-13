@@ -1,0 +1,40 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "You will receive one task input with:\n- question: a multiple-choice prompt (often in Hausa).\n- subject: the domain (e.g., high_school_microeconomics, elementary_mathematics, global_facts).\n- choices: an array of four options, ordered as [A, B, C, D].\n\nYour job:\n- Select the single correct option (A–D) from the given choices.\n- Return exactly two fields:\n  - reasoning: a brief, stepwise justification (1–4 sentences) showing how you arrived at the choice.\n  - answer: the single letter A, B, C, or D.\n\nGeneral method:\n- Read the question carefully. If it’s in Hausa, mentally translate key terms before solving.\n- Solve or identify the concept first, then map your solution/concept to the correct option.\n- Map letters to choices by index: A -> choices[0], B -> choices[1], C -> choices[2], D -> choices[3].\n- Keep the reasoning concise and focused on the decisive step(s). Do not quote or paraphrase the option text.\n\nElementary mathematics guidance:\n- Identify the required operation from context words:\n  - Addition (64 + 8): combining counts of different things (e.g., “da … da …” = “and … and …”), “jimla/duk” (total).\n  - Subtraction (64 − 8): removal language (e.g., “an cire 8” = 8 removed).\n  - Multiplication (64 × 8): repeated groups (e.g., “a kowace/kowane …” = each/per; number of groups times items per group).\n  - Division (64 ÷ 8): equal sharing/partition (e.g., “ya raba daidai tsakanin …” or “ya sanya daidai akan kowane … 8” = distributed equally among 8).\n- Solve equations by isolating the variable; be careful with signs and decimals.\n- After computing, ensure your result matches exactly one of the listed choices (including sign). If nothing matches, re-check arithmetic.\n- Interpreting Hausa keywords:\n  - “a kowace/kowane” = each/per (often multiplication if groups and per-group count are given).\n  - “an cire” = removed (subtraction).\n  - “da … da …” listing counts of different items to be combined (addition).\n  - “daidai ga kowane/akan kowane … 8” = equal amount on each of 8 (division).\n  - “kashi nawa” = what percent.\n\nHigh school microeconomics guidance:\n- Externalities:\n  - Negative externality in production: impose a Pigouvian tax (on producers) equal to marginal external cost at the socially optimal quantity.\n  - Positive externality: use a subsidy to increase output toward the social optimum.\n  - Do not choose “shut down industry” for efficiency restoration in standard models.\n- Hausa term hints (concept mapping):\n  - “haraji” = tax; “Sanya haraji” = impose a tax.\n  - “tallafi” = subsidy.\n  - “rufe masana’anta” = shut down/close the industry.\n  - “kyakkyawan yanayi” ≈ efficient/welfare-maximizing outcome (social optimum).\n  - Diminishing marginal utility: look for phrasing like “ƙarin gamsuwa … ya ragu” (additional satisfaction decreases). Among options, “disashewar matsakaicin tattali” is typically intended to denote diminishing marginal utility in these items.\n  - Production/productivity terms:\n    - “samarwa” = production (e.g., “dusashewar matsakaicin samarwa” = diminishing average product; not utility).\n    - “ƙaruwar …” = increasing; “dusashewa/disashewa” = diminishing/decreasing.\n- Prefer the exact textbook remedy (Pigouvian tax for negative externality; subsidy for positive) over vague fines/regulations when asked to “restore efficiency.”\n\nGlobal facts:\n- As of 2017, total global health expenditure was about 10% of world GDP. If this specific statistic is asked, select 10%.\n\nQuality checks before answering:\n- Confirm the operation or concept indicated by keywords in Hausa.\n- Compute or identify the exact concept, then align with the choice whose content matches precisely (not the “closest-sounding” term).\n- Verify letter-to-index mapping: A=0, B=1, C=2, D=3.\n\nOutput format (no extra text or option content):\n- reasoning: <brief explanation>\n- answer: <single letter A–D>",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Subject:",
+          "description": "${subject}"
+        },
+        {
+          "prefix": "Choices:",
+          "description": "${choices}"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "Return exactly one letter in {A,B,C,D}, where A=choices[0], B=choices[1], C=choices[2], D=choices[3]."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

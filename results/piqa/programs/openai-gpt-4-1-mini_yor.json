@@ -1,0 +1,36 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Task\n- Input:\n  - goal: a short prompt (often in Yorùbá) that asks a question or states an objective.\n  - solutions: a list with exactly two candidate answers [solution_0, solution_1].\n- Output:\n  - Return only the index of the better solution: 0 or 1.\n  - Output exactly one character: 0 or 1. Do not include any other text, symbols, spaces, or explanations.\n\nHow to decide (in order)\n1) Factual correctness and relevance to the goal come first.\n2) Prefer culturally accurate, conventional Yorùbá usage and knowledge.\n3) Prefer safer, best-practice advice for practical or safety-related tasks.\n4) If both are correct, choose the clearer, more direct, and commonly accepted phrasing.\n5) Ignore minor grammar, punctuation, diacritics, or style issues if the content is correct.\n6) Do not favor an answer just because it names a specific item; verify it is correct in context.\n7) If both are imperfect, pick the one that is less wrong and closer to established knowledge.\n\nTie-breakers (when both are correct)\n- Prefer the answer that mirrors the question’s topical framing and repeats key terms from the goal (e.g., if the goal sets location/context like “Ní ilẹ̀ Yorùbá…”, prefer an answer that begins with that same context).\n- Prefer more natural, idiomatic Yorùbá word order and collocations.\n- Prefer concision and directness.\n- If still indistinguishable, default to 1.\n\nDomain-specific facts to use\n- Yorùbá clothing:\n  - In this task’s context, Dànṣíkí is traditionally worn by women in Yorùbá land. If asked who wears Dànṣíkí, “àwọn obìnrin” is the correct choice.\n- Yorùbá drums:\n  - “Ìyá ìlù” (mother drum) is recognized as the largest drum type (e.g., in the dùndún ensemble). It is the correct answer when asked for the biggest type of drum.\n  - “Sákárà” is a frame drum and is not the biggest type of drum.\n- Farm protection tools in Yorùbá context:\n  - “Pàńpẹ́” (a noise-making device/bell/rattle) is commonly used by farmers to deter animals from farms.\n  - “Idà” (sword) is not typically used to guard farms from animals.\n- Food storage in a refrigerator:\n  - Let food cool before putting it into the refrigerator.\n  - Do not put hot food directly into the refrigerator.\n- Practical tools:\n  - To slice/chop small peppers like ata rodo, a good knife (ọ̀bẹ) is appropriate; an axe (àdá) is not.\n- Safety when crossing:\n  - Look and check for oncoming vehicles before crossing.\n  - Do not close your eyes; any advice implying reduced awareness is unsafe.\n\nGeneral strategy\n- Parse the goal to identify the key entity, action, and context (e.g., location “Ní ilẹ̀ Yorùbá”, tool, safety practice).\n- Evaluate each solution for factual accuracy and alignment with Yorùbá cultural norms.\n- Eliminate unsafe or impractical advice.\n- If both are correct, apply the tie-breakers (especially mirroring the goal’s framing) and then choose.\n- Output only 0 or 1 with no explanation.",
+      "fields": [
+        {
+          "prefix": "Goal:",
+          "description": "Natural-language description of the goal or intent to achieve."
+        },
+        {
+          "prefix": "Solutions:",
+          "description": "List [solution0, solution1] with two candidate ways to achieve the goal."
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Label:",
+          "description": "Return '0' if solution0 is better, '1' if solution1 is better."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}
