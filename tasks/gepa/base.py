@@ -148,7 +148,7 @@ class BaseTask(ABC):
         
         # Load dataset
         print("Loading dataset...")
-        train_set, val_set, test_set = self.load_dataset()
+        train_set, val_set, test_set = self.init_dataset()
         print(f"Train: {len(train_set)}, Val: {len(val_set)}, Test: {len(test_set)}")
         
         # 1. Create program
