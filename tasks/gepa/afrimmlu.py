@@ -12,8 +12,8 @@ from base import BaseTask, _parse_str_list
 class AfriMMLUTask(BaseTask):
     """AfriMMLU multiple choice task."""
     
-    def __init__(self, model_name: str, lang: str, api_key: str, **kwargs):
-        super().__init__(model_name, lang, api_key, **kwargs)
+    def __init__(self, model_name: str, lang: str, api_key: str, max_tokens: int, **kwargs):
+        super().__init__(model_name, lang, api_key, max_tokens, **kwargs)
         self.dataset_name = "masakhane/afrimmlu"
     
     def init_dataset(self) -> Tuple[List[dspy.Example], List[dspy.Example], List[dspy.Example]]:
@@ -134,6 +134,7 @@ if __name__ == "__main__":
     parser.add_argument("--model", type=str, required=True, help="Model name (e.g., openai/gpt-4o-mini)")
     parser.add_argument("--lang", type=str, required=True, help="Language code (e.g., yor, hau, swa)")
     parser.add_argument("--output-dir", type=str, default="./results/afrimmlu", help="Output directory")
+    parser.add_argument("--max-tokens", type=int, default=32000, help="Maximum Tokens")
     
     args = parser.parse_args()
     
@@ -146,10 +147,11 @@ if __name__ == "__main__":
     task = AfriMMLUTask(
         model_name=args.model,
         lang=args.lang,
-        api_key=api_key
+        api_key=api_key,
+        max_tokens=args.max_tokens
     )
     
-    output_dir = f"{args.output_dir}/{args.model.replace('/', '-')}/{args.lang}"
+    output_dir = args.output_dir
     summary = task.run_full_pipeline(output_dir)
     
     print("\n✅ Evaluation complete!")

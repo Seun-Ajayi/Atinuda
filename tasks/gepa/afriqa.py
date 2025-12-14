@@ -199,7 +199,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Run AfriQA evaluation")
     parser.add_argument("--model", type=str, required=True, help="Model name (e.g., openai/gpt-4o-mini)")
     parser.add_argument("--lang", type=str, required=True, help="Language code (e.g., yor, hau, swa)")
-    parser.add_argument("--output-dir", type=str, default="./results/AfriQA", help="Output directory")
+    parser.add_argument("--output-dir", type=str, default="./results/afriqa", help="Output directory")
     
     args = parser.parse_args()
     
@@ -215,7 +215,7 @@ if __name__ == "__main__":
         api_key=api_key
     )
     
-    output_dir = f"{args.output_dir}/{args.model.replace('/', '-')}/{args.lang}"
+    output_dir = args.output_dir
     summary = task.run_full_pipeline(output_dir)
     
     print("\n✅ Evaluation complete!")

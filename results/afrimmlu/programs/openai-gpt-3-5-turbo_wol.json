@@ -1,0 +1,40 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Task: Multiple-choice question answering with strict, single-letter output.\n\nInput format:\n- question: The prompt to answer. It may be in languages other than English (notably Wolof).\n- subject: A topical tag (e.g., global_facts, high_school_geography). It can provide context but does not change the output format.\n- choices: An array of exactly four answer options in order.\n\nYour job:\n1) Read and understand the question (translate internally if needed; Wolof may appear).\n2) Evaluate the four choices using general knowledge and context to determine the correct one.\n3) Map the choices to letters exactly as follows:\n   - A → choices[0]\n   - B → choices[1]\n   - C → choices[2]\n   - D → choices[3]\n4) Output only the single capital letter A, B, C, or D corresponding to the correct option.\n\nOutput rules (strict):\n- Output must be exactly one of: A, B, C, or D.\n- Output only the letter. Do NOT include the answer text, numbers, indexes, brackets, quotes, labels, punctuation, or any explanation/reasoning.\n- Put only the single uppercase letter on its own (no spaces or extra characters).\n- Do not add “reasoning” or any other fields; return only the letter.\n- If uncertain, choose the most plausible option.\n\nGeneral strategy:\n- Translate/interpret non-English (e.g., Wolof) internally; do not output translations.\n- Use the subject as a contextual hint only.\n- Use elimination and domain knowledge to identify the best option.\n- Double-check mapping from the chosen option text to the A–D letter.\n- When dealing with calendar/elapsed time:\n  - A week has 7 days; number of full weeks in a period = total days ÷ 7.\n  - February with 28 days has exactly 4 full weeks.\n\nWolof/formatting notes:\n- Wolof items may use comma as decimal separator (e.g., 0,75 = 0.75).\n- Accented characters (ñ, ë, à) are common; focus on meaning, not spelling variants.\n\nDomain-specific notes and known correct facts (select the letter corresponding to the option text listed):\n- Kinsey’s 1948 report on male sexuality in the U.S. → “11%”.\n- 2017 country with the highest number of under-five deaths among [China, United States, Indonesia, Pakistan] → “Pakistan”.\n- Wolof philosophy/anthropology: evaluating customs within their own context → “tërëlin wu mën a nekk” (cultural relativism).\n- Wolof geography: “Ban ci dëkk yii mooy misaalu dëkk bu amul nguur?” → “Palestine”.\n- Global facts: “Ca 2020, bann xayma la nit ñi nekk Afrique sawu jànt di dundaat ak lu yées 1,90$ ?” → “40%”.\n- Wolof microeconomics item beginning “bu fekke ni njëg li gëna néew dafa toollo ak benn njëg si jàbba yijaay ay meeññeef…” → “ab mbir biy wane ni dajaloog jaaykat bu am solo”.\n- Elementary mathematics (decimal product equivalence): “0,75 × 6,5 = ?” expressed as an exact integer product/division → “75 × 65 ÷ 1,000”.\n- Wolof high_school_geography: “Ban ci doxalin yii moo méngoowul ak doxalin Réewum lëkkëloo?” → “Nguurug lëkkële gi dafa jiite dëkk bi ne wenn say”.\n- International law (Wolof): “Yan ñooy mbir yu mënul a ñàkk yi ngir moolinu ab sàrtu yoonu aada ?” → “ñaari mbiri jëf ju wasaaro te sax bu nguur gi ak xalaatu wéy-àtte yi soxla nanu leen”.\n- High_school_geography (Americas, language families): “Lan mooy njàbootug làkk bu gën a yàgg, bu ëpp solo te gën a wër ci Hudson ba ca Terre de Feu ?” → “Amérindien”.\n- Population distribution (Wolof): “Askanu àdduna si danuy faral di dajaloo” → “ci wetu ndayi-dëkk yi”.\n- Elementary mathematics/calendar (Wolof): “Weeru fewirye 28i fan la at mii... ñaata yoon la bés yi nekk ci ayu-bés bi di feeñ ci biir weeru fewirye ?” → “4i yoon”.\n\nQuality checks before submitting:\n- Have you correctly interpreted the question (including Wolof/decimal notation)?\n- Have you matched the correct option using the domain notes when applicable?\n- Have you mapped the chosen option to the correct letter (A–D)?\n- Are you outputting only one capital letter (A/B/C/D) with no extra characters, no reasoning, and no additional fields?",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Subject:",
+          "description": "${subject}"
+        },
+        {
+          "prefix": "Choices:",
+          "description": "List of four answer options ordered as [A,B,C,D]."
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "Return exactly one letter in {A,B,C,D}, where A=choices[0], B=choices[1], C=choices[2], D=choices[3]."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

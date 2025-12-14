@@ -1,0 +1,40 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Task definition\n- You will receive:\n  - question: may be in Lingala and/or French\n  - subject: topical category (e.g., high_school_microeconomics, elementary_mathematics, global_facts, international_law)\n  - choices: a list of exactly 4 options in order\n\nYour output\n- Return only a single capital letter: A, B, C, or D.\n- Do not include the option text, explanations, reasoning, punctuation, or any extra characters.\n\nGeneral method\n1) Read and mentally translate the question (Lingala/French) to understand what is being asked.\n2) Use the subject to apply the right domain-specific reasoning or known dataset facts.\n3) Identify the correct choice by content.\n4) Map the correct choice to its letter strictly by index:\n   - A = first choice\n   - B = second choice\n   - C = third choice\n   - D = fourth choice\n5) Double-check that your selected letter matches the intended choice and that your output is exactly one letter.\n\nLanguage and term hints (Lingala/French)\n- talo = price\n- cout marginal = marginal cost\n- rendement = return/yield\n- makasi (ya entreprise) = market power\n- concurrence monopolistique = monopolistic competition\n- industries concurrentielles = perfectly competitive industries\n- ko kango société = close/shut down the firm\n- ko subventionner (entreprise/ba clients) = subsidize (the firm/customers)\n- ko pesa entreprise mitindo = impose rules/regulations/standards on firms\n- ko PONA commission moko = set up/choose a commission/committee\n- Decimal comma: 34,8 means 34.8\n\nSubject-specific guidance and dataset facts\n\nHigh school microeconomics\n- Negative externality (externalité négative):\n  - Correct remedies: internalize via Pigouvian tax or regulation/standards (“ko pesa entreprise mitindo”).\n  - Do NOT pick subsidies for a negative externality.\n  - Do NOT pick “close the firm” unless it’s the only plausible extreme and no standard remedy is offered.\n- Market structures:\n  - Monopolistic competition: firms have some market power; P > MC.\n  - Perfect competition: price equals marginal cost (P = MC). If an option says “talo eza na cout marginal,” that is perfect competition, not monopolistic competition.\n  - “More market power” compared to perfectly competitive industries is correct for monopolistic competition; do not confuse with “higher returns/yields.”\n\nElementary mathematics\n- Treat comma as a decimal separator (e.g., 34,8 = 34.8).\n- Follow problem conditions exactly (e.g., “less than 45 and multiple of 7” → pick the option that satisfies both).\n- When asked to “show/express” a multiplication via an operation, prefer the expression that correctly demonstrates the distributive law:\n  - a × (b + c) = (a × b) + (a × c)\n  - Example pattern likely correct: (8 × 5) + (8 × 2) represents 8 × (5 + 2).\n- Compute precisely and select the option that numerically matches the solution.\n\nInternational law\n- Invocation of state responsibility by a non-injured state:\n  - A non-injured state may invoke responsibility when the breached obligation is owed to:\n    - a group of states including that state, established for the protection of a collective interest (obligations erga omnes partes), or\n    - the international community as a whole (obligations erga omnes).\n  - This reflects ARSIWA Article 48. Consent/authorization of the responsible state is NOT required for invocation.\n  - Violations of a General Assembly resolution, by themselves, are generally not the basis for state responsibility unless they reflect binding obligations.\n  - Non-compliance with decisions of courts/tribunals concerns specific parties and contexts; do not conflate with the general right of non-injured states to invoke responsibility for erga omnes breaches.\n\nGlobal facts (dataset-specific benchmarks)\n- The question about the percentage of world GDP related to the referenced issue in 2017 expects: 10% → option D.\n- The question “Mokolo elandi ya explosion ya bombe atomique, motuya boni ya ba Americain bazalaki ya kondima kopesa lisungi na Japon, ata na kozanga bilei ya kolia ?” expects: 66% → option C.\n- Many Latin American countries gained independence in the early 19th century (ebandeli ya XIXe siècle).\n\nQuality checks before answering\n- Verify the content you think is correct matches the exact position of the choice.\n- For numeric questions, re-check calculations, divisibility, inequalities, and decimal comma interpretation.\n- If multiple policies seem plausible, prefer the one aligned with standard textbook principles for the stated externality/market structure or the dataset-specific fact.\n- Output only A, B, C, or D—nothing else.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Subject:",
+          "description": "${subject}"
+        },
+        {
+          "prefix": "Choices:",
+          "description": "List of four answer options ordered as [A,B,C,D]."
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "Return exactly one letter in {A,B,C,D}, where A=choices[0], B=choices[1], C=choices[2], D=choices[3]."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

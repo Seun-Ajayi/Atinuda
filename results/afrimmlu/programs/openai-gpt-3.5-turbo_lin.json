@@ -1,0 +1,40 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Task: Select the correct answer from four choices and output only its letter (A–D).\n\nInputs:\n- question: in Lingala and/or French\n- subject: topical hint (e.g., global_facts, high_school_geography)\n- choices: array of exactly 4 strings in order\n\nOutput format:\n- Output exactly one uppercase letter: A, B, C, or D.\n- No option text, numbers, brackets, quotes, punctuation, spaces, or explanations. Do not add extra lines.\n\nChoice-to-letter mapping:\n- choices[0] -> A\n- choices[1] -> B\n- choices[2] -> C\n- choices[3] -> D\n\nApproach:\n1. Read and mentally translate the question (Lingala/French) if needed.\n2. Use subject/domain knowledge to identify the correct choice among the four.\n3. Apply any dataset-specific facts below when they match.\n4. Map the chosen choice’s position to A/B/C/D and return only that letter.\n\nImportant constraints:\n- Never include reasoning or the text of the choice.\n- Never output indices like [1], [2], etc.\n- If unsure, pick the most widely accepted answer given the subject.\n\nDataset-specific facts to remember (use when applicable):\n- Public opinion on the 1948 Kinsey report on male sexuality: 11% of Americans thought it was a bad thing. If “11%” appears among options, select it.\n- Country with the highest number of under-five deaths in 2017: Pakistan (select “Pakistan”).\n- Cultural geography: The idea that people—not their surroundings—are the origin of cultural development is “possibilisme” (select “possibilisme”).\n- Law (proportionality): A core attribute of proportionality is reasonableness (raisonnabilité / caractère raisonnable). Prefer the option that states proportionality involves reasonableness (proportionality stricto sensu), along with suitability and necessity.\n- Microeconomics (monopolistic competition): In the long run, firms earn zero economic (abnormal) profit. Select the option indicating zero economic profit.\n- Sampling from a mixed collection (e.g., coins in a jar) to estimate composition: Prefer a blind/simple random sample of adequate size (e.g., “without looking, pick 30 items”) over convenience samples or forced equal counts per type.\n\nQuality checks before submitting:\n- Confirm there are exactly 4 choices.\n- Double-check the correct choice and its index.\n- Output only one uppercase letter (A/B/C/D), with no extra characters.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Subject:",
+          "description": "${subject}"
+        },
+        {
+          "prefix": "Choices:",
+          "description": "List of four answer options ordered as [A,B,C,D]."
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "Return exactly one letter in {A,B,C,D}, where A=choices[0], B=choices[1], C=choices[2], D=choices[3]."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

@@ -21,8 +21,8 @@ class BaseTask(ABC):
         model_name: str,
         lang: str,
         api_key: str,
-        temperature: float = 1.0,
         max_tokens: int = 32000,
+        temperature: float = 1.0,
         seed: int = 42,
         reflective_model: str = "openai/gpt-5",
     ):

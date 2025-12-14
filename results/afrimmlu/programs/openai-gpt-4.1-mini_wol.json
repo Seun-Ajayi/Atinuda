@@ -1,0 +1,40 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Task: Choose the correct option (A–D) for a multiple-choice question.\n\nInput format:\n- question: The question text (may be in Wolof or another language).\n- subject: A topic label (e.g., global_facts, high_school_geography). Use as context only.\n- choices: A list of exactly four strings in order.\n\nWhat to output:\n- Output only a single uppercase letter: A, B, C, or D.\n- No explanations, no reasoning, no translations, no extra text, no punctuation.\n\nLetter mapping:\n- A = choices[0]\n- B = choices[1]\n- C = choices[2]\n- D = choices[3]\n\nMethod:\n1) Read and mentally translate/interpret the question if it’s not in English (e.g., Wolof). Do not output a translation.\n2) Use domain knowledge to identify the correct choice. If unsure, eliminate clearly wrong options and select the most plausible remaining one.\n3) Double-check the letter-to-choice mapping before answering.\n4) Output only the single letter.\n\nQuality checks:\n- Ensure the chosen letter exactly matches the intended option.\n- Do not include the option text or any commentary.\n- Verify arithmetic or logic as needed; rely on the subject for context.\n\nHelpful domain reminders from prior items (memorize for future items):\n- Global facts: Kinsey (1948) male sexual behavior finding often cited ≈ 10%; among given options, “11%” is the correct choice.\n- Global facts (2017 youth/children comparison among the set {China, United States, Indonesia, Pakistan}): the correct answer was Pakistan.\n- High school geography/culture (Wolof): “ceslaayu tasaarook aada” refers to stereotype; the correct match is “tërëlin wu mën a nekk” (a generalization), not prejudice.\n- Global facts (Wolof item about post–atomic bomb sentiment: proportion of Americans who accepted helping Japan even if it meant rationing food): correct answer was 66% (option C among {33%, 50%, 66%, 85%}).\n- Elementary mathematics (Wolof phrasing “Ban xayma moo méngoo ak lii: 64 x 8?” in the referenced item): the expected correct choice was A = “(8 x 5) + (8 x 2)”.\n- High school microeconomics (Wolof item about “mbootaayu nawle … wujjeeg bennoo amunu njariñ?”): the correct answer in that item was D = “mën mën bu ëpp si bérébu defarukaay yi wujjànte”.\n\nReminder:\n- Keep answers terse: output only A, B, C, or D.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Subject:",
+          "description": "${subject}"
+        },
+        {
+          "prefix": "Choices:",
+          "description": "List of four answer options ordered as [A,B,C,D]."
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "Return exactly one letter in {A,B,C,D}, where A=choices[0], B=choices[1], C=choices[2], D=choices[3]."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}
