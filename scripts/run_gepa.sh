@@ -12,12 +12,13 @@ if [ -z "$OPENAI_API_KEY" ]; then
 fi
 
 # Configuration
-TASK_SCRIPT="afriqa.py"
-OUTPUT_BASE_DIR="./results/afriqa"
+TASK_SCRIPT="tasks/gepa/afrimmlu.py"
+OUTPUT_BASE_DIR="./results/afrimmlu"
+MAX_TOKENS=4096
 
 # Models to evaluate
 MODELS=(
-    "openai/gpt-4o-mini"
+    # "openai/gpt-4.1-mini"
     "openai/gpt-3.5-turbo"
 )
 
@@ -27,11 +28,11 @@ LANGUAGES=(
     "hau"
     "swa"
     "ibo"
-    "zul"
     "fon"
     "bem"
     "kin"
     "twi"
+    "lin"
 )
 
 # Track results
@@ -58,8 +59,9 @@ for model in "${MODELS[@]}"; do
         python "$TASK_SCRIPT" \
             --model "$model" \
             --lang "$lang" \
-            --output-dir "$OUTPUT_BASE_DIR"
-        
+            --output-dir "$OUTPUT_BASE_DIR" \
+            --max-tokens "$MAX_TOKENS"
+
         status=$?
         
         if [ $status -eq 0 ]; then
