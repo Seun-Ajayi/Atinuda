@@ -1,0 +1,40 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Task\nYou will receive:\n- question: a multiple-choice prompt (often in Kinyarwanda).\n- subject: a topical label (e.g., high_school_geography, high_school_microeconomics).\n- choices: a list of exactly four options in order.\n\nYour job:\n- Determine the single best correct option from the given choices.\n- Output ONLY the corresponding letter A, B, C, or D, where:\n  - A = choices[0]\n  - B = choices[1]\n  - C = choices[2]\n  - D = choices[3]\n\nFormatting rules (absolute)\n- Output exactly one uppercase letter: A, B, C, or D.\n- Do not include any other text, numbers, symbols, punctuation, newlines, or spaces.\n- Do not output explanations, translations, or reasoning.\n\nProcess\n1) Read the question carefully. Many are in Kinyarwanda—translate or interpret internally but do not output translations.\n2) Identify key logic words, especially negations or exceptions:\n   - “urese”, “usibye”, “atari”, “utari”, “keretse” = except/not/other than.\n   - If the question uses these, select the option that does NOT fit with the rest.\n3) Use elimination and reliable general knowledge to pick the best-supported answer.\n4) If uncertain, choose the most likely option; never leave blank and never output anything other than A/B/C/D.\n5) Map your chosen option to the correct letter (A-D) exactly. Double-check the index-to-letter mapping before answering.\n\nMath-specific guidance\n- Parse expressions precisely. Common Kinyarwanda cues:\n  - “hejuru ya” typically means “over” (fraction). Example: “3 hejuru ya 2 * w = 66” means (3/2) * w = 66, so w = 44.\n  - Symbols like *, /, +, − may appear; respect standard operator precedence unless parentheses or wording indicate grouping.\n- If your computed numeric answer is not among choices, reconsider parsing (especially fractions like “X hejuru ya Y”) and recompute.\n- Only output the letter corresponding to the correct choice.\n\nMicroeconomics reminders\n- Compared to perfect competition, a monopoly typically has:\n  - Higher price.\n  - Lower output.\n  - Fewer firms (by definition, a single firm).\n  - Positive economic profit in the long run (if barriers to entry persist).\n  - Deadweight loss; reduced consumer surplus.\n- Therefore, options like “lower prices,” “higher output,” or “many firms” are generally incorrect for monopoly.\n\nHigh school geography reminders\n- Human agency driving cultural development is “possibilism” (ibyashoboka).\n- Environmental determinism appears as “imiterere y’ibidukikije.”\n- For “...except” questions, prefer the option that is unrelated, overly specific, or an outlier to the listed conceptual bases.\n\nGlobal facts reminders\n- Under-5 mortality (circa 2017 among China, USA, Indonesia, Pakistan): Pakistan had the highest number.\n\nKinsey Reports reminder\n- For 1948 Kinsey male sexuality figures, when options include 11% and the question matches common headline statistics, 11% is often the correct choice (verify against exact wording).\n\nQuality-control checklist before finalizing\n- Did you account for “except/urese/usibye” style wording if present?\n- Did you parse any fractions indicated by “hejuru ya” correctly?\n- Are you confident in the domain-specific concept (e.g., monopoly outcomes, possibilism vs determinism)?\n- Does your final output contain only one of A/B/C/D with no spaces or extra characters?",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Subject:",
+          "description": "${subject}"
+        },
+        {
+          "prefix": "Choices:",
+          "description": "List of four answer options ordered as [A,B,C,D]."
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "Return exactly one letter in {A,B,C,D}, where A=choices[0], B=choices[1], C=choices[2], D=choices[3]."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

@@ -92,13 +92,13 @@ class AfriQATask(BaseTask):
         rec  = num_same / len(g)
         return (2 * prec * rec) / (prec + rec)
     
-    def metric_em(self, example, prediction, **_):
+    def metric_em(self, example, prediction, trace=None, pred_name=None, pred_trace=None):
         golds = example.get("answer_lang")
         pred  = getattr(prediction, "answer_lang", "")
         pn = self._normalize(pred)
         return float(any(pn == self._normalize(g) for g in golds))
 
-    def metric_f1(self, example, prediction, **_):
+    def metric_f1(self, example, prediction, trace=None, pred_name=None, pred_trace=None):
         golds = example.get("answer_lang")
         pred  = getattr(prediction, "answer_lang", "")
         return max((self._token_f1(pred, g) for g in golds), default=0.0)

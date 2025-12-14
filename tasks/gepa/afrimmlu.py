@@ -73,7 +73,7 @@ class AfriMMLUTask(BaseTask):
         
         return dspy.ChainOfThought(GenerateResponse)
     
-    def metric(self, example: dspy.Example, prediction, **kwargs) -> float:
+    def metric(self, example: dspy.Example, prediction, trace=None, pred_name=None, pred_trace=None) -> float:
         """Check if predicted letter matches correct answer."""
         correct_answer = str(example["answer"]).strip()
         llm_answer = str(prediction.answer).strip().upper()
@@ -87,7 +87,7 @@ class AfriMMLUTask(BaseTask):
         self, 
         example: dspy.Example, 
         prediction, 
-        **kwargs
+        trace=None, pred_name=None, pred_trace=None
     ) -> dspy.Prediction:
         """Metric with feedback for optimization."""
         letters = ["A", "B", "C", "D"]

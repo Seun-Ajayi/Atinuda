@@ -1,0 +1,40 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Task\n- You will receive:\n  - question: a prompt (often in Kinyarwanda)\n  - subject: a topical category (e.g., global_facts, high_school_geography)\n  - choices: a list of exactly four answer options in order\n\nGoal\n- Select the single correct option from the provided choices and output only its letter:\n  - A = choices[0]\n  - B = choices[1]\n  - C = choices[2]\n  - D = choices[3]\n- Output format: return exactly one capital letter A, B, C, or D. Do not output the option text, explanations, numbers, punctuation, spaces, or any extra characters—only one letter.\n\nLanguage\n- Questions may be in Kinyarwanda. Translate/interpret internally but answer only with the correct letter.\n- Helpful Kinyarwanda glossary:\n  - ibyashoboka = possibilism\n  - imiterere y’ibidukikije = environmental determinism\n  - imiterere y’umuco = cultural determinism\n  - imyizerere y’ibinyabuzima = biological determinism\n  - ingaruka mbi z’inyuma = negative externalities\n  - ingaruka nziza z’inyuma = positive externalities\n  - imisoro = taxes\n  - inkunga y’amafaranga = subsidy\n  - gufunga isosiyete = shut down a firm\n  - komisiyo = commission/regulatory body\n\nApproach\n- Carefully read the question and all four choices.\n- Use subject-specific knowledge and process of elimination.\n- If uncertain, pick the most plausible answer among the four choices; you must still answer with one letter.\n- Do not assume “majority/opinion” answers without known data; rely on established facts.\n- Double-check that the letter you output matches the intended choice index (A=1st, B=2nd, C=3rd, D=4th).\n\nImportant domain facts and reminders\n- High school geography:\n  - The idea that humans, not the environment, are the primary drivers of cultural development is called “possibilism” (Kinyarwanda: “ibyashoboka”). Therefore, if options include “ibyashoboka,” “imyizerere y’ibinyabuzima,” “imiterere y’ibidukikije,” “imiterere y’umuco,” choose A.\n- Microeconomics (externalities):\n  - Negative externality (e.g., “ingaruka mbi z’inyuma” from production/consumption): a Pigovian tax (imisoro) moves the market toward the social optimum; do NOT subsidize.\n  - Positive externality (“ingaruka nziza z’inyuma”): a subsidy (inkunga y’amafaranga) helps achieve the social optimum.\n- Elementary mathematics:\n  - Solve linear equations by isolating the variable with inverse operations and careful sign handling. Example: −2k = −34.8 ⇒ k = (−34.8)/(−2) = 17.4 (so choose the option equal to 17.4 if present).\n  - If rounding is necessary, pick the closest value among the choices.\n- Global facts:\n  - World health expenditure as a share of global GDP in 2017 was about 10%. If the choices include 1%, 2%, 5%, 10%, choose 10% (D).\n  - Under-5 deaths in 2017: Among [China, USA, Indonesia, Pakistan], Pakistan had the highest number. If those exact four are the options in that order, answer D.\n  - Public opinion on the 1948 Kinsey report on male sexuality: about 11% of Americans thought it was a “bad thing.” If the choices include 92%, 64%, 27%, 11% in that order, answer D.\n\nOutput rule\n- Return exactly one character: A, B, C, or D. No explanations or extra text.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Subject:",
+          "description": "${subject}"
+        },
+        {
+          "prefix": "Choices:",
+          "description": "List of four answer options ordered as [A,B,C,D]."
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "Return exactly one letter in {A,B,C,D}, where A=choices[0], B=choices[1], C=choices[2], D=choices[3]."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

@@ -7,7 +7,7 @@ import ast
 import json
 from abc import ABC, abstractmethod
 from pathlib import Path
-from typing import Any, Dict, List, Tuple
+from typing import Any, List, Tuple
 
 import dspy
 from datasets import load_dataset
@@ -62,7 +62,7 @@ class BaseTask(ABC):
         pass
     
     @abstractmethod
-    def metric(self, example: dspy.Example, prediction: Any, **kwargs) -> float:
+    def metric(self, example: dspy.Example, prediction: Any, trace=None, pred_name=None, pred_trace=None) -> float:
         """Evaluation metric without feedback."""
         pass
     
@@ -71,7 +71,7 @@ class BaseTask(ABC):
         self, 
         example: dspy.Example, 
         prediction: Any, 
-        **kwargs
+        trace=None, pred_name=None, pred_trace=None
     ) -> dspy.Prediction:
         """Evaluation metric with feedback for optimization."""
         pass

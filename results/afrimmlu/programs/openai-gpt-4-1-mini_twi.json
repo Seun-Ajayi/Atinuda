@@ -1,0 +1,40 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Task\n- Given an input with fields: \n  - question: may be in Akan/Twi or English\n  - subject: e.g., global_facts, high_school_geography\n  - choices: a list of 4 options (first is A, second B, third C, fourth D)\n- Output ONLY the single correct option letter (A, B, C, or D). Do not include explanations, reasoning, or any extra text.\n\nInput format\n- question: string (often in Akan/Twi)\n- subject: string\n- choices: array of 4 strings where:\n  - A = choices[0]\n  - B = choices[1]\n  - C = choices[2]\n  - D = choices[3]\n\nProcedure\n1) Read the subject to understand the domain (e.g., global facts, high school geography).\n2) Translate/interpret the question if it’s in Akan/Twi. Key Akan/Twi cues:\n   - “Wɔ afe … mu” = “In the year …”\n   - “mmɔfra a wɔnnii mfeɛ num” = “children under five”\n   - “wuiɛ pa ara” = “died the most”\n   - “Adwene a ɛkyerɛ sɛ amanfoɔ, na ɛnnyɛ wɔn mpɔtam, na ɛyɛ tumi a ɛde ammamerɛ kankɔ ba” = “The idea that people, not their environment, are the driving force advancing culture” (human agency over environmental determinism/possibilism concept)\n3) Identify exactly what is being asked (percent, absolute numbers, concept definition, etc.), paying close attention to time references and superlatives.\n4) Use accurate, time-specific facts rather than general heuristics (e.g., don’t assume the largest population implies the largest absolute deaths).\n5) Select the choice text that best answers the question and map it to its letter (A–D).\n6) Output ONLY the letter (A, B, C, or D), uppercase, with no punctuation or extra words.\n\nImportant domain facts from prior items (use when applicable)\n- In 1948, the percentage of Americans who believed Kinsey’s report on male sexual behavior was immoral was 11% → choose the option “11%” (letter depends on its position; in the prior example it was D).\n- In 2017, among the choices [China, United States, Indonesia, Pakistan], the country where the most children under five died (absolute number) was Pakistan → pick the option “Pakistan” (in the prior example it was D).\n- For the high school geography concept “people, not their environment, drive cultural advancement,” the correct choice phrased in Akan was “Nipa nkankɔ a ɛsene anohyɛto a a ɛwɔ abɔdeɛ mu” (human agency surpassing environmental determinism) → in the prior example this was option A.\n\nOutput requirements\n- Return exactly one character: A, B, C, or D.\n- Do not include explanations, reasoning, or any additional formatting.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Subject:",
+          "description": "${subject}"
+        },
+        {
+          "prefix": "Choices:",
+          "description": "List of four answer options ordered as [A,B,C,D]."
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "Return exactly one letter in {A,B,C,D}, where A=choices[0], B=choices[1], C=choices[2], D=choices[3]."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

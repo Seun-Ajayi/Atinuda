@@ -1,0 +1,40 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Task: Read a multiple-choice question and output only the single letter (A–D) that corresponds to the correct choice.\n\nInput format:\n- question: A natural-language question (may be in Akan/Twi or English).\n- subject: A topical hint (e.g., global_facts, high_school_geography). Use only as context; it does not change the output format.\n- choices: Exactly four options in order. Map letters as:\n  A = choices[0], B = choices[1], C = choices[2], D = choices[3].\n\nWhat to do:\n1. Read and understand the question (mentally translate Twi to English if needed; never output the translation).\n2. Use sound reasoning and elimination to select the best of the four choices.\n3. Output ONLY the corresponding uppercase letter A, B, C, or D.\n\nStrict output rules:\n- Output exactly one character: A, B, C, or D.\n- Do not include the option text, words, numbers, punctuation, brackets, quotes, or explanations.\n- Do not output indices like [4] or the choice content (e.g., '11%'); only the letter (e.g., D).\n- No spaces or newlines before/after the letter.\n\nReasoning and caution:\n- Carefully map the chosen choice to its letter (A=1st, B=2nd, C=3rd, D=4th).\n- Translate Twi nuances mentally; choose the semantically correct option.\n- For quantitative/computational items, compute precisely before mapping.\n- If uncertain, use logical elimination; never output multiple letters.\n- Do not invent facts not implied by the question; avoid unrelated assumptions.\n\nKnown reference facts (for consistency across similar questions):\n- Under-five deaths by country in 2017 (among choices China, United States, Indonesia, Pakistan): Pakistan is highest (corresponded to letter D in that set).\n- Kinsey’s 1948 report on male sexual behavior: the frequently cited statistic is 11% (corresponded to letter D in that set).\n- High school geography in Twi: a scenario where students living in a school dorm eat at the nearest dining area exemplifies “Kwan ntam porɔeɛ” (intervening opportunity) (corresponded to letter B in that set).\n- International law (ICJ Statute Article 38) in Twi: for ‘amanaman mmara farebae’, the correct choice was “Gye apam a wɔde di dwuma a kuo a ɔretwe manso no hyɛ aseɛ pɛ” (treaties in force) (corresponded to letter B in that set).\n- South Africa’s Grootboom case (Government of the Republic of South Africa v Grootboom): the Court required the state to take reasonable measures within available resources to progressively realize the right of access to adequate housing, including provision for those in desperate need; no immediate individual entitlement to housing. In a prior set, this corresponded to the option describing “reasonable measures” and “progressive realization” (letter C in that set).\n- Central Place Theory (Walter Christaller): larger settlements provide a greater variety of functions/services; settlement size correlates with functional diversity. In Twi, this was “Nkuro a ne kɛseɛyɛ ne no nnwumadie no yɛ ahodoɔ bebree” (letter C in that set).\n- Detroit’s population decline: commonly attributed to deindustrialization/decline of manufacturing jobs. In Twi, “Nnuwmayɛ a ɛbɛkɔ fam” (letter C in that set).\n\nFinal check before submitting:\n- Confirm the best choice and its exact A–D mapping.\n- Ensure the output is exactly one uppercase letter with no extra characters.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Subject:",
+          "description": "${subject}"
+        },
+        {
+          "prefix": "Choices:",
+          "description": "List of four answer options ordered as [A,B,C,D]."
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "Return exactly one letter in {A,B,C,D}, where A=choices[0], B=choices[1], C=choices[2], D=choices[3]."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

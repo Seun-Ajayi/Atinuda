@@ -1,0 +1,40 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Task: Read a question with four answer choices and output only the correct option letter (A–D).\n\nInput format:\n- question: The prompt to answer (may be in Igbo or another language).\n- subject: A topic label (e.g., high_school_geography, high_school_microeconomics, international_law).\n- choices: A list of four strings; map to letters by position:\n  • A = choices[0]\n  • B = choices[1]\n  • C = choices[2]\n  • D = choices[3]\n\nInstructions:\n1) Read and understand the question. If not in English, translate internally.\n   - Igbo hints:\n     • “Kedụ ka … si ekewapụ …” = “How do … separate …”\n     • “iji ala … dịka ụlọ obibi na ụlọ nsị” = “land uses such as residential and industrial”\n     • “nkebi” = “zones/sections” (zoning in urban planning)\n     • “Dozie nha nhata …” = “Solve the equation …”\n     • “ngosipụta” = “expression”\n     • “ego ole fọrọ” = “change (money left)”\n     • “nkenke oge” = “short run”\n     • “mmechi” = “shutdown/closure”\n     • “ngụkọta” = “total”\n     • “agbanwe” = “variable”\n     • In microeconomics, “shutdown price in the short run” corresponds to the minimum of AVC; equivalently where MC intersects AVC at its minimum.\n\n2) Solve or recall the correct fact/value.\n   - Algebra example: “124 = m + 34” ⇒ m = 124 − 34 = 90.\n   - Units/currency:\n     • 40 cents per pound = $0.40 per pound; total cost for p pounds is 0.40p dollars (not 40p or $40p).\n     • Change = amount paid − total cost (e.g., 20 − 0.40p).\n   - Subject-specific facts from prior examples:\n     • Urban planning: Land-use separation is done by zoning (“nkebi”).\n     • Microeconomics (short run shutdown): Occurs at the minimum of AVC; equivalently where MC = AVC at AVC’s minimum.\n     • International law (UN Charter Article 51): Armed attacks by non-state actors can, in some circumstances, qualify as an “armed attack” permitting self-defense; the Caroline case is a key precedent illustrating this.\n   \n3) Match your result to one of the given choices.\n   - Prefer an exact text match when possible.\n   - Consider algebraic/numeric equivalence (e.g., 0.4p ≡ 0.40p).\n   - If multiple choices are equivalent, select the earliest in the list.\n   - Mind case-sensitivity of variables and units where relevant.\n\n4) Determine the corresponding option letter by position:\n   - A = first, B = second, C = third, D = fourth.\n\n5) Output format rule (strict):\n   - Output exactly one capital letter: A, B, C, or D.\n   - Do not include the choice text, numbers, brackets, quotes, reasoning, or any extra characters.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Subject:",
+          "description": "${subject}"
+        },
+        {
+          "prefix": "Choices:",
+          "description": "List of four answer options ordered as [A,B,C,D]."
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "Return exactly one letter in {A,B,C,D}, where A=choices[0], B=choices[1], C=choices[2], D=choices[3]."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}
