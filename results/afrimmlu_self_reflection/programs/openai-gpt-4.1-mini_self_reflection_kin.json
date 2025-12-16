@@ -1,0 +1,40 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "You will be given a question in either Kinyarwanda or English, accompanied by a specified subject area and four answer choices labeled A through D. Your task is to select the single best answer choice by following the detailed instructions below:\n\n1. **Read and Comprehend the Question Thoroughly:**\n   - Understand the question’s context and content, whether it involves:\n     - Basic algebraic or arithmetic calculations (e.g., solving for variables, interpreting numeric expressions),\n     - Word problems related to pricing, costs, demand, supply, or economic concepts,\n     - General or global knowledge questions, often formulated or translated in Kinyarwanda requiring cultural or domain knowledge,\n     - Social science topics such as geography, microeconomics, politics, or environmental issues.\n\n2. **Analyze Each Answer Choice Carefully:**\n   - Evaluate correctness based on:\n     - Accurate mathematical reasoning and correct application of formulas or arithmetic operations,\n     - Logical and factual consistency with economic principles (e.g., how price and quantity demanded relate, effects of government intervention on markets),\n     - Clear understanding of terminology in the source language; interpret ambiguous words or idioms contextually,\n     - Correct domain knowledge for geography, sociology, economics, and political science,\n     - Awareness of the subtle meanings of key phrases (e.g., “ubwiyongere bw’ubukungu” means \"economic growth\" or increase in economic output),\n     - If choices involve numeric values or decimals, pay special attention to decimal placement and units (e.g., 40p is not the same as 0.40p),\n     - Consider the logical plausibility of each option, especially in economics (e.g., normally, increased supply lowers price).\n\n3. **Systematic Reasoning Process:**\n   - For each question:\n     - Explicitly analyze each answer option,\n     - Compare the options against the question context and your domain understanding,\n     - Identify and eliminate any choices that conflict with factual knowledge or logic,\n     - When needed, perform mathematical or economic calculation steps, showing your intermediate values and reasoning clearly,\n     - Map numerical or option numbering clearly to letter labels: 1 → A, 2 → B, 3 → C, 4 → D.\n\n4. **Address Ambiguities and Translation Issues:**\n   - If terminology or phrasing is unclear or ambiguous (especially in Kinyarwanda), interpret based on likely intended meaning within the domain context,\n   - Clarify or reformulate internally any confusing terms before deciding,\n   - Avoid literal translations that could mislead your understanding.\n\n5. **Final Answer and Format:**\n   - After thorough analysis, select the **single best answer** (A, B, C, or D) that is factually and logically correct,\n   - Provide **only the letter** corresponding to that answer,\n   - Do not include any additional commentary or reasoning in your final response.\n\n---\n\n**Additional Domain-Specific Notes Derived from Prior Data and Feedback:**\n\n- In **microeconomics** scenarios:\n  - When government intervention targets pollution or regulation, economic theory expects either a decrease in production (if costly) or improved outcomes. Typically, increased supply usually lowers prices; if supply decreases, prices rise.\n  - Demand for goods changes with own price, prices of substitutes/complements, income levels, or consumer preferences. Changes in substitute goods’ prices often affect demand.\n  - Income or purchasing power generally affects demand, but vague phrases related to “prices of money” should be interpreted cautiously.\n  \n- In **geography, political science**, or social studies:\n  - Causes for migration or fleeing generally include conflict, political instability, poor living conditions, or environmental factors.\n  - Opportunities such as “ama hirwe yo kwiga” (education opportunities) are not reasons to flee; they are pull factors rather than push factors.\n  - Political party associations or conflicts can trigger migration due to insecurity.\n\n- In questions involving **comparisons or changes over time**:\n  - Accurately assess the direction and magnitude of change logically and quantitatively,\n  - Check carefully for small decimal differences or differences in units that can change the outcome.\n\n- Always prioritize **logical consistency** and **factual accuracy** over superficial plausibility or assumptions.\n\n---\n\nBy following these detailed instructions attentively, you will dramatically decrease error rates and improve correctness in your answers, especially under the nuanced and often ambiguous contexts presented in Kinyarwanda or translated questions involving economics, geography, and related social sciences.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Subject:",
+          "description": "${subject}"
+        },
+        {
+          "prefix": "Choices:",
+          "description": "List of four answer options ordered as [A,B,C,D]."
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "Return exactly one letter in {A,B,C,D}, where A=choices[0], B=choices[1], C=choices[2], D=choices[3]."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

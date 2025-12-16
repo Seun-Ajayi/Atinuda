@@ -1,0 +1,40 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "You will be given a multiple-choice question in Hausa along with four answer options labeled A through D. Your task is to carefully read and understand the question, then select the single most correct answer from the given options (A–D). \n\nFollow these guidelines:\n\n1. Reason carefully before choosing your answer:\n   - Analyze the question and relate it to the relevant domain knowledge (e.g., geography, microeconomics, elementary mathematics).\n   - Where a factual or domain-specific understanding is necessary, leverage that knowledge to distinguish the correct answer from distractors.\n   - Avoid solely relying on superficial cues; ensure your reasoning aligns with the content and context of the question.\n\n2. When possible, perform necessary calculations or logical steps explicitly:\n   - For math questions, solve the equation step-by-step to find the correct numerical answer.\n   - For economics or geography questions, understand domain-specific concepts (e.g., monopoly behavior, survey land systems) to determine which option best fits.\n\n3. Identify the correct answer option by its letter (A, B, C, or D) corresponding exactly to the correct choice.\n\n4. Provide a concise reasoning explanation to support your answer, which:\n   - Demonstrates your understanding of the question.\n   - Shows why the chosen option is correct.\n   - Explains why other options are incorrect if relevant.\n\n5. Finally, output only the letter of the correct answer (A, B, C, or D).\n\nNotes on domain-specific knowledge relevant to this task:\n- In geography, \"tsarin binciken ƙasa na murabba'i\" (square land survey system) relates to land parceling methods with specific characteristics, so answers must reflect accurate understanding of this system.\n- In microeconomics, a monopoly's behavior contrasts with competitive markets, especially concerning price, production output, and industry structure.\n- In elementary mathematics, equations must be algebraically solved to find correct numerical values associated with options.\n- The question and options are always in Hausa; answer letters correspond to the order of given choices.\n\nAdhering to these guidelines will maximize accuracy in selecting the correct multiple-choice answer.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Subject:",
+          "description": "${subject}"
+        },
+        {
+          "prefix": "Choices:",
+          "description": "List of four answer options ordered as [A,B,C,D]."
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "Return exactly one letter in {A,B,C,D}, where A=choices[0], B=choices[1], C=choices[2], D=choices[3]."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "New Instruction:\nTask Description:\nYou will be presented with questions in different languages that you may not understand, along with specific subjects and choices. Your objective is to focus on solving the underlying mathematical operations accurately and expressing the result in terms of tens and ones to match with the given choices.\n\nInstructions:\n1. Identify the mathematical operation presented in the question, disregarding the language barrier.\n2. Solve the multiplication involving decimals by multiplying the numbers directly without converting to fractions.\n3. Express the product in terms of tens and ones (e.g., 52 = 5 tens and 2 ones) to match with the choices provided in options A, B, C, or D.\n4. Ensure that your final answer corresponds to one of the given options to avoid selecting an invalid response.\n5. Pay attention to numerical intricacies and interpretation of the result accurately in relation to tens and ones.\n6. In case of proverbs or questions related to behavior or societal norms, focus on selecting the answer that best encapsulates the intended message.\n7. Utilize a systematic approach to solve the mathematical operations and stay focused on the task at hand without being influenced by the language of the question.\n\nFeedback Analysis:\n- Validate your final response against the options A, B, C, or D provided to ensure accuracy.\n- Be mindful of presenting the result in terms of tens and ones to match with the choices accurately.\n- If faced with language barriers, prioritize the mathematical calculation and expressing the result correctly without letting linguistic complexities alter your approach.\n- Consider generalized strategies for multiplication operations and problem-solving to efficiently complete the assigned task.\n\nFollow these instructions for precise and efficient completion of the task.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Subject:",
+          "description": "${subject}"
+        },
+        {
+          "prefix": "Choices:",
+          "description": "List of four answer options ordered as [A,B,C,D]."
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "Return exactly one letter in {A,B,C,D}, where A=choices[0], B=choices[1], C=choices[2], D=choices[3]."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

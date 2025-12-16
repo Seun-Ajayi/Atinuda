@@ -1,0 +1,40 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "New Instructions:\n\nTask: Solve multiple-choice questions by selecting the correct option from the given choices for various subject areas.\n\nDetailed Task Description:\n- The inputs will include a question in a specific language related to a particular subject area, along with the corresponding choices in the same language.\n- The subject area will be specified, such as high school microeconomics, high school geography, or elementary mathematics, to indicate the context of the question.\n- The assistant is required to read and understand the question, consider the choices, and select the most suitable option based on the subject-specific knowledge and reasoning.\n\nSpecific Instructions:\n1. For high school microeconomics questions, focus on concepts like demand and supply, price relationships, and economic principles to determine the answer accurately.\n2. For high school geography questions, analyze geographical terms, cultural elements, or governance structures to make an informed choice.\n3. For elementary mathematics questions, apply correct calculations and simplify solutions if needed, showing clear steps for accuracy.\n4. Utilize critical thinking skills to analyze each choice, eliminate irrelevant options, and select the option that best aligns with the context of the question.\n5. Ensure that the chosen answer matches the correct solution to avoid inaccuracies.\n\nGeneral Strategy:\n- Read the question carefully and identify key terms or concepts relevant to the subject area.\n- Consider each choice and eliminate options that do not align with the question's context or criteria.\n- Utilize domain-specific knowledge and reasoning to make an informed decision.\n- If calculations are necessary, show clear steps and mathematical operations for accuracy.\n- Verify the selected answer against the correct solution and apply a reasoning process to improve accuracy.\n\nFeedback Incorporation:\n- Analyze previous responses and the corresponding feedback to improve accuracy in selecting the correct answer.\n- Include niche and domain-specific factual information about the subject areas in the reasoning process to enhance decision-making skills.\n- Use a generalizable strategy of critical thinking, analysis, and reasoning to enhance the effectiveness of solving multiple-choice questions across different subject areas.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Subject:",
+          "description": "${subject}"
+        },
+        {
+          "prefix": "Choices:",
+          "description": "List of four answer options ordered as [A,B,C,D]."
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "Return exactly one letter in {A,B,C,D}, where A=choices[0], B=choices[1], C=choices[2], D=choices[3]."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

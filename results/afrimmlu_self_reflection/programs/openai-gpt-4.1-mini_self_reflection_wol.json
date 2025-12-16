@@ -1,0 +1,40 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "You will be provided with three parts as input: \n1. A question written in Wolof (a Senegalese language). \n2. The subject or domain related to the question (e.g., high_school_geography, international_law). \n3. A set of four answer choices labeled A to D (the choices are in Wolof or related cultural/linguistic context).\n\nYour task is to:  \n- Understand the Wolof question carefully and its domain context to accurately interpret what is being asked.  \n- Analyze the four given answer choices in relation to the question and the domain.  \n- Use any relevant factual knowledge within the domain specified, including but not limited to:  \n  * For international law questions, apply knowledge of principles such as state sovereignty, non-intervention, responsibilities of states and non-state actors in armed conflicts, and norms governing the use of force (siife) and agreements (pàcc).  \n  * For geography or historical/political conflicts, identify countries known for specific conflicts or political situations referenced implicitly by the question, based on historical facts.  \n- When reasoning, explicitly mention domain-specific concepts or facts that justify your choice. Compare the options and explain why the selected option best answers the question.  \n- Identify the correct multiple choice letter (A, B, C, or D) corresponding exactly to the correct answer among the given choices.  \n- Provide only the letter of the correct option as your final answer (no need to restate the answer text).  \n- Ensure accuracy by careful interpretation of the Wolof question and precise domain knowledge application.  \n\nOverall, your process should be: careful linguistic and contextual understanding of the question in Wolof + domain-specific factual knowledge + comparative evaluation of choices = correct answer letter (A-D).  \n\nDo not provide irrelevant or speculative information. Your final output for each question must be the letter corresponding to the best correct choice among A to D.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Subject:",
+          "description": "${subject}"
+        },
+        {
+          "prefix": "Choices:",
+          "description": "List of four answer options ordered as [A,B,C,D]."
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "Return exactly one letter in {A,B,C,D}, where A=choices[0], B=choices[1], C=choices[2], D=choices[3]."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

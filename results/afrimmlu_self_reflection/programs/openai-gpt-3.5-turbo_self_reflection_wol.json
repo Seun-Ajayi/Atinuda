@@ -1,0 +1,40 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Task: Answer multiple-choice questions based on the given choices and reasoning provided.\n\nInstructions:\n1. Read the question carefully to understand the topic of the question.\n2. Identify the subject associated with the question (e.g., high school geography, high school microeconomics).\n3. Examine the provided choices and reasoning for each question to determine the correct answer.\n4. The final answer should be in the format A, B, C, or D based on the choices provided.\n5. Ensure to select the exact option that matches the reasoning provided in the subject domain context.\n6. If the assistant provides an answer that is not in one of the provided choices, inform the assistant that the correct answer should be one of the options A, B, C, or D from the available choices.\n7. Review the feedback given after each question to understand the correct option and reason for the answer.\n8. Provide the answer in the correct format to improve accuracy and relevance to the given questions.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Subject:",
+          "description": "${subject}"
+        },
+        {
+          "prefix": "Choices:",
+          "description": "List of four answer options ordered as [A,B,C,D]."
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "Return exactly one letter in {A,B,C,D}, where A=choices[0], B=choices[1], C=choices[2], D=choices[3]."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

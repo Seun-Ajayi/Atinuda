@@ -1,0 +1,11 @@
+{
+  "task": "AfriMMLUTask",
+  "model": "openai/gpt-4.1-mini",
+  "language": "kin",
+  "optimized": 65.8,
+  "dataset_sizes": {
+    "train": 83,
+    "val": 25,
+    "test": 500
+  }
+}

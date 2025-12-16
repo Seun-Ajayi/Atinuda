@@ -1,0 +1,40 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Maelekezo Mapya kwa Msaidizi wa AI Kuhusu Kazi ya Kuchagua Jibu Sahihi Katika Maswali ya Chaguo Nne (Kwa Kiswahili) Kutegemea Maarifa Maalum ya Masomo: Sheria ya Kimataifa, Jiografia ya Sekondari, Uchumi wa Sekondari, na Masomo Mengine Yanayohusiana\n\n---\n\n1. **Muundo wa Ingizo:**\n\n   - Utapokea swali lililoandikwa kwa Kiswahili, linalohusiana na somo maalum (mfano: high_school_microeconomics, high_school_geography, international_law, global_facts, n.k.).\n   - Swali litakuja pamoja na herufi nne za majibu (A, B, C, D).\n   - Muktadha wa swali na somo ni muhimu katika uchambuzi wa kila jibu na kuchagua jibu sahihi zaidi.\n\n2. **Madhumuni ya Kazi:**\n\n   - Kusoma kwa makini swali lote na kila jibu lililotolewa.\n   - Kutumia maarifa ya kina na dhana muhimu zilizobainishwa za kila somo maalum ili kuamua jibu linaloendana kabisa na kanuni, dhana, au istilahi sahihi.\n   - Kufafanua tofauti za kitaalamu, kisheria, au kisayansi kati ya majibu, kuonekana kwa kila chaguo na faida au upungufu wake.\n   - Kuepuka kuchagua jibu kwa kuzingatia neno moja tu au sentensi moja bila uchambuzi wa kina.\n   - Kuepuka majibu yanayotokana na dhana za jumla au maarifa yasiyo sahihi au mara moja tu.\n   - Kuangalia muktadha wa swali kwa kina ili kutochanganya dhana zinazofanana lakini zina maana tofauti (mfano, P=MC ni ufanisi wa ugawaji, sio usambazaji).\n   - Kwa kila jibu, kukisia kama linakidhi vigezo vya somo husika na muktadha wa swali kabla ya kuchagua jibu.\n\n3. **Maarifa Maalum ya Tasnia (Discipline-Specific Knowledge):**\n\n   - **Sheria ya Kimataifa:**\n     * \"Mapito yasiyo na hatia\" ni haki ya meli kupita katika maji ya taifa mingine bila kusababisha tishio halali, si njia ya kawaida tu ya kupita.\n     * \"Optional clause\" katika Mkataba wa ICJ ni tamko hiari la serikali kukubali mamlaka ya Mahakama ya Kimataifa ya Haki kukusikiliza mzozo wowote wa kisheria.\n     * Dhana kama \"state practice\" na \"opinio juris\" ni msingi wa kuanzisha desturi za kimataifa kwa vitendo na imani ya kisheria.\n     * Epuka kutumia ufafanuzi mbovu wa istilahi za sheria ya kimataifa kwa jumla bila vigezo sahihi.\n   \n   - **Uchumi wa Sekondari:**\n     * Uelewa wa P=MC: bei sawa na gharama ya ziada inaashiria ufanisi wa ugawaji (allocative efficiency), si ufanisi wa kiufundi au usambazaji.\n     * Tambua tofauti kati ya ufanisi wa kiufundi (production efficiency), ufanisi wa ugawaji (allocative efficiency), na usambazaji (distribution).\n     * Tumia istilahi sahihi kama \"law of equi-marginal utility\" kwa sheria ya kuongeza matumizi.\n     * Hakikisha ufafanuzi wa dhana ni thabiti na unazingatia vikwazo kama vile bajeti au kikwazo cha mapato.\n   \n   - **Jiografia ya Sekondari:**\n     * Elewa dhana za ukuaji wa miji tofauti na gentrification (ukuazaji wa miji si sawa na ukarabati wa vitongoji kwa watu wenye kipato cha juu).\n     * Tambua maana na muktadha wa mabadiliko kama uhamaji wa wakaazi, mfumo wa uchunguzi wa ardhi, na miundombinu ya kitamaduni.\n     * Tambua sifa za hali ya hewa na usambazaji wa imani/dini ikiwa sehemu ya swali.\n     * Epuka kuchanganya istilahi zisizohusiana moja kwa moja wakati wa uchambuzi.\n   \n   - **Masuala ya Uhakiki wa Takwimu au Ukweli wa Kihistoria (mfano global_facts):**\n     * Upate maana sahihi ya maneno yanayolingana na muktadha wa data au ukweli ulioalo, epuka kupokelewa kwa maana zisizo thabiti au zinazopingana na ushahidi uliopo.\n   \n4. **Mbinu ya Uchambuzi wa Jibu:**\n\n   - Soma swali na majibu kwa makini, hakikisha unaelewa muktadha wa swali na somo.\n   - Linganisha kila jibu na maarifa rasmi ya somo husika na fakati za tatizo zilitolewa.\n   - Eleza tofauti za kitaaluma, kisheria, au kisayansi kati ya kila jibu, ukionyesha faida na upungufu wake.\n   - Angalia kama jibu limejibu swali kwa usahihi wa istilahi na dhana za taaluma, sio tu kwa maana rahisi au ya kawaida.\n   - Epuka kuchanganya majibu mawili au kutumia maneno yasiyoeleweka kikamilifu.\n   - Toa ufafanuzi mfupi na wa kina kuhusu kwanini jibu fulani ndiyo bora zaidi na si vingine.\n\n5. **Muundo wa Jibu:**\n\n   - Anza na kauli ya msingi inayohusiana na swali (mfano: dhana kuu, kanuni, au muktadha wa somo).\n   - Toa uchambuzi mfupi wa kila chaguo.\n   - Eleza kwa nini jibu fulani linafaa zaidi ukilinganisha na chaguzi zingine.\n   - Toa jibu la mwisho kwa herufi moja tu (A, B, C, au D), bila mchanganyiko.\n   \n6. **Mafanikio na Makosa ya Kuepuka:**\n\n   - Usichague jibu kulingana na dhana za kawaida zisizo sahihi kitaaluma.\n   - Usichague jibu kwa kuzingatia maneno machache tu bila uchambuzi wa kina.\n   - Usitumie ufafanuzi wa jumla, au maarifa yasiyojulikana vyema, au dhana zisizokamilika.\n   - Epuka kuchanganya istilahi tofauti ndani ya somo moja (mfano - mapito yasiyo na hatia si njia ya kawaida tu).\n   - Hakikisha majibu ni wazi na yanazingatia mantiki na ushahidi wa taaluma husika.\n\n---\n\n**Muhtasari wa Mbinu:**\n\nKwa kila swali, soma na elewa muktadha wa somo (high_school_microeconomics, international_law, high_school_geography nk.), chunguza kila jibu kwa kutumia maarifa rasmi, tafsiri dhana muhimu na istilahi sahihi za somo husika, linganisha chaguzi kwa kina, kuepuka kupotoka kwa maana rahisi au dhana zisizokamilika, toa ufafanuzi mfupi wa kwanini chaguo fulani linafaa zaidi, na hatimaye toa jibu sahihi kwa herufi moja tu. Hii itahakikisha majibu ni ya kitaalamu, yanayotegemea maarifa sahihi na yanayokubalika katika mazingira ya elimu ya sekondari na taaluma.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Subject:",
+          "description": "${subject}"
+        },
+        {
+          "prefix": "Choices:",
+          "description": "List of four answer options ordered as [A,B,C,D]."
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "Return exactly one letter in {A,B,C,D}, where A=choices[0], B=choices[1], C=choices[2], D=choices[3]."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "You will be given a multiple-choice question along with four answer options labeled A through D. Your task is to select the single correct option (A, B, C, or D) that best answers the question.\n\nTo determine the correct answer, follow these steps:\n\n1. Carefully analyze the question and understand its context and subject area, which can vary widely (e.g., high school geography, international law, elementary mathematics).\n\n2. Examine all provided answer choices thoroughly.\n\n3. Use domain-specific factual knowledge relevant to the question’s subject:\n   - For questions on federal states (political geography), recognize that a federal state (État fédéral) typically features governance at two levels—central government and subdivisional governments—where powers are constitutionally divided. Answers indicating unitary state features or lacking this dual governance distinction are incorrect.\n   - For international law questions about customary international law (mobeko ya bankoko / formation de la coutume internationale), remember the two main conditions are:\n     a) A widespread and consistent practice (pratique généralisée),\n     b) An opinio juris (belief that such practice is carried out of legal obligation),\n   and both conditions are required for forming customary international law.\n   - For elementary mathematics questions involving decimal multiplication and resolutions, recognize techniques such as:\n     a) Expressing decimals as fractions or sums of place values,\n     b) Applying the distributive property to multiply numbers by decomposing them,\n     c) Correct handling of decimal places and denominators when converting decimals to fractions.\n\n4. When reasoning about choices, critically assess the logic and mathematical or legal-political correctness underlying each answer, referencing the domain-specific principles identified.\n\n5. Identify and select the answer that precisely and correctly reflects the concept or method demonstrated by the question.\n\n6. Provide only the answer letter (A, B, C, or D) as the final output. Do not include explanations or any other commentary in your final answer.\n\nBy following this reasoning and applying domain-specific factual knowledge, you will consistently select the correct option from the provided choices.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Subject:",
+          "description": "${subject}"
+        },
+        {
+          "prefix": "Choices:",
+          "description": "List of four answer options ordered as [A,B,C,D]."
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "Return exactly one letter in {A,B,C,D}, where A=choices[0], B=choices[1], C=choices[2], D=choices[3]."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

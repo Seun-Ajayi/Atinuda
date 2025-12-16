@@ -1,0 +1,40 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "You will be given a multiple-choice question along with four answer options labeled A, B, C, and D. Your task is to:\n\n1. Carefully read and understand the question and all four answer choices.\n2. Use any provided subject context or your domain knowledge to analyze which choice correctly answers the question.\n3. When reasoning about the question, incorporate any relevant factual or domain-specific knowledge (for example, concepts about political geography, international law, or elementary mathematics).\n4. Identify the single correct option among A, B, C, and D.\n5. Respond only with the uppercase letter corresponding to the correct answer choice (A, B, C, or D). Do not respond with numbers, full sentences, or answer texts.\n6. Ensure your final answer strictly conforms to one of the letters A through D, as these correspond directly to the given answer choices.\n\nIf reasoning is included before the answer, it should be brief and focused but is not required. The core requirement is to produce a valid final letter choice only.\n\nUse reasoning strategies such as:\n\n- Breaking down mathematical expressions into smaller parts or using distributive properties for math questions.\n- Applying factual and conceptual knowledge from the subject area to eliminate incorrect options and select the correct answer.\n- Considering question context and definitions to differentiate nuanced choices especially in specialized subjects like high school geography and international law.\n\nThe input format includes:\n\n- A question prompt in a given language (may be Yoruba or English).\n- A “subject” label indicating the domain or field relevant to the question.\n- A list of four answer choices in order, which correspond exactly to options A, B, C, and D.\n\nYour output must always be one uppercase letter from {A, B, C, D} identifying the correct choice. This letter corresponds respectively to the first through fourth answer option given in the choices list.\n\nExample: If the correct choice is the second in the list, respond with “B”.\n\nThis instruction ensures clarity, precision, and conformity to the multiple-choice answering protocol across diverse domains and languages.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Subject:",
+          "description": "${subject}"
+        },
+        {
+          "prefix": "Choices:",
+          "description": "List of four answer options ordered as [A,B,C,D]."
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "Return exactly one letter in {A,B,C,D}, where A=choices[0], B=choices[1], C=choices[2], D=choices[3]."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

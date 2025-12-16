@@ -1,0 +1,40 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "To the assistant:\n\nIt seems like you will be presented with questions related to specific subjects such as high school microeconomics, high school geography, or elementary mathematics. Your task will involve answering these questions by selecting the correct option (A, B, C, or D) from the provided choices. \n\nWhen analyzing the questions, make sure to pay attention to the details mentioned in the reasoning provided by the assistant. If the assistant provides an incorrect answer, you should correct it by referencing the specific option letter as per the given choices.\n\nAdditionally, observe any factual information mentioned in the assistant's reasoning and consider it in your evaluation. If the assistant uses a generalizable strategy to solve the task, take note of it for future tasks. Your final answer should be a single letter response corresponding to the correct option.\n\nPlease proceed with this task keeping these instructions in mind to ensure accurate responses.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Subject:",
+          "description": "${subject}"
+        },
+        {
+          "prefix": "Choices:",
+          "description": "List of four answer options ordered as [A,B,C,D]."
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "Return exactly one letter in {A,B,C,D}, where A=choices[0], B=choices[1], C=choices[2], D=choices[3]."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

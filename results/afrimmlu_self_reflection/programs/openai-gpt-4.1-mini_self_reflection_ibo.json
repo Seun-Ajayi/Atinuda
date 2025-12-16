@@ -1,0 +1,40 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "You will receive multiple-choice questions phrased in the Igbo language, each containing four answer options labeled A, B, C, and D. Your task is to select the single correct answer strictly based on precise factual, domain-specific, and contextual knowledge relevant to the question’s subject area.\n\nTo accomplish this correctly, adhere carefully to the following detailed guidelines:\n\n1. **Thoroughly Understand the Question and Its Domain**  \n   - Fully comprehend the Igbo wording and nuances of the question, carefully parsing any technical or domain-specific vocabulary (e.g., “ezinaụlọ asụsụ” for language family, “ọnụọgụgụ mba uwa” for population distribution, “mkpụrụ ụbọchị” for counting days/weeks, “usoro ọchịchọ” for demand curve).  \n   - Identify the question’s principal subject domain such as high school microeconomics, geography, anthropology, social sciences, or mathematics.  \n   - Recognize subtle distinctions in Igbo terms, especially those that indicate precise concepts or categories (for example, “n'ime ime kọntinental” = continental inland/interior area vs. “n'oké kọntinental” = continental margins/coastal zones).\n\n2. **Apply Domain-Specific, Objective, and Verified Knowledge**  \n   - Use well-established and verifiable facts from relevant fields:  \n     - In economics, understand classical principles such as economies of scale (increasing production typically lowers unit cost and may reduce prices), determinants of demand shifts versus quantity demanded changes, and what factors induce movements vs. shifts in demand curves.  \n     - In geography and population studies, know patterns such as: population density is highest along continental margins (coastal regions) rather than deep inland, deserts, or very cold zones; migrations are triggered primarily by education, environmental pressures, and political factors, with lifestyle changes less often serving as principal drivers.  \n     - In counting and calendar-related questions, apply precise mathematical operations (e.g., days-per-week, weeks-in-month calculations must be accurate and not based on assumptions).  \n     - Historical and sociological facts (e.g., Kinsey report acceptance rates approximately 11%, not majority) should be recalled accurately.\n\n3. **Distinguish Clearly Between Similar or Closely Related Concepts**  \n   - When options appear similar or related, analyze their meanings carefully and make distinctions based on definitional and factual accuracy. For example:  \n     - Recognize that “Ọnụahịa nke ihe eji esi hamburger” (price of hot dog inputs) relates to supply side, not demand curve shifts.  \n     - Realize that “Mgbanwe n'usoro otuto ndụ” (lifestyle changes) is generally not a primary cause of migration but rather a consequence or secondary effect.  \n     - Differentiate between movements along demand curve (due to own price changes) versus shifts in the demand curve (due to related goods prices or income changes).\n\n4. **Avoid Assumptions, Intuitions, or Overgeneralized Reasoning**  \n   - Do not rely solely on what \"feels right\" or plausible; instead, corroborate your answer with precise definitions and factual knowledge in your domain.  \n   - Avoid conflating cause and effect or confusing secondary effects with primary causes.  \n   - Do not mix concepts from different economic or geographic theories without clear conceptual clarity.\n\n5. **Reason Explicitly and Concisely**  \n   - Provide a clear rationale explaining why the chosen answer is correct based on the question context and factual knowledge.  \n   - Briefly state why the other options are incorrect, highlighting the key factual distinctions.  \n   - Show accurate comprehension of linguistic nuances in Igbo and the relevant academic domain to justify your choice.\n\n6. **Final Answer Format**  \n   - Submit ONLY the single capital letter (A, B, C, or D) corresponding to the correct answer.  \n   - Do NOT include the answer text or any additional commentary with your final answer.\n\n**Additional Domain-Specific Details Gathered From Feedback:**  \n- In microeconomics:  \n  - Increasing production generally reduces unit cost and price if economies of scale apply, so output up and price down is the norm for improved efficiency scenarios.  \n  - Demand curve shifts are caused by changes in income, related good prices, tastes, or expectations — not by the good’s own price (which causes movement along the curve).  \n- In migration geography:  \n  - Political factors (e.g., political group conflicts) are a primary cause of migration.  \n  - Environmental pressures and educational opportunities also drive migration.  \n  - Lifestyle changes are more often effects or secondary motivators, not main causes.  \n- Geography and population: population density tends to concentrate near coastal zones (continental margins), not inland continental interior areas.  \n- Igbo terminology often encodes subtle domain-specific distinctions requiring precise understanding to answer correctly.\n\nBy combining careful linguistic sensitivity with rigorous application of factual domain knowledge and logical reasoning, you will reliably identify the correct answers as intended.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Subject:",
+          "description": "${subject}"
+        },
+        {
+          "prefix": "Choices:",
+          "description": "List of four answer options ordered as [A,B,C,D]."
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "Return exactly one letter in {A,B,C,D}, where A=choices[0], B=choices[1], C=choices[2], D=choices[3]."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Task Instructions:\nGiven a question in Igbo, subject domain, and multiple choice options, your task is to:\n- Translate the question accurately if needed and understand the context provided.\n- Analyze the choices provided to select the correct option (A–D) that answers the question correctly.\n- Ensure your final response is in the format of a single letter corresponding to the correct option (A, B, C, or D).\n\nAdditional Guidelines:\n- Pay attention to language translations or specific terminology used in the question to interpret its meaning correctly.\n- In the subject area of high school geography, focus on identifying geographical features or formations based on the question context.\n- For high school microeconomics questions, consider concepts related to market dynamics, buyer-seller interactions, and pricing strategies when analyzing the questions.\n- In elementary mathematics questions, focus on applying basic arithmetic operations to solve equations or mathematical problems accurately.\n\nFeedback Analysis:\n- If your response does not match the designated answer choices (A, B, C, or D), reconsider the options provided and ensure your selected response aligns with the requested format.\n- Note any feedback highlighting the correct answer and reasoning behind it to improve your understanding of similar questions in the future.\n\nUtilizing language translation skills, subject-specific knowledge, and problem-solving strategies will enhance your accuracy and comprehension when addressing questions across various domains. Remember to provide your final response in a single letter format (A, B, C, or D) for the correct option.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Subject:",
+          "description": "${subject}"
+        },
+        {
+          "prefix": "Choices:",
+          "description": "List of four answer options ordered as [A,B,C,D]."
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "Return exactly one letter in {A,B,C,D}, where A=choices[0], B=choices[1], C=choices[2], D=choices[3]."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

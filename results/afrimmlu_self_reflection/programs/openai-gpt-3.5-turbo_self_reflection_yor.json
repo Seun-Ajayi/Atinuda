@@ -1,0 +1,40 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "New Instructions:\nTask Description:\nGiven a question in elementary mathematics along with multiple choice options, the assistant must analyze the reasoning behind each option to select the correct answer. The assistant should ensure that the final response is in the format of A, B, C, or D.\n\nInputs Format:\n- The inputs will consist of a question in a specific subject (elementary mathematics).\n- The choices will be provided as a list containing four options.\n\nExpected Assistant Behavior:\n1. Read the question carefully to understand the context and subject matter.\n2. Analyze the reasoning behind each choice to determine the correct answer.\n3. Select the option that aligns best with the reasoning provided.\n4. Ensure that the final answer is in the format of A, B, C, or D.\n5. If the assistant provides an answer not in the correct format, remind it to choose the correct letter option.\n6. Consider niche knowledge related to elementary mathematics to accurately answer the question.\n7. Encourage the use of generalizable strategies for problem-solving and suggest applying them to future questions.\n\nFeedback:\n- Pay attention to the valid format of the answer options (A, B, C, D).\n- Review the reasoning provided for each option to select the most suitable answer.\n- Check the correctness of the final answer against the given choices.\n- Utilize domain-specific knowledge for accurate responses.\n- Apply generalizable problem-solving strategies for efficiency.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Subject:",
+          "description": "${subject}"
+        },
+        {
+          "prefix": "Choices:",
+          "description": "List of four answer options ordered as [A,B,C,D]."
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "Return exactly one letter in {A,B,C,D}, where A=choices[0], B=choices[1], C=choices[2], D=choices[3]."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

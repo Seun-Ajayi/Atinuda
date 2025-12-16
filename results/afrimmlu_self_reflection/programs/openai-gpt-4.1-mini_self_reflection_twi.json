@@ -1,0 +1,40 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "You will be provided with a question, a subject category, and exactly four answer choices labeled A to D. The question and answer options may be in either Akan (Twi) or English, and typically draw from factual, conceptual, or computational knowledge across subjects such as history, international law, economics, geography, health statistics, mathematics, or culture.\n\nYour task is to select precisely one letter (A, B, C, or D) corresponding to the one correct answer from the four given options. Adhere strictly to the following comprehensive guidelines to maximize correctness, cultural and factual accuracy, and output precision:\n\n1. **Accurate Interpretation of Multilingual Questions and Options:**\n   - Carefully read the question and answer choices in their original language (Akan/Twi or English).\n   - For Akan text, pay special attention to culturally nuanced words, idiomatic expressions, or domain-specific legal/cultural terms (e.g., “tumi a ɛde ammamerɛ kankɔ ba” means “power that brings cultural continuity”).\n   - Map Akan terms and phrases precisely to their accurate conceptual or domain-specific English equivalents, especially distinguishing between closely related concepts (e.g., cultural power vs. legal norms).\n   - Avoid confusion or literal mistranslation of idioms or technical terms that carry specialized meaning.\n  \n2. **Rigid Reliance on Domain-Specific Factual Knowledge:**\n   - Use only verified and authoritative domain facts rather than guesswork or common assumptions.\n   - Examples include:  \n     • In international law, jus cogens norms (peremptory norms) universally bind states, such as the prohibition of genocide.  \n     • For health statistics, e.g., in 2017 child mortality data, Pakistan had the highest rate among China, the USA, and Indonesia — not China or the USA.  \n     • Social science survey results such as the 1948 Kinsey Reports had relatively low disapproval (~11%) in the US, not high opposition.  \n   - Cross-check culturally or historically sensitive facts to ensure accuracy.\n\n3. **Systematic Handling of Mathematical or Logical Problems:**\n   - For numerical/algebraic questions, fully translate local-language phrasing or symbolic expressions into standardized mathematical form before solving.\n   - Carry out stepwise calculations or logical reasoning explicitly (internally), avoiding shortcuts, approximations, or inference without verification.\n   - Confirm proper interpretation of symbols, operators, and expressions especially when mixed with Akan wording or cultural references.\n\n4. **Strict Control over Output Format and Precision:**\n   - Output ONLY the ONE letter (A, B, C, or D) that matches exactly one of the provided answer choices.\n   - Do NOT output explanations, justifications, reasoning, or any additional text.\n   - Provide no alternative or combined answers.\n   - Your final output must be single-letter only and exactly one of the given four choices.\n\n5. **Discerning Close or Similar Options Accurately:**\n   - Examine subtle semantic or factual differences between seemingly similar answer choices.\n   - Prefer the answer that agrees perfectly with domain-specific facts, law, or conceptual definitions.\n   - Avoid choices that are partially true if a better, fully correct alternative exists.\n   \n6. **Common Pitfalls to Avoid:**\n   - Do not confuse culturally specific legal or social concepts by translating them incorrectly or swapping them with general terms.\n   - Do not substitute widely held assumptions or stereotypes in place of domain-specific facts.\n   - Avoid algebraic errors or misreading the structure of the question in mathematical problems.\n   - Do not treat analogies or metaphors literally if the question demands technical interpretation.\n\n7. **Leverage Generalizable Analytical Strategy:**\n   - For each question, identify the core domain and semantic focus: e.g., legal principle, statistical ranking, theoretical model, cultural concept, or geographic phenomenon.\n   - Map the question context and all answer options into their precise conceptual equivalents.\n   - Verify factual correctness against known domain benchmarks or case law (e.g., Grootboom case interpretation, Christaller’s central place theory).\n   - Evaluate each answer for alignment with facts and logical consistency.\n   - Choose the option that best fits all criteria without contradiction.\n\nBy following these detailed instructions, you will produce highly accurate, domain-aligned, culturally and linguistically appropriate answers, strictly formatted as a single letter corresponding to the one correct option.\n\n**Remember:** output ONLY one letter (A, B, C, or D) and nothing else, regardless of how certain or uncertain the answer might be.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Subject:",
+          "description": "${subject}"
+        },
+        {
+          "prefix": "Choices:",
+          "description": "List of four answer options ordered as [A,B,C,D]."
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "Return exactly one letter in {A,B,C,D}, where A=choices[0], B=choices[1], C=choices[2], D=choices[3]."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}
