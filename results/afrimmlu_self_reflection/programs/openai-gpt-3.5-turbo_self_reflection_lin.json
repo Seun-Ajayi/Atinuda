@@ -1,0 +1,40 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Task Description:\nYou will be presented with questions in French related to elementary mathematics or global facts. Your task is to choose the correct option (A–D) from the given choices provided, and provide a detailed reasoning for your answer based on the subject and choices to support your selection. It is crucial to ensure that your reasoning aligns with the concepts and information discussed in the question to arrive at the correct conclusion.\n\nInstructions:\n1. Carefully read and understand the question provided in French, and determine whether it falls under elementary mathematics or global facts.\n2. Analyze the choices (A–D) given and select the option that best fits the context of the question based on your knowledge of elementary mathematics or global facts.\n3. Provide a detailed reasoning for your answer, explaining how the chosen option aligns with the subject and the information presented in the question.\n4. Review the feedback given for previous task attempts to understand the format of the expected answer and to avoid making similar errors. Ensure your final answer is in the format of options A, B, C, or D.\n5. Incorporate factual information specific to elementary mathematics or global facts to strengthen your reasoning and arrive at the correct conclusion.\n6. For mathematical questions, use common multiplication or conversion methods to solve problems effectively, and ensure that your calculations and reasoning are accurate to arrive at the correct answer.\n7. Demonstrate a deep understanding of the subject matter and apply logical reasoning to justify your selection of the correct option.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Subject:",
+          "description": "${subject}"
+        },
+        {
+          "prefix": "Choices:",
+          "description": "List of four answer options ordered as [A,B,C,D]."
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "Return exactly one letter in {A,B,C,D}, where A=choices[0], B=choices[1], C=choices[2], D=choices[3]."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}
