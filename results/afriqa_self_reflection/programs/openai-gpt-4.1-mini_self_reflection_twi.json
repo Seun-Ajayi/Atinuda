@@ -1,0 +1,36 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Your task is to answer questions based strictly on the provided context snippet, following these comprehensive and specific rules to ensure absolute precision, contextual accuracy, and linguistic alignment:\n\n1. **Language & Style Consistency:**  \n   - Answer in exactly the same language and style as the question.  \n   - If a local language or dialect is used in the question (e.g., Akan/Twi), answer in the same language and style without switching or translating, unless explicitly instructed otherwise.\n\n2. **Use Only Explicit Contextual Information:**  \n   - Use only facts, names, titles, places, terms, and phrases as explicitly given in the context.  \n   - Do NOT add, infer, assume, or extrapolate any information beyond what is explicitly stated. For example, do not translate or paraphrase unless the exact term appears in the context.\n\n3. **Answer Exactly What Is Asked, No More No Less:**  \n   - Identify the precise information type requested (e.g., name, place, title, party, school name, river, country) and provide exactly that, no additional explanation, background, commentary, or summarization unless explicitly requested.  \n   - Do NOT answer with related information that is not a direct or exact match to the question’s target.\n\n4. **Exact Lexical Replication from Context:**  \n   - Replicate names, titles, terminologies, and formatting exactly as they appear in the context, including capitalization, punctuation, and acronyms (e.g., “Peoples Democratic Party” not “PDP” unless the acronym is exactly used in question or context).  \n   - Where the context uses a local or native term (e.g., “Asuo Volta”), use that exact term rather than its English translation (“Volta River”).\n\n5. **Choose the Best Matching Contextual Answer If Multiple Options Present:**  \n   - If more than one potential answer is mentioned, select the one that best matches the specificity and semantics of the question. For example, if the question asks for a city name and the context offers both a city and a region, choose the city name exactly as given.\n\n6. **No Re-interpretations or Modifications:**  \n   - Do not alter or re-interpret the answer. For example, respond with “The Gobi Desert” if that is exactly how the term appears in the context, not “Gobi Desert,” unless the question or instructions explicitly permit dropping articles.\n\n7. **Handle Ambiguity by Selecting the Most Relevant Explicit Answer:**  \n   - When ambiguity exists and multiple answers could fit, choose the answer that best fits the question semantics and the provided context.\n\n8. **Avoid Providing Any Information Outside the Provided Context:**  \n   - Never use outside knowledge, common sense, or assumptions. Answers must stem solely from the supplied context snippet.\n\n9. **No Expansions, Summaries, or Explanations in the Final Answer:**  \n   - Unless the question explicitly asks for reasoning or explanation, provide concise answers—only the direct answer is required.\n\n10. **Provide Reasoning Only If Requested:**  \n    - Internal reasoning should only be provided if specifically prompted or requested. It must be based strictly on explicit facts from the context to justify the answer, never speculation.\n\n11. **Examples of Common Domain Scenarios and How to Handle Them:**\n\n    - For political figures and their country affiliation:  \n      Use the adjective or demonym form present in the context if the question uses that form.  \n      (e.g., if the context describes someone as a “South African politician,” and the question asks “which country?”, answer “South African,” not “South Africa” if “South African” is the exact term in the context.)\n\n    - For educational background questions specifying level (e.g., secondary, university):  \n      Answer only with the institution exactly matching the education level asked, using the exact phrase from the context.  \n      (e.g., for “secondary school” answer “St. Mary’s Senior High School” if that’s exactly the phrase in the context.)\n\n    - For geographic/physical features:  \n      Use the exact local/native names given in context (e.g., “Asuo Volta” instead of “Volta River” if that is how it appears in the context).\n\nApply this workflow to every question:\n\n- Carefully read and analyze the question for language, style, and exact information requested.  \n- Identify the exact corresponding fact from the context with precise wording and format.  \n- Answer succinctly, exactly, and only with that fact, mimicking the terminology and spelling from the context.  \n- Do not guess or add any content not explicitly included in the snippet.\n\nBy strictly adhering to these instructions, answers will be accurate, linguistically appropriate, and contextually faithful, preventing errors due to inference, partial matching, or format inconsistencies.",
+      "fields": [
+        {
+          "prefix": "Question Lang:",
+          "description": "${question_lang}"
+        },
+        {
+          "prefix": "Context:",
+          "description": "${context}"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer Lang:",
+          "description": "Short final answer only"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Provide accurate and concise answers by extracting specific information based on the context provided for each question. Ensure that the responses align closely with the content provided and aim for exact-match answers when possible. Take note of key details such as dates, locations, and names to provide more precise responses. Pay attention to details that could lead to the correct answers, and consider the language or format used in the context to tailor your responses accordingly. Think about how to improve your answers based on the feedback received in previous tasks and focus on delivering precise and relevant information in your responses.",
+      "fields": [
+        {
+          "prefix": "Question Lang:",
+          "description": "${question_lang}"
+        },
+        {
+          "prefix": "Context:",
+          "description": "${context}"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer Lang:",
+          "description": "Short final answer only"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "task": "AfriQATask",
+  "model": "openai/gpt-3.5-turbo",
+  "language": "kin",
+  "optimized": {
+    "em": 19.71,
+    "f1": 27.5
+  },
+  "dataset_sizes": {
+    "train": 50,
+    "val": 50,
+    "test": 345
+  }
+}

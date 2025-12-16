@@ -1,0 +1,36 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "You will be given a question and a corresponding context in a specified language (in these examples, Igbo). Your task is to provide a precise, exact-match answer to the question based strictly on the information contained within the provided context.\n\nTo do this correctly, follow these guidelines:\n\n1. **Answer solely using the provided context:** Do not rely on outside knowledge or assumptions. Your answer must be explicitly supported by the text.\n\n2. **Exact-match answers:** The answer should reproduce the relevant text from the context exactly as it appears if possible, including names, dates, titles, or any specific phrasing. Even minor deviations (e.g., omitting quotation marks or middle names/initials when they appear in the context) may result in the answer being considered incorrect.\n\n3. **Disambiguate carefully:** If the context contains related information that can cause confusion (e.g., multiple dates or similar names), identify precisely which piece of information directly answers the question.\n\n4. **Include relevant qualifiers or additional details if shown in context:** For example, if a name in the context includes a nickname in quotation marks, include it exactly as formatted because the nickname may be considered part of the correct answer.\n\n5. **Reasoning step:** Begin your response by showing clear reasoning with references to the relevant part(s) of the context that justify your answer.\n\n6. **Answer language:** Provide your final answer in the same language as the question.\n\n7. **When multiple valid answers are possible, choose the one that matches the format and wording of the context most closely.**\n\nBy adhering to these principles, you will increase the accuracy and correctness of your answers and avoid common pitfalls such as providing partially correct but contextually incomplete responses.\n\nExample:  \n- Context states: `Obinna \"Obi\" Iyiegbu (born 12 April 1975), commonly known as Obi Cubana`  \n- Question: `Kedụ ezigbo aha Obi Cubana?`  \n- Correct answer: `Obinna \"Obi\" Iyiegbu` (not just `Obinna Iyiegbu`)\n\nAnother example:  \n- Question: `Kedụ mgbe ekeputara Bauchi Steeti?`  \n- Context states Bauchi State was formed in 1976 by splitting North-Eastern State, but also that Gombe State split from Bauchi in 1996.  \n- Correct answer should specify `1976` as the formation date of Bauchi State, not 1996.\n\nPay careful attention to these nuances in all future question-answering tasks.",
+      "fields": [
+        {
+          "prefix": "Question Lang:",
+          "description": "${question_lang}"
+        },
+        {
+          "prefix": "Context:",
+          "description": "${context}"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer Lang:",
+          "description": "Short final answer only"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "New Instructions for the Assistant:\n\nYou will be given inputs consisting of a question written in Yoruba (or occasionally another specified language) and a context passage written in English. Your task is to reply with an answer that is strictly extracted from the provided English context, adhering tightly to the question’s language and any explicit instructions below.\n\nTask Objectives and Detailed Guidelines:\n\n1. Input Format:\n   - Question: Always in Yoruba or the specified language.\n   - Context: Always in English.\n   - Your output answer must be in the question’s language (Yoruba here), using exact terminology from the context as much as possible.\n\n2. Answer Extraction and Language Handling:\n   - Identify the precise, explicit answer present in the context that answers the question.\n   - Answer using the exact words, spellings, names, numbers, dates, and formats as given or directly implied by the context.\n   - Do not translate or paraphrase context content freely into Yoruba; only format dates or phrasing per the examples given (e.g., \"2015\" → \"Ọdun 2015\" if the context or question style indicates).\n   - For answers requiring \"yes\" or \"no,\" respond exactly as in the context or, if the context implies it clearly, use \"yes\" or \"rárá\" in lowercase with correct diacritics as appropriate.\n   - For names of people, places, countries, or official titles appearing in the context, replicate the spelling and capitalization exactly, without modification.\n   - When the answer is a geographic or ethnic identification, give it exactly as in the context (e.g., \"Ghana\" not “Àwọn ará Ghana” unless the context uses such phrasing).\n   - Do not infer or add information that is not textually present or clearly implied by the context, even if such inference seems logical.\n\n3. Conciseness and Relevance:\n   - Provide a brief, direct answer that corresponds strictly to the relevant part of the context.\n   - Avoid explanations, commentary, or additional detail unless explicitly requested.\n   - The answer should be a word, phrase, date, or proper noun extracted verbatim or formatted only as required by the language style instructions.\n\n4. Dates:\n   - When answering with years or dates, format as per context examples, such as \"Ọdun 2015.\"\n   - If the context uses a decade or other time frames without a specific year, reproduce it exactly as is, e.g., \"1960s\" or \"mid-1980s.\"\n   - Do not convert numeric dates into Yoruba words unless shown by the context or instructions.\n\n5. Handling No-Information or Silent Context:\n   - If the context does not provide relevant information to answer the question, respond concisely indicating absence of data.\n   - For yes/no questions where the context is silent or ambiguous, infer yes/no only if logically dictated by the presence or absence of explicit information, matching the exact affirmatives (\"yes\") or negatives (\"rárá\") with the correct accents and casing.\n\n6. Key Lessons from Feedback Examples:\n   - Do not translate \"yes\" as \"bẹ́ẹ̀ni\" if the context uses \"yes\"; instead, use \"yes\" exactly.\n   - For ethnic or geographic descriptors (e.g., who eats Banku), replicate the context term exactly (\"Ghana,\" not \"Àwọn ará Ghana\").\n   - The start of something (e.g., broadcasting in Nigeria) should be answered with the exact date phrase from context (\"1960s\"), not inferred midpoint dates.\n   - Answers must match one of the exact strings in the context or the allowed variant formats per instructions.\n\n7. Reasoning Section (if requested or provided):\n   - Explain clearly and strictly how the answer was extracted from the context.\n   - The reasoning should show what portion of the context corresponds to the question and justify why the chosen answer is the precise match.\n   - Avoid introducing external knowledge or assumptions.\n\nSummary:\nYour primary focus is to supply a flawlessly accurate, concise, and context-extracted answer in the language of the question (usually Yoruba), using exact terminology, spelling, phrasing, and formatting as provided or clearly implied by the context. Follow the yes/no response conventions to the letter, avoid free translation or inference, and respect the domain-specific subtleties in date and place names. This precision will align with user expectations and ensure maximum accuracy and usefulness of the responses.",
+      "fields": [
+        {
+          "prefix": "Question Lang:",
+          "description": "${question_lang}"
+        },
+        {
+          "prefix": "Context:",
+          "description": "${context}"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer Lang:",
+          "description": "Short final answer only"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

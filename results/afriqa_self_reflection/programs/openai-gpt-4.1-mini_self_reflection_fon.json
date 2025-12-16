@@ -1,0 +1,36 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "You are given a question and a context passage written primarily in a West African language heavily mixed with French or French itself (e.g., in Fon, Ewe, or related language forms). Your task is to answer the question using ONLY the information explicitly present in the provided context, following these precise, domain-specific instructions to ensure exact match, linguistic consistency, and no inference or external knowledge.\n\n1. **Answer extraction:**  \n   - Provide a concise answer directly extracted from or closely paraphrased using only the exact wording and terms present in the context.  \n   - Do NOT add any external knowledge, inference, explanation, or reasoning not explicitly stated.  \n   - The answer must directly address the question with exact phrases, names, dates, or terms as found in the context.\n\n2. **Answer content and format:**  \n   - Usually, answer with a short noun phrase, specific name, term, date, or brief fact explicitly stated in the context.  \n   - Avoid explanations or summaries unless the exact phrase in the context includes those details verbatim.  \n   - If the question asks for a name, origin, place, or entity, answer with the exact term or name exactly as it appears in the context, preserving accents, diacritics, and spelling.\n\n3. **Linguistic and stylistic consistency:**  \n   - Answer in the same language and style as the question and context, preserving local terms, accents, diacritics, and language-specific spellings exactly as in the context.  \n   - Do not substitute synonyms or paraphrase beyond what is explicitly stated.\n\n4. **Avoid inference, generalization, or summarization:**  \n   - The answer must match the most precise phrase or fact directly in the context that answers the question.  \n   - Do NOT infer answers from related or surrounding information if a more direct explicit answer exists.  \n   - When multiple facts are present, choose the simplest, clearest, and most direct fact from the relevant sentence.\n\n5. **Domain-specific and culturally specific terms:**  \n   - Retain local or culturally specific data exactly (e.g., local measurement units, ethnic group names, geographic names, or historic terms).  \n   - For questions about origin, place, or definition, prioritize the phrase explicitly linking the subject to that category.\n\n6. **Handling dates and numeric data:**  \n   - Use the exact numeric or date format used in the context. For example, if the context specifies “1995” or “le 1er janvier 1995,” select exactly that format found in the context depending on question style and expected answer length.  \n   - If a year alone is sufficient and exactly present in the context, use that rather than a full date unless the question asks specifically for the full date.\n\n7. **Key phrase identification:**  \n   - Focus on the sentences or parts of the context that directly define, mention, or explain the concept or entity in the question.  \n   - Do not use peripheral, background, or explanatory information if a direct answer phrase is present.\n\n8. **Beware of protector-protected relationships:**  \n   - If the context mentions a protector and a protected entity, and the question asks “Who is the protector?”, answer explicitly with the protector’s name as given in the context (e.g., if “La France a imposé son protectorat à…” answer “France” as protector).\n\n9. **Examples and correction principles:**  \n   - If question: “Fí tɛ FMI xwé ɔ ɖé ?” (Where is FMI?), answer “Washington” if and only if “Washington” is explicitly mentioned as the place in context. Do NOT answer with a description or paraphrased explanation, only the single term matching the place.  \n   - If question asks “Hwé tɛ nù é sɔ OMC gbɛ̌ ɔ ɖo té ?” and context says “L'OMC est née le 1er janvier 1995,” but also the year 1995 appears, answer “1995” not the full date (unless the question clearly calls for the full date).\n\n10. **Answer precision over plausibility:**  \n    - Even if a fuller or more descriptive answer seems better, always revert to the shortest, exact, explicit information in the context that satisfies the question.\n\n11. **Do NOT provide any reasoning or explanation in your final answer.**  \n    - Only respond with the final answer in the language and style consistent with the question and context.\n\nIn summary, extract the exact, concise answer as explicitly stated in the provided context, preserving all linguistic, cultural, and formal elements. Avoid inference, extrapolation, or summary. Your role is to perform precise, context-bound, linguistically faithful question answering only.",
+      "fields": [
+        {
+          "prefix": "Question Lang:",
+          "description": "${question_lang}"
+        },
+        {
+          "prefix": "Context:",
+          "description": "${context}"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer Lang:",
+          "description": "Short final answer only"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

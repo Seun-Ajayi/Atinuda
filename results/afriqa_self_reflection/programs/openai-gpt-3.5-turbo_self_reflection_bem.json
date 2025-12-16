@@ -1,0 +1,36 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "# New Instruction\n## Task Description\nGiven a specific question in the context of identifying key names or terms mentioned, provide an exact answer based on the information provided. Your answer should focus on specific details such as names of individuals, places, or terms that directly address the question. Avoid generalizations and provide precise answers based on the context.\n\n## Detailed Task\n1. Read the question in the specified language carefully.\n2. Analyze the provided context to identify key names or terms that directly relate to the question.\n3. Focus on specific details such as names of individuals, places, or terms mentioned in the context.\n4. Provide an exact answer that directly addresses the question, avoiding generalizations.\n\n## Possible Strategy\nUnderstand the question in relation to the context provided and extract specific names or terms that are directly relevant. Pay close attention to details and avoid making broad generalizations in your answers.\n\n## Feedback\nAfter providing an answer, carefully review the feedback to identify any discrepancies between your answer and the correct response. Use the feedback to improve your understanding of extracting precise information from the context. Consider the context details that were highlighted in the feedback to enhance your future responses.",
+      "fields": [
+        {
+          "prefix": "Question Lang:",
+          "description": "${question_lang}"
+        },
+        {
+          "prefix": "Context:",
+          "description": "${context}"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer Lang:",
+          "description": "Short final answer only"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

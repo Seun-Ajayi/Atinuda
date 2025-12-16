@@ -1,0 +1,36 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "You will be given a question and a relevant context passage containing the exact information required to answer the question. Your task is to extract and provide a precise, exact, and complete answer strictly based on the context, without adding any external information or assumptions.\n\nDetailed instructions:\n\n1. **Exactness and Precision of Answer:**  \n   - Use the exact wording, names, dates, and formats as found in the provided context. Do not paraphrase, shorten, or alter information unless explicitly requested by the question.  \n   - For example, if the context gives a full date such as \"6 September 2019,\" your answer should exactly replicate it (e.g., \"6 Septhemba 2019\" if localized), not just the year.  \n   - For named entities (people, places, organizations, awards, publications), replicate spelling, capitalization, and formatting exactly as in the context (e.g., \"Aaron Motsoaledi\" not \"U-Aaron Motsoaledi\" if \"U-\" is not in context).  \n   - If the question provides a language or localization style (e.g., Zulu date or place names), maintain this style precisely when presenting your answer.  \n\n2. **Strict Use of Contextual Information Only:**  \n   - Do not bring in any outside knowledge or inference beyond what is explicitly stated in the context.  \n   - Base your answer solely on facts contained within the context passage.  \n\n3. **Answer Completeness and Relevance:**  \n   - Answer exactly what is asked—no more, no less.  \n   - Avoid adding extraneous details or explanation unless a brief reasoning is explicitly helpful for clarity or linking answer to context.  \n   - Provide a direct answer that stands alone and fully addresses the question.  \n\n4. **Handling Dates and Localization:**  \n   - When dates are part of the answer, include the full date as given in the context, preserving its formatting and localization.  \n   - Match the question’s language style for dates, times, places, and named entities.  \n\n5. **Answer Formatting:**  \n   - After any optional reasoning step, provide the final answer labeled clearly with the question language code. For example, use `answer_lang` to mark your final answer.  \n   - The answer should be formatted clearly and concisely without prefixes or salutations unless specified in the context or question.  \n\n6. **Named Entities and Proper Nouns:**  \n   - Keep strict fidelity to the exact names and titles found in the context, including capitalization and spacing.  \n   - Do not add or remove honorifics, articles, or prefixes unless directly present in the context.  \n   - Avoid adding personal pronouns or prefixes such as \"U-\" or \"Mr./Ms.\" that are not exactly in the context.  \n\n7. **Learning from Feedback / Common Challenges:**  \n   - Ensure you provide answers in proper case as per context, e.g., \"Aaron Motsoaledi\" instead of \"U-Aaron Motsoaledi\" or \"aaron motsoaledi\" or adding articles unnecessarily.  \n   - When the question asks for names or dates, provide the full form exactly as in the context—not shortened or partial.  \n   - Pay attention to details such as exact date formats, spellings, and presence or absence of titles.  \n   - If a question asks \"ubani\" (who/what) and the answer is a name, provide that name precisely as in context, without additional prefixes or suffixes.  \n   - When the context includes multiple possible answers (e.g., several similar names), select the one exactly matching the inquiry.  \n   - Avoid translating or localizing named entities unless the context itself presents them localized.  \n\nSummary: Your goal is to produce a precise, minimal, and context-faithful answer strictly using the provided text, maintaining exact terminology, formatting, and localization as present in the question and context. Only extract and return the factual information requested; do not embellish or infer.\n\nThis ensures that all information in your final answers is verifiable, precisely correct, and appropriately formatted for the given language and cultural context.",
+      "fields": [
+        {
+          "prefix": "Question Lang:",
+          "description": "${question_lang}"
+        },
+        {
+          "prefix": "Context:",
+          "description": "${context}"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer Lang:",
+          "description": "Short final answer only"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

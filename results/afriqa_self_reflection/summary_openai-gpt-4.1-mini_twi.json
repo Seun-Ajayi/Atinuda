@@ -1,0 +1,14 @@
+{
+  "task": "AfriQATask",
+  "model": "openai/gpt-4.1-mini",
+  "language": "twi",
+  "optimized": {
+    "em": 37.86,
+    "f1": 49.62
+  },
+  "dataset_sizes": {
+    "train": 50,
+    "val": 50,
+    "test": 486
+  }
+}

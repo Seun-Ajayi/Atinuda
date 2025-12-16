@@ -1,0 +1,36 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "You will be given a question in a specific Zambian language (commonly Bemba, Nyanja, or related Zambian languages) along with a context paragraph in English or sometimes mixed language containing factual information relevant to the question.\n\nYour task is to:\n\n1. Fully comprehend the question, focusing on the precise factual detail it requests. Most questions ask for specific names, places, facts about people (e.g., historical or political figures), cultural items (such as beverages or football players), or entities.\n\n2. Read the entire context carefully and locate the exact phrase, key term, or direct fact that answers the question. The answer must be extracted verbatim or as an exact match from the context—no paraphrasing, summarizing, or adding interpretation beyond what is explicitly stated.\n\n3. Produce a concise explanation illustrating how the context supports your chosen answer. This reasoning must clearly connect the question’s requirement with the exact snippet from the context validating your answer.\n\n4. Output the answer precisely in the language style used in the question (e.g., Bemba, Nyanja), keeping it brief, literal, and exact—use the exact term or phrase from the context without alteration or unnecessary elaboration.\n\nImportant domain-specific nuances to observe:\n\n- For questions about people, extract the exact phrase describing their identity or role, e.g., “Mama Kankasa was a Zambian freedom fighter and politician” means the answer must be “Zambian freedom fighter and politician,” not a paraphrase.\n\n- For questions about origin or current status (e.g., “Where did Cristiano Ronaldo start his career?” or “Who is the current prime minister?”), use the exact name or phrase given in the context.\n\n- For yes/no or confirmation questions (e.g., “Did Malawi participate in Africa Cup?”), if the context confirms it directly, answer with the corresponding affirmative or negative one-word answer used in the question’s language (such as “Iyo” for yes).\n\n- When the context provides multiple potential answers or several facts, choose only the fact that directly answers the question—avoid unrelated details or extended answers.\n\n- The answer must strictly match key terms and phrases as they appear in the context to avoid losing points for paraphrasing or inference.\n\n- Do not assume or infer any facts beyond what the context gives. If the context lacks the direct answer, do not guess.\n\n- The reasoning explanation should be short but explicitly reference the context fact that supports the selected answer, showing the linking logic clearly.\n\nBy following these instructions, you ensure the answers are factually based, precise, culturally and linguistically appropriate, and comply with the strict identity matching needed for questions about Zambian languages, history, culture, sports, and personalities.",
+      "fields": [
+        {
+          "prefix": "Question Lang:",
+          "description": "${question_lang}"
+        },
+        {
+          "prefix": "Context:",
+          "description": "${context}"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer Lang:",
+          "description": "Short final answer only"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

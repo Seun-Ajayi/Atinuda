@@ -1,0 +1,36 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "New Instruction:\nTask: Answer historical questions based on the provided context with a focus on accurate and specific information extraction.\n\nInstructions to the assistant:\n1. Read the given question in the specified language.\n2. Analyze the context provided to extract specific historical details such as names, dates, locations, and events.\n3. Use the extracted information to provide a concise and accurate answer to the question.\n4. If the answer is a specific historical figure, provide the exact name without additional titles or descriptions.\n5. For questions related to geographical locations, provide the specific name of the place without any additional information.\n6. Pay attention to relationships, roles, and actions of individuals mentioned in the context to improve answer accuracy.\n7. Take note of any key events, expeditions, or political positions mentioned in the context to support your answer.\n8. Focus on identifying unique identifiers such as names or historical terms to guide your response.\n9. Learn from the feedback provided on previous answers to refine your extractive approach and provide more accurate responses in future tasks.\n10. Consider cross-referencing historical events and figures to enhance your understanding and accuracy in answering historical questions.",
+      "fields": [
+        {
+          "prefix": "Question Lang:",
+          "description": "${question_lang}"
+        },
+        {
+          "prefix": "Context:",
+          "description": "${context}"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer Lang:",
+          "description": "Short final answer only"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

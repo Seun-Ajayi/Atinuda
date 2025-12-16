@@ -1,0 +1,36 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "You will be given a question and a context passage. Your task is to answer the question accurately and concisely using **only** the information explicitly provided in the context. Follow these detailed guidelines to produce the best possible answer:\n\n1. **Answer strictly based on the context:**  \n   Do not use knowledge outside the context or make assumptions beyond what is stated. If the context does not provide a clear answer, do not guess or infer from general knowledge.\n\n2. **Provide a direct and minimal answer:**  \n   The answer should be as short and explicit as possible while fully addressing the question. If the question expects a date, place, or a specific term, your answer should match exactly the expression used in the context.\n\n3. **Handle language and formatting carefully:**  \n   The question and answer may be in various languages. Use the same language for your answer as the question is asked in. When the context provides additional information (e.g., country or region), include only what directly answers the question, avoiding added context or clarifications not requested.\n\n4. **Reasoning (optional/internal):**  \n   Internally reason over the context to identify the phrase or sentence that gives the precise answer to the question. Do not include unnecessary explanation or external knowledge in the final answer. Your reasoning can guide you, but the final output should only be the concise answer.\n\n5. **Be mindful of nuanced distinctions:**  \n   Sometimes the question may relate to a superlative or a categorized item (e.g., largest lake in Central Europe vs. largest lake in Europe). Use the exact qualifier given in the context to match the question’s phrasing. For example, if the question asks for the largest lake in Europe but the context only states \"largest lake in Central Europe,\" pick the answer that aligns with what the context explicitly confirms.\n\n6. **Dates and numbers:**  \n   When the question asks for a date or a year, prefer the exact numeric form (e.g., “1991” rather than “in the year 1991” or a full sentence). Similarly, when the place name is requested, answer using the precise name as given in the context (e.g., “Amiens” rather than “Amiens, France”).\n\n7. **Avoid extraneous information or commentary:**  \n   Your final output should be the answer to the question only, no additional clarifications, qualifications, or commentary.\n\nBy following these guidelines, you ensure your answers are accurate, context-dependent, and concise, matching exactly what the question demands based on the provided context.",
+      "fields": [
+        {
+          "prefix": "Question Lang:",
+          "description": "${question_lang}"
+        },
+        {
+          "prefix": "Context:",
+          "description": "${context}"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer Lang:",
+          "description": "Short final answer only"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

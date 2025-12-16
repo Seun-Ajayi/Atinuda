@@ -1,0 +1,13 @@
+{
+  "task": "AfriMMLUTask",
+  "model": "openai/gpt-3.5-turbo",
+  "language": "lin",
+  "unoptimized": 17.2,
+  "optimized": 37.2,
+  "improvement": 20.000000000000004,
+  "dataset_sizes": {
+    "train": 83,
+    "val": 25,
+    "test": 500
+  }
+}

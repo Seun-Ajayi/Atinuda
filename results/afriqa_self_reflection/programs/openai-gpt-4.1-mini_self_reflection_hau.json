@@ -1,0 +1,36 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Revised Instruction for the Assistant:\n\nYou will be given a question and a related context passage. Your task is to answer the question **accurately and precisely using only the information contained in the provided context**. Do not use any external knowledge or assumptions beyond the context.\n\nKey Points and Detailed Guidelines:\n\n1. **Answer Language and Exact Text Matching:**\n   - Your final answer must be in exactly the *same language* as the question.\n   - If the context contains specific names, terms, phrases, culturally distinct words, or particular spellings (e.g., names of ethnic groups like “Hausa, Yoruba da Igbo”, or affirmatives like “eh” in Hausa), your answer must match them *exactly* as they appear, including spelling, punctuation, spacing, and capitalization.\n   - Do not paraphrase or alter terms. For example, if the context shows “Ile-Ife,” answer exactly “Ile-Ife,” not “Ile Ife.”\n   - If the question expects a numeric or short factual answer (e.g., number of players, years, names), **extract and provide exactly that**, no expansions or added explanations.\n   - Avoid answering in full sentences unless the exact answer is given in the context in that form; otherwise, provide only the precise phrase or word.\n\n2. **Conciseness and Precision:**\n   - The final answer should be the *precise piece of information* that directly answers the question.\n   - Do not provide extra information, explanations, synonyms or elaborations beyond what is explicitly asked and supported by the context.\n   - For numeric answers, provide the number only as shown in the context (e.g., “11”, not “Yan wasa 11 ne”).\n\n3. **Reasoning Section:**\n   - Provide a brief *reasoning* explanation showing how the answer is directly supported by the context.\n   - This must explicitly quote or paraphrase the relevant portion of the context that contains the answer.\n   - The reasoning should clearly link the question to the evidence in the context, showing why the answer is correct.\n   - Keep the reasoning concise and focused on demonstrating the source of the answer in the context.\n\n4. **Use Only the Provided Context:**\n   - Do not add any outside knowledge, assumptions, or interpretations beyond the context.\n   - If the context lacks sufficient information to answer the question, clearly respond with:  \n     - “Babu bayani a cikin bayanin.” (if question is in Hausa) or  \n     - “No information available in the context.” (if question is in English or other languages)\n   - Do not guess or infer answers.\n\n5. **Domain-Specific and Culturally Sensitive Information:**\n   - Preserve culturally significant terms and expressions exactly as found in the context (e.g., months from Islamic calendar like “Dhu al-Hijjah”, ethnic group names as given).\n   - For affirmatives/negatives or culturally specific words, mirror the exact form used in the context (“eh” rather than “E”).\n   - Replicate numeric and date information exactly as given, including formatting.\n\n6. **Answer Formatting and Output Structure:**\n   For every input, provide exactly two sections separated clearly:\n\n   a) **Reasoning** — a brief, focused explanation linking the question to the context evidence supporting the answer.  \n   b) **Answer (same language as question)** — the precise answer string matching exactly what context provides.\n\n   Do not include any additional commentary, repeated information, or unrequested elaborations.\n\n7. **Additional Best Practices:**\n   - Pay close attention to exact spellings, punctuation, spaces, and case sensitivity to meet cultural and linguistic fidelity.\n   - When numeric answers are clearly defined (e.g., number of players on a team), provide only the exact number, not a descriptive phrase.\n   - When a question asks for a proper noun or label, check carefully if the context provides a standard term (e.g., \"bahagwayen mutane\" for left-handed people) and reproduce accordingly.\n   - Always verify whether the context provides the required information before answering.\n\nBy following these instructions precisely, you will produce answers that are culturally accurate, linguistically exact, and strictly supported by the given context, meeting the highest standards for factual correctness and fidelity.",
+      "fields": [
+        {
+          "prefix": "Question Lang:",
+          "description": "${question_lang}"
+        },
+        {
+          "prefix": "Context:",
+          "description": "${context}"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer Lang:",
+          "description": "Short final answer only"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

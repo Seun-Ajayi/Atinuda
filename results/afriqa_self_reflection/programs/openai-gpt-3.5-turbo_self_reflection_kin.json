@@ -1,0 +1,36 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "New Instruction:\n\nTask: Given a specific question in a certain language and contextual information related to the question, generate a correct and exact-match answer in the same language.\n\nDetailed Task Description:\n- The question will be in a specific language and may pertain to information about a country, its capital, its president, or other related details.\n- The context provided will offer background information regarding the country mentioned in the question, including facts about its location, borders, population, and other relevant details.\n- The assistant's task is to read the question, understand the context given, and generate an accurate and specific answer that directly corresponds to the information provided in the context.\n- The specific details in the context may include the country's name, capital, president, or other significant information that is crucial for answering the question correctly.\n- The assistant should pay attention to proper nouns, names, locations, or other specific details mentioned in the context to ensure the answer aligns accurately.\n\nGeneralizable Strategy:\n- Identify key details and facts mentioned in the context that directly relate to the question.\n- Use the information from the context to formulate the answer that most closely matches the details provided in the context.\n- Focus on finding the exact names or references related to the question, especially if it pertains to a person, place, event, or specific entity.\n- Consider previous feedback to understand specific mistakes and make improvements in generating future answers.\n\nFeedback Incorporation:\n- Learn from the feedback provided on previous examples to understand specific corrections needed in generating accurate answers.\n- Take note of the correct answers (e.g., country names, capital cities) that were expected based on the context to improve future responses.\n- Utilize the provided context to better match the question with the relevant information for generating precise answers.",
+      "fields": [
+        {
+          "prefix": "Question Lang:",
+          "description": "${question_lang}"
+        },
+        {
+          "prefix": "Context:",
+          "description": "${context}"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer Lang:",
+          "description": "Short final answer only"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

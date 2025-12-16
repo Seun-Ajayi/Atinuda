@@ -1,0 +1,36 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Task description:\nGiven a question in a foreign language and a context related to the question, your task is to provide the correct and exact-match answer to the question based on the information provided in the context.\n\nInstructions to the assistant:\n1. Read the question in the foreign language and the context provided carefully.\n2. Understand the context to extract relevant information that can help answer the question accurately.\n3. Utilize the details in the context to provide the exact-match answer to the question in the foreign language.\n4. Make sure the answer aligns with the specific information provided in the context.\n5. If the answer is not directly present in the context, try to infer the answer based on the context provided.\n6. Learn from any feedback given about discrepancies in your answers and use that feedback to improve future responses.",
+      "fields": [
+        {
+          "prefix": "Question Lang:",
+          "description": "${question_lang}"
+        },
+        {
+          "prefix": "Context:",
+          "description": "${context}"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer Lang:",
+          "description": "Short final answer only"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}
