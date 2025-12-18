@@ -1,7 +1,7 @@
 """
 AfriQA task implementation for DSPy evaluation pipeline.
 """
-from typing import List, Tuple, Dict
+from typing import List, Tuple, Dict, Any
 import re
 import unicodedata
 from collections import Counter
@@ -67,7 +67,7 @@ class AfriQATask(BaseTask):
         return dspy.ChainOfThought(GenerateResponse)
     
     @staticmethod
-    def _strip_accents(cls, s: str) -> str:
+    def _strip_accents(s: str) -> str:
         return "".join(ch for ch in unicodedata.normalize("NFD", s)
                     if unicodedata.category(ch) != "Mn")
 
@@ -92,6 +92,10 @@ class AfriQATask(BaseTask):
         rec  = num_same / len(g)
         return (2 * prec * rec) / (prec + rec)
     
+    def metric(self, example: dspy.Example, prediction: Any, trace=None, pred_name=None, pred_trace=None) -> float:
+        """Evaluation metric without feedback."""
+        pass
+    
     def metric_em(self, example, prediction, trace=None, pred_name=None, pred_trace=None):
         golds = example.get("answer_lang")
         pred  = getattr(prediction, "answer_lang", "")
@@ -107,11 +111,12 @@ class AfriQATask(BaseTask):
         self,
         program: dspy.Module,
         test_set: List[dspy.Example],
-        save_prefix: str
+        save_path: str,
+        file_name: str
     ) -> Dict[str, float]:
         """Evaluate on both EM and F1 metrics."""
         print(f"\n{'='*60}")
-        print(f"Evaluating: {save_prefix}")
+        print(f"Evaluating: {save_path}")
         print(f"{'='*60}\n")
         
         # Evaluate with EM
@@ -123,7 +128,7 @@ class AfriQATask(BaseTask):
             display_table=False,
             display_progress=True
         )
-        em_result = evaluate_em(program, save_as_json=f"{save_prefix}_em.json")
+        em_result = evaluate_em(program, save_as_json=f"{save_path}/exact_match/{file_name}_em.json")
         em_score = em_result.score
         print(f"EM Score: {em_score:.2f}%")
         
@@ -136,7 +141,7 @@ class AfriQATask(BaseTask):
             display_table=False,
             display_progress=True
         )
-        f1_result = evaluate_f1(program, save_as_json=f"{save_prefix}_f1.json")
+        f1_result = evaluate_f1(program, save_as_json=f"{save_path}/f1_score/{file_name}_f1.json")
         f1_score = f1_result.score
         print(f"F1 Score: {f1_score:.2f}%")
         
@@ -197,9 +202,10 @@ if __name__ == "__main__":
     import os
     
     parser = argparse.ArgumentParser(description="Run AfriQA evaluation")
-    parser.add_argument("--model", type=str, required=True, help="Model name (e.g., openai/gpt-4o-mini)")
+    parser.add_argument("--model", type=str, required=True, help="Model name (e.g., openai/gpt-4.1-mini)")
     parser.add_argument("--lang", type=str, required=True, help="Language code (e.g., yor, hau, swa)")
     parser.add_argument("--output-dir", type=str, default="./results/afriqa", help="Output directory")
+    parser.add_argument("--max-tokens", type=int, default=32000, help="Maximum Tokens")
     
     args = parser.parse_args()
     
@@ -212,7 +218,8 @@ if __name__ == "__main__":
     task = AfriQATask(
         model_name=args.model,
         lang=args.lang,
-        api_key=api_key
+        api_key=api_key,
+        max_tokens=args.max_tokens
     )
     
     output_dir = args.output_dir

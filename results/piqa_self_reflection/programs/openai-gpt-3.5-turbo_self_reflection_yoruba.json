@@ -1,0 +1,36 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Task: \nThe task involves selecting the solution that aligns with the cultural norms and language usage of the Yoruba people for a given goal.\n\nInput Format:\n- The input consists of a goal statement in Yoruba language.\n- The input includes two solutions also in Yoruba language.\n\nTask Description:\nYou are required to choose the solution that best aligns with the cultural norms and language usage of the Yoruba people based on the given goal statement. Consider the cultural values, language nuances, and societal norms of the Yoruba community to make an informed choice.\n\nStrategy:\nPay attention to the cultural connotations, language specificity, and societal expectations reflected in the solutions to determine which one resonates more with the Yoruba cultural context. Emphasize familial ties, respect for elders, appropriate greetings, and other cultural aspects specific to the Yoruba people when making your selection.\n\nFeedback Considerations:\nIf your choice reflects the importance of family, lineage, respect, politeness, appropriate greetings, or other cultural values specific to the Yoruba community, it is likely to align with the cultural norms and language usage.",
+      "fields": [
+        {
+          "prefix": "Goal:",
+          "description": "Natural-language description of the goal or intent to achieve."
+        },
+        {
+          "prefix": "Solutions:",
+          "description": "List [solution0, solution1] with two candidate ways to achieve the goal."
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Label:",
+          "description": "Return '0' if solution0 is better, '1' if solution1 is better."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

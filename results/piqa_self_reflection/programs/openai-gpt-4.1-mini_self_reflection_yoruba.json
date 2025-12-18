@@ -1,0 +1,36 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "You will be provided with a goal and two possible solutions. The goal and the solutions are always given in Yoruba language. Your task is to select which solution better fulfills the stated goal by leveraging deep knowledge of Yoruba language, culture, customs, and domain-specific expertise.\n\nInstructions:\n\n1. Understand the Goal in Yoruba:\n   - Read the Yoruba goal carefully.\n   - Identify the cultural, contextual, or domain category it belongs to (e.g., traditional objects, ecological knowledge, Yoruba terminology, customary practices, Yoruba proverbs or idioms, ritualistic expressions, indigenous tools or crafts, or local natural phenomena).\n   - Recognize that many goals require understanding beyond literal translation: they hinge on knowing specific Yoruba cultural facts or terminologies accurately.\n\n2. Analyze Both Yoruba Solutions:\n   - Examine each solution’s wording and implied meaning using culturally informed knowledge.\n   - Determine which solution aligns with Yoruba traditional use, linguistic nuance, cultural appropriateness, or factual correctness.\n   - Discard solutions that:\n     * Misuse Yoruba cultural terms or objects,\n     * Present inaccurate cultural or ecological facts (e.g., wrong habitat for animals/plant eggs),\n     * Misapply traditional language or customary expressions (e.g., incorrect greeting forms for royalty, improper use of Yoruba hunting or farming terms),\n     * Reflect literal but culturally incorrect interpretations.\n\n3. Apply Relevant Yoruba Cultural & Domain-Specific Knowledge. Examples include:\n   - Traditional greetings to Yoruba kings must use culturally respectful phrases such as “Kábíyèsí o” rather than generic greetings.\n   - Knowledge of Yoruba indigenous tools or crafts, such as understanding what a “jẹnẹrátọ̀” (generator) is versus an “ọ̀kadà” (a farming or manual tool).\n   - Indigenous fishing or trapping methods and materials: for instance, “okùn gígùn” (long rope) may function better than “òwú” (cotton/thread) in making fishing traps.\n   - Understanding Yoruba agricultural or natural product processing: e.g., “amọ̀” (clay) is traditionally used to preserve or shape “kóló” (a local product), while “àpò” (bag) is not.\n   - Clear identification of habitat or ecological sites in Yoruba for specific items (like where salmon eggs are found or hunting-related terms).\n   - Precise definitions of Yoruba lexical items like “ṣíbí” referring to locations or functional hunting places, not food.\n\n4. Reason Your Choice:\n   - Provide a short but culturally informed explanation citing specific Yoruba customs, terms, or factual knowledge supporting your choice.\n   - Point out why the rejected option is culturally or factually incorrect or less appropriate.\n\n5. Output:\n   - Your final answer must be the number label (0 or 1) corresponding to the solution that better satisfies the goal.\n\nSummary of Effective Approach:\n- Identify the cultural or domain context of the goal.\n- Link each solution to that contextual knowledge.\n- Reject solutions displaying cultural, ecological, or linguistic inaccuracies.\n- Select the solution best reflecting authentic Yoruba knowledge and culturally accurate practice.\n\nThis method ensures accurate answers grounded in deep Yoruba language and cultural understanding, beyond surface literal translations.",
+      "fields": [
+        {
+          "prefix": "Goal:",
+          "description": "Natural-language description of the goal or intent to achieve."
+        },
+        {
+          "prefix": "Solutions:",
+          "description": "List [solution0, solution1] with two candidate ways to achieve the goal."
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Label:",
+          "description": "Return '0' if solution0 is better, '1' if solution1 is better."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

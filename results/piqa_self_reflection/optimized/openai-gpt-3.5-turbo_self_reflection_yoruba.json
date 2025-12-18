@@ -1,0 +1,1102 @@
+[
+  {
+    "goal": "A le fi awon ohun elo wonyii se ajile fun ogba ile wa",
+    "solutions": [
+      "Ìràwé, irin, ìgbẹ́ adìyẹ",
+      "Ìràwé, ẹpo eyin, ìgbẹ́ adìyẹ"
+    ],
+    "example_label": 1,
+    "reasoning": "The goal statement emphasizes the need to prepare a special meal for a family gathering in our home. In Yoruba culture, certain ingredients hold significance and are commonly used in traditional meals. Therefore, the choice of ingredients in the solution should align with cultural norms and culinary traditions of the Yoruba people.",
+    "pred_label": "0",
+    "method": 0
+  },
+  {
+    "goal": "Tí ọtí bá ń wù ẹ́ mu",
+    "solutions": [
+      "Lo igbá láti mú ọtí",
+      "Lo apẹ̀rẹ̀ láti mu ọtí"
+    ],
+    "example_label": 0,
+    "reasoning": "Both solutions involve the action of fetching or bringing \"ọtí\" (alcohol), but the choice between them should consider the cultural connotations and language usage specific to the Yoruba community. It is important to consider the nuances and societal expectations associated with the act of fetching alcohol in Yoruba culture.",
+    "pred_label": "1",
+    "method": 0
+  },
+  {
+    "goal": "O ṣèṣẹ fọ aṣọ ibọsẹ re, o sì fẹ́ kí ó tètè gbẹ",
+    "solutions": [
+      "sá a sí óòrun titi yóò fi gbẹ.",
+      "fi sínu àpò ilé-ìwé rẹ titi yóò fi gbẹ."
+    ],
+    "example_label": 0,
+    "reasoning": "The goal statement emphasizes the desire to protect one's clothing while working. Solution [1] suggests \"wearing an apron all the time while cooking\" which directly addresses the need to protect clothing. Solution [2], on the other hand, suggests \"keeping a handkerchief in your pocket all the time while cooking,\" which might not provide as much coverage and protection for the clothing. Therefore, based on the goal of protecting one's clothing while working, solution [1] aligns better.",
+    "pred_label": "0",
+    "method": 1
+  },
+  {
+    "goal": "Kí ni nǹkan mìíràn tí a tún le ri lára epo rọ̀bì?",
+    "solutions": [
+      "Epo pupa ni nǹkan mìíràn tí a tún lè rí lára bẹntiró",
+      "epo bẹntiró ni nǹkan mìíràn tí a tún lè rí lára bẹntiró"
+    ],
+    "example_label": 1,
+    "reasoning": "The Yoruba people place importance on respect, formality, and clarity in communication. In this context, it is essential to consider the cultural significance and language usage related to different types of palm oil.",
+    "pred_label": "0",
+    "method": 0
+  },
+  {
+    "goal": "Ohun èlò ìsọ́ra wo ni ènìyàn lè lò pẹ̀lú òkúta nínú rẹ̀?",
+    "solutions": [
+      "Katakata ni ohun èlò ìsọ́ra tí ènìyàn lè fi ta òkúta",
+      "Akatanpo ni ohun èlò ìsọ́ra tí ènìyàn lè fi ta òkúta"
+    ],
+    "example_label": 1,
+    "reasoning": "Both solutions provide options for how a person can break a rock. To determine which solution aligns better with the cultural norms and language usage of the Yoruba people, we need to consider the language nuances and societal expectations related to the action of breaking a rock in Yoruba culture.",
+    "pred_label": "0",
+    "method": 0
+  },
+  {
+    "goal": "kíni ohun tó dára jùlọ lati fi lẹ àwo tó fọ́ sí méjì?",
+    "solutions": [
+      "lẹ àwo náà pọ̀ pẹ̀lú èedú",
+      "lẹ àwo náà pọ̀ pẹ̀lú òǹlẹ̀"
+    ],
+    "example_label": 1,
+    "reasoning": "The Yoruba culture places a strong emphasis on respect for elders and traditional hierarchy. It values proper greetings and expressions of respect.",
+    "pred_label": "0",
+    "method": 0
+  },
+  {
+    "goal": "Kíni a fi ń hun aṣọ òkè?",
+    "solutions": [
+      "Òwú ni a fi ń hun aṣọ òkè",
+      "Okùn ni a fi ń hùn aṣọ òkè"
+    ],
+    "example_label": 0,
+    "reasoning": "The goal statement \"Kíni a fi ń hun aṣọ òkè?\" is asking about how to wear a hat. In Yoruba culture, the use of words and phrases carries significance, including the choice of verbs and manner of expression when discussing clothing or personal adornment. To align with Yoruba cultural norms, the solution should use language that is commonly associated with the act of wearing a hat in a respectful and culturally appropriate manner.",
+    "pred_label": "1",
+    "method": 0
+  },
+  {
+    "goal": "Níbo ni àyè tí ó wà láàárín apá sí èjìká?",
+    "solutions": [
+      "Ọrùn-ọwọ́ ni àyè tí ó wà láàárín apá sí èjìká",
+      "Ìgùnpá ni àyè tí ó wà láàárín apá sí èjìká"
+    ],
+    "example_label": 1,
+    "reasoning": "Both solutions address the question about where the day breaks in the sky, but they use different imagery. Solution 1, \"Ọrùn-ọwọ́ ni àyè tí ó wà láàárín apá sí èjìká,\" refers to the sun rising as the hand of the day breaking in the sky. On the other hand, solution 2, \"Ìgùnpá ni àyè tí ó wà láàárín apá sí èjìká,\" describes the daybreak as the tail of the day in the sky. The choice between the two may depend on which imagery resonates more with the cultural beliefs and language preferences of the Yoruba people.",
+    "pred_label": "0",
+    "method": 0
+  },
+  {
+    "goal": "Kíni à ń fi àdá ṣe?",
+    "solutions": [
+      "À ń fi àdá ro oko",
+      "À ń fi àdá dáná"
+    ],
+    "example_label": 0,
+    "reasoning": "The phrase \"Kíni à ń fi àdá ṣe?\" translates to \"What are we using the cutlass for?\" In Yoruba culture, the use of a cutlass can symbolize various activities or intentions, such as farming, clearing land, or other practical purposes. Therefore, the choice of solution should align with a culturally appropriate context for using a cutlass.",
+    "pred_label": "0",
+    "method": 1
+  },
+  {
+    "goal": "Kí ni wọ́n ohun èlò ìdáná ni ayé àtijọ́?",
+    "solutions": [
+      "Ìkòkò ni ohun èlò ìdáná ni ayé àtijọ́",
+      "Àgbá ni ohun èlò ìdáná ni ayé àtijọ́"
+    ],
+    "example_label": 0,
+    "reasoning": "Both solutions appear to address the question about the essence of inheritance in the world of business or commerce.",
+    "pred_label": "0",
+    "method": 1
+  },
+  {
+    "goal": "Kíni ẹ̀rọ ìgbàlódé tí à ń lò fún aṣọ fífọ̀ ní ayé òde òni?",
+    "solutions": [
+      "Ẹ̀rọ ìlọta ni ẹ̀rọ ìgbàlódé tí à ń lò fún aṣọ fífọ̀ ní ayé òde òni",
+      "Ẹ̀rọ ìfọṣọ ni ẹ̀rọ ìgbàlódé tí à ń lò fún aṣọ fífọ̀ ní ayé òde òni"
+    ],
+    "example_label": 1,
+    "reasoning": "The goal statement is inquiring about the type of market that provides clothing materials in the present-day market. To align with the cultural norms and language usage of the Yoruba people, it is crucial to consider the terminology and terminology commonly used in describing markets and clothing materials in the Yoruba community.",
+    "pred_label": "1",
+    "method": 1
+  },
+  {
+    "goal": "Kí ni mo lè fi ti ilẹ̀kùn ilé mi pa?",
+    "solutions": [
+      "Kọ́kọ́rọ́ ni mo lè lo láti ti ilẹ̀kùn mi pa",
+      "Àgádágodo ni mo le lò láti fi ti ilẹ̀kùn mi pa."
+    ],
+    "example_label": 1,
+    "reasoning": "The goal statement \"Kí ni mo lè fi ti ilẹ̀kùn ilé mi pa?\" translates to \"How can I open the door to my house?\" In Yoruba culture, respect and politeness are highly valued. The chosen solution should reflect courteous behavior and respect for personal space or property.",
+    "pred_label": "0",
+    "method": 0
+  },
+  {
+    "goal": "O fẹ́ mọ aago tí o lu, kí ni ohun to tọ́ láti wò?",
+    "solutions": [
+      "aago ọwọ́",
+      "aago orí"
+    ],
+    "example_label": 0,
+    "reasoning": "A fẹẹ́ fa araẹ̀wọn bi afọ́nifọ̀à pẹ̀lú irẹlẹ́ alaye ati iṣẹ́ igbimọ̀ ti awọn ẹ̀nìyàn lórí aago. A bi ìtọ akọkọ ni ilana àwọn aṣa naa, ojúewẹ, ati awọn ohun ti ń pọ̀ diẹ̀ ninu aago.",
+    "pred_label": "0",
+    "method": 1
+  },
+  {
+    "goal": "Orí ibo ni àwọn Yorùbá ti máa n dáná?",
+    "solutions": [
+      "Orí àpótí",
+      "Orí àrò"
+    ],
+    "example_label": 1,
+    "reasoning": "Both solutions are related to the concept of \"head\" in Yoruba culture. It is important to consider the cultural significance and connotations associated with different types of \"head.\"",
+    "pred_label": "0",
+    "method": 0
+  },
+  {
+    "goal": "Tí mo bá fẹ́ kí ilé mi tuntun rẹwà ní àwọ̀",
+    "solutions": [
+      "Màá lo ọ̀dà tí ó rẹwà",
+      "Màá lo ìyèpẹ̀ tí ó rẹ̀wà"
+    ],
+    "example_label": 0,
+    "reasoning": "Both solutions are offering to go to a place known for its beauty to pray for the success of building a new house. Solution 1 suggests going to a garden known for its beauty, while solution 2 proposes going to a waterfall known for its beauty. In Yoruba culture, natural beauty, especially in the form of water bodies like waterfalls, holds spiritual significance and is often associated with purity, cleansing, and blessings. Therefore, the choice between a garden and a waterfall for prayers related to success and new beginnings could be influenced by their cultural symbolism and significance in the Yoruba context.",
+    "pred_label": "1",
+    "method": 0
+  },
+  {
+    "goal": "Kí ni a lè fi gbẹ́ ilẹ̀?",
+    "solutions": [
+      "Jígà ni a lè fi gbẹ́ ilẹ̀",
+      "Àdá ni a lè fi gbẹ́ ilẹ̀"
+    ],
+    "example_label": 0,
+    "reasoning": "Both solutions propose methods of caring for the home in Yoruba language. The choice between \"Jígà ni a lè fi gbẹ́ ilẹ̀\" and \"Àdá ni a lè fi gbẹ́ ilẹ̀\" may involve nuances related to the specific cultural connotations and language preferences of the Yoruba people.",
+    "pred_label": "0",
+    "method": 1
+  },
+  {
+    "goal": "Kí ni àwọn ọmọ òkú máa ń jẹ́ lẹ́yìn ikú òbí wọn?",
+    "solutions": [
+      "Ogún ni àwọn ọmọ òkú máa ń jẹ́",
+      "Àmàlà ni àwọn ọmọ òkú máa ń jẹ"
+    ],
+    "example_label": 0,
+    "reasoning": "Both solutions address the question of what dead children eat, but there are cultural nuances to consider. The Yoruba culture places importance on traditional beliefs and rituals surrounding death. The mention of \"Ogún\" in solution 1 may signify a link to the deity of iron and war in Yoruba cosmology, which could be related to ancestral offerings or protection of the deceased. On the other hand, \"Àmàlà\" in solution 2 is a common Yoruba dish, and referencing it might highlight the idea of continuity and sustenance even in the afterlife.",
+    "pred_label": "1",
+    "method": 0
+  },
+  {
+    "goal": "Ẹran ilé tí ó jẹ́ ìdàkejì àgùntàn",
+    "solutions": [
+      "ni a mọ̀ sí ewúrẹ́",
+      "ni a mọ̀ sí ajá"
+    ],
+    "example_label": 0,
+    "reasoning": "The goal involves the consideration of the second choice \"ajá\" and \"ewúrẹ́,\" which refer to a goat and a dog respectively in Yoruba culture. To make the best decision based on cultural norms and language usage, we need to consider factors like symbolism, importance, and cultural significance associated with goats and dogs in the Yoruba community.",
+    "pred_label": "1",
+    "method": 0
+  },
+  {
+    "goal": "Tí o ba fẹ́ ọ̀bẹ tí ó mú, kíni ó yẹ kí o ṣe",
+    "solutions": [
+      "lo òkuta láti fi pọ́n ẹnu ọ̀bẹ náà",
+      "lo páálí láti fi pọ́n ẹnu ọ̀bẹ náà"
+    ],
+    "example_label": 0,
+    "reasoning": "Both solutions involve removing the bone from the meat. In Yoruba culture, there is a great emphasis on respect, politeness, and appropriate manners. The choice of words and actions should reflect this cultural value. It is important to consider which of the solutions conveys a sense of respect and politeness that aligns with the Yoruba cultural norms.",
+    "pred_label": "1",
+    "method": 0
+  },
+  {
+    "goal": "Báwo ni a ṣe ń tọjú ìbùsùn",
+    "solutions": [
+      "A ma ń tọ́jú ìbùsùn nípa sísùn le bẹ́ẹ̀",
+      "A ma ń tọ́jú ìbùsùn nípa títẹ ẹ"
+    ],
+    "example_label": 1,
+    "reasoning": "In Yoruba culture, respect for elders is highly important. When addressing the act of focusing on sleep, it is crucial to do so in a polite and respectful manner. Additionally, the choice of words and expressions should align with the cultural norms of deference and humility.",
+    "pred_label": "0",
+    "method": 0
+  },
+  {
+    "goal": "Kí tún ni a lè fi ṣe ìkòkò ìdáná lẹ́yìn amọ̀?",
+    "solutions": [
+      "Òkúta ni a tún le fi ṣe ìkòkò ìdáná lẹ́yìn amọ̀",
+      "Irin ni a tún le fi ṣe ìkòkò ìdáná lẹ́yìn amọ̀"
+    ],
+    "example_label": 1,
+    "reasoning": "Both solutions are suggesting different materials to use for building a fireplace hearth. To determine which one aligns best with the cultural norms and language usage of the Yoruba people, we need to consider the cultural significance of the materials and their societal connotations.",
+    "pred_label": "0",
+    "method": 0
+  },
+  {
+    "goal": "Kíni màá fi nu omi tí ó dà sílẹ̀ nínú ilé?",
+    "solutions": [
+      "Aṣọ inùlẹ̀ tí ó gbẹ́ ní màá lò",
+      "Aṣọ ìwọ̀sùn tí ó gbẹ́ ní màá lò"
+    ],
+    "example_label": 0,
+    "reasoning": "Both solutions offer options for what to wear when going to fetch water in the house. The first solution, \"Aṣọ inùlẹ̀ tí ó gbẹ́ ní màá lò\", emphasizes wearing traditional attire for the task, which is significant in Yoruba culture as it showcases cultural pride and respect for traditions. On the other hand, the second solution, \"Aṣọ ìwọ̀sùn tí ó gbẹ́ ní màá lò\", suggests wearing school attire for the same task. Considering the cultural importance placed on traditional values and attire in the Yoruba community, the first solution seems to align better with the cultural norms and language usage.",
+    "pred_label": "0",
+    "method": 1
+  },
+  {
+    "goal": "Kí ni ará nǹkan tí alágbẹ̀dẹ fí máa ṣe ohun èlò ọ̀ṣọ́?",
+    "solutions": [
+      "Owú ni ara nǹkan tí alágbẹ̀dẹ fí máa ṣe ohun èlò ọ̀ṣọ́",
+      "Òjé ni ara nǹkan tí alágbẹ̀dẹ fí máa ṣe ohun èlò ọ̀ṣọ́"
+    ],
+    "example_label": 1,
+    "reasoning": "In Yoruba culture, the choice of words and expressions holds significant importance. The use of appropriate terms and language that reflect respect, dignity, and cultural values is crucial in communication. Considering the goal statement, \"Kí ni ará nǹkan tí alágbẹ̀dẹ fí máa ṣe ohun èlò ọ̀ṣọ́?\" which translates to \"What is the most important thing that a farmer needs to make a good harvest?\", we need to analyze the cultural connotations, language specificity, and societal norms embedded in the solutions provided to determine the one that aligns best with the Yoruba cultural context.",
+    "pred_label": "0",
+    "method": 0
+  },
+  {
+    "goal": "Ní ilẹ̀ Yorùbá kíni ọkùnrin gbọ́dọ̀ ṣe tí ó bá fẹ́ kí àgbàlagbà?",
+    "solutions": [
+      "Ọkùnrin gbọ́dọ̀ sùn sílẹ̀",
+      "Ọkùnrin gbọ́dọ̀ dọ̀bálẹ̀"
+    ],
+    "example_label": 1,
+    "reasoning": "Ọkùnrin gbọ́dọ̀ ní ìṣe tí kò ní ẹni tí ó ní iṣẹ́ ilẹ̀ àjẹ́, ṣùgbọ́n ní ẹlòmíràn tó yẹ kò ní ìṣẹ́ kọ́ọ́kan nínú ilẹ̀. Máa ní ilẹ̀ Yorùbá, kóo sì ní ọkùnrin gbọ́dọ̀ sùn sílẹ̀, ní ọjọ́ tí ó bá fẹ́ kí àgbàlagbà. Níbẹ̀, ọkùnrin gbọ́dọ̀ dọ̀bálẹ̀ jẹ́ ẹ̀dà ti a fi tẹ gbogbo odọ àwon ìrẹ̀lẹ̀ wọ̀nyí tẹ. Ní ọjọ́ tí ó bá padà sí ilẹ̀, ọkùnrin gbọ́dọ̀ tó ní ìwọ̀n àtàwọn àwọn eniyan náà yẹ làáti rọ ìlú rẹ̀ nínú ilẹ̀ tó pẹ̀lú obinrin rẹ̀.",
+    "pred_label": "1",
+    "method": 1
+  },
+  {
+    "goal": "Lati di ṣíbí mu, ó yẹ kí n",
+    "solutions": [
+      "lo ọwọ́ mi",
+      "lo ẹsẹ̀ mi"
+    ],
+    "example_label": 0,
+    "reasoning": "The goal statement \"Lati di ṣíbí mu, ó yẹ kí n\" implies a request or instruction to someone to do something with a specific body part. In this context, the body part mentioned is \"my hand.\"",
+    "pred_label": "1",
+    "method": 0
+  },
+  {
+    "goal": "Kí ni o le ṣe lati jẹ ki ọ̀gẹ̀dè dòdò pọ́n kíákíá?",
+    "solutions": [
+      "tọ́jú rẹ sí inú ẹ̀rọ amóhuntutù mọ́jú",
+      "tọ́jú rẹ sí ibi tí ó mú ooru mọ́jú"
+    ],
+    "example_label": 1,
+    "reasoning": "Both solutions emphasize the importance of being diligent and focused in order to achieve success. However, the Yoruba culture values humility and respect. It is important to consider which solution reflects these values in a more culturally appropriate manner.",
+    "pred_label": "0",
+    "method": 0
+  },
+  {
+    "goal": "Tí ènìyàn bá fẹ́ lo òògùn, kíni yóò fi lòó?",
+    "solutions": [
+      "Ọtí ni ènìyàn yóò fi lo òògùn",
+      "Ọmí ni ènìyàn yóò fi lo òògùn"
+    ],
+    "example_label": 1,
+    "reasoning": "In Yoruba culture, the choice of words and expressions carries significant meaning. Considering the given goal statement which talks about seeking medical treatment, it is important to select the solution that aligns with the cultural beliefs and language nuances associated with healthcare practices in the Yoruba community. Pay attention to the cultural connotations and language specificity within the solutions to determine which one resonates more accurately with Yoruba cultural norms and societal expectations related to seeking medical treatment.",
+    "pred_label": "0",
+    "method": 0
+  },
+  {
+    "goal": "Tí apẹja bá fẹ́ mú ẹja lódò, kí ni yóò lò?",
+    "solutions": [
+      "Pàkúté ni apẹja yóò lò láti mú ẹja lódò",
+      "Àwọ̀n ni apẹja yóò lò láti mú ẹja lódò"
+    ],
+    "example_label": 1,
+    "reasoning": "The Yoruba people place a strong emphasis on respect and hierarchy in their language and culture. When offering advice or instructions, it is important to use appropriate language that reflects respect for authority figures and elders.",
+    "pred_label": "0",
+    "method": 0
+  },
+  {
+    "goal": "Ilẹ̀kùn ilé tí a fi àgádágodo tì pa",
+    "solutions": [
+      "Ìṣó ni ó lè sí i pẹ̀lú ìrọ̀rùn",
+      "Kọ́kọ́rọ́ ni ó lè sí i pẹ̀lú ìrọ̀rùn"
+    ],
+    "example_label": 1,
+    "reasoning": "Both solutions involve the concept of using \"ìrọ̀rùn\" (key) to open the door of the house. Solution 1 states, \"«Ìṣó ni ó lè sí i pẹ̀lú ìrọ̀rùn»\" which translates to \"A needle can open the door for you.\" On the other hand, Solution 2 states, \"«Kọ́kọ́rọ́ ni ó lè sí i pẹ̀lú ìrọ̀rùn»\" which translates to \"A small key can open the door for you.\" In Yoruba culture, there is a strong emphasis on respect for elders and using polite language. Additionally, proverbs and idiomatic expressions are commonly used in communication to convey deeper meanings.",
+    "pred_label": "0",
+    "method": 0
+  },
+  {
+    "goal": "Àjọ jẹ́ ọ̀nà tí à ń gbà ṣe kíni",
+    "solutions": [
+      "Ọ̀nà tí à ń gbà tọ́jú owó",
+      "Ọ̀nà tí à ń gbà ṣe ayẹyẹ"
+    ],
+    "example_label": 0,
+    "reasoning": "The Yoruba phrase \"Àjọ jẹ́ ọ̀nà tí à ń gbà ṣe kíni\" is likely referring to the concept of time or a schedule. In evaluating the solutions, we need to consider which option aligns better with the cultural norms and language usage of the Yoruba people in the context of time management or scheduling.",
+    "pred_label": "0",
+    "method": 1
+  },
+  {
+    "goal": "Kíni àwọn àgbẹ̀ fi ń ro oko?",
+    "solutions": [
+      "apẹ̀rẹ̀ ní àwọn àgbẹ̀ fi ń ro oko",
+      "Àdá ní àwọn àgbẹ̀ fi ń ro oko"
+    ],
+    "example_label": 1,
+    "reasoning": "The phrase \"Kíni àwọn àgbẹ̀ fi ń ro oko?\" translates to \"What do farmers use to plough the land?\" in English. In Yoruba culture, farmers traditionally use hand tools to plough the land. Considering the cultural context, we need to choose the solution that aligns with this traditional farming method.",
+    "pred_label": "0",
+    "method": 0
+  },
+  {
+    "goal": "Kí ni ohun à ń pe akèrègbè tí a sín ní ìlẹ̀kẹ̀?",
+    "solutions": [
+      "Sákárà ni à ń pe akèrègbè tí a sín ní ìlẹ̀kẹ̀",
+      "Ṣẹ̀kẹ̀rẹ̀ ni à ń pe akèrègbè tí a sín ní ìlẹ̀kẹ̀"
+    ],
+    "example_label": 1,
+    "reasoning": "The phrase \"akèrègbè\" refers to a specific type of bird in the Yoruba culture. In this context, the goal is inquiring about the name of this bird in the household. To determine which solution aligns best with the Yoruba cultural norms and language usage, we need to consider the language specificity, cultural connotations, and societal expectations associated with the expressions provided.",
+    "pred_label": "1",
+    "method": 1
+  },
+  {
+    "goal": "Ewé wo ni a maa ń já lé olóyè titun ní orí",
+    "solutions": [
+      "Ewé ọ̀gẹ̀dẹ̀ ni a má já lé olóyè titun ní orí",
+      "Ewé akòko ni a má ń já lé olóyè titun ní orí"
+    ],
+    "example_label": 1,
+    "reasoning": "The goal statement emphasizes the process of choosing a new leader. To align with the cultural norms and language usage of the Yoruba people, it is important to consider the traditional values and symbolism associated with the choices presented in the solutions.",
+    "pred_label": "0",
+    "method": 0
+  },
+  {
+    "goal": "Láti fọ abọ́ kíákíá ni ayé òde-òní, kí ni màá lò?",
+    "solutions": [
+      "Ẹ̀rọ ìfọbọ́ ni mo máa lò",
+      "Ẹ̀rọ ìfọṣọ ni mo máa lò"
+    ],
+    "example_label": 0,
+    "reasoning": "The goal statement emphasizes the urgency or quickness in leaving for a particular destination. To choose the solution that aligns with the cultural norms and language usage of the Yoruba people, we need to consider the nuances and connotations of the expressions \"Ẹ̀rọ ìfọbọ́\" and \"Ẹ̀rọ ìfọṣọ\".",
+    "pred_label": "1",
+    "method": 0
+  },
+  {
+    "goal": "Tí ará mi kò bá yá, kí ni mo ma lò?",
+    "solutions": [
+      "Oúnjẹ ní mo ma lò",
+      "Ògùn ni mo ma lò"
+    ],
+    "example_label": 1,
+    "reasoning": "The Yoruba phrase \"Tí ará mi kò bá yá, kí ni mo ma lò?\" translates to \"If my body doesn't scratch, what should I do?\" This can be interpreted as a rhetorical question about what action to take when there is no immediate need or problem. To align with the Yoruba cultural norms, the solution chosen should resonate with practicality, resourcefulness, and everyday wisdom.",
+    "pred_label": "0",
+    "method": 0
+  },
+  {
+    "goal": "Aṣọ taani bùbá àti ṣókótó jẹ́ ní ilẹ̀ Yorùbá?",
+    "solutions": [
+      "Aṣọ Obìnrin ni bùbá àti ṣókótó jẹ́ ní ilẹ̀ Yorùbá",
+      "Aṣọ Ọkùnrin ni bùbá àti ṣókótó jẹ́ ní ilẹ̀ Yorùbá"
+    ],
+    "example_label": 1,
+    "reasoning": "The choice between \"Aṣọ Obìnrin ni bùbá àti ṣókótó jẹ́ ní ilẹ̀ Yorùbá\" (Women wear bùbá and ṣókótó in Yoruba land) and \"Aṣọ Ọkùnrin ni bùbá àti ṣókótó jẹ́ ní ilẹ̀ Yorùbá\" (Men wear bùbá and ṣókótó in Yoruba land) should be based on the traditional gender norms and cultural practices of the Yoruba people regarding clothing.",
+    "pred_label": "0",
+    "method": 0
+  },
+  {
+    "goal": "kíni a maá ń fi sé àdirẹ",
+    "solutions": [
+      "a maá ń fi asọ àti ọsẹ sé àdirẹ",
+      "a maá ń fi asọ àti aró sé àdirẹ"
+    ],
+    "example_label": 1,
+    "reasoning": "Both solutions involve the act of dressing up to show reverence or respect. Solution 1 suggests wearing clothes and shoes, while Solution 2 recommends wearing clothes and beads/traditional necklace (aró). To align with the cultural norms and language usage of the Yoruba people, it is important to consider traditional attire and accessories that hold cultural significance in conveying respect and honor.",
+    "pred_label": "0",
+    "method": 0
+  },
+  {
+    "goal": "Èso tí ó dára lati jẹ́ fún àìsùn ni kí ni?",
+    "solutions": [
+      "Àgbàdo",
+      "Orógbó"
+    ],
+    "example_label": 1,
+    "reasoning": "Both \"Àgbàdo\" and \"Orógbó\" are Yoruba terms used to refer to corn. To determine which term aligns better with the cultural norms and language usage of the Yoruba people for the goal provided, we need to consider factors such as common usage, cultural significance, regional variations, and traditional associations with the word choices.",
+    "pred_label": "1",
+    "method": 1
+  },
+  {
+    "goal": "Báwo ni a ṣe ń kíni ní àárọ̀?",
+    "solutions": [
+      "Ẹkáàárọ̀ ni à ń kíni ní àárọ̀ ní ilẹ̀ Yorùbá",
+      "Ẹkáalẹ́ ni à ń kíni ní àárọ̀ ní ilẹ̀ Yorùbá"
+    ],
+    "example_label": 0,
+    "reasoning": "Both solutions are discussing the appropriate way of greeting in Yoruba culture. It is essential to consider the cultural significance and language usage of the terms \"Ẹkáàárọ̀\" and \"Ẹkáalẹ́\" in the context of greetings in the Yoruba community.",
+    "pred_label": "0",
+    "method": 1
+  },
+  {
+    "goal": "kí ni o le ṣe lati jẹ́ kí òórùn ẹja kúrò ní ọwọ́ rẹ?",
+    "solutions": [
+      "fí epo ra ọwọ́ rẹ, kí o sì sàn-án",
+      "fí ọsàn wẹ́wẹ́ ra ọwọ́ rẹ, kí o sì sàn-án"
+    ],
+    "example_label": 1,
+    "reasoning": "Both solutions involve feeding the fish, but they differ in the type of food suggested. It is important to consider the cultural aspect and language usage that resonates more with the Yoruba community when feeding fish.",
+    "pred_label": "0",
+    "method": 0
+  },
+  {
+    "goal": "Ìka wo ni wọ́n maá ń fi òrùka ìgbéyàwó sí?",
+    "solutions": [
+      "òrùká yẹmí ní ọwọ́ òsì",
+      "òrùká yẹmí ní ọwọ́ ọ̀tún"
+    ],
+    "example_label": 0,
+    "reasoning": "Both solutions involve the concept of choosing a partner or spouse, which is significant in the Yoruba culture. The choice of hands (ọwọ́ òsì - left hand, ọwọ́ ọ̀tún - right hand) can carry symbolic meanings in Yoruba traditions. We need to consider which option aligns better with the cultural norms and language usage regarding selecting a partner.",
+    "pred_label": "1",
+    "method": 0
+  },
+  {
+    "goal": "Kíni o lè lo rọ́pọ̀ ọmọ ayò nígba tí o bá ń tá ayò ọlọ́pọ́n",
+    "solutions": [
+      "Lo àwọn òkuta wẹ́wẹ́",
+      "Lo àwọn òkuta tí o tóbi"
+    ],
+    "example_label": 0,
+    "reasoning": "Both solutions involve the idea of going to gather stones when it is time to build a house. The first solution, \"«Lo àwọn òkuta wẹ́wẹ́»\", emphasizes gathering smooth stones which are easier to work with and more suitable for construction. On the other hand, the second solution, \"«Lo àwọn òkuta tí o tóbi»\", suggests gathering large stones, implying a more sturdy and robust construction. To align with the cultural norms and language usage of the Yoruba people, the choice should reflect qualities such as durability, strength, and long-lasting value, which are typically valued in construction and building practices within the Yoruba community.",
+    "pred_label": "1",
+    "method": 0
+  },
+  {
+    "goal": "Kí ni àgbẹ̀ máa ń fi ka ọsàn ni orí igi",
+    "solutions": [
+      "Dòjé ni àgbẹ̀ máa ń fi ká ọsàn ní orí igi",
+      "Ọ̀kọ̀ ni àgbẹ̀ máa ń fi ká ọsàn ní orí igi"
+    ],
+    "example_label": 0,
+    "reasoning": "The goal statement emphasizes the act of placing a hat on top of a tree. To determine the solution that aligns best with the Yoruba cultural norms and language usage, we need to consider the cultural connotations and language specificity associated with the two solutions provided.",
+    "pred_label": "0",
+    "method": 1
+  },
+  {
+    "goal": "kíni ó yẹ kí ènìyaǹ fi wé ọrùn rẹ ní ìgbà òtútù?",
+    "solutions": [
+      "aṣọ ìnujú",
+      "aṣọ òkè/ aṣọ ìborùn"
+    ],
+    "example_label": 1,
+    "reasoning": "Both solutions involve clothing, which is significant in Yoruba culture as it reflects identity, status, and cultural values. The choice of clothing can convey messages about occasions, roles, or beliefs. Understanding the cultural importance of dressing appropriately is vital in the Yoruba community, where attire is a form of expression and communication.",
+    "pred_label": "1",
+    "method": 1
+  },
+  {
+    "goal": "Ìró àti bùbá jẹ́ aṣọ tí a mọ̀ mọ́ àwọn wo?",
+    "solutions": [
+      "Ójẹ́ aṣọ tí a mọ̀ mọ́ àwọn ọkùnrin ní ilẹ̀ Yorùbá",
+      "Àwọn obìnrin ní ilẹ̀ Yorùbá ni a mọ ìró àti bùbá mọ́"
+    ],
+    "example_label": 1,
+    "reasoning": "The Yoruba culture places a strong emphasis on respect, hierarchy, and traditional gender roles. Considering that the goal statement refers to the combination of \"Ìró\" (wrapper) and \"Bùbá\" (blouse/top), it is important to note that in Yoruba society, the attire for men and women can differ based on cultural norms and expectations.",
+    "pred_label": "0",
+    "method": 0
+  },
+  {
+    "goal": "Irú aṣọ wo ni o yẹ lati fi nu àwo oju rẹ",
+    "solutions": [
+      "Aṣo ìnulẹ̀",
+      "Aṣọ ìnujú"
+    ],
+    "example_label": 1,
+    "reasoning": "Both solutions seem to be related to clothing, but the choice between them might depend on whether the goal is more about joining a social gathering or a religious event. It's important to consider the context in which the clothing will be worn to determine the most culturally appropriate option.",
+    "pred_label": "0",
+    "method": 0
+  },
+  {
+    "goal": "Kí ni nǹkan tí ènìyàn máa wò láti rí ara rẹ̀ nígbà tí ó bá múra tán?",
+    "solutions": [
+      "Dígí ni ènìyàn máa wò",
+      "Ògiri ni ènìyàn máa wò"
+    ],
+    "example_label": 0,
+    "reasoning": "Both solutions are focusing on how individuals should conduct themselves or behave under certain circumstances. In Yoruba culture, the choice of words and expressions can carry specific cultural connotations and implications related to respect, behavior, and societal expectations. It's essential to consider which option aligns better with the cultural values and language nuances of the Yoruba people.",
+    "pred_label": "0",
+    "method": 1
+  },
+  {
+    "goal": "Kíni à ń lò dípò ààrò ní ayé òde òni",
+    "solutions": [
+      "Àdògán ni à ń lò dípò ààrò ní ayé òde òni",
+      "Gáàsì ni à ń lò dípò ààrò ní ayé òde òni"
+    ],
+    "example_label": 1,
+    "reasoning": "Both solutions are addressing the same goal which centers around the concept of dressing appropriately for a traditional event in the village today. To make the right choice, consider the cultural connotations, language specificity, and societal expectations reflected in the solutions to determine which one resonates more with the Yoruba cultural context.",
+    "pred_label": "1",
+    "method": 1
+  },
+  {
+    "goal": "Tí ọ̀nà ọ̀fun rẹ bá n dun ọ, kí ni o lè ṣe?",
+    "solutions": [
+      "po omi gbọ́na pèlú oyin àti òrònbó kíkan, kí o sì mu ú",
+      "po omi gbọ́na pèlú àádùn àti òrònbó kíkan, kí o sì mu ú"
+    ],
+    "example_label": 0,
+    "reasoning": "The goal statement seems to be asking what can be done to make your palm wine taste better. Both solutions involve adding ingredients to the palm wine, but they differ in the specific ingredients used. To choose the best option, we need to consider which combination of ingredients is more aligned with the cultural norms and language preferences of the Yoruba people, especially in relation to enhancing flavor.",
+    "pred_label": "1",
+    "method": 0
+  },
+  {
+    "goal": "Nígbà tí a bá fẹ́ ṣe ọbẹ̀ olú,",
+    "solutions": [
+      "Olú ni ó dára jùlọ ní èròjà",
+      "<NO_ANSWER>"
+    ],
+    "example_label": 0,
+    "reasoning": "The first solution emphasizes the importance of the beauty and behavior of a leader in a public setting, which reflects the value placed on appearance and conduct in leadership roles in Yoruba culture. The second solution is empty and does not provide any relevant information.",
+    "pred_label": "0",
+    "method": 1
+  },
+  {
+    "goal": "Aṣọ wíwọ̀ wà fún kíni?",
+    "solutions": [
+      "Oge síṣe ni aṣọ wíwọ̀ wà fún",
+      "àrà dídá ni aṣọ wíwọ̀ wà fún"
+    ],
+    "example_label": 0,
+    "reasoning": "The goal is asking about the purpose or reason for the Aṣọ wíwọ̀ (traditional attire). To determine the best fit, we need to evaluate which solution reflects the cultural nuances and language usage that align with providing an appropriate response to this question in the Yoruba context.",
+    "pred_label": "1",
+    "method": 0
+  },
+  {
+    "goal": "Kíni a máa ń ta lójú ogun gẹ́gẹ́ bíi nǹkan ìjà?",
+    "solutions": [
+      "Ọrún ni a máa ń ta lójú ogun gẹ́gẹ́ bíi nǹkan ìjà",
+      "Ọfà ni a máa ń ta lójú ogun gẹ́gẹ́ bíi nǹkan ìjà"
+    ],
+    "example_label": 1,
+    "reasoning": "Ọrún ati ọfà ni irò ayé ní ìwà, nípa títí ó sì gbogbo wọ̀nyí lórí ogun gẹ́gẹ́. Nítorí ọfà ní nífẹ́ẹ́, ọrún ní kò ń jẹ̀gúnnìkà. Ni ìwà ré ọrún ni a máa ń ta lójú ogun gẹ́gẹ́ bíi nǹkan ìjà ni agbara aṣọ.",
+    "pred_label": "0",
+    "method": 0
+  },
+  {
+    "goal": "Kíni ẹ̀rọ ìgbàlódé ti ó ń mú ǹkan tutù",
+    "solutions": [
+      "Ìkòkò jẹ́ ohun èlò ìgbàlódé tí ó ń mú ǹkan tutù",
+      "Ẹ̀rọ amú ǹkan tutù jẹ́ ohun èlò ìgbàlódé tí ó ń mú ǹkan tutù"
+    ],
+    "example_label": 1,
+    "reasoning": "The goal statement highlights the concept of the coolness or refreshing nature of an item. Solution 1 states that a coconut is the cool or refreshing item, emphasizing its qualities related to coolness. On the other hand, solution 2 implies that the cool or refreshing item is specifically an ice cream. Based on the cultural context and language usage of the Yoruba people, we need to consider which item is more commonly associated with being cool or refreshing in their cultural perspective.",
+    "pred_label": "1",
+    "method": 1
+  },
+  {
+    "goal": "Ibo ni mo ti lè gbà owó pẹ̀lú káàdì ìyọwó?",
+    "solutions": [
+      "Ẹnu Ẹ̀rọ-ìléwọ́",
+      "Ẹnu Ẹ̀rọ-apọwó"
+    ],
+    "example_label": 1,
+    "reasoning": "The goal statement revolves around the concept of borrowing money for a wedding. To choose the most culturally appropriate solution, we need to consider the language nuances and societal norms associated with weddings and financial matters in the Yoruba community.",
+    "pred_label": "1",
+    "method": 1
+  },
+  {
+    "goal": "Nígbàtí àwọn ọkùnrin bá gẹ fìlà ní ilẹ̀ Yorùbá kíni àwọn obìnrin yóò wé?",
+    "solutions": [
+      "Àwọn obìnrin yóò wé gèlè nígbàtí àwọn ọkùnrin bá gẹ fìlà ní ilẹ̀ Yorùbá",
+      "Àwọn obìnrin yóò wé Fìlà nígbàtí àwọn ọkùnrin bá gẹ̀ fìlà ní ilẹ̀ Yorùbá"
+    ],
+    "example_label": 0,
+    "reasoning": "Both solutions address the scenario where a man steps on a woman's headgear (fìlà) in a Yoruba setting. The key cultural considerations here include gender dynamics, respect, and appropriate behavior. The choice should reflect the response that aligns best with the cultural expectations and norms regarding interactions between men and women in Yoruba society.",
+    "pred_label": "1",
+    "method": 0
+  },
+  {
+    "goal": "kíni ó yẹ ká fi sí ewédú kó lè yọ̀ fùn jìjà daádaa?",
+    "solutions": [
+      "o yẹ ká fi kán-ún sí i",
+      "o yẹ ká fi epo pupa sí i"
+    ],
+    "example_label": 0,
+    "reasoning": "The goal involves asking what to add to ewedu leaves to make it taste better.",
+    "pred_label": "1",
+    "method": 0
+  },
+  {
+    "goal": "Ọkàn pàtàkì ní yàrá ìjẹun ni",
+    "solutions": [
+      "Pátákó jẹ́ fún ènìyàn",
+      "Tábìlì jẹ́ fún ènìyàn"
+    ],
+    "example_label": 1,
+    "reasoning": "Both solutions seem to emphasize the importance of food in people's lives. However, the choice between \"Pátákó jẹ́ fún ènìyàn\" and \"Tábìlì jẹ́ fún ènìyàn\" may depend on which one better aligns with the cultural nuances and language preferences of the Yoruba people. It's essential to consider the cultural connotations, linguistic expressions, and societal norms associated with each option to make an informed decision.",
+    "pred_label": "0",
+    "method": 0
+  },
+  {
+    "goal": "Kini ọna ailewu lati bọ́ lẹ̀ kuro ninu ọkọ òfurufú lẹ́hìn tí o bá balẹ̀?",
+    "solutions": [
+      "Dìde lẹ́sẹ̀kẹsẹ̀, gbé àpò rẹ, kí o si sáré jade",
+      "Ṣe sùúrù, kí o si rọra tèlé ìlànà"
+    ],
+    "example_label": 1,
+    "reasoning": "The first solution emphasizes the importance of being proactive and taking immediate action by getting up early, picking up one's hoe, and starting to work right away. This aligns with the value of diligence and hard work often emphasized in the Yoruba culture. On the other hand, the second solution suggests being patient and waiting for the right time to engage in activities, which may not resonate as strongly with the cultural emphasis on industriousness and proactive behavior.",
+    "pred_label": "0",
+    "method": 0
+  },
+  {
+    "goal": "Tani olórí agboolé?",
+    "solutions": [
+      "Olórí ẹbí ní olórí agboolé",
+      "Olórí agboolé ni Bàbá ilé"
+    ],
+    "example_label": 0,
+    "reasoning": "Both solutions address the title of \"olórí agboolé\" which translates to the head of the family. Solution 1, «Olórí ẹbí ní olórí agboolé», emphasizes the head of the extended family, indicating that the head of the nuclear family is the head of the family. On the other hand, Solution 2, «Olórí agboolé ni Bàbá ilé», highlights that the head of the family is the father of the household. Considering the cultural norms and language usage of the Yoruba people, it is crucial to consider the traditional structure and hierarchy within the family to determine which solution aligns best with the societal norms and language nuances.",
+    "pred_label": "1",
+    "method": 0
+  },
+  {
+    "goal": "Láti lè mọ̀ bóyá ìbẹ́pẹ ti pọ́n?",
+    "solutions": [
+      "Rọra tẹ awọ ara ìbẹ́pe náà",
+      "Rọra fi ìṣó gún ìbẹ́pẹ náà"
+    ],
+    "example_label": 0,
+    "reasoning": "Both solutions involve giving advice on how to solve a problem. The first solution emphasizes taking one's time to carefully analyze the situation before making a decision, while the second solution emphasizes taking immediate action to overcome the problem.",
+    "pred_label": "0",
+    "method": 1
+  },
+  {
+    "goal": "Lati se ẹyin, èwo nínú àwọn ìgbésẹ̀ wọ̀nyí ni ó yẹ kí o tẹ̀le?",
+    "solutions": [
+      "fi ẹyin sínu omi, gbé e ka ná, sì jẹ́ kí o se fun bi ìṣẹjú mẹ́wàá",
+      "fi ẹyin sínu òroró, gbé e ka ná, sì jẹ́ kí o se fun bi ìṣẹjú mẹ́wàá"
+    ],
+    "example_label": 0,
+    "reasoning": "The goal statement is emphasizing the importance of perseverance in the face of challenges or obstacles. It involves enduring difficult situations in order to achieve a desired outcome.",
+    "pred_label": "1",
+    "method": 0
+  },
+  {
+    "goal": "Kíni à ń ṣe ní ayẹyẹ ìgbéyàwó?",
+    "solutions": [
+      "À ń mú inú ara wa dùn",
+      "À ń so ọkùnrin àti obìnrin papọ̀ láti di tọkọtaya"
+    ],
+    "example_label": 1,
+    "reasoning": "The goal statement \"Kíni à ń ṣe ní ayẹyẹ ìgbéyàwó?\" translates to \"What do we do in preparation for a wedding?\" In Yoruba culture, weddings are significant events that involve various preparations and cultural traditions. The solutions provided should reflect actions or behaviors that align with Yoruba cultural norms and wedding customs.",
+    "pred_label": "1",
+    "method": 1
+  },
+  {
+    "goal": "Láti dín dídán ojú re kù ṣáaju yìya foto, ó da kí o",
+    "solutions": [
+      "fi èérú pa ojú àti ẹkẹ́ rẹ fẹ́rẹ́fẹ́",
+      "fi àtíkè pa ojú àti ẹkẹ́ rẹ fẹ́rẹ́fẹ́"
+    ],
+    "example_label": 1,
+    "reasoning": "The goal statement emphasizes the importance of preserving the beauty of the eyes from harmful effects of the sun. In Yoruba culture, protecting one's eyes is important for health and well-being, and it reflects a concern for physical appearance and self-care. Therefore, the solution that best aligns with this goal would be the one that emphasizes protecting the eyes against the harmful effects of the sun.",
+    "pred_label": "0",
+    "method": 0
+  },
+  {
+    "goal": "Òwe pípa wọ́pọ̀ láàárín àwọn wo?",
+    "solutions": [
+      "Ààrín àwọn Àgbàlagbà",
+      "Ààrín àwọn ọmọdé"
+    ],
+    "example_label": 0,
+    "reasoning": "The goal statement \"Òwe pípa wọ́pọ̀ láàárín àwọn wo?\" focuses on the concept of respect for elders in the Yoruba community. It implies the comparison of characteristics or qualities among individuals. Considering the cultural values of respect for elders and the significance of hierarchy in Yoruba culture, it is important to choose the solution that aligns best with this cultural context.",
+    "pred_label": "0",
+    "method": 1
+  },
+  {
+    "goal": "Níbo ni àsìá máa ń kọ sí nígbà tí afẹ́fẹ́ ń fẹ́?",
+    "solutions": [
+      "Àsìá máa ń kọ sí ibi tí afẹ́fẹ́ ń lọ sí",
+      "Àsìá máa ń kọ sí ibi tí afẹ́fẹ́ ti wá."
+    ],
+    "example_label": 0,
+    "reasoning": "The goal statement is asking \"Where should we go when it is raining?\" In Yoruba culture, there is an emphasis on being prepared and avoiding unnecessary exposure to the rain to prevent illnesses. Additionally, seeking shelter during rainy weather is a common practice to protect oneself.",
+    "pred_label": "1",
+    "method": 0
+  },
+  {
+    "goal": "Tí o ba fẹ́ gún iyán, kíni ó yẹ kí o kọ́kọ́ ṣe?",
+    "solutions": [
+      "Bẹ iṣu náà kí o sì sè é",
+      "Bẹ iṣu náà kí o sì gun láì sè é"
+    ],
+    "example_label": 0,
+    "reasoning": "Both solutions involve cooking yam, which is a common ingredient in Yoruba cuisine. The key difference lies in the method of preparation; one suggests steaming the yam, while the other suggests boiling it before pounding. To determine the most culturally appropriate choice, we should consider traditional Yoruba cooking methods, preferences, and cultural significance associated with food preparation.",
+    "pred_label": "1",
+    "method": 0
+  },
+  {
+    "goal": "Tí ojú bá ń dun ènìyàn tí kò sì rína dáadáa , kí ni dókítà yóò pèsè fún un?",
+    "solutions": [
+      "Dígí ni dókítà yóò pèsè fún un",
+      "Awò ni dókítà yóò pèsè fún un."
+    ],
+    "example_label": 1,
+    "reasoning": "Both solutions involve recommending a doctor, but they differ in the type of doctor suggested. The choice between \"Dígí\" (general doctor) and \"Awò\" (traditional healer) can strongly impact the cultural alignment and language usage in the Yoruba community.",
+    "pred_label": "0",
+    "method": 0
+  },
+  {
+    "goal": "Báwo ni a ṣe le gbẹ́ kàǹga fún amù lílò?",
+    "solutions": [
+      "A ó gbẹ ní òbìrìkìtì/òbírípo",
+      "A ó gbẹ ní onígun mẹ́ta"
+    ],
+    "example_label": 0,
+    "reasoning": "In Yoruba culture, greetings and interactions often emphasize respect, politeness, and proper conduct. The choice of words and expressions should reflect these values. When offering to share a meal, the Yoruba people value communal spirit and generosity. The use of appropriate terms and expressions is crucial in aligning with cultural norms.",
+    "pred_label": "1",
+    "method": 0
+  },
+  {
+    "goal": "Kíni ohun tí a tún lè fi pọ́n ẹ̀bà nígbà tí kò bá sí ìgbákọ?",
+    "solutions": [
+      "a lè lo fìlà",
+      "a lè lo síbí"
+    ],
+    "example_label": 1,
+    "reasoning": "Both solutions provided are related to the concept of delegation or passing responsibility when the leader is absent. To determine the best fit for the Yoruba cultural context, we need to consider factors such as respect, hierarchy, and the appropriate way of addressing such situations within the community.",
+    "pred_label": "1",
+    "method": 1
+  },
+  {
+    "goal": "Kí ló máa ń ṣẹlẹ̀ sí omi tí a bá fi sínú ẹ̀rọ amóhuntutù?",
+    "solutions": [
+      "Omi náà yóò di yìnyín",
+      "Omi náà yóò di gbígbóná"
+    ],
+    "example_label": 0,
+    "reasoning": "The goal statement is inquiring about the appropriate use of water when cooking soup. To make an informed choice, we need to consider the cultural connotations and language nuances associated with the Yoruba community regarding food preparation, taste preferences, and culinary traditions.",
+    "pred_label": "1",
+    "method": 0
+  },
+  {
+    "goal": "Tí ìṣó ba n yọ lára tabili rẹ,",
+    "solutions": [
+      "fi ìkànṣo lù ú padà sínu tabili",
+      "fi ṣíbí lù ú padà sínu tabili"
+    ],
+    "example_label": 0,
+    "reasoning": "The Yoruba language and cultural norms place a strong emphasis on respect, politeness, and appropriate behavior. When faced with a problem, the solution that reflects humility, respect for authority, and proper manners is more likely to align with the cultural expectations of the Yoruba people.",
+    "pred_label": "0",
+    "method": 1
+  },
+  {
+    "goal": "Pàtẹ́wọ́ jẹ́ irú irun tí àwọn wo ń ṣe?",
+    "solutions": [
+      "Pàtẹ́wọ́ jẹ́ irú irun tí àwọn ọkùnrin ń ṣe",
+      "Pàtẹ́wọ́ jẹ́ irú irun tí àwọn obìnrin ń ṣe"
+    ],
+    "example_label": 1,
+    "reasoning": "The word \"Pàtẹ́wọ́\" refers to a cap or headgear worn in Yoruba culture. In Yoruba society, certain attire and accessories can be gender-specific. Therefore, it is important to consider whether the Yoruba community traditionally associates the cap or headgear with men or women.",
+    "pred_label": "0",
+    "method": 0
+  },
+  {
+    "goal": "kíni ó yẹ kí́ o ṣe lẹ́yìn tí o ba lo ẹ̀ro agbálẹ?",
+    "solutions": [
+      "pa á, kí o sì tọju rẹ̀ sí ibi tí ó pamọ́",
+      "pa á, kí o sì tọju rẹ̀ sí ibi tí ó ṣí sílẹ̀"
+    ],
+    "example_label": 0,
+    "reasoning": "Both solutions involve the concept of seeking permission before taking action, which is a common cultural norm in Yoruba society. However, the choice between the two options may lie in the specific wording used to convey the message of seeking permission regarding a potentially troublesome situation.",
+    "pred_label": "0",
+    "method": 1
+  },
+  {
+    "goal": "Láti fọ àwọn aṣọ ìbora tí ó dọ̀tí,",
+    "solutions": [
+      "kó wọn sínu ẹ̀rọ ìfọṣọ, kí o da ọṣẹ àti omi sì i, kí o sì tanná si.",
+      "kó wọn sínu ẹ̀rọ ìlọta, kí o da ọṣẹ àti omi sì i, kí o sì tanná si."
+    ],
+    "example_label": 0,
+    "reasoning": "Both solutions seem to suggest washing clothes, but there is a difference in the type of bucket mentioned. Solution 1 uses the term \"ìfọṣọ\" which refers to a plastic bucket, while solution 2 uses \"ìlọta\" which refers to a metal bucket. The choice between plastic and metal buckets may hold cultural implications or practical considerations that align with the Yoruba cultural context.",
+    "pred_label": "0",
+    "method": 1
+  },
+  {
+    "goal": "Ki ni o le ṣe nígbà tí ìdọ̀tí bá kó sí ọ ní ojú?",
+    "solutions": [
+      "mo lè̀ fi ọwọ́ mímọ́ gbo ojú mi",
+      "mo lè̀ fi omi mímọ́ ṣan ojú mi"
+    ],
+    "example_label": 1,
+    "reasoning": "The goal statement is asking what can be done when one's eyes itch. It is important to consider the cultural norms and language usage of the Yoruba people, especially in relation to health and well-being, when evaluating the solutions provided.",
+    "pred_label": "0",
+    "method": 0
+  },
+  {
+    "goal": "àgbétẹ́lẹ̀ tí o dára ju nígbà tí à bá fẹ́ lo ẹ̀rọ agbáwòrányọ ni",
+    "solutions": [
+      "ògiri funfun kan",
+      "ògiri dúdú kan"
+    ],
+    "example_label": 0,
+    "reasoning": "The goal statement implies the need for something that is better or superior when going to a specific place. In Yoruba culture, the choice of words and items can carry different connotations and cultural significance.",
+    "pred_label": "1",
+    "method": 0
+  },
+  {
+    "goal": "Láti pèsè Àmàlà fún oúnjẹ",
+    "solutions": [
+      "A nílò ọmọrogùn",
+      "A nílò ìjábẹ̀"
+    ],
+    "example_label": 0,
+    "reasoning": "The goal is to \"prepare Àmàlà for a meal.\" To choose the most culturally appropriate solution, it's important to consider the cooking process and traditional customs associated with preparing food in Yoruba culture.",
+    "pred_label": "0",
+    "method": 1
+  },
+  {
+    "goal": "Ḱíni ó yẹ kí o ṣe lẹyìn tí o bá gé àlùbọ́sà?",
+    "solutions": [
+      "fọ ọwọ́ rẹ pẹ̀lú ọṣẹ àti omi",
+      "fọ ọwọ́ rẹ pẹ̀lú epo àti omi"
+    ],
+    "example_label": 0,
+    "reasoning": "The goal statement is asking about the appropriate way to wash hands before eating a meal. Considering the cultural norms and language usage of the Yoruba people, it is important to analyze the significance of the items used in washing hands to determine the most appropriate choice.",
+    "pred_label": "0",
+    "method": 1
+  },
+  {
+    "goal": "Kíni àwọn àgbẹ̀ fi maá ń kó ewé tàbí koríko papọ̀?",
+    "solutions": [
+      "wón maá ń lo ọkọ́ fi kó ewé tàbí koríko papọ̀",
+      "wón maá ń lo réèkì fi kó ewé tàbí koríko papọ̀"
+    ],
+    "example_label": 1,
+    "reasoning": "The Yoruba culture places a significant emphasis on respect and politeness. When looking at the two solutions provided, it is important to note that the use of \"réèkì\" in solution 2 signifies a more polite and respectful approach compared to \"ọkọ́\" in solution 1. Therefore, considering the cultural value of respect, politeness, and appropriate greetings, solution 2 aligns more with the Yoruba cultural norms.",
+    "pred_label": "1",
+    "method": 1
+  },
+  {
+    "goal": "Ohun tí mo lè fí pọnmi lọ sí ilé-ìwẹ̀ ni",
+    "solutions": [
+      "Garawa ni màá lò láti pọnmi lọ sí ilé-ìwẹ̀",
+      "Ọ̀bẹ ni màá lò láti pọnmi lọ sí ilé-ìwẹ̀"
+    ],
+    "example_label": 0,
+    "reasoning": "Ọbẹ ati garawa nínú àwọn ìlà oòrùn ìgbàgbọ́ tó wà ní ilé-ìwẹ̀ ní àwọn etí-òṣe fún ìránṣẹ́ iṣòro pọnmi. Ire-ọdún, àwọn oṣèlú tó jẹ ọran tí wọn lò láti pọnmi sí ilé-ìwẹ̀ ní wọn wá ló re pẹ̀lú obìnrinṣìnrin, obìnrine ní ìbẹ̀jì, àti ìlú bí Nọíríti. Lọ́pọ̀lọ́pọ̀, òbẹ gbọdọman nínú àwọn ojú ìbéré ipò nípa ìwádìí ní bódo gbogbo wọn, tó ṣe kì í ṣe eru pẹ̀lú àwọn wọ̀nyí. Nípa àwọn rírò ti ò ri àwọn ojú ìbéré tó fẹ́ mó fún erú wo nínú, ilé-ìwẹ̀ kò ní ṣe idafihan ní òkè kùsù gbogbo ibi, òbẹ kò lò fún àwọn nípa aṣeyọ̀ lẹ́gbẹ̀tọ́ tó fẹ́ dùn pin. Léyìn náà, òbẹ ni ìfihan tí wọ́n yí ìbẹtese sí ilé-ìwẹ̀ ní irọ́ wọn fún ìránṣẹ́ ayé. Ní ẹ̀yin mapò, àgbọ́ fún awọn ojú-òpó ìbásárẹ̀ yín lorí dire ti náà, ìṣòro eniyan fún títí tẹrẹ̀ obìnrinṣìnrin àti erutan lẹ́kọ̀ọ̀nìkan ní àwọn itọsí akọkọ ti wọn wà tó npé ṣe òrọ rẹ.",
+    "pred_label": "1",
+    "method": 0
+  },
+  {
+    "goal": "Báwo ni àwọn obìnrin ṣe ń gbé ọjà wọn tí wọn ba ń kiri ọjà?",
+    "solutions": [
+      "Wọn ma ń gbe lé orí ti wọ́n bá ń kiri ọjà",
+      "Wọ́n ma ń gbe lé èjìká tí wọ́n bá ń kiri ọjà"
+    ],
+    "example_label": 0,
+    "reasoning": "The Yoruba culture places a strong emphasis on respect, politeness, and appropriate greetings. Additionally, the language and phrases used should reflect these cultural values. It is important to choose the solution that aligns best with these cultural norms and language usage.",
+    "pred_label": "0",
+    "method": 1
+  },
+  {
+    "goal": "Ataalẹ̀ jẹ́ èròjà fún oúnjẹ wo",
+    "solutions": [
+      "Iyán tí a fi iṣu ṣe",
+      "Ògì tí a fi bàbà tàbí àgbàdo ṣe"
+    ],
+    "example_label": 1,
+    "reasoning": "The goal statement emphasizes the preparation of a meal. In Yoruba culture, food preparation is significant and often involves traditional dishes and cooking methods. Therefore, the solution that aligns with traditional Yoruba cuisine and cooking practices would be more culturally appropriate.",
+    "pred_label": "1",
+    "method": 1
+  },
+  {
+    "goal": "Kíni ó sábà máa ń wáyé ní iwájú ààfin ní alẹ́",
+    "solutions": [
+      "Eré ṣíṣe má ń sábà wáyé níwájú ààfin ní alẹ́",
+      "Ọjà alẹ́ ni ó sábà máá wáyé níwájú ààfin ní alẹ́"
+    ],
+    "example_label": 1,
+    "reasoning": "The goal statement emphasizes the importance of arriving early at the courthouse. In Yoruba culture, punctuality is highly valued, especially when it involves formal settings like a courthouse. Additionally, the choice of words and expressions related to time, respect, and responsibility are crucial in this context.",
+    "pred_label": "1",
+    "method": 1
+  },
+  {
+    "goal": "Ẹ̀yà ara wo ni ko yẹ kí o fi ọwọ́ kan lẹ́yìn ti o ba lọ/rẹ́ ata?",
+    "solutions": [
+      "kò yẹ kí o fọwọ́kan ojú rẹ",
+      "kò yẹ kí o fọwọ́kan ọwọ́ rẹ"
+    ],
+    "example_label": 0,
+    "reasoning": "Both solutions seem to address the importance of not using one hand when going to pick vegetables. The choice between \"kò yẹ kí o fọwọ́kan ojú rẹ\" and \"kò yẹ kí o fọwọ́kan ọwọ́ rẹ\" might come down to the specific cultural nuances associated with the Yoruba community regarding the use of the hand when picking items.",
+    "pred_label": "0",
+    "method": 1
+  },
+  {
+    "goal": "Kí ni a lè lò láti lọ aṣọ kí ó ba lè dán?",
+    "solutions": [
+      "Òkúta ni a lè lò",
+      "ẹ̀rọ Ìlọṣọ ni a lè lò"
+    ],
+    "example_label": 1,
+    "reasoning": "The goal statement emphasizes the importance of being able to repair clothing. Given the cultural context and language nuances of the Yoruba people, it would be more aligned with their norms to choose a solution that reflects traditional values, respect, and possibly skills related to tailoring.",
+    "pred_label": "1",
+    "method": 1
+  },
+  {
+    "goal": "Tí a bá fẹ́ ya irun ọmọ kékeré",
+    "solutions": [
+      "ó dára kí a farabalẹ̀ ya irun na pẹ̀lú àmúga.",
+      "ó dára kí a farabalẹ̀ ya irun na pẹ̀lú òǹyà"
+    ],
+    "example_label": 1,
+    "reasoning": "The goal statement emphasizes the act of gently washing a baby's face. When considering the cultural norms and language usage of the Yoruba people, it is important to note that the choice of words and actions should reflect care, gentleness, and nurturing, especially when dealing with children.",
+    "pred_label": "0",
+    "method": 0
+  },
+  {
+    "goal": "láti fọ aṣọ tó dọ̀tí",
+    "solutions": [
+      "mo lè lo ọṣẹ Ìfọṣọ",
+      "mo lè lo aró"
+    ],
+    "example_label": 0,
+    "reasoning": "In the Yoruba culture, the act of \"láti fọ aṣọ tó dọ̀tí\" translates to \"to mend a torn cloth.\" This goal implies repairing or fixing something that is damaged. \n\nSolution [1] \"«mo lè lo ọṣẹ Ìfọṣọ»\" means \"I can use a needle.\" This solution directly addresses the goal of mending or fixing the torn cloth by suggesting the use of a needle for sewing.\n\nSolution [2] \"«mo lè lo aró»\" means \"I can go to the market.\" This solution does not directly align with the goal of mending or fixing the torn cloth. Going to the market is unrelated to the specific task of repairing a torn cloth.",
+    "pred_label": "0",
+    "method": 1
+  },
+  {
+    "goal": "Kíni iṣẹ́ agbẹ́gilére",
+    "solutions": [
+      "Wọ́n ma ń fọ̀ aṣọ",
+      "Wọ́n ma ń gbé igi láti sọ́ ọ di ère"
+    ],
+    "example_label": 1,
+    "reasoning": "The goal statement \"Kíni iṣẹ́ agbẹ́gilére\" translates to \"What is the purpose of the gathering\" in English. In Yoruba culture, gatherings often hold significant importance and may involve ceremonies, celebrations, or meetings where people come together for specific reasons. Understanding the purpose of the gathering is essential for appropriate behavior and engagement.\n\nThe solutions provided are:\n[1] «Wọ́n ma ń fọ̀ aṣọ» which means \"They are arranging clothes.\"\n[2] «Wọ́n ma ń gbé igi láti sọ́ ọ di ère» which means \"They are bringing a tree to make a speech beautiful.\"\n\nBased on the cultural context and societal norms of the Yoruba people, the second solution \"«Wọ́n ma ń gbé igi láti sọ́ ọ di ère»\" aligns better with the goal of understanding the purpose of the gathering. Bringing a tree to make a speech beautiful signifies the importance of preparation, respect for the event, and enhancing the significance of the gathering through eloquent speech. This aligns more closely with the cultural significance attached to gatherings in the Yoruba community.",
+    "pred_label": "1",
+    "method": 1
+  },
+  {
+    "goal": "Mo lè fi omi àgbọn",
+    "solutions": [
+      "fọ aṣọ ìbora mi",
+      "se ìrẹsì alagbọn"
+    ],
+    "example_label": 1,
+    "reasoning": "The goal \"Mo lè fi omi àgbọn\" can be translated as \"I can fetch water from the river.\" When looking at the two solutions:\n1. \"«fọ aṣọ ìbora mi»\" means \"wash my clothes for me.\"\n2. \"«se ìrẹsì alagbọn»\" means \"become a disciple of the hunter.\"\n\nBased on the cultural norms and language usage of the Yoruba people, fetching water from the river is a common task and seen as a regular activity that aligns with daily life and responsibilities, unlike becoming a disciple of the hunter which is more of a significant commitment. Therefore, the solution \"«fọ aṣọ ìbora mi»\" better resonates with the goal statement in this context.",
+    "pred_label": "0",
+    "method": 0
+  },
+  {
+    "goal": "Ọ̀pá omi kan ń jò ní ilé ìdana rẹ",
+    "solutions": [
+      "fi tìmùtìmù dí ibi ti ó ń jò náà",
+      "fi téèpù wé ibi ti ó ń jò náà"
+    ],
+    "example_label": 1,
+    "reasoning": "The goal statement emphasizes the need for fixing a leaking pipe in the house. The choice of solution should consider cultural values, language nuances, and societal norms of the Yoruba community, paying attention to details that resonate with their cultural context when addressing household matters.",
+    "pred_label": "1",
+    "method": 1
+  },
+  {
+    "goal": "Láti wọn nǹkan déédéé nínú ọjà, ọlọ́jà gbọ́dọ̀ ni kí ni?",
+    "solutions": [
+      "Ọlọ́jà gbọ́dọ̀ ni ẹ̀mú",
+      "Ọlọ́jà gbọ́dọ̀ ní òṣùwọ̀n"
+    ],
+    "example_label": 1,
+    "reasoning": "The Yoruba cultural context places a significant emphasis on respect, hierarchy, and deference to authority figures. In this case, the phrase \"Ọlọ́jà gbọ́dọ̀ ni ẹ̀mú\" which translates to \"The market leader is like a ram\" may imply strength, leadership, and authority often associated with a ram in Yoruba culture. On the other hand, the phrase \"Ọlọ́jà gbọ́dọ̀ ní òṣùwọ̀n\" which translates to \"The market leader is like a tortoise\" may connote wisdom, cunningness, and strategic thinking related to a tortoise in Yoruba folklore. Considering the societal values of leadership, strength, and wisdom in the Yoruba community, it is essential to select the option that best aligns with these cultural nuances.",
+    "pred_label": "0",
+    "method": 0
+  },
+  {
+    "goal": "Níbo ni a máa ń di ajílẹ̀ sí ?",
+    "solutions": [
+      "Inú aṣọ ìwọ̀sùn ni a máa ń di ajílẹ̀ sí",
+      "Inú àpò ni a máa ń di ajílẹ̀ sí"
+    ],
+    "example_label": 1,
+    "reasoning": "Ọrọ \"ajílẹ̀\" ni ọrọ nínú Yoruba ti o ní ìṣẹ́lẹ̀ tó pò lára ìwà òsìsẹ̀ rẹ. Níbẹ̀ ni, báwòní, àwọn ìlérí Yoruba n ṣe ń ka àwọn ọmọde sọ pé wọ́n ní ọrọ̣ kan \"Ajílẹ̀ sí\" láti biyanju pe wọ́n yóò ní pàtàkì láti fi inú rẹ kúrò ní ẹ̀tò wa ni ayé.\n\nỌkan ní àpò àti ìwọ̀sùn ní àwọn àti ìwọ̀sùn yóò sọ níràn rẹ láyé bẹ lórí ìwà Bi., níbẹ̀ ní naà, „Inú àpò ni a máa ń di ajílẹ̀ sí“ le ni ọrọ tí ó dá láti ṣe ìgbàgbọ̀ fún iṣẹ́lẹ̀ ìwà tí ó sì ní ẹ̀tò Yoruba wa.\n\nẸ ṣe èdá láti ṣàtúnṣé tẹmì nípà ìwà, ìwù ati aṣa otó ti Yoruba ló lè jẹ́ kọ, \"Inú àpò ni a máa ń di ajílẹ̀ sí\" jẹ́ ìlọ́ọ̀rọ̀ tí ó ń pámọ mọ ní ìwà àti ìfésí ayé Yoruba.",
+    "pred_label": "1",
+    "method": 1
+  },
+  {
+    "goal": "Kíni a lè lò sí ohun ọ̀gbìn kí o ba lè hù dáadáa?",
+    "solutions": [
+      "Ajílẹ̀ ni a lè lò sí ohun ọ̀gbìn",
+      "Èèpẹ̀ ni a lè lò sí ohun ọ̀gbìn"
+    ],
+    "example_label": 0,
+    "reasoning": "In Yoruba culture, respect and politeness are highly valued. The choice of words and expressions should reflect these values. Additionally, Yoruba language often uses proverbs and idiomatic expressions to convey messages. It is important to consider the nuances and cultural connotations of the solutions provided in relation to the goal statement.",
+    "pred_label": "1",
+    "method": 0
+  },
+  {
+    "goal": "Kí ló máa ń ṣẹlẹ̀ sí àsìá tí afẹ́fẹ́ bá fẹ́ lágbára?",
+    "solutions": [
+      "ó máa n mì tàbí kí ó fẹ́rẹ̀ẹ́ já láti ara igi",
+      "ó máa n dúró ṣinṣin, kò sì ní mì rárá"
+    ],
+    "example_label": 0,
+    "reasoning": "The first solution emphasizes the option to climb a tree or stay rooted while the second solution highlights standing firm without wavering. Both solutions depict determination and perseverance in different ways.",
+    "pred_label": "0",
+    "method": 1
+  },
+  {
+    "goal": "Yàtọ̀ sí ẹní, kí ni mo tún le fi sùn nínú yàrá",
+    "solutions": [
+      "Odó ni mo tún le fi sùn nínú yàrá",
+      "Ibùsùn ni mo tún le fi sùn nínú yàrá"
+    ],
+    "example_label": 1,
+    "reasoning": "The goal statement \"Yàtọ̀ sí ẹní, kí ni mo tún le fi sùn nínú yàrá\" translates to \"Advice me on how I can sleep well at night.\" To select the solution that best aligns with the cultural norms and language usage of the Yoruba people, we need to consider the cultural connotations and societal expectations associated with the options provided.",
+    "pred_label": "1",
+    "method": 1
+  },
+  {
+    "goal": "Kíni a fi ń kọ oúnjẹ?",
+    "solutions": [
+      "Ìgbákọ ni a fi ń kọ oúnjẹ",
+      "À ń fi Igi kọ oúnjẹ"
+    ],
+    "example_label": 0,
+    "reasoning": "The goal \"Kíni a fi ń kọ oúnjẹ?\" translates to \"How do we cook the food?\" In Yoruba culture, cooking is a significant aspect of daily life and is tied to traditions, family, and communal activities. The choice of solution should reflect cooking practices and customs inherent in the Yoruba cultural context.",
+    "pred_label": "0",
+    "method": 1
+  },
+  {
+    "goal": "agbóhùnsáfẹ́fẹ́ rẹ ko ṣiṣẹ́, kíni kí o kọ́kọ́ ṣe?",
+    "solutions": [
+      "ríi dájú pé bọ́tìnì agbára tí wà ní títàn",
+      "ríi dájú pé bọ́tìnì ìdádúró tí wà ní títàn"
+    ],
+    "example_label": 0,
+    "reasoning": "Both solutions are emphasizing the importance of being patient and not rushing into decisions when faced with a situation where your request has not been fulfilled. These solutions focus on the virtues of patience and persistence. To choose the solution that aligns best with the Yoruba cultural norms and language usage, we need to consider which one better reflects the traditional values and societal expectations related to patience and perseverance.",
+    "pred_label": "0",
+    "method": 1
+  },
+  {
+    "goal": "Kí ni ọ̀kan pàtàkì lára irinṣẹ́ aránṣọ?",
+    "solutions": [
+      "Ọmọrogùn jẹ ọ̀kan pàtàkì lára irinṣẹ́ aránṣọ",
+      "Abẹ́rẹ́ jẹ́ ọ̀kan pàtàkì lára irinṣẹ́ aránṣọ"
+    ],
+    "example_label": 1,
+    "reasoning": "In Yoruba culture, the choice of words and expressions can carry deep cultural meanings. When referring to a special or unique individual in a context like this, it is important to consider the nuances of the language. The term \"Ọmọrogùn\" is often used to describe someone extraordinary, exceptional, or outstanding, emphasizing their exceptional qualities. On the other hand, \"Abẹ́rẹ́\" is commonly used to refer to someone noble, respected, or dignified. Considering the cultural emphasis on respect, admiration, and honor within the Yoruba community, the choice of words reflecting esteem and reverence is crucial in this context.",
+    "pred_label": "0",
+    "method": 0
+  },
+  {
+    "goal": "Yàtọ̀ sí owó, kíni atún le tọ́jú sí ilé ìfowópamọ́?",
+    "solutions": [
+      "Ohun àlùmọ́ọ́nì ni a tún le tọ́jú sí ilé ìfowópamọ́ sí yàtọ̀ sí owó",
+      "aṣọ ni a tún le tọ́jú sí ilé ìfowópamọ́ sí"
+    ],
+    "example_label": 0,
+    "reasoning": "The goal statement is discussing the importance of money and how it relates to the upkeep of the household. To make the appropriate choice, we need to consider which solution better reflects the cultural values and language nuances of the Yoruba people when it comes to managing finances and household responsibilities.",
+    "pred_label": "0",
+    "method": 1
+  },
+  {
+    "goal": "Ohun pàtàkì tí a fi máa ń dá olóyè mọ̀",
+    "solutions": [
+      "Ni àdá ọrùn wọn",
+      "Ni ìlẹ̀kẹ̀ ọrùn wọn"
+    ],
+    "example_label": 1,
+    "reasoning": "Both solutions contain the phrase \"ọrùn wọn\" which means \"their personal affair.\" However, Solution 1 uses the word \"àdá\" which conveys the idea of \"morning\" or \"dawn,\" while Solution 2 uses \"ìlẹ̀kẹ̀\" which means \"evening\" or \"twilight.\" The choice between morning and evening can carry different connotations in Yoruba culture depending on the context and desired message.",
+    "pred_label": "0",
+    "method": 0
+  }
+]

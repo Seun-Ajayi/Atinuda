@@ -14,7 +14,7 @@ class PIQATask(BaseTask):
     
     def __init__(self, model_name: str, lang: str, api_key: str, **kwargs):
         super().__init__(model_name, lang, api_key, **kwargs)
-        self.dataset_name = "masakhane/piqa_yoruba_pidgin"
+        self.dataset_name = "taresco/piqa_yoruba_pidgin"
 
     def preprocess_dataset(self, dataset_dict: DatasetDict):
         """
@@ -159,6 +159,7 @@ if __name__ == "__main__":
     parser.add_argument("--model", type=str, required=True, help="Model name (e.g., openai/gpt-4o-mini)")
     parser.add_argument("--lang", type=str, required=True, help="Language code (e.g., yor, hau, swa)")
     parser.add_argument("--output-dir", type=str, default="./results/piqa", help="Output directory")
+    parser.add_argument("--max-tokens", type=int, default=32000, help="Maximum Tokens")
     
     args = parser.parse_args()
     

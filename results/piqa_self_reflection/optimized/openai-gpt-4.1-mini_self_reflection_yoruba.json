@@ -1,0 +1,1102 @@
+[
+  {
+    "goal": "A le fi awon ohun elo wonyii se ajile fun ogba ile wa",
+    "solutions": [
+      "Ìràwé, irin, ìgbẹ́ adìyẹ",
+      "Ìràwé, ẹpo eyin, ìgbẹ́ adìyẹ"
+    ],
+    "example_label": 1,
+    "reasoning": "Láti ṣe àjìlẹ̀ fún ọgbà ilé, àwọn ohun èlò tí a fi ń ṣe àjìlẹ̀ máa ní àwọn ọlọ́rọ̀ ìmọ̀tara ẹranko tàbí ohun àmúṣe káàkiri ilẹ̀ ayé. Nínú àwọn àṣàyàn, \"ìràwé\" (isọ ohun tàbí ọrọ amúnibuni), \"ẹ̀pò eyin\" (grit tí ó ní ẹ̀rùn láti eyin), àti \"ìgbẹ́ adìyẹ\" (ìgbẹ́ tí ó sún mọ́ ẹran adìyẹ tàbí àfiyèsílẹ̀ rẹ) jẹ àwọn ohun èlò tó lè fi ṣe àjìlẹ̀ tó dára fún ọgbà. \"Ìgbẹ́ adìyẹ\" jẹ amúnibuni kan tí ó nítumọ̀ sí nkan tó le fi ranṣẹ́ sí àìlera ilé ógbà fún ìmú tàbí mú agbára ilẹ̀ padà. \n\nNínú àṣàyàn méjèèjì, awon ohun èlò wọ̀nyí wà, ṣùgbọ́n àṣàyàn 0 ló ní irin kòmúlà tí kò jẹ́ kí ó dánáà fún àjìlẹ̀. Òtító ni pé irin kì í ṣe ohun àjìlẹ̀ tó yẹ fún ọgbà, kó sì ní anfaani tó yẹ láti jẹ́ ṣe àjìlẹ̀ kan. Kíkọ àjìlẹ̀ pọ̀ pẹ̀lú irin lè fa iṣoro díẹ̀, torí irin ẹ̀tọ́ kì yé kí ó wà nínú àjìlẹ̀ ogbin torí kó lè ní ipa tó ní.\n\nNí ọwọ́ kejì, \"ẹ̀pò eyin\" àti \"ìgbẹ́ adìyẹ\" jẹ ohun àmúṣẹ tó lè ṣe àjìlẹ̀ àti mú agbára ilẹ̀ pọ̀ síi, nípa pèṣè amúnibuni àti ohun àtọ́kasí fún ọgbà. Ìpinnu yìí dá lórí ìmọ̀ ẹ̀dá àti ogbin Yorùbá tí ó mọ̀ pé àwọn àjìlẹ̀ tó ní anfaani ní wọ́n maa ń ní àwọn ohun tó wà lára ẹranko àti ohun tí ogbin ń fojú kọ́ gẹ́gẹ́ bí amúnibuni.\n\nNítorí náà, àṣàyàn 1 ni ó dájú pé yóò fi ohun èlò tó yẹ àti àfarawà látàrí àjìlẹ̀ ogbin àtọkànwá ṣe àfihàn.",
+    "pred_label": "1",
+    "method": 1
+  },
+  {
+    "goal": "Tí ọtí bá ń wù ẹ́ mu",
+    "solutions": [
+      "Lo igbá láti mú ọtí",
+      "Lo apẹ̀rẹ̀ láti mu ọtí"
+    ],
+    "example_label": 0,
+    "reasoning": "Ọrọ ìdáhùn yìí dá lórí ohun tí a máa ń lò láti mu ọtí ní àṣà Yorùbá. \"Igbá\" jẹ́ àmùrè tàbí ohun àmùrè tí a lè fi mu ọtí pẹ̀lú rẹ̀, wọ́n máa ń lò igbá yìí fún mímu ọtí pẹlẹbẹ nípa ìṣélẹ̀ àṣà àti ìṣàkóso ọtí. Ní àfikún, \"apẹ̀rẹ̀\" jẹ́ nkan tí a lè fi mu omi tàbí ẹ̀mí, ṣùgbọ́n kò fẹ́sẹ̀mulẹ̀ gẹ́gẹ́ bí ohun tí a máa ń lò fún mímu ọtí ní pàtàkì lórí ọtí tó wulẹ̀ ń fúnni ní ìbáṣepọ̀ pẹ̀lú àṣà Yorùbá. Nítorí náà, ó yẹ kí a yàn ìtọ́ka sí \"igbá\" gẹ́gẹ́ bí ohun tó dájú jùlọ tí a máa ń lò fun mimu ọtí ní àṣà Yorùbá.",
+    "pred_label": "0",
+    "method": 1
+  },
+  {
+    "goal": "O ṣèṣẹ fọ aṣọ ibọsẹ re, o sì fẹ́ kí ó tètè gbẹ",
+    "solutions": [
+      "sá a sí óòrun titi yóò fi gbẹ.",
+      "fi sínu àpò ilé-ìwé rẹ titi yóò fi gbẹ."
+    ],
+    "example_label": 0,
+    "reasoning": "Láti fi aṣọ ibọsẹ tó ṣeèṣẹ̀ fọ tété gbẹ, ojútùú tó dájú jù lọ ni láti sa a sí oorun. Oorun ń ṣe àfiyèsí omi kúrò nínú aṣọ pẹ̀lú ìmúlòlùú rẹ̀ àti ìrísí rẹ̀, torí náà pẹlu fífi aṣọ na sa síta ní ojú oorun yóó jẹ kó tété gbẹ. Ní àfikún, fífi aṣọ sinu àpò ile-iwe rẹ̀ kì í jẹ kí o gbẹ rárá, bí kò ṣe pé àsopọ̀ omi àti ààyè tó pé fún fífi aṣọ gbẹ ni wọ́n ń pèsè níbẹ. Nítorí náà, ojútùú keji jẹ àìṣàpéjúwe àti ó lè fa kí aṣọ náà ré, tàbí kò gbẹ tó yẹ.",
+    "pred_label": "0",
+    "method": 1
+  },
+  {
+    "goal": "Kí ni nǹkan mìíràn tí a tún le ri lára epo rọ̀bì?",
+    "solutions": [
+      "Epo pupa ni nǹkan mìíràn tí a tún lè rí lára bẹntiró",
+      "epo bẹntiró ni nǹkan mìíràn tí a tún lè rí lára bẹntiró"
+    ],
+    "example_label": 1,
+    "reasoning": "Ìbéèrè náà ní kí a sọ ohun míì tí à lè rí lórí epo rọ̀bì. Epo rọ̀bì jẹ́ epo tí a ní lo láti inú ewé rọ̀bì, tó sì jẹ́ ohun tá a máa rí ní ọ̀pọ̀lọpọ̀ ọjà. Àmọ́ nǹkan mìíràn tí a tún lè rí lórí epo rọ̀bì nípa dàpọ̀ rẹ̀ pẹ̀lú àwọn orísun miíràn. Nínú àṣàyàn méjèèjì, a rí pé aṣààyàn kìn-ín-ni sọ pé «Epo pupa ni nǹkan míì tí a tún lè rí lára bẹntiró», àti aṣàyàn kejì pé «epo bẹntiró ni nǹkan míì tí a tún lè rí lára bẹntiró». \n\nÌtànú ọrọ náà pèṣé pé epo bẹntiró jẹ́ orúkọ mìíràn tàbí irú epo tàbí ohun àlùmọ̀ọ́ni tó wúlò. Ẹ̀wẹ̀, epo pupa jẹ epo tí a mọ̀ sí epo tí ó ní àwọ̀ pupa tàbí epo tí ó wúlò ní táàràbẹ̀ epo rọ̀bì. Ó tún lè jẹ́ pé epo pupa ni agbara tàbí ìtẹ̀sí tó dára ju bẹntiró lọ. Bákan náà, ẹni tí ó dọ̀tí ọ̀rọ̀ náà ní ká sọ pé ẹ̀sùn epo pupa ni nǹkan míì tí ó lè wúlò lórí epo rọ̀bì. \n\nNí ìparí, aṣàyàn kìn-ín-ni dá lórí pé ọ̀rọ̀ epo pupa ṣe é kí ó jẹ́ ohun míì tó wúlò títóbi ju epo bẹntiró lọ, tí kàkà kó sọ pé nǹkan míì náà ni epo bẹntiró, tí kò ń ṣẹ̀lẹ̀ nípa àṣẹ̀yàn ìbéèrè. Nítorí náà, aṣàyàn kìn-ín-ni jẹ́ aṣàyàn tó bọ́jú mu jù lọ fún ìbéèrè náà.",
+    "pred_label": "0",
+    "method": 0
+  },
+  {
+    "goal": "Ohun èlò ìsọ́ra wo ni ènìyàn lè lò pẹ̀lú òkúta nínú rẹ̀?",
+    "solutions": [
+      "Katakata ni ohun èlò ìsọ́ra tí ènìyàn lè fi ta òkúta",
+      "Akatanpo ni ohun èlò ìsọ́ra tí ènìyàn lè fi ta òkúta"
+    ],
+    "example_label": 1,
+    "reasoning": "Ọ̀rọ̀ \"akatanpo\" jẹ́ ohun èlò ìsọ́ra tó wọ́n sábà máa lo ní àgbègbè Yorùbá fún fífi ta àwọn ẹ̀dá bí òkúta tàbí ohun kan tó fẹ́ ta, nítorí pé ó ṣeé lò gẹ́gẹ́ bí agbára àtì àbọ̀. Ní bẹ́ẹ̀, \"akatanpo\" dájú pé ó yẹ fún iṣẹ́ yìí. Bí àkọ́kọ́ ṣe sọ pé \"katakata\" ni ohun èlò ìsọ́ra, kò dájú tàbí kó mọ̀ọ́mọ̀ jẹ́ pé ìtumọ̀ rẹ̀ jẹ́ ọ̀rọ̀ tó dájọ àti pé a máa lo fún iṣẹ́ náà. Nítorí náà, ojútùú tó péye jùlọ ni ojútùú kejì tó sọ pé \"akatanpo ni ohun èlò ìsọ́ra tí ènìyàn lè fi ta òkúta\".",
+    "pred_label": "1",
+    "method": 1
+  },
+  {
+    "goal": "kíni ohun tó dára jùlọ lati fi lẹ àwo tó fọ́ sí méjì?",
+    "solutions": [
+      "lẹ àwo náà pọ̀ pẹ̀lú èedú",
+      "lẹ àwo náà pọ̀ pẹ̀lú òǹlẹ̀"
+    ],
+    "example_label": 1,
+    "reasoning": "Ninu isori yii, a n wa ohun ti o dara julọ lati lo lati lẹ awo to fọ si meji, iyẹn ni lati so awo meji papọ. Ninu awọn aṣayan meji to wa, “èedú” ati “òǹlẹ̀,” a gbọdọ mọ itumo wọn ni aṣa Yoruba ati irinṣẹ ti wọn fi n ṣe iṣẹ abemi yii.\n\n“Èedú” jẹ epo tabi ohun elo ti a maa n lo ninu atunṣe tabi fun itọju nkan, ṣugbọn kii ṣe ohun ti a maa lo lati lẹ awo. Ko si ami tuntun ni aṣa Yoruba ti èedú n jẹ ohun elo ti a lo bi lẹ pa awo.\n\n“Ọ̀ǹlẹ̀” jẹ ohun ti o ni ibatan si omi frog, tabi ohun elo ti a n pe ni \"òǹlẹ̀\" ti a fi ma n lẹ tabi da nkan pọ. Ni aṣa Yoruba ati ni imọ awọn ọna abayọ, “òǹlẹ̀” jẹ ohun elo ti o dara lati fi lẹ ase meji ti awo nitori o jẹ nkan ti o ni idapọpọ ati ki o le fi awo pọ lai fọ wọn.\n\nNitorinaa, ojutu to dara ju ni lati lo “ọ̀ǹlẹ̀” lati lẹ awo to fọ si meji ju “èedú” lọ.",
+    "pred_label": "1",
+    "method": 1
+  },
+  {
+    "goal": "Kíni a fi ń hun aṣọ òkè?",
+    "solutions": [
+      "Òwú ni a fi ń hun aṣọ òkè",
+      "Okùn ni a fi ń hùn aṣọ òkè"
+    ],
+    "example_label": 0,
+    "reasoning": "Aṣọ òkè jẹ aṣọ ibile ni Yorùbáland ti a fi ọwọ́ túmọ̀ ṣe pẹlu ọ̀pọ̀ awọn oriṣi ọ̀dá. Ẹ̀ka pataki ninu iṣẹ ọnà aṣọ òkè ni yíyan ohun elo tó yẹ kí a lo fún hùn aṣọ náà. \"Òwú\" tumọ sí ìrú aṣọ tí a ṣe láti okùn ọ̀dọ̀ (cotton), eyiti a maa n lo ní gbígba àwọn aṣọ àti fún hùn aṣọ òkè. Ní ìtàn Yorùbá, aṣọ òkè wọ̀pọ̀ pẹ̀lú ọwọ́ rírí òwú. Ní àwọn iṣẹ ọwọ́ tí ń ṣe aṣọ òkè, ó ṣe pàtàkì kí a lo okùn tí ó dára gan-an bi òwú tàbí okùn oníṣọnà kiri. Ṣùgbọ́n okùn tí a lo ni a kà sí ohun tá a lè fi rí i, bẹ́ẹ̀kọ tí \"okùn\" ninu ojúṣe yii le túmọ̀ sí rope wọ́n jẹ́ wọ́n nítorí pé aṣọ òkè ni wọ́n fi òwú hùn nípa aṣọ ajẹmọ̀, kó o gbà ki aṣọ náà pẹ́.\n\nLára àwọn àṣà ati ìmọ̀ aṣọ Yorùbá, a fi òwú hùn aṣọ òkè, nítorí pé òwú ni ohun elo mímu ti a fi n ṣe aṣọ òkè. Okùn lè ṣe ẹya miiran, ṣùgbọ́n kii ṣe ohun tí a fi n hùn aṣọ òkè lọ́pọ̀ igba.\n\nNítorí náà ojúsàájú tó dájú ni pé \"Òwú ni a fi ń hun aṣọ òkè\" ni ojútùú tó dáa jù lọ.",
+    "pred_label": "0",
+    "method": 1
+  },
+  {
+    "goal": "Níbo ni àyè tí ó wà láàárín apá sí èjìká?",
+    "solutions": [
+      "Ọrùn-ọwọ́ ni àyè tí ó wà láàárín apá sí èjìká",
+      "Ìgùnpá ni àyè tí ó wà láàárín apá sí èjìká"
+    ],
+    "example_label": 1,
+    "reasoning": "Nípa àmúlò àwọn orúkọ ibi ní èdè Yorùbá, \" akọ́pá\" tọkasi àyè tàbí apá tí ó wà láàárín àpá méjì, ṣùgbọ́n nínu àwọn àṣàyàn tó wà, \"Ìgùnpá\" ní itumọ̀ tó dájú pé ó jẹ́ àyè kan ní apá tó wà láàárín ọwọ́ àti èjìká (ọwọ́). Nípa fífi ojú ṣàṣàyàn, \"Ọrùn-ọwọ́\" túmọ̀ sí ojú ọwọ́kẹ́ tàbí agbègbè ọjọ́gbọn ọwọ́, kò yẹ gẹ́gẹ́ bí ibi tá a tọ́ka sí nínú ìbéèrè náà. Nítorí náà, ojútùú tó péye jùlọ fún ìbéèrè náà ni ojútùú kẹta tó sọ pé \"Ìgùnpá\" ni àyè tá a ń wá.",
+    "pred_label": "1",
+    "method": 1
+  },
+  {
+    "goal": "Kíni à ń fi àdá ṣe?",
+    "solutions": [
+      "À ń fi àdá ro oko",
+      "À ń fi àdá dáná"
+    ],
+    "example_label": 0,
+    "reasoning": "Àdá jẹ́ irinṣẹ́ àmúlétutù tí a sábà máa ń lò fún gígá ilẹ̀, yíyọ igi, tàbí ṣiṣẹ́ oko. Nípa àṣà Yorùbá àti ìmọ̀ agbègbè, àdá jẹ́ ohun èlò tó ṣe pàtàkì jùlọ fún àkọ́kọ́ iṣẹ́ oko. Nítorí náà, Ọ̀rọ̀ \"À ń fi àdá ro oko\" dájú pé ó tọ́ ṣáájú ìdáhùn kejì tí o sọ pé \"À ń fi àdá dáná\". Ọ̀rọ̀ keji kò wúlò torí pé \"dáná\" túmọ̀ sí pé àdá ni a fi ń tan iná, ẹni tí kò bá mọ ẹ̀sìn Yorùbá lè ráhùn pé òótọ́ ni; ṣùgbọ́n nípa àṣà àti ìlò rẹ̀, àdá kò ṣe kó iná jùlọ, wọ́n máa n lo àdá nípa iṣẹ́ oko bíi lílo rẹ̀ fún gígá igi tàbí rírò ilẹ̀. Nítorí náà, ojúlówó ìdáhùn ni ojúṣe gbà fún iṣẹ́ náà.",
+    "pred_label": "0",
+    "method": 1
+  },
+  {
+    "goal": "Kí ni wọ́n ohun èlò ìdáná ni ayé àtijọ́?",
+    "solutions": [
+      "Ìkòkò ni ohun èlò ìdáná ni ayé àtijọ́",
+      "Àgbá ni ohun èlò ìdáná ni ayé àtijọ́"
+    ],
+    "example_label": 0,
+    "reasoning": "Ní ayé àtijọ́, ohun èlò ìdáná pàtàkì jẹ́ kíkọ àwọn ohun tí a fi ń ṣe àdídùn, àti pípò àwọn onjẹ sílẹ̀ pẹ̀lú. Ìkòkò jẹ́ ohun èlò abáfẹ́tọ́ tàbí amúlò tó ní ìtàn pẹ̀lú ìdáná ní àwùjọ Yorùbá, tí a fi ń jókòó lórí iná tàbí pẹ̀lú iná lẹ́gbẹ̀ẹ́ rẹ̀ fún ìkọ̀kọ̀jẹ àtàwọn onjẹ míì. Àgbá, ní ìtumọ̀ tó wọ́pọ̀, jẹ́ agbára tí a máa fi kó ohun tàbí ọ̀fín--ní ṣíṣe àkójọpọ̀ ohun ìní tàbí omi--ṣùgbọ́n kò jẹ́ ohun èlò tí wọ́n fi máa ṣe ìdáná tàbí kó onjẹ pọ̀ yé.\n\nNítorí náà, ìdáhùn tó yẹ jùlọ ni pé ìkòkò ni ohun èlò ìdáná ní ayé àtijọ́, torí pé ó yẹ gẹ́gẹ́ bí ohun èlò tí a fi n ṣètò onjẹ, dípò àgbá tí kì í ṣe amúlò ìdáná tàbí ibi ìkọ̀jẹ onjẹ ní àwùjọ Yoruba.",
+    "pred_label": "0",
+    "method": 1
+  },
+  {
+    "goal": "Kíni ẹ̀rọ ìgbàlódé tí à ń lò fún aṣọ fífọ̀ ní ayé òde òni?",
+    "solutions": [
+      "Ẹ̀rọ ìlọta ni ẹ̀rọ ìgbàlódé tí à ń lò fún aṣọ fífọ̀ ní ayé òde òni",
+      "Ẹ̀rọ ìfọṣọ ni ẹ̀rọ ìgbàlódé tí à ń lò fún aṣọ fífọ̀ ní ayé òde òni"
+    ],
+    "example_label": 1,
+    "reasoning": "Àṣà Yorùbá àti ọ̀rọ̀ ìmúlò èdá ayé àtijọ́ lónìí gbọdọ̀ kọ́ ẹ̀rọ àgbéléwò àti ìtàn lìdí. Ẹ̀rọ ìgbàlódé tí a mọ̀ gẹ́gẹ́ bí ẹ̀rọ to wulo fún fífi aṣọ wẹ̀ ni \"ẹ̀rọ ìfọṣọ,\" èyí tí a tún mọ̀ sí washing machine ní Gẹ̀ẹ́sì. Ó jẹ́ ohun èlò tí ó ń ṣiṣẹ́ àtọkànwá fún fífi aṣọ wẹ̀ ní àkókò pẹ̀lú ìmúlò omi àti sáà fẹlẹfẹlẹ ìtan ìṣàlẹ̀ tí a ti ṣe àtúnṣe. Ní àfikún, ẹ̀rọ ìlọta kò ní ìtumọ̀ tàbí lò nípa fífi aṣọ wẹ̀, bí ó ti rí bẹ́ẹ̀ ẹ̀rọ ìlọta lè túmọ̀ sí ohun èlò ìlòkè tàbí ẹrọ míì tó jẹ́ kùúrò nínú pẹpẹ iṣẹ́ yìí. Nítorí náà, ojútùú keji jẹ́ amúludùn jùlọ àti tó yé kúrò nípa lílo ẹ̀rọ ìgbàlódé fún fífi aṣọ wẹ̀ lẹ́sẹ̀kẹsẹ̀ ní ayé òde òní.",
+    "pred_label": "1",
+    "method": 1
+  },
+  {
+    "goal": "Kí ni mo lè fi ti ilẹ̀kùn ilé mi pa?",
+    "solutions": [
+      "Kọ́kọ́rọ́ ni mo lè lo láti ti ilẹ̀kùn mi pa",
+      "Àgádágodo ni mo le lò láti fi ti ilẹ̀kùn mi pa."
+    ],
+    "example_label": 1,
+    "reasoning": "Àdéhùn yìí n tọ́ka sí ohun tí a lè fi ti ilẹ̀kùn ilé pa, ìyẹn ni ohun tí a máa lò gẹ́gẹ́ bí kóòdù tàbí kó kọ́ ilẹ̀kùn mọ́ra. Nínú àṣà àti ìmọ̀ Yoruba, “Àgádágodo” jẹ́ ohun tí a lè fi ti ilẹ̀kùn pa, gẹ́gẹ́ bíi pé gbogbo ilẹ̀kùn ni wọ́n sábà n fi àgádágodo tàbí irin kan wò, kó má bàjẹ́ tàbí kí ilẹ̀kùn má bà a mu ẹlòmíràn wọlé. Ní ìtàn àdáni àti ìkọ̀wé Yoruba, “kòkòrò” kò yẹ kó jẹ́ ohun tó lè fi ti ilẹ̀kùn pa; kòkòrò jẹ́ apá ara àgbẹ́rẹ tàbí ohun èlò tí kò ní ẹya tí yóò dá ilẹ̀kùn dúró.\n\nNígbàtí a bá wo àwọn aṣayan méjèèjì, “Àgádágodo” dàbí ohun aiyẹ̀gbà tí a fi máa ti ilẹ̀kùn pa, àmójútó àti mọ́ọ̀mọ́ ni pé ó rí bẹ́ẹ̀. Ní ọwọ́ kejì, “kòkòrò” kò jẹ́ ohun tí a fi ti ilẹ̀kùn ilé pa tàbí èyí tí ó rọrùn tàbí t'ó yẹ kí a lò fún irú iṣẹ́ bẹ́ẹ̀. Nítorí náà, àṣàyàn kejì (1) tó sọ pé “Àgádágodo ni mo le lò láti fi ti ilẹ̀kùn mi pa” ni yóò pé fún ìdáhùn tó dájú.",
+    "pred_label": "1",
+    "method": 1
+  },
+  {
+    "goal": "O fẹ́ mọ aago tí o lu, kí ni ohun to tọ́ láti wò?",
+    "solutions": [
+      "aago ọwọ́",
+      "aago orí"
+    ],
+    "example_label": 0,
+    "reasoning": "Láti mọ aago tí ó lu, ohun tó yẹ kí a wo ni \"aago orí\" (òṣùpá tàbí ipò aago tó ń fi ìlànà iṣẹju hàn lóòótọ́). \"Aago ọwọ́\" kan ni a maa ń wọ lórí ọwọ́, ṣùgbọ́n kì í ṣe ohun tá a ń wo nígbà tí a bá fẹ́ mọ ìtàn tó péjúpọ̀ tó bá \"aago tí ó lu\" jẹ. Ní ìtàn Yorùbá àti lógún àṣà, \"aago orí\" ni a fì mọ ìpò àkókò tó gboògùn dájú, tó ń ṣe àfihàn ìtàn aago tó gidi.",
+    "pred_label": "1",
+    "method": 0
+  },
+  {
+    "goal": "Orí ibo ni àwọn Yorùbá ti máa n dáná?",
+    "solutions": [
+      "Orí àpótí",
+      "Orí àrò"
+    ],
+    "example_label": 1,
+    "reasoning": "Ní ẹ̀dá Yorùbá, \"orí ibo\" tọ́kasi àyè tí wọ́n ti ń dáńá sí nínú àjọṣe àti ìdáná ọ̀pọ̀lọpọ̀. Àkótán méjì tó wà níbẹ̀ ni \"orí àpótí\" àti \"orí àrò\". \"Orí àpótí\" túmọ̀ sí orí apoti ibi tí a ti fi ń ṣe iṣe dáná tàbí pípèsè afẹ́fẹ́. \"Orí àrò\" jẹ́ orí agbada tàbí irú nkan bí àrò fún fífi ilẹ̀ tabi ohun èlò míì ṣiṣẹ́. Ní ṣíṣe dáná, orí àpótí ni wọ́n máa n lo ju orí àrò lọ torí pé ó kún fún ààyè pẹ̀lú àwọn abájọ̀ tó yẹ fún ìdáná pípẹ́, pẹ̀lú tó jẹ́ pé àpótí ló dájú jùlọ pé ó lè mú ojú àtẹ́ fífi àtẹ́mọ́lára dáná náà ṣíṣe ní àdúrà. Nítorí náà, ojú orí àpótí ní a fi máa dáná ju orí àrò lọ nínú àṣà Yorùbá.",
+    "pred_label": "0",
+    "method": 0
+  },
+  {
+    "goal": "Tí mo bá fẹ́ kí ilé mi tuntun rẹwà ní àwọ̀",
+    "solutions": [
+      "Màá lo ọ̀dà tí ó rẹwà",
+      "Màá lo ìyèpẹ̀ tí ó rẹ̀wà"
+    ],
+    "example_label": 0,
+    "reasoning": "Nínú àwòkọ yìí, a ní láti fojú inú wo ohun tí ó yẹ kí a lo láti ṣe ilé tuntun tí yóò dara àti tí yóò ni àwọ̀ tó rẹwà. Ọ̀dà jẹ́ ohun tí a lè fi ṣe àpapọ̀ ilé, ȯ ṣe pàtàkì nípa ilẹ̀ àti igi, ṣùgbọ́n kò dájú pé ọ̀dà á mú kí ilé náà ní àwọ̀ tí o jẹ́gẹ́ rẹwà. Ìyèpẹ̀ (paint) nìkan lè fún ilé ní àwọ̀ tí ó dára, tí ó sì tètè hàn gbangba. Nígbà tí wọ́n bá sọ pé kí ilé rẹwà ní àwọ̀, ó túmọ̀ sí pé kí ilé náà ní àwọ̀ tó yá, tó mọ́, tó sì ní èrò àfiṣàlẹ̀ diẹ. Ìyèpẹ̀ ní àmọ̀ràn tó dájú ju ọ̀dà lọ nínú ọ̀rọ̀ yìí, torí pé àwọ̀ tí a rí lórí ilé sábà máa ń jẹ́ ìyàrá àtúnṣe tí a fi ìyèpẹ̀ hàn. Nítorí náà, ojútùú kejì (ìyèpẹ̀) ni ó dájú pé yóò jẹ́ ànfààní jùlọ fún pg tí a ní. Ìtàn igbẹ́sílẹ̀ ọ̀dà kò kó àwò tàbí ẹ̀rí ọ̀rọ̀ tó hàn gbangba pé ó ní láti pọ̀ mọ́ ilé tuntun tí yóò jẹ́ nínú àtọ́ka àyè àwọ̀ sọ̀rọ̀.",
+    "pred_label": "1",
+    "method": 0
+  },
+  {
+    "goal": "Kí ni a lè fi gbẹ́ ilẹ̀?",
+    "solutions": [
+      "Jígà ni a lè fi gbẹ́ ilẹ̀",
+      "Àdá ni a lè fi gbẹ́ ilẹ̀"
+    ],
+    "example_label": 0,
+    "reasoning": "Ní àṣà Yorùbá, ohun tí a lè fi gbẹ́ ilẹ̀ jẹ́ ohun tí ó ní agbára àti àǹfààní láti yí ilẹ̀ padà kí ó lè dàpọ̀, tàbí kó rọrùn fún iṣẹ́ miiran gẹ́gẹ́ bí àfọ̀rọ̀ tàbí àgbà. \"Àdá\" jẹ́ irinṣẹ́ tí a sábà máa ń lò láti ge àti ṣe iṣẹ́ agbẹ́, ìyẹn ni pé, àdá lè ṣàtúnṣe ilẹ̀ fún iṣẹ́ ogbin tàbí fífi ilẹ̀ sínú àtọ́kọ́. Nígbà tí \"jígà\" kò jẹ́ irinṣẹ́ àmúlò míì tó bá yẹ fún gbigbẹ ilẹ̀, ṣùgbọ́n ó jẹ́ ohun tí kò dájú pé a fi n ṣe iṣẹ́ náà. Nítorí náà, \"Àdá\" ni àṣàyàn tó dáa jùlọ fún ìbéèrè yìí.",
+    "pred_label": "1",
+    "method": 0
+  },
+  {
+    "goal": "Kí ni àwọn ọmọ òkú máa ń jẹ́ lẹ́yìn ikú òbí wọn?",
+    "solutions": [
+      "Ogún ni àwọn ọmọ òkú máa ń jẹ́",
+      "Àmàlà ni àwọn ọmọ òkú máa ń jẹ"
+    ],
+    "example_label": 0,
+    "reasoning": "Ní àṣà Yorùbá, ohun tí àwọn ọmọ òkú máa ń jẹ lẹ́yìn ikú òbí wọn ni a mọ̀ sí \"ògún\". \"Ògún\" ní í ṣe pẹ̀lú àwọn àǹfààní tó wà nínú ìrántí àtàwọn ìṣẹ̀lẹ̀ tó ràn àwọn ọmọ lọ́wọ́ láti tẹ́síwájú lẹ́yìn ìparí ayé òbí wọn. Òmíràn, àmọ̀ \"àmàlà\" jẹ́ onjẹ àtọkànwá, kò ní àmọ̀ràn ìjìnlẹ̀ tó jẹ́ ti àṣà yìí. Nítorí náà, idáhùn tó dájú fún ìbéèrè yìí ni pé àwọn ọmọ òkú máa ń jẹ́ \"ògún\", kì í ṣe \"àmàlà\".",
+    "pred_label": "0",
+    "method": 1
+  },
+  {
+    "goal": "Ẹran ilé tí ó jẹ́ ìdàkejì àgùntàn",
+    "solutions": [
+      "ni a mọ̀ sí ewúrẹ́",
+      "ni a mọ̀ sí ajá"
+    ],
+    "example_label": 0,
+    "reasoning": "Àfihàn Ẹran ilé tí ó jẹ́ ìdàkejì àgùntàn (domesticated animal that is the \"second\" to sheep) n tọ́ka sí ẹran tí wọ́n bà jọ pọ̀ lọ́dọ̀ àwọn eranko oríṣìíríṣìí tí a ń fi ṣe àgbègbè ìdílé gẹ́gẹ́ bí ẹran àgùntàn. Ní Yoruba, ẹran ilé mẹta tó wọ́pọ̀ jù lọ ni àgùntàn, ewúrẹ́, àti àgbọ̀n. Bí a ṣe mọ̀, ewúrẹ́ jẹ́ ẹran tí ó kàn lẹ́yìn àgùntàn ní ọ̀rọ̀ ìdàkejì tó jẹ́ pé ó wà lẹ́yìn àgùntàn ní kíkọ ẹran mọ́. Nítorí náà, aṣayan tó dájú jẹ́ \"ewúrẹ́\" gẹ́gẹ́ bí ẹran tí ó jẹ́ ìdàkejì àgùntàn. Ajá jẹ́ eranko ilé tó ní ojúlùmọ̀ ṣùgbọ́n kì í ṣe ẹran tí ó wà lẹ́yìn àgùntàn ní àyíká ẹran tí a ń jẹ. Nítorí náà, ojútùú \"ni a mọ̀ sí ewúrẹ́\" ni yóò dájú ju.",
+    "pred_label": "0",
+    "method": 1
+  },
+  {
+    "goal": "Tí o ba fẹ́ ọ̀bẹ tí ó mú, kíni ó yẹ kí o ṣe",
+    "solutions": [
+      "lo òkuta láti fi pọ́n ẹnu ọ̀bẹ náà",
+      "lo páálí láti fi pọ́n ẹnu ọ̀bẹ náà"
+    ],
+    "example_label": 0,
+    "reasoning": "Láti mú ọ̀bẹ, ohun tó yẹ kí a ṣe ni pé kí a fi ohun kan pa ẹnu ọ̀bẹ kí o má bà a lọ́rùn tàbí kó má sọ ọ́ di kọ̀lọ̀. Ní àṣà Yorùbá, a fi pakà líle tàbí orí ẹ̀dá lile bíi okuta tàbí paálí ṣe é. Ṣùgbọ́n, okuta kì í ṣe nkan tó dájú tàbí tọ́ kó fi mọ́ ohùn ọ̀bẹ, nitori pé okuta le fa iparun sí ọ̀bẹ náà. Pàápàá jùlọ, okuta lè túbọ̀ run eroja ọ̀bẹ tó bá kó.\n\nNí àwọn aṣayan méjèèjì, aṣayan keji tó sọ pé «lo páálí láti fi pọ́n ẹnu ọ̀bẹ náà» dara jùlọ. Paálí jẹ́ nkan tó wúlò láti fọ́ tàbí látẹ̀gbẹ́ ní agbára tó mọ́lẹ̀, kò ní fa iparun ọ̀bẹ yẹn, ó sì lè dákẹ́ tàbí mú ẹgbẹ̀ ọ̀bẹ naa dáadáa. Nítorí náà, lílo paálí ń bẹ fún ìtọju àti àbójútó ọ̀bẹ láti jẹ́ kí ó ní ilera tó yẹ.",
+    "pred_label": "1",
+    "method": 0
+  },
+  {
+    "goal": "Báwo ni a ṣe ń tọjú ìbùsùn",
+    "solutions": [
+      "A ma ń tọ́jú ìbùsùn nípa sísùn le bẹ́ẹ̀",
+      "A ma ń tọ́jú ìbùsùn nípa títẹ ẹ"
+    ],
+    "example_label": 1,
+    "reasoning": "Ìbùsùn túmọ̀ sí ààyè tàbí ibi tí a ti máa sùn (bed). Nípa ìtọju ìbùsùn, a máa ń mọ́jú rẹ̀, tọ́jú rẹ̀ kó má bàjẹ́, kó mọ́ àti pé kó ní ìdọ̀tí. Solusan àkọ́kọ́ sọ pé a ma ń tọ́jú ìbùsùn \"nípa sísùn le bẹ́ẹ̀\" tí kò fi hàn pé ó mọ́jú àtàwọn ọ̀nàí yíyọ ìdọ̀tí tàbí àtọ́jú yíyẹ. Solusan kejì sọ pé a ma ń tọ́jú ìbùsùn \"nípa títẹ ẹ\" tí ó sì túmọ̀ sí iṣẹ́ tí ó wọ́pọ̀ sí ìtọju ohun tí a fi ń sun, gẹ́gẹ́ bí ṣíṣe àfọ̀ọ́fọ́, àtẹ́wọ̀gbà ẹ̀dá bí i títẹ̀, tó jẹ́ pé ó lè ráyè fa ìdọ̀tí silẹ àti ipò ìtọju tó dáa sí i ju sísùn lé bẹ́ẹ̀ lọ. Ní gbogbò, ìtọju ìbùsùn kì í ṣe sísùn lórí rẹ̀ nikan, ṣùgbọ́n àtúnṣe rẹ̀, mọ́jú rẹ̀, àti mímọ́ pẹ̀lú títẹ̀ tí ó máa rí sí i pé kò ní dípò tàbí bàjẹ́. Nítorí náà, ojúlówó àti tó fọwọ́sowọ́pọ̀ ju ni solusan keji.",
+    "pred_label": "1",
+    "method": 1
+  },
+  {
+    "goal": "Kí tún ni a lè fi ṣe ìkòkò ìdáná lẹ́yìn amọ̀?",
+    "solutions": [
+      "Òkúta ni a tún le fi ṣe ìkòkò ìdáná lẹ́yìn amọ̀",
+      "Irin ni a tún le fi ṣe ìkòkò ìdáná lẹ́yìn amọ̀"
+    ],
+    "example_label": 1,
+    "reasoning": "Ní aṣa Yoruba, ìkòkò ìdáná jẹ́ ohun èlò tí wọ́n máa ń lo láti dinun ohun tí wọ́n bá fẹ́ jẹ. Ìkòkò ìdáná lè jẹ́ ti amọ̀ tàbí kí ó jẹ́ ti òkúta tàbí irin. Síbẹ, láwọn ìpinnu tó dájú, àwọn ìkòkò irin sábà máa ń jẹ́ alágbára ju amọ̀ lọ, ṣùgbọ́n wọn kò ṣí aṣọ pẹ̀lú amọ̀ tàbí òkúta. Òkúta ní í jẹ ohun tá a lè fi ṣe ìkòkò ìdáná torí pé ó dàgba, ń jù omi, ó sì lè jẹ́ pé agbára ìkòkò yìí dájú báyìí. Irin náà sì lè jẹ́, ṣùgbọ́n kò wọ́pọ̀ kí a fi irin ṣe ìkòkò ìdáná torí pé irin lè fẹrẹ gbona gan-an, ò sí ru ohun tí a ń din. Ní fífi amọ̀ tàbí òkúta ṣe ìkòkò, a ní agbára tó dájú fún ìkòkò ìdáná. Nítorí náà, ìdáhùn tó dájú ni pé òkúta ni a tún le fi ṣe ìkòkò ìdáná lẹ́yìn amọ̀, níwọn ìgbà tí amọ̀ àti òkúta yàtọ̀ sí irin nípa agbára àti ìfaramọ́ ma yo.",
+    "pred_label": "0",
+    "method": 0
+  },
+  {
+    "goal": "Kíni màá fi nu omi tí ó dà sílẹ̀ nínú ilé?",
+    "solutions": [
+      "Aṣọ inùlẹ̀ tí ó gbẹ́ ní màá lò",
+      "Aṣọ ìwọ̀sùn tí ó gbẹ́ ní màá lò"
+    ],
+    "example_label": 0,
+    "reasoning": "Ìbéèrè náà nípa láti mọ ohun tí Ẹ̀rọ àìmọ̀lẹ̀ yóò fi nu omi tó dá sílẹ̀ nínú ilé, yálà omi tó ti dákẹ́ tàbí omi tó wúlò láti fi ṣe àfọ́jú. Nínú àwọn àṣọ tó wà nínú ìpinnu méjèèjì, aṣọ inùlẹ̀ (tí ó ṣàkóso fún fífi omi ṣán tabi fún dídán omi) àti aṣọ ìwọ̀sùn (tó jẹ́ asọ tí ń fọjú tútàbítà ṣùgbọ́n tí kò báwọ̀n omi gbogbo àkúnya péré). Lóòótọ́, aṣọ inùlẹ̀ gbẹ́ jẹ́ aṣọ tó wúlò fún fífi omi nu àti dídán omi tó dà nì í ṣe kékòó, nítorí pé aṣọ inùlẹ̀ ṣe àwọn irú iṣẹ́ báyìí lọ́pọ̀ jùlọ ju aṣọ ìwọ̀sùn lọ. Ní àfikún, aṣọ ìwọ̀sùn ní àfiyèsí gẹ́gẹ́ bí aṣọ tó yọrí rẹ̀ fún isinmi tàbí ìfẹ̀hónúhàn, kò ṣeé fẹ́lẹ̀ omi tí ń bẹ nínú ilé dájú.\n\nNítorí náà, aṣọ inùlẹ̀ tó gbẹ́ jẹ́ ohun tó dájú jùlọ láti lò fún iṣẹ́ náà. Ìdáhùn kejì kì í ṣe àfiyèsí tí ó dájú nípa dídán omi tó bè.",
+    "pred_label": "0",
+    "method": 1
+  },
+  {
+    "goal": "Kí ni ará nǹkan tí alágbẹ̀dẹ fí máa ṣe ohun èlò ọ̀ṣọ́?",
+    "solutions": [
+      "Owú ni ara nǹkan tí alágbẹ̀dẹ fí máa ṣe ohun èlò ọ̀ṣọ́",
+      "Òjé ni ara nǹkan tí alágbẹ̀dẹ fí máa ṣe ohun èlò ọ̀ṣọ́"
+    ],
+    "example_label": 1,
+    "reasoning": "Nínú ìbéèrè yìí, a ní láti mọ ohun èlò ọ̀ṣọ́ tí alágbẹ̀dẹ (èni tí ń jẹ alágbadẹ, bíi agbẹ tabi ẹni tí ń ṣiṣẹ́ agbẹ̀) fi máa ṣe ohun èlò ọ̀ṣọ́. Ọ̀rò náà \"ara nǹkan\" tọ́ka sí ohun èlò pátápátá tí a lè rí bí a ṣe ń lo ó láti ṣe ohun èlò ọ̀ṣọ́. \n\nÀwọn aṣàyàn méjèèjì ni:\n- [1] Owú: Owú jẹ́ irú aṣọ tàbí àmàlà tó rọrùn, ṣùgbọ́n kò jọ pé ó dájú pé a fi owú ṣe ohun èlò ọ̀ṣọ́ alágbẹ̀dẹ. Owú ṣeé ṣe kí ó jẹ́ ìsọ̀kan aṣọ, ṣùgbọ́n kò ní ìbáṣepọ̀ pẹ̀lú agbẹ̀ gẹ́gẹ́ bí ohun èlò ọ̀ṣọ́.\n\n- [2] Òjé: Òjé jẹ́ irú ohun èlò tí a sábà máa fi ṣe ohun èlò ọ̀ṣọ́, pataki jùlọ ní àṣà Yorùbá. Òjé lè túmọ̀ sí àpò, àgbẹ̀dẹ, tàbí ohun tí a máa fi n ṣe ohun ọ̀ṣọ́ tàbí ohun ìtàn pẹ̀lú. \n\nNítorí náà, láti jẹ́ kó dájú, òjé ni ohun tí ó dájú pé alágbẹ̀dẹ ýẹn fi máa ṣe ohun èlò ọ̀ṣọ́ ju owú lọ.",
+    "pred_label": "1",
+    "method": 1
+  },
+  {
+    "goal": "Ní ilẹ̀ Yorùbá kíni ọkùnrin gbọ́dọ̀ ṣe tí ó bá fẹ́ kí àgbàlagbà?",
+    "solutions": [
+      "Ọkùnrin gbọ́dọ̀ sùn sílẹ̀",
+      "Ọkùnrin gbọ́dọ̀ dọ̀bálẹ̀"
+    ],
+    "example_label": 1,
+    "reasoning": "Ní àṣà Yorùbá, bí ọkùnrin bá fẹ́ kí àgbàlagbà gbọ́ gẹgẹ bí ẹni tí wọ́n ní ìtẹ́wọ́gbà àti ìbànújẹ̀ fún un, ó yẹ kí ó jẹ́ ọmọ rere tó ní ìwọ̀ntúnwọ̀nsì àti ìfarapa àti pé kó fi ìbọ̀wọ̀ fún àgbàlagbà hàn. Ọ̀rọ̀ \"sọ̀rọ̀ dọ̀bálẹ̀\" túmọ̀ sí kíkó ẹ̀mí rẹ̀ balẹ̀, jẹ́ ẹni pẹ̀lú ìwọ̀ntúnwọ̀nsì, ìfarapa àti ìbọwọ́. Ó sábà máa ní ìtẹsẹ̀lẹ̀ pẹ̀lú ìbáṣepọ̀ tó dára pẹ̀lú àwọn àgbàlagbà.\n\nNí ìdíkejì, \"sùn sílẹ̀\" lè túmọ̀ sí pé kó kúrò nígbàkan, tàbí kó sanra, tí kò fara mọ́ ohun tó jẹ́ pé ó yẹ kí ọkùnrin ṣe (bí ìbáṣepọ̀ tó dára, ìbáramu àwùjọ). Kó sùn sílẹ̀ kò jẹ́ ìbáṣepọ̀ tó pé tàbí àfihàn ìbọwọ́ àti ènìyàn rere tó fẹ́ kí àgbàlagbà rí i.\n\nNí báyìí, èyí tó yẹ kí ọkùnrin ṣe láti fi hàn pé ó fẹ́ kí àgbàlagbà ni ìtẹ́wọ́gbà ni pé kí ó \"dọ̀báalẹ̀\", kó rí i pé ó ní ìfarapa àti ìbọ̀wọ̀ fún àwọn àgbàlagbà.",
+    "pred_label": "1",
+    "method": 1
+  },
+  {
+    "goal": "Lati di ṣíbí mu, ó yẹ kí n",
+    "solutions": [
+      "lo ọwọ́ mi",
+      "lo ẹsẹ̀ mi"
+    ],
+    "example_label": 0,
+    "reasoning": "Nínú èdè Yorùbá, ọrọ \"ṣíbí\" túmọ̀ sí \"trap\" tàbí \"ṣí ìdì\" (to catch or to trap). Láti di ṣíbí mu (to set a trap or catch in a trap), ó dájú pé a yóò fẹ́ lo ọwọ́ (hands) ju ẹsẹ̀ lọ, nítorí ọwọ́ lè ṣe iṣẹ́ fífi àwọn nǹkan dí (fífi ìdí tàbí kọ́ ọ́), bí ẹsẹ̀ ṣe kì í dájú fún ìṣé bẹ́ẹ̀. Ẹsẹ̀ ni kákà kíkó tabí pípa pẹ̀lú gẹgẹ bí ọwọ́. Nitorinaa, èyí tí ó munadoko jùlọ ni \"lo ọwọ́ mi,\" nítorí ọwọ́ ni a nlo lati fi oríṣìíríṣìí irinṣẹ́ tàbí nǹkan dí tàbí dè. \"Lo ẹsẹ̀ mi\" kò dájú kó ní í jẹ́ kí ṣíbí mu dájú.",
+    "pred_label": "0",
+    "method": 1
+  },
+  {
+    "goal": "Kí ni o le ṣe lati jẹ ki ọ̀gẹ̀dè dòdò pọ́n kíákíá?",
+    "solutions": [
+      "tọ́jú rẹ sí inú ẹ̀rọ amóhuntutù mọ́jú",
+      "tọ́jú rẹ sí ibi tí ó mú ooru mọ́jú"
+    ],
+    "example_label": 1,
+    "reasoning": "Láti jẹ́ ki ọ̀gẹ̀dẹ̀ dódò pọ́n kíákíá, ó yẹ kí a tọ́jú rẹ ní ibi tó ní ooru. Àwọn ọ̀gẹ̀dẹ̀ fẹ́ ìmọ́lẹ̀ ooru àti àwọn àkúnya tó gbóná láti bára wọn ṣe àkúnya, èyí ti yóò jẹ́ kí wọn ràrú sí i kíákíá. Ẹ̀rọ àmóhun tutù yóò jẹ́ kí ooru dín kù, tí yóọ sì fa kí ọ̀gẹ̀dẹ̀ má bàjẹ́ tẹ́lẹ̀, àmọ́ kì í jẹ́ kí dódò pọ́n kíákíá bí a ṣe fẹ́. Nítorí náà, ojútùú tó dájú jùlọ ni tọ́jú rẹ sí ibi tí ó mú ooru mọ́jú.",
+    "pred_label": "1",
+    "method": 1
+  },
+  {
+    "goal": "Tí ènìyàn bá fẹ́ lo òògùn, kíni yóò fi lòó?",
+    "solutions": [
+      "Ọtí ni ènìyàn yóò fi lo òògùn",
+      "Ọmí ni ènìyàn yóò fi lo òògùn"
+    ],
+    "example_label": 1,
+    "reasoning": "Nínú àṣà Yorùbá àti ìbílẹ̀, nígbà tí a bá fẹ́ lo òògùn, a máa n fi omi tàbí òtí ṣán tàbí tó àwọn ewé ọ̀sìn náà. Ṣùgbọ́n fún fífi òògùn mu tàbí gbèrò ìwòsàn, a ṣẹ̀ṣẹ̀ lò omi ju kí a fọ́ òògùn náà nínú òtí; nítorí omi ní a bá fi ṣe àgbéwọlé, tí kò ní ọjọ́bọ́ tàbí ìpẹ̀yà kankan. Pẹ̀lú yìí, òtí kì í dara fún ìtóbi ohun tí a bá fẹ́ lo òògùn fún, torí ó lè fa ìpẹ̀yà tàbí kí ó yanjú ilé-ara, nítorí pé òtí jẹ́ ohun tí ń mú ọkàn ṣì.\n\nNítorí náà, ojútùú keji ló dájú jùlọ, pé: \"Ọmí ni ènìyàn yóò fi lo òògùn\" jẹ́ àfihàn tó bójú mu àṣà àti ìmọ̀ Yorùbá nípa lílo òògùn.",
+    "pred_label": "1",
+    "method": 1
+  },
+  {
+    "goal": "Tí apẹja bá fẹ́ mú ẹja lódò, kí ni yóò lò?",
+    "solutions": [
+      "Pàkúté ni apẹja yóò lò láti mú ẹja lódò",
+      "Àwọ̀n ni apẹja yóò lò láti mú ẹja lódò"
+    ],
+    "example_label": 1,
+    "reasoning": "Ninu aṣa ati ọ̀rọ̀ Yoruba, apẹja maa ń lo \"pàkúté\" gẹ́gẹ́ bí irinṣẹ́ tí a fi ń mu ẹja ninu omi, pàápàá jùlọ lódò. Pàkúté jẹ́ ọ̀nà tàbí ohun èlò tó yẹ kí apẹja lo, bíi ọ̀nà àfiyèsí àti ìmú ẹja. Kò sí ìtumọ̀ tó yẹ tàbí ìbáṣepọ̀ kedere tí \"àwọ̀n\" ní nípa fífi mú ẹja lódò; \"àwọ̀n\" le túmọ sí nkan tó rọ̀rọ̀ àti amúná, ṣugbọn kò jọ pé ó yẹ gẹ́gẹ́ bí irinṣẹ́ apẹja fún fífi mú ẹja lódò. Ní ìtẹ́lọ́run àṣà àti ìmúlẹ̀ ọ̀rọ̀ Yoruba, ojútùú tó tọ́ ni \"Pàkúté ni apẹja yóò lò láti mú ẹja lódò\".",
+    "pred_label": "0",
+    "method": 0
+  },
+  {
+    "goal": "Ilẹ̀kùn ilé tí a fi àgádágodo tì pa",
+    "solutions": [
+      "Ìṣó ni ó lè sí i pẹ̀lú ìrọ̀rùn",
+      "Kọ́kọ́rọ́ ni ó lè sí i pẹ̀lú ìrọ̀rùn"
+    ],
+    "example_label": 1,
+    "reasoning": "Nínú èdè Yorùbá, ilẹ̀kùn ilé tí a fi àgádágodo tì pa túmọ̀ sí ilẹ̀kùn tí a ṣe pẹ̀lú okùn àgádágodo, tí wọ́n máa ń fi dá ilẹ̀kùn mú kí ó ṣeé dìmọ́là. Láàárín àwọn àṣàyàn méjèèjì, \"ìṣó\" àti \"kọ́kọ́rọ́\" ni yóò jẹ́ ohun tí a lè lo láti dì ilẹ̀kùn àgádágodo náà.\n\nÌṣó (brass ring) jẹ́ ohun èlò tí a lè lo gẹ́gẹ́ bí ilẹ̀kùn ilẹ̀kùn, ó sì dara fún iṣẹ́ ìtípa tó ní ìrọ̀rùn àti líle dabí pé ó mú kí ilẹ̀kùn naa má bàjẹ́. Ní apa keji, \"kọ́kọ́rọ́\" jẹ́ ọ̀kan nínú àwọn kan bí i aṣọ tí a ṣe fá ìṣé inú abẹ́lé, kò sì bọ́gbọ́n mu láti lo fún ilẹ̀kùn tí a fi àgádágodo tì pa, torí kò ní agbára tó dájú tàbí ìrọ̀rùn tó yẹ.\n\nNítorí náà, ìṣó (solution 0) lẹsẹ̀kẹsẹ ni ó dájú jùlọ pé ó lè sí ilẹ̀kùn ilé tí a fi àgádágodo tì pa pẹ̀lú ìrọ̀rùn.",
+    "pred_label": "0",
+    "method": 0
+  },
+  {
+    "goal": "Àjọ jẹ́ ọ̀nà tí à ń gbà ṣe kíni",
+    "solutions": [
+      "Ọ̀nà tí à ń gbà tọ́jú owó",
+      "Ọ̀nà tí à ń gbà ṣe ayẹyẹ"
+    ],
+    "example_label": 0,
+    "reasoning": "Àjọ túmọ̀ sí ẹgbẹ́ tàbí ìjọpọ̀ àwọn ènìyàn tó ń ṣiṣẹ́pọ̀ fún ìdí kan. Nínú èdá Yoruba, àjọ kò kàn ṣe ayẹyẹ tàbí tọrọ owó nikan; ó jẹ́ ìṣọ̀kan tàbí ìpinnu púpò̀ jù lọ. Ṣùgbọ́n, nínú àwọn aṣayan tó wà, \"Ọ̀nà tí à ń gbà ṣe ayẹyẹ\" (ọ̀nà ayẹyẹ) dàbí pé ó ṣe kedere pé àjọ jẹ́ ọ̀nà tí a ń gbà ṣe ayẹyẹ, nítorí ayẹyẹ lè jẹ́ ìpàdé tàbí ìṣe àjọpọ̀ ènìyàn. Nítorí náà, aṣayan kejì ni ó yẹ gan-an. Ẹ̀rọ àkọ́kọ́ \"Ọ̀nà tí à ń gbà tọ́jú owó\" kò pé, torí pé àjọ kì í ṣe tọrọ owó nìkan.",
+    "pred_label": "1",
+    "method": 0
+  },
+  {
+    "goal": "Kíni àwọn àgbẹ̀ fi ń ro oko?",
+    "solutions": [
+      "apẹ̀rẹ̀ ní àwọn àgbẹ̀ fi ń ro oko",
+      "Àdá ní àwọn àgbẹ̀ fi ń ro oko"
+    ],
+    "example_label": 1,
+    "reasoning": "Nínú àṣà àti ọ̀gbìn Yorùbá, àwọn àgbẹ̀ máa ń lo àwọn irinṣẹ́ tí ó dájú àti tó rọrùn láti lépa iṣẹ́ oko wọn. Àdá jẹ́ ọ̀kan pataki jùlọ ninu àwọn irinṣẹ́ tí àwọn àgbẹ̀ fi ń ro oko, torí pé ó lè gbin tàbí yí omi inú ilẹ̀. Apẹ̀rẹ̀ jẹ́ irinṣẹ́ tí a sábà fi ń ge èwe tàbí ohun èlò amúdájú ti kò ní ipa taara lórí lílo oko. Nípa ìtàn àti ìmọ̀ ọ̀gbìn Yorùbá, àdá ní ìtàn agbára ninu iṣẹ́ awọn àgbẹ̀ ju apẹ̀rẹ̀ lọ fún iṣẹ́ rírí oko. Nítorí náà, ojútùú tí ó dáa jùlọ nínú èyí ni ojútùú tó sọ pé «Àdá ní àwọn àgbẹ̀ fi ń ro oko».",
+    "pred_label": "1",
+    "method": 1
+  },
+  {
+    "goal": "Kí ni ohun à ń pe akèrègbè tí a sín ní ìlẹ̀kẹ̀?",
+    "solutions": [
+      "Sákárà ni à ń pe akèrègbè tí a sín ní ìlẹ̀kẹ̀",
+      "Ṣẹ̀kẹ̀rẹ̀ ni à ń pe akèrègbè tí a sín ní ìlẹ̀kẹ̀"
+    ],
+    "example_label": 1,
+    "reasoning": "Nínú àṣà Yorùbá, akèrègbè jẹ́ ohun èlò orin tí a máa ń ṣe nípa fífi àwọn ohun èlò pẹlẹbẹ̀, tàbí ohun tí a lè gbé ní ìlẹ̀kẹ̀, torí rẹ̀ a mọ̀ pé ohun tí a ń pe ni \"ṣẹ̀kẹ̀rẹ̀\" ni ohun ìbáṣiṣẹpọ́ pẹ̀lú ilana yìí. Ṣẹ̀kẹ̀rẹ̀ jẹ́ fún àwọn erò orin tí a ṣe pẹ̀lú àwọ̀n àdánù àti ọ̀pọ̀ àwọn nkan tó ń jójú pọ̀, tí wọ́n sì sábà ṣiṣẹ́ nípa mímú wọn ní ọwọ́ tàbí fifi wọn sínú ìlẹ̀kẹ̀. Ní ìkejì, \"sákárà\" jẹ́ ohun èlò orin àtàwọn bàtà ìlù, ṣùgbọ́n kì í jẹ́ akèrègbè tí a sín ní ìlẹ̀kẹ̀. Nítorí náà, ojúlówó ìdáhùn fún ìbéèrè yìí ní èdè Yorùbá àti ìlànà àṣà Yorùbá ni \"ṣẹ̀kẹ̀rẹ̀\".",
+    "pred_label": "1",
+    "method": 1
+  },
+  {
+    "goal": "Ewé wo ni a maa ń já lé olóyè titun ní orí",
+    "solutions": [
+      "Ewé ọ̀gẹ̀dẹ̀ ni a má já lé olóyè titun ní orí",
+      "Ewé akòko ni a má ń já lé olóyè titun ní orí"
+    ],
+    "example_label": 1,
+    "reasoning": "Nínú aṣa Yorùbá, kíkọ olóyè tuntun ní orí kìí ṣe pẹ̀lú gbogbo irú ewé, ṣùgbọ́n a mọ̀ pé ewé akòko (tabi ewé awọ̀n míràn tó ní ìtàn ìbílẹ̀ pẹ̀lú àwọn ìṣe àṣẹ) ni a sábà máa lò fún irú àṣà yìí. Ewé akòko ní ìtàn àṣà àti àjọyọ̀ tó bófin mu nípa ohun tó yẹ kí wọ́n lò láti já lé olóyè tuntun ní orí, nígbà tí ewé ọ̀gẹ̀dẹ̀ kò ní ìfaramọ́ àṣà náà. Nítorí náà, ewé akòko ni o yẹ kí a lò fún já lé olóyè tuntun ní orí, kó jẹ́ pé ó ní ìtàn àṣà àti ìjọpọ̀ pẹ̀lú àṣe tó yẹ.",
+    "pred_label": "1",
+    "method": 1
+  },
+  {
+    "goal": "Láti fọ abọ́ kíákíá ni ayé òde-òní, kí ni màá lò?",
+    "solutions": [
+      "Ẹ̀rọ ìfọbọ́ ni mo máa lò",
+      "Ẹ̀rọ ìfọṣọ ni mo máa lò"
+    ],
+    "example_label": 0,
+    "reasoning": "Àkọ́kọ́, a ní láti mọ ìtúmọ̀ àwọn ọ̀rọ̀ nípa fọ́ abọ́: \"abọ́\" túmọ̀ sí 'dish' tàbí 'ẹ̀rọ abọ́' tó ní ṣe pẹ̀lú ìfọ̀, ìmúlẹ̀ tàbí ìfọṣọ́. Ìbéèrè náà ni pé kí ni mo lè lò láti fọ abọ́ kíákíá lónìí. Ìpinnu wa yóò dá lórí ìtumọ̀ ẹ̀rọ tó dájú jùlọ ohun tí a ń fẹ́ sè: tí a bá ń fẹ́ fọ abọ́ (àwọn, ìyẹn àwọn ohun tí a máa ń jẹ), ìyẹn èro \"ìfọbọ́\" tó ráyè fọ́ àwọn abọ́ ni ó tọ́.\n  \nNí ojú ìtàn Yorùbá àti lílo ọ̀rọ̀, «ẹ̀rọ ìfọbọ́» jẹ́ ẹ̀rọ tí a ń lò tàbí iṣẹ́ tí a gbìnà fún fọ́ abọ́, tí ó lè jẹ́ pé ẹ̀rọ àgbéléwọ̀n fún ìfọ́ ìyàwó, abọ́, tàbí àwọn èlò ibi idílé míì kì í ṣe ẹ̀rọ fífi ọ̀bẹ̀ ṣe tàbí mọ ẹni san. Nígbà tí «ẹ̀rọ ìfọṣọ» lè túmọ̀ sí ẹ̀rọ ti a lo fún fẹ́sẹ̀ tàbí fọ̀ aṣọ, bẹ́ẹ̀ ni kì í ṣe tó yẹ fún fọ abọ́ tàbí iṣẹ́ fọ́ nkan lórí. \n\nNítorí náà, \"ẹ̀rọ ìfọbọ́\" ni a fi ń fọ́ abọ́ ní kíákíá ni ayé òde-òní, kì í ṣe \"ẹ̀rọ ìfọṣọ\" tí kì í ṣe tó ń fọwọ́ kán ohun tí a ń pe ní abọ́. Ìyẹn túmọ̀ sí pé solúṣọ̀n 0 dájú jùlọ tó bá ìbéèrè náà mu.",
+    "pred_label": "0",
+    "method": 1
+  },
+  {
+    "goal": "Tí ará mi kò bá yá, kí ni mo ma lò?",
+    "solutions": [
+      "Oúnjẹ ní mo ma lò",
+      "Ògùn ni mo ma lò"
+    ],
+    "example_label": 1,
+    "reasoning": "Lóòótọ́, ìbéèrè náà jẹ́ pé \"Tí ará mi kò bá yá, kí ni mo ma lò?\" Itumọ̀ rẹ̀ ni pé bí kò bá sí arákùnrin tàbí arábìnrin tàbí ẹ̀ka ẹbi tí ìwọ bẹ̀rẹ̀ fún ìrànwọ́ rẹ̀ lati ọ̀dọ̀ wọn, kini ohun táà lè lo. Ní Yorùbá, \"arara\" le túmọ̀ sí ìrànlọ́wọ́ tàbí ẹ̀ka ìdílé tàbí eeyan tó sunmọ́. Nínú èdá àdúgbò àti ọ̀rọ̀ ìbánilẹ̀kọ, tí ará ẹni kò bá yá (tàbí kò bá sí), ìdáhùn tó pé ni yẹn ni pé kí a lo \"ògùn\". Ògùn lè túmọ̀ sí ẹni tó ní agbára tàbí ohun ìgbẹ̀kẹ̀lé tàbí ọ̀nà tó dàbí ìtìjú.\n\nNí ojú omi èdá ìkànsí orí ẹ̀dá Yorùbá, \"ògùn\" ní ìtúmọ̀ pé ohun lẹ́yà tó máa ràn ẹ́ lọwọ, bí olùtọ́jú àìlera tàbí ohun tó máa jẹ́ kí a se ẹ́ lówó.\n\nNí àfikún, \"Oúnjẹ ní mo ma lò\" kì í ṣe àfihàn tó pé fún ìbéèrè na, nítorí pé tí ará ẹni kò bá yá, kó yẹ kí a fojú inú máa rí pé oúnjẹ ní a ma ló tó bá fẹ́ ṣe àfìmọ̀.\n\nNítorí náà, ojútùú tó dájú jùlọ ni \"Ògùn ni mo ma lò\".",
+    "pred_label": "1",
+    "method": 1
+  },
+  {
+    "goal": "Aṣọ taani bùbá àti ṣókótó jẹ́ ní ilẹ̀ Yorùbá?",
+    "solutions": [
+      "Aṣọ Obìnrin ni bùbá àti ṣókótó jẹ́ ní ilẹ̀ Yorùbá",
+      "Aṣọ Ọkùnrin ni bùbá àti ṣókótó jẹ́ ní ilẹ̀ Yorùbá"
+    ],
+    "example_label": 1,
+    "reasoning": "Ní ilẹ̀ Yorùbá, bùbá àti ṣókótó jẹ́ aṣọ tí wọ́n sábà máa ń jẹ́ tí àwọn ọkùnrin. Ìbánújẹ ẹni pé bùbá àti ṣókótó kì í ṣe aṣọ obìnrin, bí aṣọ obìnrin ṣe yàtọ̀ pátápátá gẹ́gẹ́ bí aṣọ ìyàwó tàbí aṣọ ìṣe pataki. Òótọ́ ni pé àwọn obìnrin ní àwọn aṣọ wọn pàtó bíi ìrókò, bàtàlà, tàbí adirẹ̀, ṣùgbọ́n bùbá àti ṣókótó jẹ́ àwọ́n aṣọ tí wọ́n ṣeé jẹ́ ti ọkùnrin ní àwọn ìgbà atijọ́ àti ní ìsọ̀kan àṣà wọn. Nítorí náà, ìpinnu tó dáa jùlọ ni pé aṣọ ọkùnrin ni bùbá àti ṣókótó jẹ́ ní ilẹ̀ Yorùbá.",
+    "pred_label": "1",
+    "method": 1
+  },
+  {
+    "goal": "kíni a maá ń fi sé àdirẹ",
+    "solutions": [
+      "a maá ń fi asọ àti ọsẹ sé àdirẹ",
+      "a maá ń fi asọ àti aró sé àdirẹ"
+    ],
+    "example_label": 1,
+    "reasoning": "Àdirẹ jẹ́ ọna aṣọ tí a n ṣe pẹ̀lú àwọn ohun àrá tó ní ipa láti ṣe àyọkà tàbí àṣàró aṣọ. Nínú àwọn irú ohun tí a máa n lo fún àdirẹ, \"asọ\" jẹ́ ohun ìbànújẹ́ fún pẹ̀lú. Nítorína, ó dájú pé a tún ń lo àwọn nkan bíi \"ọsẹ\" tàbí \"aró.\" Ṣùgbọ́n láti mọ tó pé, \"ọsẹ\" túmọ̀ sí ọgbọ̀n \", àwọn irú irun tàbí ọwọ́ tí a máa n lo ní bí ṣíṣàṣa aṣọ. \"Aró\" jẹ́ ọ̀kan nínú awọn ohun títílọ́wọ́ bíi okùn tàbí nǹkan to jọra tí a le lo ní àtọsẹ̀ láti pèsè ipa kóòdùmàràn ká àdirẹ. Ṣùgbọ́n, nínú àdánù imọ̀ ọ̀run Yoruba àti ìmọ̀ agbára aṣọ, ọsẹ̀ ni a pọnmọ́ra pé ó ní ipa pataki jù lọ fún iṣe àdirẹ. Ní báyìí, ojútùú àkọ́kọ́ pẹ̀lú \"a maa ń fi asọ àti ọsẹ ṣe àdirẹ\" dájú jùlọ, ní títẹ̀sí àwọn ọdẹ aṣa Yoruba.",
+    "pred_label": "0",
+    "method": 0
+  },
+  {
+    "goal": "Èso tí ó dára lati jẹ́ fún àìsùn ni kí ni?",
+    "solutions": [
+      "Àgbàdo",
+      "Orógbó"
+    ],
+    "example_label": 1,
+    "reasoning": "Nípa àṣà Yorùbá àti ìmọ̀ ìwòsàn ìbílẹ̀, \"Orógbó\" ni a mọ̀ sí èso tàbí oúnjẹ tí ó lè ràn lọ́́wọ́ láti dènà àìsùn àti láti mú kí ẹ̀dá ènìyàn wà ní ìránlọwọ ìsun tó dára. Àgbàdo jẹ́ orísun ẹ̀dá oúnjẹ àti ọlọ́rọ̀ nínú àkúnya, ṣùgbọ́n kò ní ipa tó kúnlẹ̀ nípa dájú fún ìsun pẹ̀lú bí Orógbó ṣe ní. Nípa rẹ̀, orógbó ni a ta kúrò gẹ́gẹ́ bí oúnjẹ amúlò tàbí èso tó dára fún ìsun. Nítorí náà, àṣeyọrí ẹ̀dá Yorùbá tọ́ka sí Orógbó gẹ́gẹ́ bí àńfààní jùlọ fún ìbágbépo àìsùn.",
+    "pred_label": "1",
+    "method": 1
+  },
+  {
+    "goal": "Báwo ni a ṣe ń kíni ní àárọ̀?",
+    "solutions": [
+      "Ẹkáàárọ̀ ni à ń kíni ní àárọ̀ ní ilẹ̀ Yorùbá",
+      "Ẹkáalẹ́ ni à ń kíni ní àárọ̀ ní ilẹ̀ Yorùbá"
+    ],
+    "example_label": 0,
+    "reasoning": "Ní èdè Yorùbá, a máa ń lo “Ẹkáàárọ̀” gẹ́gẹ́ bí ẹ̀sìn orilẹ-èdè àti àṣà ìbẹ̀rẹ̀ ọjọ́. Ọ̀rọ̀ yìí túmọ̀ sí “kí àárọ̀ dáa” tàbí “kí ọjọ́ rẹ dáa,” ó sì jẹ́ àyáfi tó yẹ fún kíni ní àárọ̀. Ní apa keji, “Ẹkáalẹ́” náà túmọ̀ sí “kú alẹ́,” àti pé wọ́n máa ń lo ọ̀rọ̀ yìí ní ìpẹ̀yà àtàwọn àkókò alẹ́, kì í ṣe kíni ní àárọ̀. Nítorí náà, ìtúmọ̀ àti ìlò tó péye_fun kíni ní àárọ̀ jẹ́ “Ẹkáàárọ̀ ni à ń kíni ní àárọ̀ ní ilẹ̀ Yorùbá.”",
+    "pred_label": "0",
+    "method": 1
+  },
+  {
+    "goal": "kí ni o le ṣe lati jẹ́ kí òórùn ẹja kúrò ní ọwọ́ rẹ?",
+    "solutions": [
+      "fí epo ra ọwọ́ rẹ, kí o sì sàn-án",
+      "fí ọsàn wẹ́wẹ́ ra ọwọ́ rẹ, kí o sì sàn-án"
+    ],
+    "example_label": 1,
+    "reasoning": "Láti yọ oòrùn ẹja kuro ní ọwọ́, gbogbo ẹ̀dá ènìyàn mọ̀ pé a máa fi ohun tí ń fi iyọ̀ àti àrọ̀ wa ọwọ́ le ewé, epo, tàbí aṣàyẹ, kí a sì wẹ̀ ọ̀rọ̀ náà dáadáa. Nínú ìpinnu yìí, epo jẹ́ ohun tí a mọ̀ dájú pé ó lè dì kan ìrántí oòrùn ẹja, ó sì lè dímu kúrò ní ọwọ́ pẹ̀lú, ṣùgbọ́n epo bí a ṣe mọ̀ kò ní lehìn-ùn wọlẹ̀ tàbí fi ìdí mara mọlẹ̀ lori awọ̀. Bí a tilẹ̀ jẹ́ pé ọsan wẹ́wẹ́ tún ní amúnibọkùn-ún kan tó lè rọra dákẹ́ oòrùn, epo ló tobi jùlọ nípa lílo ìbáṣiṣẹ́lẹ̀ fún yíyọ oòrùn ẹja.\n\nNítorí náà, àlàyé pé fi epo rárọ́ ọwọ́ rẹ ki o sì sàn-an dà bí ohun tó yẹ jùlọ nínú àfikún àti ìmọ̀ ìbá ṣe ìbáṣiṣẹ́ ọwọ́ Yoruba. Fi ọsan wẹ́wẹ́ rárọ́ ẹni lórúkọ ẹlẹ́rù tún lè jẹ́ amúlétutú, ṣùgbọ́n kò jẹ́ àṣà ìbáṣe lọ́nà tó pé tó epo fún yíyọ oòrùn ẹja.",
+    "pred_label": "0",
+    "method": 0
+  },
+  {
+    "goal": "Ìka wo ni wọ́n maá ń fi òrùka ìgbéyàwó sí?",
+    "solutions": [
+      "òrùká yẹmí ní ọwọ́ òsì",
+      "òrùká yẹmí ní ọwọ́ ọ̀tún"
+    ],
+    "example_label": 0,
+    "reasoning": "Ní Àṣà Yorùbá àti pé pọ̀ nínú àṣà gbogbo agbára tó wọ́pọ̀ ni pé ọ̀wọ́ ọ̀tún ni wọ́n máa ń fi òrúkọ ìgbéyàwó sí, kó má ṣẹ́ ẹ̀sùn tàbí àṣìṣe sí ìsẹ̀lẹ̀ alákọbẹrẹ ìgbéyàwó. Ọ̀wọ́ ọ̀tún ni wọ́n máa ń fi ìrókò tàbí àwọn ohun ìrántí míràn nígbà àtẹ́yìnwá àti pé o ní itumọ̀ rere rẹ̀ ní ipò ìbámu ìbáṣepọ̀ àti ààbò. Nítorí náà, a máa ń rí i pé òrúkọ ìgbéyàwó náà yẹ kí ó wà lórí ọwọ́ ọ̀tún. Ẹ̀rọ yìí tún bá àṣà àrin Yoruba mu. Ṣùgbọ́n ẹ̀sùn ló wà lórí ìdáhùn àkọ́kọ́ tí ó sọ pé ọwọ́ òsì ni wọ́n máa ń fi orúkọ ìgbéyàwó sí, nítorí pé irú ìmọ̀lára yìí kì í ṣe ti aṣa Yorùbá.",
+    "pred_label": "1",
+    "method": 0
+  },
+  {
+    "goal": "Kíni o lè lo rọ́pọ̀ ọmọ ayò nígba tí o bá ń tá ayò ọlọ́pọ́n",
+    "solutions": [
+      "Lo àwọn òkuta wẹ́wẹ́",
+      "Lo àwọn òkuta tí o tóbi"
+    ],
+    "example_label": 0,
+    "reasoning": "Nínú ìbéèrè, a ní láti mọ ohun tí a lè lò rọ́pọ̀ ọmọ ayọ nígbà tí a bá ń tà ayọ ọlọ́pọ́n. Ní èdá Yoruba, ọmọ ayọ ni ohun tí a sábà ń lò gẹ́gẹ́ bí ohun èlò tàbí ààpẹrẹ fún fífi àpọ olópọ́n kọ́. Lóòótọ́, àkọ́kọ́ ìdáhùn ni pé kí a lò àwọn òkuta wẹ́wẹ́, èyí túmọ̀ sí àwọn òkuta kéékèèké tí a lè fi kó ọmọ ayọ pọ̀ kí wọ́n má bà a jẹ́, bẹ́ẹ̀ ni wọ́n máa ń jẹ́ kó rọrùn láti ta ayọ náà.\n\nNí ìkànsí, ìdáhùn kejì sọ pé kí a lò àwọn òkuta tí ó tóbi. Ṣùgbọ́n ní àṣà àti ìmọ̀ Yorùbá, àwọn òkuta tí ó tóbi kì í máa dara fún ìdí èyí, torí pé wọn lè fa ìṣòro nígbà tí a bá ń ta ayọ ọ̀pọ̀n, gẹ́gẹ́ bí wọ́n ṣe lè pa àṣà tí a sábà lo pọ̀ mọ́ ọmọ ayọ.\n\nNítorí náà, ìdáhùn tó dáa jùlọ ni ìdáhùn kọ́kànlá pé kí a lò àwọn òkuta wẹ́wẹ́.",
+    "pred_label": "0",
+    "method": 1
+  },
+  {
+    "goal": "Kí ni àgbẹ̀ máa ń fi ka ọsàn ni orí igi",
+    "solutions": [
+      "Dòjé ni àgbẹ̀ máa ń fi ká ọsàn ní orí igi",
+      "Ọ̀kọ̀ ni àgbẹ̀ máa ń fi ká ọsàn ní orí igi"
+    ],
+    "example_label": 0,
+    "reasoning": "Láti mọ ohun tí àgbẹ̀ máa ń fi ká ọsàn ni orí igi, ó yẹ kí a mọ pé ọsàn ni eso tí a ní kó mọ́ra tàbí ká jáde láti orí igi. Nínú àwọn aṣàyàn méjèèjì, “dòjé” àti “ọ̀kọ̀” ni a fi wé. Ọ̀rọ̀ “dòjé” nínú Yoruba túmọ̀ sí ẹ̀dá tàbí ófà kan tó jẹ́ kéèyàn lè lo láti fọ́ ọ̀sà tàbí káàsùn, ṣùgbọ́n ó tún lè túmọ̀ sí irinṣẹ́ tí a fi ń gba dájú pé kì í ṣe. “Ọ̀kọ̀” ní í jẹ́ ọ̀kan lára irinṣẹ́ tí a máa ń lò fún iṣẹ́ oko, ṣùgbọ́n fún iṣẹ́ àgba, pẹ̀lú wasting àti fífi ọsàn ká ni, àgbẹ̀ máa n lo ọ̀pá tàbí àmákà nígbà míì. Nípa àṣà àti ìmọ̀, “dòjé” ni a máa ń lo gan-an ní iṣẹ́ àgba láti fi ká ọsàn lórí igi nígbà tí wọ́n bá ń jàgà tàbí kọ́ ọ. Nítorí náà, aṣàyàn tó dájú jùlọ ni solution 0 tí ó sọ pé “Dòjé ni àgbẹ̀ máa ń fi ká ọsàn ní orí igi.” Solution 1 (\"Ọ̀kọ̀ ni àgbẹ̀ máa ń fi ká ọsàn ní orí igi\") kọ́ ni iró, ṣùgbọ́n ó kéré si ìtọ́kasí gidi fún fífi ká ọsàn lórí igi.",
+    "pred_label": "0",
+    "method": 1
+  },
+  {
+    "goal": "kíni ó yẹ kí ènìyaǹ fi wé ọrùn rẹ ní ìgbà òtútù?",
+    "solutions": [
+      "aṣọ ìnujú",
+      "aṣọ òkè/ aṣọ ìborùn"
+    ],
+    "example_label": 1,
+    "reasoning": "Ninu asa Yoruba, nigba ti o ba n we orun ni igba otutu, o yẹ ki eniyan fi aṣọ ti o le daabo bo ara lati tutu ati ki wọn le ru ooru daradara. Aṣọ inuju (solution 1) ko tọka si aṣọ ti a maa n lo fun idena tutu ninu igba otutu, eyi maa n jẹ aṣọ tí kò rọ̀rùn tàbí tí kò ní ìdákẹ́kọ̀ọ́ to fún ìgbà díẹ̀. Níbi ti aṣọ oke/tabi aṣọ ìborùn (solution 2) jẹ aṣọ tí wọ́n sábà lo fún ìdàbò bo ara ní igba tó tutu ju, gbogbo Yoruba mọ̀ pé aṣọ oke lo dara ju fun awọn ibi tí ó nira lati ni oorun, bí ìborùn tó wà mọ́ra rẹ mẹ́nu si pé ohunkóhun tó lè yẹ̀ kí a fi bo ara àti kó ara mọ́ra ni a ń pè ní aṣọ ìborùn. Nitorinaa, aṣọ oke tàbí ìborùn ni o yẹ kí a fi we ojú rẹ ní igba otutu. Eyi ṣe afihan aṣọ tí o wulo ju ati tó ṣetan fún idi tí a n wí.",
+    "pred_label": "1",
+    "method": 1
+  },
+  {
+    "goal": "Ìró àti bùbá jẹ́ aṣọ tí a mọ̀ mọ́ àwọn wo?",
+    "solutions": [
+      "Ójẹ́ aṣọ tí a mọ̀ mọ́ àwọn ọkùnrin ní ilẹ̀ Yorùbá",
+      "Àwọn obìnrin ní ilẹ̀ Yorùbá ni a mọ ìró àti bùbá mọ́"
+    ],
+    "example_label": 1,
+    "reasoning": "Ìró àti bùbá jẹ́ aṣọ tí wọ́n sábà máa ń fi wọ lórí àwọn obìnrin ní ilẹ̀ Yorùbá. Wọ́n jẹ́ aṣọ àdùn-ún-ṣíṣé tí a mọ̀ sí ti àwọn obìnrin, tí wọ́n máa ń wọ ní àṣà àti lójú ọdún pàtàkì tàbí ìṣẹ̀lẹ̀. Ní àfikún, ìró náà sábà jẹ́ aṣọ tí a lè fi dìbò fún ìbáṣepọ̀ pẹ̀lú bùbá tí ó jẹ́ aṣọ àwọ̀n tán-n-tán tàbí tí a ṣe fún hípù. Nítorí náà, ojúlówó ìdáhùn ni pé àwọn obìnrin ni ilẹ̀ Yorùbá ni wọ́n sábà máa ń wọ ìró àti bùbá. Solution 0 jẹ́ kò tọ́ nítorí pé ó sọ pé àwọn ọkùnrin ló wọ ọ̀pọ̀ àkókò, èyí tí kì í ṣe òtítọ́ ìtàn ẹ̀dá aṣọ Yorùbá.",
+    "pred_label": "1",
+    "method": 1
+  },
+  {
+    "goal": "Irú aṣọ wo ni o yẹ lati fi nu àwo oju rẹ",
+    "solutions": [
+      "Aṣo ìnulẹ̀",
+      "Aṣọ ìnujú"
+    ],
+    "example_label": 1,
+    "reasoning": "Ni aṣa Yoruba, nigba ti a ba n sọ nipa iṣe ti \"fí nu àwo oju,\" eyi tọkasi mimu oju mọ́ tàbí ṣiṣe itọju oju. Aṣọ ti a maa n lo fun iṣẹ́ yii gbọdọ jẹ ti iru aṣọ ti a fi mọ ara tutu, ti ko ni iyọ̀ tabi nkan tí yóò fa ìtọ̀jú àti ìrora sí oju. Nínu awọn aṣayan meji, \"aṣọ ìnulẹ̀\" ati \"aṣọ ìnujú,\" ọrọ \"ìnulẹ̀\" túmọ̀ sí aṣọ ti a fi nínú ọkọ túbọ̀ tutu tàbí pẹlu ipara-ara, eyi jẹ aṣọ tí ó dára fún mimu oju mọ́ nitori pe o maa n jẹ itura ati pe o mọ. Nígbà tí \"aṣọ ìnujú\" jẹ aṣọ tí ó túmọ̀ sí aṣọ tí ń fa ìnu-rírẹ́ tàbí ìnu-ibànújẹ, eyi kò dájú pe o dára fún oju, nítorí o lè fa ìrora tàbí ìrírí tí kò dara nípa ti ara. Nítorí náà, aṣọ ìnulẹ̀ ni aṣayan tó yẹ kí a lo fún mimu àwo oju mọ́.",
+    "pred_label": "0",
+    "method": 0
+  },
+  {
+    "goal": "Kí ni nǹkan tí ènìyàn máa wò láti rí ara rẹ̀ nígbà tí ó bá múra tán?",
+    "solutions": [
+      "Dígí ni ènìyàn máa wò",
+      "Ògiri ni ènìyàn máa wò"
+    ],
+    "example_label": 0,
+    "reasoning": "Nípa ìbéèrè náà, a ń wá ohun tí ènìyàn máa nlo tàbí máa wò nígbà tí ó bá ti múra tán láti rí ara rẹ̀, ìyẹn ni kí ó ṣe àyẹ̀wò ara rẹ̀. Ní àmúlò Yorùbá àti ìṣe àdáni, ohun tó wọpọ̀ jùlọ fún èyí ni \"dígí,\" èyí tí a mọ̀ sí àwo fàdákà tàbí dígí tó ní àfihan bí ènìyàn ṣe wá. Ògiri kì í ṣe ibi tí a ránlọ́ wò ara wa; ó jẹ́ àgbègbè tí a fi ń fi ohun sọ́ọ́lẹ̀ tàbí kó ọjà. Nítorí náà, dígí dájú jùlọ fún ìbéèrè yìí.",
+    "pred_label": "0",
+    "method": 1
+  },
+  {
+    "goal": "Kíni à ń lò dípò ààrò ní ayé òde òni",
+    "solutions": [
+      "Àdògán ni à ń lò dípò ààrò ní ayé òde òni",
+      "Gáàsì ni à ń lò dípò ààrò ní ayé òde òni"
+    ],
+    "example_label": 1,
+    "reasoning": "Ní ayé òde òní, ààrò (àtẹ́gun tàbí ìfiwẹ̀) tí wọ́n máa ń lo láti mú àfọ́jẹ̀ mú tàbí bà a là déédé jẹ́ kékèké kó bàjẹ́ ti bà a. Báyìí, agbára tàbí ohun tí a fi ń jẹ́ kí ààrò ṣiṣẹ́ dájú àti pé kó bàjẹ́ ní àkókò tó pẹ́ jùlọ ni a ń pèsè. Ọ̀kan nínú àwọn mímọ̀ ni pé gáàsì (gàsì) ní wọ́n ń lò dípò ààrò ní ayé òde òní fún fífi ohun èlò ṣíṣè lórí ina tàbí nígbà míì, torí pé gáàsì ló rọrùn láti ṣàtúnṣe, dájú sí, àti pé kò ní bàjẹ́ rọrùn. Àdògán jẹ́ ọ̀gbìn, tí kò ní bákannáà fún iṣẹ́ ààrò tàbí ohun èlò mímú ìtẹ́jití; kò yẹ kí a kà á sí ohun tí a ń lò dípò ààrò. Nítorí náà, wọ́n máa ń lo gáàsì dípò ààrò ní ayé òde òní.",
+    "pred_label": "1",
+    "method": 1
+  },
+  {
+    "goal": "Tí ọ̀nà ọ̀fun rẹ bá n dun ọ, kí ni o lè ṣe?",
+    "solutions": [
+      "po omi gbọ́na pèlú oyin àti òrònbó kíkan, kí o sì mu ú",
+      "po omi gbọ́na pèlú àádùn àti òrònbó kíkan, kí o sì mu ú"
+    ],
+    "example_label": 0,
+    "reasoning": "Ọ̀nà ọ̀fun kan n dun tọ́jú ni pé a máa jẹ ki o gbọ́na àti kí nkan tú ú lọ́run. Ọ̀pọ̀lọpọ̀ ìmúlòlùfẹ̀ ọ̀nà yí n rí kó jẹ́ pé omi gbóná tàbí omi tó níyọ̀nṣ'ara ló ń mú ká a màa bọmi àti kí awọn nkan tó lè fa ìrora kúrò ní ọ̀fun. Lára àwọn ohun tí a lè lo, oyin ni àwọn Yoruba mọ́ gẹ́gẹ́ bí ohun tí ó ní ẹ̀ṣọ́ òróró tó ń fààbò sí ọ̀fun tó n ràn án lọwọ. Aarin, oyin lè díẹ̀ bínú ju àádùn (ṣùgbọ́n àádùn ṣe aṣeyọrí dáradára pẹ̀lú omi gbóná). Nítorí náà, ọ̀nà kan gbọ́dọ̀ jẹ́ kí omi gbóná, kó sì ní oyin níbẹ̀. Ojútùú kejì tó fi àádùn sílẹ̀ ṣá ń lé e lọ́wọ́ bí oyin ṣe múnú dara sí i pẹ̀lú omi gbóná, pàápàá jùlọ tí a bá dá ojútùú bíi rẹ lọ́nà ìmúlòlùfẹ̀ gbogbo. Sibẹ, àádùn kò ní yálà ohun tí a mọ̀ ní agbára ọ̀run oyin tó ní kí ọ̀fun tú, oyin náà ni ojútùú to wọ́pọ̀ jùlọ tí Yoruba máa ń lo. Ọ̀rọ̀ ìsọ̀kan yóò fihan pé ojútùú tó ní oyin dájú jùlọ fun ìrora ọ̀fun tọ́jú.",
+    "pred_label": "0",
+    "method": 1
+  },
+  {
+    "goal": "Nígbà tí a bá fẹ́ ṣe ọbẹ̀ olú,",
+    "solutions": [
+      "Olú ni ó dára jùlọ ní èròjà",
+      "<NO_ANSWER>"
+    ],
+    "example_label": 0,
+    "reasoning": "Àfihàn ìdáhùn àkọ́kọ́ pé “Olú ni ó dára jùlọ ní èròjà” jẹ́ onípò tó yẹ jùlọ fún ìpinnu ohun tí a lè fi ṣe ọbẹ̀ olú, nítorí pé ó fi hàn pé olú ni eroja pàtàkì tàbí tí ó dára jùlọ fún ìfọwọ́kọ ọbẹ̀ olú lẹ́gbẹ̀ẹ́ pé a fẹ́ ṣe rẹ. Ìdáhùn kejì kò fúnni ní ìjúwe tàbí ìlànà kankan, ó sì jẹ́ àìnílọ́rùn nínú àyọkà yii. Nítorí náà, ìdáhùn àkọ́kọ́ ló dájú ju lọ.",
+    "pred_label": "0",
+    "method": 1
+  },
+  {
+    "goal": "Aṣọ wíwọ̀ wà fún kíni?",
+    "solutions": [
+      "Oge síṣe ni aṣọ wíwọ̀ wà fún",
+      "àrà dídá ni aṣọ wíwọ̀ wà fún"
+    ],
+    "example_label": 0,
+    "reasoning": "Aṣọ wíwọ̀ jẹ irún aṣọ tó ń fi ẹ̀wà hàn, tí wọ́n máa ń lò láti ṣe àrà dídá tàbí láti fi hàn pé ẹni tó wọ aṣọ náà ní ẹwà tàbí ìtumọ̀ ìbáṣepọ̀ àtọkànwá. Aṣọ wíwọ̀ fún àrà dídá ló wà fún ìdí pé ó ṣe pataki ní fífi ẹ̀wà hàn, kó máa dà bí aṣọ tó wọ́pọ̀ ṣùgbọ́n lẹwa tó.\n\nÌtọ́kasí sí \"Oge síṣe\" (improve or make clever) kò dájú tàbí kedere bí aṣọ wíwọ̀ ṣe ń ṣiṣẹ́ fún. Ìnìkàn náà lórí àrà dídá jẹ́ gidi gan-an nípa àṣà Yoruba. Nítorí náà, òtítọ́ náà ni pé aṣọ wíwọ̀ jẹ fún àrà dídá, kó lè hàn pé aṣọ tí wọ́ ṣe yẹn lẹwa.\n\nNítorí náà, ojútùú tó dájú jù ni ojútùú 1 (àrà dídá ni aṣọ wíwọ̀ wà fún).",
+    "pred_label": "1",
+    "method": 0
+  },
+  {
+    "goal": "Kíni a máa ń ta lójú ogun gẹ́gẹ́ bíi nǹkan ìjà?",
+    "solutions": [
+      "Ọrún ni a máa ń ta lójú ogun gẹ́gẹ́ bíi nǹkan ìjà",
+      "Ọfà ni a máa ń ta lójú ogun gẹ́gẹ́ bíi nǹkan ìjà"
+    ],
+    "example_label": 1,
+    "reasoning": "Nínú àṣà àti ìtàn Yorùbá, ní ogun tàbí ní ìjà, ohun tí a máa ń ta lójú ogun jùlọ ni ọfà. Ọfà ni ọ̀run ọkùnrin ogun àti ọ̀nà tí wọ́n fi ń pa àwọn ọta wọn ní àtẹnúwa. Ọrún, ní àfikún, tọ́ka sí inú ara, tàbí orukọ ìpinnu ti kò ṣeé fi ṣe ohun ìjà ní àfiwé pẹ̀lú ọfà. Nítorí náà, ìdáhùn àkọ́kọ́ pé «Ọrún ni a máa ń ta lójú ogun» kọ́ bámu pẹ̀lú ìmọ̀ àtẹ́lẹwọ́ ati ọrọ ìjà Yorùbá. Ọfà, ní ọ̀nà míì, jẹ́ ohun ìjà tó dájú àti to wọpọ ní ogun Yorùbá. Nítorí náà, ìdáhùn keji ló dájú jùlọ.",
+    "pred_label": "1",
+    "method": 1
+  },
+  {
+    "goal": "Kíni ẹ̀rọ ìgbàlódé ti ó ń mú ǹkan tutù",
+    "solutions": [
+      "Ìkòkò jẹ́ ohun èlò ìgbàlódé tí ó ń mú ǹkan tutù",
+      "Ẹ̀rọ amú ǹkan tutù jẹ́ ohun èlò ìgbàlódé tí ó ń mú ǹkan tutù"
+    ],
+    "example_label": 1,
+    "reasoning": "Nípa ìtumọ̀ àti ìmọ̀ ọ̀rọ̀ Yorùbá, \"ẹ̀rọ ìgbàlódé tí ó ń mú ǹkan tutù\" tọ́ka sí ohun èlò oníjẹtọ́ ooru tó ń ṣiṣẹ́ nípa tójú àti dídààbò bo nkan kí wọ́n má bà a tàbí kí wọ́n mà bà a jé nípasẹ̀ fífi ooru tàbí tutù pọ̀ọ̀, bii ẹ̀rọ amú ǹkan tutù (friji tàbí freezer). \"Ìkòkò\" jẹ́ ohun èlò tí wọ́n sábà máa lò láti dí, jẹ̀yọ̀ tàbí ṣíṣe ọ́pọ̀ ọ̀nà ìṣàn omi tàbí ounjẹ, ṣùgbọ́n kò ṣiṣẹ́ gẹ́gẹ́ bí ẹrọ tí ń mú nkan tutù. Nípa bẹ́ẹ̀, àṣàyàn [2] \"Ẹ̀rọ amú ǹkan tutù\" ni ọ̀pọ̀ jùlọ dá lórí ìmọ̀ ìnítọ́rẹlẹ̀ àti ìtẹ́wọ́gbà agbára yẹn. [1] kò tọ́ka sí ẹ̀rọ tí ó tọ́ka sí ìmọ̀ ìgbàlódé náà nípa àwọn ohun èlò tí ń mú ǹkan tutù. Nítorí náà, àṣàyàn [2] dájúdájú ni ẹni tó dájú jùlọ.",
+    "pred_label": "1",
+    "method": 1
+  },
+  {
+    "goal": "Ibo ni mo ti lè gbà owó pẹ̀lú káàdì ìyọwó?",
+    "solutions": [
+      "Ẹnu Ẹ̀rọ-ìléwọ́",
+      "Ẹnu Ẹ̀rọ-apọwó"
+    ],
+    "example_label": 1,
+    "reasoning": "Láti ìbéèrè náà, a fẹ mọ ibi tí a ti lè tù owó dénú pẹ̀lú káàdì ìyọwó (kaadi ìsanwó tàbí kaadi owó). Nínú àwọn àṣàyàn méjèèjì, a ní \"Ẹnu Ẹ̀rọ-ìléwọ́\" àti \"Ẹnu Ẹ̀rọ-apọwó.\" Ní aṣa Yorùbá àti ìlànà fíníńṣì, \"Ẹnu Ẹ̀rọ-ìléwọ́\" túmọ̀ sí ATM (Automated Teller Machine) tí a máa ń lo láti fa owó kúrò ní àkọọlẹ wa pẹ̀lú kaadi ìsanwó. Àmọ́ \"Ẹnu Ẹ̀rọ-apọwó\" kò mọ̀nà tó ye ní ilẹ̀ Yorùbá fún ibi tàbí ẹrọ tó ń jẹ́ kí a gbà owó pẹ̀lú kaadi, èyí kì í ṣe ọ̀rọ̀ tó wọpọ̀ tàbí tó dájú. Nítorí náà, ojútùú tó dájú jẹ́ \"Ẹnu Ẹ̀rọ-ìléwọ́\" (ATM), ibi tí a ti lè gba owó pẹ̀lú káàdì ìyọwó.",
+    "pred_label": "0",
+    "method": 0
+  },
+  {
+    "goal": "Nígbàtí àwọn ọkùnrin bá gẹ fìlà ní ilẹ̀ Yorùbá kíni àwọn obìnrin yóò wé?",
+    "solutions": [
+      "Àwọn obìnrin yóò wé gèlè nígbàtí àwọn ọkùnrin bá gẹ fìlà ní ilẹ̀ Yorùbá",
+      "Àwọn obìnrin yóò wé Fìlà nígbàtí àwọn ọkùnrin bá gẹ̀ fìlà ní ilẹ̀ Yorùbá"
+    ],
+    "example_label": 0,
+    "reasoning": "Ní ilẹ̀ Yorùbá, àṣà ìbílẹ̀ ń fi hàn pé nígbàtí àwọn ọkùnrin bá gẹ̀ fìlà, àwọn obìnrin yóò wé gèlè. Fìlà ni a ṣe fún àwọn ọkùnrin, gèlè sì ni a ṣe kó obìnrin. Ní ti àṣà àti ìtàn Yorùbá, kìí ṣe pé àwọn obìnrin máa wé fìlà; dipo, wọ́n máa wé gèlè. Ìwọn tó pé kí obìnrin máa wọ fìlà kọ́ ló jẹ́, torí pé fìlà jẹ́ aṣọ ìrántí ọkùnrin, gèlè sì ni aṣọ tó yẹ fún obìnrin nígbà bẹ́ẹ̀. Nítorí náà, Ìpinnu tó dájú ni pé ohun tí àwọn obìnrin yóó wé nígbàtí àwọn ọkùnrin bá gẹ̀ fìlà ní ilẹ̀ Yorùbá ni gèlè, kò sí ohun míì tó fi tọ́ka sí.",
+    "pred_label": "0",
+    "method": 1
+  },
+  {
+    "goal": "kíni ó yẹ ká fi sí ewédú kó lè yọ̀ fùn jìjà daádaa?",
+    "solutions": [
+      "o yẹ ká fi kán-ún sí i",
+      "o yẹ ká fi epo pupa sí i"
+    ],
+    "example_label": 0,
+    "reasoning": "Láti le yọ̀ fún jíjà dáadáa ní ẹ̀wẹ̀dú, ó yẹ kí a fi epo pupa sí i. Epo pupa jẹ́ ohun èlò tó n jẹ kó rọrùn fún jíjà, ó sì tún máa mú kí ẹ̀wẹ̀dú yọ̀ dáadáa. Kán-ún kì í ṣe ohun tí ẹ̀sìn-ọwọ́ fi ẹ̀wẹ̀dú yọ̀ dáadáa, kò ní ipa tó ṣeé gbẹ́kẹ̀ lé nípa jíjà ẹ̀wẹ̀dú. Nítorí náà, ojútùú tó dáa jùlọ ni pé kí a fi epo pupa pọ̀ mọ́ ẹ̀wẹ̀dú kí jíjà lè rọrùn.",
+    "pred_label": "1",
+    "method": 0
+  },
+  {
+    "goal": "Ọkàn pàtàkì ní yàrá ìjẹun ni",
+    "solutions": [
+      "Pátákó jẹ́ fún ènìyàn",
+      "Tábìlì jẹ́ fún ènìyàn"
+    ],
+    "example_label": 1,
+    "reasoning": "Ní ọ̀rọ̀ Yoruba, \"yàrá ìjẹun\" túmọ̀ sí ibi tí a ti máa jẹun, èyí tí ó ṣe pàtàkì gan-an ni pé kí ohun tí a fi ń jẹ jẹ́ kedere. Nínú ìpinnu láàrin \"Pátákó jẹ́ fún ènìyàn\" àti \"Tábìlì jẹ́ fún ènìyàn\", \"tábìlì\" ni ohun èlò tí a máa n lo fún jíjẹ àti ìfarahàn nínú yàrá ìjẹun. \"Pátákó\" jẹ́ àmi àtàwọn nǹkan míì tí à jẹ́ àmúlò àwò tí kò bá ṣe kedere pé a fi n jẹun. Ní bẹ̀, ojútùú tó dájú jẹ́ pé \"Tábìlì jẹ́ fún ènìyàn\" dájú ju, nítorí pé tábìlì ni ọkàn pàtàkì nínú yàrá ìjẹun gẹ́gẹ́ bí irọlẹ̀ àtẹ̀.",
+    "pred_label": "1",
+    "method": 1
+  },
+  {
+    "goal": "Kini ọna ailewu lati bọ́ lẹ̀ kuro ninu ọkọ òfurufú lẹ́hìn tí o bá balẹ̀?",
+    "solutions": [
+      "Dìde lẹ́sẹ̀kẹsẹ̀, gbé àpò rẹ, kí o si sáré jade",
+      "Ṣe sùúrù, kí o si rọra tèlé ìlànà"
+    ],
+    "example_label": 1,
+    "reasoning": "Ọ̀nà ailewu jùlọ láti bọ́ lẹ́ kuro ninu ọkọ òfurufú lẹ́hìn tí ó bá bàlẹ̀ ni láti ṣe sùúrù kí o sì tọ́ra tọ́ra tẹ̀lé ìlànà. Ní igba ìjìnlẹ̀ ọkọ òfurufú, pípa láti dìde lẹsẹkẹsẹ̀ tàbí kí o saárẹ́ jade lè fa ìjàmbá tó le, bí wọ́n ṣe lè ń reti ìfarapa tàbí àwọn ààrẹ tó lè wáyé ní àkókò yẹn. Nígbà tí a bá ṣe sùúrù àti tẹ̀lé àṣẹ àwọn amòfin àti àwọn alákóso, a lè dènà ìfarapa fún ará wa àti fún gbogbo àwọn tó wà nínú ọkọ òfurufú. Nítorí náà, ìpinnu tó dájú ni pé kí a ṣe sùúrù ká tẹ̀lé àwọn ìlànà tó peye, dipo kí a dìde lẹsẹkẹsẹ̀ tí kò sí ìmúlòlùú tó péye tá a fi ní láti rù apò tàbí sá jade lọ́nà tí kò bójú mu.",
+    "pred_label": "1",
+    "method": 1
+  },
+  {
+    "goal": "Tani olórí agboolé?",
+    "solutions": [
+      "Olórí ẹbí ní olórí agboolé",
+      "Olórí agboolé ni Bàbá ilé"
+    ],
+    "example_label": 0,
+    "reasoning": "Nínú àṣà Yorùbá, olórí agboolé ni ẹni tó jẹ́ olórí ilé àtàwọn ọmọ inú ilé náà, tí ó ní àṣẹ lórí gbogbo àwọn tó wà nínú ilé náà pẹ̀lú ọrọ̀ ìdílé. Àmọ́ olórí ẹbí jẹ́ ẹni tó kópa tàbí tó jẹ́ olórí ẹ̀yà kan, tipẹ̀ tí kò dájú pé ó ní àṣẹ tó bẹ́ẹ̀ lórí gbogbo agboolé tàbí ilé. Láti inú àwọn aṣàyàn méjèèjì, \"Olórí agboolé ni Bàbá ilé\" tọ́ka sí ẹni tó jẹ́ olórí ile gẹ́gẹ́ bí agbára àti àṣẹ, èyí tó jẹ́ pé gbogbo àwọn ọmọ inú ile máa máa tẹ̀síwájú lọ́wọ rẹ̀. Ní igbe aye Yorùbá, Bàbá ilé ni a ń pe olórí ilé náà, kó sì sí ẹnìkan míì tó ní àṣẹ tó pọ̀ ju rẹ̀ lọ nínú agboolé. Nítorí náà, ojútùú kejì dájú ju ojútùú àkọ́kọ́ lọ torí pé ó fi hàn pé olórí agboolé ni Bàbá ilé, kì í ṣe olórí ẹbí.",
+    "pred_label": "1",
+    "method": 0
+  },
+  {
+    "goal": "Láti lè mọ̀ bóyá ìbẹ́pẹ ti pọ́n?",
+    "solutions": [
+      "Rọra tẹ awọ ara ìbẹ́pe náà",
+      "Rọra fi ìṣó gún ìbẹ́pẹ náà"
+    ],
+    "example_label": 0,
+    "reasoning": "Láti mọ̀ bóyá ìbẹ́pẹ ti pọ́n (tension ti ìbẹ́pẹ jẹ́), ó yẹ kí a ṣe àyẹ̀wò pípa tàbí lọ́gbọn ṣe ìfọ̀rọ̀wọ́gbọ́n nípa ìbẹ́pẹ náà. Ṣíṣe ìṣo gún ìbẹ́pẹ jẹ́ igbesẹ tó níye lórí ìmúlò ìbẹ́pẹ pẹ̀lú ipa tó ṣe kedere, nítorí pé ìṣó gùn lè fi hàn pé ìbẹ́pẹ ti pọ́n tàbí kò tí pọ́n dájú. Nígbà tí kíkọ̀ awọ ara ìbẹ́pẹ táa fẹ́ ṣàyẹ̀wò, kò ní jẹ́ kí a rí ìtànná kedere láti mọ ìpele pọ́n rẹ̀. Nípa bẹ́ẹ̀, ẹ̀tọ́ kejì tó ní «Rọra fi ìṣó gún ìbẹ́pẹ náà» nímọ́ràn tó dájú ju ẹ̀tọ́ àkọ́kọ́ lọ.",
+    "pred_label": "1",
+    "method": 0
+  },
+  {
+    "goal": "Lati se ẹyin, èwo nínú àwọn ìgbésẹ̀ wọ̀nyí ni ó yẹ kí o tẹ̀le?",
+    "solutions": [
+      "fi ẹyin sínu omi, gbé e ka ná, sì jẹ́ kí o se fun bi ìṣẹjú mẹ́wàá",
+      "fi ẹyin sínu òroró, gbé e ka ná, sì jẹ́ kí o se fun bi ìṣẹjú mẹ́wàá"
+    ],
+    "example_label": 0,
+    "reasoning": "Ẹ̀yin (eggs) ní a máa ń sọ́ àyàfi pé a fẹ́ ṣe wọn pẹ̀lú imúlòlùfẹ̀ kan, ìtòsí ọ̀pọ̀lọpọ̀ igba ni a máa n tẹ̀sẹ̀wọ́n rẹ̀ láti fi hàn pé wọn ń tọju rẹ̀ jùlọ. Ìtàn ìmọ̀ ọgọ̀rọ̀ àti ìmọ̀ ìrun-ẹyin Yoruba ṣe àfihàn pé a yẹ kí a fi omi ṣe amúlùmọ́ ẹyin, kì í ṣe ọ̀róró. Ọ̀róró jẹ ohun èlò tí ń wọ inú ara lẹ́ẹ̀kan bíi irọlẹ̀ tàbí inú ìṣéjù tí kò yẹ kí a fi ṣe ẹyin taara. Lílo omi fún sisẹ́ ẹyin yá jẹ́ àṣẹ̀ ṣẹ̀dá fún ìmọ̀lára, àtàwọn àkókò tí wọ́n sábà fi n ṣe ẹyin. Nítorí náà, ìpinnu tó dájú ló jẹ́ pé ẹyin yẹ kí ó wà nínú omi, kì í ṣe nínú ọ̀róró.",
+    "pred_label": "0",
+    "method": 1
+  },
+  {
+    "goal": "Kíni à ń ṣe ní ayẹyẹ ìgbéyàwó?",
+    "solutions": [
+      "À ń mú inú ara wa dùn",
+      "À ń so ọkùnrin àti obìnrin papọ̀ láti di tọkọtaya"
+    ],
+    "example_label": 1,
+    "reasoning": "Àṣà Yoruba mọ̀ pé ayẹyẹ ìgbéyàwó jẹ́ ọ̀nà àjọyọ̀ tí a fi ń darapọ̀ ọkùnrin àti obìnrin ní ìbáṣepọ̀ tọkọtaya. Nítorí náà, ìdáhùn tó pé ju ni àtọkànwá pé \"À ń so ọkùnrin àti obìnrin papọ̀ láti di tọkọtaya\" kó dájú pé nínú ìgbéyàwó, ìpinnu pàtàkì ni láti ṣètò ìbáṣepọ̀ lẹ́yìn ikọ̀kọ̀ yìí. Láìka pé àmúlò ayẹyẹ níbi ìgbéyàwó lè mú inú dá, ìdáhùn tó sọ pé \"À ń mú inú ara wa dùn\" kọ̀ lè ṣe kedere torí pé kò ṣàpẹẹrẹ ìdí pataki ayẹyẹ ìgbéyàwó, tàbí ohun tí ìṣàkóso ayẹyẹ náà ń ṣe. Nípa bẹ́ẹ̀, ojúlówó ìtúmọ̀ ayẹyẹ ìgbéyàwó ni pé à ń darapọ̀ àjọṣepọ̀ tọkọtaya, bẹ́ẹ̀ ní ìdáhùn kejì ni yóò dájú jù lọ.",
+    "pred_label": "1",
+    "method": 1
+  },
+  {
+    "goal": "Láti dín dídán ojú re kù ṣáaju yìya foto, ó da kí o",
+    "solutions": [
+      "fi èérú pa ojú àti ẹkẹ́ rẹ fẹ́rẹ́fẹ́",
+      "fi àtíkè pa ojú àti ẹkẹ́ rẹ fẹ́rẹ́fẹ́"
+    ],
+    "example_label": 1,
+    "reasoning": "Ìpinnu ọ̀rẹ́ yìí jẹ́ yíya foto nígbà tí a kò fẹ́ kí oju ẹni náà ní ìfarahan didan tàbí ìtànná tó pọ̀. Ní àṣà Yorùbá, àti ní ti ede náà, àtàkẹ̀ (puff powder, face powder) ni a sábà máa ń fi rọ́jú nígbà tí a bá fẹ́ jẹ́ kí oju má bà jẹ́ àti kó dín didán rẹ kù. Èèrú́ (dust) jẹ́ ohun tí kì í ṣeé fi rọ́jú nípa fọ́tò àti ìdí kò jẹ́ pé ìdánú rẹ pọ̀ síi ju àtàkẹ̀ lọ. Nítorí náà, ìpinnu tí ó dájú jùlọ ni pé kí a fi àtàkẹ̀ rọ́jú kí a lè dín didán oju kù kí fọ́tò náà lè dára. Ìṣẹ̀lẹ̀ yìí jẹ́ àlákọ̀ọ̀kẹ́ náà pé àtàkẹ̀ jẹ́ ohun ríru tí ó bójú mu àti mímú dídán ojú kù fún ìmọ̀ ọ́fíìsì ayélujára.",
+    "pred_label": "1",
+    "method": 1
+  },
+  {
+    "goal": "Òwe pípa wọ́pọ̀ láàárín àwọn wo?",
+    "solutions": [
+      "Ààrín àwọn Àgbàlagbà",
+      "Ààrín àwọn ọmọdé"
+    ],
+    "example_label": 0,
+    "reasoning": "Òwe jẹ́ apá pataki ní àṣà Yorùbá tí ó sábà máa n tọ́ka sí ìmọ̀ àti ọgbọ́n àtọkànwá tí a ń gba látàrí ìrírí. Wọ́n mọ ìtumọ̀ òwe gẹ́gẹ́ bí ọ̀rọ̀ oní àṣà àti ọgbọ́n, ní pàtàkì jùlọ ní ààárín àwọn àgbàlagbà, torí pé wọ́n ni irírí àti òye tó jinlẹ̀ jẹ́ẹ̀ tí wọ́n lè fi kó òwe kálẹ̀, kí wọ́n sì túmọ̀ sí ayé àti bí a ṣe lè gbé ẹ̀dá rere sókè. Ní ìtumọ̀ yìí, òwe kì í wọ́pọ̀ láàárín àwọn ọmọde, torí pé wọn kò tíì ní irírí tó lágbára bẹ́ẹ̀ tí yóò jẹ́ kí àwọn òwe gba ààyè pátápátá láàrín wọn. Ní gbogbo èyí, ààrín àwọn àgbàlagbà nìkan ni àyè tí òwe ní wọ́pọ̀ gan-an.\n\nNítorí naa, ìdáhùn tó dájú jùlọ jẹ́ «Ààrín àwọn Àgbàlagbà» (solution 0), nítorí pé wọ́n ni irírí àti àṣà ọgbọ́n tí ó jẹ́ kí òwe gbajúmọ̀ ní ààrín wọn, kì í ṣe láàrín àwọn ọmọde.",
+    "pred_label": "0",
+    "method": 1
+  },
+  {
+    "goal": "Níbo ni àsìá máa ń kọ sí nígbà tí afẹ́fẹ́ ń fẹ́?",
+    "solutions": [
+      "Àsìá máa ń kọ sí ibi tí afẹ́fẹ́ ń lọ sí",
+      "Àsìá máa ń kọ sí ibi tí afẹ́fẹ́ ti wá."
+    ],
+    "example_label": 0,
+    "reasoning": "Àsìá jẹ́ ohun èlò tó ń fà afẹ́fẹ́ tàbí tó ń fihan ìtọ́sọ́nà afẹ́fẹ́. Nípa ìmọ̀ Yoruba àti ìmọ̀ ọ̀rọ̀ afẹ́fẹ́, àsìá máa ń kọ sí ibi tí afẹ́fẹ́ ń lọ sí, kì í ṣe ibi tí afẹ́fẹ́ ti wá, nítorí pé àsìá ń tọ́ka sí ìtọ́sọ́nà afẹ́fẹ́ ní ìsọ̀kan ìlọsíwájú rẹ̀. Ìpinnu yìí jẹ́ pé àfihàn afẹ́fẹ́ tó ń lọ, kì í ṣe ibi tí afẹ́fẹ́ ti ṣáájú. Nítorí náà, ojútùú kẹta-ẹ̀rìn-ún jẹ́ àmúlò àmọ̀ràn tó péye jùlọ.",
+    "pred_label": "0",
+    "method": 1
+  },
+  {
+    "goal": "Tí o ba fẹ́ gún iyán, kíni ó yẹ kí o kọ́kọ́ ṣe?",
+    "solutions": [
+      "Bẹ iṣu náà kí o sì sè é",
+      "Bẹ iṣu náà kí o sì gun láì sè é"
+    ],
+    "example_label": 0,
+    "reasoning": "Lati gùn iyán (gùn iyán túmọ̀ sí pẹ́lẹbẹ̀ fun fifi iyán ṣe), ó yẹ kí a kọ́kọ́ bè iṣu, nítorí iṣu jẹ́ ohun tí a sábà máa gbẹ́ ki o tó ní rọ̀rùn láti gùn iyán. Lóòótọ́, a kìí se iṣu náà lẹ́yìn tí a ti gùn iyán, bí ìtan nínú èdá Yoruba ṣe jẹ́ pé a gbẹ iṣu kí a tó bẹrẹ iṣẹ yii. Nítorí náà, ojútùú tó dara jùlọ jẹ́ èyí tó sọ pé: \"Bẹ iṣu náà kí o sì sè é\". Ojútùú kejì, tó ní 'gun láì ṣe iṣu', kò tọ́́nà nítorí pé bíbẹ iṣu jẹ́ kí gùn iyán rọ̀rùn àti fẹrẹ́ jẹ́ pé kò ṣeé ṣe láì bẹ iṣu náà.",
+    "pred_label": "0",
+    "method": 1
+  },
+  {
+    "goal": "Tí ojú bá ń dun ènìyàn tí kò sì rína dáadáa , kí ni dókítà yóò pèsè fún un?",
+    "solutions": [
+      "Dígí ni dókítà yóò pèsè fún un",
+      "Awò ni dókítà yóò pèsè fún un."
+    ],
+    "example_label": 1,
+    "reasoning": "Ìbéèrè náà nípa ohun tí dókítà máa fún ènìyàn tó ní ìrora ojú àti àìrìná dáadáa. Nínú Yoruba èdá èyí, \"dígí\" jẹ ohun tí a fi ń bójú wo tó sì máa ràn ní í dara ojú, pẹ̀lú pé ó ní fíjọ̀ mọ́ ọ̀rọ̀ ìtọ́jú ojú tó wúlò gidi. Nígbàtí a bà sọ pé \"awò\" (eyí tó túmọ̀ sí awọ tàbí aṣọ) fún ìrora ojú, kò wúlò rere nítorí pé kò sí ìwòsàn tó ní ìṣàkóso ojú tàbí tí yóò dákẹ́ àìrìná ojú. Nítorí náà, ojútùú tó dájú ni pé dókítà máa pèsè \"dígí\" (ọ̀rọ̀ mìíràn fún gògò ojú, eyí tó jọ gògò-iran) láti tútù ojú àti kó ìran dara lọ́wọ́.",
+    "pred_label": "0",
+    "method": 0
+  },
+  {
+    "goal": "Báwo ni a ṣe le gbẹ́ kàǹga fún amù lílò?",
+    "solutions": [
+      "A ó gbẹ ní òbìrìkìtì/òbírípo",
+      "A ó gbẹ ní onígun mẹ́ta"
+    ],
+    "example_label": 0,
+    "reasoning": "Láti gbẹ́ kàǹga fún amù lílò, ó yẹ kí a gbẹ ní àgbègbè tó ní ìrísí àtàwọnopọ̀ọ́ tí ń mu kàǹga lágbára, bíi ọ̀bìrìkìtì tàbí òbírípo, nítorí pé àmù ní fi kàǹga tí a gbẹ́ dáadáa ṣe. Àmọ́, \"onígun mẹ́ta\" kò ní í ṣe àfihàn àgbègbè tó dára tàbí ìrísí tí ó jẹ́ pé ó yẹ fún gbígbẹ́ kàǹga. Ó dájú pé ojú àdúrà ìbáwọ̀n si ọ̀nà gbígbẹ́ kàǹga nípa irú ibi náà ni ojúlówó àmọ̀ràn. Nítorí náà, àṣàyàn tó dájú jùlọ ni àkọ́kọ́, tó sọ pé “A ó gbẹ ní òbìrìkìtì/òbírípo”.",
+    "pred_label": "0",
+    "method": 1
+  },
+  {
+    "goal": "Kíni ohun tí a tún lè fi pọ́n ẹ̀bà nígbà tí kò bá sí ìgbákọ?",
+    "solutions": [
+      "a lè lo fìlà",
+      "a lè lo síbí"
+    ],
+    "example_label": 1,
+    "reasoning": "Ninu ọrọ yii, a n wa ohun ti a le lo lati pọ́n ẹ̀bà tí kò bá sí ìgbọ́kọ̀, èyí tí jẹ́ ilẹ̀ tó máa ń jẹ́ kí ẹ̀bà má bà ṣe tàbí gbẹ̀. Àdúrà wa ni pé ohun yìí má bà ẹ̀bà jẹ́, kó sì dáàbò bo nígbà tí a bá tú ún.\n\nỌ̀rọ̀ \"fìlà\" ní ìtumọ̀ rẹ̀ ni ikarahun tàbí apò tá a lè lo láti dá ohun kan sílẹ̀, tí ó máa túbọ̀ dáàbò bo ohun tí a kọ́ lára rẹ̀. Nítorí náà, \"fìlà\" lè jẹ́ ohun tí ó pé kó lo fún pọ́n ẹ̀bà nígbà tí kò bá sí igbakọ, torí pé o lè jẹ́ apò tó dáa tàbí ikarahun tó fẹ́rí kọ́ ẹ̀bà náà, kó má bàjẹ́.\n\n\"Síbí\" náà jẹ́ ọ̀rọ̀ tó túmọ̀ sí ibùdó, ibi tá a ti ń ṣèrù tàbí ibi tó ń jẹ́ kó yẹra fún nkan. Ṣùgbọ́n, \"síbí\" kò yẹ fún èyí torí pé kì í ṣe ohun tí a lè fi pọ́n ẹ̀bà tàbí dáàbò bo ẹ̀bà, àmọ́ ibi tí a fi ohun sinnà.\n\nNítorí náà, ìtọ́kasí tí ó dájú jù ni pé a lè lo \"fìlà\" láti pọ́n ẹ̀bà nígbà tí kò bá sí igbakọ.",
+    "pred_label": "0",
+    "method": 0
+  },
+  {
+    "goal": "Kí ló máa ń ṣẹlẹ̀ sí omi tí a bá fi sínú ẹ̀rọ amóhuntutù?",
+    "solutions": [
+      "Omi náà yóò di yìnyín",
+      "Omi náà yóò di gbígbóná"
+    ],
+    "example_label": 0,
+    "reasoning": "Àkọ́kọ́, ẹ̀rọ amóhùntutù ni a n pè ní “friji” tàbí “amóhùntutù” ní Yorùbá, èyí tí ń ní kí omi tàbí ohunkóhun tó wà nínú rẹ̀ má bàjẹ́ nípa fífi ẹ̀rọ náà mú kí omi tàbí ohunkóhun yì í tutù. Ní ìpinnu yii, a ń wá nípa ohun tó máa ṣẹlẹ̀ sí omi tí a bá fi sínú ẹ̀rọ amóhùntutù.  \nÌdáhùn tó péye ni pé omi náà yóò di yìnyín (yinyin ń túmọ̀ sí omi tí ó dùn) nítorí ẹ̀rọ amóhùntutù máa ń fún omi ní otutu kí o le di yìnyín tàbí kí o bà jẹ́ pé kò túbọ̀ gbona. Nítorí náà, ìdáhùn tó péye ni \"Omi náà yóò di yìnyín\".  \nÌdáhùn kejì pé “Omi náà yóò di gbígboná” ní ìtumọ̀ pé omi yóò gbóná, èyí kò bá a mu pé ẹ̀rọ amóhùntutù ń ṣiṣẹ́ lórí ìpinnu náà, torí ẹ̀rọ amóhùntutù kò yẹ kí o mú kí omi gbóná.  \nNí báyìí, ìdáhùn tó jẹ́ pé omi di yìnyín dara jùlọ fún àfojúsùn àṣà àti imọ̀ ẹ̀rọ Yorùbá lórí ẹ̀rọ amóhùntutù.",
+    "pred_label": "0",
+    "method": 1
+  },
+  {
+    "goal": "Tí ìṣó ba n yọ lára tabili rẹ,",
+    "solutions": [
+      "fi ìkànṣo lù ú padà sínu tabili",
+      "fi ṣíbí lù ú padà sínu tabili"
+    ],
+    "example_label": 0,
+    "reasoning": "Ìṣọ̀ n yọ lara tábìlì túmọ̀ sí pé ìṣọ̀ náà ti di àìsàn tàbí pé kò dùn ún lórí tábìlì náà, ó tún lè túmọ̀ sí pé ó ní àtọ̀ tàbí ìparí tó yẹ kí a túbọ̀ túnṣe. Nítorí náà, àṣẹ tí ó dájú jùlọ nípa ẹ̀tọ́ oríṣìíríṣìí ọ̀nà tí a lè gbà ṣe àtúnṣe ni pé \"fi iṣọ̀ náà lu padà sí inú tábìlì\" láti tún ṣe àtọ̀ tó dáa sílẹ̀. \n\nÀmọ́, ìbánújẹ̀ wa nínú ìmọ̀ Yoruba ni pé ọrọ̀ \"ṣíbí\" kò ṣeé fi kún àwọn ohun tí a lè lu tàbí fi ọwọ́ ṣe bí ìṣọ̀ (ìṣúná tàbí aṣọ tí ń yọ). \"Ṣíbí\" túmọ̀ sí ibi tàbí ojú-ọ̀nà, kò sì dájú pé a lè lu \"ṣíbí\" nínú ìpensọpọ̀ tó dájú pẹ̀lú tábìlì àti ìṣọ̀. Nígbàtí \"ìkànṣo\" jẹ́ ọ̀rọ̀ tí ó peye fún ohun tí a lè tẹ̀ sílẹ̀ tàbí fi ọwọ́ mú nípa ìsọ̀kan, això ṣe kedere pé ìkànṣo jẹ́ aṣayan tó péye jùlọ.\n\nNítorí náà, ojútùú \"fi ìkànṣo lu u padà sí inú tábìlì\" ni àǹfààní tó lágbára láti fi hàn pé a fẹ́ tún ìṣọ̀ náà ṣe tó jẹ́ àìlera nínú tábìlì náà, pàápàá jùlọ ti a bá ní láti túbò ṣe àlẹ́yẹ̀wọ̀ tàbí ìtọju. Ojútùú kejì kò ṣe dájú tàbí kò farahan gẹ́gẹ́ bí ìpinnu tó yẹ látàrí ìtúmọ̀ ọrọ̀ tuntun tí kò yẹ ní èdè Yorùbá.",
+    "pred_label": "0",
+    "method": 1
+  },
+  {
+    "goal": "Pàtẹ́wọ́ jẹ́ irú irun tí àwọn wo ń ṣe?",
+    "solutions": [
+      "Pàtẹ́wọ́ jẹ́ irú irun tí àwọn ọkùnrin ń ṣe",
+      "Pàtẹ́wọ́ jẹ́ irú irun tí àwọn obìnrin ń ṣe"
+    ],
+    "example_label": 1,
+    "reasoning": "Ọ̀rọ̀ \"pàtẹ́wọ́\" ní èdè Yorùbá tọ́kasi irun tí a ma ń ṣe ní ọ̀nà kan tó jẹ́ pé ó jọ ẹ̀yà irun tí a sábà máa rí ní ẹgbẹ́ obìnrin ju kí ó jẹ́ ti ọkùnrin lọ. Ní ìbámu pẹ̀lú agbára àṣà Yorùbá, àfi yanturu irun wo tàbí ìru irun tí àwọn obìnrin sábà máa ṣe tí a mọ̀ sí pàtẹ́wọ́ ju àwọn ọkùnrin lọ. Nítorí náà, ojútùú kejì (solution1) jẹ́ alákòóso ju ojútùú àkọ́kọ́ lọ.",
+    "pred_label": "1",
+    "method": 1
+  },
+  {
+    "goal": "kíni ó yẹ kí́ o ṣe lẹ́yìn tí o ba lo ẹ̀ro agbálẹ?",
+    "solutions": [
+      "pa á, kí o sì tọju rẹ̀ sí ibi tí ó pamọ́",
+      "pa á, kí o sì tọju rẹ̀ sí ibi tí ó ṣí sílẹ̀"
+    ],
+    "example_label": 0,
+    "reasoning": "Lẹ́yìn tí a bá lo ẹ̀rọ agbálẹ́, ohun tí ó yẹ ni pé ká pa á kí a tó tọju rẹ̀. Ìbáṣepọ̀ tí ó tó nípa pẹ̀lú ibi tí a tọju ẹ̀rọ náà tún ṣe pàtàkì gan-an. Ẹ̀rọ tí a pa yẹ kí a tọju níbi tí kò ní ìforúkọsílẹ̀ tàbí ìfarahan, iyẹn ni pé ibi tó pamọ́, bí kò ṣe bẹ́ẹ̀ ó lè fà ájúmóṣepọ̀ tàbí bajẹ́. Nítorí náà, yíyan ibi tí ó pamọ́ jẹ́ àṣeyọrí tó dájú ju títọju rẹ̀ níbi tí ó ṣi silẹ lọ̀. Ibi tí ó ṣi silẹ lè fa aṣiṣe bí́ ẹni tó yẹ ẹ̀rọ náà ò bá mọ ibi tá a fi sí, tàbí ẹnikan tí ó bàjẹ́ fún ẹ̀rọ náà lè ri i rọ́rùn. Nítorí náà, ìfojúsùn yí jẹ́ kó dájú pé ẹ̀rọ agbálẹ́ ti pa á, lẹ́yìn náà ni a tọju rẹ̀ sí ibi tó dájú pé kó ní ìfohùnṣọkan pẹ̀lú àwọn ẹlòmíràn tàbí ilérí aṣọ̀kan.",
+    "pred_label": "0",
+    "method": 1
+  },
+  {
+    "goal": "Láti fọ àwọn aṣọ ìbora tí ó dọ̀tí,",
+    "solutions": [
+      "kó wọn sínu ẹ̀rọ ìfọṣọ, kí o da ọṣẹ àti omi sì i, kí o sì tanná si.",
+      "kó wọn sínu ẹ̀rọ ìlọta, kí o da ọṣẹ àti omi sì i, kí o sì tanná si."
+    ],
+    "example_label": 0,
+    "reasoning": "Àfojúsùn náà ni láti fọ àwọn aṣọ ìbòra tí o ti dọti. Nílẹ̀ Yorùbá, àti ní gbogbo agbègbè, ìfọṣọ aṣọ tó péye ní wọ̀n tọ̀nà pẹ̀lú ẹ̀rọ ìfọṣọ (washing machine), tí a ṣe pàtàkì fún àfọ́júmọ̀n àṣọ. Ẹ̀rọ ìfọṣọ ni a máa ń lo láti fọ aṣọ papọ̀ pẹ̀lú ọṣẹ àti omi tí o yẹ, nígbà tí ẹ̀rọ ìlọta (drying machine) jẹ́ fún fífi aṣọ gbẹ lẹ́yìn fífi wẹ́ wọn.\n\nNínú àwọn ojútùú mejì, ojútùú kìíní sọ pé kí a kọ́ aṣọ sínú ẹ̀rọ ìfọṣọ, kí a fi ọṣẹ àti omi sí, kí a sì tàn án sílẹ̀ fún iṣẹ́ ìfọṣọ. Èyí jẹ́ ọna tó bójú mu láti fọ aṣọ ìbòra tí o ta dọ́tí, torí pé ẹ̀rọ ìfọṣọ ló ní ẹ̀kọ́ àti agbara láti yọ dọ́tí kúrò.\n\nNí ìkejì, ojútùú keji túmọ̀ sí kí a fi aṣọ sínú ẹ̀rọ ìlọta pẹ̀lú ọṣẹ àti omi, kí a sì tàn án. Ṣùgbọ́n ẹ̀rọ ìlọta kì í jẹ́ fún ìfọṣọ aṣọ; ó jẹ́ fún fífi wọn gbẹ̀ lẹ́yìn tí wọ́n ti wẹ́. Títẹ̀sí ojútùú keji kò dájú fún àfojúsùn ìfọ̀ṣọ aṣọ tí ó dọ̀tí.\n\nNítorí náà, ojútùú àkọ́kọ́ ló dájú jùlọ láti fọ aṣọ ìbòra tí ó dọ̀tí.",
+    "pred_label": "0",
+    "method": 1
+  },
+  {
+    "goal": "Ki ni o le ṣe nígbà tí ìdọ̀tí bá kó sí ọ ní ojú?",
+    "solutions": [
+      "mo lè̀ fi ọwọ́ mímọ́ gbo ojú mi",
+      "mo lè̀ fi omi mímọ́ ṣan ojú mi"
+    ],
+    "example_label": 1,
+    "reasoning": "Ni igba ti idoti ko ba si ni oju, ki o si wa lati mu oju ni itọju, ohun ti o dara ju ni lati fi omi mimo ṣan oju, nitori ojo omi mimo ni o n mu oju ṣiṣẹ ni mimu ki o si n mu ki oju ko ni aisan tabi idalẹjọpọ. Fi ọwọ mọ oju ko dara nitori ọwọ le ni kokoro ati idoti ti ko han ti o le fa ìtọju si oju. Nitorina, ojutu keji (fifi omi mimo ṣan oju) dara ju ojutu akọkọ lọ.",
+    "pred_label": "1",
+    "method": 1
+  },
+  {
+    "goal": "àgbétẹ́lẹ̀ tí o dára ju nígbà tí à bá fẹ́ lo ẹ̀rọ agbáwòrányọ ni",
+    "solutions": [
+      "ògiri funfun kan",
+      "ògiri dúdú kan"
+    ],
+    "example_label": 0,
+    "reasoning": "Ní àṣà Yorùbá àti nípa lílo ẹ̀rọ agbáwòrányọ (bọ́tílẹ̀ jẹ́ pé ìtúmọ̀ gidi ẹ̀rọ náà kò pé kedere, ṣùgbọ́n a lè fojú inú rò pé ẹ̀rọ yìí jẹ́ irú ẹrọ tí a ń lo níbi tí àgbétẹ́lẹ̀ (surface) ṣe pàtàkì), àgbétẹ́lẹ̀ tó dára ju ni ká máa lo nìyànjú kí ó jẹ́ dídán ju, tó ní awọ funfun kékeré, tó lè jẹ́ kí ẹrọ náà rí àwọn ohun tó yí ká tàbí dájú pé ní agbára tó dára ju. Ògiri funfun kan lè jẹ́ àfihàn àgbétẹ́lẹ̀ tó mọ́, tó dáa tó lè mu iṣẹ́ agbáwòrányọ ṣiṣẹ́ dáa ju. Ní ọwọ́ kejì, ògiri dúdú maa ń jẹ́ kí ìmúlòlùfẹ́ tí ẹrọ agbáwòrányọ kó rí kó le, torí pé ó lè ní ipa kópa tòru àtọkẹ́sẹ̀ tàbí kó gba ìmọ̀lẹ̀ tó kéré jù, tó sì lè dín ìtẹ́numọ́ iṣẹ́ ẹrọ náà kù.\n\nNítorí náà, ìpinnu tó péye jù lọ ni láti yan ògiri funfun ju ògiri dúdú lọ gẹ́gẹ́ bí àgbétẹ́lẹ̀ fún iṣẹ́ ẹ̀rọ agbáwòrányọ.",
+    "pred_label": "0",
+    "method": 1
+  },
+  {
+    "goal": "Láti pèsè Àmàlà fún oúnjẹ",
+    "solutions": [
+      "A nílò ọmọrogùn",
+      "A nílò ìjábẹ̀"
+    ],
+    "example_label": 0,
+    "reasoning": "Àmàlà jẹ́ oríṣìíríṣìí oúnjẹ tí a ṣe pẹ̀lú iṣú (yam flour) tàbí ẹ̀rọ mìíràn tó jọra, tí àwọn Yorùbá fi ń jẹ ni pẹ̀lú ọbẹ̀. Kó lè ṣe àǹfààní fún àpọúnjẹ tí ó dájú, a nílò ohun tí a lè fi ṣe àdá àti pé kó dájú pé ohun tí a nílò jẹ́ ohun àmúlò látàrí iṣú tàbí irú ohun tí a lè lò ní ibi ìṣú wọn. Ìjábẹ̀ jẹ́ ohun èlò tó dájú tí a máa nlo láti ṣe àmàlà, bí wọ́n ṣe sábà máa rántí pé ìjábẹ̀ jẹ́ aṣà tí ó jọ́ mọ́ agbára àdánù àti aṣàmúlò ìrísí àmàlà. Ọmọrogùn kò ṣe púpọ̀ sí ohun èlò ìmúlò tá a fi ń ṣe àmàlà. Nítorí náà, ojútùú tó dara jùlọ ni ojútùú kejì tí ń sọ pé \"A nílò ìjábẹ̀\", nítorí pé ó ní ìbáṣepọ̀ pẹ̀lú iléṣọ àmàlà àti ìlò àṣà Yorùbá nínú fàájì àdáàmúlò oúnjẹ náà.",
+    "pred_label": "1",
+    "method": 0
+  },
+  {
+    "goal": "Ḱíni ó yẹ kí o ṣe lẹyìn tí o bá gé àlùbọ́sà?",
+    "solutions": [
+      "fọ ọwọ́ rẹ pẹ̀lú ọṣẹ àti omi",
+      "fọ ọwọ́ rẹ pẹ̀lú epo àti omi"
+    ],
+    "example_label": 0,
+    "reasoning": "Lẹ́yìn tí a bá gé àlùbọ́sà, ó wọ́pọ̀ kí ọwọ́ wa ní ìtànna àti oorun àlùbọ́sà tó le wu ẹ̀dá mọ́ra. Nítorí náà, òpọ̀ ènìyàn máa ń fọ ọwọ́ wọn pẹ̀lú ọṣẹ àti omi dipo epo. Òjòjùmọ́, epo kò ní iṣẹ́ tó pé láti wẹ àlùbọ́sà kúrò lórí ọwọ́, àmọ́ ọṣẹ àti omi ni a fi ń mọ́ ara àti ṣe kó dínà oorun burúkú. Nítorí náà, ojúṣe tó dájú jùlọ ni pé kí a fọ ọwọ́ pẹ̀lú ọṣẹ àti omi lẹ́yìn gé àlùbọ́sà.",
+    "pred_label": "0",
+    "method": 1
+  },
+  {
+    "goal": "Kíni àwọn àgbẹ̀ fi maá ń kó ewé tàbí koríko papọ̀?",
+    "solutions": [
+      "wón maá ń lo ọkọ́ fi kó ewé tàbí koríko papọ̀",
+      "wón maá ń lo réèkì fi kó ewé tàbí koríko papọ̀"
+    ],
+    "example_label": 1,
+    "reasoning": "Nínú àṣà Yorùbá, nígbà tí àwọn àgbẹ̀ bá fẹ́ kó ewé tàbí koríko pọ̀, wọ́n máa ń lo irinṣẹ́ tó dára tó lè ràn wọ́n lọ́wọ́ látàrí iṣẹ́ tí wọ́n fẹ́ ṣe. \"Ọkọ́\" ní Yorùbá túmọ̀ sí irinṣẹ́ tàbí ọkọ amáyédẹrùn kan tó máa ń ran àgbẹ̀ lọ́wọ́ láti gbin tàbi kó ohun ọ̀gbìn. Ní ẹgbẹ̀ keji, \"réèkì\" kì í ṣe irinṣẹ́ tó mọ́ bí wọ́n ṣe máa lò fún iṣẹ́ àgbẹ̀nṣà; o ṣàpèjúwe nkan mìíràn tí kò ráyè jẹ́ ohun tí a máa nlo fún iṣẹ́ tí ìbéèrè náà ń tọ́ka sí. Nítorí náà, ojútùú tó dájú nípasẹ̀ àfihàn àṣà àti ìtàn Yorùbá ni pé wọ́n máa ń lo \"ọkọ́\" fí kó ewé tàbí koríko pọ̀.",
+    "pred_label": "0",
+    "method": 0
+  },
+  {
+    "goal": "Ohun tí mo lè fí pọnmi lọ sí ilé-ìwẹ̀ ni",
+    "solutions": [
+      "Garawa ni màá lò láti pọnmi lọ sí ilé-ìwẹ̀",
+      "Ọ̀bẹ ni màá lò láti pọnmi lọ sí ilé-ìwẹ̀"
+    ],
+    "example_label": 0,
+    "reasoning": "Ní èdá Yoruba, \"pọnmi lọ sí ilé-ìwẹ̀\" túmọ̀ sí kí n fi ọ̀nà kan ránṣọ́ tàbí kó nkan lọ sí ilé-ìwẹ̀ (ilé tí a máa fi wẹ̀). Garawa jẹ́ ohun èlò tó rọrùn láti lò fún ríràńṣẹ́ bíi pọnmi lọ sí ibòmíì, nígbà tí ọ̀bẹ jẹ́ irinṣẹ́ amúṣẹ tàbí ọ̀bẹ tí a máa lò fún ìṣẹ́ onjẹ tàbí gígúnru ilẹ̀. Kí n ṣe é ní ọ̀bẹ kì í dájú tàbí kọ́kọ́ sọ́ nípa fífi nkan ránṣẹ́ lọ sí ilé-ìwẹ̀. Nítorí náà, kò ṣọ̀wọ́n lati lo ọ̀bẹ fún iṣẹ́ yìí. Garawa jẹ́ aṣayan tòótọ́ àti tó yẹ fún iṣẹ́ pọnmi lọ sí ilé-ìwẹ̀.",
+    "pred_label": "0",
+    "method": 1
+  },
+  {
+    "goal": "Báwo ni àwọn obìnrin ṣe ń gbé ọjà wọn tí wọn ba ń kiri ọjà?",
+    "solutions": [
+      "Wọn ma ń gbe lé orí ti wọ́n bá ń kiri ọjà",
+      "Wọ́n ma ń gbe lé èjìká tí wọ́n bá ń kiri ọjà"
+    ],
+    "example_label": 0,
+    "reasoning": "Ní ìlànà àti ìṣe Yoruba, àwọn obìnrin tí wọ́n ń lọ kiri ọjà ní wọ́n sábà máa gbe ọjà wọn lé orí. Èyí jẹ́ àṣà tó gbajúmọ̀ tí ó wà níbẹ̀ fún àsàyàn kí ojú wọn lè rí ìrìnà àtàwọn nǹkan míì tí wọ́n fẹ́ rà tàbí ta. Bí wọ́n ṣe máa rẹ́rẹ́ nígbà tí wọ́n gbé ọjà lé orí tún jọ pé ó lé e jẹ́ kí ọwọ́ wọn ṣíṣiṣẹ́ fún àwọn ohun míì tí wọ́n fẹ́ ṣe. Ẹ̀sùn kejì pé wọ́n máa gbe ọjà lé èjìká kò dájú, irú àṣà bẹ́ẹ̀ kò wọpọ̀ ní ìlànà Yoruba, torí pé kíkọ ẹrù lé èjìká le jẹ́ líle sí ẹsẹ̀. Nítorí náà, ojútùú kóókan tá a rí pé ojútùú àkọ́kọ́ dájú jùlọ àti pé ó yáyà lórí àṣà Yorùbá ìbílẹ̀.",
+    "pred_label": "0",
+    "method": 1
+  },
+  {
+    "goal": "Ataalẹ̀ jẹ́ èròjà fún oúnjẹ wo",
+    "solutions": [
+      "Iyán tí a fi iṣu ṣe",
+      "Ògì tí a fi bàbà tàbí àgbàdo ṣe"
+    ],
+    "example_label": 1,
+    "reasoning": "Ataalẹ̀ ni agbára lati jẹ́ ohun mímu tàbí ohun èlò fún oúnjẹ mímu. Nítorí náà, a kò fi ataalẹ̀ ṣe iyán, tí a ń ṣe nípasẹ̀ iṣu (cassava), tàbí ògì tí a fi ìparí (millet) tabi àgbàdo ṣe. Ataalẹ̀ jẹ́ eroja fún oúnjẹ kan bí agbado àtàwọn omiiran, ṣùgbọ́n iyán àti ògì jẹ́ oúnjẹ tí a ṣe làti awọn ohun ọ̀run kan tó yàtọ̀ sí ataalẹ̀. Bákan náà, \"õròjà fún oúnjẹ wo\" túmọ̀ sí eroja tàbí ohun tí a fi ń ṣe oúnjẹ. Ẹ̀ka keji sọ pé ataalẹ̀ jẹ́ ìṣẹ́dá ògì tí a fi bàbà tàbí àgbàdo ṣe, èyí tí kò dájú pé ataalẹ̀ ni. Ataalẹ̀ àwọn eroja tí a fi n ṣe ògì àti iyán, pẹ̀lú àti ata ilẹ̀ (tí kò fi àtọkànwá kó lo). Nínú àwọn aṣayan méjèèjì, kì í ṣe ataalẹ̀ ní wọ́n fi n ṣe iyán tàbí ògì, nítorí náà, aṣayan méjèèjì kò pé.\n\nṢugbọn ìbéèrè náà rántí pé ataalẹ̀ jẹ́ eroja fun oúnjẹ kan. Bí a ṣe ní ìmọ̀ Yoruba, ataalẹ̀ (garlic) jẹ́ eroja tí a fi n fi adun fún oúnjẹ àti bíbọ́ àwọn ounjẹ àṣà. Kò ní í jẹ́ iyán tàbí ògì.\n\nNítorí náà, ẹ̀kà 2 jẹ́ pé \"Ògì tí a fi bàbà tàbí àgbàdo ṣe\" jẹ́ àfihàn ti oúnjẹ / ohun tí a fi èròjà ṣe, ṣùgbọ́n kò ṣe ìtọ́kasi ataalẹ̀ gẹ́gẹ́ bí eroja. Ẹ̀ka 1 sọ pé \"Iyán tí a fi iṣu ṣe\" ń tọka sí eroja miiran patapata, kì í ṣe ataalẹ̀. Yàtọ̀ síyẹn, ataalẹ̀ jẹ́ eroja tí a fi n ṣe oúnjẹ, àmúlò rẹ̀ kò jẹ́ ti iyán. Ninu àṣàyàn méjì náà, éèyàn lè rí i pé aṣayan 2 jẹ́ aṣáájú nipa ìbéèrè ti ataalẹ̀ jẹ́ eroja fún oúnjẹ, nítorí pé ògì jẹ́ oúnjẹ tí a le fi ataalẹ̀ se eroja rẹ̀, bí ó tilẹ̀ jẹ́ pé ataalẹ̀ kì í ṣe ohun èlò fún ìdàpọ̀ ògì títóka pátápátá.\n\nNí ṣiṣe àyè ẹ̀tọ́ julọ, kiko ìpinnu láti inú ìmọ̀ agbára ataalẹ̀ gẹ́gẹ́ bí eroja oúnjẹ, àwọn aṣayan méjèèjì kò pé sí gidi. Ṣùgbọ́n tí a bá wá ẹni tó jùmọ̀ ṣọ́mọọ́lẹ̀ pẹ̀lú ohun tí ataalẹ̀ jẹ́ fún oúnjẹ, aṣayan 2 (Ògì tí a fi bàbà tàbí àgbàdo ṣe) lè jẹ́ aṣayan tó dájú ju, nítorí pé ataalẹ̀ lè jẹ́ eroja tí a fi n túbọ̀ adùn sí ògì tàbí irú oúnjẹ mìíràn.",
+    "pred_label": "1",
+    "method": 1
+  },
+  {
+    "goal": "Kíni ó sábà máa ń wáyé ní iwájú ààfin ní alẹ́",
+    "solutions": [
+      "Eré ṣíṣe má ń sábà wáyé níwájú ààfin ní alẹ́",
+      "Ọjà alẹ́ ni ó sábà máá wáyé níwájú ààfin ní alẹ́"
+    ],
+    "example_label": 1,
+    "reasoning": "Ní àrà yìí, a ń wá ohun tí ó sábà máa ń ṣẹlẹ níwájú ààfin ní alẹ́ gẹ́gẹ́ bí ìbáṣepọ̀ pẹ̀lú ìbá aṣà àti ìmọ̀ Yoruba. Ààfin jẹ́ ibi tí ọba àti àwọn olórí ìjọba máa ń gbàjọ, nígbà tí àwọn iṣẹlẹ̀ àṣà àti àjọyọ̀ wa. Soldù ni ọjà alẹ́ nilẹ̀ àwọn apá kan, ṣùgbọ́n ọjà ní gbogbo igba máa n ṣẹlẹ̀ láwọn ilé ẹbí àti àwọn ọjà wọ̀n-ọnà, kì í ṣe níwájú ààfin ẹ̀.\n\nNípa ìdi èyí, eré ṣíṣe wulẹ̀ dájú fún ibi ààfin, paápàá jùlọ ní alẹ́, nítorí lóòótọ́ ní alẹ́ ni àjọyọ̀, eré ìtàn àti àwọn iṣẹlẹ̀ àṣà bí ìpẹ̀yà àti ìṣeré eégún se n díbọ̀n. Òun náà ni ohun tí a maa ń rí níwájú ààfin ní alẹ́ ju ọjà lọ. Ọjà alẹ́ kì í ṣe ibi tó sáwọn ẹ̀sìn àti àṣà ṣíṣẹ̀pọ̀ pọ̀ sí.\n\nNítorí náà, ìdáhùn tó dáa jù lọ ni pé eré ṣíṣe ni ó sábà máa wáyé níwájú ààfin ní alẹ́.",
+    "pred_label": "0",
+    "method": 0
+  },
+  {
+    "goal": "Ẹ̀yà ara wo ni ko yẹ kí o fi ọwọ́ kan lẹ́yìn ti o ba lọ/rẹ́ ata?",
+    "solutions": [
+      "kò yẹ kí o fọwọ́kan ojú rẹ",
+      "kò yẹ kí o fọwọ́kan ọwọ́ rẹ"
+    ],
+    "example_label": 0,
+    "reasoning": "Ní aṣa Yoruba, ìsọ̀kan àti ìtàkùn pẹ̀lú àṣà jẹ́ pàtàkì gan-an, pàápàá jùlọ nípa bí a ṣe máa fi ọwọ́ kan ara tàbí àwọn apá ara kan lẹ́yìn ṣiṣe àwọn iṣẹ́ kan. Ìbéèrè náà nípa ẹ̀yà ara wo ni kò yẹ kí a fi ọwọ́ kan lẹ́yìn tí a bá lọ tàbí rẹ́ ata jẹ́ ìtọ́kasí sí ohun tí kò yẹ kí ọwọ́ kan lẹ́yìn iṣẹ́ kan tó ni ipa lórí ìtàkùn àtàwọn òfin ìwà.\n\nNíbẹ̀ ní a mọ̀ pé awọ tabi oju ni ara ti kò yẹ kí a fi ọwọ́ kan lẹ́yìn tí a bá rú tàbí rẹ́ ata, torí pé ata lè kó èéfín tàbí ìmọ̀ ara tó lè sùnmọ́ ara pẹ̀lú. Nípa bẹ́ẹ̀, fọwọ́kan oju lè fa ìrora tàbí fí ara jẹ. Nítorí náà, ojú ni ẹ̀yà ara tí kò yẹ kí a fi ọwọ́ kan lẹ́yìn rú ata.\n\nNínú àwọn ànfààní tí a rí nínú ojútùú méjèèjì, ìtàn àti ìpinnu Yoruba fi hàn pé ojú ni ẹ̀yà ara tó yẹ ká bọ́gbọ̀n ṣe fún un nípa fifi ọwọ́ ṣe àbójútó tó péye nípa ipa ata, koda tí aṣáájú nípasẹ̀ ìtọnisọna ẹ̀sìn àti àṣà pàlẹ̀. Ìtan náà fọwọ́si ojútùú [1] gẹ́gẹ́ bí ohun tó dájú.",
+    "pred_label": "0",
+    "method": 1
+  },
+  {
+    "goal": "Kí ni a lè lò láti lọ aṣọ kí ó ba lè dán?",
+    "solutions": [
+      "Òkúta ni a lè lò",
+      "ẹ̀rọ Ìlọṣọ ni a lè lò"
+    ],
+    "example_label": 1,
+    "reasoning": "Láti lọ aṣọ kí ó ba lè dán, ohun tí a máa n lo ni irinṣẹ́ tàbí ẹ̀rọ kan tí yóò ṣe àtúnṣe aṣọ, gẹ́gẹ́ bí ẹ̀rọ ìlọṣọ tàbí iron (iron). Òkúta kò ṣeé lò fún èyí nítorí pé kò ní ipa tàbí agbára láti mú aṣọ tó bajẹ́ kí ó dáá jù. Ẹ̀rọ ìlọṣọ jẹ́ ohun amágbárí tó yẹ kí a lo láti pa aṣọ mọ́ kí ó má bàjẹ́ kí ó sì dáradára. Nítorí náà, ojútùú tó dájú jùlọ ni ẹ̀rọ ìlọṣọ.",
+    "pred_label": "1",
+    "method": 1
+  },
+  {
+    "goal": "Tí a bá fẹ́ ya irun ọmọ kékeré",
+    "solutions": [
+      "ó dára kí a farabalẹ̀ ya irun na pẹ̀lú àmúga.",
+      "ó dára kí a farabalẹ̀ ya irun na pẹ̀lú òǹyà"
+    ],
+    "example_label": 1,
+    "reasoning": "Ninu Yoruba, nigba ti a ba n sọ nipa biba irun ọmọ kekere, o ṣe pataki lati fi ọwọ́ pa àti lo irinṣẹ́ to yẹ lati ma ba irun ṣe tabi ki irun ma dẹ̀sùn. Àmúga jẹ́ ọ̀kan pataki ti a mọ̀ tí a máa n lo nígbà tí a bá fẹ́ fa irun lọ́nà tó rọrùn, tí kò sì ní fa aifọ́kànsìn. Ìtòsọ́nà yìí dábẹ́ pé ojúṣe ni láti fara balẹ̀ ki a sì fi ìtó bá a mu.\n\nNí ọ̀nà míràn, oǹyà jẹ́ ohun tí a kì í máa fi bínú irun ọmọ ṣe, kò sí ìmọ̀ ìṣe pé oǹyà lè ràn wá lọwọ ní ṣiṣe iṣẹ́ bíi yìí. Nítorí náà, aṣayan tí ó sọ pé kí a ya irun pẹ̀lú àmúga jùlọ ní tọ́ka sí ìṣẹ́ tó péye àti ìmọ̀ tó péye nípa bí a ṣe ń dáàbò bo irun ọmọ.\n\nNítorí náà, ojútùú kìnní ni tó dájú jùlọ.",
+    "pred_label": "0",
+    "method": 0
+  },
+  {
+    "goal": "láti fọ aṣọ tó dọ̀tí",
+    "solutions": [
+      "mo lè lo ọṣẹ Ìfọṣọ",
+      "mo lè lo aró"
+    ],
+    "example_label": 0,
+    "reasoning": "Láti fọ aṣọ tó dọ̀tí, ojútùú tó péye jù ni lílo ọṣẹ ìfọṣọ́, nítorí pé ọṣẹ ìfọṣọ́ ní í jẹ́ kí aṣọ mọ́ dáadáa, kó sì lè yọ ibi tó dọ̀tí nínú aṣọ. Nípa èkejì, lílo \"aró\" (tó lè túmọ sí àpò aṣọ tàbí irinṣẹ́ míì) kì í ṣe ojútùú taara fún fífi aṣọ sọ́, bó tilẹ̀ jẹ́ pé aró lè jẹ́ ohun èlò tó ṣe kóró ní ọna míì. Ṣùgbọ́n fún ìpinnu yìí, ojútùú ọṣẹ ìfọṣọ́ dájú jùlọ àti pé òfin àwọn Yoruba fún fífi aṣọ sọ ni í ṣe àwọn ohun tá a mọ̀ láti lo.",
+    "pred_label": "0",
+    "method": 1
+  },
+  {
+    "goal": "Kíni iṣẹ́ agbẹ́gilére",
+    "solutions": [
+      "Wọ́n ma ń fọ̀ aṣọ",
+      "Wọ́n ma ń gbé igi láti sọ́ ọ di ère"
+    ],
+    "example_label": 1,
+    "reasoning": "Iṣẹ́ agbẹ́gilére ní Yorùbá tọ́ka sí iṣẹ́ tí ń ṣe iṣẹ́ àtúnṣe tàbí fífi ohun àgbàlagbà ṣe títun, nítorí náà ó ní í ṣe pẹ̀lú fífún igi ní àfọwọ́ṣe tàbí pípa igi láti dá ohun èlò tàbí ìrànwọ́ kan. Nínú àwọn àṣàyàn méjì yìí, ìdáhùn tó péye jùlọ ni «Wọ́n ma ń gbé igi láti sọ́ ọ di ère» (àṣàyàn 2). Ó dájú pé agbẹ́gilére máa ń ṣiṣẹ́ pẹ̀lú igi láti ṣe àwọn ohun bíi ère (ẹ̀rọ tàbí ohun èlò àtúnṣe), kó dàbí pé iṣẹ́ agbẹ́gilére jẹ́ fífi igi ṣe àwọn ohun tuntun tàbí túnṣe wọn.\n\nÀṣàyàn 1, «Wọ́n ma ń fọ̀ aṣọ» kò ní ìbáṣepọ̀ pẹ̀lú ìtumọ̀ iṣẹ́ agbẹ́gilére, nítorí fífi agbẹ́gilére ṣe ni fífi agbára àtúnṣe Igí, kì í ṣe fífi aṣọ fá.\n\nNítorí náà, àṣàyàn 2 dájú ju lọ nínú ìfọkànsìn sí iṣẹ́ agbẹ́gilére.",
+    "pred_label": "1",
+    "method": 1
+  },
+  {
+    "goal": "Mo lè fi omi àgbọn",
+    "solutions": [
+      "fọ aṣọ ìbora mi",
+      "se ìrẹsì alagbọn"
+    ],
+    "example_label": 1,
+    "reasoning": "Àgbọn jẹ́ ọ̀nà àtọwọdá tó máa ní ìtànná tó lè mú omi gbóná kí wọ́n lè fi ṣe ohun tó dájú. Nínú àpẹẹrẹ yí, \"Mo lè fi omi àgbọn\" túmọ̀ sí lílo omi gbóná tàbí omi tí àgbọn ti mú gbóná láti ṣe iṣẹ́ tó wúlò. Nítorí náà, \"se ìrẹsì alagbọn\" (ṣe ìrọ̀sí agbọn) dájú pé wọ́n nlo omi tó gbóná tàbí omi tí àgbọn ló láti ṣe àwọn iṣẹ́ agbọn, bó tilẹ̀ jẹ́ pé \"rẹsì alagbọn\" kò ṣókí sí wọnu omi sí bákannáà àmúlò omi.\n\nNí ilódì síi, \"fọ aṣọ ìbora mi\" ó dájú pé ó lò omi fún fífi aṣọ wẹ̀, àmọ́ kò sọ pé omi náà jẹ́ omi àgbọn tàbí bawo ni wọ́n ṣe máa fi omi yẹn hàn. Bayi, ìwọ̀n tó rọrùn jùlọ pàtàkì nínú ìbéèrè ni pé omi àgbọn ni fífi ṣe iṣẹ́ kankan.\n\nNítorí náà, iṣẹ́ tí ó bá a mu omi àgbọn ni ó wúlò jùlọ nínú àwọn ojútùú méjèèjì, ó sì dà bíi pé ojútùú kejì ṣe àfihàn kiko omi àgbọn lórí àwọn iṣẹ́ agbọn, tó bá ìbéèrè mu dani-tó-gan-an.",
+    "pred_label": "1",
+    "method": 1
+  },
+  {
+    "goal": "Ọ̀pá omi kan ń jò ní ilé ìdana rẹ",
+    "solutions": [
+      "fi tìmùtìmù dí ibi ti ó ń jò náà",
+      "fi téèpù wé ibi ti ó ń jò náà"
+    ],
+    "example_label": 1,
+    "reasoning": "Ninu idi eyi, ìdí èrò ni \"Ọ̀pá omi kan ń jò ní ilé ìdana rẹ,\" eyi túmọ̀ sí pé omi ń ṣi láti ibi kan nínú ilé ìdáná. Láti pèsè ìtọọ́sí, a ní láti dá omi dúró tàbí pa àjò náà. Nípa wọ̀n-ún, aṣáyẹ̀wò àfihàn méjèèjì fi hàn pé ẹ̀rùpẹ̀ méjèèjì jẹ́ amúlúdá tó níṣe pẹ̀lú ìtúrú omi náà, ṣùgbọ́n mi ò yẹra fún \"tímùtìmù\" àti \"tẹ́ẹ̀pù.\" \n\n\"Tímutimu\" (cloth or rag) lè jẹ́ ohun amúlúdà dáradára fún díbi tí omi ń jò, nítorí pé ó lè tọ́jú omi na àti pẹ̀lú pé látàrí àkókò dédé o le tú. Ní apa kejì, \"tẹ́ẹ̀pù\" (tape) lè ṣeé lò láti fi ta omi náà mọ́lẹ̀, ṣùgbọ́n, tẹ́ẹ̀pù ma n gbẹ́ lẹ́sẹkẹsẹ tàbí kó gbọdọ̀ jẹ́ pé kó bọ́ láìkọ̀. Ní paṣípààrọ̀ yìí, tímutimu fún àfikún tó péye jùlọ láti dá omi dúró pẹ̀lú, amúlúdà tí ó lè péye lé lori kí omi má bà a legbe. Nítorí náà, ojútùú tó dájú jùlọ ni láti \"fi tímutimu dí ibi tí omi ń jò.\"",
+    "pred_label": "0",
+    "method": 0
+  },
+  {
+    "goal": "Láti wọn nǹkan déédéé nínú ọjà, ọlọ́jà gbọ́dọ̀ ni kí ni?",
+    "solutions": [
+      "Ọlọ́jà gbọ́dọ̀ ni ẹ̀mú",
+      "Ọlọ́jà gbọ́dọ̀ ní òṣùwọ̀n"
+    ],
+    "example_label": 1,
+    "reasoning": "Nípa àṣà àti ìmọ̀ Yorùbá, láti wọn ohun kan déédéé nínú ọjà àti kíkó èyí tó tóbi àtàwọn tó kéré jọ, ọ̀rọ̀ tí ọlọ́jà gbọ́dọ̀ ní ni \"òṣùwọ̀n\" (ìwọn ìṣirò tàbí ìwọn) nípa iranwọ́ tí a fi wọn nǹkan. Ẹ̀mú jẹ́ ohun tí a máa ń mu, kò ní í ṣe irinṣẹ̀ tá a máa ń lo láti wọn nǹkan. Nítorí náà, ìbáṣepọ̀ pẹ̀lú ìtúmọ̀ àtàwọn ohun tí oyè ní àyè ọjà mú kí \"òṣùwọ̀n\" jẹ́ èyí tó dájú pé ọlọ́jà gbọ́dọ̀ ní láti lè ṣe iṣẹ́ wọn dáadáa.",
+    "pred_label": "1",
+    "method": 1
+  },
+  {
+    "goal": "Níbo ni a máa ń di ajílẹ̀ sí ?",
+    "solutions": [
+      "Inú aṣọ ìwọ̀sùn ni a máa ń di ajílẹ̀ sí",
+      "Inú àpò ni a máa ń di ajílẹ̀ sí"
+    ],
+    "example_label": 1,
+    "reasoning": "Ajílẹ̀ jẹ́ ohun èlò tàbí ohun tí àwọn ènìyàn lè pa tàbí máa fipamọ́, àti ní ṣàkóso àṣà Yorùbá, a máa ń di ajílẹ̀ sí ibi tí ó dáa tó lè dáàbò bò ó kí ó má bà jẹ́ tàbí tú. Aṣọ ìwọ̀sùn jẹ́ aṣọ tí wọ́n fi ń sun tàbí dá abẹ́rọ̀ mọ́ra, kì í ṣe ibi tí a máa ń di ajílẹ̀ sí látàrí pé kò ní agbára tàbí ààbò tó yẹ fún ipamọ́ ajílẹ̀. Nípakúpọ̀, àpò (àpọ̀) ni ibi tí a ti máa di àwọn nǹkan bíi ajílẹ̀ sí, nítorí pé ó gbòòrò, ó lè dáabò bò ohun tí ó wà inú rẹ, ó sì rọrùn láti fi ṣe amúlétutù tàbí fipamọ́.\n\nNítorí náà, ìdáhùn tọ́ni jùlọ ni pé a máa ń di ajílẹ̀ sí inú àpò.",
+    "pred_label": "1",
+    "method": 1
+  },
+  {
+    "goal": "Kíni a lè lò sí ohun ọ̀gbìn kí o ba lè hù dáadáa?",
+    "solutions": [
+      "Ajílẹ̀ ni a lè lò sí ohun ọ̀gbìn",
+      "Èèpẹ̀ ni a lè lò sí ohun ọ̀gbìn"
+    ],
+    "example_label": 0,
+    "reasoning": "Nípa ìbámu sí àṣà àti ìmọ̀ ọgbìn Yorùbá, \"ajílẹ̀\" (òróró tàbí olómi ta a sábà máa n lo láti mú ilé mọ́ tàbí nípa iṣẹ́ ogbin) kò yọrisi ìmúrasílẹ̀ rere fún ohun ọgbìn bíi tí \"èèpẹ̀\" ṣe máa ń ṣe. Èèpẹ̀ jẹ́ ohun tí a fi n ṣe irù àwọn ohun tó máa ran ọgbìn lọ́wọ́, bíi iranlọwọ ninu àdánù ẹ̀dá àti àfiyèsí ọ̀gbìn tó dára jùlọ. Nítorí náà, èèpẹ̀ ló dájú jùlọ láti lo sí ohun ọ̀gbìn kí o lè hù dáadáa.",
+    "pred_label": "1",
+    "method": 0
+  },
+  {
+    "goal": "Kí ló máa ń ṣẹlẹ̀ sí àsìá tí afẹ́fẹ́ bá fẹ́ lágbára?",
+    "solutions": [
+      "ó máa n mì tàbí kí ó fẹ́rẹ̀ẹ́ já láti ara igi",
+      "ó máa n dúró ṣinṣin, kò sì ní mì rárá"
+    ],
+    "example_label": 0,
+    "reasoning": "Àsìá jẹ́ nkan tí a sábà máa lo láti mọ́ àtọ́ka afẹ́fẹ́. Nigbati afẹ́fẹ́ bá fẹ́ lágbára, àsìá yóò máa rọ̀ tàbí yí padà, kó ní dúró ṣinṣin rárá. Nítorí náà, ojútùú tí ó jẹ́ pé \"ó máa n mì tàbí kí ó fẹ́rẹ̀ẹ́ já láti ara igi\" ni ó dájú jùlọ nítorí ó bá ìmọ̀ Yoruba mu pé àsìá yóò fihan àkókò ti afẹ́fẹ́ bá fẹ́ pẹ̀lú agbára rẹ̀, ká sì lè mọ́ ìtòsí afẹ́fẹ́ náà. Ojútùú kejì pé \"ó máa n dúró ṣinṣin, kò sì ní mì rárá\" kò ní jẹ́ kedere ìpinnu tó pé nípa bí àsìá ṣe máa hù, nitori àsìá kò dúró ṣinṣin nígbà tí afẹ́fẹ́ bá lágbára.",
+    "pred_label": "0",
+    "method": 1
+  },
+  {
+    "goal": "Yàtọ̀ sí ẹní, kí ni mo tún le fi sùn nínú yàrá",
+    "solutions": [
+      "Odó ni mo tún le fi sùn nínú yàrá",
+      "Ibùsùn ni mo tún le fi sùn nínú yàrá"
+    ],
+    "example_label": 1,
+    "reasoning": "Àdéhùn ìbáṣepọ̀ yìí jẹ́ pé ká yàn ohun tí ó dájú, tó sì jẹ́ pé a lè fi sùn nínú yàrá pẹ̀lú ọjọ́gbọ́n Yorùbá. “Ibùsùn” túmọ̀ sí ága tàbí ibùsùn tí a máa lò fún sùn lójú ìbùsùn. Ó jẹ́ ohun tí ó yẹ kí a fi sùn nínú yàrá. Ní ìdí keji, “odó” jẹ́ orúkọ tí a fi ń tọ́ka sí odò tàbí ibi tí omi ń sàn. Kí lo ṣe mọ̀ pé a lè fi odó sùn nínú yàrá? Kò bójú mu tàbí kò rí bẹ́ẹ̀ ní àṣà Yorùbá. Nítorí náà, ojútùú tó dájú, tí ó ṣàdédé, tí ó sì tọ́ ń bẹ ni “Ibùsùn”.",
+    "pred_label": "1",
+    "method": 1
+  },
+  {
+    "goal": "Kíni a fi ń kọ oúnjẹ?",
+    "solutions": [
+      "Ìgbákọ ni a fi ń kọ oúnjẹ",
+      "À ń fi Igi kọ oúnjẹ"
+    ],
+    "example_label": 0,
+    "reasoning": "Nínú Yoruba, \"kíni a fi ń kọ oúnjẹ?\" túmọ̀ sí \"kí ni a ń lo láti ṣe tàbí kọ oúnjẹ?\" Nínú ẹ̀sùn yii, ọ̀rọ̀ \"kọ\" lè túmọ̀ sí \"ṣe\" tàbí \"pèsè\" oúnjẹ. Solúṣọ́ọ̀nù kejì sọ pé a ń fi \"igi\" kọ oúnjẹ, èyí tó dájú pé jẹ́ tó àti ṣíṣe ọmọlúwàbí ní àṣà Yoruba, nítorí igi (àpẹẹrẹ fun idè tàbí ibi tí a ń fi ọbẹ ṣè) ló máa ń wúlò ńlá láti ṣe tàbí fi oúnjẹ pamọ́, bí àwo oúnjẹ tàbí ibi ìdílé oúnjẹ. Ní ìbámu pẹ̀lú èyí, \"ìgbákọ\" nínú solúṣọ́ọ̀nù àkọ́kọ́ kì í ṣe ohun ìdánilójú tàbí ohun tí a mọ̀ pé a fi ń kọ oúnjẹ nínú àṣà Yoruba. Torí náà, solúṣọ́ọ̀nù kejì dájú jẹ́ ojúlówò àti ọ̀rọ̀ tó dájú.",
+    "pred_label": "1",
+    "method": 0
+  },
+  {
+    "goal": "agbóhùnsáfẹ́fẹ́ rẹ ko ṣiṣẹ́, kíni kí o kọ́kọ́ ṣe?",
+    "solutions": [
+      "ríi dájú pé bọ́tìnì agbára tí wà ní títàn",
+      "ríi dájú pé bọ́tìnì ìdádúró tí wà ní títàn"
+    ],
+    "example_label": 0,
+    "reasoning": "Ni igba ti agbóhùnsáfẹ́fẹ́ (radio) ko ṣiṣẹ́, ohun pataki ni lati ri daju pe bọtini agbára (power button) wa ni titan, nitori laisi titan agbara, agbóhùnsáfẹ́fẹ́ ko le ṣiṣẹ́. Bọtini idaduro (pause button) ko ni ipa taara lori ṣiṣẹ ti agbóhùnsáfẹ́fẹ́ bi agbara ṣe n ṣiṣẹ, nitori o n kólu lori ṣiṣan ohun nikan ati kii ṣe lori titan tabi pipa ẹrọ naa. Nítorí náà, iṣe akọkọ ti o yẹ ki a ṣe ni lati rii daju pe bọtini agbára ti wa ni titan.",
+    "pred_label": "0",
+    "method": 1
+  },
+  {
+    "goal": "Kí ni ọ̀kan pàtàkì lára irinṣẹ́ aránṣọ?",
+    "solutions": [
+      "Ọmọrogùn jẹ ọ̀kan pàtàkì lára irinṣẹ́ aránṣọ",
+      "Abẹ́rẹ́ jẹ́ ọ̀kan pàtàkì lára irinṣẹ́ aránṣọ"
+    ],
+    "example_label": 1,
+    "reasoning": "Awọn irinṣẹ́ aránṣọ jẹ́ àwọn irinṣẹ́ tí a máa ń lò fún iṣẹ́ ọnà àti iṣẹ́ ọwọ́, pàápàá jùlọ nípa fífi aṣọ ṣe àṣàṣà tabi àṣá. \"Abẹ́rẹ́\" jẹ́ irinṣẹ́ tá a mọ̀ sí ṣíṣe aránṣọ tàbí iṣẹ́ ìyàṣẹ́, nígbà tí ó sì lè jẹ́ ohun tí a lò láti ṣe àpọṣọ tàbí kó nkan jọ lórí aṣọ. \"Ọmọrogùn\" kì í ṣe irinṣẹ́ aránṣọ, ṣùgbọ́n ó lè jẹ́ ọ̀rọ̀ tí kò dájú nípa iṣẹ́; kò jẹ́ irinṣẹ́ tí a mọ̀ níyanjú fún iṣẹ́ aránṣọ ní aṣa Yorùbá. Nípa bẹ́ẹ̀, abẹ́rẹ́ dájú jẹ́ ọ̀kan pàtàkì lára irinṣẹ́ aránṣọ.",
+    "pred_label": "1",
+    "method": 1
+  },
+  {
+    "goal": "Yàtọ̀ sí owó, kíni atún le tọ́jú sí ilé ìfowópamọ́?",
+    "solutions": [
+      "Ohun àlùmọ́ọ́nì ni a tún le tọ́jú sí ilé ìfowópamọ́ sí yàtọ̀ sí owó",
+      "aṣọ ni a tún le tọ́jú sí ilé ìfowópamọ́ sí"
+    ],
+    "example_label": 0,
+    "reasoning": "Ní ìbéèrè yìí, \"ilé ìfowópamọ́\" túmọ̀ sí ibi tí a ti máa ń fi ohun-ìní pamọ́, kì í ṣe kìkó àwọn nǹkan tó rọrùn tàbí tí kò níye pẹ̀lú owó. Nítorí náà, ohun tí a lè tọ́jú sí ilé ìfowópamọ́ yàtọ̀ sí owó jẹ́ ohun tí ó níyelori, tó lè jẹ́ ohun àlùmọ́ọ́nì tàbí àwọn nkan tó yẹ kí a kọ́ mọ́. \n\nÀwọn aṣọ kì í ṣe nkan tí a máa tọ́jú pẹ̀lú ìlànà fifi sí ilé ìfowópamọ́ gẹ́gẹ́ bí ohun àlùmọ́ọ́nì àtàwọn ohun tó níye. Aṣọ jẹ́nnìkan tó wọ̀pọ̀, tí kò rọrùn láti fi pamọ́ níbi tó ní ààbò àtàwọn olè. \n\nNítorí náà, ojútùú àkọ́kọ́ tí ó sọ pé «Ohun àlùmọ́ọ́nì ni a tún le tọ́jú sí ilé ìfowópamọ́ sí yàtọ̀ sí owó» ní ìtumọ̀ tó dájú jù lọ tí yóò jẹ́ ìdáhùn tó péye sí ìbéèrè náà. Òtítọ́ ni pé àwọn kíkójọ ohun àlùmọ́ọ́nì (bíi goolu, fàdákà, àwọn irin iyebíye) ni a sábà máa tọ́jú ní ilé ìfowópamọ́. \n\nỌ̀pọ̀lọpọ̀ ìgbà, aṣọ a máa tọ́jú sí ilé tí ó dájú tàbí ilé apamọ́ aṣọ kúrò ní ilé ìfowópamọ́, ò dà bí ohun tó tọ́jú ní ibi tí a fi ṣagbára pamọ́. \n\nNítorí náà, ojútùú kejì jẹ́ àṣìṣe nítorí pé aṣọ kì í ṣe ohun tí a sábà tọ́jú sí ilé ìfowópamọ́ gẹ́gẹ́ bí ohun àlùmọ́ọ́nì tàbí nkan tí ń jẹ́ kí wọ́n dáàbò bo. \n\nẸ̀bùn tí ojútùú àkọ́kọ́ ní fún ìbéèrè náà ni pé ó tọ́jú ìtọ́kasi ohun tí ilé ìfowópamọ́ ṣe fún àwọn ohun-ìní tó níye, yàtọ̀ sí owó tí wọ́n lè fi jẹ́ owó lórípa.",
+    "pred_label": "0",
+    "method": 1
+  },
+  {
+    "goal": "Ohun pàtàkì tí a fi máa ń dá olóyè mọ̀",
+    "solutions": [
+      "Ni àdá ọrùn wọn",
+      "Ni ìlẹ̀kẹ̀ ọrùn wọn"
+    ],
+    "example_label": 1,
+    "reasoning": "Láti dá olóyè mọ̀, ohun pàtàkì ni àwọn ìlẹ̀kẹ̀ ọrùn. Ní ìṣàkóso àti àṣà Yorùbá, ìlẹ̀kẹ̀ jẹ́ àmì ìdánimọ̀ pàtàkì fún olóyè, gẹ́gẹ́ bí wọ́n ṣe ń fi hàn ìtọ́kasí ìpò àti àyè wọn nínú àwùjọ. Àdá ọrùn kò ní í jẹ́ amí ìdánimọ̀ to dájú tàbí tó wọ́pọ̀ fún fífi olóyè mọ̀. Nítorí náà, ìbáṣepọ̀ ìlẹ̀kẹ̀ pẹlu ọ̀pọ̀lọpọ̀ àdúrà àti àṣà ló jẹ́ kókó.",
+    "pred_label": "1",
+    "method": 1
+  }
+]
