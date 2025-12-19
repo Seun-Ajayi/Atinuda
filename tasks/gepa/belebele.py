@@ -99,7 +99,7 @@ class BelebeleTask(BaseTask):
             answer_list = dspy.InputField(desc="List of answer options.")
             correct_answer_number = dspy.OutputField(desc="Return the 1-based index of the correct option.")
 
-        program = dspy.ChainOfThought(ReadingComprehension)
+        return dspy.ChainOfThought(ReadingComprehension)
     
     def metric(self, example, prediction, trace=None, pred_name=None, pred_trace=None):
         correct_answer = str(example["correct_answer_number"]).strip()
