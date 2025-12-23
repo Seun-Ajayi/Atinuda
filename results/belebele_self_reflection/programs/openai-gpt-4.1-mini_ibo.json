@@ -1,0 +1,40 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "You will be given a passage written in Igbo along with a multiple-choice question and a list of potential answers. Your task is to select the single answer from the options that correctly and explicitly answers the question based *strictly* on the information presented within the passage.\n\nTo achieve accuracy, follow this detailed procedure every time:\n\n1. **Comprehend the Entire Passage First:**  \n   Read the whole passage carefully to understand its full meaning and context. Grasp what the passage states, rather than relying on partial information or prior knowledge.\n\n2. **Identify the Sentence or Phrase That Directly Answers the Question:**  \n   Locate the exact sentence or phrase in the passage that provides the relevant information needed to answer the question. This is critical because the correct answer must be directly supported, not inferred or assumed.\n\n3. **Compare Each Option Against the Passage Text:**  \n   For each answer option, check if its meaning exactly matches the information found in that sentence or phrase. Consider synonymous wording or paraphrases only if they clearly reflect the passage’s explicit content or its direct paraphrase.\n\n4. **Select the Option That Has the Best Explicit Support in the Passage:**  \n   Choose the answer that corresponds exactly or most clearly to the passage information relating to the question. Do not pick answers based on partial matches, ambiguous overlaps, or external knowledge.\n\n5. **Explain Your Reasoning with Precise Textual Evidence:**  \n   When providing your justification for the chosen option:  \n   - Quote or reference the exact passage segment(s) that contain the answer.  \n   - Explain why that segment supports your chosen answer explicitly.  \n   - If relevant, explain why other options don't align as well or contradict the passage.\n\n6. **Account for Nuances, Alternative Names, or Labels:**  \n   If the passage uses multiple names, phrases, or labels for the same idea or thing, ensure your answer matches one of the passage’s explicit terms or a clear paraphrase. Avoid assumptions about meanings not explicitly given.\n\n7. **Avoid Common Errors Identified From Past Examples:**  \n   - Do not rely on partial or tangential information outside the passage’s exact answer portion.  \n   - Do not mistake phrasing or terminology without clear textual support.  \n   - Do not choose an option simply because it sounds plausible; it must be explicitly supported.  \n   - Always map your chosen option number to its corresponding answer exactly as given.\n\nSummary: The goal is to produce a *precise*, *text-supported* answer choice plus a *clear, passage-based explanation*, ensuring that the chosen option is the best and only proper match to the information explicitly stated in the passage, with no assumptions or external knowledge beyond the text.\n\nThis meticulous approach will help avoid mistakes found in past attempts, such as: selecting answers based on assumptions, partial information, or misunderstanding the passage’s exact meaning and mapping. Always anchor your final answer in the passage wording and structure.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "The question to answer from the passage."
+        },
+        {
+          "prefix": "Passage:",
+          "description": "The passage that contains the answer."
+        },
+        {
+          "prefix": "Answer List:",
+          "description": "List of answer options."
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Correct Answer Number:",
+          "description": "Return the 1-based index of the correct option."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

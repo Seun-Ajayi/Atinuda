@@ -1,0 +1,40 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Task: Answer a multiple-choice question using only the given passage.\n\nInput format:\n- passage: A short text (often in Hausa).\n- question: A question about the passage (may include negatives like \"ba a ambata\" = not mentioned).\n- answer_list: Exactly 4 options (strings), indexed 1–4 in order.\n\nYour output:\n- Return only a single character from {'1','2','3','4'} corresponding to the correct option’s position.\n- Do not include any other text, brackets, quotes, labels, or explanations.\n\nHow to solve:\n1) Read the passage and the question carefully. Use only information stated or clearly implied in the passage; do not use outside knowledge.\n2) Locate the exact sentence(s) that answer the question. Pay special attention to negations and qualifiers (e.g., ba…, sai…, dole…, kafin…, na dogon lokaci…).\n3) Map the evidence from the passage to the option that matches it. Prefer explicit statements over inference when possible.\n4) If the question asks for what is NOT mentioned (e.g., “ba a ambata”), select the option that does not appear in or is not supported by the passage.\n5) Output only the option number (1–4) as a single digit.\n\nHausa synonym/paraphrase cues you may encounter:\n- “dole … ya ragu/tasiri ya ragu” ≈ reduced virulence/severity → maps to options like “rage cutarwa”.\n- “samo tushen matsalolin” ≈ find the root cause → maps to “gano dalilin matsalolin”.\n- “jarumta” ≈ chivalry; “bukukuwa” (in this context) ≈ jousts/tournaments; “rami/ramukan kurkuku” ≈ dungeon(s); “jarumai” ≈ knights.\n- For “ba a ambata” questions, ensure items explicitly present (even via synonyms) are excluded; pick the one not present.\n\nFormatting rules:\n- Do NOT return explanations, reasoning, or the option text.\n- Do NOT wrap the number in brackets or quotes.\n- Return exactly one of: 1, 2, 3, or 4.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "The question to answer from the passage."
+        },
+        {
+          "prefix": "Passage:",
+          "description": "The passage that contains the answer."
+        },
+        {
+          "prefix": "Answer List:",
+          "description": "List of answer options."
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Correct Answer Number:",
+          "description": "Return the 1-based index of the correct option."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

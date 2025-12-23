@@ -1,0 +1,40 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Perform the following task: Answer a multiple-choice question based on a given passage by identifying the specific sentence that directly answers the question and mapping it to the correct option in the answer list.\n\nEnsure that you return a single option number in ['1', '2', '3', '4'] as the answer.\n\nIf the correct answer is not directly mapped to an option number in the answer list, find the option that best corresponds to the sentence that directly provides the answer to the question.\n\nConsider the context and details provided in the passage to accurately select the correct answer option.\n\nAfter locating the sentence that answers the question, map it to the corresponding option in the answer list according to the information provided in the passage.\n\nReview the feedback provided for each task attempt to improve your selection process for future tasks.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "The question to answer from the passage."
+        },
+        {
+          "prefix": "Passage:",
+          "description": "The passage that contains the answer."
+        },
+        {
+          "prefix": "Answer List:",
+          "description": "List of answer options."
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Correct Answer Number:",
+          "description": "Return the 1-based index of the correct option."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Task goal\n- Use the provided passage (often Yorùbá) to answer a multiple-choice question by selecting the correct option from the given answer_list.\n- Output ONLY the 1-based index of the correct option as a single digit character: '1', '2', '3', or '4'. No text, brackets, punctuation, spaces, or newline.\n\nInputs\n- passage: Short text (frequently Yorùbá; may include diacritics or be plain ASCII).\n- question: The query to answer (frequently Yorùbá).\n- answer_list: Exactly four options (strings), ordered 1–4.\n\nOutput format (strict)\n- Output exactly one character: '1', '2', '3', or '4'.\n- Do NOT include brackets, periods, spaces, newline, explanations, or any extra characters.\n- Examples of invalid output: \"[2]\", \"2.\", \"2 \", \"two\", \"Option 2\".\n- Valid output: \"2\" (just the single digit).\n\nHow to solve\n1) Read the question carefully and identify its type (match meanings, not exact spelling; diacritics may vary).\n   - Tani …? = Who?\n   - Kini …? / Kí ni …? = What?\n   - Èwo ninu… / Ewo ninu… = Which (one among…)?\n   - Nigbawo …? = When?\n   - Ibo …? / Níbo …? = Where?\n   - Mélòó …? / Melo …? = How many?\n   - Báwo ni …? = How?\n   - “Gbẹ́gẹ́ bí ojú ìwé naa / Gẹgẹ bi oju iwe naa / Da lori oju iwe naa” = According to the passage\n   - “Lakoko … / Ni akoko …” = During/at the time of …\n   - “Kini a n pè …?” = What is … called?\n\n2) Detect negation/NOT questions. If the question asks for what is NOT true or NOT mentioned, select the option that is NOT supported by the passage.\n   - Common negation patterns (with or without diacritics):\n     - “kò…”, “ko…”, “kò sí…/ ko si…”\n     - “kii…”, “kì í…”, “kì í ṣe…”, “kii ṣe…”, “eyi kii ṣe…”\n     - “kò lè… / ko le…”, “kò ní… / ko ni…”\n     - “kini a kò mẹ́nuba… / kini a ko menuba…” (what was NOT mentioned)\n     - “kii ṣe otitọ/òótọ́/ododo” (is not true)\n   - For NOT/False questions:\n     - Mark options explicitly supported by the passage; eliminate them.\n     - Choose the option contradicted by or absent from the passage.\n\n3) Locate exact supporting text and match meanings.\n   - Prefer explicit statements over inference.\n   - Match meanings, not exact wording; account for synonyms and common Yorùbá phrasings.\n   - If multiple options seem plausible, prefer the one with the most explicit, closest match in wording/meaning to the passage and the question’s focus.\n\n4) Map to the 1–4 index and output only that single digit.\n\nDomain and synonym cues you may see\n- Space/technology context:\n  - “ibùdó” = station; in context with astronauts and “spacewal” (spacewalk) it refers to a space station (not an airport).\n  - “gayirosopu/gayiroscope/gyroscope” = gyroscope. If the passage says a gyroscope was lost or had issues, the correct issue is “Nini gayirosopu” (gyroscope), not thrusters or other systems.\n  - “ẹnjini … attitude adjustment thruster” = attitude control thruster; mention of safe distance doesn’t imply it was the problem unless stated.\n- Social cognition/Theory of Mind:\n  - Phrases like “wọ́n ni ẹ̀bùn láti wòye ohun tó ń lọ ní ọkàn ẹlòmíràn,” “sọ asọtẹlẹ ohun tí ènìyàn n rò, pinnu, gbagbọ, mọ tàbí ní ìmọ̀lára,” and “fàyè gba wa láti yanjú ìṣòro ìbáṣepọ̀” support options about resolving ambiguity/uncertainty in social inference, not just “watch without judgment.”\n- Crime/incident reports:\n  - “Orúkọ … kò tí jẹ́ mímọ̀” = the name is unknown.\n  - “ẹ̀yà” = ethnicity; “Ẹya afurasi naa” = the suspect’s ethnicity.\n  - “Idamọ” = identification; “Ohun ti o fa ikọlu naa” = cause/motive.\n  - If only the ethnicity is known and name is unknown, the confirmed info is “Ẹya afurasi naa,” not identity/name/cause.\n- Language/usage in Vatican context:\n  - “Ede Italo … ni ibi-iṣiṣẹ” (Italian at workplace/staff use).\n  - “ede Latin … ni ile ijosin/awọn ayẹyẹ ẹsin” (Latin in church services), not daily speech nor law unless stated.\n- Bhajan/offerings (Hindu devotional events):\n  - “bhajans” = devotional songs; “kọ orin bhajans” = sing bhajans.\n  - “Chhappan Bhog” = 56-item food offering; leader during offering time answers “tani o kọ orin … ni akoko ipese ounjẹ?”\n  - Names often seen: “Sanju Sharma,” “Jai Shankar Choudhary,” “Raju Khandelwal/Kandiwali,” “Lakkha Singh” (often the leader/soloist).\n- Indus Valley Civilization naming variants:\n  - Names typically mentioned: “Ọlaju Harapani/Harappan,” “Ọlaju Indus-Sarasfati/Indus-Sarasvati.”\n  - If asked which name was NOT mentioned, options like “Ọlaju Odo Indu” are NOT mentioned unless explicitly present.\n- Additional helpful mappings:\n  - Seasonings: “ewe/egbò/ata/ìrú” ≈ spices/seasonings.\n  - “omi àgbọ̀n/miliki alágbon” = coconut milk; “yúgọ̀tì/yugoti” = yogurt.\n  - Countries/names: “Jamani/Jẹmaní” = Germany; “Biriteni/Britain/Gẹ̀ẹ́sì” = Britain/English.\n  - WWII: “Iṣẹ Sealion” = Germany’s planned invasion of Britain.\n  - Traditions: “Àṣà kéèké” ≈ minor traditions; often described as leaving no lasting impact/records.\n  - Online content policy: “Ó gbódò wà nínú sáfà/apèsè” = must be hosted on a provider/service to count as online content.\n  - Cooking methods: traditional “hangi” uses fire-heated rocks in a pit; “geothermal hangi” is heated by the earth (not by fire).\n\nDecision strategy\n- Answer direct questions with the option explicitly supported by the passage.\n- For NOT/False questions, choose the option contradicted by or not mentioned.\n- Match by meaning; handle diacritics/variant spellings.\n- When torn between options, choose the one whose wording most closely mirrors the passage’s explicit claim.\n\nValidation checklist before output\n- Did you find the exact sentence(s) that answer the question (or confirm absence/contradiction for NOT questions)?\n- Did you correctly interpret the Yorùbá question type and detect negation?\n- Did you map to 1-based indexing (1–4)?\n- Are you outputting exactly one character with no brackets, punctuation, spaces, or newline?\n- Did you avoid using outside knowledge not in the passage?\n\nPitfalls to avoid\n- Do not return the option text; return only its index digit.\n- Do not add brackets or any extra characters (e.g., “[3]”, “3.”, “3 ” are invalid).\n- Do not infer beyond the passage; prefer explicit support.\n- Do not confuse related systems: e.g., a passage about losing a gyroscope points to “gyroscope,” not thrusters or general flight ops.\n\nReminders from prior examples\n- Spacewalk passage: mention of losing a gyroscope → choose “Nini gayirosopu.”\n- Theory of Mind passage: helps resolve uncertainty/ambiguity in social inference → choose the option reflecting removal of uncertainty behind inferential steps.\n- Incident/ethnicity passage: name unknown but ethnicity known → choose “Ẹya afurasi naa.”\n\nFinal output\n- Output exactly one of: '1', '2', '3', or '4'.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "The question to answer from the passage."
+        },
+        {
+          "prefix": "Passage:",
+          "description": "The passage that contains the answer."
+        },
+        {
+          "prefix": "Answer List:",
+          "description": "List of answer options."
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Correct Answer Number:",
+          "description": "Return the 1-based index of the correct option."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

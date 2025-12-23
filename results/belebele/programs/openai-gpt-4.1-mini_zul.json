@@ -1,0 +1,40 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Task: Answer a multiple-choice question using the given passage.\n\nInputs:\n- passage: A short text (may be in isiZulu or related Nguni language, and may contain typos or non-standard spelling).\n- question: A prompt about the passage (may include negations like “NOT/okungekona/ongasebenzi/okungasho”, or ask what is “suggested/implied/okunconyiwe/okudingekayo”, or include time/place cues).\n- answer_list: An ordered list of options (1-based indexing).\n\nOutput format:\n- Provide exactly two top-level fields:\n  - reasoning: 1–3 concise sentences explaining how the passage supports the chosen option. Use the same language as the question/passage when possible; quote or closely paraphrase the key span.\n  - correct_answer_number: the 1-based index of the chosen option from answer_list as an integer (no other text).\n\nMethod:\n1) Read the question carefully and identify its type:\n   - Direct fact lookup (“Ngokusho kwesiqephu…”, “Ubani/ini…?”).\n   - Purpose/requirement/condition (“kufanele/okudingekayo/okufanele kwenziwe…”, “okunconyiwe/okushiwo…”, “implied/suggested”).\n   - Exception/NOT-mentioned (“Yikuphi OKUNGASHO/NOT/EXCEPT/okungekona/akukhulunywanga…”, “engahlangene/engabalulwanga…”).\n   - Sequence/ordering (“emva kwalokho/then”, “ekugcineni/ukuqedela/finally”, “qala/begin”).\n\n2) Track scope cues exactly:\n   - Time: e.g., “ekupheleni kwekhulu le-16”, “kusukela…”, “ngobusuku”, “ekugcineni/ukuqedela/finally”.\n   - Place: e.g., “egcekeni/in the yard”, “endaweni yokulwa”, “esibhedlela”.\n   - Role/action verbs: e.g., “akhulumisane/negotiated”, “ucule/sang”, “dlala/played (often music performance)”, “wenza umboniso/staged a show”, “zacima umlilo/extinguished fire”, “zavimbezela/contained”.\n\n3) Locate the exact sentence or clause that answers the question. Prioritize explicit statements over inferences.\n   - For “suggested/required” questions, look for modal cues (kufanele/must/should/okudingekayo).\n   - For sequence questions, obey order markers strictly (“emva kwalokho/after this”, “ekugcineni/ukuqedela/finally”).\n   - For temporal qualifiers like “kusukela ngekhulu le-16”, pick items that started in that period, not those only related in general.\n\n4) Map the located idea to the closest option in answer_list by meaning, not surface wording. Be robust to typos and synonyms:\n   - Match verbs and roles carefully:\n     - “akhulumisane” → negotiated/communicated.\n     - “ucule/abaculi” → singers/music performance.\n     - “dlala” usually refers to playing/performing music; if contrasted with “wenza umboniso” (dance/show), align with the question’s verb type (e.g., for “odlale ekugcineni” choose the last musical act, not a later dance “umboniso”).\n     - “wenza umboniso” → staged/performed a show (not necessarily “dlala”).\n   - Use place/time filters: if the question limits to a location (“egcekeni”), prefer options present there; exclude those mentioned only elsewhere.\n   - Numerical qualifiers must match: options that add counts like “izikhathi ezimbili/kabili/twice” require explicit mention of that number. If the passage only says “won world competitions” without a count, do NOT infer “two-time champion.”\n   - Be sensitive to pragmatic equivalence in Nguni phrasing (e.g., “kubizwe ‘into engeyona enkulu’” can align with a question paraphrasing “akubabuleki” if the intent is minimizing severity), but avoid adding stronger claims than stated.\n\n5) Special handling for NOT/EXCEPT questions:\n   - Carefully detect negatives and exceptions (“NOT/EXCEPT/okungekona/okungasho/angabalulwanga/akukhulunywanga”).\n   - Select the option that is NOT stated or implied in the passage within the specified scope (time/place/action).\n   - If multiple options seem absent, choose the one unambiguously unsupported or the one that introduces an extra qualifier not present (e.g., a specific count like “kabilli/twice”).\n   - Treat roles/positions (e.g., “usihlalo wekomiti”) and achievements/awards (“amamedali egolide”) as valid “imiklomelo/achievements” if the question groups them; still, require exactness of any qualifiers.\n\n6) Tie-breakers:\n   - If two options seem plausible, pick the one whose wording most closely matches the passage’s phrasing and verb.\n   - Respect sequence markers strictly; “ukuqedela/ekugcineni” marks the end. If the question’s verb implies a specific type (e.g., “dlala” for music), select the last entity matching that type even if another non-music performance followed.\n   - When choosing among employment/percentage options, align with the smallest or explicitly “ipheshenti elilodwa kuphela” etc. when the question implies “does not employ many.”\n\n7) Language and robustness:\n   - Do not translate; keep language consistent with the input (isiZulu/Nguni if used).\n   - Handle non-standard spelling by focusing on recognizable roots and context.\n   - Quote briefly or paraphrase the supporting span in reasoning (1–3 sentences).\n\n8) Return:\n   - reasoning: concise justification with the supporting span and mapping.\n   - correct_answer_number: the 1-based index from answer_list as an integer only.\n\nConstraints:\n- Do not add options, alter their wording, or output extra fields.\n- Be precise and literal: choose the option that best matches the explicit meaning in the located sentence/clause, considering time/place/action constraints and numeric qualifiers.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "The question to answer from the passage."
+        },
+        {
+          "prefix": "Passage:",
+          "description": "The passage that contains the answer."
+        },
+        {
+          "prefix": "Answer List:",
+          "description": "List of answer options."
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Correct Answer Number:",
+          "description": "Return the 1-based index of the correct option."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

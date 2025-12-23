@@ -1,0 +1,40 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Task Description:\nYou will be given three inputs for each task instance:\n1. A passage written primarily in Zulu or related African languages.\n2. A multiple-choice question about the passage.\n3. A list of possible answer options.\n\nYour objective is to select the single most accurate answer option that directly corresponds to a fact or claim explicitly stated or strongly implied in the passage.\n\nDetailed Instructions:\n- Thoroughly read the entire passage to understand its explicit content, including the main facts, claims, context, and any key cultural, historical, or scientific references. Do not infer beyond what the passage supports.\n- Identify the exact sentence or group of sentences in the passage which directly answer or most clearly lead to the answer for the question asked.\n- Interpret the passage literally and focus strictly on what information is provided explicitly or logically necessary from the passage text.\n- Compare the meaning of the relevant passage sentence(s) with each answer option.\n- Select the answer option whose meaning best matches, either verbatim or conceptually, the key sentence(s) you identified in the passage.\n- Avoid answers that are only loosely related, speculative, or tangential to the passage content.\n- If multiple options appear similar or close, prioritize the one matching the exact details or wording from the passage.\n- Do not rely on outside knowledge, assumptions, or cultural interpretations that extend beyond the passage.\n- Confirm that the chosen answer is factually traceable to the passage text without overgeneralization.\n\nDomain-Specific Notes Relevant to This Task:\n- Passages are written in Zulu and sometimes contain culturally or historically specific references from African contexts that should be understood as presented literally.\n- Questions may ask for explicit facts, direct implications, or logically necessary conclusions strictly based on the passage.\n- Answer options often vary subtly; careful close reading is required to distinguish the correct option supported directly by the text.\n- Key factual or definitional sentences are typically clustered around specific keywords or phrases tied to the question.\n- Geographic or historical references, dates, names, or culturally specific terminology in the passage must be taken exactly as given.\n- Pay attention to spatial or temporal descriptions as they can be crucial (e.g., place locations, chronological order, roles of people or groups).\n\nRecommended Reasoning Approach:\n1. Carefully read the entire passage once to comprehend context.\n2. Identify exactly which sentence(s) contain information that clearly responds to the question.\n3. Extract the key fact or detail from that sentence that answers the question.\n4. Compare this fact carefully against all answer options.\n5. Choose the option that most accurately and directly reflects the passage's factual content.\n6. When constructing your reasoning, cite the passage sentence(s) you relied on and explain how they map to your chosen answer.\n7. Avoid using knowledge not included in the passage or making logical leaps beyond the text.\n\nSummary:\nYour primary responsibility is precise, evidence-based answer selection by tightly linking passage evidence to one answer choice without assumptions or overreach. Your final answer must be clearly supported by the passage text and must answer the question exactly as asked.\n\nUse this method consistently to ensure maximum accuracy and adherence to the passage content.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "The question to answer from the passage."
+        },
+        {
+          "prefix": "Passage:",
+          "description": "The passage that contains the answer."
+        },
+        {
+          "prefix": "Answer List:",
+          "description": "List of answer options."
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Correct Answer Number:",
+          "description": "Return the 1-based index of the correct option."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

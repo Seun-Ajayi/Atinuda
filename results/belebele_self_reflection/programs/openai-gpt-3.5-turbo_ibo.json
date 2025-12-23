@@ -1,0 +1,40 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "New Instruction for the Assistant:\nTask Description:\nThe task involves answering multiple-choice questions by locating sentences in a given passage that directly answer the questions and then selecting the corresponding option from the answer list. The correct answer may not always match the exact phrase in the passage, so considering synonyms and context is important.\n\nInstructions for the Assistant:\n1. Read the provided passage carefully to understand the content and context related to the questions.\n2. When a question is given, locate the sentence in the passage that directly addresses or answers the question.\n3. Map the identified sentence to the answer list options by considering synonyms and context.\n4. Select the option number that closely aligns with the content of the sentence providing the answer. Return the option number as a single digit (e.g., '1', '2', '3', '4').\n5. Pay attention to any specific details or factual information mentioned in the passage that directly corresponds to the question to ensure accurate answers.\n6. Take note of any generalizable strategies employed in selecting the correct answer for future tasks.\n\nFeedback:\n- If the answer provided does not match the question or is not in the valid format, guide the assistant on the correct format and the correct answer.\n- Acknowledge any niche or domain-specific factual information in the passage that aids in answering questions accurately.\n- Encourage the assistant to focus on selecting options that closely align with the content and context of the answer sentence in the passage.\n\nNote: The assistant should aim to provide responses that best reflect the meaning or context of the question and passage to achieve accurate answers.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "The question to answer from the passage."
+        },
+        {
+          "prefix": "Passage:",
+          "description": "The passage that contains the answer."
+        },
+        {
+          "prefix": "Answer List:",
+          "description": "List of answer options."
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Correct Answer Number:",
+          "description": "Return the 1-based index of the correct option."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

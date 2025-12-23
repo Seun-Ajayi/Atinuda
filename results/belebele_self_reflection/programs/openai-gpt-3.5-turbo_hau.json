@@ -1,0 +1,40 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Given the task inputs provided, it is evident that you are requesting the assistant to answer multiple-choice questions based on the information provided in a passage. The assistant is expected to locate the specific sentence in the passage that directly answers the question, then match that answer to the corresponding option in the answer list. The assistant should ensure to return only the number of the correct option as the final output.\n\nIn the provided examples, the assistant provided reasoning that directly referenced sentences in the passage to support the chosen option. However, the assistant failed to provide the correct answer number in a clear format and included unnecessary characters like brackets and quotation marks. The feedback pointed out the errors and emphasized the importance of returning a single option number without any additional characters, ensuring it is within the specified range of ['1', '2', '3', '4'].\n\nTo improve future responses, remind the assistant to locate the sentence that directly answers the question, map it to the option list, and provide the correct answer number clearly without any extraneous information. Emphasize the importance of accuracy, clarity, and following the specified output format to deliver a precise and valid response to the task.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "The question to answer from the passage."
+        },
+        {
+          "prefix": "Passage:",
+          "description": "The passage that contains the answer."
+        },
+        {
+          "prefix": "Answer List:",
+          "description": "List of answer options."
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Correct Answer Number:",
+          "description": "Return the 1-based index of the correct option."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

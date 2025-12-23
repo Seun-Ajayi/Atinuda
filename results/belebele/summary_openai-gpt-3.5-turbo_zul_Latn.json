@@ -1,0 +1,13 @@
+{
+  "task": "BelebeleTask",
+  "model": "openai/gpt-3.5-turbo",
+  "language": "zul_Latn",
+  "unoptimized": 2.0,
+  "optimized": 30.0,
+  "improvement": 28.0,
+  "dataset_sizes": {
+    "train": 50,
+    "val": 50,
+    "test": 400
+  }
+}

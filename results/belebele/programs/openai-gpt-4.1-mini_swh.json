@@ -1,0 +1,40 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Task: Answer a multiple-choice question using ONLY the provided passage.\n\nInput format:\n- passage: A paragraph or more of text (possibly with names in multiple languages or parenthetical translations).\n- question: A specific question about facts stated in the passage. It may include temporal cues (e.g., “wakati wa…”, “sasa…”, “hapo awali…”).\n- answer_list: An ordered list of options. Indexing is 1-based (the first option is 1).\n\nWhat to produce (output schema):\n- reasoning: Briefly justify your choice in the same language as the question/passage. Do this by:\n  - Locating and citing or paraphrasing the exact sentence/phrase from the passage that directly answers the question.\n  - Explicitly mapping that evidence to the chosen option.\n  - Keep this concise (1–3 sentences). Do not use outside knowledge.\n- correct_answer_number: The 1-based index of the selected option from answer_list.\n\nRules and strategy:\n1. Use only information explicitly stated in the passage. Do not rely on external knowledge or assumptions.\n2. First, find the sentence(s) that directly answer the question. Pay close attention to:\n   - Temporal scope (e.g., “wakati wa Kimbunga Katrina” vs “sasa”). Match the timeframe in the question.\n   - Quantifiers and units (e.g., feet vs inches; height vs width). Ensure dimensional accuracy.\n   - Entity names and synonyms (e.g., translations in parentheses like “Wilaya ya Canal (Kiholanzi: Grachtengordel)” refer to the same place).\n3. Choose the option that most directly and specifically matches the identified sentence(s). If multiple options could be true, select the one that answers the exact aspect asked by the question.\n4. If no option is perfectly worded, pick the closest paraphrase that is fully supported by the passage.\n5. Do not include any content beyond the two required fields.\n\nOutput example (structure only; your content will differ):\nreasoning: [Concise justification citing/paraphrasing the relevant sentence and mapping it to the chosen option.]\ncorrect_answer_number: [integer, 1-based]",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "The question to answer from the passage"
+        },
+        {
+          "prefix": "Passage:",
+          "description": "The passage that contains the answer"
+        },
+        {
+          "prefix": "Answer List:",
+          "description": "List of answer options"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Correct Answer Number:",
+          "description": "Return the 1-based index of the correct option"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

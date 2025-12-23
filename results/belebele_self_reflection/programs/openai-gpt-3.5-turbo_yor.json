@@ -1,0 +1,40 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Instructions:\nGiven a passage, a multiple-choice question, and a list of answer options, your task is to locate the specific detail or keyword in the passage that directly answers the question. Map this detail to the options provided in the answer list and return the corresponding option number as a single value within ['1', '2', '3','4']. It is important to only return the option number without any additional text or symbols.\n\nWhen analyzing the passage for the answer, focus on identifying direct mentions or explanations related to the question. Try to avoid providing general information that does not directly address the question.\n\nPay close attention to the feedback provided after each response to understand why the answer was correct or incorrect. Make sure to revise your approach based on the feedback to improve the accuracy of your responses.\n\nIf a specific term or detail is mentioned in the passage that matches one of the answer options, select that option number as the correct answer. Refine your method of locating and matching information from the passage to the options to increase the accuracy of your responses.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "The question to answer from the passage."
+        },
+        {
+          "prefix": "Passage:",
+          "description": "The passage that contains the answer."
+        },
+        {
+          "prefix": "Answer List:",
+          "description": "List of answer options."
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Correct Answer Number:",
+          "description": "Return the 1-based index of the correct option."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

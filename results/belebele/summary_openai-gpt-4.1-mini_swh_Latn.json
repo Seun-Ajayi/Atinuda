@@ -1,0 +1,13 @@
+{
+  "task": "BelebeleTask",
+  "model": "openai/gpt-4.1-mini",
+  "language": "swh_Latn",
+  "unoptimized": 84.0,
+  "optimized": 82.75,
+  "improvement": -1.25,
+  "dataset_sizes": {
+    "train": 50,
+    "val": 50,
+    "test": 400
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Task\nSelect the correct option (1–4) for a multiple-choice question strictly using only the given passage (often in isiZulu). Return exactly one character: '1', '2', '3', or '4'. No brackets, quotes, spaces, newlines, or explanations.\n\nInputs\n- passage: Short text (may be isiZulu; may include quotations and reported speech).\n- question: A query about the passage. It may ask for:\n  - What is stated (“Ngokwendaba/Ngokusho kwesiqephu/Ngokombiko/Ngokwalokho okushiwo”).\n  - NOT mentioned/negation (“engavezwanga”, “akushiwongo”, “akukhulunywanga”, “akuzange kushiwo/akukho okushiwo”, “akunaso/awukho umbiko”).\n  - Should/must (“kumelwe/kumele”, “kufanele”).\n  - Suggests/implication (“kusikisela”, “kusho ukuthi”, “kungenzeka”).\n  - Cause/source (“imbangela”, “umsuka”, “ngenxa ka/ye”).\n  - Who/where/when (“ubani” = who, “kuphi” = where, “nini” = when).\n- answer_list: Four options in order. Their positions map to outputs '1'–'4'.\n\nOutput\n- Exactly one character: '1', '2', '3', or '4'.\n\nMethod\n1) Identify the question type and scope:\n   - According to the passage: choose what the passage explicitly states.\n   - NOT mentioned: choose what is absent or not supported by the passage.\n   - Should/must: choose what the passage says must/should be done.\n   - Suggests/implication: choose the best-supported implication.\n   - Cause/source: choose the stated cause or source.\n   - Who/where/when: pick the named agent/place/time asked.\n\n2) Find the exact sentence(s) in the passage that answer the question.\n   - Prefer explicit statements over plausibility or world knowledge.\n   - For “kuphi” (where), pick the specific named place (e.g., “EsiGodini saseCanal”).\n   - For “ubani” (who), pick the actual agent/attributor (entity that “ithe/kusho/imemezele/kubika”).\n   - For “nini” (when), extract the stated time marker (e.g., “phakathi neSiphepho u-Katrina” = during Hurricane Katrina).\n\n3) Handle reported speech carefully:\n   - Track who said what via verbs like “ithe”, “kusho”, “imemezele”, “kubika”.\n   - If A announces that B said/labelled “X”, attribute “X” to B, not A.\n\n4) NOT mentioned questions:\n   - List mentally what is explicitly present or clearly implied.\n   - Do not select items merely plausible from world knowledge.\n   - If an option is more specific than the passage and that specificity does not appear, treat it as NOT mentioned.\n\n5) Match paraphrases/synonyms and numeric details:\n   - Negation of seriousness: “into engeyona enkulu”, “akubucayi”, “akunankinga enkulu”.\n   - Coffee terms: “short black” ≈ “espresso”; “flat white” ≈ coffee with steamed milk.\n   - Place prefixes: “e-” marks location names (e.g., “eBuffalo”).\n   - Institutional markers: “i-Apple”, “INkonzo yoMnotho… (METI)”, “Umnyango wezicisha mlilo”.\n   - Translations/aliases:\n     - “Uhamba Phambili” ≈ “Number One/Front Runner”.\n     - “Iwodi Lesishiyagalolunye” ≈ “Ninth Ward”.\n     - “Binnestad” refers to Amsterdam’s inner city; “Grachtengordel/Canal District” is a specific Amsterdam area.\n     - “amagxathu” and “izinyathelo” both mean steps; use numbers exactly (e.g., “amagxathu/izinyathelo ezingu-20”).\n     - “amayintshi angu-6” = six inches; “amafidi” = feet.\n   - Prefer options that include the exact critical detail (e.g., specific location name or exact number) matching the question.\n\n6) Tie-breakers:\n   - Prefer explicit over inferred.\n   - Match the exact scope of the question (who vs where vs when vs cause).\n   - If two options seem true, choose the one that directly includes the key detail the question asks (e.g., the precise place name or the exact number mentioned).\n\n7) Final checks:\n   - Answer the exact question type (e.g., NOT mentioned vs stated; where vs what).\n   - Ensure the chosen option text is supported by the located passage sentence(s).\n   - Map to the option’s index in answer_list (1–4).\n   - Output only '1', '2', '3', or '4'.\n\nCommon pitfalls to avoid\n- Do not output arrays, brackets, or explanations. Only a single digit.\n- Do not choose a general or related fact if the question asks for a specific one (e.g., if asked “where in Amsterdam are house prices among the highest?”, choose the named area “EsiGodini saseCanal”, not a generic “UNESCO World Heritage”).\n- Do not confuse cause with event or location scope. If asked what happened in the Ninth Ward during Katrina, choose the explicit depth there (e.g., “izinyathelo ezingu-20”), not rainfall elsewhere (“amayintshi angu-6”) or levee overflow facts unless the question is about the levee.\n- Do not misattribute quotes or statements in reported speech.\n- Do not use outside knowledge; rely solely on the passage.\n\nFormatting rule (absolute)\n- Return exactly one character: '1', '2', '3', or '4'.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "The question to answer from the passage."
+        },
+        {
+          "prefix": "Passage:",
+          "description": "The passage that contains the answer."
+        },
+        {
+          "prefix": "Answer List:",
+          "description": "List of answer options."
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Correct Answer Number:",
+          "description": "Return the 1-based index of the correct option."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Task: Answer a multiple‑choice question strictly using the given passage.\n\nInputs:\n- passage: A short text (often in Igbo).\n- question: A question about the passage (often in Igbo).\n- answer_list: A list of candidate answers (strings), 1-indexed by position.\n\nOutput format (exactly these two fields):\n- reasoning: Brief justification in the same language as the passage/question (typically Igbo). Quote or closely paraphrase the relevant sentence(s) from the passage that directly answer the question. Keep it concise (1–3 sentences).\n- correct_answer_number: The 1-based index of the chosen option from answer_list (integer only).\n\nMethod:\n1) Read the passage carefully and locate the single sentence or smallest span that directly answers the question. Prefer the explicit statement that matches all qualifiers in the question (e.g., severity, location, quantity, time).\n2) Extract the key phrase(s) and map them to the option that is an exact match or the closest faithful paraphrase. Do not infer beyond what is stated.\n3) If several sentences discuss related details, choose the one that directly answers the question rather than background or subsequent details.\n4) Match all qualifiers:\n   - Severity and negation: “O nweghị nnukwu mmerụ ahụ akọrọ” means no serious injuries; “agwọrọ maka mgbaàmà nkụja” (treated for shock) is not “nlekọta ahụike siri ike” (intensive/serious care). For a “who received serious care” question, the correct answer can be “Onweghi onye” (no one), even if some were treated for minor issues.\n   - Quantifiers: “opekata mpe mmadụ ise” = at least five people; map carefully to options like “Mmadụ ise ma ọ bụ karịa.”\n5) Identify action and agent correctly:\n   - For space/technology passages: “E ji ụgbọelu rọketi zije …” / “O na‑ewe nnukwu rọketi … itinye … teliskop n’eluụwa” → the correct agent is “Rọketi,” not measurements (e.g., “100 fiti”) or objects being launched.\n6) Geospatial terms in Igbo (common pitfalls):\n   - ugwu = north; ọwụwa anyanwụ = east; ugwu ọwụwa anyanwụ = northeast.\n   - nsu/ụzọ fensi = fence/fence line; ọnụ mmiri = water’s edge; agịga mmiri = tidal/channel; ala mmiri gbara ogige = peninsula.\n   - If the passage says “guzoro n’akụkụ nsu n’akụkụ ebe ugwu,” map to options like “Na mpaghara ngwụsị ugwu, n’ụzọ fensi,” not to broader later descriptions (e.g., of the peninsula’s NE edge) unless the question asks for those.\n7) Choose exactly one option number. Ensure it is 1-indexed and corresponds to the position in answer_list.\n\nConstraints:\n- Base your answer only on the passage; do not use outside knowledge.\n- Keep reasoning concise and in the same language as the passage/question.\n- Do not output anything besides the two required fields.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "The question to answer from the passage."
+        },
+        {
+          "prefix": "Passage:",
+          "description": "The passage that contains the answer."
+        },
+        {
+          "prefix": "Answer List:",
+          "description": "List of answer options."
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Correct Answer Number:",
+          "description": "Return the 1-based index of the correct option."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

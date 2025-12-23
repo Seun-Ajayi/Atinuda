@@ -1,0 +1,40 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "You are given:\n- passage: a short text (often in Hausa; sometimes mixed).\n- question: a multiple-choice question about the passage.\n- answer_list: an ordered list of answer options.\n\nYour task:\nSelect the single best option based ONLY on the passage and return:\n- reasoning: a brief justification in the same language as the passage/question (usually Hausa), citing an exact short clause from the passage or summarizing it concisely.\n- correct_answer_number: the 1-based index of the chosen option in answer_list (an integer only, no quotes).\n\nStrict output format:\n- Provide exactly two top-level fields: \"reasoning\" and \"correct_answer_number\".\n- Do not include the answer text, extra fields, or any explanations outside \"reasoning\".\n- Keep \"reasoning\" short (1–2 sentences) and evidence-based.\n\nMethod:\n1) Read the question carefully and classify it:\n   - Direct fact lookup (who/what/where/which).\n   - Synonym/definition mapping (parenthetical expansions or category names).\n   - Temporal order/sequence (“fara”, “daga nan”, “sannan”, “daga baya”, “a ƙarshe”, “karshe na biyu/penultimate”, “kai tsaye kafin”).\n   - Negation/exclusion (“ba … ba”, “bane/bace/ba wanda”, “wanda bai … ba”, “ban da”, “ba a ambata ba”).\n   - Quantifier/scope precision (“duka/kowane”, “wasu”, “yawancin”, “akalla”, “kusan”, “fiye da”).\n\n2) Locate the exact sentence(s) in the passage that answer the question. Quote a short supporting clause or summarize it concisely in Hausa in your reasoning. Prefer explicit statements over inference.\n\n3) Map the passage wording to the answer options precisely:\n   - Prefer exact phrasing from the passage when present.\n   - Handle common synonym/abbreviation mappings:\n     • “Masu tattaunawa/masu sasantawa” ⇒ negotiators.\n     • “Jami’ai” ⇒ officers.\n     • “Rundunar kashe gobara/ma’aikatan ceto na wuta” ⇒ fire department/firefighters.\n     • “Muridai Masu Juyi/Dervishes” ⇒ Whirling Dervishes.\n     • “Wutar Anatoliya” ⇒ Fire of Anatolia.\n     • Award categories:\n       – “Fitaccen Jarumi/Jaruma” ⇒ Lead/Best Actor/Actress (“Babbar Tauraruwa Mafi Fice”), NOT supporting.\n       – “Ƙaramar Tauraruwa” ⇒ Supporting Actor/Actress.\n     • Parenthetical titles map to the primary/English title if present in options (e.g., “Audition (Wawaye Waɗanda Suke Mafarki)” ⇄ “Audition”).\n   - For recognition/behavior questions, map concrete triggers from the passage (e.g., “musamman wanda yake da launuka masu haske” ⇒ “Sanya mayafi mai ɗan haske”).\n\n4) Temporal nuance and scope:\n   - Distinguish general/ancient evidence from formal “as a sport/event/award” starts. For questions like “aka fara … a matsayin wasa,” prefer institutional/competitive starts (e.g., “An fara tseren … wajajen ƙarni na 17”) over ancient depictions (“zanen kogo … 5000 BC”).\n   - For dates and sequences, be exact with order terms:\n     • “karshe na biyu” = penultimate (second-to-last).\n     • “a ƙarshe/domin kammala” = final/last.\n     • “kafin/kai tsaye kafin” = immediately before.\n\n5) Handle negation/exclusion and quantity carefully:\n   - If the passage says “Ba a bayar da rahoton … ba,” do not infer the opposite.\n   - Distinguish “wasu/yankuna” (some/parts) and “yawancin” (most) from “duka/kowane” (all). Only choose universal claims if explicitly supported.\n   - For “wane ne ba …” or “ban da,” select the option explicitly excluded by the relevant passage/timeframe, even if mentioned elsewhere.\n\n6) Use only information from the passage. Do not rely on outside knowledge or plausibility.\n\nLanguage:\n- Write “reasoning” in the same language as the passage/question (usually Hausa). If mixed, prefer Hausa terms used by the passage.\n- Keep reasoning concise (1–2 sentences) and include a brief quote or very short Hausa summary that directly supports the choice.\n\nQuality checks before answering:\n- Ensure the chosen option is explicitly supported by the quoted/summarized sentence(s).\n- Verify universal vs scoped claims.\n- For sequence/temporal questions, identify the exact order/timeframe intended (e.g., “a matsayin wasa” ⇒ formal/competitive start).\n- Confirm the index is 1-based and output as a bare integer (no quotes, no text).\n- Do not include the answer text itself; only the index.\n\nOutput example shape (do not include this note in your answer):\n{\n  \"reasoning\": \"Quote or concise Hausa summary that directly supports the choice.\",\n  \"correct_answer_number\": 2\n}",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "The question to answer from the passage"
+        },
+        {
+          "prefix": "Passage:",
+          "description": "The passage that contains the answer"
+        },
+        {
+          "prefix": "Answer List:",
+          "description": "List of answer options"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Correct Answer Number:",
+          "description": "Return the 1-based index of the correct option"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

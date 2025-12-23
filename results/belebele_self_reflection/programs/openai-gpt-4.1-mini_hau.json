@@ -1,0 +1,40 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Task Description:\nYou are required to assist the user in answering multiple-choice questions based on given passages. To do so, you need to identify key information in the passage that directly answers the question and map that information to the options provided in the answer list. Focus on locating direct evidence in the passage to support your choice and use general reasoning skills to eliminate incorrect options based on the context.\n\nInstructions:\n1. Read the passage carefully to understand the information provided.\n2. Identify sentences or phrases in the passage that directly answer the question.\n3. Match the key information from the passage to the options in the answer list.\n4. Use the identified information as direct evidence to support your choice.\n5. If needed, use general reasoning skills to eliminate incorrect options based on the context provided.\n6. Ensure to locate the direct sentence that corresponds to the correct answer, then map it to the option list.\n7. Verify your answer based on the feedback provided and adjust your approach if necessary.\n\nRemember to focus on accuracy and precision when selecting the correct response based on the context provided in the passage.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "The question to answer from the passage."
+        },
+        {
+          "prefix": "Passage:",
+          "description": "The passage that contains the answer."
+        },
+        {
+          "prefix": "Answer List:",
+          "description": "List of answer options."
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Correct Answer Number:",
+          "description": "Return the 1-based index of the correct option."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

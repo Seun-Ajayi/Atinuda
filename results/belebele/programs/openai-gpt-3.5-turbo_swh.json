@@ -1,0 +1,40 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Task\nRead a short passage and answer a multiple-choice question by returning only the 1-based index ('1'–'4') of the correct option from answer_list.\n\nInputs\n- passage: A short text (could be in Swahili or other languages).\n- question: A question about the passage.\n- answer_list: Exactly four options in order.\n\nOutput\n- Return only a single character: '1', '2', '3', or '4'.\n- No explanations, text, brackets, quotes, punctuation, or spaces/newlines.\n- Do not output the option text or its numeric value—output only the index position.\n\nHow to solve\n1) Comprehend the passage and question carefully. Use only information explicitly stated or clearly implied by the passage. Do not use outside knowledge.\n2) Locate the exact sentence(s) that directly answer the question. Prefer explicit statements over general themes or assumptions.\n3) Evaluate each option against the located evidence:\n   - For factual/“According to the passage” questions: pick the option that matches the explicit statement (including clear synonyms/paraphrases used or defined by the passage).\n   - For “NOT mentioned,” “EXCEPT,” or negation-style questions: pick the option that is unsupported by or contradicted by the passage. If three options are mentioned and one is not, choose the one not mentioned.\n   - Match meaning, not just wording; watch for synonyms, paraphrases, qualifiers, and negations.\n   - If multiple options seem plausible, choose the one that mirrors the wording and qualifiers in the evidence most closely.\n\nLanguage and synonym guidance (especially for Swahili)\n- Map meaning carefully; small wording differences matter:\n  - If the passage says a subject “si hatari” but “watajilinda wakihisi hatari,” and people “husipuuza tishio lao” or “huwasogelea sana,” the safest match may be “kupunguza/kuwaona kama si tishio” if that is explicitly stated; prefer the option that reflects the explicit misperception (downplaying threat) over a different behavior unless that behavior is explicitly stated.\n  - Phrases like “nchini uliko” align with being located/residing in the place you are (general location), not necessarily tied to a specific activity (e.g., “mahali unafanya kazi kwa sasa”) unless the passage explicitly anchors it to that activity.\n- Temporal/sequence words:\n  - “kisha,” “baadaye,” “kabla tu,” “takriban dakika moja baadaye,” “dakika tano ndani ya…” indicate precise order. If asked “immediately before,” choose the event directly preceding, not an earlier one.\n- Event and type distinctions:\n  - “maadhimisho” = anniversary/commemoration; “harusi” = wedding; do not conflate.\n  - If a “hafla rasmi ilipangwa kwa tarehe ya baadaye,” it did not occur at the incident time.\n  - Location matters; if a couple “walikuja Buffalo kusherehekea,” the celebration is in Buffalo even if the wedding occurred elsewhere.\n- Domain terms:\n  - “matembezi ya angani” = spacewalk; often equated to “EVA (extravehicular activity).”\n  - “EVA” in Swahili passages may be glossed as “Shughuli za ziada za magari” and is an alternate name for spacewalk, not “Mbio za Angani” (Space Race), not mission names or nicknames.\n  - “Mbio za Angani” = Space Race; do not confuse with specific activities like a spacewalk.\n  - “mvua ya mawe” = hail.\n- “NOT mentioned” naming nuance:\n  - Choose the option whose label/name is not explicitly used or clearly defined in the passage, even if it sounds plausible (e.g., “Ustaarabu wa Mto Indus” is not the same as “Ustaarabu wa Indus Valley” unless the passage equates them).\n- Numbers and qualifiers:\n  - Treat “angalau wawili” (“at least two”) as supporting “2” when options include that exact count; match the option that reflects the stated qualifier.\n\nAttribution and quotes\n- Attribute statements precisely to the correct speaker/source. If the passage says, “kampuni hiyo ilisema ‘hayakuwa makubwa’,” that quote belongs to the company, not another entity mentioned nearby.\n\nDisambiguation tips\n- Prefer the option that is supported by a direct sentence. Do not infer beyond the text.\n- For general vs specific phrasing, choose the level of specificity used in the passage:\n  - General phrasing like “nchini uliko” should map to general “mahali ulipo/kwa kawaida” rather than a specific activity/location unless explicitly tied to that activity.\n- Pay attention to negations and qualifiers (“si,” “sio,” “sio lazima,” “kabla tu,” “kwa mbali,” “polepole,” “kwa sasa”). A small qualifier can change the correct option.\n\nQuality checks before output\n- Re-read the passage to find the clearest supporting sentences.\n- Confirm the selected option aligns exactly with that evidence (including negations and qualifiers).\n- Double-check that you are outputting the option’s index (1–4), not the option’s text or value.\n- Ensure the final output is exactly one character: 1, 2, 3, or 4 (no extra characters or newline).",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "The question to answer from the passage."
+        },
+        {
+          "prefix": "Passage:",
+          "description": "The passage that contains the answer."
+        },
+        {
+          "prefix": "Answer List:",
+          "description": "List of answer options."
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Correct Answer Number:",
+          "description": "Return the 1-based index of the correct option."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

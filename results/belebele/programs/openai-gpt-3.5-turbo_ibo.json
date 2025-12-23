@@ -1,0 +1,40 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Task:\nGiven a passage, a question, and an answer_list of four options, choose the single best answer based solely on the passage and output only the option number.\n\nInput format:\n- passage: A paragraph (often in Igbo) containing the information needed.\n- question: A multiple-choice question about the passage (often in Igbo).\n- answer_list: A list of four options in order.\n\nHow to solve:\n1) Read the passage and question carefully. Identify key terms in the question and their scope.\n   - Pay close attention to Igbo cues for:\n     - Negation: anaghị, adịghị, agaghị\n     - Time/condition: tupu (before), ọ bụrụ na (if), naanị (only), ogologo oge (long-term)\n     - Comparatives/degree: karịa, ala, elu\n2) Locate the sentence(s) in the passage that directly answer the question. Prefer explicit statements over inference.\n3) Map the meaning of that sentence to the closest option in answer_list. Use exact wording or clear synonyms where possible.\n4) If the question asks for what is NOT mentioned or NOT supported, verify which options are present in the passage and select the one absent/contradicted.\n5) In case of ambiguity, choose the option most directly and explicitly supported by the passage. Do not rely on outside knowledge.\n\nDomain-specific notes from prior examples:\n- Pandemic/flu example: “agaghị enwecha ike ibute ọnwụ tupu o bute ntiwapụ” implies the virus would become less lethal before a pandemic; the correct choice is the one meaning “It will be less lethal.”\n- Environmental solutions: Long-term solutions are tied to “ịchọta isi ihe kpatara nsogbu” (identify/remove root causes), not just short-term actions.\n- Medieval castles: The passage may mention “Shivalrị” (chivalry) but not “Naịtị” (knight); if asked which is NOT mentioned, pick the one absent from the text.\n\nOutput specification:\n- Return exactly one of: '1', '2', '3', or '4'.\n- Do not include brackets, quotes, labels, option text, explanations, or extra spaces/punctuation.\n- Example of correct format: 3\n- Examples of incorrect format: [3], \"3\", 3. «Option text», 3 – Option text\n\nDo not provide reasoning in your answer. Output only the single option number.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "The question to answer from the passage."
+        },
+        {
+          "prefix": "Passage:",
+          "description": "The passage that contains the answer."
+        },
+        {
+          "prefix": "Answer List:",
+          "description": "List of answer options."
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Correct Answer Number:",
+          "description": "Return the 1-based index of the correct option."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

@@ -5,7 +5,7 @@
     "example_answer_lang": [
       "Mahathir"
     ],
-    "reasoning": "The context mentions that Mahathir is the prime minister who spent the longest time in office in Malaysia.",
+    "reasoning": "The question is asking for the name of the Prime Minister of Malaysia. To answer this question, we need to look for the name of the minister in the provided context.",
     "pred_answer_lang": "Mahathir",
     "metric_f1": 1.0
   },
@@ -15,7 +15,7 @@
     "example_answer_lang": [
       "1962"
     ],
-    "reasoning": "The passage provides information that directly answers the question by stating that Kigali is the capital city of Rwanda.",
+    "reasoning": "The question is asking for the location of Gasabo, the capital city of Rwanda.",
     "pred_answer_lang": "Kigali",
     "metric_f1": 0.0
   },
@@ -25,9 +25,9 @@
     "example_answer_lang": [
       "Gasabo"
     ],
-    "reasoning": "The district of Gasabo, located in Kigali city, includes Kimironko Sector as one of its areas.",
-    "pred_answer_lang": "Kimironko",
-    "metric_f1": 0.0
+    "reasoning": "The question is asking for the region where Kimironko Sector is located.",
+    "pred_answer_lang": "Gasabo",
+    "metric_f1": 1.0
   },
   {
     "question_lang": "Paul Rusesabagina  yavukiye hehe?",
@@ -35,9 +35,9 @@
     "example_answer_lang": [
       "Murama, Rwanda"
     ],
-    "reasoning": "The context mentions that Paul Rusesabagina was born in 1954.",
-    "pred_answer_lang": "1954",
-    "metric_f1": 0.0
+    "reasoning": "The question asks for where Paul Rusesabagina was born.",
+    "pred_answer_lang": "Murama",
+    "metric_f1": 0.6666666666666666
   },
   {
     "question_lang": "Minisitere y'ingabo ya Singapore iyobowe nande?",
@@ -45,7 +45,7 @@
     "example_answer_lang": [
       "Ng Eng Hen"
     ],
-    "reasoning": "The context provided mentions that Defence Minister Ng Eng Hen announced the transition of the Singapore Armed Forces (SAF) to fourth-generation technologies. This implies that Ng Eng Hen is the Minister of Defence of Singapore.",
+    "reasoning": "The question asks for the name of the Minister of Defence of Singapore. We need to identify the exact phrase in the context that provides this information.",
     "pred_answer_lang": "Ng Eng Hen",
     "metric_f1": 1.0
   },
@@ -55,8 +55,8 @@
     "example_answer_lang": [
       "Aziya"
     ],
-    "reasoning": "The question asks for the location of Turkey in terms of cardinal directions and nearby bodies of water, as well as the specific nearby countries it shares borders with.",
-    "pred_answer_lang": "iburengerazuba; mu majyaruguru y’uburasirazuba; mu majyepfo; mu burasirazuba; mu majyepfo no mu burasirazuba; Uburasirazuba; Sieriya; Ayiraberi; Ayiraani; Ayira; Iraki; Siriya; Uburenga bwa Mediteraneo; Ubufunduswa bw’l'Ageo; Uburengazuba; Bulgaria.",
+    "reasoning": "The question is asking for the location of Turkey.",
+    "pred_answer_lang": "Anatolian Peninsula in Western Asia",
     "metric_f1": 0.0
   },
   {
@@ -65,9 +65,9 @@
     "example_answer_lang": [
       "01 Gicurasi 1776"
     ],
-    "reasoning": "The Illuminati was founded in Bavaria, which is now part of Germany, in 1776 during the Enlightenment era. Its goals included opposing superstition, obscurantism, religious influence, and abuses of state power. The group was outlawed by Charles Theodore, Elector of Bavaria, in the years 1784, 1785, 1787, and 1790.",
-    "pred_answer_lang": "Ushinzwe muri Bavaria, ubu i Germany, ku itariki ya 1 Mata 1776.",
-    "metric_f1": 0.13333333333333333
+    "reasoning": "The question is asking when the Illuminati was founded.",
+    "pred_answer_lang": "1 May 1776",
+    "metric_f1": 0.3333333333333333
   },
   {
     "question_lang": "Ishyaka riri kubutegetsi muri Esipanye ni irihe?",
@@ -75,9 +75,9 @@
     "example_answer_lang": [
       "Ishyaka ry'Abaturage (PP)"
     ],
-    "reasoning": "The People's Party (PP) is the party that governs in Spain.",
-    "pred_answer_lang": "PP",
-    "metric_f1": 0.4
+    "reasoning": "The question is asking for the party that was in power in Spain under the leadership of José María Aznar from 1996 to 2004.",
+    "pred_answer_lang": "People's Party",
+    "metric_f1": 0.0
   },
   {
     "question_lang": "ni ibihe bihugu bikigendera kungoma ya cyami mu Afurika?",
@@ -85,7 +85,7 @@
     "example_answer_lang": [
       "Lesotho na Maroc"
     ],
-    "reasoning": "The current monarchies in Africa are Lesotho, Morocco, and Eswatini.",
+    "reasoning": "The question asks for the countries that are currently sovereign monarchies in Africa.",
     "pred_answer_lang": "Lesotho, Morocco, Eswatini",
     "metric_f1": 0.3333333333333333
   },
@@ -95,8 +95,8 @@
     "example_answer_lang": [
       "Oman na Arabiya Sawudite, mu gihe bafite imipaka y'inyanja mu kigobe cy'u Buperesi na Qatar na Irani"
     ],
-    "reasoning": "The United Arab Emirates comprises seven emirates, namely Abu Dhabi (capital), Ajman, Dubai, Fujairah, Ras Al Khaimah, Sharjah, and Umm Al Quwain.",
-    "pred_answer_lang": "Abu Dhabi, Ajman, Dubai, Fujairah, Ras Al Khaimah, Sharjah, Umm Al Quwain",
+    "reasoning": "The question is asking for the number of emirates that make up the United Arab Emirates (Leta Zunze Ubumwe z'Abarabu).",
+    "pred_answer_lang": "Seven",
     "metric_f1": 0.0
   },
   {
@@ -105,9 +105,9 @@
     "example_answer_lang": [
       "1963"
     ],
-    "reasoning": "The earliest inhabitants of Kenya were hunter-gatherers, and later, Cushitic speakers settled in Kenya's lowlands between 3,200 and 1,300 BC, the Nilotic-speaking pastoralists migrated around 500 BC, and the Bantu people settled around 250 BC to 500 AD. European contact began in 1500 AD, with colonization starting in the 19th century. Kenya gained independence in 1963.",
-    "pred_answer_lang": "1963",
-    "metric_f1": 1.0
+    "reasoning": "The question is asking for the earliest settlement period in Kenya. To answer this question, we need to find the earliest settlement date mentioned in the context.",
+    "pred_answer_lang": "3,200 BC",
+    "metric_f1": 0.0
   },
   {
     "question_lang": "igisirikari cya Viyetinamu cyitwa gute?",
@@ -115,8 +115,8 @@
     "example_answer_lang": [
       "Ingabo z'abaturage za Vietnam"
     ],
-    "reasoning": "The military force of the Socialist Republic of Vietnam is known as the Vietnam People's Army (VPA).",
-    "pred_answer_lang": "VPA",
+    "reasoning": "The question is asking for the name of the military force of Vietnam.",
+    "pred_answer_lang": "Quân đội nhân dân Việt Nam",
     "metric_f1": 0.0
   },
   {
@@ -125,7 +125,7 @@
     "example_answer_lang": [
       "Lee Hsien Loong"
     ],
-    "reasoning": "The question asks for the name of the Prime Minister of Singapore. The context mentions that Lee Hsien Loong is the incumbent Prime Minister of Singapore.",
+    "reasoning": "The question is asking for the name of the Prime Minister of Singapore. In the provided context, it states that the incumbent Prime Minister of Singapore is Lee Hsien Loong.",
     "pred_answer_lang": "Lee Hsien Loong",
     "metric_f1": 1.0
   },
@@ -135,8 +135,8 @@
     "example_answer_lang": [
       "2006"
     ],
-    "reasoning": "The Kigali City Tower was developed by Rwandan businessman Hatari Sekoko and built by Chinese engineers. The construction began in 2006 and the complex opened in 2011.",
-    "pred_answer_lang": "Kigali",
+    "reasoning": "The question is asking for when the Kigali City Tower was opened.",
+    "pred_answer_lang": "2011",
     "metric_f1": 0.0
   },
   {
@@ -145,7 +145,7 @@
     "example_answer_lang": [
       "1999"
     ],
-    "reasoning": "The G20 was founded in 1999 as a response to world economic crises, with summits being held at least once a year since 2008. The EU is represented by the European Commission and the European Central Bank at these summits.",
+    "reasoning": "The question is asking for when the G20 was founded.",
     "pred_answer_lang": "1999",
     "metric_f1": 1.0
   },
@@ -155,8 +155,8 @@
     "example_answer_lang": [
       "Kaminuza ya Makerere muri Uganda"
     ],
-    "reasoning": "Dr. Agnes Matilda Kalibata yarangirije amashuri ye he?",
-    "pred_answer_lang": "Makerere University mu Uganda",
+    "reasoning": "The question is asking where Dr. Agnes Matilda Kalibata led her studies.",
+    "pred_answer_lang": "Makerere University in Uganda",
     "metric_f1": 0.4444444444444445
   },
   {
@@ -165,8 +165,8 @@
     "example_answer_lang": [
       "Arabiya Sawudite, Leta zunze ubumwe z'Abarabu, na Yemeni;  mugihe dusangiye imipaka yinyanja na Irani na Pakisitani"
     ],
-    "reasoning": "The countries that border Oman are mentioned in the context.",
-    "pred_answer_lang": "Saudi Arabia; United Arab Emirates; Yemen",
+    "reasoning": "The question is asking for the time period when Oman was an empire.",
+    "pred_answer_lang": "17th century",
     "metric_f1": 0.0
   },
   {
@@ -175,9 +175,9 @@
     "example_answer_lang": [
       "8 Mutarama 1942"
     ],
-    "reasoning": "He yavukiye ari muri **Mwerurwe 1942**.",
-    "pred_answer_lang": "Mwerurwe 1942",
-    "metric_f1": 0.4
+    "reasoning": "The question is asking for the birthplace of Stephen Hawking.",
+    "pred_answer_lang": "Oxford",
+    "metric_f1": 0.0
   },
   {
     "question_lang": "ni akahe gace ko mu rwanda kabamo imigwegwe cyane",
@@ -185,8 +185,8 @@
     "example_answer_lang": [
       "Kamonyi"
     ],
-    "reasoning": "The context highlights the importance of agriculture in Tanzania's economy, mentioning the main food crops grown in the country.",
-    "pred_answer_lang": "Amashure y'imyaka 44 ni arize 44miliyari y'hektare zimirimo mu Tanzania zitewe n'ubwoko bw'imigwegwe uyu mubare w'hektare kugeza ubwo usanga 33% zirimo mu guhinga.",
+    "reasoning": "The question is asking about the type of activity that involves a large amount of land in Rwanda.",
+    "pred_answer_lang": "Agriculture",
     "metric_f1": 0.0
   },
   {
@@ -195,9 +195,9 @@
     "example_answer_lang": [
       "Huye"
     ],
-    "reasoning": "The question asks if Butare is currently in a different region. Based on the information provided in the context, it is known that Butare (Huye) is situated in the Southern Province of Rwanda.",
-    "pred_answer_lang": "Oya",
-    "metric_f1": 0.0
+    "reasoning": "The question is asking for the current location of Butare. We need to locate the part in the context that provides this information.",
+    "pred_answer_lang": "Huye",
+    "metric_f1": 1.0
   },
   {
     "question_lang": "ni ikihe gihugu cyakoronije Swazilandi?",
@@ -205,8 +205,8 @@
     "example_answer_lang": [
       "Ubwami bw'Uburomani"
     ],
-    "reasoning": "The country that borders Swaziland is South Africa.",
-    "pred_answer_lang": "Afurika y'Epfo.",
+    "reasoning": "The question asks for the country that borders Swaziland. The text mentions the alpine region integrating into the Roman Empire, but Swaziland is not explicitly mentioned or alluded to.",
+    "pred_answer_lang": "Nta bisubizo bihari mu nyandiko yahawe",
     "metric_f1": 0.0
   },
   {
@@ -215,7 +215,7 @@
     "example_answer_lang": [
       "Tatiana Rusesabagina"
     ],
-    "reasoning": "Paul Rusesabagina ntiyashakanye nande, yashakanye mukwe ko ni Tatiana Rusesabagina.",
+    "reasoning": "The question asks about Paul Rusesabagina's spouse, which is Tatiana Rusesabagina.",
     "pred_answer_lang": "Tatiana Rusesabagina",
     "metric_f1": 1.0
   },
@@ -225,9 +225,9 @@
     "example_answer_lang": [
       "Washington, D.C."
     ],
-    "reasoning": "The main headquarters of the International Monetary Fund (IMF) is located in Washington, D.C.",
-    "pred_answer_lang": "Washington, D.C.",
-    "metric_f1": 1.0
+    "reasoning": "The question is asking for the founding year of the International Monetary Fund (IMF), which can be found in the context mentioning that it was formed in 1944 and started on 27 December 1945.",
+    "pred_answer_lang": "1944",
+    "metric_f1": 0.0
   },
   {
     "question_lang": "nuwuhe musozi muremure muri Aziya?",
@@ -235,9 +235,9 @@
     "example_answer_lang": [
       "Andes"
     ],
-    "reasoning": "The context mentions that the longest mountain range in the world above sea level is the Andes.",
-    "pred_answer_lang": "Andes",
-    "metric_f1": 1.0
+    "reasoning": "The question is asking for the highest mountain range in Asia.",
+    "pred_answer_lang": "Hakiri kanwa k'isi",
+    "metric_f1": 0.0
   },
   {
     "question_lang": "minisitiri w'intebe wa Mayanimari yitwa nde?",
@@ -245,7 +245,7 @@
     "example_answer_lang": [
       "Min Aung Hlaing"
     ],
-    "reasoning": "The prime minister of Myanmar, according to the context, is Min Aung Hlaing.",
+    "reasoning": "The question is asking for the name of the Prime Minister of Myanmar.",
     "pred_answer_lang": "Min Aung Hlaing",
     "metric_f1": 1.0
   },
@@ -255,7 +255,7 @@
     "example_answer_lang": [
       "Canberra"
     ],
-    "reasoning": "The capital city of Australia, which also functions as the national capital, is Canberra.",
+    "reasoning": "The question is asking for the main city of Australia. From the context, it is clear that Canberra is the capital city of Australia.",
     "pred_answer_lang": "Canberra",
     "metric_f1": 1.0
   },
@@ -265,9 +265,9 @@
     "example_answer_lang": [
       "Rudahigwa"
     ],
-    "reasoning": "Yuhi V Musinga was deposed by the Belgian colonial administration four days before Rudahigwa became king. Therefore, Yuhi V Musinga was deposed on 12 November 1931.",
-    "pred_answer_lang": "12 Mutarama 1931",
-    "metric_f1": 0.0
+    "reasoning": "The question is asking for the person who bought the drum for Yuhi V Musinga. From the context, we can see that Rudahigwa became king after Yuhi V Musinga was deposed, so the person who bought the drum for Yuhi V Musinga was his son, Rudahigwa.",
+    "pred_answer_lang": "Rudahigwa",
+    "metric_f1": 1.0
   },
   {
     "question_lang": "isi izenguruka izuba mugihe kingana iki?",
@@ -275,8 +275,8 @@
     "example_answer_lang": [
       "Iminsi 365.256"
     ],
-    "reasoning": "The average distance between the Earth and the Sun when it is closest is referred to as \"periapsis\" or \"perihelion.\"",
-    "pred_answer_lang": "Periapsis",
+    "reasoning": "The question is asking for the average distance of the Earth from the Sun when compared to something else.",
+    "pred_answer_lang": "149.60 million km",
     "metric_f1": 0.0
   },
   {
@@ -285,7 +285,7 @@
     "example_answer_lang": [
       "1985"
     ],
-    "reasoning": "umuryango w'ubukungu bw'ibihugu by'afurika yo hagati watangiye imirimo yawo muri 1985.",
+    "reasoning": "The question is asking for the year when ECCAS began functioning.",
     "pred_answer_lang": "1985",
     "metric_f1": 1.0
   },
@@ -295,7 +295,7 @@
     "example_answer_lang": [
       "Warwick, New York"
     ],
-    "reasoning": "The headquarters of Jehovah's Witnesses, known as the Governing Body, is located in Warwick, New York.",
+    "reasoning": "The question is asking for the location of the headquarters of Jehovah's Witnesses.",
     "pred_answer_lang": "Warwick, New York",
     "metric_f1": 1.0
   },
@@ -305,8 +305,8 @@
     "example_answer_lang": [
       "Ruganzu II Ndoli"
     ],
-    "reasoning": "Ruganzu II Ndoli yasimbuye kungoma.",
-    "pred_answer_lang": "kungoma",
+    "reasoning": "The question is asking for who Mutara II Rwogera bought a gong from. Therefore, we need to find the name of the person Mutara II Rwogera bought the gong from in the context.",
+    "pred_answer_lang": "Nta bisubizo bihari mu nyandiko yahawe",
     "metric_f1": 0.0
   },
   {
@@ -315,7 +315,7 @@
     "example_answer_lang": [
       "Washington, D.C"
     ],
-    "reasoning": "The headquarters of the International Development Association (IDA) is located in Washington, D.C., United States.",
+    "reasoning": "The question is asking for the location of the headquarters of the International Development Association (IDA).",
     "pred_answer_lang": "Washington, D.C.",
     "metric_f1": 1.0
   },
@@ -325,9 +325,9 @@
     "example_answer_lang": [
       "22 Mata 1724"
     ],
-    "reasoning": "The birth date of the philosopher Immanuel Kant is provided in the context as \"22 April 1724\".",
-    "pred_answer_lang": "22 Werurwe 1724",
-    "metric_f1": 0.6666666666666666
+    "reasoning": "The question is asking for the birth year of the philosopher Immanuel Kant.",
+    "pred_answer_lang": "1724",
+    "metric_f1": 0.5
   },
   {
     "question_lang": "Emmanuel Jean-Michel Frédéric Macron yavutse ryari?",
@@ -335,9 +335,9 @@
     "example_answer_lang": [
       "21 Ukuboza 1977"
     ],
-    "reasoning": "To answer the question about Emmanuel Jean-Michel Frédéric Macron's birthdate, we look at the provided context where it mentions that he was born on 21 December 1977.",
-    "pred_answer_lang": "21 Werurwe 1977",
-    "metric_f1": 0.6666666666666666
+    "reasoning": "The question asks for the birth date of Emmanuel Jean-Michel Frédéric Macron.",
+    "pred_answer_lang": "1977",
+    "metric_f1": 0.5
   },
   {
     "question_lang": "Perezida wa Chad yitwa nde?",
@@ -345,7 +345,7 @@
     "example_answer_lang": [
       "Mahamat Déby"
     ],
-    "reasoning": "The current head of state of Chad is President of the Transitional Military Council Mahamat Déby, following the death of his father, Idriss Déby. Therefore, the President of Chad is Mahamat Déby.",
+    "reasoning": "Identify that the question is asking for the name of the President of Chad.",
     "pred_answer_lang": "Mahamat Déby",
     "metric_f1": 1.0
   },
@@ -355,9 +355,9 @@
     "example_answer_lang": [
       "Baghdad"
     ],
-    "reasoning": "The hospital in question is University Hospital Center IBN SINA in Baghdad, Iraq.",
-    "pred_answer_lang": "Baghdad",
-    "metric_f1": 1.0
+    "reasoning": "The question is asking for where the University Hospital Center IBN SINA is located.",
+    "pred_answer_lang": "Baghdad, Iraq",
+    "metric_f1": 0.6666666666666666
   },
   {
     "question_lang": "sitade ya cricket mu rwanda yubatswe ryari?",
@@ -365,8 +365,8 @@
     "example_answer_lang": [
       "Werurwe 2017"
     ],
-    "reasoning": "The cricket stadium in Rwanda is known as the \"Rwanda Cricket Stadium.\"",
-    "pred_answer_lang": "Rwanda Cricket Stadium",
+    "reasoning": "The question asks for when the Rwanda Cricket Stadium Foundation was formed.",
+    "pred_answer_lang": "August 2011",
     "metric_f1": 0.0
   },
   {
@@ -375,8 +375,8 @@
     "example_answer_lang": [
       "2019"
     ],
-    "reasoning": "The Catholic Church is based in the Vatican City, which is a small enclave of the Italian city of Rome.",
-    "pred_answer_lang": "Vatican City",
+    "reasoning": "The question is asking for where the Roman Catholic Church originated from.",
+    "pred_answer_lang": "Rome",
     "metric_f1": 0.0
   },
   {
@@ -385,9 +385,9 @@
     "example_answer_lang": [
       "30 Kamena 1960"
     ],
-    "reasoning": "The birth date of Mukabarisa Donatille is provided in the context as July 30, 1960.",
-    "pred_answer_lang": "30 Mata 1960",
-    "metric_f1": 0.6666666666666666
+    "reasoning": "The question asks for the birth year of Donatille Mukabalisa.",
+    "pred_answer_lang": "1960",
+    "metric_f1": 0.5
   },
   {
     "question_lang": "ninde wabaye imbarutso ya jenoside yakorewe abatutsi muri mata  1994?",
@@ -395,8 +395,8 @@
     "example_answer_lang": [
       "Indorerezi nyinshi zemeza ko igitero n'urupfu rwa ba perezida bombi b'Abahutu byagize uruhare mu itsembabwoko"
     ],
-    "reasoning": "Paul Kagame nyuma y’imbarutso ya ndege yari itwaye présiden Habyarimana.",
-    "pred_answer_lang": "Paul Kagame",
+    "reasoning": "The question is asking for the individual who was the president during the genocide against the Tutsi in 1994.",
+    "pred_answer_lang": "Juvénal Habyarimana",
     "metric_f1": 0.0
   },
   {
@@ -405,9 +405,9 @@
     "example_answer_lang": [
       "15 Gicurasi 1912 - 2 Ukuboza 1981"
     ],
-    "reasoning": "The context provides the birth and death dates of Alexis Kagame, so we can extract the birth year from there.",
-    "pred_answer_lang": "15 Werurwe 1912",
-    "metric_f1": 0.4444444444444444
+    "reasoning": "The question is asking for the years during which Alexis Kagame was alive.",
+    "pred_answer_lang": "1912 – 1981",
+    "metric_f1": 0.5
   },
   {
     "question_lang": "Vladimir Dmitriyevich Volkov yavutse ryari?",
@@ -415,8 +415,8 @@
     "example_answer_lang": [
       "07 Nzeri 1954"
     ],
-    "reasoning": "The birth date of Vladimir Dmitriyevich Volkov is provided in the context, specifically as 7 September 1954.",
-    "pred_answer_lang": "7 Werurwe 1954",
+    "reasoning": "The question asks for when Vladimir Dmitriyevich Volkov was born. To answer this question, I will locate the specific date of birth provided in the context.",
+    "pred_answer_lang": "7 September 1954",
     "metric_f1": 0.3333333333333333
   },
   {
@@ -425,7 +425,7 @@
     "example_answer_lang": [
       "Bashar al-Assad"
     ],
-    "reasoning": "The president of Syria mentioned in the context is Bashar al-Assad.",
+    "reasoning": "The president of Syria is Bashar al-Assad.",
     "pred_answer_lang": "Bashar al-Assad",
     "metric_f1": 1.0
   },
@@ -435,9 +435,9 @@
     "example_answer_lang": [
       "2021"
     ],
-    "reasoning": "The individual who began leading Peru is José Pedro Castillo Terrones.",
-    "pred_answer_lang": "José Pedro Castillo Terrones",
-    "metric_f1": 0.0
+    "reasoning": "The question is asking when José Pedro Castillo Terrones started leading the country of Peru.",
+    "pred_answer_lang": "28 July 2021",
+    "metric_f1": 0.5
   },
   {
     "question_lang": "silovakiya ihana imbibi n'ibihe bihugu?",
@@ -445,9 +445,9 @@
     "example_answer_lang": [
       "Polonye mu majyaruguru, Ukraine mu burasirazuba, Hongiriya mu majyepfo, Otirishiya mu majyepfo y'uburengerazuba, na Repubulika ya Ceki."
     ],
-    "reasoning": "The neighboring countries of Slovakia are listed in the context, which allows us to provide the requested information.",
-    "pred_answer_lang": "Ubuhugu bw'Ubufaransa, Ubowuhungari, Ubuporonye, Ubupolonye na Ugahungari.",
-    "metric_f1": 0.07692307692307691
+    "reasoning": "The question is asking for the borders of Slovakia.",
+    "pred_answer_lang": "Poland to the north, Ukraine to the east, Hungary to the south, Austria to the southwest, and the Czech Republic to the northwest",
+    "metric_f1": 0.04878048780487805
   },
   {
     "question_lang": "umurwa mukuru wa Komore ni uwuhe?",
@@ -455,7 +455,7 @@
     "example_answer_lang": [
       "Moroni"
     ],
-    "reasoning": "The largest city, federal capital, and seat of the government of the Union of the Comoros is Moroni.",
+    "reasoning": "The question is asking for the main city of Comoros. From the context, we can see that Moroni is the federal capital and largest city of the Union of the Comoros.",
     "pred_answer_lang": "Moroni",
     "metric_f1": 1.0
   },
@@ -465,9 +465,9 @@
     "example_answer_lang": [
       "Daegu"
     ],
-    "reasoning": "The birth date of Sung Jae-gi is provided in the context as September 11, 1967.",
-    "pred_answer_lang": "11 Werurwe 1967",
-    "metric_f1": 0.0
+    "reasoning": "The question is asking for the birthplace of Sung Jae-gi.",
+    "pred_answer_lang": "Daegu",
+    "metric_f1": 1.0
   },
   {
     "question_lang": "Iyo uvuye I kigali urenze inyanza uba werekeza mukahe karere?",
@@ -475,8 +475,8 @@
     "example_answer_lang": [
       "Huye"
     ],
-    "reasoning": "The town that you would reach after departing from Kigali to Nyanza is Muhanga.",
-    "pred_answer_lang": "Muhanga",
+    "reasoning": "The question is asking about the place where someone should turn off the main road when traveling from Kigali to Butare. The answer can be found in the context where it mentions that the town of Nyanza requires a turn off the main road.",
+    "pred_answer_lang": "Nyanza",
     "metric_f1": 0.0
   },
   {
@@ -485,9 +485,9 @@
     "example_answer_lang": [
       "Ishyaka Riharanira Demokarasi no Kurengera Ibidukikije mu Rwanda"
     ],
-    "reasoning": "Frank Habineza abarizwa murihe shyaka rya politike nyuma y'uko yari umusore. Yatangiye ubuyobozi bw'ishyaka rya Politike ry'igihugu cya Rwanda, Democratic Green Party of Rwanda muri August 2009. Ishyaka ryari ryatangiye gufata ibyemezo iri kuwa 6 ntiyabonekeraga. Aha mw'ijoro rya 2010, ishyaka ryatumye n'ivanguramoko ahazitagurwa mu matora y'umukandida wahoze mu matora y'iyo Gashyatse 2010. Muri Werurwe 2018, Francoise Habineza w'undi umwe bari bemeje guhagarika mu Ishyaka rya Politike rya Rwanda Democratic Green Party, bahagaritswe kugira intere mu Parlamentu ya Repubulika y'u Rwanda. Ni abanyarwanda tuvugira muri za matora atari uko biri kumwe, bose barambitse kwemezwa twitabiriye mu mahanga yose.",
-    "pred_answer_lang": "Democratic Green Party of Rwanda",
-    "metric_f1": 0.15384615384615385
+    "reasoning": "The question is asking about where Frank Habineza was born.",
+    "pred_answer_lang": "Rwanda",
+    "metric_f1": 0.2222222222222222
   },
   {
     "question_lang": "ni uwuhe mujyi wa w'akarere ka Bugesera mu rwanda?",
@@ -495,7 +495,7 @@
     "example_answer_lang": [
       "Nyamata"
     ],
-    "reasoning": "The capital city of Bugesera district in Rwanda is Nyamata.",
+    "reasoning": "The question is asking for the name of the city in Bugesera district in Rwanda.",
     "pred_answer_lang": "Nyamata",
     "metric_f1": 1.0
   },
@@ -505,9 +505,9 @@
     "example_answer_lang": [
       "Gustav Adolf von Götzen"
     ],
-    "reasoning": "The river referenced in the context that flows through Rwanda and features prominently in its history is the Kagera River.",
-    "pred_answer_lang": "Kagera",
-    "metric_f1": 0.0
+    "reasoning": "The question is asking about the nationality of the individual who arrived in Rwanda and crossed at Rusumo Falls. To answer this, we need to find the name of the person who crossed the Kagera at Rusumo Falls in 1894 according to the context.",
+    "pred_answer_lang": "German Gustav Adolf von Götzen",
+    "metric_f1": 0.888888888888889
   },
   {
     "question_lang": "Vladislav Grigori-ipa Ardzinba yayoboye Repubulika y'Abukaziya ryari?",
@@ -515,9 +515,9 @@
     "example_answer_lang": [
       "1994"
     ],
-    "reasoning": "Vladislav Grigori-ipa Ardzinba yayoboye Repubulika y'Abukaziya ryari kuri 1 Nzeri 1994.",
-    "pred_answer_lang": "1 Nzeri 1994",
-    "metric_f1": 0.5
+    "reasoning": "The question asks for the year when Vladislav Ardzinba led the Republic of Abkhazia.",
+    "pred_answer_lang": "1994",
+    "metric_f1": 1.0
   },
   {
     "question_lang": "urugomero rwa rusumo ruri mukahe karere?",
@@ -525,8 +525,8 @@
     "example_answer_lang": [
       "Ngoma"
     ],
-    "reasoning": "The Rusumo Falls is located near the town of Rusumo, which is situated along the border between Rwanda and Tanzania.",
-    "pred_answer_lang": "Rusumo yahari irushanwa rwa Rusumo ruri mukahe mukarere kiri mu biyaga bya Tanzania.",
+    "reasoning": "The question asks for the location of the Rusumo Falls power station.",
+    "pred_answer_lang": "Rusumo",
     "metric_f1": 0.0
   },
   {
@@ -535,9 +535,9 @@
     "example_answer_lang": [
       "09 Nyakanga 1970"
     ],
-    "reasoning": "The Environmental Protection Agency (EPA) was established in the United States on December 2, 1970.",
-    "pred_answer_lang": "2 Ukuboza 1970",
-    "metric_f1": 0.3333333333333333
+    "reasoning": "The question is asking for the year when EPA (Environmental Protection Agency) was established.",
+    "pred_answer_lang": "1970",
+    "metric_f1": 0.5
   },
   {
     "question_lang": "Inka ikamwa igihe kingana gute?",
@@ -545,9 +545,9 @@
     "example_answer_lang": [
       "Iminsi 305 cyangwa amezi 10"
     ],
-    "reasoning": "The production levels of a dairy cow peak at around 40 to 60 days after calving, and milking is stopped at about 10 months. The cow is then \"dried off\" for about sixty days before calving again. Within a 12 to 14-month inter-calving cycle, the milking period is about 305 days or 10 months long.",
-    "pred_answer_lang": "10 mpera",
-    "metric_f1": 0.28571428571428575
+    "reasoning": "The question is asking for the specific time when a dairy cow's milk production peaks. To answer this, we look for the relevant information about milk production in the context passage.",
+    "pred_answer_lang": "40 to 60 days after calving",
+    "metric_f1": 0.0
   },
   {
     "question_lang": "igihugu kitwa Kapu veri kibarizwa kuwuhe mugabane?",
@@ -555,8 +555,8 @@
     "example_answer_lang": [
       "Afurika"
     ],
-    "reasoning": "The country that is named after the westernmost point of continental Africa is known as Cape Verde or Cabo Verde.",
-    "pred_answer_lang": "Kapu Veri",
+    "reasoning": "The country that is being referred to as \"Cape Verde\" in the context is also known as \"Cabo Verde\".",
+    "pred_answer_lang": "Cabo Verde",
     "metric_f1": 0.0
   },
   {
@@ -565,7 +565,7 @@
     "example_answer_lang": [
       "Belgrade"
     ],
-    "reasoning": "The capital city of Serbia is Belgrade.",
+    "reasoning": "The question asks for the capital city of Serbia.",
     "pred_answer_lang": "Belgrade",
     "metric_f1": 1.0
   },
@@ -575,9 +575,9 @@
     "example_answer_lang": [
       "Liberia"
     ],
-    "reasoning": "The question asks about the presidential residence of Liberia.",
-    "pred_answer_lang": "La maison exécutive de Liberia",
-    "metric_f1": 0.33333333333333337
+    "reasoning": "The question is asking where the Executive Mansion of Liberia is located.",
+    "pred_answer_lang": "Monrovia",
+    "metric_f1": 0.0
   },
   {
     "question_lang": "Al-Hussein ibn Ali ibn Abi Talib yavutse ryari?",
@@ -585,9 +585,9 @@
     "example_answer_lang": [
       "10 Mutarama 0626"
     ],
-    "reasoning": "The birth date of Al-Hussein ibn Ali ibn Abi Talib can be found in the context provided.",
-    "pred_answer_lang": "10 Mutarama 626",
-    "metric_f1": 0.6666666666666666
+    "reasoning": "The question is asking for where Al-Hussein ibn Ali ibn Abi Talib was born.",
+    "pred_answer_lang": "Mecca",
+    "metric_f1": 0.0
   },
   {
     "question_lang": "Ni ikihe gihugu gihana imbibi na Dominika?",
@@ -595,8 +595,8 @@
     "example_answer_lang": [
       "Haiti"
     ],
-    "reasoning": "The country that shares the island of Hispaniola with Haiti is the Dominican Republic.",
-    "pred_answer_lang": "Dominika",
+    "reasoning": "The question is asking for the country that shares the island of Hispaniola with Dominica. From the context, we can see that the country sharing the island of Hispaniola with Dominica is the Dominican Republic.",
+    "pred_answer_lang": "Dominican Republic",
     "metric_f1": 0.0
   },
   {
@@ -605,7 +605,7 @@
     "example_answer_lang": [
       "Zagreb"
     ],
-    "reasoning": "The capital city of Croatia is mentioned in the context as \"Zagreb\".",
+    "reasoning": "The question asks for the capital of Croatia, which is the main city within the country.",
     "pred_answer_lang": "Zagreb",
     "metric_f1": 1.0
   },
@@ -615,8 +615,8 @@
     "example_answer_lang": [
       "Inyanja ya Karayibe"
     ],
-    "reasoning": "The main island of Cuba has 5,746 km of coastline.",
-    "pred_answer_lang": "5,746 km",
+    "reasoning": "The question is asking for the location of the island of Cuba.",
+    "pred_answer_lang": "Caribbean Sea",
     "metric_f1": 0.0
   },
   {
@@ -625,7 +625,7 @@
     "example_answer_lang": [
       "1960"
     ],
-    "reasoning": "The independence of Nigeria is indicated in the text.",
+    "reasoning": "The year when Nigeria gained independence is explicitly mentioned in the context as 1960.",
     "pred_answer_lang": "1960",
     "metric_f1": 1.0
   },
@@ -635,7 +635,7 @@
     "example_answer_lang": [
       "Abdoulkader Kamil Mohamed"
     ],
-    "reasoning": "The current Prime Minister of Djibouti is Abdoulkader Kamil Mohamed, as mentioned in the context.",
+    "reasoning": "The question is asking for the name of the Prime Minister of Djibouti. To find the answer, we need to identify the current Prime Minister's name from the context.",
     "pred_answer_lang": "Abdoulkader Kamil Mohamed",
     "metric_f1": 1.0
   },
@@ -645,7 +645,7 @@
     "example_answer_lang": [
       "Claudine Gbènagnon"
     ],
-    "reasoning": "The question is asking about Patrice Guillaume Athanase Talon's spouse. The context provided states that he is married to First Lady Claudine Gbènagnon from Porto-Novo.",
+    "reasoning": "The question is asking for who Patrice Guillaume Athanase Talon is married to.",
     "pred_answer_lang": "Claudine Gbènagnon",
     "metric_f1": 1.0
   },
@@ -655,7 +655,7 @@
     "example_answer_lang": [
       "Reyhan Yalçındağ"
     ],
-    "reasoning": "The question asks about Osman Baydemir's spouse. The context mentions that Osman Baydemir married Reyhan Yalçındağ.",
+    "reasoning": "The question is asking for the person who Osman Baydemir married.",
     "pred_answer_lang": "Reyhan Yalçındağ",
     "metric_f1": 1.0
   },
@@ -665,8 +665,8 @@
     "example_answer_lang": [
       "Ikinyejana cya 8 mbere ya Yezu kugeza igihe ubwami bwa Roma bw'iburengerazuba bwasenyutse mu kinyejana cya 5 nyuma ya Yezu"
     ],
-    "reasoning": "The ancient city of Rome was founded in the 8th century BC, according to modern historiography.",
-    "pred_answer_lang": "753 BC",
+    "reasoning": "The question is asking for the time period when ancient Rome existed.",
+    "pred_answer_lang": "8th century BC to 5th century AD",
     "metric_f1": 0.0
   },
   {
@@ -675,7 +675,7 @@
     "example_answer_lang": [
       "Impera y'iburasirazuba ya Plaza de Mayo"
     ],
-    "reasoning": "The question is asking about the location where the Presidency of Argentina is based.",
+    "reasoning": "The question asks where the presidential palace of Argentina is located.",
     "pred_answer_lang": "Buenos Aires",
     "metric_f1": 0.0
   },
@@ -685,9 +685,9 @@
     "example_answer_lang": [
       "Shabani, mu magepfo ya Rhodesia"
     ],
-    "reasoning": "The context provided indicates that Emmerson Dambudzo Mnangagwa was born in 1942.",
-    "pred_answer_lang": "1942",
-    "metric_f1": 0.0
+    "reasoning": "The question is asking where Emmerson Dambudzo Mnangagwa was born.",
+    "pred_answer_lang": "Shabani",
+    "metric_f1": 0.33333333333333337
   },
   {
     "question_lang": "ni izihe nzu zagize uruhare mu ikorwa rya filime yitwa Machete?",
@@ -695,9 +695,9 @@
     "example_answer_lang": [
       "Troublemaker Studios"
     ],
-    "reasoning": "The movie \"Machete\" is part of the Mexico Trilogy by Rodriguez, along with \"Desperado\" and \"Once Upon a Time in Mexico\".",
-    "pred_answer_lang": "Once Upon a Time in Mexico",
-    "metric_f1": 0.0
+    "reasoning": "The question is asking for the houses that played a role in the \"Machete\" film. To answer this question, we need to find the mention of any studios or production companies involved in producing the \"Machete\" film.",
+    "pred_answer_lang": "Troublemaker Studios",
+    "metric_f1": 1.0
   },
   {
     "question_lang": "Repubulika ya Santara Afurika yakoronijwe n'ikihe gihugu?",
@@ -705,8 +705,8 @@
     "example_answer_lang": [
       "Ubufaransa"
     ],
-    "reasoning": "The country that corresponds to the Central African Republic was established by France in the late 19th century and gained independence in 1960.",
-    "pred_answer_lang": "Uburengerazuba bwa Santara Afurika.",
+    "reasoning": "The question asks for the country that was colonized to form the modern Central African Republic.",
+    "pred_answer_lang": "France",
     "metric_f1": 0.0
   },
   {
@@ -715,8 +715,8 @@
     "example_answer_lang": [
       "Amavubi"
     ],
-    "reasoning": "The Rwanda national football team primarily plays its home games at the Stade Amahoro in Kigali, the nation's capital.",
-    "pred_answer_lang": "Kigali",
+    "reasoning": "The question is asking for the main stadium where the Rwanda national football team primarily plays its home games.",
+    "pred_answer_lang": "Stade Amahoro",
     "metric_f1": 0.0
   },
   {
@@ -725,7 +725,7 @@
     "example_answer_lang": [
       "CIA Ikigo cy'Ubutasi"
     ],
-    "reasoning": "The Central Intelligence Agency (CIA) is the agency responsible for foreign intelligence services in the United States.",
+    "reasoning": "The question is asking for the agency responsible for intelligence gathering in the United States. From the context, we can see that the Central Intelligence Agency (CIA) is the agency created under President Harry S. Truman's directive.",
     "pred_answer_lang": "CIA",
     "metric_f1": 0.4
   },
@@ -735,7 +735,7 @@
     "example_answer_lang": [
       "Umugi wa Muhanga"
     ],
-    "reasoning": "The district of Muhanga is known for having its administrative centre located in the city of Muhanga.",
+    "reasoning": "The question is asking for the location where the district of Muhanga is located.",
     "pred_answer_lang": "Muhanga",
     "metric_f1": 0.5
   },
@@ -745,8 +745,8 @@
     "example_answer_lang": [
       "Yale College"
     ],
-    "reasoning": "Samuel Finley Breese Morse graduated from Yale College in 1810 based on the information provided in the context.",
-    "pred_answer_lang": "1810",
+    "reasoning": "The question is asking where Samuel Finley Breese Morse attended his studies.",
+    "pred_answer_lang": "Phillips Academy",
     "metric_f1": 0.0
   },
   {
@@ -755,7 +755,7 @@
     "example_answer_lang": [
       "1960"
     ],
-    "reasoning": "The independence of Madagascar from France occurred in 1960, according to the context provided.",
+    "reasoning": "The answer to the question \"Madagasikari yabonye ubwigenge ryari?\" is directly provided in the context. We are looking for the year when Madagascar gained full independence from France.",
     "pred_answer_lang": "1960",
     "metric_f1": 1.0
   },
@@ -765,9 +765,9 @@
     "example_answer_lang": [
       "Ikigo gishinzwe iterambere mu Rwanda"
     ],
-    "reasoning": "Ingabire yabonye imirimo akirangiza kaminuza ya Head of the Kigali Innovation City initiative na Head of ICT at the Rwanda Development Board.",
-    "pred_answer_lang": "Head of the Kigali Innovation City initiative; Head of ICT at the Rwanda Development Board.",
-    "metric_f1": 0.1
+    "reasoning": "The question is asking for the job position that Paula Ingabire completed before starting her work at the university.",
+    "pred_answer_lang": "Head of the Kigali Innovation City initiative",
+    "metric_f1": 0.0
   },
   {
     "question_lang": "Kugira ngo urumuri rw'izuba rugere ku isi bifata igihe kingana iki?",
@@ -775,7 +775,7 @@
     "example_answer_lang": [
       "nk'iminota 8 n'amasegonda 20"
     ],
-    "reasoning": "The Sun is the brightest object in the Earth's sky, and its brightness is about 13 billion times greater than the next brightest star, Sirius. The distance from the Sun to Earth varies between perihelion (closest point) and aphelion (farthest point), with average values given in kilometers. Light from the Sun takes about 8 minutes and 20 seconds to reach Earth.",
+    "reasoning": "The question is asking for the time it takes for light to travel from the Sun's horizon to Earth's horizon.",
     "pred_answer_lang": "8 minutes and 20 seconds",
     "metric_f1": 0.3636363636363636
   },
@@ -785,9 +785,9 @@
     "example_answer_lang": [
       "1993"
     ],
-    "reasoning": "The mosque was named after Sheikh Abdulaziz Bin Ibrahim Al Ibrahim.",
-    "pred_answer_lang": "Ibrahim Al-lbrahim",
-    "metric_f1": 0.0
+    "reasoning": "The question is asking for the year when the construction of the Ibrahim Al-lbrahim Mosque was completed.",
+    "pred_answer_lang": "1993",
+    "metric_f1": 1.0
   },
   {
     "question_lang": "ninde muyobozi w'umujyi w’Adana muri Turikiya?",
@@ -795,8 +795,8 @@
     "example_answer_lang": [
       "Kizzuwatna"
     ],
-    "reasoning": "The leader of the city of Adana in Turkey is known as the \"vali\" or governor, who is appointed by the central government of Turkey.",
-    "pred_answer_lang": "Vali",
+    "reasoning": "The question is asking for the leader/director of the city of Adana in Turkey.",
+    "pred_answer_lang": "Nta bisubizo bihari mu nyandiko yahawe",
     "metric_f1": 0.0
   },
   {
@@ -805,7 +805,7 @@
     "example_answer_lang": [
       "Guðni Thorlacius Jóhannesson"
     ],
-    "reasoning": "The context provides the name of the current president of Iceland.",
+    "reasoning": "The question asks for the name of the President of Iceland.",
     "pred_answer_lang": "Guðni Thorlacius Jóhannesson",
     "metric_f1": 1.0
   },
@@ -815,9 +815,9 @@
     "example_answer_lang": [
       "1934"
     ],
-    "reasoning": "The birth year of Jagdish Bhagwati is mentioned in the context, so we can extract the answer from there.",
-    "pred_answer_lang": "1934",
-    "metric_f1": 1.0
+    "reasoning": "The question is asking for where Jagdish Bhagwati was born.",
+    "pred_answer_lang": "Bombay Presidency",
+    "metric_f1": 0.0
   },
   {
     "question_lang": "igazeti ya leta y'u rwanda yatangiye gusohoka ryari?",
@@ -825,7 +825,7 @@
     "example_answer_lang": [
       "1995"
     ],
-    "reasoning": "The newspaper The New Times in Rwanda started its publication shortly after the end of the 1994 genocide.",
+    "reasoning": "The question is asking for the starting year of the publication of the Rwandan government newspaper. To answer this, I will look for the information regarding the establishment of the New Times newspaper in the provided context.",
     "pred_answer_lang": "1995",
     "metric_f1": 1.0
   },
@@ -835,9 +835,9 @@
     "example_answer_lang": [
       "Stridon"
     ],
-    "reasoning": "Jerome was born at a village near Emona on the border of Dalmatia and Pannonia.",
-    "pred_answer_lang": "Emona",
-    "metric_f1": 0.0
+    "reasoning": "The question is asking where Jerome, known for translating the Bible into Latin, was born. To find the answer, we look for the specific location mentioned in the context.",
+    "pred_answer_lang": "Stridon",
+    "metric_f1": 1.0
   },
   {
     "question_lang": "ni iyihe kaminuza ikomeye muri Estoniya?",
@@ -845,7 +845,7 @@
     "example_answer_lang": [
       "Kaminuza ya Tallinn"
     ],
-    "reasoning": "The context provided mentions that Tallinn University is one of the largest institutions of higher education in Estonia and is located in the capital city of Tallinn. This indicates that Tallinn University is one of the prominent universities in Estonia.",
+    "reasoning": "The question is asking for the best university in Estonia. From the context, we can see that Tallinn University is one of the three largest institutions of higher education in Estonia.",
     "pred_answer_lang": "Tallinn University",
     "metric_f1": 0.4
   },
@@ -855,9 +855,9 @@
     "example_answer_lang": [
       "1982"
     ],
-    "reasoning": "The context provides the birth year of Diane Shima Rwigara, which is 1982.",
-    "pred_answer_lang": "1982",
-    "metric_f1": 1.0
+    "reasoning": "The question asks for the place where Diane Shima Rwigara was born.",
+    "pred_answer_lang": "Kigali",
+    "metric_f1": 0.0
   },
   {
     "question_lang": "Repubulika ya kongo ihana imbibi n'ibihe bihugu?",
@@ -865,9 +865,9 @@
     "example_answer_lang": [
       "Gabo, mu majyaruguru y'uburengerazuba na Kameruni no mu majyaruguru y'uburasirazuba na Repubulika ya Centrafrique, mu majyepfo y'iburasirazuba na Repubulika Iharanira Demokarasi ya Kongo, mu majyepfo yayo na Angola ya Cabinda no mu majyepfo y'uburengerazuba bw'inyanja ya Atalantika."
     ],
-    "reasoning": "The Republic of the Congo is bordered by several countries and bodies of water. We need to list these borders in the order provided by the context.",
-    "pred_answer_lang": "Gabon; Cameroon; Central African Republic; Democratic Republic of the Congo; Cabinda (Angolan exclave); Atlantic Ocean",
-    "metric_f1": 0.03508771929824561
+    "reasoning": "The question is asking for the borders of the Republic of the Congo.",
+    "pred_answer_lang": "Gabon, Cameroon, Central African Republic, Democratic Republic of the Congo, Angola, Atlantic Ocean.",
+    "metric_f1": 0.03636363636363636
   },
   {
     "question_lang": "bibiliya ntagatifu ni iy'irihe dini?",
@@ -875,8 +875,8 @@
     "example_answer_lang": [
       "Ubukirisitu, idini rya kiyahudi, n'iry'Ubusamariya"
     ],
-    "reasoning": "The Bible is a collection of religious texts that are considered sacred in various religions, including Christianity, Judaism, and Samaritanism. It is composed of texts written in Hebrew, Aramaic, and Koine Greek, containing instructions, stories, poetry, and prophecies. The collection of materials accepted as part of the Bible by a religious tradition or community is known as a biblical canon.",
-    "pred_answer_lang": "Christianity;",
+    "reasoning": "The question is asking about the religion to which the Holy Bible belongs.",
+    "pred_answer_lang": "Christianity",
     "metric_f1": 0.0
   },
   {
@@ -885,8 +885,8 @@
     "example_answer_lang": [
       "Kaminuza Nkuru y'u Rwanda"
     ],
-    "reasoning": "Ingabire yarangirije amashuriye muyihe kaminuza ku kwezi kwa Gicurasi 2015, muri Leta Zunze Ubumwe za Amerika.",
-    "pred_answer_lang": "Gicurasi 2015",
+    "reasoning": "The question is asking about where Paula Ingabire completed her university studies.",
+    "pred_answer_lang": "Massachusetts Institute of Technology",
     "metric_f1": 0.0
   },
   {
@@ -895,8 +895,8 @@
     "example_answer_lang": [
       "Aziya"
     ],
-    "reasoning": "The country referred to as \"Korea y'Epfo\" in Kinyarwanda (South Korea) is located in East Asia and it lies to the south-west of North Korea. It is bordered by the Yellow Sea to the west and the Sea of Japan to the east.",
-    "pred_answer_lang": "Burake; Caayi ya Buhinga.",
+    "reasoning": "The question is asking for the country that is located to the south of the Korean Peninsula.",
+    "pred_answer_lang": "Republic of Korea",
     "metric_f1": 0.0
   },
   {
@@ -905,9 +905,9 @@
     "example_answer_lang": [
       "1880"
     ],
-    "reasoning": "The Great Mosque of Brussels was built in the year 1880.",
-    "pred_answer_lang": "1880",
-    "metric_f1": 1.0
+    "reasoning": "The question is asking for the age of the Great Mosque of Brussels, which was originally built as the Oriental Pavilion of the National Exhibition in Brussels in 1880.",
+    "pred_answer_lang": "141",
+    "metric_f1": 0.0
   },
   {
     "question_lang": "ishyaka riri kubutegetsi muri Togo ni irihe?",
@@ -915,7 +915,7 @@
     "example_answer_lang": [
       "Rally of the Togolese People (RPT)"
     ],
-    "reasoning": "The ruling party in Togo during the time of the described parliamentary elections was the Rally of the Togolese People (RPT).",
+    "reasoning": "The question is asking for the political party currently in power in Togo.",
     "pred_answer_lang": "Rally of the Togolese People (RPT)",
     "metric_f1": 1.0
   },
@@ -925,7 +925,7 @@
     "example_answer_lang": [
       "Kampala"
     ],
-    "reasoning": "The capital city of Buganda is Kampala.",
+    "reasoning": "The question is asking for the capital city of Buganda.",
     "pred_answer_lang": "Kampala",
     "metric_f1": 1.0
   },
@@ -935,9 +935,9 @@
     "example_answer_lang": [
       "1967"
     ],
-    "reasoning": "The family of African countries that is in the southern part of the continent is known as the Southern African Development Community (SADC).",
-    "pred_answer_lang": "SADC",
-    "metric_f1": 0.0
+    "reasoning": "The question is asking for the year when the East African Community was founded.",
+    "pred_answer_lang": "1967",
+    "metric_f1": 1.0
   },
   {
     "question_lang": "Avul Pakir Jainulabdeen Abdul Kalam yavukiye he?",
@@ -945,9 +945,9 @@
     "example_answer_lang": [
       "Rameswaram"
     ],
-    "reasoning": "The birth date of Avul Pakir Jainulabdeen Abdul Kalam is provided in the context as 15 October 1931.",
-    "pred_answer_lang": "15 Werurwe 1931",
-    "metric_f1": 0.0
+    "reasoning": "The question is asking where Avul Pakir Jainulabdeen Abdul Kalam was born.",
+    "pred_answer_lang": "Rameswaram, Tamil Nadu",
+    "metric_f1": 0.5
   },
   {
     "question_lang": "Enos Kagaba yavukiye he?",
@@ -955,9 +955,9 @@
     "example_answer_lang": [
       "Perefegitura ya Kibuye"
     ],
-    "reasoning": "The question asks for the birthplace of Enos Kagaba.",
-    "pred_answer_lang": "Mu Murenge wa Kibuye.",
-    "metric_f1": 0.28571428571428575
+    "reasoning": "The question is asking for the birthplace of Enos Kagaba.",
+    "pred_answer_lang": "Kibuye Prefecture",
+    "metric_f1": 0.4
   },
   {
     "question_lang": "perezida wa Kirigizisitani yitwa nde?",
@@ -965,7 +965,7 @@
     "example_answer_lang": [
       "Sadyr Japarov"
     ],
-    "reasoning": "The context explicitly states that Sadyr Japarov is the current president of Kyrgyzstan.",
+    "reasoning": "The question is asking for the name of the president of Kyrgyzstan. The context states that the current president is \"Sadyr Japarov.\"",
     "pred_answer_lang": "Sadyr Japarov",
     "metric_f1": 1.0
   },
@@ -975,9 +975,9 @@
     "example_answer_lang": [
       "Karongi, Nyabihu, Rubavu, Rusizi, Ngororero, Nyamasheke, na Rutsiro"
     ],
-    "reasoning": "The question asks for the districts that make up the Western Province, which is described in the context. The passage lists the districts as Karongi, Nyabihu, Rubavu, Rusizi, Ngororero, Nyamasheke, and Rutsiro.",
-    "pred_answer_lang": "Karongi; Nyabihu; Rubavu; Rusizi; Ngororero; Nyamasheke; Rutsiro",
-    "metric_f1": 0.9333333333333333
+    "reasoning": "The question is asking for the district that makes up the Western Province of Rwanda.",
+    "pred_answer_lang": "Nyamasheke",
+    "metric_f1": 0.2222222222222222
   },
   {
     "question_lang": "When was Biruta Vincent the president of the Rwandan Senate?",
@@ -985,9 +985,9 @@
     "example_answer_lang": [
       "Kanama 2003, kugeza 2011"
     ],
-    "reasoning": "The text clearly states that Biruta Vincent was the President of the Rwandan Senate from August 2003 until October 2011.",
-    "pred_answer_lang": "Yatangiye kuwa Mwerutare 2003 kugeza kuwa Kamena 2011.",
-    "metric_f1": 0.5
+    "reasoning": "The question is asking for the time period during which Biruta Vincent was the President of the Rwandan Senate. To find the answer, I will locate the specific time period mentioned in the context related to his presidency of the Rwandan Senate.",
+    "pred_answer_lang": "August 2003 until October 2011",
+    "metric_f1": 0.4444444444444445
   },
   {
     "question_lang": "minisitiri w'intebe wa Timoro-Lesite yitwa nde?",
@@ -995,8 +995,8 @@
     "example_answer_lang": [
       "Taur Matan Ruak"
     ],
-    "reasoning": "The Minister of State Administration of Timor-Leste is not explicitly mentioned in the provided context.",
-    "pred_answer_lang": "Sinshobora kubimenya mu bisobanuro byatanzwe.",
+    "reasoning": "To answer the question \"minisitiri w'intebe wa Timoro-Lesite yitwa nde?\" we need to find the name of the Prime Minister of East Timor. Looking through the context, we find that the Prime Minister mentioned is Jose Maria de Vasconcelos, also known as Taur Matan Ruak.",
+    "pred_answer_lang": "Jose Maria de Vasconcelos",
     "metric_f1": 0.0
   },
   {
@@ -1005,9 +1005,9 @@
     "example_answer_lang": [
       "hagati ya 6 na 4 BC"
     ],
-    "reasoning": "The date of birth of Jesus is not specifically provided in historical references, but biblical scholars generally estimate his birth year to be between 6 and 4 BC based on various approaches, including analyzing historical events mentioned in the nativity accounts, working backward from the start of Jesus's ministry, and considering astrological or astronomical alignments. The traditional Christian date for celebrating the birth of Jesus is 25 December.",
-    "pred_answer_lang": "Mw'umwaka witowe 4-6 i.C.",
-    "metric_f1": 0.30769230769230765
+    "reasoning": "The passage explains that the date of birth of Jesus is not explicitly stated in the gospels or historical references, but biblical scholars assume a year of birth between 6 and 4 BC. The passage also mentions the common Christian traditional dating of Jesus' birthdate, which was first officially asserted by Pope Julius I in 350 A.D.",
+    "pred_answer_lang": "between 6 and 4 BC",
+    "metric_f1": 0.5454545454545454
   },
   {
     "question_lang": "Gurbanguly Malikgulyyevich Berdimuhamedov yavutse ryari?",
@@ -1015,9 +1015,9 @@
     "example_answer_lang": [
       "29 Kamena 1957"
     ],
-    "reasoning": "The birth date of Gurbanguly Mälikgulyýewiç Berdimuhamedow is mentioned in the context as 29 June 1957.",
-    "pred_answer_lang": "29 Werurwe 1957",
-    "metric_f1": 0.6666666666666666
+    "reasoning": "The question is asking for the birth year of Gurbanguly Malikgulyyevich Berdimuhamedov.",
+    "pred_answer_lang": "1957",
+    "metric_f1": 0.5
   },
   {
     "question_lang": "Mike Moore yabaye minisitiri w'intebe w'ikihe gihugu?",
@@ -1025,8 +1025,8 @@
     "example_answer_lang": [
       "Nouvelle Zelande"
     ],
-    "reasoning": "Mike Moore yari minisitiri w'intebe w'Ubutumwa mu Givugun.",
-    "pred_answer_lang": "Ubutumwa.",
+    "reasoning": "The question asks for the position held by Mike Moore in the government.",
+    "pred_answer_lang": "Minisitiri muri icyo gihugu",
     "metric_f1": 0.0
   },
   {
@@ -1035,9 +1035,9 @@
     "example_answer_lang": [
       "Ingabo za Sri Lanka"
     ],
-    "reasoning": "The answer can be found in the context where it mentions the \"Sri Lanka Armed Forces.\"",
-    "pred_answer_lang": "Sri Lanka",
-    "metric_f1": 0.6666666666666666
+    "reasoning": "The question is asking for the name of the military of Sri Lanka.",
+    "pred_answer_lang": "Sri Lanka Armed Forces",
+    "metric_f1": 0.5
   },
   {
     "question_lang": "ibitaro bya CARAES Ndera byatangiye imirimo yabyo ryari?",
@@ -1045,9 +1045,9 @@
     "example_answer_lang": [
       "1972"
     ],
-    "reasoning": "The CARAES Ndera hospital began receiving patients in 1972 but reopened in August 1994. As of 2008, it treated about 2,500 patients monthly.",
-    "pred_answer_lang": "Ndera (); 1972; 1994; 2,500",
-    "metric_f1": 0.33333333333333337
+    "reasoning": "The question is asking for when the activities of CARAES Ndera Hospital started.",
+    "pred_answer_lang": "1972",
+    "metric_f1": 1.0
   },
   {
     "question_lang": "minisitiri w'intebe wa Butani yitwa nde?",
@@ -1055,7 +1055,7 @@
     "example_answer_lang": [
       "Lotay Tshering"
     ],
-    "reasoning": "The current Prime Minister of Butan is Lotay Tshering, as per the provided context.",
+    "reasoning": "Identify the name of the current Prime Minister in the context passage.",
     "pred_answer_lang": "Lotay Tshering",
     "metric_f1": 1.0
   },
@@ -1065,9 +1065,9 @@
     "example_answer_lang": [
       "SWAPO"
     ],
-    "reasoning": "The ruling party in Namibia is the SWAPO Party.",
-    "pred_answer_lang": "SWAPO Party",
-    "metric_f1": 0.6666666666666666
+    "reasoning": "The question is asking about the party that is currently in power in Namibia.",
+    "pred_answer_lang": "SWAPO",
+    "metric_f1": 1.0
   },
   {
     "question_lang": "ni ibihe bihugu bihana imbibi na Zimbabwe?",
@@ -1075,9 +1075,9 @@
     "example_answer_lang": [
       "Afurika y'Epfo mu majyepfo, Botswana mu majyepfo y'iburengerazuba, Zambiya mu majyaruguru, na Mozambike mu burasirazuba"
     ],
-    "reasoning": "The countries that share borders with Zimbabwe and are located to the north are Zambia and Mozambique.",
-    "pred_answer_lang": "Zambia na Mozambique.",
-    "metric_f1": 0.1
+    "reasoning": "The question is asking for the countries that border Zimbabwe and Zimbabwe is mentioned in the context as being bordered by certain countries.",
+    "pred_answer_lang": "South Africa, Botswana, Zambia, Mozambique",
+    "metric_f1": 0.0909090909090909
   },
   {
     "question_lang": "Kocheril Raman Narayanan yarangirije amashuri ye hehe?",
@@ -1085,8 +1085,8 @@
     "example_answer_lang": [
       "ishuri ry'ubukungu rya Londres"
     ],
-    "reasoning": "Kocheril Raman Narayanan yarangirije amashuri ye hehe.",
-    "pred_answer_lang": "Sinshobora kubimenya mu bisobanuro byatanzwe.",
+    "reasoning": "The question is asking where Kocheril Raman Narayanan was born.",
+    "pred_answer_lang": "Perumthanam",
     "metric_f1": 0.0
   },
   {
@@ -1095,9 +1095,9 @@
     "example_answer_lang": [
       "Tsolo"
     ],
-    "reasoning": "Zozibini Tunzi was raised in South Africa, more specifically in the Eastern Cape province. However, it doesn't explicitly mention the city where she was raised in the provided context.",
-    "pred_answer_lang": "East London",
-    "metric_f1": 0.0
+    "reasoning": "The question is asking for the city where Zozibini Tunzi was born.",
+    "pred_answer_lang": "Tsolo",
+    "metric_f1": 1.0
   },
   {
     "question_lang": "Umuryango w’Abafasha b’Abakuru b’Ibihugu by’Afurika wo Kurwanya Ubwandu bwa SIDA  washinzwe rya?",
@@ -1105,8 +1105,8 @@
     "example_answer_lang": [
       "26 Gicurasi 2001"
     ],
-    "reasoning": "The African Union was established to replace the Organisation of African Unity (OAU).",
-    "pred_answer_lang": "OAU",
+    "reasoning": "The question is asking who is the organization dedicated to fighting against the spread of HIV/AIDS in Africa.",
+    "pred_answer_lang": "Umuryango w’Abafasha b’Abakuru b’Ibihugu by’Afurika wo Kurwanya Ubwandu bwa SIDA washinzwe rya ni Umuryango w’Afurika (AU).",
     "metric_f1": 0.0
   },
   {
@@ -1115,7 +1115,7 @@
     "example_answer_lang": [
       "Vatikani"
     ],
-    "reasoning": "The Basilica of St. John Lateran is located in Rome, Italy.",
+    "reasoning": "The question is asking in which country the Lateran Basilica is located.",
     "pred_answer_lang": "Italy",
     "metric_f1": 0.0
   },
@@ -1125,7 +1125,7 @@
     "example_answer_lang": [
       "Abaharanira Demokarasi ya Andorra"
     ],
-    "reasoning": "The political party currently in government in Andorra is Democrats for Andorra, known as Demòcrates per Andorra in Catalan.",
+    "reasoning": "The question asks for the political party that is currently in government in Andorra.",
     "pred_answer_lang": "Demòcrates per Andorra",
     "metric_f1": 0.28571428571428575
   },
@@ -1135,7 +1135,7 @@
     "example_answer_lang": [
       "Sheikh Hasina"
     ],
-    "reasoning": "The question is asking for the name of the Prime Minister of Bangladesh. The context states that the current Prime Minister of Bangladesh is Sheikh Hasina.",
+    "reasoning": "The question asks for the name of the Prime Minister of Bangladesh. We will locate the exact phrase in the context that provides this information.",
     "pred_answer_lang": "Sheikh Hasina",
     "metric_f1": 1.0
   },
@@ -1145,7 +1145,7 @@
     "example_answer_lang": [
       "Ottawa"
     ],
-    "reasoning": "The context mentions that John Ralston Saul was born in Ottawa.",
+    "reasoning": "The question is asking for the birthplace of John Ralston Saul.",
     "pred_answer_lang": "Ottawa",
     "metric_f1": 1.0
   },
@@ -1155,9 +1155,9 @@
     "example_answer_lang": [
       "Ankara"
     ],
-    "reasoning": "The passage provides information about Turkey, stating that Ankara is the capital of Turkey.",
-    "pred_answer_lang": "Ankara",
-    "metric_f1": 1.0
+    "reasoning": "The question is asking for the major river in Turkey.",
+    "pred_answer_lang": "the Euphrates",
+    "metric_f1": 0.0
   },
   {
     "question_lang": "niryari Mushikiwabo yinjiye muri guverinoma?",
@@ -1165,9 +1165,9 @@
     "example_answer_lang": [
       "2009"
     ],
-    "reasoning": "Louise Mushikiwabo yinjiye muri guverinoma ngo mu mwaka w’2009 imaze kumugeza mu mwaka w’2018.",
-    "pred_answer_lang": "Minisitiri w’ububanyi n’ubworozi",
-    "metric_f1": 0.0
+    "reasoning": "The question asks for the date when Louise Mushikiwabo joined the government. To answer this, we need to find the specific date mentioned in the context when she held a government position.",
+    "pred_answer_lang": "2009",
+    "metric_f1": 1.0
   },
   {
     "question_lang": "ninde wahanze u rwanda?",
@@ -1175,7 +1175,7 @@
     "example_answer_lang": [
       "Gihanga"
     ],
-    "reasoning": "The person who founded Rwanda is the legendary king named Gihanga, according to the context.",
+    "reasoning": "The question is asking for the person who founded Rwanda.",
     "pred_answer_lang": "Gihanga",
     "metric_f1": 1.0
   },
@@ -1185,9 +1185,9 @@
     "example_answer_lang": [
       "Ikibuga mpuzamahanga k'indege cya Jomo Kenyatta"
     ],
-    "reasoning": "The international airport in Nairobi, Kenya, is called Jomo Kenyatta International Airport.",
-    "pred_answer_lang": "Jomo Kenyatta",
-    "metric_f1": 0.4444444444444445
+    "reasoning": "The question is asking for the name of the main international airport in Kenya.",
+    "pred_answer_lang": "Jomo Kenyatta International Airport",
+    "metric_f1": 0.36363636363636365
   },
   {
     "question_lang": "Buligariya ihana imbibi n'ibihe bihugu?",
@@ -1195,9 +1195,9 @@
     "example_answer_lang": [
       "Rumaniya mu majyaruguru, Seribiya na Makedoniya y'Amajyaruguru mu burengerazuba, Ubugereki na Turukiya mu majyepfo"
     ],
-    "reasoning": "The countries bordering Bulgaria are listed in the context, including the specific bordering countries to the north, west, south, and east.",
-    "pred_answer_lang": "Romania; Serbia; North Macedonia; Greece; Turkey",
-    "metric_f1": 0.0
+    "reasoning": "The question asks for the neighbors of Bulgaria, which are mentioned in the context passage.",
+    "pred_answer_lang": "Rumaniya, Serbia, North Macedonia, Ugereki n'Ubutaliki (Romania, Serbia, North Macedonia, Greece, Turkey)",
+    "metric_f1": 0.07142857142857144
   },
   {
     "question_lang": "ni ryari indwara ya Ebola yagaragaye ku isi?",
@@ -1205,8 +1205,8 @@
     "example_answer_lang": [
       "18 Ugushyingo 2020"
     ],
-    "reasoning": "The text provides information about the Ebola outbreak in the Democratic Republic of the Congo (DRC) and highlights that the outbreak had 130 reported cases and 55 reported fatalities. It also mentions that by 18 November 2020, there were no reports of any cases of Ebola in the Équateur province or in the DRC as a whole for 42 days.",
-    "pred_answer_lang": "DRC",
+    "reasoning": "The question is asking for the location where Ebola appeared on Earth.",
+    "pred_answer_lang": "Congo",
     "metric_f1": 0.0
   },
   {
@@ -1215,8 +1215,8 @@
     "example_answer_lang": [
       "Umuryango wa Maleziya yunze ubumwe (UMNO)"
     ],
-    "reasoning": "The birth date of Dato' Sri Ismail Sabri bin Yaakob is mentioned in the context as 21 August 2021.",
-    "pred_answer_lang": "21 Werurwe 2021",
+    "reasoning": "The question is asking where Dato' Sri Ismail Sabri bin Yaakob was born.",
+    "pred_answer_lang": "Malaysia",
     "metric_f1": 0.0
   },
   {
@@ -1225,7 +1225,7 @@
     "example_answer_lang": [
       "Tanzaniya"
     ],
-    "reasoning": "The country that has a combination of savannah, montane, and swamp habitats within a protected area that includes Akagera National Park is Rwanda.",
+    "reasoning": "The question is asking for the country where Akagera National Park is located.",
     "pred_answer_lang": "Rwanda",
     "metric_f1": 0.0
   },
@@ -1235,8 +1235,8 @@
     "example_answer_lang": [
       "Ihuriro ry’igihugu ritavuga rumwe n'ubutegetsi"
     ],
-    "reasoning": "The question asks about the political party affiliation of John Patrick Amama Mbabazi.",
-    "pred_answer_lang": "National Resistance Movement",
+    "reasoning": "The question is asking where John Patrick Amama Mbabazi was born.",
+    "pred_answer_lang": "Uganda",
     "metric_f1": 0.0
   },
   {
@@ -1245,7 +1245,7 @@
     "example_answer_lang": [
       "Mark Zuckerberg"
     ],
-    "reasoning": "The founder of Facebook is Mark Zuckerberg.",
+    "reasoning": "The question asks for the person who founded Facebook.",
     "pred_answer_lang": "Mark Zuckerberg",
     "metric_f1": 1.0
   },
@@ -1255,9 +1255,9 @@
     "example_answer_lang": [
       "Gisenyi"
     ],
-    "reasoning": "The individual who tragically perished in this context is Sr. Felicitas Niyitegeka.",
-    "pred_answer_lang": "Sr. Felicitas Niyitegeka",
-    "metric_f1": 0.0
+    "reasoning": "The question is asking for where Felicita was born.",
+    "pred_answer_lang": "Gisenyi",
+    "metric_f1": 1.0
   },
   {
     "question_lang": "icyahoze ari Gikongoro ubu ni mukahe karere mu Rwanda?",
@@ -1265,7 +1265,7 @@
     "example_answer_lang": [
       "Nyamagabe"
     ],
-    "reasoning": "Gikongoro is now known as Nyamagabe.",
+    "reasoning": "Identifying the location where Gikongoro is currently situated.",
     "pred_answer_lang": "Nyamagabe",
     "metric_f1": 1.0
   },
@@ -1275,8 +1275,8 @@
     "example_answer_lang": [
       "05 Ukwakira 1951"
     ],
-    "reasoning": "The birth date of Donald P. Kaberuka is provided in the context.",
-    "pred_answer_lang": "5 Werurwe 1951",
+    "reasoning": "The question is asking for the birth date of Donald P. Kaberuka.",
+    "pred_answer_lang": "5 October 1951",
     "metric_f1": 0.3333333333333333
   },
   {
@@ -1285,9 +1285,9 @@
     "example_answer_lang": [
       "Manda y'imyaka itanu"
     ],
-    "reasoning": "The president of Haiti is elected to a five-year term by popular vote and is not allowed to be elected twice in a row. He can only serve a second term after a five-year interval.",
-    "pred_answer_lang": "Iki ni manda ya buri Perezida wa Hayiti.",
-    "metric_f1": 0.16666666666666666
+    "reasoning": "The question asks about the duration of the president's term in Haiti.",
+    "pred_answer_lang": "manda y'igihe kingana ni 5",
+    "metric_f1": 0.4
   },
   {
     "question_lang": "Konrad Krajewski yavukiye he?",
@@ -1295,7 +1295,7 @@
     "example_answer_lang": [
       "Łódź, Polanye"
     ],
-    "reasoning": "The birthplace of Konrad Krajewski is provided in the context.",
+    "reasoning": "The question asks for the birthplace of Konrad Krajewski.",
     "pred_answer_lang": "Łódź",
     "metric_f1": 0.6666666666666666
   },
@@ -1305,9 +1305,9 @@
     "example_answer_lang": [
       "24 Mutarama 1971"
     ],
-    "reasoning": "The World Economic Forum (WEF) was founded on 24 January 1971.",
-    "pred_answer_lang": "24 Mutarama 1971",
-    "metric_f1": 1.0
+    "reasoning": "The question is asking for when the World Economic Forum was founded.",
+    "pred_answer_lang": "24 January 1971",
+    "metric_f1": 0.6666666666666666
   },
   {
     "question_lang": "Diane Karusisi yarangirije amashuri ye he?",
@@ -1315,8 +1315,8 @@
     "example_answer_lang": [
       "kaminuza ya Friborg mu Busuwisi"
     ],
-    "reasoning": "Dr. Diane Karusisi yarangirije amashuri ye ku gusoza masomo mu gihugu cya Switzerland, ahabatanye inzu ya University of Fribourg aho ayigirirwa igitekerezo cya Master's muri Econometrics ndetse n'indangamuntu ya PhD mu Bushakashatsi bw'Economics Quantitative. Ikibazo kari kuri rutuku rwe yiswe \"Dependency in credit portfolios: Modeling with copula functions\" yasohotse muri 2009.",
-    "pred_answer_lang": "Switzerland.",
+    "reasoning": "The question is asking where Diane Karusisi completed her studies.",
+    "pred_answer_lang": "University of Fribourg",
     "metric_f1": 0.0
   },
   {
@@ -1325,7 +1325,7 @@
     "example_answer_lang": [
       "Moeketsi Majoro"
     ],
-    "reasoning": "The Prime Minister of Lesotho is Moeketsi Majoro, as mentioned in the context.",
+    "reasoning": "The question is asking for the name of the Prime Minister of Lesotho. To find the answer, I will look for the name of the Prime Minister in the context.",
     "pred_answer_lang": "Moeketsi Majoro",
     "metric_f1": 1.0
   },
@@ -1335,8 +1335,8 @@
     "example_answer_lang": [
       "Ikinyejana cya 16"
     ],
-    "reasoning": "The name of the mosque is Karađoz Bey Mosque.",
-    "pred_answer_lang": "Karađoz Bey Mosque",
+    "reasoning": "The question asks for the time period when Karagoz Mosque was built.",
+    "pred_answer_lang": "16th-century",
     "metric_f1": 0.0
   },
   {
@@ -1345,8 +1345,8 @@
     "example_answer_lang": [
       "6 Ukwakira 1930"
     ],
-    "reasoning": "The birth date of Bashar Hafez al-Assad is not explicitly mentioned in the context. However, the context provides the birth date of his father, Hafez al-Assad, as 6 October 1930.",
-    "pred_answer_lang": "6 Nzeli 1930",
+    "reasoning": "The question is asking for the birth date of Bashar Hafez al-Assad. From the context, we can see that Hafez al-Assad was born on 6 October 1930.",
+    "pred_answer_lang": "6 October 1930",
     "metric_f1": 0.6666666666666666
   },
   {
@@ -1355,9 +1355,9 @@
     "example_answer_lang": [
       "Nguyễn Tất Thành, Nguyễn Ái Quốc, Người cha già của dân tộc"
     ],
-    "reasoning": "The leader of Ho Chi Minh City in Vietnam is commonly known as \"Bác\" or \"Bác Hồ\" which translates to \"Uncle Hồ\" in English.",
-    "pred_answer_lang": "Uncle Hồ",
-    "metric_f1": 0.0
+    "reasoning": "The question asks for the name of the leader of Ho Chi Minh City in Vietnam.",
+    "pred_answer_lang": "Nguyễn Tất Thành",
+    "metric_f1": 0.4
   },
   {
     "question_lang": "abanyankore batuye muri uganda mukahe karere?",
@@ -1365,9 +1365,9 @@
     "example_answer_lang": [
       "Akarere k'amajyepfo y'iburengerazuba bwa Uganda gahana imbibi n'u Rwanda na Repubulika Iharanira Demokarasi ya Kongo"
     ],
-    "reasoning": "The Banyankore people reside in the Ankole Kingdom, which is located in the South-Western region of Uganda.",
-    "pred_answer_lang": "Uganda",
-    "metric_f1": 0.10526315789473684
+    "reasoning": "The question is asking for the region where the Banyankole people live in Uganda.",
+    "pred_answer_lang": "South-Western region",
+    "metric_f1": 0.0
   },
   {
     "question_lang": "Perezida wa Malidivezi yitwa nde?",
@@ -1375,7 +1375,7 @@
     "example_answer_lang": [
       "Ibrahim Mohamed Solih"
     ],
-    "reasoning": "The current president of Maldives is Ibrahim Mohamed Solih, who was elected in 2018.",
+    "reasoning": "The question is asking for the name of the President of Maldives. To find the answer, I will look for the name of the current president mentioned in the context passage.",
     "pred_answer_lang": "Ibrahim Mohamed Solih",
     "metric_f1": 1.0
   },
@@ -1385,9 +1385,9 @@
     "example_answer_lang": [
       "Korowasiya, Bosiniya na Herzegovina, Seribiya, Alubaniya, Kosovo"
     ],
-    "reasoning": "The countries that border Montenegro are mentioned in the context. We need to list these countries.",
-    "pred_answer_lang": "Kroeshiya; Bosiniya na Heryegovina; Sebiriya; Albania; Kosovo; Uburebe buhabwa na Segiteri.",
-    "metric_f1": 0.33333333333333326
+    "reasoning": "The question is asking for the countries that share a border with Montenegro.",
+    "pred_answer_lang": "Croatia, Bosnia and Herzegovina, Serbia, Albania, Kosovo",
+    "metric_f1": 0.2857142857142857
   },
   {
     "question_lang": "umuryango mpuzamahanga uharanira uburenganzira bwa muntu washinzwe ryari?",
@@ -1395,9 +1395,9 @@
     "example_answer_lang": [
       "1935"
     ],
-    "reasoning": "The definition of an international organization provided in the context refers to an association or union of nations established or recognized by them to achieve a common goal.",
-    "pred_answer_lang": "Ibyemezo temerewe biri ku umuryango mpuzamahanga",
-    "metric_f1": 0.0
+    "reasoning": "The question is asking for the year when the concept of international organization was defined by Pitman B. Potter.",
+    "pred_answer_lang": "1935",
+    "metric_f1": 1.0
   },
   {
     "question_lang": "ni ibihe bihugu ubufaransa bwakoronije muri afurika?",
@@ -1405,8 +1405,8 @@
     "example_answer_lang": [
       "Mauritania, Senegali, Sudani y'Ubufaransa (ubu ni Mali), Gineya y'Abafaransa (ubu ni Gineya), Cote d'Ivoire, Volta yo haruguru (ubu ni Burkina Faso), Dahomey (ubu ni Bénin) na Niger."
     ],
-    "reasoning": "The independence dates of the countries in French West Africa are provided in the context, and the question asks for the year France granted independence to these countries in Africa.",
-    "pred_answer_lang": "1958",
+    "reasoning": "The question is asking for the period when French West Africa was colonized. To find the answer, I will look for the years mentioned in the context related to the existence of French West Africa.",
+    "pred_answer_lang": "1895 until 1958",
     "metric_f1": 0.0
   },
   {
@@ -1415,9 +1415,9 @@
     "example_answer_lang": [
       "Ubushinwa mu majyaruguru, Laos na Kamboje mu burengerazuba"
     ],
-    "reasoning": "The context provides information about the borders of Vietnam, which include China to the north, Laos and Cambodia to the west, and maritime borders with Thailand, the Philippines, Indonesia, and Malaysia.",
-    "pred_answer_lang": "China, Laos, Cambodia, Thailand, Philippines, Indonesia, Malaysia",
-    "metric_f1": 0.13333333333333333
+    "reasoning": "The question is asking for the countries that share maritime borders with Vietnam.",
+    "pred_answer_lang": "Thailand, the Philippines, Indonesia, and Malaysia",
+    "metric_f1": 0.0
   },
   {
     "question_lang": "umutwe w'interahamwe washinzwe ryari?",
@@ -1425,9 +1425,9 @@
     "example_answer_lang": [
       "1990"
     ],
-    "reasoning": "The Interahamwe was the youth wing of the National Republican Movement for Democracy and Development (MRND) in Rwanda.",
-    "pred_answer_lang": "MRND",
-    "metric_f1": 0.0
+    "reasoning": "The question asks for when the Interahamwe was formed.",
+    "pred_answer_lang": "around 1990",
+    "metric_f1": 0.6666666666666666
   },
   {
     "question_lang": "isilande iri rwagati muyihe nyanja?",
@@ -1435,8 +1435,8 @@
     "example_answer_lang": [
       "Amajyaruguru y'inyanja ya Atlantika"
     ],
-    "reasoning": "The question asks for a lake, and the context is talking about Iceland, which is an island country in the North Atlantic Ocean. Since Iceland does not have any lakes, the answer should be that there are no lakes in Iceland.",
-    "pred_answer_lang": "Nta nyanja iri mu Isilande.",
+    "reasoning": "The question is asking for the location of Iceland in relation to any seas or oceans. To answer this, we look for the specific information in the context that directly mentions where Iceland is located.",
+    "pred_answer_lang": "North Atlantic Ocean",
     "metric_f1": 0.0
   },
   {
@@ -1445,7 +1445,7 @@
     "example_answer_lang": [
       "Michel Aoun"
     ],
-    "reasoning": "The President of Lebanon mentioned in the context is Michel Aoun.",
+    "reasoning": "The question is asking for the name of the President of Lebanon. Based on the context, the answer can be found in the sentence: \"On October 31, 2016, the parliament finally elected Michel Aoun as president.\"",
     "pred_answer_lang": "Michel Aoun",
     "metric_f1": 1.0
   },
@@ -1455,8 +1455,8 @@
     "example_answer_lang": [
       "Manda y'imyaka itanu"
     ],
-    "reasoning": "The incumbent president of Benin, Patrice Talon, was re-elected for a second term in office in the presidential elections held on 11 April 2021.",
-    "pred_answer_lang": "Yabonetse mu munsi wa 11 Werurwe 2021.",
+    "reasoning": "The question asks about the president of Benin who was re-elected for a certain number of years. The context provides the information that incumbent president Patrice Talon was re-elected in April 2021 for a five-year term.",
+    "pred_answer_lang": "Five",
     "metric_f1": 0.0
   },
   {
@@ -1465,8 +1465,8 @@
     "example_answer_lang": [
       "Repubulika iharanira demokarasi ishingiye ku mashyaka menshi"
     ],
-    "reasoning": "The question is asking about the party currently in power in Kosovo.",
-    "pred_answer_lang": "ishyaka riri kubutegetsi muri Kosovo ni Partia Demokratike e Kosovës (PDK).",
+    "reasoning": "The question is asking for the political party currently in power in Kosovo.",
+    "pred_answer_lang": "Nta bisubizo bihari mu nyandiko yahawe",
     "metric_f1": 0.0
   },
   {
@@ -1475,8 +1475,8 @@
     "example_answer_lang": [
       "2007"
     ],
-    "reasoning": "The Gishwati Forest area in Rwanda was transformed into a national conservation park called the Forest of Hope to protect its biodiversity and curb degradation. The initiative was launched in 2007 through the Gishwati Area Conservation Program (GACP), which was succeeded by the Forest of Hope Association in 2011.",
-    "pred_answer_lang": "isange",
+    "reasoning": "The question asks for the year when the Gishwati Area Conservation Program (GACP) was succeeded by the Forest of Hope Association.",
+    "pred_answer_lang": "2011",
     "metric_f1": 0.0
   },
   {
@@ -1485,8 +1485,8 @@
     "example_answer_lang": [
       "Ubwongereza"
     ],
-    "reasoning": "The text provides the information needed to answer the question about the shared border between Ireland and the United Kingdom.",
-    "pred_answer_lang": "Carlingford Lough",
+    "reasoning": "The question is asking for the countries that share borders with the Republic of Ireland, specifically those that share land borders with Ireland.",
+    "pred_answer_lang": "Northern Ireland",
     "metric_f1": 0.0
   },
   {
@@ -1495,8 +1495,8 @@
     "example_answer_lang": [
       "Byimana alumni"
     ],
-    "reasoning": "The main courses offered at Ecole des Sciences Byimana are in the sciences field such as math, physics, biology, and chemistry. The school also focuses on spiritual assistance through daily prayers and worship, and promotes inclusivity by allowing students from all religions to participate. Additionally, the school has tough admission conditions based on the Ordinary Level National Exam and provides a conducive learning environment with adequate buildings.",
-    "pred_answer_lang": "ibizokorwa by'imiyoborzi mu Irango ry'Ubuhoro By'imana ni mu byayisobanutse.",
+    "reasoning": "The question is asking about the current director of Ecole des Science Byimana.",
+    "pred_answer_lang": "Nta bisubizo bihari mu nyandiko yahawe",
     "metric_f1": 0.0
   },
   {
@@ -1505,7 +1505,7 @@
     "example_answer_lang": [
       "Ratu Wiliame Katonivere"
     ],
-    "reasoning": "The context states that Ratu Wiliame Katonivere was elected as president of Fiji in November 2021.",
+    "reasoning": "The question is asking for the name of the President of Fiji. We need to find the exact phrase in the context that provides the answer.",
     "pred_answer_lang": "Ratu Wiliame Katonivere",
     "metric_f1": 1.0
   },
@@ -1515,7 +1515,7 @@
     "example_answer_lang": [
       "Kibuye"
     ],
-    "reasoning": "The context clearly states that the capital city of Western Province is Kibuye.",
+    "reasoning": "The question asks for the location of the capital city of Western Province. We can find the answer by looking for the capital city mentioned in the context passage.",
     "pred_answer_lang": "Kibuye",
     "metric_f1": 1.0
   },
@@ -1525,9 +1525,9 @@
     "example_answer_lang": [
       "Ubudage mu burengerazuba, Repubulika ya Ceki na Slowakiya mu majyepfo, Ukraine na Biyelorusiya mu burasirazuba, na Lituwaniya"
     ],
-    "reasoning": "The neighboring countries of Poland are listed in the context along with the bodies of water bordering the country.",
-    "pred_answer_lang": "Germany; Czech Republic; Slovakia; Ukraine; Belarus; Lithuania; Kaliningrad Oblast; Baltic Sea",
-    "metric_f1": 0.07142857142857142
+    "reasoning": "The question is asking for the neighboring countries of Latvia.",
+    "pred_answer_lang": "Jermani, Czech Republic, Slovakia, Ukraine, Belarus, Lithuania, Kaliningrad Oblasti Russia",
+    "metric_f1": 0.07407407407407408
   },
   {
     "question_lang": "Chimamanda Ngozi Adichie yavukiyehe?",
@@ -1535,9 +1535,9 @@
     "example_answer_lang": [
       "Enugu muri Nijeriya"
     ],
-    "reasoning": "The context provides the birth information for Chimamanda Ngozi Adichie, stating that her father, James Nwoye Adichie, was born in 1932 and her mother, Grace Ifeoma, was born in 1942. However, the context does not explicitly state the birth year of Chimamanda Ngozi Adichie.",
-    "pred_answer_lang": "Sinshobora kubimenya mu bisobanuro byatanzwe.",
-    "metric_f1": 0.0
+    "reasoning": "The question asks where Chimamanda Ngozi Adichie was born. To answer this, I will locate the place of birth in the context passage.",
+    "pred_answer_lang": "Enugu",
+    "metric_f1": 0.5
   },
   {
     "question_lang": "ni ikihe gihugu kiza kumwanya wa mbere muguharanira iterambere ku isi?",
@@ -1545,7 +1545,7 @@
     "example_answer_lang": [
       "Noruveje"
     ],
-    "reasoning": "The country that ranked first in the global happiness rankings in the fifth World Happiness Report is Norway.",
+    "reasoning": "The question is asking for the country that topped the global happiness rankings in a specific year, which is the information provided in the context passage.",
     "pred_answer_lang": "Norway",
     "metric_f1": 0.0
   },
@@ -1555,8 +1555,8 @@
     "example_answer_lang": [
       "Aziya"
     ],
-    "reasoning": "The capital city of Iran is Tehran.",
-    "pred_answer_lang": "Tehran",
+    "reasoning": "The question is asking for the location of Iran in terms of cardinal direction.",
+    "pred_answer_lang": "Ku wuhe mugabane",
     "metric_f1": 0.0
   },
   {
@@ -1565,9 +1565,9 @@
     "example_answer_lang": [
       "Parike y'igihugu y'Ibirunga"
     ],
-    "reasoning": "The national park in Rwanda that is home to mountain gorillas and golden monkeys, and borders Virunga National Park in the Democratic Republic of Congo and Mgahinga Gorilla National Park in Uganda, is Volcanoes National Park.",
-    "pred_answer_lang": "Parike yo mu Rwanda ibamo ingagi ni Volcanoes National Park.",
-    "metric_f1": 0.13333333333333333
+    "reasoning": "The question is asking for the name of the national park in Rwanda that is home to mountain gorillas.",
+    "pred_answer_lang": "Volcanoes National Park",
+    "metric_f1": 0.0
   },
   {
     "question_lang": "Sheikh Tamim bin Hamad Al Thani yarangirije amashuri ye he?",
@@ -1575,9 +1575,9 @@
     "example_answer_lang": [
       "Ishuri rya Gisirikare rya Sandhurst"
     ],
-    "reasoning": "He completed his education in Great Britain, attending Sherborne School in Dorset and then Harrow School before graduating from the Royal Military Academy Sandhurst.",
-    "pred_answer_lang": "Sherborne School mu Dorset na Harrow School; Royal Military Academy Sandhurst",
-    "metric_f1": 0.12500000000000003
+    "reasoning": "The question asks for where Sheikh Tamim bin Hamad Al Thani attended school.",
+    "pred_answer_lang": "Great Britain's Sherborne School (International College) and Harrow School",
+    "metric_f1": 0.0
   },
   {
     "question_lang": "Zozibini Tunzi akomoka mu kihe gihugu?",
@@ -1585,9 +1585,9 @@
     "example_answer_lang": [
       "Afurika y'epfo"
     ],
-    "reasoning": "The question asks for the country Zozibini Tunzi comes from, which is South Africa according to the context.",
-    "pred_answer_lang": "Ubushiafrika y'Epfo.",
-    "metric_f1": 0.6666666666666666
+    "reasoning": "The question asks for where Zozibini Tunzi is from.",
+    "pred_answer_lang": "South Africa",
+    "metric_f1": 0.0
   },
   {
     "question_lang": "umurwa mukuru w'akarere ka Mamak muri Turikiya  ninuwuhe?",
@@ -1595,7 +1595,7 @@
     "example_answer_lang": [
       "Ankara"
     ],
-    "reasoning": "The capital city of Ankara Province in Turkey is Ankara.",
+    "reasoning": "The question asks for the capital city of Ankara Province in Turkey.",
     "pred_answer_lang": "Ankara",
     "metric_f1": 1.0
   },
@@ -1605,8 +1605,8 @@
     "example_answer_lang": [
       "Ubushinwa"
     ],
-    "reasoning": "China led the world in strawberry production in 2019 with 40% of the total production, making it a major country in terms of strawberry cultivation.",
-    "pred_answer_lang": "Ubucumbi bw'umuhinzi muri 2019 bwa musicukuzwe na Shina bishobora kwamagana ku bihugu byose, kandi bihagaze imbere muri ukwezi.",
+    "reasoning": "The question is asking for the country that leads in strawberry production, which is indicated in the context passage.",
+    "pred_answer_lang": "China",
     "metric_f1": 0.0
   },
   {
@@ -1615,8 +1615,8 @@
     "example_answer_lang": [
       "Jair Messias Bolsonaro"
     ],
-    "reasoning": "The context provides information about Jair Messias Bolsonaro, the president of Brazil. However, it does not mention the Minister of Foreign Affairs for Brazil.",
-    "pred_answer_lang": "Sinshobora kubimenya mu bisobanuro byatanzwe.",
+    "reasoning": "The question is asking for the name of the Minister of Foreign Affairs of Brazil. The context passage mentions Jair Messias Bolsonaro as the 38th president of Brazil, but it does not provide information about the Minister of Foreign Affairs.",
+    "pred_answer_lang": "Nta bisubizo bihari mu nyandiko yahawe",
     "metric_f1": 0.0
   },
   {
@@ -1625,8 +1625,8 @@
     "example_answer_lang": [
       "Urwunge rw'Amashuri rwa Astrida i Butare"
     ],
-    "reasoning": "The birth year of Michel Rwagasana was mentioned in the context as 1927.",
-    "pred_answer_lang": "1927",
+    "reasoning": "The question asks for the birthplace of Michel Rwagasana.",
+    "pred_answer_lang": "Ruhango District",
     "metric_f1": 0.0
   },
   {
@@ -1635,9 +1635,9 @@
     "example_answer_lang": [
       "Uganda mu majyaruguru, Tanzaniya mu burasirazuba"
     ],
-    "reasoning": "Nyagatare district in Rwanda borders Uganda in the North, Tanzania in the East, Gatsibo District in the South, and Gicumbi District in the West.",
-    "pred_answer_lang": "Ubwongereza, Tanzaniya, Gatsibo, Gicumbi",
-    "metric_f1": 0.2
+    "reasoning": "The question is asking for the country that shares a border with Nyagatare. We need to find the country mentioned in the context that borders Nyagatare.",
+    "pred_answer_lang": "Uganda",
+    "metric_f1": 0.2857142857142857
   },
   {
     "question_lang": "minisitiri w'intebe wa Shipure yitwa nde?",
@@ -1645,8 +1645,8 @@
     "example_answer_lang": [
       "Rauf Denktaş"
     ],
-    "reasoning": "The context provides information about the prime ministers of Northern Cyprus, but it does not mention any specific names. Since the context does not include the name of the current or specific prime ministers, I will use the Kinyarwanda fallback phrase.",
-    "pred_answer_lang": "Sinshobora kubimenya mu bisobanuro byatanzwe.",
+    "reasoning": "The question is asking for the name of the Minister of the Interior of Shipure. To find the answer, I will search for the Prime Ministers of Northern Cyprus and look for the name associated with Shipure.",
+    "pred_answer_lang": "Nta bisubizo bihari mu nyandiko yahawe",
     "metric_f1": 0.0
   },
   {
@@ -1655,9 +1655,9 @@
     "example_answer_lang": [
       "Granite Hills High School"
     ],
-    "reasoning": "The text provides information on Jimmie Kenneth Johnson's early career progression and various racing series but does not mention the specific year he graduated from high school.",
-    "pred_answer_lang": "Sinshobora kubimenya mu bisobanuro byatanzwe.",
-    "metric_f1": 0.0
+    "reasoning": "The question is asking where Jimmie Kenneth Johnson completed his studies.",
+    "pred_answer_lang": "Granite Hills High School",
+    "metric_f1": 1.0
   },
   {
     "question_lang": "umunsi mukuru ngaruka mwaka wa Pasika uba ryari?",
@@ -1665,9 +1665,9 @@
     "example_answer_lang": [
       "iminsi irindwi guhera ku ya 15 z'ukwezi kwa Tishrei"
     ],
-    "reasoning": "The holiday of Sukkot is celebrated for seven days from the 15th day of the month of Tishrei. To determine the corresponding day of the week for the main day of Sukkot, we need to calculate it based on the Hebrew calendar.",
-    "pred_answer_lang": "Ku wa gatandatu, Tariki ya 15 Kanama",
-    "metric_f1": 0.3529411764705882
+    "reasoning": "The question asks for the date of the Passover, which is known as \"Pasika\" in Kinyarwanda. In the context, it mentions Sukkot being celebrated on the 15th day of the month of Tishrei. Since the Passover occurs in the month of Nisan in the Jewish calendar, which is different from Tishrei, it indicates that the information needed for the Passover date is not present in the context.",
+    "pred_answer_lang": "Nta bisubizo bihari mu nyandiko yahawe",
+    "metric_f1": 0.0
   },
   {
     "question_lang": "ishyamba rya Gishwati-Mukura ryemejwe nka parike kuva ryari?",
@@ -1675,7 +1675,7 @@
     "example_answer_lang": [
       "2007"
     ],
-    "reasoning": "The Gishwati-Mukura National Park was established in Rwanda to protect the biodiversity of the Gishwati Forest area and restore its cover. In 2011, the Gishwati Area Conservation Program (GACP) was succeeded by the Forest of Hope Association, which currently manages the Gishwati Forest Reserve (GFR).",
+    "reasoning": "The question is asking for when the Gishwati-Mukura forest was designated as a park.",
     "pred_answer_lang": "2011",
     "metric_f1": 0.0
   },
@@ -1685,9 +1685,9 @@
     "example_answer_lang": [
       "30 Nzeri 1966"
     ],
-    "reasoning": "The capital city of Botswana is mentioned in the context as Gaborone.",
-    "pred_answer_lang": "Botswana ibonye ubwigenge mu Gaborone.",
-    "metric_f1": 0.0
+    "reasoning": "To answer the question \"Botswana yabonye ubwigenge ryari?\" (When did Botswana gain independence?), we need to identify the date of independence for Botswana in the provided context.",
+    "pred_answer_lang": "30 September 1966",
+    "metric_f1": 0.6666666666666666
   },
   {
     "question_lang": "Sina Gerald yavukiye umunyarwanda wavukiye mukahe karere?",
@@ -1695,9 +1695,9 @@
     "example_answer_lang": [
       "Intara y'Amajyaruguru, akarere ka Rulindo;  umurenge wa Bushoki n'Akagari ka Nyirangarama"
     ],
-    "reasoning": "The passage provides information about Sina Gérard's birthplace.",
-    "pred_answer_lang": "Ku karere k'ihanze yambere",
-    "metric_f1": 0.0
+    "reasoning": "The question is asking where Sina Gérard was born.",
+    "pred_answer_lang": "Northern Province, Rulindo district",
+    "metric_f1": 0.11764705882352941
   },
   {
     "question_lang": "Mike Moore yarangirijehe amashuri ye?",
@@ -1705,8 +1705,8 @@
     "example_answer_lang": [
       "Oya"
     ],
-    "reasoning": "The question is asking about the education status of Mike Moore.",
-    "pred_answer_lang": "Sinshobora kubimenya mu bisobanuro byatanzwe.",
+    "reasoning": "The question is asking where Mike Moore attended school.",
+    "pred_answer_lang": "Nta bisubizo bihari mu nyandiko yahawe",
     "metric_f1": 0.0
   },
   {
@@ -1715,7 +1715,7 @@
     "example_answer_lang": [
       "Accra"
     ],
-    "reasoning": "The capital city of Ghana is Accra.",
+    "reasoning": "The question is asking for the capital city of Ghana, which is the largest city as mentioned in the context.",
     "pred_answer_lang": "Accra",
     "metric_f1": 1.0
   },
@@ -1725,7 +1725,7 @@
     "example_answer_lang": [
       "2010"
     ],
-    "reasoning": "The film \"Machete\" was released in 2010.",
+    "reasoning": "The question is asking for the year when the film called \"Machete\" was released.",
     "pred_answer_lang": "2010",
     "metric_f1": 1.0
   },
@@ -1735,7 +1735,7 @@
     "example_answer_lang": [
       "1972"
     ],
-    "reasoning": "The completion date of Vandra Shiva's PhD studies can be found in the text, which indicates that she completed her PhD in 1978 at the University of Western Ontario.",
+    "reasoning": "The question is asking for the year when Vandana Shiva completed her PhD.",
     "pred_answer_lang": "1978",
     "metric_f1": 0.0
   },
@@ -1745,7 +1745,7 @@
     "example_answer_lang": [
       "Libiya"
     ],
-    "reasoning": "Muammar Gaddafi yari ari President w'igihugu cya Libya.",
+    "reasoning": "The question is asking for the country that Colonel Gaddafi ruled.",
     "pred_answer_lang": "Libya",
     "metric_f1": 0.0
   },
@@ -1755,9 +1755,9 @@
     "example_answer_lang": [
       "Amerika"
     ],
-    "reasoning": "The capital city of Argentina is Buenos Aires.",
-    "pred_answer_lang": "Buenos Aires",
-    "metric_f1": 0.0
+    "reasoning": "The question is asking for the country where Argentina is located.",
+    "pred_answer_lang": "Ku mwuga w'icya mbere muri Amerika y'Epfo uha America du Poroje, Argentina.",
+    "metric_f1": 0.13333333333333333
   },
   {
     "question_lang": "Perezidansi ya Venezuwela  yubatse he?",
@@ -1765,8 +1765,8 @@
     "example_answer_lang": [
       "Umuhanda wa Urdaneta"
     ],
-    "reasoning": "The official residence of the President of Venezuela, Perezidansi ya Venezuwela yubatse mu miriyonere ya Palacio de Miraflores.",
-    "pred_answer_lang": "Palacio de Miraflores",
+    "reasoning": "The question is asking for the location where the Presidential Palace of Venezuela is situated.",
+    "pred_answer_lang": "Caracas",
     "metric_f1": 0.0
   },
   {
@@ -1775,9 +1775,9 @@
     "example_answer_lang": [
       "Faustin Murigo"
     ],
-    "reasoning": "The national anthem of Rwanda, \"Rwanda Nziza,\" was composed by Faustin Murigo and Captain Jean-Bosco Hashakaimana as part of a national contest organized by the government.",
-    "pred_answer_lang": "Faustin Murigo na Captain Jean-Bosco Hashakaimana",
-    "metric_f1": 0.4444444444444445
+    "reasoning": "The question is asking for the anthem that was composed to represent the country of Rwanda. The answer can be found in the context passage.",
+    "pred_answer_lang": "Rwanda Nziza",
+    "metric_f1": 0.0
   },
   {
     "question_lang": "ni iyihe mitwe igize inteko ishinga amategeko y'u rwanda?",
@@ -1785,8 +1785,8 @@
     "example_answer_lang": [
       "Inteko ishinga amategeko, Inama y’iterambere ry’igihugu (Igifaransa: Conseil national de développement) (1982–1994) n'Inteko ishinga amategeko y'inzibacyuho (1994–2003)"
     ],
-    "reasoning": "The answer is \"iy'abantu\" (mwezi, abaturage n'abakilisi).",
-    "pred_answer_lang": "iy'abantu",
+    "reasoning": "The question asks for the year when the constitution of Rwanda was adopted.",
+    "pred_answer_lang": "1995",
     "metric_f1": 0.0
   },
   {
@@ -1795,8 +1795,8 @@
     "example_answer_lang": [
       "Lativiya mu majyaruguru, Biyelorusiya mu burasirazuba no mu majyepfo, Polonye mu majyepfo, n'Uburusiya mu majyepfo y'uburengerazuba"
     ],
-    "reasoning": "The neighboring countries of Lithuania are mentioned in the context, specifically Latvia to the north, Belarus to the east and south, Poland to the south, and Russia to the southwest.",
-    "pred_answer_lang": "Latvia; Belarus; Poland; Russia",
+    "reasoning": "The question is asking for the countries that Lithuania shares its borders with.",
+    "pred_answer_lang": "Latvia, Belarus, Poland, Russia",
     "metric_f1": 0.0
   },
   {
@@ -1805,8 +1805,8 @@
     "example_answer_lang": [
       "Amashuri ya Leta"
     ],
-    "reasoning": "Tikanakwigisha mu kinyarwanda.",
-    "pred_answer_lang": "Crawford",
+    "reasoning": "The question is asking where Yohani Martin Sutermeister was born.",
+    "pred_answer_lang": "Pennsylvania",
     "metric_f1": 0.0
   },
   {
@@ -1815,9 +1815,9 @@
     "example_answer_lang": [
       "Umurenge wa Ndera, Akarere ka Gasabo mu Mujyi wa Kigali"
     ],
-    "reasoning": "The Caraes Ndera Hospital is located in the City of Kigali in Rwanda.",
-    "pred_answer_lang": "Kigali",
-    "metric_f1": 0.18181818181818182
+    "reasoning": "The question is asking for the location of the CRAES Ndera Hospital.",
+    "pred_answer_lang": "Gasabo District in City of Kigali",
+    "metric_f1": 0.25
   },
   {
     "question_lang": "umuhanzi Cyusa Ibrahim yavutse ryari?",
@@ -1825,9 +1825,9 @@
     "example_answer_lang": [
       "09 Ukuboza 1934"
     ],
-    "reasoning": "The context provides the birth date of Abdullah Ibrahim, also known as Dollar Brand, as 9 October 1934.",
-    "pred_answer_lang": "9 Ukuboza 1934",
-    "metric_f1": 0.6666666666666666
+    "reasoning": "The question asks for the birthplace of the musician Cyusa Ibrahim, which in this case refers to Abdullah Ibrahim.",
+    "pred_answer_lang": "South Africa",
+    "metric_f1": 0.0
   },
   {
     "question_lang": "Umuyobozi w'afurika yunze ubumwe ayobora igihe kinga iki?",
@@ -1835,8 +1835,8 @@
     "example_answer_lang": [
       "manda y'umwaka umwe"
     ],
-    "reasoning": "The Chairperson of the African Union rotates among the continent's five regions for a one-year term.",
-    "pred_answer_lang": "igihe kigera hamwe",
+    "reasoning": "The question is asking for the title held by the leader governing the African Union. In the given context, it is stated that the Chairperson of the African Union is elected for a one-year term. Therefore, the answer can be found by extracting the title of the leader governing the African Union.",
+    "pred_answer_lang": "Chairperson",
     "metric_f1": 0.0
   },
   {
@@ -1845,9 +1845,9 @@
     "example_answer_lang": [
       "Schiavon"
     ],
-    "reasoning": "Pietro Parolin yavukiye ku itariki ya 17 kugera ku ya 18 Werurwe 1955.",
-    "pred_answer_lang": "17 Werurwe 1955",
-    "metric_f1": 0.0
+    "reasoning": "The question is asking for the birthplace of Pietro Parolin.",
+    "pred_answer_lang": "Schiavon",
+    "metric_f1": 1.0
   },
   {
     "question_lang": "igihugu kitwa Tajikisitani giherereye kuwuhe mugabane?",
@@ -1855,8 +1855,8 @@
     "example_answer_lang": [
       "Aziya"
     ],
-    "reasoning": "The capital city of Tajikistan is mentioned in the context.",
-    "pred_answer_lang": "Dushanbe",
+    "reasoning": "The question is asking for the country located to the south of Tajikistan.",
+    "pred_answer_lang": "Afeganisitani",
     "metric_f1": 0.0
   },
   {
@@ -1865,8 +1865,8 @@
     "example_answer_lang": [
       "Ishuri Rikuru ry'ikoranabuhanga rya Massachusetts (MIT)"
     ],
-    "reasoning": "The context provides information about Joseph Stiglitz's education, including the fact that he attended Amherst College, studied at MIT, and pursued graduate work there. However, the specific details about his completion or results of his studies are not mentioned.",
-    "pred_answer_lang": "Sinshobora kubimenya mu bisobanuro byatanzwe.",
+    "reasoning": "The question is asking where Joseph Stiglitz attended school.",
+    "pred_answer_lang": "Amherst College",
     "metric_f1": 0.0
   },
   {
@@ -1875,9 +1875,9 @@
     "example_answer_lang": [
       "14 Ukwakira 1999"
     ],
-    "reasoning": "The context provides the date of Julius Kambarage Nyerere's death, which is 14 October 1999.",
-    "pred_answer_lang": "14 Ukuboza 1999",
-    "metric_f1": 0.6666666666666666
+    "reasoning": "The question asks for the year when Julius Kambarage Nyerere died.",
+    "pred_answer_lang": "1999",
+    "metric_f1": 0.5
   },
   {
     "question_lang": "Paul Kagame  yavutse ryari?",
@@ -1885,9 +1885,9 @@
     "example_answer_lang": [
       "23 Ukwakira 1957"
     ],
-    "reasoning": "The birth date of Paul Kagame is mentioned in the context as 23 October 1957.",
-    "pred_answer_lang": "23 Ukuboza 195",
-    "metric_f1": 0.3333333333333333
+    "reasoning": "The question asks for the birth date of Paul Kagame.",
+    "pred_answer_lang": "23 October 1957",
+    "metric_f1": 0.6666666666666666
   },
   {
     "question_lang": "u Burundi bwabonye ubwigenge ryari?",
@@ -1895,8 +1895,8 @@
     "example_answer_lang": [
       "1962"
     ],
-    "reasoning": "The country of Burundi traces its origins back to the 16th century as a small kingdom in the African Great Lakes region. After European contact, it was united with the Kingdom of Rwanda to form the colony of Ruanda-Urundi. This colony gained independence in 1962, eventually splitting into Rwanda and Burundi.",
-    "pred_answer_lang": "Rwanda",
+    "reasoning": "The question is asking for when Burundi originated as a small kingdom.",
+    "pred_answer_lang": "16th century",
     "metric_f1": 0.0
   },
   {
@@ -1905,9 +1905,9 @@
     "example_answer_lang": [
       "Kaminuza ya Harvard"
     ],
-    "reasoning": "Busingye Kabumba yarangirije amashuri ye muri 1982. Yavutse kuri Werurwe 21, 1982. Yavutse ku muryango wo basa n'abakorera. Yari umukoresha wa St Kizito primary school, Namilyango college amara mu mazu y'I \"O\" naho ahoze kugira uruhare rw'iyi \"A\". Yakoze LL.B ku Makerere University. Nyuma y'uko yamaze LLB yakoze post-graduate diploma ku Law Development Centre muri July 2006, yakoze civil law ku University of Oxford. Nyuma y'uwo yakiraga LL.M ku Harvard University.",
-    "pred_answer_lang": "Werurwe 21, 1982",
-    "metric_f1": 0.0
+    "reasoning": "The question asks where Busingye Kabumba studied, specifically his school and university. The context provided mentions his primary and secondary schools, as well as the universities he attended for his LL.B, post-graduate diploma, bachelor of civil law degree, and master of laws.",
+    "pred_answer_lang": "St Kizito primary school, Namilyango college, Makerere University, Law Development Centre, University of Oxford, Harvard University",
+    "metric_f1": 0.10526315789473684
   },
   {
     "question_lang": "Television yigenga ya Bruce Melodie yitwa gute?",
@@ -1915,7 +1915,7 @@
     "example_answer_lang": [
       "ISIBO TV"
     ],
-    "reasoning": "The TV station launched by Bruce Melodie in 2020 is called ISIBO TV.",
+    "reasoning": "The question is asking for the name of the TV station owned by Bruce Melodie, based on the provided context.",
     "pred_answer_lang": "ISIBO TV",
     "metric_f1": 1.0
   },
@@ -1925,9 +1925,9 @@
     "example_answer_lang": [
       "Nyarutarama"
     ],
-    "reasoning": "The headquarters of MTN Rwanda is located in Nyarutarama, which is in the city of Kigali, the capital of Rwanda.",
-    "pred_answer_lang": "Kigali",
-    "metric_f1": 0.0
+    "reasoning": "The question is asking for the location of the headquarters of MTN Rwanda.",
+    "pred_answer_lang": "Nyarutarama",
+    "metric_f1": 1.0
   },
   {
     "question_lang": "umurwa mukuru w'u Busuwisi ni uwuhe?",
@@ -1935,7 +1935,7 @@
     "example_answer_lang": [
       "Bern"
     ],
-    "reasoning": "The de facto capital of Switzerland is referred to as the \"federal city.\"",
+    "reasoning": "The question asks for the capital of Switzerland.",
     "pred_answer_lang": "Bern",
     "metric_f1": 1.0
   },
@@ -1945,9 +1945,9 @@
     "example_answer_lang": [
       "Ikigo gishinzwe iperereza (CIA)"
     ],
-    "reasoning": "The Central Intelligence Agency (CIA) is the agency responsible for intelligence gathering in the United States government.",
-    "pred_answer_lang": "CIA",
-    "metric_f1": 0.4
+    "reasoning": "The question is asking for the institution responsible for intelligence gathering in the United States. To answer this question, we need to identify the organization mentioned in the context that is tasked with gathering national security information.",
+    "pred_answer_lang": "The Central Intelligence Agency",
+    "metric_f1": 0.0
   },
   {
     "question_lang": "Umurwa mukuru wa Boliviya ni uwuhe?",
@@ -1955,8 +1955,8 @@
     "example_answer_lang": [
       "Lapazi"
     ],
-    "reasoning": "The capital city of Bolivia is the city where the seat of government and the executive capital are located.",
-    "pred_answer_lang": "La Paz",
+    "reasoning": "The question asks for the capital city of Bolivia, which is Sucre as mentioned in the context.",
+    "pred_answer_lang": "Sucre",
     "metric_f1": 0.0
   },
   {
@@ -1965,7 +1965,7 @@
     "example_answer_lang": [
       "Lilongwe"
     ],
-    "reasoning": "The capital city of Malawi is mentioned in the context as Lilongwe.",
+    "reasoning": "The question seeks the main city of Malawi.",
     "pred_answer_lang": "Lilongwe",
     "metric_f1": 1.0
   },
@@ -1975,9 +1975,9 @@
     "example_answer_lang": [
       "Umusozi wa Nyarugenge"
     ],
-    "reasoning": "The house of Richard Kandt is now the Kandt House Museum of Natural History in Kigali's CBD, which is on Nyarugenge Hill and was the site of the original city founded by Richard Kandt in 1907.",
-    "pred_answer_lang": "Kigali",
-    "metric_f1": 0.0
+    "reasoning": "The exact answer to the question \"inzu ndagamurage ya Richard Kandt yubatse mukahe karere Kurwanda?\" can be found by identifying where Richard Kandt founded the original city in 1907.",
+    "pred_answer_lang": "Nyarugenge Hill",
+    "metric_f1": 0.4
   },
   {
     "question_lang": "ni ryari Muhammadu Buhari yatorewe kuyobora Nijeriya?",
@@ -1985,8 +1985,8 @@
     "example_answer_lang": [
       "31 Ukuboza 1983"
     ],
-    "reasoning": "The context provided indicates that Muhammadu Buhari took power in a military coup d'état in Nigeria on December 31, 1983. Therefore, he was born before this date, so the answer to the question of his birthdate is \"Yumwe 1942.\"",
-    "pred_answer_lang": "Yumwe 1942",
+    "reasoning": "The question is asking for the time when Muhammadu Buhari was born. We need to identify the specific date or year in the context that provides this information.",
+    "pred_answer_lang": "Nta bisubizo bihari mu nyandiko yahawe",
     "metric_f1": 0.0
   },
   {
@@ -1995,9 +1995,9 @@
     "example_answer_lang": [
       "Mexico na Central America"
     ],
-    "reasoning": "The dahlias are native to Mexico and Central America.",
-    "pred_answer_lang": "Mehiko na Amerika y'Epfo.",
-    "metric_f1": 0.22222222222222224
+    "reasoning": "The question is asking for where dahlias originate from.",
+    "pred_answer_lang": "Mexico and Central America",
+    "metric_f1": 0.75
   },
   {
     "question_lang": "perezida kagame yashakanye na Jeanette Nyiramongi ryari?",
@@ -2005,9 +2005,9 @@
     "example_answer_lang": [
       "10 Kamena 1989"
     ],
-    "reasoning": "The answer to the question can be found directly in the context provided.",
-    "pred_answer_lang": "Jeannette Nyiramongi",
-    "metric_f1": 0.0
+    "reasoning": "The question is asking about the year when President Kagame got married to Jeanette Nyiramongi.",
+    "pred_answer_lang": "1989",
+    "metric_f1": 0.5
   },
   {
     "question_lang": "umurwa mukuru wa Zimbabwe ni uwuhe?",
@@ -2015,7 +2015,7 @@
     "example_answer_lang": [
       "Harare"
     ],
-    "reasoning": "The capital city of Zimbabwe is mentioned in the context as \"Harare.\"",
+    "reasoning": "The question is asking for the largest city in Zimbabwe.",
     "pred_answer_lang": "Harare",
     "metric_f1": 1.0
   },
@@ -2025,8 +2025,8 @@
     "example_answer_lang": [
       "Jeannette Nyiramongi"
     ],
-    "reasoning": "Since the context mentions \"Her father is Paul Kagame,\" it is clear that the question is referring to Paul Kagame's daughter.",
-    "pred_answer_lang": "N'i Rwanda.",
+    "reasoning": "The question is asking for the name of the person Paul Kagame was married to.",
+    "pred_answer_lang": "Nta bisubizo bihari mu nyandiko yahawe",
     "metric_f1": 0.0
   },
   {
@@ -2035,7 +2035,7 @@
     "example_answer_lang": [
       "Teodoro Obiang Nguema Mbasogo"
     ],
-    "reasoning": "The president of Equatorial Guinea is Teodoro Obiang Nguema Mbasogo.",
+    "reasoning": "The question is asking for the name of the President of Equatorial Guinea.",
     "pred_answer_lang": "Teodoro Obiang Nguema Mbasogo",
     "metric_f1": 1.0
   },
@@ -2045,7 +2045,7 @@
     "example_answer_lang": [
       "Stevo Pendarovski"
     ],
-    "reasoning": "The President of North Macedonia mentioned in the context is Stevo Pendarovski.",
+    "reasoning": "The question is asking for the name of the current President of North Macedonia.",
     "pred_answer_lang": "Stevo Pendarovski",
     "metric_f1": 1.0
   },
@@ -2055,9 +2055,9 @@
     "example_answer_lang": [
       "09 Werurwe 1984"
     ],
-    "reasoning": "ikigo Competitive Enterprise Institute cyashinzwe ryari ku itariki ya 9 Mata 1984 muri Washington, D.C. Umunyamuhanga Fred L. Smith Jr. Ni umuragerero wa CEI. Ikigo kiri ku rwego rwo gushyiraho inyungu z'ubutegetsi butagira amasezerano, ubucuruzi bw'ijoro, n'uburenganzira bw'umuntu wese. CEI iri muri icyo gihe ibikorera byinshi, nk'ubucuruzi, amashuri, teknoloji, igitangaza cyangwa abagendana, ushinzwe ubucuruzi n'ubutegetsi, gutanga inyunyungu ku mibare isiyihinga. Kent Lassman ni Perezida wa CEI muri iki gihe.",
-    "pred_answer_lang": "Ku itariki ya 9 Mata 1984.",
-    "metric_f1": 0.2222222222222222
+    "reasoning": "The Competitive Enterprise Institute was founded on March 9, 1984, by Fred L. Smith Jr. Therefore, the answer to the question \"ikigo Competitive Enterprise Institute cyashinzwe ryari?\" is 1984.",
+    "pred_answer_lang": "1984\n\n[[## completed ##]]",
+    "metric_f1": 0.4
   },
   {
     "question_lang": "Ni bihe bitaro byo mu Rwanda bwiziwiho kubyaza neza?",
@@ -2065,9 +2065,9 @@
     "example_answer_lang": [
       "Ibitaro byigisha bya kaminuza ya Kigali, ibitaro byigisha bya kaminuza ya Butare, ibitaro by'umwami Faisal Kigali n'ibitaro bya gisirikare by'u Rwanda"
     ],
-    "reasoning": "The most advanced hospital in Rwanda, equipped with CT and MRI machines, two dialysis machines, and a wide range of surgical capabilities, is King Faisal Hospital.",
-    "pred_answer_lang": "King Faisal Hospital",
-    "metric_f1": 0.07407407407407407
+    "reasoning": "The question asks about the time period when the healthcare system in Rwanda started to be well-publicized.",
+    "pred_answer_lang": "Nta bisubizo bihari mu nyandiko yahawe",
+    "metric_f1": 0.0
   },
   {
     "question_lang": "ni iyihe kaminuza ikomeye muri Kenya mubijyanye n'ikoranabuhanga?",
@@ -2075,9 +2075,9 @@
     "example_answer_lang": [
       "Dedan Kimathi University of Technology"
     ],
-    "reasoning": "The highest-ranking university in Kenya in terms of technology is Dedan Kimathi University of Technology (DeKUT).",
-    "pred_answer_lang": "DeKUT",
-    "metric_f1": 0.0
+    "reasoning": "The question is asking for the best technological university in Kenya. From the context, we can see that Dedan Kimathi University of Technology (DeKUT) is a public technological university in Nyeri, Kenya.",
+    "pred_answer_lang": "Dedan Kimathi University of Technology",
+    "metric_f1": 1.0
   },
   {
     "question_lang": "Jorge Mario Bergoglio yarangirije amashuri ye he?",
@@ -2085,9 +2085,9 @@
     "example_answer_lang": [
       "Escuela Técnica Industrial N° 27 Hipólito Yrigoyen"
     ],
-    "reasoning": "He went to Escuela Técnica Industrial N° 27 Hipólito Yrigoyen for his studies.",
-    "pred_answer_lang": "Escuela Técnica Industrial N° 27 Hipólito Yrigoyen",
-    "metric_f1": 1.0
+    "reasoning": "The question is asking where Jorge Mario Bergoglio attended his school.",
+    "pred_answer_lang": "Ramos Mejía",
+    "metric_f1": 0.0
   },
   {
     "question_lang": "ni ibihe bihugu bihana imbibi na Eswatin?",
@@ -2095,9 +2095,9 @@
     "example_answer_lang": [
       "Mozambike mu majyaruguru y'uburasirazuba na Afurika y'Epfo mu majyaruguru, mu burengerazuba, mu majyepfo, no mu majyepfo y'uburasirazuba"
     ],
-    "reasoning": "The countries that border Eswatini and have a coastline are Mozambique and South Africa.",
-    "pred_answer_lang": "Mozambique na Afurika y'Epfo.",
-    "metric_f1": 0.32000000000000006
+    "reasoning": "The question is asking about the countries that share a border with Eswatini.",
+    "pred_answer_lang": "Mozambique, South Africa",
+    "metric_f1": 0.0
   },
   {
     "question_lang": "umuyobozi w'afurika yunze ubumwe ayobora igihe kinga iki?",
@@ -2105,8 +2105,8 @@
     "example_answer_lang": [
       "Manda y'umwaka umwe"
     ],
-    "reasoning": "The Chairperson of the African Union rotates among the continent's five regions for a one-year term. A candidate must be selected by consensus or at least a two-thirds majority vote by member states. The chairperson is expected to complete the term without interruption.",
-    "pred_answer_lang": "I Kigali",
+    "reasoning": "The question is asking for the title of the leader of the African Union who governs during a specific period.",
+    "pred_answer_lang": "The Chairperson of the African Union",
     "metric_f1": 0.0
   },
   {
@@ -2115,7 +2115,7 @@
     "example_answer_lang": [
       "Kigali"
     ],
-    "reasoning": "The context mentions that Paul Rusesabagina was arrested in Kigali on 31 August 2020.",
+    "reasoning": "The question is asking for where Paul Rusesabagina was arrested.",
     "pred_answer_lang": "Kigali",
     "metric_f1": 1.0
   },
@@ -2125,8 +2125,8 @@
     "example_answer_lang": [
       "Zambiya na Angola mu majyaruguru, Botswana mu burasirazuba na Afurika y'Epfo mu majyepfo no mu burasirazuba"
     ],
-    "reasoning": "The capital city of Namibia is Windhoek.",
-    "pred_answer_lang": "Windhoek",
+    "reasoning": "The question is asking for the independence date of Namibia.",
+    "pred_answer_lang": "21 March 1990",
     "metric_f1": 0.0
   },
   {
@@ -2135,9 +2135,9 @@
     "example_answer_lang": [
       "Ubufaransa, Amerika, Ubwongereza, Uburusiya (byahagaritswe), Ubudage, Ubuyapani, Ubutaliyani, na Kanada"
     ],
-    "reasoning": "The G8 members rotate the responsibility of hosting the summit each year in a specific order. The countries hosting the G8 summit in order are: France, United States, United Kingdom, Russia (suspended), Germany, Japan, Italy, and Canada.",
-    "pred_answer_lang": "Urupapuro rwemeguko ry'ibihugu byinjiye ku ikubitiro mu ihuriro ry'ibihugu bikize ku isi ry'abanyamerika n'initwaje ni: Ubufaransa, Leta Zunze Ubumwe za Amerika, Ubuye Umurwa Mukuru, Uburusiya (warasanzwe), Ubudage, Ubuyapani, Ubwongereza, n'Ubukana.",
-    "metric_f1": 0.26666666666666666
+    "reasoning": "The question is asking for the sequence of countries that host the G8 Summit in rotation.",
+    "pred_answer_lang": "France, United States, United Kingdom, Germany, Japan, Italy, Canada",
+    "metric_f1": 0.0
   },
   {
     "question_lang": "Venezuwela ni iyo ku wuhe mugabane?",
@@ -2145,8 +2145,8 @@
     "example_answer_lang": [
       "Amerika"
     ],
-    "reasoning": "The capital city of Venezuela is Caracas.",
-    "pred_answer_lang": "Caracas",
+    "reasoning": "The question is asking for the location of Venezuela.",
+    "pred_answer_lang": "South America",
     "metric_f1": 0.0
   },
   {
@@ -2155,9 +2155,9 @@
     "example_answer_lang": [
       "Leta Zunze Ubumwe za Amerika"
     ],
-    "reasoning": "The question asks about the borders of Canada and the neighboring countries.",
-    "pred_answer_lang": "Amerika y'Epfo.",
-    "metric_f1": 0.25
+    "reasoning": "The question asks about which continents Canada shares borders with.",
+    "pred_answer_lang": "North America",
+    "metric_f1": 0.0
   },
   {
     "question_lang": "Mongoliya ibarizwa kuwuhe mugabane?",
@@ -2165,8 +2165,8 @@
     "example_answer_lang": [
       "Aziya"
     ],
-    "reasoning": "The capital city of Mongolia is Ulaanbaatar.",
-    "pred_answer_lang": "Ulaanbaatar",
+    "reasoning": "The question is asking for where Mongolia is located. To answer this, we look for the location information in the context passage.",
+    "pred_answer_lang": "East Asia",
     "metric_f1": 0.0
   },
   {
@@ -2175,8 +2175,8 @@
     "example_answer_lang": [
       "08 Kanama 1958"
     ],
-    "reasoning": "The birth date provided in the context is August 8, 1958, corresponding to Harry Lillis Crosby III.",
-    "pred_answer_lang": "8 Mata 1958",
+    "reasoning": "The question asks for when Harry Lillis Crosby was born. The answer can be found in the context as \"August 8, 1958\".",
+    "pred_answer_lang": "August 8, 1958",
     "metric_f1": 0.3333333333333333
   },
   {
@@ -2185,9 +2185,9 @@
     "example_answer_lang": [
       "Bavaria"
     ],
-    "reasoning": "The Illuminati is a name given to several groups, including the Bavarian Illuminati, an Enlightenment-era secret society founded in Bavaria (Germany) on 1 May 1776. Their goals were to oppose superstition, obscurantism, religious influence over public life, and abuses of state power.",
-    "pred_answer_lang": "Bavariya.",
-    "metric_f1": 0.0
+    "reasoning": "The question asks where the Illuminati originated from.",
+    "pred_answer_lang": "Bavaria",
+    "metric_f1": 1.0
   },
   {
     "question_lang": "Nguyễn Sinh Cung yavutse ryari?",
@@ -2195,8 +2195,8 @@
     "example_answer_lang": [
       "19 Gicurasi 1890"
     ],
-    "reasoning": "The birth date of Nguyễn Sinh Cung is provided in the context as 19 May 1890.",
-    "pred_answer_lang": "19 Werurwe 1890",
+    "reasoning": "The question is asking for the birth date of Nguyễn Sinh Cung.",
+    "pred_answer_lang": "19 May 1890",
     "metric_f1": 0.6666666666666666
   },
   {
@@ -2205,9 +2205,9 @@
     "example_answer_lang": [
       "Rulindo"
     ],
-    "reasoning": "The northern province of Kigali is divided into the districts of Burera, Gicumbi, Gakenke, Musanze, and Rulindo.",
-    "pred_answer_lang": "Burera; Gicumbi; Gakenke; Musanze; Rulindo",
-    "metric_f1": 0.33333333333333337
+    "reasoning": "The question is asking for the city that is part of the Northern Province in Rwanda. From the context, the answer can be found in the mention of the northern portions of Kigali Rural being included in the Northern Province.",
+    "pred_answer_lang": "Kigali Rural",
+    "metric_f1": 0.0
   },
   {
     "question_lang": "Jenerali James Kabarebe yinjiye mugisiskari ryari?",
@@ -2215,9 +2215,9 @@
     "example_answer_lang": [
       "1989"
     ],
-    "reasoning": "The context mentions that Jenerali James Kabarebe was born in 1959 and attended Makerere University. Based on this information, we can determine the year he joined the military.",
-    "pred_answer_lang": "1989",
-    "metric_f1": 1.0
+    "reasoning": "The question asks for the year General James Kabarebe was born.",
+    "pred_answer_lang": "1959",
+    "metric_f1": 0.0
   },
   {
     "question_lang": "Noheli yatangiye kwizihizwa ryari?",
@@ -2225,9 +2225,9 @@
     "example_answer_lang": [
       "25 Ukuboza"
     ],
-    "reasoning": "The festival of Christmas is celebrated on December 25th each year to commemorate the birth of Jesus Christ.",
-    "pred_answer_lang": "25 Ukuboza",
-    "metric_f1": 1.0
+    "reasoning": "The question is asking for the starting date of the Christmas celebration.",
+    "pred_answer_lang": "December 25",
+    "metric_f1": 0.5
   },
   {
     "question_lang": "Umurwa mukuru wa Andora ni uwuhe?",
@@ -2235,9 +2235,9 @@
     "example_answer_lang": [
       "Andorra la Vella"
     ],
-    "reasoning": "The capital city of Andorra is Andorra la Vella.",
-    "pred_answer_lang": "Andorra la Vella",
-    "metric_f1": 1.0
+    "reasoning": "The question asks for the leader (umurwa mukuru) of Andorra, which refers to the leader of the principality.",
+    "pred_answer_lang": "Bishop of Urgell in Catalonia, Spain",
+    "metric_f1": 0.0
   },
   {
     "question_lang": "Kizito Mihigo yigiyeje muzika?",
@@ -2245,9 +2245,9 @@
     "example_answer_lang": [
       "Conservatoire de Paris"
     ],
-    "reasoning": "The context provides information about Kizito Mihigo's music career, mentioning his participation in a competition for the composition of the Rwandan national anthem and his international music career beginnings in Belgium.",
-    "pred_answer_lang": "muri mwaka wa 2001.",
-    "metric_f1": 0.0
+    "reasoning": "The question is asking where Kizito Mihigo studied music. To answer this, we look for a specific location in the context where Kizito Mihigo studied.",
+    "pred_answer_lang": "Paris",
+    "metric_f1": 0.5
   },
   {
     "question_lang": "Ibisi bya Huye ni muwuhe murenge w'akarere ka Huye?",
@@ -2255,7 +2255,7 @@
     "example_answer_lang": [
       "Umurenge wa Gishamvu"
     ],
-    "reasoning": "The question asks for the sector where Butare is located in the Huye District. The context mentions that Butare is near the Saint Charles Borromeo Major Seminary of Nyakibanda, located in the Gishamvu sector of the Huye District.",
+    "reasoning": "The question is asking for the sector where \"Ibisi bya Huye\" is located.",
     "pred_answer_lang": "Gishamvu",
     "metric_f1": 0.5
   },
@@ -2265,9 +2265,9 @@
     "example_answer_lang": [
       "1997 kugeza 2002"
     ],
-    "reasoning": "Mary Robinson ni Komiseri Mukuru ushinzwe kurengera uburenganzira bwa muntu mu muryango w’Abibumbye.",
-    "pred_answer_lang": "Komiseri Mukuru",
-    "metric_f1": 0.0
+    "reasoning": "The question is asking for when Mary Robinson was appointed as the United Nations High Commissioner for Human Rights.",
+    "pred_answer_lang": "1997",
+    "metric_f1": 0.5
   },
   {
     "question_lang": "ni uwuhe murwa mukuru wa Danimarike  ?",
@@ -2275,9 +2275,9 @@
     "example_answer_lang": [
       "Copenhagen"
     ],
-    "reasoning": "The capital and largest city of Denmark is Copenhagen, where 800,000 people live according to the context.",
-    "pred_answer_lang": "Copenhagen",
-    "metric_f1": 1.0
+    "reasoning": "The question is asking for the name of the current monarch of Denmark.",
+    "pred_answer_lang": "Nta bisubizo bihari mu nyandiko yahawe",
+    "metric_f1": 0.0
   },
   {
     "question_lang": "Jimmie Kenneth Johnson  yavutse ryari?",
@@ -2285,9 +2285,9 @@
     "example_answer_lang": [
       "17 Nzeri 1975"
     ],
-    "reasoning": "The birth date of Jimmie Kenneth Johnson is provided in the context as September 17, 1975.",
-    "pred_answer_lang": "17 Werurwe 1975",
-    "metric_f1": 0.6666666666666666
+    "reasoning": "The question asks for the birth year of Jimmie Kenneth Johnson.",
+    "pred_answer_lang": "1975",
+    "metric_f1": 0.5
   },
   {
     "question_lang": "Perezida wa Angola  atorewa manda y'imyaka ingahe?",
@@ -2295,8 +2295,8 @@
     "example_answer_lang": [
       "Manda ebyiri z'imyaka itanu"
     ],
-    "reasoning": "The context states that the president of Angola is limited to two five-year terms in office.",
-    "pred_answer_lang": "10",
+    "reasoning": "The question is asking about the number of years a president of Angola can serve in office.",
+    "pred_answer_lang": "Ten",
     "metric_f1": 0.0
   },
   {
@@ -2305,9 +2305,9 @@
     "example_answer_lang": [
       "Mozambike mu majyaruguru y'uburasirazuba na Afurika y'Epfo mu majyaruguru, mu burengerazuba, mu majyepfo, no mu majyepfo y'uburasirazuba"
     ],
-    "reasoning": "The countries that border Eswatini and have a coastline are Mozambique and South Africa.",
-    "pred_answer_lang": "Mozambique na Afurika y'Epfo.",
-    "metric_f1": 0.32000000000000006
+    "reasoning": "The question is asking about the countries that share a border with Eswatini.",
+    "pred_answer_lang": "Mozambique, South Africa",
+    "metric_f1": 0.0
   },
   {
     "question_lang": "Adolf Hitler yavutse ryari?",
@@ -2315,9 +2315,9 @@
     "example_answer_lang": [
       "20 Mata 1889"
     ],
-    "reasoning": "To answer the question \"Adolf Hitler yavutse ryari?\", I will extract Hitler's birth date from the context provided.",
-    "pred_answer_lang": "20 Werurwe 1889",
-    "metric_f1": 0.6666666666666666
+    "reasoning": "The question is asking for Adolf Hitler's birth year.",
+    "pred_answer_lang": "1889",
+    "metric_f1": 0.5
   },
   {
     "question_lang": "Pietro Parolin yavutse ryari?",
@@ -2325,8 +2325,8 @@
     "example_answer_lang": [
       "17 Mutarama 1955"
     ],
-    "reasoning": "The birth date of Pietro Parolin is provided in the context as 17 January 1955.",
-    "pred_answer_lang": "17 Werurwe 1955",
+    "reasoning": "The question asks for Pietro Parolin's date of birth.",
+    "pred_answer_lang": "17 January 1955",
     "metric_f1": 0.6666666666666666
   },
   {
@@ -2335,7 +2335,7 @@
     "example_answer_lang": [
       "1946"
     ],
-    "reasoning": "The birth date of Idi Amin Dada is mentioned in the context as being around 1925.",
+    "reasoning": "The question is asking for the birth year of Idi Amin Dada.",
     "pred_answer_lang": "1925",
     "metric_f1": 0.0
   },
@@ -2345,7 +2345,7 @@
     "example_answer_lang": [
       "Isaac Herzog"
     ],
-    "reasoning": "The context provides the name of the 11th President of Israel.",
+    "reasoning": "The question is asking for the name of the President of Israel. To find the answer, I will look for the name of the President in the context.",
     "pred_answer_lang": "Isaac Herzog",
     "metric_f1": 1.0
   },
@@ -2355,9 +2355,9 @@
     "example_answer_lang": [
       "Ishyaka riharanira Demokarasi y'abaturage ba Afghanistan(PDPA)"
     ],
-    "reasoning": "The People's Democratic Party of Afghanistan (PDPA) was divided into two main factions: the hardline Khalq faction and the moderate Parcham faction.",
-    "pred_answer_lang": "Khalq na Parcham",
-    "metric_f1": 0.0
+    "reasoning": "The question asks for the political party that was in power in Afghanistan. We can find the answer by looking at the context where it mentions \"The People's Democratic Party of Afghanistan (PDPA)\".",
+    "pred_answer_lang": "People's Democratic Party of Afghanistan",
+    "metric_f1": 0.14285714285714288
   },
   {
     "question_lang": "igisirikari cya Canada kitwa gute?",
@@ -2365,8 +2365,8 @@
     "example_answer_lang": [
       "Ingabo za Kanada"
     ],
-    "reasoning": "The Canadian Army is also known as \"Land Force Command\" in Canada.",
-    "pred_answer_lang": "Land Force Command",
+    "reasoning": "The question asks for the name of the Canadian Army in the context passage.",
+    "pred_answer_lang": "Canadian Militia",
     "metric_f1": 0.0
   },
   {
@@ -2375,9 +2375,9 @@
     "example_answer_lang": [
       "Ingoro ya Kokhi Somon i Dushanbe"
     ],
-    "reasoning": "The inauguration ceremony of the President of Tajikistan takes place at the Kokhi Somon Palace in Dushanbe.",
-    "pred_answer_lang": "Dushanbe",
-    "metric_f1": 0.2857142857142857
+    "reasoning": "The question is asking about the location of the Tajikistani presidency. We need to find the specific place where the Tajikistani presidential inauguration ceremony takes place.",
+    "pred_answer_lang": "Kokhi Somon Palace",
+    "metric_f1": 0.4444444444444444
   },
   {
     "question_lang": "ninde wabaye musenyeri wambere w'umunyarwanda?",
@@ -2385,9 +2385,9 @@
     "example_answer_lang": [
       "Augustin Nshamihigo"
     ],
-    "reasoning": "The context states that Augustin Nshamihigo was the first Primate of the Episcopal Church of Rwanda, which is now known as the Anglican Church of Rwanda. Therefore, Augustin Nshamihigo was the first Archbishop of the Anglican Church of Rwanda.",
-    "pred_answer_lang": "Uyu musenyeri wambere w'umunyarwanda yitwa Augustin Nshamihigo.",
-    "metric_f1": 0.4
+    "reasoning": "The question asks for the first Rwandan priest, which is explicitly mentioned in the context as Augustin Nshamihigo.",
+    "pred_answer_lang": "Augustin Nshamihigo",
+    "metric_f1": 1.0
   },
   {
     "question_lang": "ninde muyobozi w'intara ya Ankara muri Turikiya?",
@@ -2395,8 +2395,8 @@
     "example_answer_lang": [
       "Mansur Yavaş"
     ],
-    "reasoning": "The Mayor of Ankara in Turkey since 8 April 2019 is Mansur Yavaş.",
-    "pred_answer_lang": "Mansur Yavaş",
+    "reasoning": "The question asks for the leader of the Ankara province in Turkey.",
+    "pred_answer_lang": "Mansur Yavaş",
     "metric_f1": 1.0
   },
   {
@@ -2405,8 +2405,8 @@
     "example_answer_lang": [
       "Inyanja y'Ubuhinde"
     ],
-    "reasoning": "The capital city of Seychelles is mentioned in the context as \"Victoria.\"",
-    "pred_answer_lang": "Victoria",
+    "reasoning": "The question is asking for where Seychelles is located.",
+    "pred_answer_lang": "Indian Ocean",
     "metric_f1": 0.0
   },
   {
@@ -2415,9 +2415,9 @@
     "example_answer_lang": [
       "Kenya"
     ],
-    "reasoning": "The birth date of Patrick Loch Otieno Lumumba is provided in the context as 17 July 1962.",
-    "pred_answer_lang": "17 Ukuboza 1962",
-    "metric_f1": 0.0
+    "reasoning": "The question is asking for the birthplace of Patrick Loch Otieno Lumumba.",
+    "pred_answer_lang": "Kenya",
+    "metric_f1": 1.0
   },
   {
     "question_lang": "Minisitiri w'intebe wa Maroke yitwa nde?",
@@ -2425,8 +2425,8 @@
     "example_answer_lang": [
       "Saadeddine Othmani"
     ],
-    "reasoning": "The current Prime Minister of Morocco is not mentioned in the context, so we will provide the name of one of the former Prime Ministers listed in the passage.",
-    "pred_answer_lang": "Abdelilah Benkirane",
+    "reasoning": "The question is asking for the name of the Minister of Foreign Affairs of Morocco.",
+    "pred_answer_lang": "Ahmed Osman",
     "metric_f1": 0.0
   },
   {
@@ -2435,7 +2435,7 @@
     "example_answer_lang": [
       "30 Mata 1945"
     ],
-    "reasoning": "Umugabo w'umwihariko ugermany yagiye kubutsetsi muri 1933.",
+    "reasoning": "The question is asking for the year when Adolf Hitler came into power.",
     "pred_answer_lang": "1933",
     "metric_f1": 0.0
   },
@@ -2445,8 +2445,8 @@
     "example_answer_lang": [
       "Ishyaka Riharanira Demokarasi ya Moldaviya"
     ],
-    "reasoning": "The Democratic Party of Moldova is described as a centre-left political party in Moldova with more conservative views on social issues like LGBT rights.",
-    "pred_answer_lang": "irihe",
+    "reasoning": "The Democratic Party of Moldova is the party in power in Moldova.",
+    "pred_answer_lang": "The Democratic Party of Moldova",
     "metric_f1": 0.0
   },
   {
@@ -2455,9 +2455,9 @@
     "example_answer_lang": [
       "5 Ugushyingo 1952"
     ],
-    "reasoning": "The birth date of Vandana Shiva is provided in the context, which is \"5 November 1952\".",
-    "pred_answer_lang": "5 Ukuboza 1952",
-    "metric_f1": 0.6666666666666666
+    "reasoning": "The question asks for the birth year of Vandana Shiva.",
+    "pred_answer_lang": "1952",
+    "metric_f1": 0.5
   },
   {
     "question_lang": "ababyeyi ba Jorge Mario Bergoglio bitwa bande?",
@@ -2465,9 +2465,9 @@
     "example_answer_lang": [
       "Mario José Bergoglio (1908–1959) na Regina María Sívori (1911–1981)"
     ],
-    "reasoning": "The father of Jorge Mario Bergoglio was an Italian immigrant accountant named Mario José Bergoglio.",
-    "pred_answer_lang": "Mario José Bergoglio",
-    "metric_f1": 0.42857142857142855
+    "reasoning": "The question is asking for the name of Jorge Mario Bergoglio's parents.",
+    "pred_answer_lang": "Mario José Bergoglio na Regina María Sívori",
+    "metric_f1": 0.7777777777777778
   },
   {
     "question_lang": "ni uwuhe mugezi ugabanya u rwanda n'u Burundi? ",
@@ -2475,8 +2475,8 @@
     "example_answer_lang": [
       "Akanyaru"
     ],
-    "reasoning": "The Nyawarungu river flows through Rwanda from north to southeast, and around Kigali, it is used for various purposes including cooking, drinking, and bathing. Additionally, the Akanyaru river enters the Nyawarungu river on its right bank about 35 kilometers downstream to the southwest of Kigali.",
-    "pred_answer_lang": "Akanyuru",
+    "reasoning": "The question is asking for the river that serves as a boundary between Rwanda and Burundi.",
+    "pred_answer_lang": "Nyawarungu",
     "metric_f1": 0.0
   },
   {
@@ -2485,8 +2485,8 @@
     "example_answer_lang": [
       "Uburengerazuba bw'amagepfo y'u Rwanda"
     ],
-    "reasoning": "The Nyungwe Forest is located in the southwestern region of Rwanda, near the border with Burundi and Lake Kivu.",
-    "pred_answer_lang": "Muhanga",
+    "reasoning": "The question is asking for the region where the Nyungwe Forest is located in Rwanda.",
+    "pred_answer_lang": "mukarere",
     "metric_f1": 0.0
   },
   {
@@ -2495,9 +2495,9 @@
     "example_answer_lang": [
       "NSO Group"
     ],
-    "reasoning": "The software that develops the spyware Pegasus is the Israeli cyber-arms company NSO Group.",
-    "pred_answer_lang": "NSO Group",
-    "metric_f1": 1.0
+    "reasoning": "Identify the key program or software that is mentioned in the context. Then, apply minimality rules to extract the exact name of the program.",
+    "pred_answer_lang": "Pegasus",
+    "metric_f1": 0.0
   },
   {
     "question_lang": "ni iyihe ntara y'u rwanda iherereyemo ishyamba rinini kurusha ayandi?",
@@ -2505,8 +2505,8 @@
     "example_answer_lang": [
       "Amajepfo"
     ],
-    "reasoning": "The context indicates that Rwanda has five provinces based primarily on geography, which are Northern Province, Southern Province, Eastern Province, Western Province, and the Municipality of Kigali in the centre.",
-    "pred_answer_lang": "Ibiterwa by'u Rwanda ni: Intara y'Amajyaruguru, Intara y'amajyepfo, Intara y'amajyaruguru y'uburasirazuba, Intara y'amajyepfo y'uburasirazuba, n'umujyi wa Kigali kuri rimwe.",
+    "reasoning": "Identifying the core entity requested in the question, \"ni iyihe ntara y'u rwanda iherereyemo ishyamba rinini kurusha ayandi\" translates to \"which province in Rwanda has the largest area?\" Therefore, we need to find the province in Rwanda with the largest area mentioned in the text.",
+    "pred_answer_lang": "Northern Province",
     "metric_f1": 0.0
   },
   {
@@ -2515,9 +2515,9 @@
     "example_answer_lang": [
       "Brno, Ostrava na Plzeň"
     ],
-    "reasoning": "The three largest cities in the Czech Republic are Brno, Ostrava, and Plzeň. Among these, the largest city is Brno.",
-    "pred_answer_lang": "Brno",
-    "metric_f1": 0.4
+    "reasoning": "The question is asking for the names of the three largest cities in the Czech Republic.",
+    "pred_answer_lang": "Brno, Ostrava, Plzeň",
+    "metric_f1": 0.8571428571428571
   },
   {
     "question_lang": "Umurwa mukuru wa Polonye ni uwuhe?",
@@ -2525,7 +2525,7 @@
     "example_answer_lang": [
       "Warsaw"
     ],
-    "reasoning": "The capital city of Poland is Warsaw.",
+    "reasoning": "The question asks for the capital city of Poland, which is explicitly mentioned in the context as Warsaw.",
     "pred_answer_lang": "Warsaw",
     "metric_f1": 1.0
   },
@@ -2535,9 +2535,9 @@
     "example_answer_lang": [
       "George Vella"
     ],
-    "reasoning": "The President of Malta is the head of state of the country.",
-    "pred_answer_lang": "George Vella",
-    "metric_f1": 1.0
+    "reasoning": "The question is asking for the country that is led by George Vella as the head of state.",
+    "pred_answer_lang": "Malta",
+    "metric_f1": 0.0
   },
   {
     "question_lang": "Nyamata ubu ni mu kahe karere mu Rwanda?",
@@ -2545,7 +2545,7 @@
     "example_answer_lang": [
       "mu Karere ka Bugesera, Intara y'Iburasirazuba"
     ],
-    "reasoning": "Nyamata iri mu karere ka Bugesera mu Rwanda kuri kabure gakomeye.",
+    "reasoning": "The question is asking for the current region where Nyamata is located in Rwanda.",
     "pred_answer_lang": "Bugesera",
     "metric_f1": 0.25
   },
@@ -2555,9 +2555,9 @@
     "example_answer_lang": [
       "Yambitswe ikamba rya Miss Universe mu 2019"
     ],
-    "reasoning": "Zozibini Tunzi ari icyamare kubera ko yavutse ku wa 18 Werurwe 1993.",
-    "pred_answer_lang": "18 Werurwe 1993",
-    "metric_f1": 0.0
+    "reasoning": "The question is asking for the reason why Zozibini Tunzi is famous.",
+    "pred_answer_lang": "Kuva yitabye iwabo Miss Universe 2019",
+    "metric_f1": 0.4615384615384615
   },
   {
     "question_lang": "ni irihe dini rifite abayoboke benshi ku isi?",
@@ -2565,7 +2565,7 @@
     "example_answer_lang": [
       "Kiriziya Gatorika"
     ],
-    "reasoning": "The context states that Catholicism is the largest branch of Christianity and has 1.345 billion followers, making it the largest denomination.",
+    "reasoning": "The question is asking for the religion with the most leaders globally. From the context, we can see that Catholicism is mentioned as the largest branch of Christianity, which implies it has many leaders.",
     "pred_answer_lang": "Catholicism",
     "metric_f1": 0.0
   },
@@ -2575,8 +2575,8 @@
     "example_answer_lang": [
       "Werurwe"
     ],
-    "reasoning": "The excessive rains began falling in March in Rwanda, which is typically the rainy season in the country.",
-    "pred_answer_lang": "Mutarama",
+    "reasoning": "The question asks about the month in which there was heavy rain in Rwanda.",
+    "pred_answer_lang": "March",
     "metric_f1": 0.0
   },
   {
@@ -2585,7 +2585,7 @@
     "example_answer_lang": [
       "Colombia"
     ],
-    "reasoning": "The country that may have the highest number of palm species is Colombia based on the information provided in the context.",
+    "reasoning": "The question is asking for a country that has the highest number of palm species. We need to find the specific country mentioned in the context that may have the highest number of palm species.",
     "pred_answer_lang": "Colombia",
     "metric_f1": 1.0
   },
@@ -2595,9 +2595,9 @@
     "example_answer_lang": [
       "Gisenyi"
     ],
-    "reasoning": "The town of Gisenyi lies adjacent to the Congolese city of Goma, as mentioned in the context.",
-    "pred_answer_lang": "Goma",
-    "metric_f1": 0.0
+    "reasoning": "The question is asking for the city in Rwanda that is adjacent to Lake Kivu and the Congolese city of Goma.",
+    "pred_answer_lang": "Gisenyi",
+    "metric_f1": 1.0
   },
   {
     "question_lang": "Patrice Guillaume Athanase Talon yavutse ryari?",
@@ -2605,9 +2605,9 @@
     "example_answer_lang": [
       "01 Gicurasi 1958"
     ],
-    "reasoning": "The birth date of Patrice Guillaume Athanase Talon is provided in the context.",
-    "pred_answer_lang": "1 Werurwe 1958",
-    "metric_f1": 0.3333333333333333
+    "reasoning": "The question asks for the birth year of Patrice Guillaume Athanase Talon.",
+    "pred_answer_lang": "1958",
+    "metric_f1": 0.5
   },
   {
     "question_lang": "igisirikari cya Somaliya kitwa gute?",
@@ -2615,8 +2615,8 @@
     "example_answer_lang": [
       "Ingabo za Somaliya"
     ],
-    "reasoning": "The context mentions that the Somali Armed Forces are the military forces of Somalia, headed by the president as the commander-in-chief.",
-    "pred_answer_lang": "Somalia",
+    "reasoning": "The question asks for the name of the military forces of Somalia.",
+    "pred_answer_lang": "The Somali Armed Forces",
     "metric_f1": 0.0
   },
   {
@@ -2625,8 +2625,8 @@
     "example_answer_lang": [
       "Ku ya 7 Mata 2004"
     ],
-    "reasoning": "The context mentions a serious diplomatic incident between France and Rwanda during the commemoration of the genocide in Kigali on April 7, 2004. The Rwandan president publicly accused France of not having apologized for its role in Rwanda but desiring to participate in the ceremonies. Therefore, the Rwandan president accused France in this particular incident.",
-    "pred_answer_lang": "Ubupresidenti bw'u Rwanda",
+    "reasoning": "The question is asking for the country that expelled French diplomats from its territory. To answer this, we need to locate the country mentioned in the context where a serious diplomatic incident took place between France and that country.",
+    "pred_answer_lang": "Rwanda",
     "metric_f1": 0.0
   },
   {
@@ -2635,9 +2635,9 @@
     "example_answer_lang": [
       "Rwanda"
     ],
-    "reasoning": "The birth date of Belle Oceanne Iradukunda is November 11, 1996.",
-    "pred_answer_lang": "11 Nzeri 1996",
-    "metric_f1": 0.0
+    "reasoning": "The question is asking for the birthplace of Belle Oceanne Iradukunda.",
+    "pred_answer_lang": "Rwanda",
+    "metric_f1": 1.0
   },
   {
     "question_lang": "ishyaka riri kubutegetsi muri Kapu Veri  ni irihe?",
@@ -2645,7 +2645,7 @@
     "example_answer_lang": [
       "Gahunda ya politiki y'ishyaka rimwe"
     ],
-    "reasoning": "The party that is in power in Cape Verde is the African Party for the Independence of Cape Verde (PAICV).",
+    "reasoning": "The question is asking about the party in power in Cape Verde after the split from Guinea-Bissau. To answer this question, we need to identify the name of the party in power after the split, which is the African Party for the Independence of Cape Verde (PAICV) established in 1980.",
     "pred_answer_lang": "PAICV",
     "metric_f1": 0.0
   },
@@ -2655,9 +2655,9 @@
     "example_answer_lang": [
       "Ikiyaga cya Manchar"
     ],
-    "reasoning": "The question asks for the largest lake in Pakistan, which is explicitly mentioned in the context as the Manchar Lake.",
-    "pred_answer_lang": "Manchar",
-    "metric_f1": 0.5
+    "reasoning": "The question is asking for the largest lake in Pakistan.",
+    "pred_answer_lang": "Manchar Lake",
+    "metric_f1": 0.4
   },
   {
     "question_lang": "ivugura ry'ubutegetsi intara 4 n'umuyi wa Kigali mu randa ryabaye ryari?",
@@ -2665,9 +2665,9 @@
     "example_answer_lang": [
       "2006"
     ],
-    "reasoning": "The answer to the question can be found in the context, which states that the borders were redrawn in 2006 and the provinces were restructured. The text mentions the \"Municipality of Kigali in the centre,\" indicating that Kigali became a separate entity from the provinces.",
-    "pred_answer_lang": "Umuyobozi wa Kigali yabaye intara 4.",
-    "metric_f1": 0.0
+    "reasoning": "The question asks about the establishment of Province 4 and the status of Kigali City in Rwanda.",
+    "pred_answer_lang": "2006",
+    "metric_f1": 1.0
   },
   {
     "question_lang": "nibande bashinze urubuga rwa Wikipediya?",
@@ -2675,9 +2675,9 @@
     "example_answer_lang": [
       "Jimmy Wales na Larry Sanger"
     ],
-    "reasoning": "The word \"Wikipedia\" was coined as a blend of \"wiki\" and \"encyclopedia\" by Larry Sanger.",
-    "pred_answer_lang": "Larry Sanger.",
-    "metric_f1": 0.5714285714285715
+    "reasoning": "The question is asking about the founders of Wikipedia.",
+    "pred_answer_lang": "Jimmy Wales and Larry Sanger",
+    "metric_f1": 0.8000000000000002
   },
   {
     "question_lang": "Ni ibihe byanya by'igihugu mu turere u Rwanda ruherereyemo bicumbikiye ingagi?",
@@ -2685,8 +2685,8 @@
     "example_answer_lang": [
       "Icyanya k'ibirunga"
     ],
-    "reasoning": "The national park in Rwanda that is known for mountain gorillas and golden monkeys and borders two other national parks in neighboring countries like Uganda and the Democratic Republic of Congo.",
-    "pred_answer_lang": "Mu by'umwihariko; Ni National Park ya Volcanoes.",
+    "reasoning": "The question is asking for the months with the most rain in the area encompassed by the Volcanoes National Park in Rwanda.",
+    "pred_answer_lang": "Nta bisubizo bihari mu nyandiko yahawe",
     "metric_f1": 0.0
   },
   {
@@ -2695,7 +2695,7 @@
     "example_answer_lang": [
       "Amaju Melvin Pinnick"
     ],
-    "reasoning": "The leader of the Nigerian Football Federation mentioned in the context is Amaju Melvin Pinnick.",
+    "reasoning": "The question is asking for the name of the current president of the Nigeria Football Federation (NFF) in Nigeria. The answer can be found in the context where it states that \"Amaju Melvin Pinnick\" is serving as the current president.",
     "pred_answer_lang": "Amaju Melvin Pinnick",
     "metric_f1": 1.0
   },
@@ -2705,8 +2705,8 @@
     "example_answer_lang": [
       "Caucase y'Amajyaruguru y'Uburayi bw'Iburasirazuba"
     ],
-    "reasoning": "The capital city of the Republic of North Ossetia–Alania is Vladikavkaz.",
-    "pred_answer_lang": "Vladikavkaz",
+    "reasoning": "The question asks for the birthplace of North Ossetia. To answer this, we need to identify the location mentioned in the context that corresponds to the birthplace of North Ossetia.",
+    "pred_answer_lang": "Russia",
     "metric_f1": 0.0
   },
   {
@@ -2715,9 +2715,9 @@
     "example_answer_lang": [
       "Nur-Sultan"
     ],
-    "reasoning": "The capital city of Kazakhstan is Nur-Sultan.",
-    "pred_answer_lang": "Nur-Sultan",
-    "metric_f1": 1.0
+    "reasoning": "The question is asking for the previous name of the capital city of Kazakhstan.",
+    "pred_answer_lang": "Astana",
+    "metric_f1": 0.0
   },
   {
     "question_lang": "ni irihe shyaka riri kubutege muri Iraq?",
@@ -2725,9 +2725,9 @@
     "example_answer_lang": [
       "Ishyaka ry'Abayisilamu muri Iraq"
     ],
-    "reasoning": "The largest Sunni Islamist political party in Iraq referred to in the context is the Iraqi Islamic Party.",
-    "pred_answer_lang": "Urupfu",
-    "metric_f1": 0.0
+    "reasoning": "The question asks for the location where a certain political party is based in Iraq.",
+    "pred_answer_lang": "Iraq",
+    "metric_f1": 0.33333333333333337
   },
   {
     "question_lang": "Ni ibihe bihugu bihana imbibi n'Ubufaransa?",
@@ -2735,9 +2735,9 @@
     "example_answer_lang": [
       "Ububiligi, Luxembourg, Ubudage, Ubusuwisi, Monaco, Ubutaliyani, Andorra, na Espagne mu Burayi, ndetse n'Ubuholandi, Suriname, na Berezile"
     ],
-    "reasoning": "The question asks for countries that share borders with France.",
-    "pred_answer_lang": "Ubufaransa buzitwara n'ibihugu byinshi cyane ahandi ntiza itariki ino anoreshwa kugira ngo twumve ko buzaba buzima, hagamijwe kudasha mu by'ukuri ko buzima. Ibi nibyo hagira ngo buzaba buzitwara n'Igihugu cy'Abanyamahanga, abahamya mu Ilayi 2021, Washinzwe kugiha ibibazo by'umutekano inteko izitabiriye izitabiriye, akugira ati: Bubahiye .",
-    "metric_f1": 0.06060606060606061
+    "reasoning": "The question asks for the years in which France competed with Spain.",
+    "pred_answer_lang": "2016, 24, and 1042",
+    "metric_f1": 0.0
   },
   {
     "question_lang": "perezida wa Mongoliya yitwa nde?",
@@ -2745,8 +2745,8 @@
     "example_answer_lang": [
       "Ukhnaagiin Khürelsükh"
     ],
-    "reasoning": "The current president of Mongolia is Ukhnaagiin Khürelsükh.",
-    "pred_answer_lang": "Ukhnaagiin Khürelsükh",
+    "reasoning": "The question is asking for the name of the president of Mongolia.",
+    "pred_answer_lang": "Ukhnaagiin Khürelsükh",
     "metric_f1": 1.0
   },
   {
@@ -2755,8 +2755,8 @@
     "example_answer_lang": [
       "Sena n'Umutwe w'Abadepite"
     ],
-    "reasoning": "The current Parliament of Rwanda is bicameral, consisting of two chambers: the Chamber of Deputies (Lower House) and the Senate (Upper House).",
-    "pred_answer_lang": "Ibihugu bimeze kugira inteko ishinga amategeko igize mitwe bibiri, igize inda cyane izitwa Chamber of Deputies (Lower House) no Senate (Upper House).",
+    "reasoning": "The question is asking for the names of the different chambers that comprised the Parliament of Rwanda. We need to identify the exact phrases in the context that mention the former names of the Parliament of Rwanda.",
+    "pred_answer_lang": "Legislative Assembly, National Development Council, Transitional National Assembly",
     "metric_f1": 0.0
   },
   {
@@ -2765,8 +2765,8 @@
     "example_answer_lang": [
       "Ishyaka ry'Ubutegetsi bw'igihugu cya Palesitine"
     ],
-    "reasoning": "The Fatah-controlled government body that exercises partial civil control over West Bank areas 'A' and 'B' is the Palestinian Authority.",
-    "pred_answer_lang": "Palestinian Authority",
+    "reasoning": "The question asks for which party is in power in Palestine.",
+    "pred_answer_lang": "Fatah",
     "metric_f1": 0.0
   },
   {
@@ -2775,8 +2775,8 @@
     "example_answer_lang": [
       "Ingabo za Lituwaniya"
     ],
-    "reasoning": "The name of the Lithuanian Armed Forces is provided in the context as \"Lietuvos ginkluotosios pajėgos.\"",
-    "pred_answer_lang": "Lietuvos ginkluotosios pajėgos",
+    "reasoning": "The question is asking for the name of the military of Lithuania.",
+    "pred_answer_lang": "Lietuvos ginkluotosios pajėgos",
     "metric_f1": 0.0
   },
   {
@@ -2785,9 +2785,9 @@
     "example_answer_lang": [
       "Kiambu, Afurika nyongereza y'Uburasirazuba"
     ],
-    "reasoning": "The birthdate of Jomo Kenyatta is provided in the context as 22 August 1978.",
-    "pred_answer_lang": "22 Ugushyingo 1978",
-    "metric_f1": 0.0
+    "reasoning": "The question is asking for the place where Jomo Kenyatta was born.",
+    "pred_answer_lang": "Kiambu",
+    "metric_f1": 0.33333333333333337
   },
   {
     "question_lang": "umurwa mukuru wa Gineya Ekwatoriyale ni uwuhe?",
@@ -2795,9 +2795,9 @@
     "example_answer_lang": [
       "Malabo"
     ],
-    "reasoning": "The capital city of Equatorial Guinea is Malabo, located on the island of Bioko.",
-    "pred_answer_lang": "Malabo",
-    "metric_f1": 1.0
+    "reasoning": "The question is asking for the largest island in Equatorial Guinea.",
+    "pred_answer_lang": "Bioko",
+    "metric_f1": 0.0
   },
   {
     "question_lang": "ishyaka riri kubutegetsi muri Lituwaniya  ni irihe?",
@@ -2805,9 +2805,9 @@
     "example_answer_lang": [
       "Ishyaka riharanira Ubumwe bw’igihugu-Lituwaniya Abakristu baharanira demokarasi (TS-LKD), Umuryango uharanira uburenganzira bwa muntu (LRLS), n’ishyaka ryigenga (LP)."
     ],
-    "reasoning": "The current government in Lithuania started working in December 2020 and is headed by Ingrida Šimonytė as the prime minister. The coalition is formed by the Homeland Union-Lithuanian Christian Democrats (TS-LKD), Liberal Movement (LRLS), and Freedom Party (LP).",
-    "pred_answer_lang": "Ingrida Šimonytė",
-    "metric_f1": 0.0
+    "reasoning": "The question asks for the political party currently in power in Lithuania.",
+    "pred_answer_lang": "Homeland Union-Lithuanian Christian Democrats (TS-LKD)",
+    "metric_f1": 0.14285714285714285
   },
   {
     "question_lang": "General Yoweri Kaguta Museveni yavukiye he?",
@@ -2815,9 +2815,9 @@
     "example_answer_lang": [
       "Rukungiri"
     ],
-    "reasoning": "The birth date of General Yoweri Museveni is provided in the context as 15 September 1944.",
-    "pred_answer_lang": "15 Werurwe 1944",
-    "metric_f1": 0.0
+    "reasoning": "The question is asking where General Yoweri Kaguta Museveni was born.",
+    "pred_answer_lang": "Rukungiri",
+    "metric_f1": 1.0
   },
   {
     "question_lang": "Froduald karamira yapfuye ryari?",
@@ -2825,9 +2825,9 @@
     "example_answer_lang": [
       "24 Mata 1998"
     ],
-    "reasoning": "The date of death of Froduald Karamira is provided in the context as 24 April 1998.",
-    "pred_answer_lang": "24 Mata 1998",
-    "metric_f1": 1.0
+    "reasoning": "The question asks for the date of death of Froduald Karamira.",
+    "pred_answer_lang": "24 April 1998",
+    "metric_f1": 0.6666666666666666
   },
   {
     "question_lang": "Rosalie Gicanda yavutse ryari?",
@@ -2835,7 +2835,7 @@
     "example_answer_lang": [
       "1928"
     ],
-    "reasoning": "The birth date of Rosalie Gicanda is provided in the context as 1928.",
+    "reasoning": "The question asks for when Rosalie Gicanda was born. From the context, we can see that Queen Dowager Rosalie Gicanda was born in 1928.",
     "pred_answer_lang": "1928",
     "metric_f1": 1.0
   },
@@ -2845,7 +2845,7 @@
     "example_answer_lang": [
       "Doyelcy Limited"
     ],
-    "reasoning": "The company responsible for the construction of the Kigali City Tower is Doyelcy Limited.",
+    "reasoning": "The company that initiated the construction of Kigali City Tower was Doyelcy Limited, owned by Hatari Sekoko.",
     "pred_answer_lang": "Doyelcy Limited",
     "metric_f1": 1.0
   },
@@ -2855,9 +2855,9 @@
     "example_answer_lang": [
       "Kaminuza ya Stockholm"
     ],
-    "reasoning": "Sinshobora kubimenya mu bisobanuro byatanzwe.",
-    "pred_answer_lang": "Sinshobora kubimenya mu bisobanuro byatanzwe.",
-    "metric_f1": 0.0
+    "reasoning": "The question is asking for where Johan Norberg was born.",
+    "pred_answer_lang": "Stockholm",
+    "metric_f1": 0.5
   },
   {
     "question_lang": "umuyobozi wa Alberta yitwa nde?",
@@ -2865,7 +2865,7 @@
     "example_answer_lang": [
       "Naheed Kurban Nenshi"
     ],
-    "reasoning": "The mayor of Alberta is Naheed Kurban Nenshi.",
+    "reasoning": "The question asks for the name of the director/leader of Alberta.",
     "pred_answer_lang": "Naheed Kurban Nenshi",
     "metric_f1": 1.0
   },
@@ -2875,7 +2875,7 @@
     "example_answer_lang": [
       "Sri Jayawardenepura Kotte ni umurwa mukuru wacyo mu by'ubutegetsi, naho Colombo ni wo mujyi munini mu bijyanye n'ubukungu."
     ],
-    "reasoning": "The legislative capital of Sri Lanka is mentioned in the context as \"Sri Jayawardenepura Kotte.\"",
+    "reasoning": "The question is asking for the capital city of Sri Lanka.",
     "pred_answer_lang": "Sri Jayawardenepura Kotte",
     "metric_f1": 0.2608695652173913
   },
@@ -2885,8 +2885,8 @@
     "example_answer_lang": [
       "Ubwongereza"
     ],
-    "reasoning": "The Indymedia network was affected when the FBI seized server hard drives from servers hosted by Rackspace Managed Hosting in the United Kingdom.",
-    "pred_answer_lang": "Imikorere y'Indymedia yari yasanzwe na FBI mu gihe cy'indi n'indi yokugeza imadirisha y'abantu ku buntu.",
+    "reasoning": "The question asks for the location where Indymedia operates. To answer this, we need to find where the servers of the IMC websites were located.",
+    "pred_answer_lang": "United Kingdom",
     "metric_f1": 0.0
   },
   {
@@ -2895,7 +2895,7 @@
     "example_answer_lang": [
       "Katerina Sakellaropoulou"
     ],
-    "reasoning": "The president of Greece, as of 13 March 2020, is Katerina Sakellaropoulou.",
+    "reasoning": "The question asks for the name of the president of Greece, which is provided in the context passage.",
     "pred_answer_lang": "Katerina Sakellaropoulou",
     "metric_f1": 1.0
   },
@@ -2905,9 +2905,9 @@
     "example_answer_lang": [
       "Kaminuza ya Kraków"
     ],
-    "reasoning": "Nicolas Copernic yarangirije amashuri ye aho areba amakuru aho mu Rusi.",
-    "pred_answer_lang": "Rusi",
-    "metric_f1": 0.0
+    "reasoning": "The question is asking where Nicolas Copernicus furthered his studies.",
+    "pred_answer_lang": "University of Kraków",
+    "metric_f1": 0.3333333333333333
   },
   {
     "question_lang": "ni ikihe gihugu keza imyembe myinshi?",
@@ -2915,7 +2915,7 @@
     "example_answer_lang": [
       "Ubuhinde"
     ],
-    "reasoning": "India ni ikihe gihugu keza imyembe myinshi.",
+    "reasoning": "The question is asking for a country that produces a lot of mangoes. From the context, we see that India is the largest producer of mangoes, with almost half of the world's mangoes cultivated there.",
     "pred_answer_lang": "India",
     "metric_f1": 0.0
   },
@@ -2925,7 +2925,7 @@
     "example_answer_lang": [
       "Michael D. Higgins"
     ],
-    "reasoning": "The president of Ireland is currently Michael D. Higgins.",
+    "reasoning": "The question asks for the name of the president of Ireland. By locating the phrase that mentions the current president in the context, we can extract the answer.",
     "pred_answer_lang": "Michael D. Higgins",
     "metric_f1": 1.0
   },
@@ -2935,9 +2935,9 @@
     "example_answer_lang": [
       "Leta Zunze Ubumwe za Amerika"
     ],
-    "reasoning": "The plant called Rhapidophyllum hystrix is found primarily in the coastal margins of the subtropical eastern Gulf and south Atlantic states of the United States, particularly in areas with warm temperate climates.",
-    "pred_answer_lang": "Muri Amerika y'Epfo n'iy'amajyepfo ashakiramo ibitabo by'amakonda.",
-    "metric_f1": 0.12500000000000003
+    "reasoning": "The question is asking for the location where Rhapidophyllum hystrix is found on Earth.",
+    "pred_answer_lang": "United States",
+    "metric_f1": 0.0
   },
   {
     "question_lang": "niryari Toni-Ann Singh yahawe igihembo cy'ubwiza kurwego rw'isi?",
@@ -2945,9 +2945,9 @@
     "example_answer_lang": [
       "2019"
     ],
-    "reasoning": "The question is asking for the date when Toni-Ann Singh was awarded the Miss World title.",
-    "pred_answer_lang": "mu 2019",
-    "metric_f1": 0.6666666666666666
+    "reasoning": "The question is asking for the year Toni-Ann Singh won the Miss World beauty pageant.",
+    "pred_answer_lang": "2019",
+    "metric_f1": 1.0
   },
   {
     "question_lang": "umurwa mukuru wa Eswatin ni uwuhe?",
@@ -2955,7 +2955,7 @@
     "example_answer_lang": [
       "Mbabane"
     ],
-    "reasoning": "The capital city of Eswatini is Mbabane.",
+    "reasoning": "The question is asking for the \"chief city\" of Eswatini. The context directly states that Mbabane is a city in Eswatini, which serves as one of the two capitals.",
     "pred_answer_lang": "Mbabane",
     "metric_f1": 1.0
   },
@@ -2965,7 +2965,7 @@
     "example_answer_lang": [
       "Vienna"
     ],
-    "reasoning": "The capital city of Austria is Vienna.",
+    "reasoning": "The question is asking for the capital city of Austria.",
     "pred_answer_lang": "Vienna",
     "metric_f1": 1.0
   },
@@ -2975,8 +2975,8 @@
     "example_answer_lang": [
       "Imyaka 15 kugeza kuri 20"
     ],
-    "reasoning": "The howler monkeys primarily eat fruit and nuts, and their noses are keen for finding food up to 2 km away.",
-    "pred_answer_lang": "kuba biri bitewe n'ingufu na noyo binyura",
+    "reasoning": "The question asks for what Howler monkeys primarily eat.",
+    "pred_answer_lang": "top canopy leaves",
     "metric_f1": 0.0
   },
   {
@@ -2985,7 +2985,7 @@
     "example_answer_lang": [
       "Félix Tshisekedi"
     ],
-    "reasoning": "The President of the Democratic Republic of Congo is Félix Tshisekedi.",
+    "reasoning": "The question is asking for the name of the President of the Democratic Republic of Congo.",
     "pred_answer_lang": "Félix Tshisekedi",
     "metric_f1": 1.0
   },
@@ -2995,9 +2995,9 @@
     "example_answer_lang": [
       "Umurenge wa Muganza, mu mujyi wa Bugarama, mu Karere ka Rusizi, mu Ntara y'Uburengerazuba bw'u Rwanda"
     ],
-    "reasoning": "The main factory of CIMERWA is located in the town of Bugarama, in Rusizi District, Western Province of Rwanda.",
-    "pred_answer_lang": "Bugarama",
-    "metric_f1": 0.10526315789473684
+    "reasoning": "The question is asking for where the main factory of CIMERWA is located. To answer this question, I will identify the specific location mentioned in the context passage.",
+    "pred_answer_lang": "Muganza Sector, in the town of Bugarama, in Rusizi District, in the Western Province of Rwanda",
+    "metric_f1": 0.23529411764705882
   },
   {
     "question_lang": "umunshumba mukuru wa diyoseze ya gikongoro yitwa nde?",
@@ -3005,9 +3005,9 @@
     "example_answer_lang": [
       "Augustin Misago"
     ],
-    "reasoning": "The context mentions that the Bishop of Gikongoro solemnly approved the visions of the first three seers in the context. Among these seers, the one referred to as \"umunshumba mukuru\" is Nathalie Mukamazimpaka.",
-    "pred_answer_lang": "Nathalie Mukamazimpaka",
-    "metric_f1": 0.0
+    "reasoning": "The question is asking for the leader of the Gikongoro diocese, which can be found in the context where it mentions \"Augustin Misago, Bishop of Gikongoro.\"",
+    "pred_answer_lang": "Augustin Misago",
+    "metric_f1": 1.0
   },
   {
     "question_lang": "nyina wa Ruganzu II Ndoli yitwa nde?",
@@ -3015,7 +3015,7 @@
     "example_answer_lang": [
       "Nyirangabo-ya-Nyantaba"
     ],
-    "reasoning": "The mother of Ruganzu II Ndoli is mentioned in the context as Nyirangabo-ya-Nyantaba.",
+    "reasoning": "The question asks for the name of Ruganzu II Ndoli's mother.",
     "pred_answer_lang": "Nyirangabo-ya-Nyantaba",
     "metric_f1": 1.0
   },
@@ -3025,9 +3025,9 @@
     "example_answer_lang": [
       "Montenegro mu majyaruguru y'uburengerazuba, Kosovo [hepfo-alpha 3] mu majyaruguru y'uburasirazuba, Makedoniya y'Amajyaruguru mu burasirazuba n'Ubugereki mu majyepfo"
     ],
-    "reasoning": "Alubaniya iri mu birunga bya Ruguru rukuru.",
-    "pred_answer_lang": "'Kabuye' and 'Kigali' murutaare_rw",
-    "metric_f1": 0.0
+    "reasoning": "The question asks for the countries that share land borders with Albania.",
+    "pred_answer_lang": "Montenegro, Kosovo, North Macedonia, Greece",
+    "metric_f1": 0.14814814814814814
   },
   {
     "question_lang": "igihu kitwa Kuwait kibarizwa kuwuhe mugabane?",
@@ -3035,8 +3035,8 @@
     "example_answer_lang": [
       "Aziya y'uburengerazuba"
     ],
-    "reasoning": "The country Kuwait is bordered to the south by Saudi Arabia.",
-    "pred_answer_lang": "Saudi Arabia",
+    "reasoning": "The question is asking for the direction in which Kuwait is located.",
+    "pred_answer_lang": "mugabane",
     "metric_f1": 0.0
   },
   {
@@ -3045,9 +3045,9 @@
     "example_answer_lang": [
       "1929"
     ],
-    "reasoning": "The Groupe Scolaire Officiel de Butare (GSOB) is also known as the Indatwa n'Inkesha School and was originally named Groupe Scolaire d'Astrida. It is a prestigious and successful public school located in Butare, Rwanda.",
-    "pred_answer_lang": "Groupe Scolaire d'Astrida",
-    "metric_f1": 0.0
+    "reasoning": "The question is asking for the group's official of Butare closed its families. To answer this, we need to identify the group mentioned in the context related to Butare.",
+    "pred_answer_lang": "Established in 1929 by the Brothers of Charity to educate Rwandans for the Belgian colonial administration.",
+    "metric_f1": 0.11764705882352941
   },
   {
     "question_lang": "perezida wa Osetiya y’Amajyaruguru yitwa nde?",
@@ -3055,7 +3055,7 @@
     "example_answer_lang": [
       "Sergey Menyaylo"
     ],
-    "reasoning": "The current head of the Republic of North Ossetia–Alania is Sergey Menyaylo.",
+    "reasoning": "Identify that the question asks for the name of the president of North Ossetia-Alania.",
     "pred_answer_lang": "Sergey Menyaylo",
     "metric_f1": 1.0
   },
@@ -3065,9 +3065,9 @@
     "example_answer_lang": [
       "15 Kanama 1937"
     ],
-    "reasoning": "The birth date of Bounnhang Vorachit can be found in the context provided.",
-    "pred_answer_lang": "15 Ugushyingo 1937",
-    "metric_f1": 0.6666666666666666
+    "reasoning": "The question is asking for the birth year of Bounnhang Vorachit.",
+    "pred_answer_lang": "1937",
+    "metric_f1": 0.5
   },
   {
     "question_lang": "ikoranabuhanga rya mudasobwa ryadutse muwuhe mwaka?",
@@ -3075,8 +3075,8 @@
     "example_answer_lang": [
       "za 1930"
     ],
-    "reasoning": "The first automatic electronic digital computer was developed and tested by John Vincent Atanasoff and Clifford E. Berry of Iowa State University in 1942.",
-    "pred_answer_lang": "Mu mwaka wa 1942.",
+    "reasoning": "The question is asking for the year when the first \"automatic electronic digital computer\" was developed.",
+    "pred_answer_lang": "1942",
     "metric_f1": 0.0
   },
   {
@@ -3085,9 +3085,9 @@
     "example_answer_lang": [
       "28 Ukwakira 1927"
     ],
-    "reasoning": "The context describes the activities of Dr. Joe Church in Gahini, Rwanda, where he established a hospital and provided medical care for eight years.",
-    "pred_answer_lang": "Amahospitali ya Gahini.",
-    "metric_f1": 0.0
+    "reasoning": "The question is asking for when the Gahini Hospital in Rwanda was established.",
+    "pred_answer_lang": "1927",
+    "metric_f1": 0.5
   },
   {
     "question_lang": "Isilande iri rwagati mu yihe nyanja?",
@@ -3095,8 +3095,8 @@
     "example_answer_lang": [
       "Inyanja ya Atalantika"
     ],
-    "reasoning": "The context clearly states that Iceland is an island country, which means it is surrounded by water.",
-    "pred_answer_lang": "Yes",
+    "reasoning": "The question is asking for the location of Iceland. To answer this question, we need to provide the specific location mentioned in the context passage.",
+    "pred_answer_lang": "Northern Europe",
     "metric_f1": 0.0
   },
   {
@@ -3105,8 +3105,8 @@
     "example_answer_lang": [
       "Amerika"
     ],
-    "reasoning": "The capital city of Guatemala, referred to as \"Nueva Guatemala de la Asunción\" in the context, is also known as Guatemala City.",
-    "pred_answer_lang": "Guatemala City",
+    "reasoning": "The question is asking for the country located to the southern part of Guatemala.",
+    "pred_answer_lang": "Pasifik",
     "metric_f1": 0.0
   },
   {
@@ -3115,7 +3115,7 @@
     "example_answer_lang": [
       "Thongloun Sisoulith"
     ],
-    "reasoning": "The president of Lawosi is Thongloun Sisoulith.",
+    "reasoning": "The question asks for the name of the President of Laos.",
     "pred_answer_lang": "Thongloun Sisoulith",
     "metric_f1": 1.0
   },
@@ -3125,9 +3125,9 @@
     "example_answer_lang": [
       "18 Nzeri 2014"
     ],
-    "reasoning": "The context provides the dates when Ruhakana Rugunda served as Prime Minister of Uganda, from 18 September 2014 to 21 June 2021.",
-    "pred_answer_lang": "21 June 2021",
-    "metric_f1": 0.0
+    "reasoning": "The question is asking for the date when Ruhakana Rugunda became a minister in Uganda.",
+    "pred_answer_lang": "18 September 2014",
+    "metric_f1": 0.6666666666666666
   },
   {
     "question_lang": "ishyaka riri kubutegetsi muri kazakisitani ni irihe?",
@@ -3135,7 +3135,7 @@
     "example_answer_lang": [
       "Amanat"
     ],
-    "reasoning": "The ruling party in Kazakhstan is called Amanat.",
+    "reasoning": "The question is asking for the political party in power in Kazakhstan. From the context, we can see that the political party in power in Kazakhstan is Amanat.",
     "pred_answer_lang": "Amanat",
     "metric_f1": 1.0
   },
@@ -3145,7 +3145,7 @@
     "example_answer_lang": [
       "Thomas Carlyle"
     ],
-    "reasoning": "The concept of comparing something to water and fire is adapted by Thomas Carlyle in an 1849 essay on slavery.",
+    "reasoning": "The question is asking for the person who introduced the concept of comparing something to a combination of fire and water, where the water increases the power of the thing it combines with.",
     "pred_answer_lang": "Thomas Carlyle",
     "metric_f1": 1.0
   },
@@ -3155,9 +3155,9 @@
     "example_answer_lang": [
       "Kibeho mu Karere ka Nyaruguru"
     ],
-    "reasoning": "The birth date of Kizito Mihigo is provided in the context as 25 July 1981.",
-    "pred_answer_lang": "25 Ukuboza 1981",
-    "metric_f1": 0.0
+    "reasoning": "The question is asking about where Kizito Mihigo was born.",
+    "pred_answer_lang": "Kibeho",
+    "metric_f1": 0.33333333333333337
   },
   {
     "question_lang": "igisirikari cya Koreya y'Epfo kitwa gute?",
@@ -3165,8 +3165,8 @@
     "example_answer_lang": [
       "ROK Army"
     ],
-    "reasoning": "The army of South Korea is known as the 대한민국 육군 (Daehanminguk Yuk-gun) in Korean.",
-    "pred_answer_lang": "Daehanminguk Yuk-gun",
+    "reasoning": "The question is asking for the name of the army of South Korea.",
+    "pred_answer_lang": "ROKA",
     "metric_f1": 0.0
   },
   {
@@ -3175,9 +3175,9 @@
     "example_answer_lang": [
       "Westport, ubu ni igice cya Malmesbury muri Wiltshire, mu Bwongereza"
     ],
-    "reasoning": "The birthdate of Thomas Hobbes is provided in the context, indicating that he was born on 5 April 1588.",
-    "pred_answer_lang": "5 Mata 1588",
-    "metric_f1": 0.0
+    "reasoning": "The question is asking for where Thomas Hobbes was born.",
+    "pred_answer_lang": "Westport, now part of Malmesbury in Wiltshire, England",
+    "metric_f1": 0.33333333333333326
   },
   {
     "question_lang": "idini ya Islam yashinzwe ryari?",
@@ -3185,8 +3185,8 @@
     "example_answer_lang": [
       "Intangiriro z'ikinyejana cya 7 Igihe cyacu"
     ],
-    "reasoning": "The religion of Islam was founded in the cities of Mecca and Medina in the 7th century CE.",
-    "pred_answer_lang": "Mecka na Mediyina",
+    "reasoning": "The question is asking when the religion of Islam was founded or originated.",
+    "pred_answer_lang": "7th century CE",
     "metric_f1": 0.0
   },
   {
@@ -3195,7 +3195,7 @@
     "example_answer_lang": [
       "Intara y'Amajyepfo"
     ],
-    "reasoning": "The context describes the different types of vegetation found in different national parks in Rwanda. It mentions that Nyungwe contains 200 species of trees, orchids, and begonias, while the Volcanoes National Park has mostly bamboo and moorland. Akagera, on the other hand, has a savanna ecosystem dominated by acacia.",
+    "reasoning": "The question is asking for the largest remaining tract of forest in Rwanda. We need to identify the specific area mentioned in the context that is described as the largest remaining tract of forest.",
     "pred_answer_lang": "Nyungwe",
     "metric_f1": 0.0
   },
@@ -3205,7 +3205,7 @@
     "example_answer_lang": [
       "Anthony Albanese"
     ],
-    "reasoning": "The context mentions that Anthony Albanese of the Labor Party became the prime minister of Australia on 23 May 2022.",
+    "reasoning": "The question is asking for the name of the Prime Minister of Australia. From the context, we can see that Anthony Albanese is the current Prime Minister of Australia.",
     "pred_answer_lang": "Anthony Albanese",
     "metric_f1": 1.0
   },
@@ -3215,8 +3215,8 @@
     "example_answer_lang": [
       "Leta Zunze Ubumwe za Amerika"
     ],
-    "reasoning": "The White House is located in Washington, D.C., which is the capital of the United States.",
-    "pred_answer_lang": "Washington, D.C.",
+    "reasoning": "The question asks for the location where the White House is situated.",
+    "pred_answer_lang": "1600 Pennsylvania Avenue NW",
     "metric_f1": 0.0
   },
   {
@@ -3225,8 +3225,8 @@
     "example_answer_lang": [
       "Ikigobe cya Thailandi"
     ],
-    "reasoning": "The Gulf of Thailand is bordered by the Mekong Delta region of Vietnam.",
-    "pred_answer_lang": "Viyetinamu",
+    "reasoning": "The question is asking about where the Mekong Delta region of Vietnam is located.",
+    "pred_answer_lang": "Vietnam",
     "metric_f1": 0.0
   },
   {
@@ -3235,9 +3235,9 @@
     "example_answer_lang": [
       "Nyabarongo"
     ],
-    "reasoning": "The Kagera River originates from Lake Rweru which is located in Burundi.",
-    "pred_answer_lang": "Lake Rweru",
-    "metric_f1": 0.0
+    "reasoning": "The question is asking about the source of the Kagera River.",
+    "pred_answer_lang": "Nyabarongo",
+    "metric_f1": 1.0
   },
   {
     "question_lang": "Dodoma yagizwe umurwa mukuru wa Tanzaniya ryari?",
@@ -3245,8 +3245,8 @@
     "example_answer_lang": [
       "1974"
     ],
-    "reasoning": "Dodoma",
-    "pred_answer_lang": "Dodoma",
+    "reasoning": "The question is asking for the year when Dodoma became the national capital of Tanzania.",
+    "pred_answer_lang": "1996",
     "metric_f1": 0.0
   },
   {
@@ -3255,9 +3255,9 @@
     "example_answer_lang": [
       "2009"
     ],
-    "reasoning": "The birth date of Barack Obama is provided in the context, stating that he was born on August 4, 1961. This information confirms that Barack Obama was indeed born to be President of the United States.",
-    "pred_answer_lang": "4 Werurwe 1961",
-    "metric_f1": 0.0
+    "reasoning": "The question asks for when Barack Obama was elected as President of the United States.",
+    "pred_answer_lang": "2009",
+    "metric_f1": 1.0
   },
   {
     "question_lang": "Dr Daphrose Gahakwa yaba yarangirije amashuri ye?",
@@ -3265,8 +3265,8 @@
     "example_answer_lang": [
       "yes"
     ],
-    "reasoning": "The context does not provide information about Dr. Daphrose Gahakwa starting her studies.",
-    "pred_answer_lang": "Sinshobora kubimenya mu bisobanuro byatanzwe.",
+    "reasoning": "The question asks where Dr. Daphrose Gahakwa completed her studies.",
+    "pred_answer_lang": "Nta bisubizo bihari mu nyandiko yahawe",
     "metric_f1": 0.0
   },
   {
@@ -3275,7 +3275,7 @@
     "example_answer_lang": [
       "1962"
     ],
-    "reasoning": "The birth year of Stella Ford Mugabo is provided in the context, allowing us to determine her birth date.",
+    "reasoning": "The question is asking when Stella Ford Mugabo was born.",
     "pred_answer_lang": "1962",
     "metric_f1": 1.0
   },
@@ -3285,8 +3285,8 @@
     "example_answer_lang": [
       "Uburasirazuba bw'amagepfo ya Afurika"
     ],
-    "reasoning": "The capital city of Mozambique is mentioned in the context, so we can extract the answer from there.",
-    "pred_answer_lang": "Maputo",
+    "reasoning": "The question asks for the region where Mozambique is located.",
+    "pred_answer_lang": "kuri muhurura",
     "metric_f1": 0.0
   },
   {
@@ -3295,8 +3295,8 @@
     "example_answer_lang": [
       "Turukiya mu majyaruguru, Irani mu burasirazuba, Ikigobe cy'Ubuperesi na Koweti mu majyepfo y'iburasirazuba, Arabiya Sawudite mu majyepfo, Yorodani mu majyepfo y'uburengerazuba na Siriya mu burengerazuba."
     ],
-    "reasoning": "To answer the question about countries that border Iraq, I will look at the information provided in the context. The passage mentions the countries that share borders with Iraq, which are Turkey to the north, Iran to the east, the Persian Gulf and Kuwait to the southeast, Saudi Arabia to the south, Jordan to the southwest, and Syria to the west.",
-    "pred_answer_lang": "Turkey; Iran; Kuwait; Saudi Arabia; Jordan; Syria",
+    "reasoning": "The question is asking for the countries that border Iraq and Iran is mentioned as one of the countries bordering Iraq.",
+    "pred_answer_lang": "Iran",
     "metric_f1": 0.0
   },
   {
@@ -3305,7 +3305,7 @@
     "example_answer_lang": [
       "Umurwa wa Kuwait"
     ],
-    "reasoning": "The capital city of Kuwait is mentioned in the context as \"Kuwait City.\"",
+    "reasoning": "The question asks for the capital city of Kuwait.",
     "pred_answer_lang": "Kuwait City",
     "metric_f1": 0.4
   },
@@ -3315,7 +3315,7 @@
     "example_answer_lang": [
       "Port Moresby"
     ],
-    "reasoning": "The capital city of Papua New Guinea is Port Moresby.",
+    "reasoning": "The question is asking for the capital city of Papua New Guinea.",
     "pred_answer_lang": "Port Moresby",
     "metric_f1": 1.0
   },
@@ -3325,9 +3325,9 @@
     "example_answer_lang": [
       "14 Kamena buri mwaka"
     ],
-    "reasoning": "The World Blood Donor Day is held on June 14th every year.",
-    "pred_answer_lang": "14 Mata.ColumnHeadersHeightSizeMode",
-    "metric_f1": 0.28571428571428575
+    "reasoning": "The question is asking for the specific year World Blood Donor Day was organized for the first time.",
+    "pred_answer_lang": "2005",
+    "metric_f1": 0.0
   },
   {
     "question_lang": "Ecole des science Byimana yakinguye imiryango ryari?",
@@ -3335,9 +3335,9 @@
     "example_answer_lang": [
       "1952"
     ],
-    "reasoning": "The school that hosts families is Ecole des Sciences Byimana.",
-    "pred_answer_lang": "Ecole des Sciences Byimana",
-    "metric_f1": 0.0
+    "reasoning": "The question is asking about the year in which Ecole des Sciences Byimana was established.",
+    "pred_answer_lang": "1952",
+    "metric_f1": 1.0
   },
   {
     "question_lang": "ni ikihe gihugu cyakoronije Madagasikari?",
@@ -3345,9 +3345,9 @@
     "example_answer_lang": [
       "Ubufaransa"
     ],
-    "reasoning": "The country that colonized Madagascar is France.",
-    "pred_answer_lang": "Ubufaransa",
-    "metric_f1": 1.0
+    "reasoning": "The question is asking for the country that conquered Madagascar. To answer this, we look for the country mentioned in the context that took control of Madagascar.",
+    "pred_answer_lang": "France",
+    "metric_f1": 0.0
   },
   {
     "question_lang": "Ikigo gishinzwe ubutasi muri Kanada kitwa gute?",
@@ -3355,9 +3355,9 @@
     "example_answer_lang": [
       "Serivisi ishinzwe ubutasi muri Kanada (CSIS,;, \"SCRS\")"
     ],
-    "reasoning": "The agency responsible for intelligence and national security in Canada is the Canadian Security Intelligence Service (CSIS).",
-    "pred_answer_lang": "CSIS",
-    "metric_f1": 0.25
+    "reasoning": "The question asks for the name of the agency responsible for intelligence in Canada.",
+    "pred_answer_lang": "Canadian Security Intelligence Service",
+    "metric_f1": 0.0
   },
   {
     "question_lang": "igisirikari cya Esitoniya kitwa gute?",
@@ -3365,7 +3365,7 @@
     "example_answer_lang": [
       "Ingabo zirwanira ku butaka za Esitoniya"
     ],
-    "reasoning": "The answer can be directly extracted from the context provided.",
+    "reasoning": "The question is asking for the name of the Estonian military. The answer can be found in the context, which mentions \"Estonian Land Forces\" and \"Estonian Army\" as unofficial names for the military.",
     "pred_answer_lang": "Maavägi",
     "metric_f1": 0.0
   },
@@ -3375,9 +3375,9 @@
     "example_answer_lang": [
       "Kongo, u Burundi n'u Rwanda"
     ],
-    "reasoning": "The Economic Community of Central African States (ECCAS) is composed of countries from Central Africa. The context mentions the establishment of ECCAS by the UDEAC members along with São Tomé and Príncipe, but it does not list all the member countries.",
-    "pred_answer_lang": "Rwanda, Burundi, DR Congo, São Tomé and Príncipe.",
-    "metric_f1": 0.28571428571428575
+    "reasoning": "The question is asking about the family of Central African economic communities formed by certain African countries. To answer this question, we need to identify the specific union or community involving Central African countries.",
+    "pred_answer_lang": "ECCAS",
+    "metric_f1": 0.0
   },
   {
     "question_lang": "Julius Kambarage Nyerere yavutse ryari?",
@@ -3385,9 +3385,9 @@
     "example_answer_lang": [
       "13 Mata 1922"
     ],
-    "reasoning": "The birth date of Julius Kambarage Nyerere can be found in the context: he was born on 13 April 1922.",
-    "pred_answer_lang": "13 Mata 1922",
-    "metric_f1": 1.0
+    "reasoning": "The answer to the question \"Julius Kambarage Nyerere yavutse ryari?\" is found in the provided context, which states that Julius Kambarage Nyerere was born on the 13th of April in 1922.",
+    "pred_answer_lang": "1922",
+    "metric_f1": 0.5
   },
   {
     "question_lang": "minisitiri w'intebe wa Boliviya yitwa nde?",
@@ -3395,9 +3395,9 @@
     "example_answer_lang": [
       "Luis Arce"
     ],
-    "reasoning": "The question is asking for the name of the Minister of Foreign Affairs for Bolivia.",
-    "pred_answer_lang": "Nta minisitiri w'intebe wa Boliviya rero.",
-    "metric_f1": 0.0
+    "reasoning": "The question is asking for the name of the Minister of the Presidency of Bolivia.",
+    "pred_answer_lang": "Luis Arce",
+    "metric_f1": 1.0
   },
   {
     "question_lang": "ikiyaga cya kivu gitandukanya ibihe bihugu?",
@@ -3405,9 +3405,9 @@
     "example_answer_lang": [
       "Repubulika Iharanira Demokarasi ya Kongo n'u Rwanda"
     ],
-    "reasoning": "The context states that Lake Kivu is located on the border between the Democratic Republic of the Congo and Rwanda.",
-    "pred_answer_lang": "Ibirwa bya Kongo na Rwanda",
-    "metric_f1": 0.3076923076923077
+    "reasoning": "The question asks about the countries bordering Lake Kivu.",
+    "pred_answer_lang": "Democratic Republic of the Congo and Rwanda",
+    "metric_f1": 0.13333333333333333
   },
   {
     "question_lang": "Alubaniya ni igihugu cya kuwuhe mugane?",
@@ -3415,7 +3415,7 @@
     "example_answer_lang": [
       "Uburayi"
     ],
-    "reasoning": "The capital city of Albania is Tirana.",
+    "reasoning": "The question is asking for the capital of Albania, which is the information directly provided in the context passage.",
     "pred_answer_lang": "Tirana",
     "metric_f1": 0.0
   },
@@ -3425,7 +3425,7 @@
     "example_answer_lang": [
       "Nuno Gomes Nabiam"
     ],
-    "reasoning": "The Prime Minister of Guinea-Bissau mentioned in the context is Nuno Gomes Nabiam.",
+    "reasoning": "The question is asking for the name of the Minister of Foreign Affairs of Guinea-Bissau.",
     "pred_answer_lang": "Nuno Gomes Nabiam",
     "metric_f1": 1.0
   },
@@ -3435,7 +3435,7 @@
     "example_answer_lang": [
       "Egils Levits"
     ],
-    "reasoning": "The president of Latvia mentioned in the context is Egils Levits.",
+    "reasoning": "The question is asking for the name of the president of Latvia. This information can be found in the context.",
     "pred_answer_lang": "Egils Levits",
     "metric_f1": 1.0
   },
@@ -3445,8 +3445,8 @@
     "example_answer_lang": [
       "1893"
     ],
-    "reasoning": "The first European to visit or explore Rwanda was a German, Count Gustav Adolf von Götzen, in 1893-1894.",
-    "pred_answer_lang": "umurwa mukuru ni i German, Count Gustav Adolf von Götzen.",
+    "reasoning": "The question is asking about the first Europeans to arrive in Rwanda. We need to find the exact name of the first European mentioned in the context.",
+    "pred_answer_lang": "Count Gustav Adolf von Götzen",
     "metric_f1": 0.0
   }
 ]

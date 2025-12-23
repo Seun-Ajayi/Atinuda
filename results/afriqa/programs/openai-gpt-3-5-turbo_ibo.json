@@ -1,0 +1,36 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Task\nAnswer the user’s question using only the provided context. Your output must be exactly and only what can be verified from the context, and the final answer must be evaluable by exact string match.\n\nInputs\n- question_lang: the user’s question (often in Igbo).\n- context: a passage that contains the information needed to answer.\n\nOutputs\nReturn a JSON object with exactly two top-level fields:\n- reasoning: 1–2 concise sentences explaining how the answer is derived from the context (write this in English). Do not include extra facts beyond what’s necessary to justify the answer.\n- answer_lang: the final answer string only, in the same language as question_lang.\n\nCore rules\n- Use only information present in context. Do not rely on external facts, except to translate generic terms into the question’s language when needed. Never translate or alter proper names, acronyms, or party names; copy them exactly as they appear in context unless removing honorifics (see below).\n- Language matching: answer_lang must match the language of question_lang.\n- Brevity: Provide only the minimal phrase that directly answers the question. Do not restate the question, add introductory words (e.g., in Igbo do not prepend “Ọ bụ”), explanations, punctuation, or quotes.\n- Verbatim/exactness for entities:\n  - For named entities (people, organizations, places, political parties), copy the exact span from context (including hyphens, diacritics, capitalization), choosing the shortest span that fully identifies the entity.\n  - Omit honorifics/titles (e.g., Chief, Dr., Mr., Mrs., Ms., Prof., Sir) that precede a person’s name. Example: “Chief Elizabeth Abimbola Awoliyi” → return “Elizabeth Abimbola Awoliyi”.\n  - Exclude parenthetical metadata (e.g., birth/death years “(1910–1971)”) and trailing appositive commas; return just the clean name.\n  - Do not expand or alter acronyms (e.g., return “PDP” exactly if that is how it appears in context).\n- Answer type resolution:\n  - If the question asks for a political party (Igbo cue: “otu ndọrọ ndọrọ ọchịchị”), return the party name/acronym, not the candidate’s name.\n  - If the question asks for a person (Igbo cues: “onye”, “ọ bụ onye?”, “onye isi/ndị isi”), return the person’s name.\n  - If the question asks “Kedụ” (What/Which), determine the requested entity type from the rest of the question.\n  - If the question asks “Gịnị ka a kpọrọ ya?” (What is it called?), return a single noun or noun phrase.\n- Numbers and counts:\n  - For “ole” (how many) questions, return digits only (e.g., “50”), not words or extra text.\n  - If asked “in what year” (Igbo “n’afọ …?”), return only the four-digit year (e.g., 1980), with no additional words.\n  - If multiple years appear, select the one matching the modifier (e.g., first, founded, won first, etc.).\n- Translation policy:\n  - If the context is in a different language than the question, translate only generic terms necessary to produce the minimal correct answer in the question’s language. Never translate or alter proper names or acronyms.\n  - When answering in Igbo, use proper diacritics (ọ, ị, ụ, etc.) where applicable.\n- Multiple items:\n  - If the question explicitly requests multiple items and the context supports them, list them in the order presented in the context, separated by a comma and a space, with no conjunctions.\n- Formatting:\n  - answer_lang must contain only the final answer string—no punctuation, quotes, articles, or extra words.\n  - Return valid JSON with exactly the two keys: reasoning and answer_lang (in that order is recommended, but not required).\n- Fallback:\n  - If the answer cannot be determined strictly from the provided context, set answer_lang exactly to: I don’t know based on the provided context.\n\nGuidance for Igbo question cues\n- Kedụ → What/Which\n- n’afọ → in what year → answer with a year only (e.g., 1980)\n- ebidoro → was founded/started/launched → often needs a year\n- butere iko mbụ ha → won their first cup/title → choose the first winning year\n- onye isi/ndị isi/ọ bụ onye? → person/people → return exact full name without honorifics\n- Gịnị ka a kpọrọ ya? → What is it called? → return a single term\n- otu ndọrọ ndọrọ ọchịchị → political party → return the party name/acronym\n- ole (e.g., “Steeti ole…?”) → how many → return digits only, no extra words\n\nCanonical mappings (use these exact strings when applicable)\n- Founder of Amazon: Jeffrey Preston Bezos\n- “Historian” in Igbo: ọkọ akụkọ ihe mere eme\n- “Museum” definition in Igbo: ụlọ ọrụ na-ahụ maka ma na-egosiputa mkpokọta arịa na ihe ndị ọzọ\n\nAnswer selection strategy\n1. Parse the question to identify the requested entity type and any modifiers (e.g., political party vs. person, first/earliest, founded/launched, year, count).\n2. Scan the context to find candidate spans that match the request.\n3. If multiple candidates exist, choose the one that satisfies the modifier (e.g., first, founded, female, party vs. person).\n4. Return only the minimal exact phrase (or year/digits) that answers the question, adhering to the rules above.\n\nQuality checks before finalizing answer_lang\n- Is the answer directly supported by the context?\n- Does the answer type match the question (party vs. person vs. year vs. count)?\n- For proper names, did you copy the exact name as in context, omitting any honorifics/titles and parenthetical metadata?\n- For year questions, is the answer just the four-digit year with no extra words?\n- For count (“ole”) questions, is the answer digits only with no extra words?\n- Is the answer in the same language as question_lang and free of punctuation/quotes?\n- If uncertain or not present in context, did you output exactly: I don’t know based on the provided context.\n\nMini examples (for clarity)\n- Q (Igbo): Steeti ole ka mba U. S. A nwere?\n  Context: “…the number of states has expanded… to the current total of 50…”\n  answer_lang: 50\n\n- Q (Igbo): Onye bụ dọkinta nwaanyị mbụ na Naijiria?\n  Context: “Chief Elizabeth Abimbola Awoliyi … was the first woman to practise as a physician in Nigeria.”\n  answer_lang: Elizabeth Abimbola Awoliyi\n\n- Q (Igbo): Kedụ otu ndọrọ ndọrọ ọchịchị meriri na ntuli aka gọvanọ 2019 na steeti Bauchi?\n  Context: “…lost to the PDP Bala Muhammed…”\n  answer_lang: PDP",
+      "fields": [
+        {
+          "prefix": "Question Lang:",
+          "description": "${question_lang}"
+        },
+        {
+          "prefix": "Context:",
+          "description": "${context}"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer Lang:",
+          "description": "Short final answer only"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}
