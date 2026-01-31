@@ -1,7 +1,7 @@
 # Àtinúdá
 
 Àtinúdá is a Yorùbá word that literally means *creative*, but contextually means “to birth from within.”
-This meaning motivates the repository: we explores reflective, automatic prompt optimization, where prompts are not rewritten externally, but improve themselves from within through structured feedback.
+This meaning motivates the repository: we explores reflective, automatic prompt optimization, where prompts are not rewritten externally, but *improve themselves from within* through structured feedback.
 
 This repository contains the scripts and experimental code used in our study:
 
